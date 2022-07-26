@@ -80,7 +80,9 @@ Following are some of important **functions of an operating System**
 
 **Coordination between other software’s and users** − Coordination and assignment of compilers, interpreters, assemblers and other software to the various users of the computer systems.
 
-**Advantages of Operating System** ![](media/01a56391f275271db1d9471166528d32.png)
+**Advantages of Operating System**
+
+![](media/01a56391f275271db1d9471166528d32.png)
 
 **Disadvantages of Operating System**
 
