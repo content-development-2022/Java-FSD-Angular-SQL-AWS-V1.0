@@ -1,6 +1,5 @@
 **Full Stack Web Development: The Big Picture**
 
-
 **What is Full-stack Development?**
 
 -   The development of both front end (client-side) and back end (server-side) portions of web applications.
