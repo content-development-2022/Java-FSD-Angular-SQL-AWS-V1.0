@@ -1,4 +1,4 @@
-****************************Full Stack Web Development: The Big Picture**
+**Full Stack Web Development: The Big Picture***
 
 **What is Full-stack Development?**
 
