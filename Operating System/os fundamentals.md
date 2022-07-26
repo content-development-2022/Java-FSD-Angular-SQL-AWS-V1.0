@@ -1,6 +1,6 @@
-**Operating System: Fundamentals**
+## Operating System: Fundamentals
 
-**Operating System**
+## Operating System
 
 -   An **Operating System** can be defined as an **interface between user and hardware**.
 -   It is responsible for the execution of all the processes, Resource Allocation, CPU management, file Management and many other tasks.
@@ -80,11 +80,11 @@ Following are some of important **functions of an operating System**
 
 **Coordination between other software’s and users** − Coordination and assignment of compilers, interpreters, assemblers and other software to the various users of the computer systems.
 
-**Advantages of Operating System**
+## Advantages of Operating System
 
 ![](media/01a56391f275271db1d9471166528d32.png)
 
-**Disadvantages of Operating System**
+## Disadvantages of Operating System
 
 ![](media/a5a802bffa7dd9f53389b98550197b28.png)
 
