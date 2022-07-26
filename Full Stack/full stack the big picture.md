@@ -8,11 +8,11 @@
 
 -   A Full-stack web developer is a developer or an engineer who works with both the frontend and backend of a software application.
 
-### What are Skills Required to Become Full-stack web developer?
+## What are Skills Required to Become Full-stack web developer?
 
 ![](media/0bcbc23bffbf780beef6063d8ff6b305.png)
 
-### What is a Frontend Development (client-side)?
+## What is a Frontend Development (client-side)?
 
 -   A front-end developer must have experience working with HTML and CSS as well as the scripting language, JavaScript on the client-side.
 -   The goal of a frontend developer is to provide an interactive platform.
@@ -21,7 +21,7 @@
 
     ![](media/b27333123ae0c45a068707b78fb8ad6d.png)
 
-### What is a Backend Development (server-side)?
+## What is a Backend Development (server-side)?
 
 -   The server-side development of a web application is primary focus on how the website works.
 -   It is responsible for the Creation, edit/update, and recollection of data
@@ -35,11 +35,11 @@
 
 **![](media/5c3230f88c65594911bccb0894fc30bc.png)**
 
-# FULL STACK: THE BIG PICTURE
+## FULL STACK: THE BIG PICTURE
 
 ![](media/085baa9e6cb57bec70508d2ac0a16a8f.png)
 
-### Popular Stacks:
+## Popular Stacks:
 
 **MEAN Stack:** MongoDB, Express, AngularJS, and Node.js.  
 **MERN Stack:** MongoDB, Express, ReactJS, and Node.js  
