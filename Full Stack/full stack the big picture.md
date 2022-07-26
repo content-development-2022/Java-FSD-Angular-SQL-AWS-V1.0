@@ -1,10 +1,10 @@
 **Full Stack Web Development: The Big Picture**
 
-**What is Full-stack Development?**
+## What is Full-stack Development?
 
 -   The development of both front end (client-side) and back end (server-side) portions of web applications.
 
-### Who is a Full-stack web developer?
+## Who is a Full-stack web developer?
 
 -   A Full-stack web developer is a developer or an engineer who works with both the frontend and backend of a software application.
 
@@ -26,7 +26,8 @@
 -   The server-side development of a web application is primary focus on how the website works.
 -   It is responsible for the Creation, edit/update, and recollection of data
 -   **Back end Languages:** PHP, ASP, C++, C\#, Java, Python, Node.js, Express.js, Ruby, REST, GO, SQL, MongoDB, Firebase, Sass, Less, PaaS (AWS, GCP, Azure, and Heroku), etc.
--   **![](media/2386fbc6e7ac595a36e9633b6afa8139.png)**
+
+    **![](media/2386fbc6e7ac595a36e9633b6afa8139.png)**
 
 **Note:** A typical software application mainly consists of three parts front end, back end, and database.
 
