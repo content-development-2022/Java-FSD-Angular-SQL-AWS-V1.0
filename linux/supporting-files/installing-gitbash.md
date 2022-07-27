@@ -1,6 +1,6 @@
-## **Installing Git Bash**
+## Installing Git Bash
 
-## **How to Install and Set Up Git Bash (A Step-by-Step Guide)**
+## How to Install and Set Up Git Bash (A Step-by-Step Guide)
 
 **Step 1:** The .exe file installer for Git Bash can be downloaded from <https://gitforwindows.org/>  
 Once downloaded execute that installer, following window will occur
@@ -19,7 +19,7 @@ Once downloaded execute that installer, following window will occur
 
 ![https://media.geeksforgeeks.org/wp-content/uploads/20200420212254/git3.jpg](media/b29752356461db27def75e0dcba101be.jpeg)
 
-### **Step 5:** Launch Git Bash
+### Step 5: Launch Git Bash
 
 **Method1:** After installing Git, search for **Git Bash** in the start menu. Press **Enter** to launch the app.
 
@@ -27,7 +27,7 @@ Once downloaded execute that installer, following window will occur
 
 **Method2:** Alternatively, to run Git Bash from a location where you want to keep your project files, press the right mouse button and click the **Git Bash Here** option from the dropdown menu.
 
-![](media/6e57a6adfda585ed9ff7e915568a42a2.png)
+![](media/d488b53f3bc32199da21811d5c246eb9.png)
 
 **Step 6:** Git command-line interface
 

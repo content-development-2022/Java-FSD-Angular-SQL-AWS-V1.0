@@ -12,7 +12,7 @@
 
 ## Structure of Linux and Unix
 
-![What are the very fundamental differences in architecture between Unix and  Linux? - Unix & Linux Stack Exchange](media/aca95560bb5a684748611173a173e1df.jpeg)
+![What are the very fundamental differences in architecture between Unix and Linux? - Unix & Linux Stack Exchange](media/aca95560bb5a684748611173a173e1df.jpeg)
 
 ## Difference between Linux and Unix
 
