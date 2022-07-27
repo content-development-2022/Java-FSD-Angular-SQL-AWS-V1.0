@@ -12,7 +12,7 @@
 
 ## What is Bash?
 
--   Bash is an acronym for Bourne Again Shell, which is a GNU Project shell.
+-   **Bash** is an acronym for Bourne Again Shell, which is a GNU Project shell.
 -   A shell is used to interface with an operating system by executing commands, and Bash is the default shell used on Linux and macOS.
 
 ## How to Install and Set Up Git Bash?
@@ -152,7 +152,7 @@ The following are the top Linux commands:
 
 # 10. locate Commands
 
--   The **locate** command searches using a database of all the possible files and directories in the system
+-   The locate command searches using a database of all the possible files and directories in the system
 -   The **locate** command, just like the **find** command, plays the same role of searching files but only takes one argument as shown.
 
 **Syntax:** locate filename
