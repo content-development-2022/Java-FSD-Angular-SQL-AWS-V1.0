@@ -70,15 +70,25 @@ Following are some of important **functions of an operating System**
 3.  Allocates the resources.
 4.  De-allocates the resources.
 
-**Security** − By means of password and similar other techniques, it prevents unauthorized access to programs and data.
+## Security
 
-**Control over system performance** − Recording delays between request for a service and response from the system.
+-   Security means of password and similar other techniques, it prevents unauthorized access to programs and data.
 
-**Job accounting** − Keeping track of time and resources used by various jobs and users.
+## Control over system performance
 
-**Error detecting aids** − Production of dumps, traces, error messages, and other debugging and error detecting aids.
+-   Recording delays between request for a service and response from the system.
 
-**Coordination between other software’s and users** − Coordination and assignment of compilers, interpreters, assemblers and other software to the various users of the computer systems.
+## Job accounting
+
+-   Keeping track of time and resources used by various jobs and users.
+
+## Error detecting aids
+
+-   Production of dumps, traces, error messages, and other debugging and error detecting aids.
+
+## Coordination between other software’s and users
+
+-   Coordination and assignment of compilers, interpreters, assemblers and other software to the various users of the computer systems.
 
 ## Advantages of Operating System
 
