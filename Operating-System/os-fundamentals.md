@@ -72,7 +72,7 @@ Following are some of important **functions of an operating System**
 
 ## Security
 
--   Security means of password and similar other techniques, it prevents unauthorized access to programs and data.
+-   Providing security means preventing unauthorized access to programs and data. This can be achieved in various ways. One such technique is usage of password.
 
 ## Control over system performance
 
