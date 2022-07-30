@@ -39,15 +39,15 @@ For this lesson, we will be running commands on the gitbash terminal.
 
 The following are the top Linux commands:
 
-1.  Pwd
-2.  Mkdir
-3.  Cd
-4.  Touch
-5.  Ls
-6.  Cat
-7.  Cp
+1.  pwd
+2.  mkdir
+3.  cd
+4.  touch
+5.  ls
+6.  cat
+7.  cp
 8.  rmdir
-9.  Find
+9.  find
 10. locate
 
 ## 1. pwd
@@ -76,7 +76,7 @@ The following are the top Linux commands:
 -   To change or navigate directories, use the cd command which is short for change directory.
 -   To know more information about change directory [click here cd](https://www.tecmint.com/cd-command-in-linux/)
 
-**Syntax: cd \<directory_name\>**
+**Syntax:** cd \<directory_name\>
 
 **Output:**
 
@@ -202,5 +202,5 @@ The following are the top Linux commands:
 1.  <https://www.tecmint.com/linux-file-management-commands/>
 2.  <https://www.javatpoint.com/linux-commands>
 3.  <https://www.javatpoint.com/linux-files>
-4.  [https://www.javatpoint.com/architecture-of linux\#:\~:text=The%20Linux%20operating%20system's%20architecture,actions%20of%20the%20Linux%20OS](https://www.javatpoint.com/architecture-of%20linux#:~:text=The%20Linux%20operating%20system's%20architecture,actions%20of%20the%20Linux%20OS)
-5.  <https://www.meted.ucar.edu/ucar/unix/navmenu.php?tab=1&page=2-1-0&type=flash>
+4.  <https://www.meted.ucar.edu/ucar/unix/navmenu.php?tab=1&page=2-1-0&type=flash>
+5.  https://www.javatpoint.com/architecture-of-linux\#:\~:text=The%20Linux%20operating%20system's%20architecture,actions%20of%20the%20Linux%20OS

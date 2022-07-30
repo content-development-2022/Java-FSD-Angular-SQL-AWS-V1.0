@@ -86,6 +86,6 @@ To know details about the drawback [click here](https://www.javatpoint.com/archi
 
 ## References
 
-1. https://www.javatpoint.com/architecture-of-linux#:~:text=The%20Linux%20operating%20system's%20architecture,actions%20of%20the%20Linux%20OS
+1.  [https://www.javatpoint.com/architecture-of linux\#:\~:text=The%20Linux%20operating%20system's%20architecture,actions%20of%20the%20Linux%20OS](https://www.javatpoint.com/architecture-of%20linux#:~:text=The%20Linux%20operating%20system's%20architecture,actions%20of%20the%20Linux%20OS)
 2.  <https://www.meted.ucar.edu/ucar/unix/navmenu.php?tab=1&page=2-1-0&type=flash>
 3.  https://www.javatpoint.com/unix-vs-linux
