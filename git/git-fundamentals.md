@@ -6,15 +6,18 @@
 2.  Version Control System
 
     2.1 Advantages of VCS
-
-3.  Repository
-4.  How Github works?
-5.  Workflow of a project
-6.  Basic Git Commands
+3.  Distributed VCS vs Centralized VCS
+4.  Repository
+5.  How Github works?
+6.  Workflow of a project
+7.  Basic Git Commands
 
 ## 1. Git
 
--   Git is a version control system.
+-   Git is a version control system (VCS).
+-   To be more specific Git is a Distributed VCS.
+-   Since its birth in 2005, Git has evolved and matured to be easy to use. 
+-   It’s amazingly fast, it’s very efficient with large projects, and it has an incredible branching system for non-linear development
 
 ## 2.Version Control System
 
@@ -32,7 +35,13 @@
 2.  **Collaboration:** In the software industry, multiple employees are working on the same project so with the help of version control system the main copy is stored on central remote server fetched by employees and after changes which are to be made are made employee uploads its own version to the central repository so others can fetch code updated by employees.
 3.  **Backup:** In case if a central repository is crashed then anyone can push its local copy to the central server. As while making changes it has to be made on the local repository.
 
-## 3.Repository
+## 3. Distributed VCS vs Centralized VCS
+
+![image](https://user-images.githubusercontent.com/106106617/182041748-197d052b-608a-4027-89a2-03709545ac75.png)
+![image](https://user-images.githubusercontent.com/106106617/182041773-fa8a877e-37ca-4ff9-9951-70c8105dcc2f.png)
+
+
+## 4.Repository
 
 -   A repository, or Git project, encompasses the entire collection of files and folders associated with a project, along with each file's revision history.
 -   The file history appears as snapshots in time called commits.
@@ -40,7 +49,7 @@
 -   Using the command line or other ease-of-use interfaces, a Git repository also allows for: interaction with the history, cloning the repository, creating branches, committing, merging, comparing changes across versions of code, and more.
 -   Platforms like GitHub, Git also provides more opportunities for project transparency and collaboration.
 
-## 4.How GitHub works?
+## 5.How GitHub works?
 
 -   GitHub is the service that will host your Git repositories. Think of GitHub like the cloud server that hosts your source code. The repository for your project consists of all branches, commit, merge history, any licensing or readme files, rake/gem files, etc.
 -   GitHub builds collaboration directly into the development process.
@@ -48,7 +57,7 @@
 -   The partnership between Git and GitHub grant teams an invaluable asset - any and every modification to code is tracked through the two tools. Therefore, in the case of a mistake the code can efficiently and quickly be rolled back to its previous state prior to the error.
 -   For more information, [click here](https://docs.github.com/en/get-started/quickstart/github-flow)
 
-## 5.Workflow of a Project
+## 6.Workflow of a Project
 
 -   Let's review a simple project workflow and the CLI commands that help us move from one step to the next.
 -   Below is a diagram of a workflow including Git & Github. This diagram most closely represents the flow of group project.
