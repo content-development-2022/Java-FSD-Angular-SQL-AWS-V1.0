@@ -37,7 +37,8 @@
 
 ## 3. Distributed VCS vs Centralized VCS
 
-![image](https://user-images.githubusercontent.com/106106617/182041748-197d052b-608a-4027-89a2-03709545ac75.png)
+![image](https://user-images.githubusercontent.com/106106617/182041864-18b91f8c-fcde-4524-836f-9f6bfd1accfb.png)
+
 ![image](https://user-images.githubusercontent.com/106106617/182041773-fa8a877e-37ca-4ff9-9951-70c8105dcc2f.png)
 
 
