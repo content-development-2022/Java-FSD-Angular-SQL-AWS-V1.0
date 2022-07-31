@@ -39,8 +39,7 @@
 
 ![image](https://user-images.githubusercontent.com/106106617/182041864-18b91f8c-fcde-4524-836f-9f6bfd1accfb.png)
 
-![image](https://user-images.githubusercontent.com/106106617/182041773-fa8a877e-37ca-4ff9-9951-70c8105dcc2f.png)
-
+![image](https://user-images.githubusercontent.com/106106617/182041935-f81a67c0-4b71-4959-86cd-8a4c17433fd0.png)
 
 ## 4.Repository
 
