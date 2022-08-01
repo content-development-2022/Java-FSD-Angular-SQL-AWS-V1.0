@@ -71,7 +71,7 @@ You have two repositories
 
 ## 2.1 Creating a Remote Repository
 
-Follow the steps given below to initialize your remote Repository with Github.
+Follow the steps given below to initialize your remote repository with Github.
 
 **Step 1:**
 
