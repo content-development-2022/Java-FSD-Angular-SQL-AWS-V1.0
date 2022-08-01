@@ -139,23 +139,6 @@ Follow the steps given below to initialize your remote repository with Github.
 -   Open the directory and you will see that it has a hidden .git folder and README.md file
 
     ![](media/72caa091b0f5b4883cc51d9dc09598f9.png)
-<<<<<<< HEAD
-
-**Output:**
-
-![](media/93ddbfd4a7be0d594e6aa0839cbebc51.png)
-
--   Now go to the location where you used the git clone command and you can see that **project_repo** directory (working directory) is created in the name of the remote repository.
-
-    ![](media/9ec4cd3cb708f3a8e989137396e1aa22.png)
-
--   Open the directory and you will see that it has a hidden .git folder and README.md file
-
-![](media/b0c1f90cbd770463ec74d3c48876dadf.png)
-
->   Stashed changes
-=======
->>>>>>> d8f7bc3b68a4e6f87834b9768700ddf71e5edec6
 
 -   The **.git folder** contains all information that is necessary for the project and all information relating commits, remote repository address, etc. It also contains a log that stores the commit history. This log can help you to roll back to the desired version of the code.
 -   This .git folder is your local repository. Deleting the .git folder means you are deleting your local repository.
