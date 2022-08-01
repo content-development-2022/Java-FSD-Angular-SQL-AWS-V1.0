@@ -102,7 +102,7 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 ## 2.2 Creating a Local Repository using GitBash Command Line
 
--   They are two ways to create a local repository using Gitbash command line.
+-   There are two ways to create a local repository using Gitbash command line.
 -   Now run the commands in the following sequence.
 
 **Method 1:**
@@ -122,7 +122,6 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **![](media/02a1fec132d799a78628046609128af6.png)**
 
-
 -   Before executing git clone command, you can see that there was no folder with name **project_repo**
 
     ![](media/98828ebc39d758022c3abf6ddd2c4bae.png)
@@ -132,11 +131,11 @@ Follow the steps given below to initialize your remote Repository with Github.
 ![](media/8120313bfa4439f8b93523b9d6cf4003.png)
 
 -   Now go to the location where you used the git clone command and you can see that **project_repo** directory (working directory) is created in the name of the remote repository.
-
+   
 ![](media/4563dd8d03a4b667362a9bbb020c2076.png)
 
 -   Open the directory and you will see that it has a hidden .git folder and README.md file
-
+   
 ![](media/94357d9f7af0a7c85a898d469ab4b81f.png)
 
 -   The **.git folder** contains all information that is necessary for the project and all information relating commits, remote repository address, etc. It also contains a log that stores the commit history. This log can help you to roll back to the desired version of the code.
@@ -160,7 +159,7 @@ Follow the steps given below to initialize your remote Repository with Github.
 **![](media/c0fe6e65e2f4d5e34c41f148538f9b48.png)**
 
 -   Now go to your working directory, a hidden .git folder can be viewed.
--   This is you local repository.
+-   This is your local repository.
 
     **![](media/78bb74249ccdc6b5a0bf1ee33aab7398.png)**
 
