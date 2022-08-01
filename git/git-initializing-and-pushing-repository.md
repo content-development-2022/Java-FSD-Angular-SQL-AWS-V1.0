@@ -24,6 +24,8 @@
 
 **4. Pulling Files from Remote Repository to Local Repository**
 
+**5.Conclusion**
+
 ## 1.To get Started
 
 ## 1.1 How to Open GitBash
