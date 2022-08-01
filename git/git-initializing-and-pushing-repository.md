@@ -91,11 +91,12 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **![](media/e96c8beeb9c38b14c6a63fc602e3b06f.png)**
 
-**Note:** You can choose to initialize your git repository with a README file, and further, you can mention your project details in it. It helps people to know what this repository is about. However, it is optional. 
+**Note:** 
+ -  You can choose to initialize your git repository with a README file, and further, you can mention your project details in it. It helps people to know what this repository is about. It is higly recomended to have a README file in th project. 
 
 **Step 4:**
 
--   Remote repository looks as shown in below diagram.
+-   Now a Remote repository has been created as shown in the below diagram.
 
 **![](media/02fdcab91912119a879f3ca5c763f9df.png)**
 
@@ -108,22 +109,21 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **Git clone**:
 
--   Clones a remote repository into a new directory in the local computer.
--   Be sure to clone the project in a working directory that makes sense so you can easily remember where your local project lives.
--   This will automatically initialize a local repository in the working directory and can be verified by checking the presence of a hidden .git folder in the working directory.
+-   Using git clone will create a copy of the remote repository into a new directory in the local computer.
+-   This new directory becomes your working directory.
+-   When you clone a remote repository, it will copy all the files, branches and commits into the local.
 
 **Syntax:** git clone [remote-repository-url]
 
 **How to get the remote repository URL?**
 
--   Go to your remote repo on Github, Click on the green code button.![](media/b56e062d2753613e3fbe0ec44debc89d.png)
+-   Go to your remote repo on Github, Click on the code button.![](media/b56e062d2753613e3fbe0ec44debc89d.png)
 -   You can copy the remote repository url from there.
 
 **![](media/02a1fec132d799a78628046609128af6.png)**
 
-**Note:** Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits.
 
--   Before running git clone, you can see that there is no repository with name **project_repo**
+-   Before executing git clone command, you can see that there was no folder with name **project_repo**
 
     ![](media/98828ebc39d758022c3abf6ddd2c4bae.png)
 
@@ -131,26 +131,27 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 ![](media/8120313bfa4439f8b93523b9d6cf4003.png)
 
--   Now go to your working directory, you can see that **project_repo** (local) repository is created with remote repository name.
+-   Now go to the location where you used the git clone command and you can see that **project_repo** directory (working directory) is created in the name of the remote repository.
 
 ![](media/4563dd8d03a4b667362a9bbb020c2076.png)
 
--   Open repository, it contains .git hidden folder and README.md file
+-   Open the directory and you will see that it has a hidden .git folder and README.md file
 
 ![](media/94357d9f7af0a7c85a898d469ab4b81f.png)
 
 -   The **.git folder** contains all information that is necessary for the project and all information relating commits, remote repository address, etc. It also contains a log that stores the commit history. This log can help you to roll back to the desired version of the code.
--   In README.md file, add any instructions that you want to share with others. Use Markdown to format headings, lists, links, etc. Here are some guides for the Markdown syntax:
+-   This .git folder is your local repository. Deleting the .git folder means you are deleting your local repository.
+-   In the README.md file, add any instructions that you want to share with others. Use Markdown to format headings, lists, links, etc. Here are some guides for the Markdown syntax:
 
 [guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)
 
--   When updations done, commit the changes and push them to the remote repo. GitHub will display the nicely formatting ReadMe on the project page for the repo.
+-   When updations are done, commit the changes and push them to the remote repository. GitHub will display the nicely formatted ReadMe on the project page for the repository.
 
 **Method 2:**
 
 **Step 1:**
 
--   Initialize the local directory as a Git repository in the working directory.
+-   Initialize the new/existing local (working) directory as your local repository.
 
 **Syntax:** git init
 
@@ -158,7 +159,8 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **![](media/c0fe6e65e2f4d5e34c41f148538f9b48.png)**
 
--   Now go to your working directory, the hidden .git folder can be viewed.
+-   Now go to your working directory, a hidden .git folder can be viewed.
+-   This is you local repository.
 
     **![](media/78bb74249ccdc6b5a0bf1ee33aab7398.png)**
 
@@ -170,7 +172,7 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **Step 3:**
 
--   Rename the master branch of local repo to main
+-   Rename the master branch of local repo to main. This has to be done in newer versions of git.
 
     **Synatax:** git branch -m main
 
@@ -180,7 +182,7 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 ## 2.3 Checking the Status of Files
 
--   By “git status” you can see the staged files.
+-   By using the command “git status” you can view the status of your local repository.
 
 **Syntax :** git status
 
@@ -198,7 +200,8 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 ## 2.5 Committing Files to Local Repository
 
--   commit all the files from staging to local repo with a commit message
+-   Commit all the files from staging to local repo with a commit message.
+-   Commit message is mandatory to understand why these files are commited.
 
 **Syntax:** git commit -m " file1 completed"
 
@@ -210,7 +213,7 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **Step 1:**
 
--   In the Command line prompt, add the URL to specify the remote Github repo to which we would want to push the files.
+-   In Gitbash, add the URL to specify the remote Github repo to which we would want to push the files.
 
 **syntax:** git remote add origin remote_repo_URL
 
@@ -220,8 +223,8 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **Step 2:**
 
--   push the files from your local repo to the remote repo.
--   Now, am going to push two files i.e., file1.md and file2.md from local reo to remote repo.
+-   Push the files from your local repo to the remote repo.
+-   Now the two files i.e., file1.md and file2.md are pushed from the local reposotory to the remote repository.
 
     ![](media/1f45e3b1e282e97a24d4cc3613e32df3.png)
 
@@ -232,7 +235,7 @@ Follow the steps given below to initialize your remote Repository with Github.
 ![](media/c5a65b2b387027377fcb41add31100a5.png)
 
 -   Here the files have been pushed to the main branch of your repository.
--   Now in the GitHub repository, the pushed files can be seen.
+-   Now in the GitHub remote repository, the pushed files can be seen/verified.
 
     ![](media/e75ca141e2312d4d6ad016e54b8e9ea0.png)
 
