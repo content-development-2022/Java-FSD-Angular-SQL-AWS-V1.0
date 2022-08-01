@@ -125,6 +125,7 @@ Follow the steps given below to initialize your remote repository with Github.
 
 -   Before executing git clone command, you can see that there was no folder with name **project_repo**
 
+<<<<<<< Updated upstream
 **![](media/98828ebc39d758022c3abf6ddd2c4bae.png)**
 
 **Output:**
@@ -138,6 +139,21 @@ Follow the steps given below to initialize your remote repository with Github.
 -   Open the directory and you will see that it has a hidden .git folder and README.md file
 
 **![](media/94357d9f7af0a7c85a898d469ab4b81f.png)**
+=======
+    ![](media/3d5d5416a783bcdbf23b020aa6004aa1.png)
+
+**Output:**
+
+![](media/93ddbfd4a7be0d594e6aa0839cbebc51.png)
+
+-   Now go to the location where you used the git clone command and you can see that **project_repo** directory (working directory) is created in the name of the remote repository.
+
+    ![](media/9ec4cd3cb708f3a8e989137396e1aa22.png)
+
+-   Open the directory and you will see that it has a hidden .git folder and README.md file
+
+![](media/b0c1f90cbd770463ec74d3c48876dadf.png)
+>>>>>>> Stashed changes
 
 -   The **.git folder** contains all information that is necessary for the project and all information relating commits, remote repository address, etc. It also contains a log that stores the commit history. This log can help you to roll back to the desired version of the code.
 -   This .git folder is your local repository. Deleting the .git folder means you are deleting your local repository.
@@ -226,18 +242,16 @@ Follow the steps given below to initialize your remote repository with Github.
 -   Push the files from your local repo to the remote repo.
 -   Now the two files i.e., file1.md and file2.md are pushed from the local reposotory to the remote repository.
 
-    ![](media/1f45e3b1e282e97a24d4cc3613e32df3.png)
-
-**syntax:** git push
+![](media/a9d82df7a31ab4c32211b78fd61441ee.png)**syntax:** git push
 
 **Output:**
 
-![](media/c5a65b2b387027377fcb41add31100a5.png)
+![](media/d7c0dffa08f0290ebcbddf11cad9d77e.png)
 
 -   Here the files have been pushed to the main branch of your repository.
 -   Now in the GitHub remote repository, the pushed files can be seen/verified.
 
-    ![](media/e75ca141e2312d4d6ad016e54b8e9ea0.png)
+    ![](media/76b0a6d46223f7083dae09f708445416.png)
 
 **4. Pulling Files from Remote Repository to Local Repository**
 
