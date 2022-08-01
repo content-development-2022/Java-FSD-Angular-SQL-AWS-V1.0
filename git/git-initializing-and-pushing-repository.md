@@ -126,7 +126,8 @@ Follow the steps given below to initialize your remote repository with Github.
 
 -   Before executing git clone command, you can see that there was no folder with name **project_repo**
 
-![](media/ad1d9d8621386a67b343aa91414c37f7.png)**Output:**
+![](media/ad1d9d8621386a67b343aa91414c37f7.png)
+**Output:**
 
 **![](media/cdf58dcf1ca7f9588f7ed74ccf0eb69d.png)**
 
