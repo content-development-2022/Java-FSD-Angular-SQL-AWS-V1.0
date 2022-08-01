@@ -6,19 +6,12 @@
 2.  Version Control System
 
     2.1 Advantages of VCS
-<<<<<<< Updated upstream
+
 3.  Distributed VCS vs Centralized VCS
 4.  Repository
 5.  How Github works?
 6.  Workflow of a project
 7.  Basic Git Commands
-=======
-
-3.  Repository
-4.  How Github Works?
-5.  Workflow of a Project
-6.  Basic Git Commands
->>>>>>> Stashed changes
 
 ## 1. Git
 
