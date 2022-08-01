@@ -4,21 +4,21 @@
 
 **1. To get Started**
 
-    1.1  How to Open GitBash
+1.1 How to Open GitBash
 
-    1.2 How to Work with Git Config
+1.2 How to Work with Git Config
 
 **2. Initializing a Local and Remote Repository**
 
-    2.1 Creating a Remote Repository
+2.1 Creating a Remote Repository
 
-    2.2 Creating a Local Repository Using Git Bash Command Line
+2.2 Creating a Local Repository Using Git Bash Command Line
 
-    2.3 Checking the Status of Files
+2.3 Checking the Status of Files
 
-    2.4 Adding Files to Staging Area
+2.4 Adding Files to Staging Area
 
-    2.5 Committing Files to Local Repository
+2.5 Committing Files to Local Repository
 
 **3. Pushing Files from Local Repository into Remote Repository**
 
@@ -91,8 +91,9 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **![](media/e96c8beeb9c38b14c6a63fc602e3b06f.png)**
 
-**Note:** 
- -  You can choose to initialize your git repository with a README file, and further, you can mention your project details in it. It helps people to know what this repository is about. It is higly recomended to have a README file in th project. 
+**Note:**
+
+-   You can choose to initialize your git repository with a README file, and further, you can mention your project details in it. It helps people to know what this repository is about. It is higly recomended to have a README file in th project.
 
 **Step 4:**
 
@@ -131,11 +132,11 @@ Follow the steps given below to initialize your remote Repository with Github.
 ![](media/8120313bfa4439f8b93523b9d6cf4003.png)
 
 -   Now go to the location where you used the git clone command and you can see that **project_repo** directory (working directory) is created in the name of the remote repository.
-   
+
 ![](media/4563dd8d03a4b667362a9bbb020c2076.png)
 
 -   Open the directory and you will see that it has a hidden .git folder and README.md file
-   
+
 ![](media/94357d9f7af0a7c85a898d469ab4b81f.png)
 
 -   The **.git folder** contains all information that is necessary for the project and all information relating commits, remote repository address, etc. It also contains a log that stores the commit history. This log can help you to roll back to the desired version of the code.
