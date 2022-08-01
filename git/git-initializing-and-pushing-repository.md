@@ -238,7 +238,50 @@ Follow the steps given below to initialize your remote repository with Github.
 
     ![](media/76b0a6d46223f7083dae09f708445416.png)
 
-**4. Pulling Files from Remote Repository to Local Repository**
+## 4.Pulling Files from Remote Repository to Local Repository
+
+**Step 1:**
+
+-   Click on **Add file** button, you we will get two options, Create new file and Upload files
+
+    **![](media/88dd68e5d40e6e3d9c8ddd43ed066394.png)**
+
+**Step 2:**
+
+-   Click on Create new file, give suitable file name with .md extension, and then click on **commit new file** button.
+
+    **![](media/ee3b387610d69fb5ea1274ae8567bf8a.png)**
+
+**Step 3:**
+
+-   Here the file3.md have been created to the main branch of your remote repository.
+
+    **![](media/a2cf1f6210244ae4a90dc1352a440d79.png)**
+
+**Step 4:**
+
+-   Go to your local repo, there is no file file3.md
+-   Your remote repo have the file file3.md
+
+    **![](media/4aa22afaddcfbb0624fddab19dfef67a.png)**
+
+-   Now pull the file file3.md from remote repo to local repo using the pull command.
+
+    **Syntax:** git pull [remote_repository_url]
+
+    **Output:**
+
+    **![](media/4af4a9be7bae24bb95d1b0df04570063.png)**
+
+-   After executing pull command file3.md have been pulled from the main branch of your remote repository to local repository.
+
+    **![](media/cbc619c7072f0717bfcbf03e7bcc7222.png)**
+
+## 5.Conclusion
+
+-   To conclude it can be said that git bash is a command line platform which helps in enabling git and its elements in your system.
+-   There are a bunch of commands which are used in git bash.
+-   Git Bash is very easy to use and makes it easy to work on repositories and projects.
 
 **References:**
 
