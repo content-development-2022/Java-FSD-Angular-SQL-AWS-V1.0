@@ -3,6 +3,7 @@
 ## Contents
 
 **1. To get Started**
+
     1.1  How to Open GitBash
 
     1.2 How to Work with Git Config
@@ -31,17 +32,17 @@
 
 **Method 1:**
 
--   Go to your working directory. Click right-click and choose Git Bash Here option.
+-   Go to your working directory. Right-click and choose Git Bash Here option.
 
 **![](media/e5930ebe90accd4ec9a266e34ec40f47.png)**
 
--   The Git Bash is opened with your current working Directory.
+-   The Git Bash opens up and points to your current working Directory.
 
 **![](media/087b372df61b5b526ecd1c9081adc837.png)**
 
 **Method 2:**
 
--   Open Git Bash and change the current working directory to your local project by use of cd command.
+-   Open Git Bash and change the current working directory to your local project by using cd command.
 
     **Syntax:** cd \<directory_name\>
 
@@ -74,23 +75,23 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **Step 1:**
 
--   First step, Signin Github with your GitHub account. The below diagram is Githhub account.
+-   First step, Sign into Github with your GitHub account. The below diagram shows a Githhub account.
 
 **![](media/0648245e1a85745322a7dd941bbf58d5.png)**
 
 **Step 2:**
 
--   Make Remote Repository on Github. Top left side, click on the new button to create remote repository.
+-   To create a new remote repository on Github, click on the new button on the top left side.
 
     **![https://media.geeksforgeeks.org/wp-content/uploads/20200421144627/git-4.jpg](media/255b30cfd5ae85300d0f9e18443594f0.jpeg)**
 
 **Step 3:**
 
--   Give a suitable name of your repository and click on create repository
+-   Give a suitable name for your repository and click on create repository
 
 **![](media/e96c8beeb9c38b14c6a63fc602e3b06f.png)**
 
-**Note:** You can choose to initialize your git repository with a README file, and further, you can mention your project details in it. It helps people know what this repository is about. However, it’s absolutely not necessary. But if you do initialize your remote repo with a README file using interface provided by GitHub, then your local repository won’t have this README file. So add README.md file in local repo
+**Note:** You can choose to initialize your git repository with a README file, and further, you can mention your project details in it. It helps people to know what this repository is about. However, it is optional. 
 
 **Step 4:**
 
@@ -100,22 +101,23 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 ## 2.2 Creating a Local Repository using GitBash Command Line
 
--   They are two methods to create local repository using Gitbash command line.
+-   They are two ways to create a local repository using Gitbash command line.
 -   Now run the commands in the following sequence.
 
 **Method 1:**
 
 **Git clone**:
 
--   Clone a repository into a new directory.
+-   Clones a remote repository into a new directory in the local computer.
 -   Be sure to clone the project in a working directory that makes sense so you can easily remember where your local project lives.
+-   This will automatically initialize a local repository in the working directory and can be verified by checking the presence of a hidden .git folder in the working directory.
 
 **Syntax:** git clone [remote-repository-url]
 
 **How to get the remote repository URL?**
 
--   Go to your remote repo on Github, Click on code section.![](media/b56e062d2753613e3fbe0ec44debc89d.png)
--   you will get the remote repo URL.
+-   Go to your remote repo on Github, Click on the green code button.![](media/b56e062d2753613e3fbe0ec44debc89d.png)
+-   You can copy the remote repository url from there.
 
 **![](media/02a1fec132d799a78628046609128af6.png)**
 
