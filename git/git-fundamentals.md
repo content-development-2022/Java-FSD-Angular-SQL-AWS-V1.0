@@ -6,11 +6,19 @@
 2.  Version Control System
 
     2.1 Advantages of VCS
+<<<<<<< Updated upstream
 3.  Distributed VCS vs Centralized VCS
 4.  Repository
 5.  How Github works?
 6.  Workflow of a project
 7.  Basic Git Commands
+=======
+
+3.  Repository
+4.  How Github Works?
+5.  Workflow of a Project
+6.  Basic Git Commands
+>>>>>>> Stashed changes
 
 ## 1. Git
 
@@ -67,7 +75,8 @@
 **git clone**
 
 -   The very first step (not included on diagram) is to clone the repository to your local machine.
--   Be sure to clone the project in a working directory that makes sense so you can easily remember where your local project lives.
+-   By cloning with Git, you get the entire repository - all files, all branches, and all commits.
+-   Cloning a repository is typically only done once, at the beginning of your interaction with a project. Once a repository already exists on a remote, like on GitHub, then you would clone that repository so you could interact with it locally. Once you have cloned a repository, you won't need to clone it again to do regular development.
 
 **git add**
 
