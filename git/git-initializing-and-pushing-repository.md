@@ -2,22 +2,22 @@
 
 ## Contents
 
-1.  **To get Started**
+**1. To get Started**
     1.1  How to Open GitBash
 
     1.2 How to Work with Git Config
 
 **2. Initializing a Local and Remote Repository**
 
-2.1 Creating a Remote Repository
+    2.1 Creating a Remote Repository
 
-2.2 Creating a Local Repository Using Git Bash Command Line
+    2.2 Creating a Local Repository Using Git Bash Command Line
 
-2.3 Checking the Status of Files
+    2.3 Checking the Status of Files
 
-2.4 Adding Files to Staging Area
+    2.4 Adding Files to Staging Area
 
-2.5 Committing Files to Local Repository
+    2.5 Committing Files to Local Repository
 
 **3. Pushing Files from Local Repository into Remote Repository**
 
