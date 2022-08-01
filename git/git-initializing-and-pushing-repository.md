@@ -3,9 +3,9 @@
 ## Contents
 
 1.  **To get Started**
-    1.  How to Open GitBash
+    1.1  How to Open GitBash
 
-1.2 How to Work with Git Config
+    1.2 How to Work with Git Config
 
 **2. Initializing a Local and Remote Repository**
 
