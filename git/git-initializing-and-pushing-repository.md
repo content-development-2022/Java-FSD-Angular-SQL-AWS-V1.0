@@ -204,7 +204,7 @@ Follow the steps given below to initialize your remote Repository with Github.
 
 **Syntax:** git commit -m " file1 completed"
 
-**output:**
+**Output:**
 
 **![](media/f7e7b36266fb22db5dceb3b23201c664.png)**
 
