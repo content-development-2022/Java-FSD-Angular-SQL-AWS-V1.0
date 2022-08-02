@@ -11,12 +11,12 @@
 ## How to execute:
 
 1.  Let’s call the team members as Member1, Member2, Member3 and let Member1 be the person responsible for managing/creating/merging the remote repository in GitHub.
-2.  First, Member1 should create an organization called git-exercise in his/her GitHub account.
-3.  Next, Member1 should create a remote repository (can be private or public) called practice-git-with-java-project in the organization git-exercise.
+2.  First, Member1 should create an organization called git-exercise-2 in his/her GitHub account.
+3.  Next, Member1 should create a remote repository (can be private or public) called practice-git-with-java-project in the organization git-exercise-2.
 4.  Now Member1 should clone the remote repository to his/her local repository.
 5.  Next Member1 should create an empty java project inside the local repository.
 6.  Next Member 1 should push the project from local repository to remote repository.
-7.  After the empty java project is made available in the remote repository, Member1 can add Member2 and Member3 as collaborators (collaborators can also be added even before the empty java project was pushed by Member1) to this repository practice-git-with-java-project. By doing so Member1 and Member2 will be able to contribute code to the repository created in this organization. And Member1 by default will be able to contribute to the repository as he/she will be the owner.
+7.  After the empty java project is made available in the remote repository, Member1 can add Member2 and Member3 as members (members can also be added before the empty java project was pushed by Member1) to this repository practice-git-with-java-project. By doing so Member1 and Member2 will be able to contribute code to the repository created in this organization. And Member1 by default will be able to contribute to the repository as he/she will be the owner.
 8.  Now Member1 should share the repository link with Member2 and Member3.
 9.  Now Member2 and Member3 can clone the project to their local computer.
 10. And they can import the project into eclipse.
@@ -28,7 +28,7 @@
 ## Further exploration:
 
 1.  What if all the team members work with their own java assignment simultaneously and push the code? Will it be successful? Or will it show an error? If so how do we fix it?
-2.  The git commands required for the above steps would have been completed in GitBash. How would it be if we do in through GithHub Desktop? Easy? Difficult? Same?
+2.  The git commands required for the above steps would have been completed in GitBash. How would it be if we do in through GitHub Desktop? Easy? Difficult? Same?
 3.  What if Member1 did not add Member2 and Member3 as collaborators? Will they still be able to contribute code to the remote repository created by Member1? Hint: Should learn about pull request in git.
 
 ## Java Assignments

@@ -4,17 +4,19 @@
 
 **Team size:** 3
 
-**Purpose of the activity:** To understand how to collaborate and contribute files to a common folder using git within a team.
+**Purpose of the activity:** To understand how to collaborate and contribute files to a common git repository using git within a team.
 
 **Requirements:** GitHub account, Git installed in local.
 
 **Scenario:** The team is preparing for a formal presentation in front of the client about their project. The presenters are getting ready with a plan for the presentation.
 
-Let’s call the team members as Member1, Member2, Member3 and let Member1 be the person responsible for managing/creating/merging the files remote repository in GitHub.
+Let’s call the team members (presenters) as Member1, Member2, Member3 and let Member1 be the person responsible for managing/creating/merging the files remote repository in GitHub.
 
 -   Member1 – Responsible to maintain a list of emails to whom invites have to be sent for the presentation.
 -   Member2 – Responsible to create a checklist to make sure everything is in place before the presentation starts.
 -   Member3 – Responsible to create the agenda for the presentation.
+
+    Note – Please work with .txt files here.
 
 ## How to execute:
 
@@ -35,5 +37,5 @@ Let’s call the team members as Member1, Member2, Member3 and let Member1 be th
 ## Further exploration:
 
 1.  What if all the team members work with their own files simultaneously and push the code? Will it be successful? Or will it show an error? If so how do we fix it?
-2.  The git commands required for the above steps would have been completed in GitBash. How would it be if we do in through GithHub Desktop? Easy? Difficult? Same?
+2.  The git commands required for the above steps would have been completed in GitBash. How would it be if we do in through GithHub Desktop or any other Git UI client ? Easy? Difficult? Same?
 3.  What if Member1 did not add Member2 and Member3 as members? Will they still be able to contribute code to the remote repository created by Member1? Hint: Should learn about pull request in git.
