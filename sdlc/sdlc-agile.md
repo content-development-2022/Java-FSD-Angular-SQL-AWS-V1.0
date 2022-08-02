@@ -55,7 +55,8 @@
 -   The below diagram represents the different types of agile methodologies.
 -   We are going to learn more in detail about Scrum.
 
-### ![Agile methodologies types](media/13bf7dbb5b1f95290ee08bae1bff8c9f.png)6.1 Scrum
+### ![Agile methodologies types](media/13bf7dbb5b1f95290ee08bae1bff8c9f.png)
+6.1 Scrum
 
 **Introduction**
 
