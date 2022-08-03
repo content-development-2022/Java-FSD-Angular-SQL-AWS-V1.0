@@ -231,7 +231,7 @@ Follow the steps given below to initialize your remote repository with Github.
 
 ![](media/a9d82df7a31ab4c32211b78fd61441ee.png)
 
-**syntax:** git push origin min
+**syntax:** git push origin main
 
 **Output:**
 
