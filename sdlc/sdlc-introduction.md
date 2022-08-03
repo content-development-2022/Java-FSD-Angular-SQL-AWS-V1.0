@@ -112,4 +112,3 @@ For any software project, SDLC offers the following benefits
 # References
 
 1.https://www.esds.co.in/blog/introduction-to-software-development-life-cycle-sdlc-phases-models/
->>>>>>> d2cf22b4a98b11a20e2ef70fc81ae62d27dbac6a
