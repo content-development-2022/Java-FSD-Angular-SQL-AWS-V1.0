@@ -37,11 +37,11 @@
 -   This meant that there was no scope for course correction and the customer had no view on the progress until the whole product was ready. And that was what these experts wanted to avoid. They wanted a solution which would have scope for constant feedback in order to avoid the cost of rework at a later stage.
 -   And that is why agile is also about being adaptive and continuous improvement, as much as it is about constant feedback and speed of delivery.
 
-### 4.What Exactly is Agile?
+## 4.What Exactly is Agile?
 
 -   Agile is a software development approach where a self-sufficient and cross-functional team works on making continuous deliveries through iterations and evolves throughout the process by gathering feedback from the end users.
 
-### 5.Advantages of Agile Methodology
+## 5.Advantages of Agile Methodology
 
 -   The customers continuously get a look and feel of the project progress at the end of each iteration/sprint.
 -   Each sprint provides the customer with a working software which meets their expectations as per the definition of done provided by them.
@@ -49,14 +49,14 @@
 -   There is constant two-way communication which keeps the customers involved, thus all stakeholders – business and technical – have clear visibility on the project’s progress.
 -   The design of the product is efficient and fulfills the business requirements.
 
-### 6.Types of Agile Methodologies
+## 6.Types of Agile Methodologies
 
 -   There are several agile methodologies in practice across the world.
 -   All these methodologies focus on lean software development and help in building better software effectively and efficiently.
 -   The below diagram represents the different types of agile methodologies.
 -   We are going to learn more in detail about Scrum.
 
-### ![Agile methodologies types](media/13bf7dbb5b1f95290ee08bae1bff8c9f.png)
+## ![Agile methodologies types](media/13bf7dbb5b1f95290ee08bae1bff8c9f.png)
 6.1 Scrum
 
 **Introduction**
@@ -80,7 +80,7 @@
 -   Instead of doing the entire “thing” at a time, Scrum does a little of everything at a given interval.
 -   Resources capability and availability are considered before committing anything.
 
-### 6.2 Important SCRUM Terminologies
+## 6.2 Important SCRUM Terminologies
 
 **1) Scrum Team**
 
