@@ -18,6 +18,7 @@
 6.1 Scrum
 
 6.2 Important Scrum Terminologies
+
 7.References
 
 ## 1.Agile in Software Development
