@@ -229,7 +229,9 @@ Follow the steps given below to initialize your remote repository with Github.
 -   Push the files from your local repo to the remote repo.
 -   Now the two files i.e., file1.md and file2.md are pushed from the local reposotory to the remote repository.
 
-![](media/a9d82df7a31ab4c32211b78fd61441ee.png)**syntax:** git push origin min
+![](media/a9d82df7a31ab4c32211b78fd61441ee.png)
+
+**syntax:** git push origin min
 
 **Output:**
 
