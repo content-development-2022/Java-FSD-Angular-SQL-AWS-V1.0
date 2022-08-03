@@ -25,13 +25,13 @@
 -   Most of the organizations have adopted it in some form or the other but there is still a long way to go in the maturity of their adoption programs.
 -   The sole aim of this series of tutorials is to onboard technology and non-technology professionals into the Agile World.
 
-### 2.History of Agile
+## 2.History of Agile
 
 -   Agile was born when on one fine day when 17 people with different development methodologies background, got together to brainstorm if there was a possible alternative solution to software development which could lead to faster development time and was less documentation heavy.
 -   Thus these champions of different software engineering techniques got together and the end result of their meeting was what they called the “agile manifesto’.
 -   To know more details about “agile manifesto” [click here.](https://agilemanifesto.org/)
 
-### 3.Agile Challenges
+## 3.Agile Challenges
 
 -   waterfall techniques, time were too cumbersome and had no provision for feedback until the final product was ready to be delivered. It was called a waterfall model of development because the teams first finished one step completely and only after that they moved ahead to the next step.
 -   This meant that there was no scope for course correction and the customer had no view on the progress until the whole product was ready. And that was what these experts wanted to avoid. They wanted a solution which would have scope for constant feedback in order to avoid the cost of rework at a later stage.
