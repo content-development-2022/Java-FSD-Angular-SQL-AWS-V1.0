@@ -18,6 +18,7 @@
 6.1 Scrum
 
 6.2 Important Scrum Terminologies
+7.References
 
 ## 1.Agile in Software Development
 
@@ -57,7 +58,7 @@
 -   We are going to learn more in detail about Scrum.
 
 ## ![Agile methodologies types](media/13bf7dbb5b1f95290ee08bae1bff8c9f.png)
-6.1 Scrum
+## 6.1 Scrum
 
 **Introduction**
 
