@@ -1,7 +1,7 @@
 ## Common HTML Tags
 
 -   The table below lists all HTML tags.
--   Types of HTML tags are
+-   Categories of HTML tags are
 1.  Basic HTML,
 2.  Forms and Input
 3.  Frames
