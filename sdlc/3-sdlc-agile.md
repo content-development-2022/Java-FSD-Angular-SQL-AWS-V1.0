@@ -61,7 +61,7 @@
 
 -   There are several Agile methodologies in practice across the world.
 -   All these methodologies focus on lean software development and help in building better software effectively and efficiently.
--   The below diagram represents the different types of Agile methodologies.
+-   The below diagram represents the different frameworks of Agile methodologies.
 -   We are going to learn more in detail about Scrum.
 
 ## ![Agile methodologies types](media/13bf7dbb5b1f95290ee08bae1bff8c9f.png)
