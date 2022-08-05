@@ -216,7 +216,9 @@
 
 ![](media/8b2152772734379b7b4873d1fa74d20b.png)
 
-![](media/82148db1c9251584e62e921e5cf2b8a4.png)**Notes on GET:**
+![](media/82148db1c9251584e62e921e5cf2b8a4.png)
+
+**Notes on GET:**
 
 -   Appends the form data to the URL, in name/value pairs
 -   NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
