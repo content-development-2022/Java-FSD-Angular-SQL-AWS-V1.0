@@ -1,6 +1,6 @@
 ## Common HTML Tags
 
-Content
+**Content**
 
 1.  Basic HTML,
 2.  Forms and Input

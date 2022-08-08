@@ -1,6 +1,6 @@
 ## HTML Block and Inline Elements
 
-Content
+**Content**
 
 1.Block-level Elements
 

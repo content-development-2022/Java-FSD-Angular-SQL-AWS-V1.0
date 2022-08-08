@@ -23,16 +23,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>40</o:Revision>
-  <o:TotalTime>84</o:TotalTime>
+  <o:Revision>41</o:Revision>
+  <o:TotalTime>85</o:TotalTime>
   <o:Created>2022-08-04T01:11:00Z</o:Created>
-  <o:LastSaved>2022-08-07T16:29:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-08T08:09:00Z</o:LastSaved>
   <o:Pages>7</o:Pages>
-  <o:Words>556</o:Words>
-  <o:Characters>3174</o:Characters>
+  <o:Words>557</o:Words>
+  <o:Characters>3181</o:Characters>
   <o:Lines>26</o:Lines>
   <o:Paragraphs>7</o:Paragraphs>
-  <o:CharactersWithSpaces>3723</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>3731</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -659,11 +659,10 @@ href="4-html-attributes_files/colorschememapping.xml">
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
-	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
@@ -1595,6 +1594,9 @@ style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:windowtext;mso-font-kerning:18.0pt'>&nbsp;Attributes<o:p></o:p></span></b></h1>
 
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt'>Content<o:p></o:p></span></b></p>
+
 <p class=MsoNormal style='line-height:150%'><span class=GramE><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>1.HTML</span></span><span
@@ -1943,8 +1945,8 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Notes:</span></strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;External
-images might be under copyright. If you do not get permission to use it, you
-may be in violation of copyright laws. In addition, you cannot control external
+images might be under copyright. If you do not get permission to use it, you may
+be in violation of copyright laws. In addition, you cannot control external
 images; it can suddenly be removed or changed.</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
@@ -2183,10 +2185,10 @@ display an image that does not exist:<o:p></o:p></span></p>
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_17" o:spid="_x0000_i1030"
- type="#_x0000_t75" style='width:453.75pt;height:151.5pt;visibility:visible;
+ type="#_x0000_t75" style='width:453.75pt;height:152.25pt;visibility:visible;
  mso-wrap-style:square'>
  <v:imagedata src="4-html-attributes_files/image013.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img border=0 width=605 height=202
+</v:shape><![endif]--><![if !vml]><img border=0 width=605 height=203
 src="4-html-attributes_files/image013.png" v:shapes="Picture_x0020_17"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
@@ -2210,7 +2212,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></b></p>
 
 <p class=MsoListParagraph style='text-indent:-18.0pt;line-height:150%;
-mso-list:l8 level1 lfo17;background:white'><![if !supportLists]><span
+mso-list:l8 level1 lfo14;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -2234,7 +2236,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo16;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2247,8 +2249,8 @@ mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:crimson'>style</span></code><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;attribute
-is used to add styles to an element, such as <span class=SpellE>color</span>,
-font, size, and more.<o:p></o:p></span></p>
+is used to add styles to an element, such as <span class=SpellE>color</span>, font,
+size, and more.<o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -2284,7 +2286,7 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo16;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2305,7 +2307,7 @@ Attribute</span></b><span style='font-size:14.0pt;line-height:150%;font-family:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo16;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2329,7 +2331,7 @@ minor-latin;color:black'>&nbsp;tag, to declare the language of the Web page.
 This is meant to assist search engines and browsers.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo16;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2400,7 +2402,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo16;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2418,7 +2420,7 @@ So, the first two characters define the language of the HTML page, and the last
 two characters define the country.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo16;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2506,7 +2508,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo16;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo18;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2522,7 +2524,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&n
 defines some extra information about an element.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo16;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo18;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;

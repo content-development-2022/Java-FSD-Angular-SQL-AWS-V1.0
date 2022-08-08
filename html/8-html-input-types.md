@@ -1,6 +1,6 @@
 ## HTML Input Types
 
-Contents
+**Contents**
 
 1\. .HTML Input Types
 

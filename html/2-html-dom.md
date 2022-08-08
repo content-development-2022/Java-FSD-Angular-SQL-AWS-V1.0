@@ -1,6 +1,6 @@
 ## HTML DOM
 
-Content
+**Content**
 
 1\. What is the HTML DOM?
 

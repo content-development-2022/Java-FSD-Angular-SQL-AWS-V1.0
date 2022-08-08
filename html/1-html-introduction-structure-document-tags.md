@@ -25,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>2</o:Revision>
+  <o:Revision>3</o:Revision>
   <o:TotalTime>1</o:TotalTime>
   <o:Created>2022-08-07T10:31:00Z</o:Created>
-  <o:LastSaved>2022-08-07T10:32:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-08T08:08:00Z</o:LastSaved>
   <o:Pages>8</o:Pages>
   <o:Words>757</o:Words>
   <o:Characters>4317</o:Characters>
@@ -65,6 +65,7 @@ href="1-html-introduction-structure-document-tags_files/colorschememapping.xml">
    <w:BreakWrappedTables/>
    <w:SplitPgBreakAndParaMark/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -661,11 +662,10 @@ href="1-html-introduction-structure-document-tags_files/colorschememapping.xml">
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
-	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
@@ -776,7 +776,8 @@ code
 	mso-hansi-font-family:"Courier New";
 	mso-bidi-font-family:"Courier New";}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	margin-top:0cm;
@@ -791,7 +792,8 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -807,7 +809,8 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -823,7 +826,8 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -1982,10 +1986,15 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 mso-font-kerning:18.0pt'>HTML&nbsp;Introduction<o:p></o:p></span></b></h2>
 
-<h2 style='margin-top:0cm;line-height:150%'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'>Content<o:p></o:p></span></b></h2>
+minor-latin'>Content</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:#2E74B5;mso-themecolor:accent1;
+mso-themeshade:191'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
@@ -2233,8 +2242,8 @@ style='color:#002060;background:#FFFFCC'><o:p></o:p></span></strong></p>
      color:crimson;mso-bidi-font-weight:bold'>&lt;title&gt;</span></code><span
      style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
      mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-     mso-bidi-font-weight:bold'>&nbsp;element specifies a title for the HTML
-     page (which is shown in the browser's title bar or in the page's tab)<o:p></o:p></span></li>
+     mso-bidi-font-weight:bold'>&nbsp;element specifies a title for the HTML page
+     (which is shown in the browser's title bar or in the page's tab)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:black;line-height:150%;mso-list:l11 level1 lfo4;
      tab-stops:list 36.0pt;background:white;box-sizing: inherit'><span
      style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -2288,7 +2297,9 @@ minor-latin;color:#002060;background:#FFFFCC;mso-bidi-font-weight:bold'><span
 style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
 text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
 text-decoration-style: initial;text-decoration-color: initial;float:none;
-word-spacing:0px'>&nbsp;</span><o:p></o:p></span></p>
+word-spacing:0px'>&nbsp;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:#002060;background:#FFFFCC'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
 150%;mso-list:l11 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
@@ -2595,7 +2606,7 @@ style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black;background:#FFFFCC;mso-bidi-font-weight:bold'>You can
 use either .<span class=SpellE>htm</span> or .html as file extension. There is
-no difference, it is up to you.</span><o:p></o:p></p>
+no difference, it is up to you.</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -2845,7 +2856,7 @@ color:mediumblue;background:white;mso-bidi-font-weight:bold'>&gt;</span></span><
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;background:#FFFFCC'>Example</span></b><o:p></o:p></p>
+minor-latin;color:black;background:#FFFFCC'>Example</span></b></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;line-height:150%;background:white'><span
