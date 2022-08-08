@@ -2,23 +2,33 @@
 
 Content
 
+1.HTML Input Attributes
+
+1.1 The value Attribute
+
+1.2 The readonly Attribute
+
+1.3 The disabled Attribute
+
+1.4 The size Attribute
+
+1.5 The maxlength Attribute
+
+1.6 The min and max Attributes
+
+1.7 The placeholder Attribute
+
+1.8 The required Attribute
+
+1.9 The autofocus Attribute
+
+1.10 The height and width Attributes
+
+2\. References
+
 ## 1.HTML Input Attributes
 
-## 1.1 The value Attribute
-
-## 1.2 The readonly Attribute
-
-1.3 **The disabled Attribute**
-
-## 1.4 The size Attribute
-
-## 1.5 The maxlength Attribute
-
-## 1.6 The min and max Attributes
-
-## 1.HTML Input Attributes
-
--   The different attributes for the HTML \<input\> element are **value,** **readonly, disabled, size, maxlength, min and max, placeholder,** .
+-   The different attributes for the HTML \<input\> element are **value,** **readonly, disabled, size, maxlength, min and max, placeholder,** required, autofocus, height and width.
 
 ## 1.1 The value Attribute
 
@@ -32,7 +42,7 @@ Content
 -   A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
 -   The value of a read-only input field will be sent when submitting the form!
 
-![](media/7a8f57fc9d8da33a7d4d1a1afec5fe19.png)
+![](media/e6cce1e5bc67cc584b9b2920a13b934d.png)
 
 ## 1.3 The disabled Attribute
 
@@ -40,7 +50,7 @@ Content
 -   A disabled input field is unusable and un-clickable.
 -   The value of a disabled input field will not be sent when submitting the form!
 
-![](media/b9b4f9c643f74cdc97b7fccd78d4e483.png)
+![](media/12af531df07134449049876bffb4e0bf.png)
 
 ## 1.4 The size Attribute
 
@@ -74,23 +84,22 @@ Content
 -   The short hint is displayed in the input field before the user enters a value.
 -   The placeholder attribute works with the following input types: text, search, email, and password.
 
-![](media/25cdbe9b6bf86a8d47fec12f00477b7f.png)
+![](media/3dd322a2d4e920e82ad37ed0d01f31be.png)
 
 ## 1.8 The required Attribute
 
-The input required attribute specifies that an input field must be filled out before submitting the form.
+-   The input required attribute specifies that an input field must be filled out before submitting the form.
+-   The required attribute works with the following input types: text, search, email, password, number, checkbox, radio, and file.
 
-The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+![](media/ef19dab472e32ad6127338c73f6d1915.png)
 
-![](media/ccee489a4d99706ba26ffecc738d7215.png)
-
-## The autofocus Attribute
+## 1.9 The autofocus Attribute
 
 The input autofocus attribute specifies that an input field should automatically get focus when the page loads.
 
 ![](media/ff24e475c713d984457f72a458ba2028.png)
 
-## The height and width Attributes
+## 1.10 The height and width Attributes
 
 The input height and width attributes specify the height and width of an \<input type="image"\> element.
 
@@ -98,6 +107,6 @@ The input height and width attributes specify the height and width of an \<input
 
 ![](media/e58083b95facd6b0fe95176ae8fc3fa0.png)
 
-References
+2\. References
 
 1\. https://www.w3schools.com/html/html_form_attributes.asp
