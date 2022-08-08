@@ -74,7 +74,7 @@ Content
 -   The short hint is displayed in the input field before the user enters a value.
 -   The placeholder attribute works with the following input types: text, search, email, and password.
 
-![](media/cb5ce0f7afcbcc3ccc4c6c7fe45cc0dc.png)
+![](media/25cdbe9b6bf86a8d47fec12f00477b7f.png)
 
 ## 1.8 The required Attribute
 
