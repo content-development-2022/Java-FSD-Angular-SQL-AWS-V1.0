@@ -115,13 +115,13 @@
 
 **Exmple:** Let the "First name" input field automatically get focus when the page loads:
 
-![](media/ff24e475c713d984457f72a458ba2028.png)
+![](media/5f3a5735b186e3d0f9c5177f1b0f81d4.png)
 
 ## 1.10 The height and width Attributes
 
-The input height and width attributes specify the height and width of an \<input type="image"\> element.
+-   The input height and width attributes specify the height and width of an \<input type="image"\> element.
 
-**Tip:** Always specify both the height and width attributes for images. If height and width are set, the space required for the image is reserved when the page is loaded. Without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+**Note:** Always specify both the height and width attributes for images. If height and width are set, the space required for the image is reserved when the page is loaded. Without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
 
 **Exmple:** Define an image as the submit button, with height and width attributes:
 
