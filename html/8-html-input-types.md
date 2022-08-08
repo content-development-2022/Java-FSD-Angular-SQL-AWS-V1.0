@@ -163,3 +163,7 @@ The required src attribute specifies the path (URL) to the image.
 **Note:** When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, otherwise your visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser cannot find the image.
 
 ![](media/261b7293cb25ff95f7d5401daff80cd5.png)
+
+References
+
+1\. https://www.w3schools.com/html/html_form_input_types.asp
