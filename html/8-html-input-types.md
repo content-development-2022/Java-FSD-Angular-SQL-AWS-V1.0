@@ -138,3 +138,28 @@ The following example displays a numeric input field, where you can enter a valu
 The \<input type="search"\> is used for search fields (a search field behaves like a regular text field).
 
 ![](media/22db32e7fb2cb4fceb06101ebaeafa3e.png)
+
+# HTML Images
+
+The HTML \<img\> tag is used to embed an image in a web page.
+
+Images are not technically inserted into a web page; images are linked to web pages. The \<img\> tag creates a holding space for the referenced image.
+
+The \<img\> tag is empty, it contains attributes only, and does not have a closing tag.
+
+The \<img\> tag has two required attributes:
+
+-   src - Specifies the path to the image
+-   alt - Specifies an alternate text for the image
+
+### Syntax
+
+\<img src="*url*" alt="*alternatetext*"\>
+
+## The src Attribute
+
+The required src attribute specifies the path (URL) to the image.
+
+**Note:** When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, otherwise your visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser cannot find the image.
+
+![](media/261b7293cb25ff95f7d5401daff80cd5.png)
