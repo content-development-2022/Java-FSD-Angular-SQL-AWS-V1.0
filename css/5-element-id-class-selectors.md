@@ -102,6 +102,15 @@ HTML elements can also refer to more than one class.
 
 ![](media/9016474f8cc974dcf1617d18a0f80777.png)
 
+# Advanced Selectors in CSS
+
+Selectors are used for selecting the HTML elements in the attributes. Some different types of selectors are given below:
+
+-   **Adjacent Sibling Selector:** It selects all the elements that are adjacent siblings of specified elements. It selects the second element if it immediately follows the first element.   
+    **Syntax**: It select ul tags which immediately follows the h4 tag.
+
 ## 6. References
 
-1\. https://www.w3schools.com/css/css_selectors.asp
+1\. <https://www.w3schools.com/css/css_selectors.asp>
+
+https://www.geeksforgeeks.org/advanced-selectors-in-css/?ref=lbp
