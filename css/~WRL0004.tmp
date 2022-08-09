@@ -25,16 +25,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>10</o:Revision>
-  <o:TotalTime>22</o:TotalTime>
+  <o:Revision>9</o:Revision>
+  <o:TotalTime>17</o:TotalTime>
   <o:Created>2022-08-09T01:29:00Z</o:Created>
-  <o:LastSaved>2022-08-09T01:51:00Z</o:LastSaved>
-  <o:Pages>4</o:Pages>
-  <o:Words>297</o:Words>
-  <o:Characters>1698</o:Characters>
+  <o:LastSaved>2022-08-09T01:46:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>296</o:Words>
+  <o:Characters>1689</o:Characters>
   <o:Lines>14</o:Lines>
   <o:Paragraphs>3</o:Paragraphs>
-  <o:CharactersWithSpaces>1992</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>1982</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -759,7 +759,8 @@ h3
 	mso-themeshade:127;
 	font-weight:normal;}
 p
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	mso-margin-top-alt:auto;
 	margin-right:0cm;
 	mso-margin-bottom-alt:auto;
@@ -901,9 +902,6 @@ span.colorh1
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -993,115 +991,48 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l1
-	{mso-list-id:317270764;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1151955678 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l1:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l1:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l1:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l1:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l1:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l1:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l1:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l1:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l1:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l2
 	{mso-list-id:460654688;
 	mso-list-template-ids:-519691210;}
-@list l2:level1
+@list l1:level1
 	{mso-level-tab-stop:36.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l2:level2
+@list l1:level2
 	{mso-level-tab-stop:72.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l2:level3
+@list l1:level3
 	{mso-level-tab-stop:108.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l2:level4
+@list l1:level4
 	{mso-level-tab-stop:144.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l2:level5
+@list l1:level5
 	{mso-level-tab-stop:180.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l2:level6
+@list l1:level6
 	{mso-level-tab-stop:216.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l2:level7
+@list l1:level7
 	{mso-level-tab-stop:252.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l2:level8
+@list l1:level8
 	{mso-level-tab-stop:288.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l2:level9
+@list l1:level9
 	{mso-level-tab-stop:324.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l3
+@list l2
 	{mso-list-id:493646781;
 	mso-list-template-ids:-924788070;}
-@list l3:level1
+@list l2:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:36.0pt;
@@ -1109,7 +1040,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l3:level2
+@list l2:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:72.0pt;
@@ -1117,7 +1048,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l3:level3
+@list l2:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:108.0pt;
@@ -1125,7 +1056,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l3:level4
+@list l2:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:144.0pt;
@@ -1133,7 +1064,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l3:level5
+@list l2:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:180.0pt;
@@ -1141,7 +1072,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l3:level6
+@list l2:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:216.0pt;
@@ -1149,7 +1080,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l3:level7
+@list l2:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:252.0pt;
@@ -1157,7 +1088,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l3:level8
+@list l2:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:288.0pt;
@@ -1165,7 +1096,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l3:level9
+@list l2:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:324.0pt;
@@ -1173,77 +1104,77 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l4
+@list l3
 	{mso-list-id:507448367;
 	mso-list-type:hybrid;
 	mso-list-template-ids:1476570114 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l4:level1
+@list l3:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l4:level2
+@list l3:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l4:level3
+@list l3:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l4:level4
+@list l3:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l4:level5
+@list l3:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l4:level6
+@list l3:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l4:level7
+@list l3:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l4:level8
+@list l3:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l4:level9
+@list l3:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l5
+@list l4
 	{mso-list-id:651328893;
 	mso-list-template-ids:-96701316;}
-@list l5:level1
+@list l4:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:36.0pt;
@@ -1251,7 +1182,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l5:level2
+@list l4:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:72.0pt;
@@ -1260,7 +1191,7 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:"Courier New";
 	mso-bidi-font-family:"Times New Roman";}
-@list l5:level3
+@list l4:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:108.0pt;
@@ -1268,7 +1199,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l5:level4
+@list l4:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:144.0pt;
@@ -1276,7 +1207,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l5:level5
+@list l4:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:180.0pt;
@@ -1284,7 +1215,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l5:level6
+@list l4:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:216.0pt;
@@ -1292,7 +1223,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l5:level7
+@list l4:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:252.0pt;
@@ -1300,7 +1231,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l5:level8
+@list l4:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:288.0pt;
@@ -1308,7 +1239,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l5:level9
+@list l4:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:324.0pt;
@@ -1316,374 +1247,173 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l6
+@list l5
 	{mso-list-id:704914378;
 	mso-list-type:hybrid;
 	mso-list-template-ids:-1116574446 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l6:level1
+@list l5:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l6:level2
+@list l5:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l6:level3
+@list l5:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l6:level4
+@list l5:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l6:level5
+@list l5:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l6:level6
+@list l5:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l6:level7
+@list l5:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l6:level8
+@list l5:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l6:level9
+@list l5:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l7
+@list l6
 	{mso-list-id:1108088920;
 	mso-list-template-ids:1141925524;}
-@list l7:level1
+@list l6:level1
 	{mso-level-tab-stop:36.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l7:level2
+@list l6:level2
 	{mso-level-tab-stop:72.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l7:level3
+@list l6:level3
 	{mso-level-tab-stop:108.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l7:level4
+@list l6:level4
 	{mso-level-tab-stop:144.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l7:level5
+@list l6:level5
 	{mso-level-tab-stop:180.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l7:level6
+@list l6:level6
 	{mso-level-tab-stop:216.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l7:level7
+@list l6:level7
 	{mso-level-tab-stop:252.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l7:level8
+@list l6:level8
 	{mso-level-tab-stop:288.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l7:level9
+@list l6:level9
 	{mso-level-tab-stop:324.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;}
-@list l8
-	{mso-list-id:1185828109;
-	mso-list-type:hybrid;
-	mso-list-template-ids:2116717366 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l8:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l8:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l8:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l8:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l8:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l8:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l8:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l8:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l8:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l9
-	{mso-list-id:1848252786;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1040570948 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l9:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l9:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l9:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l9:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l9:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l9:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l9:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l9:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l9:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l10
+@list l7
 	{mso-list-id:1862158804;
 	mso-list-type:hybrid;
 	mso-list-template-ids:308695642 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l10:level1
+@list l7:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l10:level2
+@list l7:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l10:level3
+@list l7:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l10:level4
+@list l7:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l10:level5
+@list l7:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l10:level6
+@list l7:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l10:level7
+@list l7:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l10:level8
+@list l7:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l10:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l11
-	{mso-list-id:1878345775;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-768443196 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l11:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l11:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l11:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l11:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l11:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l11:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l11:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l11:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l11:level9
+@list l7:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
@@ -1746,7 +1476,7 @@ minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h1>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;line-height:150%;
-mso-list:l10 level1 lfo7;background:white'><![if !supportLists]><span
+mso-list:l7 level1 lfo7;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1757,7 +1487,7 @@ a browser reads a style sheet, it will format the HTML document according to
 the information in the style sheet.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;line-height:150%;
-mso-list:l10 level1 lfo7;background:white'><![if !supportLists]><span
+mso-list:l7 level1 lfo7;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1793,7 +1523,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h1>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l4 level1 lfo9;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l3 level1 lfo9;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -1806,7 +1536,7 @@ minor-latin;color:black'>With an external style sheet, you can change the look
 of an entire website by changing just one file!<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l4 level1 lfo9;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l3 level1 lfo9;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -1819,21 +1549,20 @@ minor-latin;color:black'>Each HTML page must include a reference to the
 external style sheet file inside the &lt;link&gt; element, inside the head
 section.<o:p></o:p></span></p>
 
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+<h3 style='margin-top:0cm;line-height:150%;background:#E7E9EB;box-sizing: inherit'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example<o:p></o:p></span></b></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h3>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l11 level1 lfo11;
-background:white'><![if !supportLists]><span style='font-family:Symbol;
+<p class=MsoListParagraph style='text-indent:-18.0pt;line-height:150%;
+mso-list:l5 level1 lfo10'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black;background:#E7E9EB'>External styles are defined within
-the &lt;link&gt; element, inside the &lt;head&gt; section of an HTML page:</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+the &lt;link&gt; element, inside the &lt;head&gt; section of an HTML page:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
@@ -1867,7 +1596,7 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l6 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l5 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1878,7 +1607,7 @@ editor, and must be saved with a <b style='mso-bidi-font-weight:normal'>.<span
 class=SpellE>css</span> extension</b>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l6 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l5 level1 lfo10;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -1911,59 +1640,44 @@ src="3-inline-internl-external-style-sheets_files/image003.png" v:shapes="Pictur
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
-<h1 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:white'><b><span style='font-size:14.0pt;font-family:"Calibri","sans-serif";
+<h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>2. Internal CSS</span></b><span style='font-size:14.0pt;
-font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'><o:p></o:p></span></h1>
+minor-latin;color:black;font-weight:normal'>Internal CSS</span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+font-weight:normal'><o:p></o:p></span></h2>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l9 level1 lfo12;
-background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>An internal style sheet may be used if one single HTML
-page has a unique style.<o:p></o:p></span></p>
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>An internal style sheet may be used if one single HTML page has a
+unique style.<o:p></o:p></span></p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l9 level1 lfo12;
-background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>The internal style is defined inside the &lt;style&gt;
-element, inside the head section.<o:p></o:p></span></p>
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>The internal style is defined inside the &lt;style&gt; element,
+inside the head section.<o:p></o:p></span></p>
 
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+<h3 style='margin-top:0cm;line-height:150%;background:#E7E9EB;box-sizing: inherit'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h3>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l8 level1 lfo13;
-background:#E7E9EB'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB;
+box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>Internal styles are defined within the &lt;style&gt; element,
 inside the &lt;head&gt; section of an HTML page:<o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
@@ -1977,63 +1691,41 @@ src="3-inline-internl-external-style-sheets_files/image004.png" v:shapes="Pictur
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
-<h1 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:white'><span class=GramE><b><span style='font-size:14.0pt;
-font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'>3.Inline</span></b></span><b><span
-style='font-size:14.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'> CSS</span></b><span style='font-size:14.0pt;font-family:"Calibri","sans-serif";
+<h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;font-weight:normal'>Inline CSS</span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h1>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+font-weight:normal'><o:p></o:p></span></h2>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l8 level1 lfo13;
-background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>An inline style may be used to apply a unique style
-for a single element.<o:p></o:p></span></p>
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>An inline style may be used to apply a unique style for a single
+element.<o:p></o:p></span></p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l8 level1 lfo13;
-background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>To use inline styles, add the style attribute to the
-relevant element. <o:p></o:p></span></p>
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>To use inline styles, add the style attribute to the relevant
+element. The style attribute can contain any CSS property.<o:p></o:p></span></p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l8 level1 lfo13;
-background:white'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>The style attribute can contain any CSS property.<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+<h3 style='margin-top:0cm;line-height:150%;background:#E7E9EB;box-sizing: inherit'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h3>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l1 level1 lfo14;
-background:#E7E9EB'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB;
+box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>Inline styles are defined within the &quot;style&quot;
 attribute of the relevant element:<o:p></o:p></span></p>
@@ -2048,32 +1740,35 @@ minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4"
 </v:shape><![endif]--><![if !vml]><img width=601 height=101
 src="3-inline-internl-external-style-sheets_files/image006.jpg" v:shapes="Picture_x0020_4"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-background:#FFFFCC'><o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+<h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><strong><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;background:#FFFFCC'>Note:<o:p></o:p></span></p>
+minor-latin;color:black;background:#FFFFCC;font-weight:normal'>Tip:</span></strong><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;background:#FFFFCC'><span style='font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>&nbsp;An inline style loses many of the advantages
+of a style sheet (by mixing content with presentation). Use this method
+sparingly.</span></span><span style='font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black;font-weight:normal'>
+Cascading Order</span><span style='font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black;font-weight:normal'><o:p></o:p></span></h2>
 
-<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;background:#FFFFCC'>&nbsp;An inline style loses many of
-the advantages of a style sheet (by mixing content with presentation). Use this
-method sparingly.</span></span><b><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'> <o:p></o:p></span></b></p>
-
-<p class=MsoNormal style='line-height:150%'><b><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Cascading Order</span></b><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>What
-style will be used when there is more than one style specified for an HTML
-element?<o:p></o:p></span></p>
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>What style will be used when there is more than one style
+specified for an HTML element?<o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
 box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
@@ -2089,17 +1784,17 @@ the highest priority:<o:p></o:p></span></p>
  font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
  word-spacing:0px' start=1 type=1>
- <li class=MsoNormal style='color:black;line-height:150%;mso-list:l2 level1 lfo6;
+ <li class=MsoNormal style='color:black;line-height:150%;mso-list:l1 level1 lfo6;
      tab-stops:list 36.0pt;background:white;box-sizing: inherit'><span
      style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
      mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Inline
      style (inside an HTML element)<o:p></o:p></span></li>
- <li class=MsoNormal style='color:black;line-height:150%;mso-list:l2 level1 lfo6;
+ <li class=MsoNormal style='color:black;line-height:150%;mso-list:l1 level1 lfo6;
      tab-stops:list 36.0pt;background:white;box-sizing: inherit'><span
      style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
      mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>External
      and internal style sheets (in the head section)<o:p></o:p></span></li>
- <li class=MsoNormal style='color:black;line-height:150%;mso-list:l2 level1 lfo6;
+ <li class=MsoNormal style='color:black;line-height:150%;mso-list:l1 level1 lfo6;
      tab-stops:list 36.0pt;background:white;box-sizing: inherit'><span
      style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
      mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Browser
