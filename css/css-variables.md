@@ -36,4 +36,4 @@ The following example is equal to the example above, but here we use the var() f
 
 First, we declare two global variables (--blue and --white). Then, we use the var() function to insert the value of the variables later in the style sheet:
 
-![](media/eeb0d1a56121955782a4fe3db4161add.png)
+![](media/abaa5813f0707f90fcf412bbd41fd634.png)
