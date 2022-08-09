@@ -69,6 +69,13 @@ HTML elements can also refer to more than one class.
 
 ![](media/86ec2af204c50615c077c95df506b854.png)**Note:** A class name cannot start with a number!
 
-## 5. References
+## 5. Descendant Selector
+
+-   The descendant selector matches all elements that are descendants of a specified element.
+-   The following example selects all \<p\> elements inside \<div\> elements:
+
+![](media/9016474f8cc974dcf1617d18a0f80777.png)
+
+## 6. References
 
 1\. https://www.w3schools.com/css/css_selectors.asp
