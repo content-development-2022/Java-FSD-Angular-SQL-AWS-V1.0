@@ -25,16 +25,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>17</o:Revision>
-  <o:TotalTime>31</o:TotalTime>
+  <o:Revision>21</o:Revision>
+  <o:TotalTime>32</o:TotalTime>
   <o:Created>2022-08-09T01:29:00Z</o:Created>
-  <o:LastSaved>2022-08-09T02:00:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-09T02:01:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>317</o:Words>
-  <o:Characters>1812</o:Characters>
+  <o:Characters>1810</o:Characters>
   <o:Lines>15</o:Lines>
   <o:Paragraphs>4</o:Paragraphs>
-  <o:CharactersWithSpaces>2125</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>2123</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1909,10 +1909,10 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example<o:p></o:p></span></b></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l12 level1 lfo11;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l12 level1 lfo11;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black;background:#E7E9EB'>External styles are defined within
@@ -2037,24 +2037,18 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l8 level1 lfo13;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo13;
 background:#E7E9EB'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>Internal styles are defined within the &lt;style&gt; element,
-inside the &lt;head&gt; section of an HTML page:<o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3"
- o:spid="_x0000_i1027" type="#_x0000_t75" style='width:422.25pt;height:288.75pt;
- visibility:visible;mso-wrap-style:square'>
+inside the &lt;head&gt; section of an HTML page:</span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_3" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:422.25pt;
+ height:288.75pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="3-inline-internl-external-style-sheets_files/image004.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=563 height=385
