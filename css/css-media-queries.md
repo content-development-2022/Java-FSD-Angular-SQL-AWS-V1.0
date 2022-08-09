@@ -55,6 +55,21 @@ The following example shows a menu that will float to the left of the page if th
 
 ![](media/7839c58503086794b449f560b5befeac.png)
 
+**Features of Media query:** There are many features of media query which are listed below:
+
+-   **color:** The number of bits per color component for the output device.
+-   **grid:** Checks whether the device is grid or bitmap.
+-   **height:** The viewport height.
+-   **aspect ratio:** The ratio between width and height of the viewport.
+-   **color-index:** The number of colors the device can display.
+-   **max-resolution:** The maximum resolution of the device using dpi and dpcm.
+-   **monochrome:** The number of bits per color on a monochrome device.
+-   **scan:** The scanning of output devices.
+-   **update:** How quickly can the output device modify.
+-   **width:** The viewport width.
+
 References
 
-https://www.w3schools.com/css/css3_mediaqueries.asp
+<https://www.w3schools.com/css/css3_mediaqueries.asp>
+
+https://www.geeksforgeeks.org/css-media-queries/?ref=lbp

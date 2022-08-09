@@ -30,6 +30,14 @@ Here, am explaining the most basic CSS selectors.
 
 -   The element selector selects HTML elements based on the element name.
 
+**Syntax:**
+
+element {
+
+\\\\ CSS property
+
+}
+
 **Example**
 
 ![](media/b4a7f284466feb883563f62b676b7035.png)
@@ -39,6 +47,14 @@ Here, am explaining the most basic CSS selectors.
 -   The id selector uses the id attribute of an HTML element to select a specific element.
 -   The id of an element is unique within a page, so the id selector is used to select one unique element!
 -   To select an element with a specific id, write a hash (\#) character, followed by the id of the element.
+
+**Syntax:**
+
+\#id {
+
+// CSS property
+
+}
 
 **Example**
 
@@ -50,6 +66,14 @@ Here, am explaining the most basic CSS selectors.
 
 -   The class selector selects HTML elements with a specific class attribute.
 -   To select elements with a specific class, write a period (.) character, followed by the class name.
+
+**Syntax:**
+
+.class {
+
+// CSS property
+
+}
 
 **Example**
 
