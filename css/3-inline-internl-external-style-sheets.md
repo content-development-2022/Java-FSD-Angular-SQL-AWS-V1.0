@@ -25,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>24</o:Revision>
-  <o:TotalTime>39</o:TotalTime>
+  <o:Revision>26</o:Revision>
+  <o:TotalTime>44</o:TotalTime>
   <o:Created>2022-08-09T01:29:00Z</o:Created>
-  <o:LastSaved>2022-08-09T02:08:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-09T02:13:00Z</o:LastSaved>
   <o:Pages>5</o:Pages>
   <o:Words>321</o:Words>
   <o:Characters>1833</o:Characters>
@@ -2182,19 +2182,15 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>What style will be used when there is more than one
 style specified for an HTML element?<o:p></o:p></span></b></p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l1 level1 lfo14;
-background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>All the styles in a page will &quot;cascade&quot; into
-a new &quot;virtual&quot; style sheet by the following rules, where number one
-has the highest priority:<o:p></o:p></span></p>
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>All the styles in a page will &quot;cascade&quot; into a new
+&quot;virtual&quot; style sheet by the following rules, where number one has
+the highest priority:<o:p></o:p></span></p>
 
 <ol style='margin-top:0cm;box-sizing: inherit;font-variant-ligatures: normal;
  font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
