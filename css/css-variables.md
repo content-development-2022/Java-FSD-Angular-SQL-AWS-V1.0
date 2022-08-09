@@ -8,4 +8,4 @@ CSS Variables
 
 The following example shows the traditional way of defining some colors in a style sheet (by defining the colors to use, for each specific element):
 
-![](media/414534d14fdac6ef44af2f4213362ff5.png)
+![](media/eeb0afdabd81fec49ba64f6abfa87815.png)
