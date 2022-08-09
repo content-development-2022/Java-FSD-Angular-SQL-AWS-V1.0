@@ -54,3 +54,7 @@ The following example shows a menu that will float to the left of the page if th
 ![](media/97a748e97a36d88ca1c879ece8644a6c.png)
 
 ![](media/7839c58503086794b449f560b5befeac.png)
+
+References
+
+https://www.w3schools.com/css/css3_mediaqueries.asp
