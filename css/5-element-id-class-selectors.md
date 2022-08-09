@@ -10,7 +10,9 @@
 
 4\. The CSS class Selector
 
-5\. References
+5\. Descendant Selector
+
+6\. References
 
 ## 1. CSS Selectors
 
