@@ -24,7 +24,7 @@
 2.  The clean lifecycle handles project cleaning.
 3.  The site lifecycle handles the creation of your project's web site.
 
-#### A Build Lifecycle is Made Up of Phases
+#### **Build Lifecycle Phases**
 
 -   Each of these build lifecycles is defined by a different list of build phases, wherein a build phase represents a stage in the lifecycle.
 -   For example, the default lifecycle comprises of the following phases (for a complete list of the lifecycle phases):
@@ -38,7 +38,7 @@
 
 These lifecycle phases are executed sequentially to complete the default lifecycle. Given the lifecycle phases above, this means that when the default lifecycle is used, Maven will first validate the project, then will try to compile the sources, run those against the tests, package the binaries (e.g. jar), run integration tests against that package, verify the integration tests, install the verified package to the local repository, then deploy the installed package to a remote repository.
 
-### Archetype
+## Archetype
 
 -   In short, Archetype is a Maven project templating toolkit.
 -   Archetype will help authors create Maven project templates for users, and provides users with the means to generate parameterized versions of those project templates.
@@ -50,7 +50,7 @@ These lifecycle phases are executed sequentially to complete the default lifecyc
 2.  Using maven commands, you can create the maven project.
 3.  Existing file, you can convert into a maven project.
 
-### POM
+## POM
 
 -   A Project Object Model or POM is the fundamental unit of work in Maven.
 -   It is an XML file that contains information about the project and configuration details used by Maven to build the project.
@@ -58,12 +58,12 @@ These lifecycle phases are executed sequentially to complete the default lifecyc
 
 **Example** for this is the build directory, which is target; the source directory, which is src/main/java; the test source directory, which is src/test/java; and so on. When executing a task or goal, Maven looks for the POM in the current directory. It reads the POM, gets the needed configuration information, then executes the goal.
 
-### Super POM
+## Super POM
 
 -   The Super POM is Maven's default POM.
 -   All POMs extend the Super POM unless explicitly set, meaning the configuration specified in the Super POM is inherited by the POMs you created for your projects.
 
-### Minimal POM
+## Minimal POM
 
 The minimum requirement for a POM are the following:
 
@@ -71,26 +71,44 @@ The minimum requirement for a POM are the following:
 -   modelVersion - should be set to 4.0.0
 -   groupId - the id of the project's group.
 -   artifactId - the id of the artifact (project)
--   version - the version of the artifact under the specified group
+-   version - the version of the artifact under the specified group.
 
-Here's an example:
+    **Example:**
 
 1.  \<project\>
 2.  \<modelVersion\>4.0.0\</modelVersion\>
-3.  
-4.  \<groupId\>com.mycompany.app\</groupId\>
-5.  \<artifactId\>my-app\</artifactId\>
-6.  \<version\>1\</version\>
-7.  \</project\>
-
-A POM requires that its groupId, artifactId, and version be configured. These three values form the project's fully qualified artifact name. This is in the form of \<groupId\>:\<artifactId\>:\<version\>. As for the example above, its fully qualified artifact name is "com.mycompany.app:my-app:1".
-
-Also, as mentioned in the [first section](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#What_is_a_POM), if the configuration details are not specified, Maven will use their defaults. One of these default values is the packaging type. Every Maven project has a packaging type. If it is not specified in the POM, then the default value "jar" would be used.
-
-Furthermore, you can see that in the minimal POM the *repositories* were not specified. If you build your project using the minimal POM, it would inherit the *repositories* configuration in the Super POM. Therefore when Maven sees the dependencies in the minimal POM, it would know that these dependencies will be downloaded from https://repo.maven.apache.org/maven2 which was specified in the Super POM.
+3.  \<groupId\>com.mycompany.app\</groupId\>
+4.  \<artifactId\>my-app\</artifactId\>
+5.  \<version\>1\</version\>
+6.  \</project\>
+-   A POM requires that its groupId, artifactId, and version be configured. These three values form the project's fully qualified artifact name.
+-   This is in the form of \<groupId\>:\<artifactId\>:\<version\>.
+-   if the configuration details are not specified, Maven will use their defaults.
+-   One of these default values is the packaging type. Every Maven project has a packaging type. If it is not specified in the POM, then the default value "jar" would be used.
+-   Furthermore, you can see that in the minimal POM the *repositories* were not specified. If you build your project using the minimal POM, it would inherit the *repositories* configuration in the Super POM. Therefore when Maven sees the dependencies in the minimal POM, it would know that these dependencies will be downloaded from https://repo.maven.apache.org/maven2 which was specified in the Super POM.
 
 ### Project Interpolation
 
-One of the practices that Maven encourages is *don't repeat yourself*. However, there are circumstances where you will need to use the same value in several different locations. To assist in ensuring the value is only specified once, Maven allows you to use both your own and pre-defined variables in the POM.
+-   One of the practices that Maven encourages is *don't repeat yourself*.
+-   However, there are circumstances where you will need to use the same value in several different locations.
+-   To assist in ensuring the value is only specified once, Maven allows you to use both your own and pre-defined variables in the POM.
+-   To know more information about project interpolation [click here](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#Project_Interpolation)
 
-To know more information about project interpolation [click here](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#Project_Interpolation)
+#### **A Build Phase is Made Up of Plugin Goals**
+
+-   Build phase is responsible for a specific step in the build lifecycle, the manner in which it carries out those responsibilities may vary. And this is done by declaring the plugin goals bound to those build phases.
+-   A plugin goal represents a specific task (finer than a build phase) which contributes to the building and managing of a project.
+
+**Example**
+
+mvn clean package
+
+### Artifact Repositories
+
+A repository in Maven holds build artifacts and dependencies of varying types.
+
+There are exactly two types of repositories: **local** and **remote**:
+
+**References**
+
+1\. https://maven.apache.org/what-is-maven.html
