@@ -15,7 +15,7 @@
 3.  Providing quality project information
 4.  Encouraging better development practices
 
-### Build Lifecycle Basics
+## Build Lifecycle Basics
 
 -   Maven is based around the central concept of a build lifecycle.
 -   What this means is that the process for building and distributing a particular artifact (project) is clearly defined.
@@ -24,7 +24,7 @@
 2.  The clean lifecycle handles project cleaning.
 3.  The site lifecycle handles the creation of your project's web site.
 
-#### **Build Lifecycle Phases**
+## Build Lifecycle Phases
 
 -   Each of these build lifecycles is defined by a different list of build phases, wherein a build phase represents a stage in the lifecycle.
 -   For example, the default lifecycle comprises of the following phases (for a complete list of the lifecycle phases):
@@ -87,14 +87,14 @@ The minimum requirement for a POM are the following:
 -   One of these default values is the packaging type. Every Maven project has a packaging type. If it is not specified in the POM, then the default value "jar" would be used.
 -   Furthermore, you can see that in the minimal POM the *repositories* were not specified. If you build your project using the minimal POM, it would inherit the *repositories* configuration in the Super POM. Therefore when Maven sees the dependencies in the minimal POM, it would know that these dependencies will be downloaded from https://repo.maven.apache.org/maven2 which was specified in the Super POM.
 
-### Project Interpolation
+## Project Interpolation
 
 -   One of the practices that Maven encourages is *don't repeat yourself*.
 -   However, there are circumstances where you will need to use the same value in several different locations.
 -   To assist in ensuring the value is only specified once, Maven allows you to use both your own and pre-defined variables in the POM.
 -   To know more information about project interpolation [click here](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#Project_Interpolation)
 
-#### **A Build Phase is Made Up of Plugin Goals**
+## A Build Phase is Made Up of Plugin Goals
 
 -   Build phase is responsible for a specific step in the build lifecycle, the manner in which it carries out those responsibilities may vary. And this is done by declaring the plugin goals bound to those build phases.
 -   A plugin goal represents a specific task (finer than a build phase) which contributes to the building and managing of a project.
@@ -103,12 +103,12 @@ The minimum requirement for a POM are the following:
 
 mvn clean package
 
-### Artifact Repositories
+## Artifact Repositories
 
 A repository in Maven holds build artifacts and dependencies of varying types.
 
 There are exactly two types of repositories: **local** and **remote**:
 
-**References**
+## References
 
 1\. https://maven.apache.org/what-is-maven.html
