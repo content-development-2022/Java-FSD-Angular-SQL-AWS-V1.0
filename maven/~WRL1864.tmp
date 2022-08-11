@@ -24,23 +24,9 @@
 
 6\. Project Interpolation and Variables
 
-7\. Introduction to Repositories
+7.Introduction to Repositories
 
 7.1 Artifact Repositories
-
-7.2 Using Repositories
-
-7.3 Downloading from a Remote Repository
-
-7.4 Using Mirrors for the Central Repository
-
-8\. Maven Plugin
-
-8.1 Available Plugins
-
-8.2 Supported by the Maven Project
-
-9\. References
 
 ## 1. Introduction of Maven
 
@@ -178,53 +164,54 @@ The minimum requirement for a POM are the following:
 
 ### 7.2 Using Repositories
 
--   In general, you should not need to do anything with the local repository on a regular basis, except clean it out if you are short on disk space (or erase it completely if you are willing to download everything again).
+In general, you should not need to do anything with the local repository on a regular basis, except clean it out if you are short on disk space (or erase it completely if you are willing to download everything again).
 
-### 7.3 Downloading from a Remote Repository
+#### 7.3 Downloading from a Remote Repository
 
--   Downloading in Maven is triggered by a project declaring a dependency that is not present in the local repository (or for a SNAPSHOT, when the remote repository contains one that is newer). By default, Maven will download from the [central](https://repo.maven.apache.org/maven2/) repository.
+Downloading in Maven is triggered by a project declaring a dependency that is not present in the local repository (or for a SNAPSHOT, when the remote repository contains one that is newer). By default, Maven will download from the [central](https://repo.maven.apache.org/maven2/) repository.
 
-### 7.4 Using Mirrors for the Central Repository
+#### 7.4 Using Mirrors for the Central Repository
 
--   There are [several official Central repositories](https://maven.apache.org/repository/) geographically distributed.
--   You can make changes to your settings.xml file to use one or more mirrors.
--   Instructions for this can be found in the guide [Using Mirrors for Repositories](https://maven.apache.org/guides/mini/guide-mirror-settings.html).
+There are [several official Central repositories](https://maven.apache.org/repository/) geographically distributed. You can make changes to your settings.xml file to use one or more mirrors. Instructions for this can be found in the guide [Using Mirrors for Repositories](https://maven.apache.org/guides/mini/guide-mirror-settings.html).
 
 ## 8. Maven Plugin
 
-### 8.1 Available Plugins
+## 8.1 Available Plugins
 
--   Maven is - at its heart - a plugin execution framework; all work is done by plugins.
--   There are 2 plugins: the build and the reporting plugins:
-1.  **Build plugins** will be executed during the build and they should be configured in the \<build/\> element from the POM.
-2.  **Reporting plugins** will be executed during the site generation and they should be configured in the \<reporting/\> element from the POM. Because the result of a Reporting plugin is part of the generated site, Reporting plugins should be both internationalized and localized.
-3.  To know more details about reporting plugin [click here](https://maven.apache.org/plugins/index.html)
+Maven is - at its heart - a plugin execution framework; all work is done by plugins. Looking for a specific goal to execute? This page lists the core plugins and others. There are the build and the reporting plugins:
+
+-   **Build plugins** will be executed during the build and they should be configured in the \<build/\> element from the POM.
+-   **Reporting plugins** will be executed during the site generation and they should be configured in the \<reporting/\> element from the POM. Because the result of a Reporting plugin is part of the generated site, Reporting plugins should be both internationalized and localized. You can read more about the [localization of our plugins](https://maven.apache.org/plugins/localization.html) and how you can help.
+-   **To know more details about reporting plugin** [**click here**](https://maven.apache.org/plugins/index.html)
 
 ### 8.2 Supported by the Maven Project
 
-**Maven Compiler Plugin**
+### 
 
--   Compiles Java sources.
+## Maven Compiler Plugin
 
-**Compiling Your Java Sources**
+Compiles Java sources.
 
--   The goals for the Compiler Plugin are bound to their respective phases in the build lifecycle. So to compile your sources, you need only to tell maven until which lifecycle to execute.
+### Compiling Your Java Sources
 
-**Configuring Your Compiler Plugin**
+The goals for the Compiler Plugin are bound to their respective phases in the build lifecycle. So to compile your sources, you need only to tell maven until which lifecycle to execute.
 
--   The Compiler Plugin executes automatically during their phases
+### Configuring Your Compiler Plugin
+
+the Compiler Plugin executes automatically during their phases
 
 ![](media/9d63697bd44ec70475614f5e2983d2b6.png)
 
 **Note**: Maven 3.0 will issue warnings if you do not specify the version of a plugin.
 
-**Maven Install Plugin**
+## Maven Install Plugin
 
--   Install the built artifact into the local repository.
--   To know more information about maven plugins [click here](https://maven.apache.org/plugins/index.html)
+Install the built artifact into the local repository.
 
-## 9. References
+To know more information about maven plugins [click here](https://maven.apache.org/plugins/index.html)
+
+## 9.References
 
 1.  <https://maven.apache.org/what-is-maven.html>
-2.  <https://maven.apache.org/guides/introduction/introduction-to-repositories.html>
-3.  https://maven.apache.org/plugins/index.html
+    1.  <https://maven.apache.org/guides/introduction/introduction-to-repositories.html>
+    2.  https://maven.apache.org/plugins/index.html
