@@ -46,9 +46,9 @@ These lifecycle phases are executed sequentially to complete the default lifecyc
 
 **There are three ways to create a maven project**
 
-1.  Using eclipse, directly you can create a maven project.
-2.  Using maven commands, you can create the maven project.
-3.  Existing file, you can convert into a maven project.
+1. Using maven commands, you can create the maven project.
+2. Using maven's eclipse plugin, you can create a new maven project in eclipse.  
+3. Using maven's eclipse plugin, an existing project can be converted into a maven project in eclipse.
 
 ## POM
 
