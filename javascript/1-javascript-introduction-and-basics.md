@@ -25,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>60</o:Revision>
-  <o:TotalTime>193</o:TotalTime>
+  <o:Revision>61</o:Revision>
+  <o:TotalTime>198</o:TotalTime>
   <o:Created>2022-08-12T01:06:00Z</o:Created>
-  <o:LastSaved>2022-08-12T12:58:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-12T13:03:00Z</o:LastSaved>
   <o:Pages>15</o:Pages>
   <o:Words>1803</o:Words>
   <o:Characters>10283</o:Characters>
@@ -6328,10 +6328,11 @@ color:black'>;<span style='box-sizing: inherit'></span><o:p></o:p></span></p>
 
 </span>
 
-<p class=MsoNormal style='line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-background:#FFFFCC'>Note:</span><span style='background:#FFFFCC'><o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;background:#FFFFCC'>Note:</span><span style='background:
+#FFFFCC'><o:p></o:p></span></b></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-7.65pt;line-height:150%;
 mso-list:l8 level1 lfo36;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
@@ -6451,13 +6452,13 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l25 level1 lfo32;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo32;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
 word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>Arithmetic operators are used to perform arithmetic on
@@ -6484,13 +6485,13 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l25 level1 lfo32;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo32;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
 word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>Assignment operators assign values to JavaScript
@@ -6591,7 +6592,8 @@ minor-latin;mso-bidi-theme-font:minor-latin;color:black'></span><o:p></o:p></spa
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB;
 box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>The result of text3 will be:<o:p></o:p></span></p>
+minor-latin;color:black'>The <b style='mso-bidi-font-weight:normal'>result</b>
+of text3 will be:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:#E7E9EB'><code
 style='box-sizing: inherit'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
@@ -6652,7 +6654,8 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB;
 box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>The result of text1 will be:<o:p></o:p></span></p>
+minor-latin;color:black'>The <b style='mso-bidi-font-weight:normal'>result</b>
+of text1 will be:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:#E7E9EB'><code
 style='box-sizing: inherit'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
