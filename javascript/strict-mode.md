@@ -45,15 +45,21 @@
 
 **1. Using a variable, without declaring it, is not allowed:**
 
+**Example:**
+
 "use strict";  
 x = 3.14; // This will cause an error
 
 **2. Duplicating a parameter name is not allowed:**
 
+**Example:**
+
 "use strict";  
 function x(p1, p1) {}; // This will cause an error
 
 **3. Inside function, a variable, without declaring it, is not allowed:**
+
+**Example:**
 
 "use strict";  
 myFunction();
@@ -67,6 +73,8 @@ y = 3.14; // This will also cause an error because y is not declared
 -   The **this** keyword in functions behaves differently in strict mode.
 -   The **this** keyword refers to the object that called the function.
 -   If the object is not specified, functions in strict mode will return undefined and functions in normal mode will return the global object (window):
+
+**Example:**
 
 "use strict";  
 function myFunction() {  
