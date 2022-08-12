@@ -25,16 +25,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>45</o:Revision>
-  <o:TotalTime>160</o:TotalTime>
+  <o:Revision>53</o:Revision>
+  <o:TotalTime>187</o:TotalTime>
   <o:Created>2022-08-12T01:06:00Z</o:Created>
-  <o:LastSaved>2022-08-12T10:42:00Z</o:LastSaved>
-  <o:Pages>12</o:Pages>
-  <o:Words>1589</o:Words>
-  <o:Characters>9061</o:Characters>
-  <o:Lines>75</o:Lines>
-  <o:Paragraphs>21</o:Paragraphs>
-  <o:CharactersWithSpaces>10629</o:CharactersWithSpaces>
+  <o:LastSaved>2022-08-12T12:52:00Z</o:LastSaved>
+  <o:Pages>15</o:Pages>
+  <o:Words>1803</o:Words>
+  <o:Characters>10283</o:Characters>
+  <o:Lines>85</o:Lines>
+  <o:Paragraphs>24</o:Paragraphs>
+  <o:CharactersWithSpaces>12062</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -661,11 +661,10 @@ href="1-javascript-introduction-and-basics_files/colorschememapping.xml">
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
-	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
 	{font-family:"Calibri Light";
 	panose-1:2 15 3 2 2 2 4 3 2 4;
@@ -722,7 +721,8 @@ h1
 	mso-font-kerning:0pt;
 	font-weight:normal;}
 h2
-	{mso-style-priority:9;
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 2 Char";
 	mso-style-next:Normal;
@@ -781,8 +781,7 @@ h3
 	mso-fareast-language:EN-US;
 	font-weight:normal;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	{mso-style-priority:99;
 	color:#0563C1;
 	mso-themecolor:hyperlink;
 	text-decoration:underline;
@@ -901,6 +900,7 @@ span.Heading1Char
 	mso-themeshade:191;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
 	mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -2696,7 +2696,7 @@ div.WordSection1
 @list l25
 	{mso-list-id:1572428208;
 	mso-list-type:hybrid;
-	mso-list-template-ids:727507086 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:1015200322 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l25:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -3702,14 +3702,12 @@ mso-bidi-font-weight:bold'>4.6 JavaScript Keywords<o:p></o:p></span></p>
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 mso-bidi-font-weight:bold'>5. JavaScript&nbsp;<span class=colorh1><span
-style='box-sizing: inherit'>Syntax</span><o:p></o:p></span></span></p>
+style='box-sizing: inherit'>Syntax</span></span></span><span class=colorh1><o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>5.1 JavaScript Identifiers / Names</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+mso-bidi-font-weight:bold'>5.1 JavaScript Identifiers / Names</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -3761,24 +3759,69 @@ orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
 word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black;mso-bidi-font-weight:bold'>5.4 JavaScript is Case Sensitive</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='box-sizing: inherit;font-variant-ligatures: normal;
-font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><span style='mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+color:black;mso-bidi-font-weight:bold'>5.4 JavaScript is Case Sensitive<o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>6. JavaScript&nbsp;<span class=colorh1><span
+style='box-sizing: inherit'>Operators</span></span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%;mso-outline-level:1;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'><o:p>&nbsp;</o:p></span></b></p>
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>6.1 JavaScript Arithmetic Operators<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>6.2 JavaScript Assignment Operators</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black;mso-bidi-font-weight:bold'>6.3 JavaScript String Operators<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>6.4 JavaScript Comparison Operators</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>6.5 JavaScript Logical Operators</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>6.6 JavaScript Type Operators<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>6.7 JavaScript Bitwise Operators</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>7. References<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;mso-outline-level:1;background:white'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
@@ -4009,7 +4052,7 @@ mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="216
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1030" type="#_x0000_t75"
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1036" type="#_x0000_t75"
  style='width:450.75pt;height:147pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="1-javascript-introduction-and-basics_files/image001.png"
   o:title=""/>
@@ -4097,8 +4140,8 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'><span style='mso-spacerun:yes'>&nbsp;</span>{</span></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br>
-<span class=jscolor>&nbsp;<span
-style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
+<span class=jscolor>&nbsp;<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span><span class=SpellE><span
 class=GramE>document.<span class=jspropertycolor>getElementById</span></span></span><span
 class=GramE>(</span></span></span><span class=jsstringcolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -4572,7 +4615,7 @@ defines the HTML content:<o:p></o:p></span></p>
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2" o:spid="_x0000_i1029"
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2" o:spid="_x0000_i1035"
  type="#_x0000_t75" style='width:451.5pt;height:195.75pt;visibility:visible;
  mso-wrap-style:square'>
  <v:imagedata src="1-javascript-introduction-and-basics_files/image003.png"
@@ -4625,7 +4668,7 @@ minor-latin;color:black'>:<o:p></o:p></span></p>
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3" o:spid="_x0000_i1028"
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3" o:spid="_x0000_i1034"
  type="#_x0000_t75" style='width:450.75pt;height:170.25pt;visibility:visible;
  mso-wrap-style:square'>
  <v:imagedata src="1-javascript-introduction-and-basics_files/image005.png"
@@ -4684,7 +4727,7 @@ minor-latin;color:black'>You can use an alert box to display data:<o:p></o:p></s
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4"
- o:spid="_x0000_i1027" type="#_x0000_t75" style='width:450.75pt;height:213pt;
+ o:spid="_x0000_i1033" type="#_x0000_t75" style='width:450.75pt;height:213pt;
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="1-javascript-introduction-and-basics_files/image007.png"
   o:title=""/>
@@ -4756,7 +4799,7 @@ minor-latin;color:black'>&nbsp;method in the browser to display data.<o:p></o:p>
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_5"
- o:spid="_x0000_i1026" type="#_x0000_t75" style='width:450.75pt;height:174.75pt;
+ o:spid="_x0000_i1032" type="#_x0000_t75" style='width:450.75pt;height:174.75pt;
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="1-javascript-introduction-and-basics_files/image009.png"
   o:title=""/>
@@ -4809,10 +4852,10 @@ mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>In a programming language, these programming
-instructions are called&nbsp;<strong style='box-sizing: inherit'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>statements</span></strong>.<o:p></o:p></span></p>
+minor-latin;color:black'>In a programming language, these programming instructions
+are called&nbsp;<strong style='box-sizing: inherit'><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin'>statements</span></strong>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l11 level1 lfo13;
@@ -5037,8 +5080,8 @@ mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>JavaScript ignores multiple spaces. You can add white
-space to your script to make it more readable.<o:p></o:p></span></p>
+minor-latin;color:black'>JavaScript ignores multiple spaces. You can add white space
+to your script to make it more readable.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l19 level1 lfo17;
@@ -5190,7 +5233,7 @@ minor-latin;color:black'>Here is a list of some of the keywords:<o:p></o:p></spa
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_6"
- o:spid="_x0000_i1025" type="#_x0000_t75" style='width:450.75pt;height:279.75pt;
+ o:spid="_x0000_i1031" type="#_x0000_t75" style='width:450.75pt;height:279.75pt;
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="1-javascript-introduction-and-basics_files/image011.png"
   o:title=""/>
@@ -5221,12 +5264,10 @@ style='box-sizing: inherit'>Syntax</span><o:p></o:p></span></span></b></h1>
 style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>5.1 JavaScript Identifiers / Names</span></b><span
-style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo27;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo20;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5239,7 +5280,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Id
 are JavaScript names.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo27;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo20;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5252,7 +5293,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Id
 are used to name variables and functions.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo27;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo20;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5265,7 +5306,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Th
 rules for legal names are the same in most programming languages.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo27;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo20;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5278,7 +5319,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>A
 JavaScript name must begin with:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l23 level1 lfo28;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l23 level1 lfo21;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -5287,7 +5328,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>A letter (A-Z or a-z)<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l23 level1 lfo28;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l23 level1 lfo21;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -5296,7 +5337,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>A dollar sign ($)<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l23 level1 lfo28;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l23 level1 lfo21;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -5315,7 +5356,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo29;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo22;
 tab-stops:list 36.0pt;background:#FFFFCC;box-sizing: inherit'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
@@ -5334,7 +5375,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l29 level1 lfo20;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l29 level1 lfo23;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5346,7 +5387,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>The JavaScript syntax defines two types of values:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l27 level1 lfo21;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l27 level1 lfo24;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
@@ -5356,7 +5397,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Fi
 values<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l27 level1 lfo21;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l27 level1 lfo24;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
@@ -5366,7 +5407,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Va
 values<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l29 level1 lfo20;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l29 level1 lfo23;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5378,7 +5419,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>Fixed values are called&nbsp;<b style='box-sizing: inherit'>Literals</b>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l29 level1 lfo20;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l29 level1 lfo23;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5398,7 +5439,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l30 level1 lfo22;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l30 level1 lfo25;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5486,7 +5527,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Wh
 are Variables?</span><o:p></o:p></b></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l6 level1 lfo30'><![if !supportLists]><span style='font-family:Symbol;
+mso-list:l6 level1 lfo26'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
@@ -5503,7 +5544,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:#1F4D78;mso-themecolor:accent1;mso-themeshade:127'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-left:24.0pt;mso-add-space:
-auto;text-indent:-9.8pt;line-height:150%;mso-list:l12 level1 lfo31'><![if !supportLists]><span
+auto;text-indent:-9.8pt;line-height:150%;mso-list:l12 level1 lfo27'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
@@ -5513,7 +5554,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Us
 <span class=SpellE>var</span><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:24.0pt;mso-add-space:
-auto;text-indent:-9.8pt;line-height:150%;mso-list:l12 level1 lfo31'><![if !supportLists]><span
+auto;text-indent:-9.8pt;line-height:150%;mso-list:l12 level1 lfo27'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
@@ -5523,7 +5564,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Us
 let<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:24.0pt;mso-add-space:
-auto;text-indent:-9.8pt;line-height:150%;mso-list:l12 level1 lfo31'><![if !supportLists]><span
+auto;text-indent:-9.8pt;line-height:150%;mso-list:l12 level1 lfo27'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
@@ -5533,7 +5574,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Us
 <span class=SpellE>const</span><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:24.0pt;mso-add-space:auto;
-text-indent:-9.8pt;line-height:150%;mso-list:l12 level1 lfo31'><![if !supportLists]><span
+text-indent:-9.8pt;line-height:150%;mso-list:l12 level1 lfo27'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
@@ -5552,7 +5593,7 @@ font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-
 color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l22 level1 lfo32;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l22 level1 lfo28;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5565,7 +5606,7 @@ minor-latin;color:black'>Creating a variable in JavaScript is called
 &quot;declaring&quot; a variable.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l22 level1 lfo32;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l22 level1 lfo28;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5597,10 +5638,10 @@ style='box-sizing: inherit'>Example<o:p></o:p></span></b></p>
 </span>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
-class=SpellE><span style='box-sizing: inherit'><span class=GramE><span
-style='box-sizing: inherit'><span class=jskeywordcolor><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>var</span></span></span></span></span></span><span
+class=SpellE><span class=GramE><span class=jskeywordcolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'></span><span
+style='box-sizing: inherit'><span style='box-sizing: inherit'>var</span></span></span></span></span></span><span
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>&nbsp;<span class=SpellE>carName</span>;<span style='box-sizing: inherit'></span><o:p></o:p></span></p>
@@ -5612,9 +5653,7 @@ class=GramE><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>or</span></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>:</span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><o:p></o:p></span></p>
+minor-latin;color:black'>:</span><o:p></o:p></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
 style='box-sizing: inherit'><span class=jskeywordcolor><span style='box-sizing: inherit'><span
@@ -5627,7 +5666,7 @@ color:black'>&nbsp;<span class=SpellE>carName</span>;<span style='box-sizing: in
 </span>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l13 level1 lfo33;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l13 level1 lfo29;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5643,12 +5682,10 @@ rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-s
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:crimson'>undefined</span></code><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>).</span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><o:p></o:p></span></p>
+minor-latin;color:black'>).</span><o:p></o:p></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l7 level1 lfo34;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+mso-list:l7 level1 lfo30;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
 word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
@@ -5657,7 +5694,7 @@ style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>To&nbsp;</span></b><b><span
-style='mso-fareast-font-family:"Times New Roman"'>assign</span></b><b
+style='mso-fareast-font-family:"Times New Roman";color:black'>assign</span></b><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>&nbsp;a value to the variable, use the equal sign:<o:p></o:p></span></b></p>
@@ -5669,17 +5706,17 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>carName</span></span></span></span></span><span class=jscolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>
-=&nbsp;<span style='box-sizing: inherit'></span></span><span
-class=jsstringcolor></span><span style='font-family:"Calibri","sans-serif";
+=&nbsp;<span style='box-sizing: inherit'></span></span><span class=jscolor></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>&quot;Volvo&quot;</span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>;</span></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:brown'>&quot;Volvo&quot;</span></span><span class=jscolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l7 level1 lfo34;background:white'><![if !supportLists]><span
+mso-list:l7 level1 lfo30;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><b
@@ -5710,7 +5747,7 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo34;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo30;
 box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5730,7 +5767,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo34;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo30;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5742,7 +5779,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>You can declare many variables in one statement.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo34;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo30;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5778,19 +5815,19 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblu
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>&nbsp;person =&nbsp;<span style='box-sizing: inherit'></span></span><span
-class=jsstringcolor></span><span style='font-family:"Calibri","sans-serif";
+class=jscolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:brown'>&quot;John Doe&quot;</span></span><span class=jscolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>,
 <span class=SpellE>carName</span> =&nbsp;<span style='box-sizing: inherit'></span></span><span
-class=jsstringcolor></span><span style='font-family:"Calibri","sans-serif";
+class=jscolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:brown'>&quot;Volvo&quot;</span></span><span class=jscolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>,
 price =&nbsp;<span style='box-sizing: inherit'></span></span><span
-class=jsnumbercolor></span><span style='font-family:"Calibri","sans-serif";
+class=jscolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:red'>200</span></span><span class=jscolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -5806,7 +5843,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo35;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo31;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
 mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>&middot;<span
@@ -5846,7 +5883,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo35;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo31;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5865,7 +5902,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>,
 it will not lose its value.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo35;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo31;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5897,7 +5934,7 @@ minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>var</span></span><
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>&nbsp;<span class=SpellE>carName</span> =&nbsp;<span
-style='box-sizing: inherit'></span></span><span class=jsstringcolor></span><span
+style='box-sizing: inherit'></span></span><span class=jscolor></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>&quot;Volvo&quot;</span></span><span
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
@@ -5922,7 +5959,7 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo38;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo32;
 box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5953,7 +5990,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo38;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo32;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -5962,8 +5999,8 @@ mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>JavaScript treats a dollar sign as a letter,
-identifiers containing $ are valid variable names:<o:p></o:p></span></p>
+minor-latin;color:black'>JavaScript treats a dollar sign as a letter, identifiers
+containing $ are valid variable names:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -5978,7 +6015,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblu
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>&nbsp;$ =&nbsp;<span style='box-sizing: inherit'></span></span><span
-class=jsstringcolor></span><span style='font-family:"Calibri","sans-serif";
+class=jscolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:brown'>&quot;Hello World&quot;</span></span><span
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
@@ -5992,7 +6029,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblu
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>&nbsp;$$$ =&nbsp;<span style='box-sizing: inherit'></span></span><span
-class=jsnumbercolor></span><span style='font-family:"Calibri","sans-serif";
+class=jscolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:red'>2</span></span><span class=jscolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -6006,7 +6043,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblu
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>&nbsp;$<span class=SpellE>myMoney</span> =&nbsp;<span
-style='box-sizing: inherit'></span></span><span class=jsnumbercolor></span><span
+style='box-sizing: inherit'></span></span><span class=jscolor></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:red'>5</span></span><span
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
@@ -6023,7 +6060,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo38;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo32;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -6032,8 +6069,8 @@ mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>JavaScript treats underscore as a letter, identifiers containing
-_ are valid variable names:<o:p></o:p></span></p>
+minor-latin;color:black'>JavaScript treats underscore as a letter, identifiers
+containing _ are valid variable names:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -6048,7 +6085,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblu
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>&nbsp;_<span class=SpellE>lastName</span> =&nbsp;<span
-style='box-sizing: inherit'></span></span><span class=jsstringcolor></span><span
+style='box-sizing: inherit'></span></span><span class=jscolor></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>&quot;Johnson&quot;</span></span><span
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
@@ -6062,7 +6099,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblu
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>&nbsp;_x =&nbsp;<span style='box-sizing: inherit'></span></span><span
-class=jsnumbercolor></span><span style='font-family:"Calibri","sans-serif";
+class=jscolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:red'>2</span></span><span class=jscolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -6076,11 +6113,12 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblu
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>&nbsp;_100 =&nbsp;<span style='box-sizing: inherit'></span></span><span
-class=jsnumbercolor></span><span style='font-family:"Calibri","sans-serif";
+class=jscolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:red'>5</span></span><span class=jscolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span><span
+style='color:black'><o:p></o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
@@ -6089,7 +6127,7 @@ minor-latin;color:black'>5.3 JavaScript Comments<o:p></o:p></span></b></h2>
 
 <p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
-mso-list:l5 level1 lfo23;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+mso-list:l5 level1 lfo33;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -6100,7 +6138,7 @@ code, and to make it more readable.<o:p></o:p></span></p>
 
 <p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
-mso-list:l5 level1 lfo23;tab-stops:list 36.0pt;background:white;box-sizing: inherit;
+mso-list:l5 level1 lfo33;tab-stops:list 36.0pt;background:white;box-sizing: inherit;
 font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
 start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
 text-decoration-style: initial;text-decoration-color: initial;word-spacing:
@@ -6113,7 +6151,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 comments can also be used to prevent execution, when testing alternative code.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo23;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo33;
 tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
@@ -6131,7 +6169,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l33 level1 lfo24;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l33 level1 lfo34;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -6150,7 +6188,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l33 level1 lfo24;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l33 level1 lfo34;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -6223,7 +6261,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo25;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo35;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -6248,7 +6286,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo25;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo35;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -6294,47 +6332,29 @@ style='box-sizing: inherit'>
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'><br style='box-sizing: inherit'>
 <span class=SpellE><span class=GramE><span class=jscolor>document.getElementById</span></span></span><span
-class=GramE><span class=jscolor>(<span style='box-sizing: inherit'></span></span></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'></span>&quot;<span
-class=SpellE>myH</span>&quot;</span><span class=jscolor><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'>).<span
-style='box-sizing: inherit'></span></span><span class=SpellE></span><span
-class=jspropertycolor><span style='font-family:"Calibri","sans-serif";
+class=GramE><span class=jscolor>(<span style='box-sizing: inherit'></span></span></span>&quot;<span
+class=SpellE>myH</span>&quot;<span class=jscolor>).<span style='box-sizing: inherit'></span><span
+class=SpellE></span><span class=jspropertycolor>innerHTML</span></span><span
+class=jscolor>&nbsp;=&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jscolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>innerHTML</span></span></span><span class=jscolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;=&nbsp;<span
-style='box-sizing: inherit'></span></span><span class=jscolor></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>&quot;My
-First Page&quot;</span></span><span class=jscolor><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br
-style='box-sizing: inherit'>
+minor-latin;color:brown'>&quot;My First Page&quot;</span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br style='box-sizing: inherit'>
 <span class=SpellE><span class=jscolor>document.getElementById</span></span><span
-class=jscolor>(<span style='box-sizing: inherit'></span></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'></span>&quot;<span
-class=SpellE>myP</span>&quot;</span><span class=jscolor><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'>).<span
-style='box-sizing: inherit'></span></span><span class=SpellE></span><span
-class=jspropertycolor><span style='font-family:"Calibri","sans-serif";
+class=jscolor>(<span style='box-sizing: inherit'></span></span>&quot;<span
+class=SpellE>myP</span>&quot;<span class=jscolor>).<span style='box-sizing: inherit'></span><span
+class=SpellE></span><span class=jspropertycolor>innerHTML</span></span><span
+class=jscolor>&nbsp;=&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jscolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>innerHTML</span></span></span><span class=jscolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;=&nbsp;<span
-style='box-sizing: inherit'></span></span><span class=jscolor></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>&quot;My
-first paragraph.&quot;</span></span><span class=jscolor><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;<span
-style='box-sizing: inherit'></span><o:p></o:p></span></p>
+minor-latin;color:brown'>&quot;My first paragraph.&quot;</span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>;<span style='box-sizing: inherit'></span><o:p></o:p></span></p>
 
 </span>
 
@@ -6344,7 +6364,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC'>Note:</span><span style='background:#FFFFCC'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-7.65pt;line-height:150%;
-mso-list:l8 level1 lfo26;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+mso-list:l8 level1 lfo36;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -6356,7 +6376,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-7.65pt;line-height:150%;
-mso-list:l8 level1 lfo26;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+mso-list:l8 level1 lfo36;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -6376,7 +6396,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo29;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo22;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -6392,7 +6412,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>case
 sensitive</span></strong>.&nbsp;<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo29;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo22;
 tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
 font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -6428,9 +6448,7 @@ style='box-sizing: inherit'>Example:<o:p></o:p></span></b></p>
 </span>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
-class=jskeywordcolor><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'></span><span style='box-sizing: inherit'><span
+class=jskeywordcolor><span style='color:black'></span><span style='box-sizing: inherit'><span
 style='box-sizing: inherit'>let</span></span></span></span></span><span
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
@@ -6439,50 +6457,464 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br
 style='box-sizing: inherit'>
 <span class=SpellE><span class=jscolor>lastName</span></span><span
-class=jscolor> =&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jscolor> =&nbsp;<span style='box-sizing: inherit'></span></span>&quot;Doe&quot;<span
+class=jscolor>;</span><br style='box-sizing: inherit'>
+<span class=SpellE><span class=jscolor>lastname</span></span><span
+class=jscolor> =&nbsp;<span style='box-sizing: inherit'></span></span>&quot;Peterson&quot;<span
+class=jscolor>;</span></span><span class=jscolor><o:p></o:p></span></p>
+
+<h1 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>6. JavaScript&nbsp;<span class=colorh1><span
+style='box-sizing: inherit'>Operators</span></span></span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h1>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>6.1 JavaScript Arithmetic Operators</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l25 level1 lfo32;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Arithmetic operators are used to perform arithmetic on
+numbers:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_7"
+ o:spid="_x0000_i1030" type="#_x0000_t75" style='width:349.5pt;height:261.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="1-javascript-introduction-and-basics_files/image012.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=466 height=349
+src="1-javascript-introduction-and-basics_files/image012.png" v:shapes="Picture_x0020_7"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'></span>&quot;Doe&quot;</span><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>6.2 JavaScript Assignment Operators</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l25 level1 lfo32;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Assignment operators assign values to JavaScript
+variables.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_8"
+ o:spid="_x0000_i1029" type="#_x0000_t75" style='width:453.75pt;height:3in;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="1-javascript-introduction-and-basics_files/image013.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=605 height=288
+src="1-javascript-introduction-and-basics_files/image014.jpg" v:shapes="Picture_x0020_8"><![endif]></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>6.3 JavaScript String Operators</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo32;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><code style='box-sizing: inherit;
+background-color:rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:crimson'>+</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;operator can also be used to add (concatenate)
+strings.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
+style='box-sizing: inherit'><span class=jskeywordcolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'><span
+style='box-sizing: inherit'>let</span></span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;text1
+=&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;John&quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br
+style='box-sizing: inherit'>
+</span><span class=jskeywordcolor><span style='box-sizing: inherit'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>let</span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>&nbsp;text2 =&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;Doe&quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br
+style='box-sizing: inherit'>
+</span><span class=jskeywordcolor><span style='box-sizing: inherit'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>let</span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>&nbsp;text3 = text1 +&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot; &quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;+
+text2;<span style='box-sizing: inherit'></span></span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'></span><o:p></o:p></span></p>
+
+</span>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB;
+box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The result of text3 will be:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:#E7E9EB'><code
+style='box-sizing: inherit'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>John Doe</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo32;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><code style='box-sizing: inherit;
+background-color:rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:crimson'>+=</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;assignment operator can also be used to add
+(concatenate) strings:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
+style='box-sizing: inherit'><span class=jskeywordcolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'><span
+style='box-sizing: inherit'>let</span></span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;text1
+=&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;What a very &quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br
+style='box-sizing: inherit'>
+<span class=jscolor>text1 +=&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;nice day&quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB;
+box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The result of text1 will be:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:#E7E9EB'><code
+style='box-sizing: inherit'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>What a very nice day</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Adding
+Strings and Numbers</span></b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo32;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Adding two numbers, will return the sum, but adding a
+number and a string will return a string:<o:p></o:p></span></p>
+
+<h3 style='margin-top:0cm;line-height:150%;background:#E7E9EB;box-sizing: inherit'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
+style='box-sizing: inherit'><span class=jskeywordcolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'><span
+style='box-sizing: inherit'>let</span></span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;x
+=&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsnumbercolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:red'>5</span></span></span><span class=jscolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;+&nbsp;<span
+style='box-sizing: inherit'></span></span><span class=jsnumbercolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:red'>5</span></span></span><span
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>;</span></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'><br style='box-sizing: inherit'>
-<span class=SpellE><span class=jscolor>lastname</span></span><span
-class=jscolor> =&nbsp;<span style='box-sizing: inherit'></span></span><span
+</span><span class=jskeywordcolor><span style='box-sizing: inherit'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'></span>&quot;Peterson&quot;</span><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>let</span></span></span><span
 class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'>;</span><o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='color:black'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><span
+color:black'>&nbsp;y =&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;5&quot;</span></span></span><span class=jscolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;+&nbsp;<span
+style='box-sizing: inherit'></span></span><span class=jsnumbercolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-background:#FFFFCC'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:red'>5</span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br style='box-sizing: inherit'>
+</span><span class=jskeywordcolor><span style='box-sizing: inherit'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>let</span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>&nbsp;z =&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;Hello&quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;+&nbsp;<span
+style='box-sizing: inherit'></span></span><span class=jsnumbercolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:red'>5</span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB;
+box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The <b style='mso-bidi-font-weight:normal'>result</b>
+of&nbsp;<em style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>x</span></em>,<em style='box-sizing: inherit'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&nbsp;y</span></em>,
+and&nbsp;<em style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>z</span></em>&nbsp;will be:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:#E7E9EB'><code
+style='box-sizing: inherit'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>10</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br style='box-sizing: inherit'>
+<code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;
+line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>55</span></code><br
+style='box-sizing: inherit'>
+<code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;
+line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Hello5</span></code><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#FFFFCC'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Note:</span></b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'> If you add a number and a string, the result will be
+a string!<o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>6.4 JavaScript Comparison Operators</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_9"
+ o:spid="_x0000_i1028" type="#_x0000_t75" style='width:276.75pt;height:291.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="1-javascript-introduction-and-basics_files/image015.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=369 height=389
+src="1-javascript-introduction-and-basics_files/image015.png" v:shapes="Picture_x0020_9"><![endif]></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>6.5 JavaScript Logical Operators</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_10"
+ o:spid="_x0000_i1027" type="#_x0000_t75" style='width:195.75pt;height:114.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="1-javascript-introduction-and-basics_files/image016.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=261 height=153
+src="1-javascript-introduction-and-basics_files/image016.png" v:shapes="Picture_x0020_10"><![endif]></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>6.6 JavaScript Type Operators</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_11"
+ o:spid="_x0000_i1026" type="#_x0000_t75" style='width:451.5pt;height:66.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="1-javascript-introduction-and-basics_files/image017.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=89
+src="1-javascript-introduction-and-basics_files/image018.jpg" v:shapes="Picture_x0020_11"><![endif]></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>6.7 JavaScript Bitwise Operators</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='line-height:150%;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_13" o:spid="_x0000_i1025"
+ type="#_x0000_t75" style='width:204pt;height:232.5pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="1-javascript-introduction-and-basics_files/image019.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=272 height=310
+src="1-javascript-introduction-and-basics_files/image019.png" v:shapes="Picture_x0020_13"><![endif]></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
 150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>References<o:p></o:p></span></b></h2>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>7.
+References<o:p></o:p></span></b></h2>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;mso-list:l24 level1 lfo39'><![if !supportLists]><span
+<p class=MsoListParagraph style='text-indent:-18.0pt;mso-list:l24 level1 lfo37'><![if !supportLists]><span
 style='mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
 EN-US'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='color:black;mso-fareast-language:
 EN-US'>https://www.w3schools.com/js/default.asp<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l24 level1 lfo39;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l24 level1 lfo37;
 background:white'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
@@ -6493,7 +6925,7 @@ minor-latin;color:black'><a href="https://www.w3schools.com/js/js_whereto.asp"><
 style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast'>https://www.w3schools.com/js/js_whereto.asp</span></a><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l24 level1 lfo39;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l24 level1 lfo37;
 background:white'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
@@ -6503,7 +6935,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><a href="https://www.w3schools.com/js/js_output.asp">https://www.w3schools.com/js/js_output.asp</a><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l24 level1 lfo39;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l24 level1 lfo37;
 background:white'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
@@ -6514,7 +6946,7 @@ minor-latin;color:black'><a
 href="https://www.w3schools.com/js/js_statements.asp">https://www.w3schools.com/js/js_statements.asp</a><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l24 level1 lfo39;
+margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l24 level1 lfo37;
 background:white'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
@@ -6523,14 +6955,23 @@ color:black'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New 
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>https://www.w3schools.com/js/js_syntax.asp<o:p></o:p></span></p>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;line-height:150%;
-mso-list:l24 level1 lfo39'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;line-height:150%;
+mso-list:l24 level1 lfo37'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>https://www.w3schools.com/js/js_variables.asp<o:p></o:p></span></p>
+minor-latin;color:black'><a href="https://www.w3schools.com/js/js_variables.asp">https://www.w3schools.com/js/js_variables.asp</a><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;line-height:150%;
+mso-list:l24 level1 lfo37'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>https://www.w3schools.com/js/js_operators.asp<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
@@ -6540,7 +6981,7 @@ minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
 
-</span></div>
+</div>
 
 </body>
 
