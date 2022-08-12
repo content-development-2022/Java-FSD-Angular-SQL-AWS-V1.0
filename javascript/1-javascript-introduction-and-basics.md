@@ -25,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>53</o:Revision>
-  <o:TotalTime>187</o:TotalTime>
+  <o:Revision>58</o:Revision>
+  <o:TotalTime>190</o:TotalTime>
   <o:Created>2022-08-12T01:06:00Z</o:Created>
-  <o:LastSaved>2022-08-12T12:52:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-12T12:55:00Z</o:LastSaved>
   <o:Pages>15</o:Pages>
   <o:Words>1803</o:Words>
   <o:Characters>10283</o:Characters>
@@ -3823,12 +3823,12 @@ word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-them
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>7. References<o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%;mso-outline-level:1;background:white'><b
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
 150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'>1.
-JavaScript&nbsp;Introduction<o:p></o:p></span></b></p>
+JavaScript&nbsp;Introduction<o:p></o:p></span></b></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l18 level1 lfo1'><![if !supportLists]><span
