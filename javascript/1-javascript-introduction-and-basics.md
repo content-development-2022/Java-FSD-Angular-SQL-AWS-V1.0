@@ -25,16 +25,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>43</o:Revision>
-  <o:TotalTime>157</o:TotalTime>
+  <o:Revision>45</o:Revision>
+  <o:TotalTime>160</o:TotalTime>
   <o:Created>2022-08-12T01:06:00Z</o:Created>
-  <o:LastSaved>2022-08-12T10:39:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-12T10:42:00Z</o:LastSaved>
   <o:Pages>12</o:Pages>
-  <o:Words>1591</o:Words>
-  <o:Characters>9073</o:Characters>
+  <o:Words>1589</o:Words>
+  <o:Characters>9061</o:Characters>
   <o:Lines>75</o:Lines>
   <o:Paragraphs>21</o:Paragraphs>
-  <o:CharactersWithSpaces>10643</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>10629</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -5249,7 +5249,7 @@ Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&m
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Identifiers
-are used to name variables and keywords, and functions.<o:p></o:p></span></p>
+are used to name variables and functions.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo27;
