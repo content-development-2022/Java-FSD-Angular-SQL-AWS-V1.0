@@ -16,7 +16,7 @@
 
 ## 1. JavaScript Use Strict
 
-"use strict"; Defines that JavaScript code should be executed in "strict mode".
+-   "use strict"; Defines that JavaScript code should be executed in "strict mode".
 
 ## 1.1 The "use strict" Directive
 
@@ -31,7 +31,7 @@
 -   The syntax, for declaring strict mode, was designed to be compatible with older versions of JavaScript.
 -   So "use strict"; only matters to new compilers that "understand" the meaning of it.
 
-**Syntax**:  "use strict";
+**Syntax**: "use strict";
 
 ## 3. Why Strict Mode?
 
@@ -43,17 +43,17 @@
 
 ## 3.1 Not Allowed in Strict Mode
 
-**Using a variable, without declaring it, is not allowed:**
+**1. Using a variable, without declaring it, is not allowed:**
 
 "use strict";  
 x = 3.14; // This will cause an error
 
-**Duplicating a parameter name is not allowed:**
+**2. Duplicating a parameter name is not allowed:**
 
 "use strict";  
 function x(p1, p1) {}; // This will cause an error
 
-**Inside function, a variable, without declaring it, is not allowed:**
+**3. Inside function, a variable, without declaring it, is not allowed:**
 
 "use strict";  
 myFunction();
@@ -62,7 +62,7 @@ function myFunction() {
 y = 3.14; // This will also cause an error because y is not declared  
 }
 
-**This keyword, is not allowed**
+**4. This keyword, is not allowed**
 
 -   The **this** keyword in functions behaves differently in strict mode.
 -   The **this** keyword refers to the object that called the function.
