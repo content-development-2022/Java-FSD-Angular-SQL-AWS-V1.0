@@ -25,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>59</o:Revision>
-  <o:TotalTime>192</o:TotalTime>
+  <o:Revision>60</o:Revision>
+  <o:TotalTime>193</o:TotalTime>
   <o:Created>2022-08-12T01:06:00Z</o:Created>
-  <o:LastSaved>2022-08-12T12:57:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-12T12:58:00Z</o:LastSaved>
   <o:Pages>15</o:Pages>
   <o:Words>1803</o:Words>
   <o:Characters>10283</o:Characters>
@@ -4379,99 +4379,69 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:red'>&nbsp;<span class=SpellE>src<span style='box-sizing: inherit'></span></span></span><span
 class=tagnamecolor></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>=&quot;https://www.w3schools.com/js/myScript.js&quot;</span></span><span
+minor-latin'>=&quot;https://www.w3schools.com/js/myScript.js&quot;</span></span><span
 class=tagcolor><span style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>&gt;</span></span><span style='box-sizing: inherit'></span><span
-class=tagcolor></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><span style='box-sizing: inherit'>&lt;</span></span></span><span
+minor-latin'>&gt;</span><span style='box-sizing: inherit'>&lt;</span></span></span><span
 class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:brown'>/script<span style='box-sizing: inherit'></span></span><span
-class=tagnamecolor></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>/script&gt;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-14.7pt;line-height:150%;
 mso-list:l14 level1 lfo8;background:white'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
-style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>With a file path (like /<span class=SpellE>js</span>/)<o:p></o:p></span></p>
+minor-latin;mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>With a file
+path (like /<span class=SpellE>js</span>/)<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example:
-</span></b><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>script<span
-style='box-sizing: inherit'></span></span><span class=tagnamecolor></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:red'>&nbsp;<span
-class=SpellE>src<span style='box-sizing: inherit'></span></span></span><span
-class=tagnamecolor></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>=&quot;/<span class=SpellE>js</span>/myScript.js&quot;</span></span><span
-class=tagcolor><span style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>&gt;</span></span><span style='box-sizing: inherit'></span><span
-class=tagcolor></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><span style='box-sizing: inherit'>&lt;</span></span></span><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Example: </span></b><span
+class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&lt;</span></span><span
 class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:brown'>/script<span style='box-sizing: inherit'></span></span><span
-class=tagnamecolor></span><span style='font-family:"Calibri","sans-serif";
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>script&nbsp;<span
+class=SpellE>src<span style='box-sizing: inherit'></span></span>=&quot;/<span
+class=SpellE>js</span>/myScript.js&quot;</span></span><span class=tagcolor><span
+style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+minor-latin'>&gt;</span><span style='box-sizing: inherit'>&lt;</span></span></span><span
+class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>/script&gt;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-14.7pt;line-height:150%;
 mso-list:l14 level1 lfo8;background:white'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
-style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Without any path<o:p></o:p></span></p>
+minor-latin;mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Without any
+path<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example:
-</span></b><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>script<span
-style='box-sizing: inherit'></span></span><span class=tagnamecolor></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:red'>&nbsp;<span
-class=SpellE>src<span style='box-sizing: inherit'></span></span></span><span
-class=tagnamecolor></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>=&quot;myScript.js&quot;</span></span><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Example: </span></b><span
+class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&lt;</span></span><span
+class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>script&nbsp;<span
+class=SpellE>src<span style='box-sizing: inherit'></span></span>=&quot;myScript.js&quot;</span></span><span
 class=tagcolor><span style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>&gt;</span></span><span style='box-sizing: inherit'></span><span
-class=tagcolor></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><span style='box-sizing: inherit'>&lt;</span></span></span><span
+minor-latin'>&gt;</span><span style='box-sizing: inherit'>&lt;</span></span></span><span
 class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:brown'>/script<span style='box-sizing: inherit'></span></span><span
-class=tagnamecolor></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>&gt;</span></span><span class=tagcolor><span
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>/scr<span
+style='color:brown'>ipt<span style='box-sizing: inherit'></span><span
+style='color:mediumblue'></span>&gt;</span></span></span><span class=tagcolor><span
 style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
