@@ -25,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>58</o:Revision>
-  <o:TotalTime>190</o:TotalTime>
+  <o:Revision>59</o:Revision>
+  <o:TotalTime>192</o:TotalTime>
   <o:Created>2022-08-12T01:06:00Z</o:Created>
-  <o:LastSaved>2022-08-12T12:55:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-12T12:57:00Z</o:LastSaved>
   <o:Pages>15</o:Pages>
   <o:Words>1803</o:Words>
   <o:Characters>10283</o:Characters>
@@ -4290,11 +4290,11 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>To add several script files to one page<span
 class=GramE>&nbsp; -</span> use several script tags:<o:p></o:p></span></b></p>
 
-<h3 style='margin-top:0cm;line-height:150%;background:#E7E9EB'><b><span
+<p class=MsoNormal style='line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h3>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
