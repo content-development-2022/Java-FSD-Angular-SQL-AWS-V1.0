@@ -25,16 +25,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>21</o:Revision>
-  <o:TotalTime>50</o:TotalTime>
+  <o:Revision>30</o:Revision>
+  <o:TotalTime>90</o:TotalTime>
   <o:Created>2022-08-12T01:06:00Z</o:Created>
-  <o:LastSaved>2022-08-12T04:51:00Z</o:LastSaved>
-  <o:Pages>8</o:Pages>
-  <o:Words>961</o:Words>
-  <o:Characters>5481</o:Characters>
-  <o:Lines>45</o:Lines>
-  <o:Paragraphs>12</o:Paragraphs>
-  <o:CharactersWithSpaces>6430</o:CharactersWithSpaces>
+  <o:LastSaved>2022-08-12T05:31:00Z</o:LastSaved>
+  <o:Pages>11</o:Pages>
+  <o:Words>1371</o:Words>
+  <o:Characters>7819</o:Characters>
+  <o:Lines>65</o:Lines>
+  <o:Paragraphs>18</o:Paragraphs>
+  <o:CharactersWithSpaces>9172</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -662,11 +662,10 @@ href="1-javascript-introduction-and-basics_files/colorschememapping.xml">
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
-	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
 	{font-family:"Calibri Light";
 	panose-1:2 15 3 2 2 2 4 3 2 4;
@@ -783,8 +782,7 @@ h3
 	mso-fareast-language:EN-US;
 	font-weight:normal;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	{mso-style-priority:99;
 	color:#0563C1;
 	mso-themecolor:hyperlink;
 	text-decoration:underline;
@@ -797,8 +795,7 @@ a:visited, span.MsoHyperlinkFollowed
 	text-decoration:underline;
 	text-underline:single;}
 p
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	{mso-style-priority:99;
 	mso-margin-top-alt:auto;
 	margin-right:0cm;
 	mso-margin-bottom-alt:auto;
@@ -979,6 +976,17 @@ span.commentcolor
 span.jsnumbercolor
 	{mso-style-name:jsnumbercolor;
 	mso-style-unhide:no;}
+p.intro, li.intro, div.intro
+	{mso-style-name:intro;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
@@ -1068,9 +1076,389 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l1
+	{mso-list-id:225577533;
+	mso-list-template-ids:-1513971166;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:228272517;
+	mso-list-template-ids:-1513971166;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:239021632;
+	mso-list-template-ids:-1513971166;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4
+	{mso-list-id:351421502;
+	mso-list-template-ids:-1513971166;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5
+	{mso-list-id:508835800;
+	mso-list-template-ids:-1513971166;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l6
 	{mso-list-id:558636463;
 	mso-list-template-ids:113424722;}
-@list l1:level1
+@list l6:level1
 	{mso-level-start-at:4;
 	mso-level-text:%1;
 	mso-level-tab-stop:none;
@@ -1080,7 +1468,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l1:level2
+@list l6:level2
 	{mso-level-start-at:2;
 	mso-level-text:"%1\.%2";
 	mso-level-tab-stop:none;
@@ -1090,7 +1478,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l1:level3
+@list l6:level3
 	{mso-level-text:"%1\.%2\.%3";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1099,7 +1487,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l1:level4
+@list l6:level4
 	{mso-level-text:"%1\.%2\.%3\.%4";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1108,7 +1496,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l1:level5
+@list l6:level5
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1117,7 +1505,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l1:level6
+@list l6:level6
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1126,7 +1514,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l1:level7
+@list l6:level7
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1135,7 +1523,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l1:level8
+@list l6:level8
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1144,7 +1532,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l1:level9
+@list l6:level9
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1153,344 +1541,10 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l2
+@list l7
 	{mso-list-id:568348030;
 	mso-list-type:hybrid;
 	mso-list-template-ids:631535992 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l2:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l2:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l2:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l2:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l2:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l2:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l2:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l2:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l2:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l3
-	{mso-list-id:756291917;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1058084892 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l3:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l3:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l3:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l3:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l3:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l3:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l3:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l3:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l3:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l4
-	{mso-list-id:765342708;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1113724572 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l4:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l4:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l4:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l4:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l4:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l4:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l4:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l4:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l4:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l5
-	{mso-list-id:920943447;
-	mso-list-template-ids:795895296;}
-@list l5:level1
-	{mso-level-start-at:4;
-	mso-level-text:%1;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:18.0pt;
-	text-indent:-18.0pt;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-ansi-font-weight:bold;}
-@list l5:level2
-	{mso-level-start-at:2;
-	mso-level-text:"%1\.%2";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:18.0pt;
-	text-indent:-18.0pt;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-ansi-font-weight:bold;}
-@list l5:level3
-	{mso-level-text:"%1\.%2\.%3";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:36.0pt;
-	text-indent:-36.0pt;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-ansi-font-weight:bold;}
-@list l5:level4
-	{mso-level-text:"%1\.%2\.%3\.%4";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:36.0pt;
-	text-indent:-36.0pt;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-ansi-font-weight:bold;}
-@list l5:level5
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:54.0pt;
-	text-indent:-54.0pt;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-ansi-font-weight:bold;}
-@list l5:level6
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:54.0pt;
-	text-indent:-54.0pt;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-ansi-font-weight:bold;}
-@list l5:level7
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:72.0pt;
-	text-indent:-72.0pt;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-ansi-font-weight:bold;}
-@list l5:level8
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:72.0pt;
-	text-indent:-72.0pt;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-ansi-font-weight:bold;}
-@list l5:level9
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:90.0pt;
-	text-indent:-90.0pt;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-ansi-font-weight:bold;}
-@list l6
-	{mso-list-id:980960502;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1726110324 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
-@list l6:level1
-	{mso-level-start-at:2;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l6:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l6:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l6:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l6:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l6:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l6:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l6:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l6:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l7
-	{mso-list-id:1049456463;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1037117542 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l7:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1555,9 +1609,9 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l8
-	{mso-list-id:1090346930;
+	{mso-list-id:756291917;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-2062619668 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:-1058084892 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l8:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1622,9 +1676,9 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l9
-	{mso-list-id:1114011440;
+	{mso-list-id:765342708;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-1919376854 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:1113724572 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l9:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1689,76 +1743,95 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l10
-	{mso-list-id:1129476111;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1806214778 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	{mso-list-id:920943447;
+	mso-list-template-ids:795895296;}
 @list l10:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
+	{mso-level-start-at:4;
+	mso-level-text:%1;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
+	margin-left:18.0pt;
 	text-indent:-18.0pt;
-	font-family:Symbol;}
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-font-weight:bold;}
 @list l10:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
+	{mso-level-start-at:2;
+	mso-level-text:"%1\.%2";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
+	margin-left:18.0pt;
 	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-font-weight:bold;}
 @list l10:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
+	{mso-level-text:"%1\.%2\.%3";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
+	margin-left:36.0pt;
+	text-indent:-36.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-font-weight:bold;}
 @list l10:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
+	{mso-level-text:"%1\.%2\.%3\.%4";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
+	margin-left:36.0pt;
+	text-indent:-36.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-font-weight:bold;}
 @list l10:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	margin-left:54.0pt;
+	text-indent:-54.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-font-weight:bold;}
 @list l10:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
+	margin-left:54.0pt;
+	text-indent:-54.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-font-weight:bold;}
 @list l10:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
+	margin-left:72.0pt;
+	text-indent:-72.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-font-weight:bold;}
 @list l10:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	margin-left:72.0pt;
+	text-indent:-72.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-font-weight:bold;}
 @list l10:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
+	margin-left:90.0pt;
+	text-indent:-90.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-font-weight:bold;}
 @list l11
-	{mso-list-id:1196767399;
+	{mso-list-id:975641472;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-358864084 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:1717480872 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l11:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1823,76 +1896,56 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l12
-	{mso-list-id:1197886169;
+	{mso-list-id:980960502;
 	mso-list-type:hybrid;
-	mso-list-template-ids:1005726868 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:1726110324 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
 @list l12:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
+	{mso-level-start-at:2;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
+	text-indent:-18.0pt;}
 @list l12:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
+	{mso-level-number-format:alpha-lower;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	text-indent:-18.0pt;}
 @list l12:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
+	{mso-level-number-format:roman-lower;
 	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
 @list l12:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
+	text-indent:-18.0pt;}
 @list l12:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
+	{mso-level-number-format:alpha-lower;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	text-indent:-18.0pt;}
 @list l12:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
+	{mso-level-number-format:roman-lower;
 	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
 @list l12:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
+	text-indent:-18.0pt;}
 @list l12:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
+	{mso-level-number-format:alpha-lower;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	text-indent:-18.0pt;}
 @list l12:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
+	{mso-level-number-format:roman-lower;
 	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
 @list l13
-	{mso-list-id:1251425791;
+	{mso-list-id:1049456463;
 	mso-list-type:hybrid;
-	mso-list-template-ids:763126130 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:-1037117542 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l13:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1957,9 +2010,9 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l14
-	{mso-list-id:1574437743;
+	{mso-list-id:1090346930;
 	mso-list-type:hybrid;
-	mso-list-template-ids:847306892 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:-2062619668 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l14:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -2024,9 +2077,9 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l15
-	{mso-list-id:1628774586;
+	{mso-list-id:1114011440;
 	mso-list-type:hybrid;
-	mso-list-template-ids:981750882 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:-1919376854 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l15:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -2091,55 +2144,277 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l16
-	{mso-list-id:1928345710;
+	{mso-list-id:1129476111;
 	mso-list-type:hybrid;
-	mso-list-template-ids:5957804 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
+	mso-list-template-ids:1806214778 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l16:level1
-	{mso-level-tab-stop:none;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:Symbol;}
 @list l16:level2
-	{mso-level-number-format:alpha-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
 @list l16:level3
-	{mso-level-number-format:roman-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 @list l16:level4
-	{mso-level-tab-stop:none;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:Symbol;}
 @list l16:level5
-	{mso-level-number-format:alpha-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
 @list l16:level6
-	{mso-level-number-format:roman-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 @list l16:level7
-	{mso-level-tab-stop:none;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:Symbol;}
 @list l16:level8
-	{mso-level-number-format:alpha-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
 @list l16:level9
-	{mso-level-number-format:roman-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 @list l17
-	{mso-list-id:1963490653;
-	mso-list-template-ids:1324394244;}
+	{mso-list-id:1196767399;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-358864084 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l17:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l17:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l17:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l17:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l17:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l17:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l17:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l17:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l17:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l18
+	{mso-list-id:1197886169;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1005726868 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l18:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l18:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l18:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l18:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l18:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l18:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l18:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l18:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l18:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l19
+	{mso-list-id:1251425791;
+	mso-list-type:hybrid;
+	mso-list-template-ids:763126130 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l19:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l19:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l19:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l19:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l19:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l19:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l19:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l19:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l19:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l20
+	{mso-list-id:1359770003;
+	mso-list-template-ids:-1513971166;}
+@list l20:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:36.0pt;
@@ -2147,7 +2422,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l17:level2
+@list l20:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:72.0pt;
@@ -2156,7 +2431,7 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:"Courier New";
 	mso-bidi-font-family:"Times New Roman";}
-@list l17:level3
+@list l20:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:108.0pt;
@@ -2164,7 +2439,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l17:level4
+@list l20:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:144.0pt;
@@ -2172,7 +2447,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l17:level5
+@list l20:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:180.0pt;
@@ -2180,7 +2455,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l17:level6
+@list l20:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:216.0pt;
@@ -2188,7 +2463,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l17:level7
+@list l20:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:252.0pt;
@@ -2196,7 +2471,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l17:level8
+@list l20:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:288.0pt;
@@ -2204,7 +2479,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l17:level9
+@list l20:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:324.0pt;
@@ -2212,10 +2487,549 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l18
+@list l21
+	{mso-list-id:1574437743;
+	mso-list-type:hybrid;
+	mso-list-template-ids:847306892 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l21:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l21:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l21:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l21:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l21:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l21:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l21:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l21:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l21:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l22
+	{mso-list-id:1614945075;
+	mso-list-template-ids:-386623442;}
+@list l22:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;}
+@list l22:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l22:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l22:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l22:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l22:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l22:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l22:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l22:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l23
+	{mso-list-id:1628774586;
+	mso-list-type:hybrid;
+	mso-list-template-ids:981750882 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l23:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l23:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l23:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l23:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l23:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l23:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l23:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l23:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l23:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l24
+	{mso-list-id:1806390106;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-188970474 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l24:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l24:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l24:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l24:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l24:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l24:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l24:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l24:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l24:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l25
+	{mso-list-id:1856462252;
+	mso-list-type:hybrid;
+	mso-list-template-ids:683712518 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l25:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l25:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l25:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l25:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l25:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l25:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l25:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l25:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l25:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l26
+	{mso-list-id:1928345710;
+	mso-list-type:hybrid;
+	mso-list-template-ids:5957804 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
+@list l26:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l26:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l26:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l26:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l26:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l26:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l26:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l26:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l26:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l27
+	{mso-list-id:1963490653;
+	mso-list-template-ids:1324394244;}
+@list l27:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l27:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l27:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l27:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l27:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l27:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l27:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l27:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l27:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l28
+	{mso-list-id:2031954226;
+	mso-list-template-ids:-1513971166;}
+@list l28:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l28:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l28:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l28:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l28:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l28:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l28:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l28:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l28:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l29
 	{mso-list-id:2075153103;
 	mso-list-template-ids:307761728;}
-@list l18:level1
+@list l29:level1
 	{mso-level-start-at:4;
 	mso-level-text:%1;
 	mso-level-tab-stop:none;
@@ -2225,7 +3039,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l18:level2
+@list l29:level2
 	{mso-level-start-at:2;
 	mso-level-text:"%1\.%2";
 	mso-level-tab-stop:none;
@@ -2235,7 +3049,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l18:level3
+@list l29:level3
 	{mso-level-text:"%1\.%2\.%3";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -2244,7 +3058,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l18:level4
+@list l29:level4
 	{mso-level-text:"%1\.%2\.%3\.%4";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -2253,7 +3067,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l18:level5
+@list l29:level5
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -2262,7 +3076,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l18:level6
+@list l29:level6
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -2271,7 +3085,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l18:level7
+@list l29:level7
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -2280,7 +3094,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l18:level8
+@list l29:level8
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -2289,7 +3103,7 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l18:level9
+@list l29:level9
 	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -2298,10 +3112,10 @@ div.WordSection1
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:major-fareast;
 	mso-ansi-font-weight:bold;}
-@list l19
+@list l30
 	{mso-list-id:2096592100;
 	mso-list-template-ids:874291614;}
-@list l19:level1
+@list l30:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:36.0pt;
@@ -2309,7 +3123,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l19:level2
+@list l30:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:72.0pt;
@@ -2318,7 +3132,7 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:"Courier New";
 	mso-bidi-font-family:"Times New Roman";}
-@list l19:level3
+@list l30:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:108.0pt;
@@ -2326,7 +3140,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l19:level4
+@list l30:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:144.0pt;
@@ -2334,7 +3148,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l19:level5
+@list l30:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:180.0pt;
@@ -2342,7 +3156,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l19:level6
+@list l30:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:216.0pt;
@@ -2350,7 +3164,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l19:level7
+@list l30:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:252.0pt;
@@ -2358,7 +3172,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l19:level8
+@list l30:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:288.0pt;
@@ -2366,7 +3180,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l19:level9
+@list l30:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:324.0pt;
@@ -2374,67 +3188,67 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l20
+@list l31
 	{mso-list-id:2098087252;
 	mso-list-type:hybrid;
 	mso-list-template-ids:155894848 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l20:level1
+@list l31:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l20:level2
+@list l31:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l20:level3
+@list l31:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l20:level4
+@list l31:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l20:level5
+@list l31:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l20:level6
+@list l31:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
-@list l20:level7
+@list l31:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Symbol;}
-@list l20:level8
+@list l31:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:"Courier New";}
-@list l20:level9
+@list l31:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
@@ -2583,9 +3397,9 @@ color:black;mso-bidi-font-weight:bold'>4.2 JavaScript Statements<o:p></o:p></spa
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>4.3 <span class=GramE>Semicolons ;</span></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+mso-bidi-font-weight:bold'>4.3 Semicolons;</span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
 box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
@@ -2609,9 +3423,88 @@ Breaks<o:p></o:p></span></p>
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>4.6 JavaScript Keywords</span><span
+mso-bidi-font-weight:bold'>4.6 JavaScript Keywords<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>5. JavaScript&nbsp;<span class=colorh1><span
+style='box-sizing: inherit'>Syntax</span></span></span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>5.1 JavaScript Values<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>5.1.1 JavaScript Literals</span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black;mso-bidi-font-weight:bold'>5.1.2 JavaScript Variables</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>5.2 JavaScript Comments<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>5.2.1 Single Line Comments</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black;mso-bidi-font-weight:bold'>5.2.2 Multi-line Comments</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black;mso-bidi-font-weight:bold'>5.3 JavaScript Identifiers / Names</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black;mso-bidi-font-weight:bold'>5.4 JavaScript is Case Sensitive</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;mso-outline-level:1;background:white'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
@@ -2627,7 +3520,7 @@ mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'>1.
 JavaScript&nbsp;Introduction<o:p></o:p></span></b></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l10 level1 lfo1'><![if !supportLists]><span
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l16 level1 lfo1'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -2636,7 +3529,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 is the world's most popular programming language.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l10 level1 lfo1'><![if !supportLists]><span
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l16 level1 lfo1'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -2645,7 +3538,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 is the programming language of the Web.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l10 level1 lfo1'><![if !supportLists]><span
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l16 level1 lfo1'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -2701,7 +3594,7 @@ line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-l
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l13 level1 lfo2;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l19 level1 lfo2;
 box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -2714,7 +3607,7 @@ minor-latin;color:black'>JavaScript and&nbsp;Java&nbsp;are completely different
 languages, both in concept and design.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l13 level1 lfo2;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l19 level1 lfo2;
 box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -2727,7 +3620,7 @@ minor-latin;color:black'>JavaScript was invented by Brendan <span class=SpellE>E
 in 1995, and became an ECMA standard in 1997.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l13 level1 lfo2;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l19 level1 lfo2;
 box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -2748,7 +3641,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo3;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l14 level1 lfo3;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2775,7 +3668,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo3;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l14 level1 lfo3;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2785,7 +3678,7 @@ minor-latin;color:black'>You can place any number of scripts in an HTML
 document.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo3;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l14 level1 lfo3;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2805,7 +3698,7 @@ minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;section of an
 HTML page, or in both.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo3;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l14 level1 lfo3;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2866,7 +3759,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l20 level1 lfo4;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l31 level1 lfo4;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2875,7 +3768,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>Scripts can also be placed in external files:<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l20 level1 lfo4;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l31 level1 lfo4;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2885,7 +3778,7 @@ minor-latin;color:black'>External scripts are practical when the same code is
 used in many different web pages.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l20 level1 lfo4;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l31 level1 lfo4;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2897,7 +3790,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>.<span
 class=SpellE>js</span></span></strong>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l20 level1 lfo4;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l31 level1 lfo4;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2989,7 +3882,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-7.65pt;line-height:150%;
-mso-list:l2 level1 lfo5;background:white'><![if !supportLists]><span
+mso-list:l7 level1 lfo5;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -3010,7 +3903,7 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'>&nbsp;as you like.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-7.65pt;line-height:150%;
-mso-list:l2 level1 lfo5;background:white'><![if !supportLists]><span
+mso-list:l7 level1 lfo5;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -3053,7 +3946,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Pl
 scripts in external files has some advantages:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l17 level1 lfo6;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l27 level1 lfo6;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3062,7 +3955,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>It separates HTML and code<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l17 level1 lfo6;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l27 level1 lfo6;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3072,7 +3965,7 @@ minor-latin;color:black'>It makes HTML and JavaScript easier to read and
 maintain<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l17 level1 lfo6;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l27 level1 lfo6;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3150,7 +4043,7 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>An external script can be referenced in 3 different ways:<o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-14.7pt;line-height:150%;
-mso-list:l16 level1 lfo7;background:white'><![if !supportLists]><span
+mso-list:l26 level1 lfo7;background:white'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
@@ -3192,7 +4085,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-14.7pt;line-height:150%;
-mso-list:l6 level1 lfo8;background:white'><![if !supportLists]><span
+mso-list:l12 level1 lfo8;background:white'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
@@ -3232,7 +4125,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-14.7pt;line-height:150%;
-mso-list:l6 level1 lfo8;background:white'><![if !supportLists]><span
+mso-list:l12 level1 lfo8;background:white'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
@@ -3282,7 +4175,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 can &quot;display&quot; data in different ways:<o:p></o:p></span></p>
 
 <ul style='margin-top:0cm' type=disc>
- <li class=MsoNormal style='color:black;line-height:150%;mso-list:l19 level1 lfo9;
+ <li class=MsoNormal style='color:black;line-height:150%;mso-list:l30 level1 lfo9;
      tab-stops:list 36.0pt;background:white'><span style='font-family:"Calibri","sans-serif";
      mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
      mso-bidi-theme-font:minor-latin'>Writing into an HTML element, using&nbsp;</span><span
@@ -3293,7 +4186,7 @@ can &quot;display&quot; data in different ways:<o:p></o:p></span></p>
      color:crimson'>innerHTML</span></code></span><span style='font-family:
      "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
      minor-latin;mso-bidi-theme-font:minor-latin'>.<o:p></o:p></span></li>
- <li class=MsoNormal style='color:black;line-height:150%;mso-list:l19 level1 lfo9;
+ <li class=MsoNormal style='color:black;line-height:150%;mso-list:l30 level1 lfo9;
      tab-stops:list 36.0pt;background:white'><span style='font-family:"Calibri","sans-serif";
      mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
      mso-bidi-theme-font:minor-latin'>Writing into the HTML output using&nbsp;</span><span
@@ -3313,7 +4206,7 @@ can &quot;display&quot; data in different ways:<o:p></o:p></span></p>
      color:crimson'>)</span></code><span style='font-family:"Calibri","sans-serif";
      mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
      mso-bidi-theme-font:minor-latin'>.<o:p></o:p></span></li>
- <li class=MsoNormal style='color:black;line-height:150%;mso-list:l19 level1 lfo9;
+ <li class=MsoNormal style='color:black;line-height:150%;mso-list:l30 level1 lfo9;
      tab-stops:list 36.0pt;background:white'><span style='font-family:"Calibri","sans-serif";
      mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
      mso-bidi-theme-font:minor-latin'>Writing into an alert box, using&nbsp;</span><span
@@ -3332,7 +4225,7 @@ can &quot;display&quot; data in different ways:<o:p></o:p></span></p>
      mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
      style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
      mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>.<o:p></o:p></span></li>
- <li class=MsoNormal style='color:black;line-height:150%;mso-list:l19 level1 lfo9;
+ <li class=MsoNormal style='color:black;line-height:150%;mso-list:l30 level1 lfo9;
      tab-stops:list 36.0pt;background:white'><span style='font-family:"Calibri","sans-serif";
      mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
      mso-bidi-theme-font:minor-latin'>Writing into the browser console,
@@ -3358,7 +4251,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l15 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l23 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3380,7 +4273,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>&nbsp;method.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l15 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l23 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3394,7 +4287,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>&nbsp;attribute defines the HTML element. <o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l15 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l23 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3427,7 +4320,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black;background:#FFFFCC'>Note:<o:p></o:p></span></b></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l12 level1 lfo11;background:white'><![if !supportLists]><span
+mso-list:l18 level1 lfo11;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -3445,7 +4338,7 @@ font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-th
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l12 level1 lfo11;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l18 level1 lfo11;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3480,7 +4373,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>Note:<o:p></o:p></span></b></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-7.65pt;line-height:150%;
-mso-list:l12 level1 lfo11;background:white'><![if !supportLists]><span
+mso-list:l18 level1 lfo11;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -3493,7 +4386,7 @@ minor-latin;font-weight:normal;mso-bidi-font-weight:bold'>delete all existing
 HTML</span></strong><b style='mso-bidi-font-weight:normal'>:<o:p></o:p></b></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-7.65pt;line-height:150%;
-mso-list:l12 level1 lfo11;background:white'><![if !supportLists]><span
+mso-list:l18 level1 lfo11;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -3511,7 +4404,7 @@ font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-th
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo12;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l13 level1 lfo12;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3534,7 +4427,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-7.65pt;line-height:150%;
-mso-list:l7 level1 lfo12;background:white'><![if !supportLists]><span
+mso-list:l13 level1 lfo12;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -3549,7 +4442,7 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'>keyword.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-7.65pt;line-height:150%;
-mso-list:l7 level1 lfo12;background:white'><![if !supportLists]><span
+mso-list:l13 level1 lfo12;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -3575,7 +4468,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo13;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo13;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3623,7 +4516,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo13;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo13;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -3639,7 +4532,7 @@ program</span></strong>&nbsp;is a list of &quot;instructions&quot; to be
 &quot;executed&quot; by a computer.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo13;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo13;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -3654,7 +4547,7 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>statements</span></strong>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo13;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo13;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -3677,7 +4570,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black;background:#FFFFCC'>Note:<o:p></o:p></span></b></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l14 level1 lfo14;background:white'><![if !supportLists]><span
+mso-list:l21 level1 lfo14;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
@@ -3686,7 +4579,7 @@ minor-latin;color:black;background:#FFFFCC'>In HTML, JavaScript programs are
 executed by the web browser.</span></p>
 
 <h2 style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.75pt;
-margin-bottom:.0001pt;text-indent:-18.75pt;line-height:150%;mso-list:l18 level2 lfo21;
+margin-bottom:.0001pt;text-indent:-18.75pt;line-height:150%;mso-list:l29 level2 lfo21;
 background:white'><![if !supportLists]><b style='mso-bidi-font-weight:normal'><span
 style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
@@ -3700,7 +4593,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l14 level1 lfo14;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l21 level1 lfo14;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -3713,7 +4606,7 @@ minor-latin;color:black'>JavaScript statements are composed of: Values,
 Operators, Expressions,&nbsp;Keywords, and Comments.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l14 level1 lfo14;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l21 level1 lfo14;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -3723,7 +4616,7 @@ minor-latin;color:black'>Most JavaScript programs contain many JavaScript
 statements.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l14 level1 lfo14;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l21 level1 lfo14;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -3842,7 +4735,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l11 level1 lfo17;background:white'><![if !supportLists]><span
+mso-list:l17 level1 lfo17;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><b
@@ -3876,7 +4769,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l11 level1 lfo17;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l17 level1 lfo17;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -3889,7 +4782,7 @@ minor-latin;color:black'>JavaScript ignores multiple spaces. You can add white
 space to your script to make it more readable.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l11 level1 lfo17;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l17 level1 lfo17;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -3939,7 +4832,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo18;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l15 level1 lfo18;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -3952,7 +4845,7 @@ minor-latin;color:black'>For best readability, programmers often like to avoid c
 lines longer than 80 characters.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo18;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l15 level1 lfo18;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -4013,7 +4906,7 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo19;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo19;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -4029,7 +4922,7 @@ minor-latin'>keyword</span></strong>&nbsp;to identify the JavaScript action to
 be performed.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo19;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo19;
 background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
@@ -4065,20 +4958,752 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC'>JavaScript keywords are reserved words. Reserved words
 cannot be used as names for variables.</span></p>
 
+<h1 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>5. JavaScript&nbsp;<span class=colorh1><span
+style='box-sizing: inherit'>Syntax</span></span></span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h1>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>5.1 JavaScript Values</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l24 level1 lfo26;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The JavaScript syntax defines two types of values:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l22 level1 lfo22;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><span style='mso-list:Ignore'>1.</span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Fixed
+values<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l22 level1 lfo22;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><span style='mso-list:Ignore'>2.</span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Variable
+values<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l24 level1 lfo26;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Fixed values are called&nbsp;<b style='box-sizing: inherit'>Literals</b>.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l24 level1 lfo26;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Variable values are called&nbsp;<b style='box-sizing: inherit'>Variables</b>.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>5.1.1 JavaScript Literals</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo27;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The two most important syntax rules for fixed values
+are:<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>1.&nbsp;<strong style='box-sizing: inherit'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Numbers</span></strong>&nbsp;are
+written with or without decimals:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+class=jsnumbercolor><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;background:
+white'>Example<o:p></o:p></span></b></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+class=jsnumbercolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+background:white'>10.50</span></span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'><br style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>
+<span class=jsnumbercolor><span style='background:white'><span
+style='box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>1001</span><o:p></o:p></span></span></span></p>
+
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-background:#FFFFCC'><o:p>&nbsp;</o:p></span></p>
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>2.&nbsp;<b>Strings</b>&nbsp;are
+text, written within double or single quotes:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>&quot;John Doe&quot;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><br>
+</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>'John Doe'</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>5.1.2 JavaScript Variables</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo27;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>In a programming language,&nbsp;<strong
+style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>variables</span></strong>&nbsp;are used to&nbsp;<strong
+style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>store</span></strong>&nbsp;data values.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo27;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>JavaScript uses the keywords&nbsp;</span><span
+class=SpellE><code style='box-sizing: inherit;background-color:rgba(222, 222, 222, 0.3)'><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>var</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>,&nbsp;</span><code
+style='box-sizing: inherit;background-color:rgba(222, 222, 222, 0.3)'><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>let</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;and&nbsp;</span><span
+class=SpellE><code style='box-sizing: inherit;background-color:rgba(222, 222, 222, 0.3)'><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>const</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;to&nbsp;<strong
+style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>declare</span></strong>&nbsp;variables.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo27;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>An&nbsp;<strong style='box-sizing: inherit'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>equal sign</span></strong>&nbsp;is
+used to&nbsp;<strong style='box-sizing: inherit'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>assign values</span></strong>&nbsp;to variables.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l25 level1 lfo27;
+background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>In this <b style='mso-bidi-font-weight:normal'>example</b>,
+x is defined as a variable. Then, x is assigned (given) the value 6:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
+style='box-sizing: inherit'><span class=jskeywordcolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'><span
+style='box-sizing: inherit'>let</span></span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;x;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br
+style='box-sizing: inherit'>
+<span class=jscolor>x =&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsnumbercolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:red'>6</span></span></span><span class=jscolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>5.2 JavaScript Comments<o:p></o:p></span></b></h2>
+
+<p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
+mso-list:l4 level1 lfo31;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>JavaScript comments can be used to explain JavaScript
+code, and to make it more readable.<o:p></o:p></span></p>
+
+<p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
+mso-list:l4 level1 lfo31;tab-stops:list 36.0pt;background:white;box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
+comments can also be used to prevent execution, when testing alternative code.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo31;
+tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Comments are ignored, and will not be executed:<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>5.2.1 Single Line Comments</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l28 level1 lfo32;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Single
+line comments start with&nbsp;</span><code style='box-sizing: inherit;
+background-color:rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:crimson'>//</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l28 level1 lfo32;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Any
+text between&nbsp;</span><code style='box-sizing: inherit;background-color:
+rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>//</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;and the end of the line will be ignored by
+JavaScript (will not be executed).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white;box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><b><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>Example</span></b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
+style='box-sizing: inherit'><span class=jskeywordcolor></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'><span
+style='box-sizing: inherit'><span style='box-sizing: inherit'>let</span></span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>&nbsp;x =&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsnumbercolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:red'>5</span></span></span><span class=jscolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+style='box-sizing: inherit'></span></span><span class=commentcolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:green'>//
+Declare x, give it the value of 5</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:green'><br style='box-sizing: inherit'>
+</span><span class=jskeywordcolor></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:mediumblue'><span style='box-sizing: inherit'>let</span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>&nbsp;y = x +&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsnumbercolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:red'>2</span></span></span><span class=jscolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;&nbsp;&nbsp;<span
+style='box-sizing: inherit'></span></span><span class=commentcolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:green'>//
+Declare y, give it the value of x + 2</span></span></span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>5.2.2
+Multi-line Comments</span></b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo33;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Multi-line
+comments start with&nbsp;</span><code style='box-sizing: inherit;background-color:
+rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>/*</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;and end with&nbsp;</span><code style='box-sizing: inherit;
+background-color:rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:crimson'>*/</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo33;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Any
+text between&nbsp;</span><code style='box-sizing: inherit;background-color:
+rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>/*</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;and&nbsp;</span><code style='box-sizing: inherit;
+background-color:rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:crimson'>*/</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;will be ignored by JavaScript.<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+class=commentcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:green'>/*</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:green'><br style='box-sizing: inherit'>
+<span class=commentcolor>The code below will change</span><br style='box-sizing: inherit'>
+<span class=commentcolor>the heading with id = &quot;<span class=SpellE>myH</span>&quot;</span><br
+style='box-sizing: inherit'>
+<span class=commentcolor>and the paragraph with id = &quot;<span class=SpellE>myP</span>&quot;</span><br
+style='box-sizing: inherit'>
+<span class=commentcolor>in my web page:</span><br style='box-sizing: inherit'>
+<span class=commentcolor>*/</span></span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br style='box-sizing: inherit'>
+<span class=SpellE><span class=GramE><span class=jscolor>document.<span
+style='box-sizing: inherit'></span><span class=jspropertycolor>getElementById</span></span></span></span><span
+class=GramE><span class=jscolor>(<span style='box-sizing: inherit'></span></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;<span class=SpellE>myH</span>&quot;</span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>).<span style='box-sizing: inherit'></span></span><span
+class=SpellE><span class=jspropertycolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>innerHTML</span></span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>&nbsp;=&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;My First Page&quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br
+style='box-sizing: inherit'>
+<span class=SpellE><span class=jscolor>document.<span style='box-sizing: inherit'></span><span
+class=jspropertycolor>getElementById</span></span></span><span class=jscolor>(<span
+style='box-sizing: inherit'></span></span><span class=jsstringcolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>&quot;<span
+class=SpellE>myP</span>&quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>).<span
+style='box-sizing: inherit'></span></span><span class=SpellE><span
+class=jspropertycolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>innerHTML</span></span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>&nbsp;=&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;My first paragraph.&quot;</span></span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>;<span style='box-sizing: inherit'></span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'></span><o:p></o:p></span></p>
+
+</span>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-background:#FFFFCC'><o:p>&nbsp;</o:p></span></p>
+background:#FFFFCC'>Note:<o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%;background:white'><span
+<p class=MsoListParagraphCxSpFirst style='text-indent:-7.65pt;line-height:150%;
+mso-list:l5 level1 lfo34;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;background:#FFFFCC'>It is most common to use single
+line comments.</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-7.65pt;line-height:150%;
+mso-list:l5 level1 lfo34;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;background:#FFFFCC'>Block comments are often used for
+formal documentation.</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>5.3 JavaScript Identifiers / Names</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo29;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-background:#FFFFCC'><o:p>&nbsp;</o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Identifiers
+are JavaScript names.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo29;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Identifiers
+are used to name variables and keywords, and functions.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo29;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
+rules for legal names are the same in most programming languages.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo29;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>A
+JavaScript name must begin with:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l20 level1 lfo23;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>A letter (A-Z or a-z)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l20 level1 lfo23;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>A dollar sign ($)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l20 level1 lfo23;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Or an underscore (_)<o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:#FFFFCC'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Note</span></b><span style='font-size:12.0pt;
+line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l1 level1 lfo30;
+tab-stops:list 36.0pt;background:#FFFFCC;box-sizing: inherit'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Numbers are not allowed as the first character in
+names.<o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>5.4 JavaScript is Case Sensitive</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l1 level1 lfo30;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>All
+JavaScript identifiers are&nbsp;<strong style='box-sizing: inherit'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>case
+sensitive</span></strong>.&nbsp;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l1 level1 lfo30;
+tab-stops:list 36.0pt;background:white;box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
+variables&nbsp;</span><span class=SpellE><code style='box-sizing: inherit;
+background-color:rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>lastName</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;and&nbsp;</span><span
+class=SpellE><code style='box-sizing: inherit;background-color:rgba(222, 222, 222, 0.3)'><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>lastname</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>,
+are two different variables:<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><span style='box-sizing: inherit'><span
+style='box-sizing: inherit'>Example:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
+style='box-sizing: inherit'><span class=jskeywordcolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'><span
+style='box-sizing: inherit'>let</span></span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;<span
+class=SpellE>lastname</span>, <span class=SpellE>lastName</span>;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br
+style='box-sizing: inherit'>
+<span class=SpellE><span class=jscolor>lastName</span></span><span
+class=jscolor> =&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;Doe&quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br
+style='box-sizing: inherit'>
+<span class=SpellE><span class=jscolor>lastname</span></span><span
+class=jscolor> =&nbsp;<span style='box-sizing: inherit'></span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;Peterson&quot;</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -4094,6 +5719,8 @@ style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
 150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>References<o:p></o:p></span></b></h2>
 
+<p class=MsoNormal><span style='mso-fareast-language:EN-US'>https://www.w3schools.com/js/default.asp<o:p></o:p></span></p>
+
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><a
@@ -4108,7 +5735,12 @@ href="https://www.w3schools.com/js/js_output.asp">https://www.w3schools.com/js/j
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>https://www.w3schools.com/js/js_statements.asp<o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><a
+href="https://www.w3schools.com/js/js_statements.asp">https://www.w3schools.com/js/js_statements.asp</a><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>https://www.w3schools.com/js/js_syntax.asp<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
