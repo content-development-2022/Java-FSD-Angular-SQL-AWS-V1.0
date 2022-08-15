@@ -1,4 +1,4 @@
-**JS Basics**
+# JS Basics
 
 **Content**
 
@@ -46,7 +46,7 @@
 
 **4. References**
 
-## 1. JavaScript Display Possibilities
+# 1. JavaScript Display Possibilities
 
 JavaScript can "display" data in different ways:
 
@@ -340,7 +340,7 @@ let lastname, lastName;
 lastName = "Doe";  
 lastname = "Peterson";
 
-## 4. References
+# 4. References
 
 1.  <https://www.w3schools.com/js/js_output.asp>
 2.  <https://www.w3schools.com/js/js_statements.asp>
