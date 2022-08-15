@@ -23,16 +23,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>7</o:Revision>
-  <o:TotalTime>3</o:TotalTime>
+  <o:Revision>13</o:Revision>
+  <o:TotalTime>7</o:TotalTime>
   <o:Created>2022-08-15T06:09:00Z</o:Created>
-  <o:LastSaved>2022-08-15T06:34:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-15T06:38:00Z</o:LastSaved>
   <o:Pages>3</o:Pages>
-  <o:Words>433</o:Words>
-  <o:Characters>2471</o:Characters>
+  <o:Words>434</o:Words>
+  <o:Characters>2475</o:Characters>
   <o:Lines>20</o:Lines>
   <o:Paragraphs>5</o:Paragraphs>
-  <o:CharactersWithSpaces>2899</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>2904</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1467,7 +1467,8 @@ ul
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
 150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'>JavaScript<o:p></o:p></span></b></p>
+mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'>JS
+Introduction<o:p></o:p></span></b></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
