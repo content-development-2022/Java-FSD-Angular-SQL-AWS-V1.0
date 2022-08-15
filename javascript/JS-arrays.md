@@ -360,11 +360,11 @@ Cecilie, Lone, Emil, Tobias, Linus
 
 **Example**
 
-![](media/5b84dbda350888fe4c1363452b098114.png)The first parameter (2) defines the position **where** new elements should be **added** (spliced in).
+![](media/5b84dbda350888fe4c1363452b098114.png)
 
-The second parameter (0) defines **how many** elements should be **removed**.
-
-The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be **added**.
+-   The first parameter (2) defines the position **where** new elements should be **added** (spliced in).
+-   The second parameter (0) defines **how many** elements should be **removed**.
+-   The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be **added**.
 
 ## 5.5.1 Using splice() to Remove Elements
 
