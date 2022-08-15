@@ -283,12 +283,20 @@ Note that the function takes 3 arguments:
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 fruits.pop();
 
+**Output**
+
+Banana, Orange, Apple
+
 -   The pop() method returns the value that was "popped out":
 
 **Example**
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 let fruit = fruits.pop();
+
+**Output**
+
+Mango
 
 ## 5.2 JavaScript Array push()
 
@@ -299,12 +307,22 @@ let fruit = fruits.pop();
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 fruits.push("Kiwi");
 
+**Output**
+
+Banana, Orange, Apple, Mango, Kiwi
+
 -   The push() method returns the new array length:
 
 **Example**
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 let length = fruits.push("Kiwi");
+
+**Output**
+
+Banana, Orange, Apple, Mango, Kiwi
+
+5
 
 ## 5.3 JS Array delete()
 
@@ -314,6 +332,10 @@ let length = fruits.push("Kiwi");
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 delete fruits[0];
+
+**Output**
+
+Banana
 
 ## 5.4 JS Array Merging (Concatenating)
 
@@ -325,6 +347,10 @@ const myGirls = ["Cecilie", "Lone"];
 const myBoys = ["Emil", "Tobias", "Linus"];
 
 const myChildren = myGirls.concat(myBoys);
+
+**Output**
+
+Cecilie, Lone, Emil, Tobias, Linus
 
 ## 5.5 JS Array splice()
 
@@ -411,10 +437,18 @@ Lemon,Apple,Mango
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 document.getElementById("demo").innerHTML = fruits.toString();
 
+**Output**
+
+Banana, Orange, Apple, Mango
+
 **Example**
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 document.getElementById("demo").innerHTML = fruits;
+
+**Output**
+
+Banana, Orange, Apple, Mango
 
 **Note**
 
@@ -433,6 +467,10 @@ document.getElementById("demo").innerHTML = fruits;
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 fruits.sort();
 
+**Output**
+
+Apple, Banana, Mango, Orange
+
 ## 7. JS Reversing an Array
 
 -   The reverse() method reverses the elements in an array.
@@ -443,6 +481,16 @@ fruits.sort();
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 fruits.sort();  
 fruits.reverse();
+
+**Output**
+
+Apple, Banana, Mango, Orange
+
+Orange, Mango, Banana, Apple
+
+**Note:**
+
+-   By combining sort() and reverse() you can sort an array in descending order:
 
 ## 8. References
 
