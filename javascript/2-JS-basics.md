@@ -105,7 +105,7 @@ JavaScript can "display" data in different ways:
 
 -   In HTML, JavaScript programs are executed by the web browser.
 
-## JavaScript Statements
+## 2.2 JavaScript Statements
 
 -   JavaScript statements are composed of: Values, Operators, Expressions, Keywords, and Comments.
 -   Most JavaScript programs contain many JavaScript statements.
