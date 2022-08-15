@@ -265,7 +265,9 @@ Note that the function takes 3 arguments:
 
 **Example:** finds the sum of all numbers in an array:
 
-![](media/bff7d5538a192835954f20f0c4c9346a.png)**Note:** The function takes 4 arguments:
+![](media/bff7d5538a192835954f20f0c4c9346a.png)
+
+**Note:** The function takes 4 arguments:
 
 -   The total (the initial value / previously returned value)
 -   The item value
