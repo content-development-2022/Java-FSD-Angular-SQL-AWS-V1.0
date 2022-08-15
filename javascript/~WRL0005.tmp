@@ -8,7 +8,7 @@
 
 1.2 Creating an Array
 
-1.3 Using the JS Keyword new
+1.3 Using the JavaScript Keyword new
 
 1.4 Accessing Array Elements
 
@@ -40,31 +40,11 @@
 
 4.5 JS Array reduce()
 
-**5. JS Array Methods**
+**3. JS Array Methods**
 
-5.1 JS Array pop()
+**4. JS Sort**
 
-5.2 JS Array push()
-
-5.3 JS Array delete()
-
-5.4 JS Array merging (Concatenating)
-
-5.5 JS Array splice()
-
-5.5.1 Using splice() to Remove Elements
-
-5.6 JS Array slice()
-
-5.7 Automatic toString()
-
-5.8 Finding Max and Min Values in an Array
-
-**6. JS Sorting an Arrays**
-
-**7. JS Reversing an Array**
-
-**8. References**
+**5. References**
 
 ## 1. JavaScript Arrays
 
@@ -116,7 +96,7 @@ cars[0]= "Saab";
 cars[1]= "Volvo";  
 cars[2]= "BMW";
 
-## 1.3 Using the JS Keyword new
+## 1.3 Using the JavaScript Keyword new
 
 -   The following example also creates an Array, and assigns values to it:
 
@@ -306,7 +286,7 @@ fruits.push("Kiwi");
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 let length = fruits.push("Kiwi");
 
-## 5.3 JS Array delete()
+## 5.3 JavaScript Array delete()
 
 -   Array elements can be deleted using the JavaScript operator delete.
 
@@ -315,7 +295,7 @@ let length = fruits.push("Kiwi");
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 delete fruits[0];
 
-## 5.4 JS Array Merging (Concatenating)
+## 5.4 Merging (Concatenating) Arrays
 
 -   The concat() method creates a new array by merging (concatenating) existing arrays:
 
@@ -342,7 +322,7 @@ The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be **ad
 
 -   With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array:
 
-**Example**
+### Example
 
 ![](media/4daa97cd28c243c446eb086b153be469.png)
 
@@ -350,7 +330,7 @@ The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be **ad
 -   The second parameter (1) defines **how many** elements should be **removed**.
 -   The rest of the parameters are omitted. No new elements will be added.
 
-## 5.6 JS Array slice()
+## 5.6 JavaScript Array slice()
 
 -   The slice() method slices out a piece of an array into a new array.
 -   This example slices out a part of an array starting from array element 1 ("Orange"):
@@ -360,71 +340,62 @@ The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be **ad
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];  
 const citrus = fruits.slice(1);
 
-**Output**
-
-Orange, Lemon, Apple, Mango
-
 ## Note
 
--   The slice() method creates a new array.
--   The slice() method does not remove any elements from the source array.
+The slice() method creates a new array.
 
-**Example** slices out a part of an array starting from array element 3 ("Apple"):
+The slice() method does not remove any elements from the source array.
+
+This example slices out a part of an array starting from array element 3 ("Apple"):
+
+### Example
 
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];  
 const citrus = fruits.slice(3);
 
-**Output**
+The slice() method can take two arguments like slice(1, 3).
 
-Apple, Mango
+The method then selects elements from the start argument, and up to (but not including) the end argument.
 
--   The slice() method can take two arguments like slice(1, 3).
--   The method then selects elements from the start argument, and up to (but not including) the end argument.
-
-**Example**
+### Example
 
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];  
 const citrus = fruits.slice(1, 3);
 
-**Output**
+If the end argument is omitted, like in the first examples, the slice() method slices out the rest of the array.
 
-Orange,Lemon
-
--   If the end argument is omitted, like in the first examples, the slice() method slices out the rest of the array.
-
-**Example**
+### Example
 
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];  
 const citrus = fruits.slice(2);
 
-**Output**
+## Automatic toString()
 
-Lemon,Apple,Mango
+JavaScript automatically converts an array to a comma separated string when a primitive value is expected.
 
-## 5.7 Automatic toString()
+This is always the case when you try to output an array.
 
--   JavaScript automatically converts an array to a comma separated string when a primitive value is expected.
--   These two examples will produce the same result:
+These two examples will produce the same result:
 
-**Example**
+### Example
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 document.getElementById("demo").innerHTML = fruits.toString();
 
-**Example**
+### Example
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 document.getElementById("demo").innerHTML = fruits;
 
-**Note**
+## Note
 
--   All JavaScript objects have a toString() method.
+All JavaScript objects have a toString() method.
 
-## 5.8 Finding Max and Min Values in an Array
+## Finding Max and Min Values in an Array
 
--   There are no built-in functions for finding the highest or lowest value in a JavaScript array.
+There are no built-in functions for finding the highest or lowest value in a JavaScript array.
 
-# 6. JS Sorting an Arrays
+# 6. JS Sorting Arrays
 
 -   The sort() method sorts an array alphabetically:
 
@@ -433,7 +404,7 @@ document.getElementById("demo").innerHTML = fruits;
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 fruits.sort();
 
-## 7. JS Reversing an Array
+## 7. Reversing an Array
 
 -   The reverse() method reverses the elements in an array.
 -   You can use it to sort an array in descending order:
