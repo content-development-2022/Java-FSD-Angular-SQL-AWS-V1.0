@@ -1,4 +1,4 @@
-# JavaScript
+# JS Operators
 
 **Content**
 
