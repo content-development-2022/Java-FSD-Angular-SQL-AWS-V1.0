@@ -66,7 +66,7 @@
 
 **8. References**
 
-## 1. JavaScript Arrays
+## 1. JS Arrays
 
 -   An array is a special variable, which can hold more than one value.
 
@@ -93,13 +93,13 @@ const *array_name* = [*item1*, *item2*, ...];
 
 -   It is a common practice to declare arrays with the const keyword.
 
-**Example**
+**Example-1**
 
 const cars = ["Saab", "Volvo", "BMW"];
 
 -   Spaces and line breaks are not important. A declaration can span multiple lines.
 
-**Example**
+**Example-2**
 
 const cars = [  
 "Saab",  
@@ -109,7 +109,7 @@ const cars = [
 
 -   You can also create an array, and then provide the elements.
 
-**Example**
+**Example-3**
 
 const cars = [];  
 cars[0]= "Saab";  
@@ -280,7 +280,7 @@ Note that the function takes 3 arguments:
 
 -   The pop() method removes the last element from an array:
 
-**Example**
+**Example-1**
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 fruits.pop();
@@ -291,7 +291,7 @@ Banana, Orange, Apple
 
 -   The pop() method returns the value that was "popped out":
 
-**Example**
+**Example-2**
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 let fruit = fruits.pop();
@@ -300,11 +300,11 @@ let fruit = fruits.pop();
 
 Mango
 
-## 5.2 JavaScript Array push()
+## 5.2 JS Array push()
 
 -   The push() method adds a new element to an array (at the end):
 
-**Example**
+**Example-1**
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 fruits.push("Kiwi");
@@ -315,7 +315,7 @@ Banana, Orange, Apple, Mango, Kiwi
 
 -   The push() method returns the new array length:
 
-**Example**
+**Example-2**
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 let length = fruits.push("Kiwi");
@@ -383,7 +383,7 @@ Cecilie, Lone, Emil, Tobias, Linus
 -   The slice() method slices out a piece of an array into a new array.
 -   This example slices out a part of an array starting from array element 1 ("Orange"):
 
-**Example**
+**Example-1**
 
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];  
 const citrus = fruits.slice(1);
@@ -397,7 +397,7 @@ Orange, Lemon, Apple, Mango
 -   The slice() method creates a new array.
 -   The slice() method does not remove any elements from the source array.
 
-**Example** slices out a part of an array starting from array element 3 ("Apple"):
+**Example-2** slices out a part of an array starting from array element 3 ("Apple"):
 
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];  
 const citrus = fruits.slice(3);
@@ -409,7 +409,7 @@ Apple, Mango
 -   The slice() method can take two arguments like slice(1, 3).
 -   The method then selects elements from the start argument, and up to (but not including) the end argument.
 
-**Example**
+**Example-3**
 
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];  
 const citrus = fruits.slice(1, 3);
@@ -420,7 +420,7 @@ Orange,Lemon
 
 -   If the end argument is omitted, like in the first examples, the slice() method slices out the rest of the array.
 
-**Example**
+**Example-4**
 
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];  
 const citrus = fruits.slice(2);
@@ -434,7 +434,7 @@ Lemon,Apple,Mango
 -   JavaScript automatically converts an array to a comma separated string when a primitive value is expected.
 -   These two examples will produce the same result:
 
-**Example**
+**Example-1**
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 document.getElementById("demo").innerHTML = fruits.toString();
@@ -443,7 +443,7 @@ document.getElementById("demo").innerHTML = fruits.toString();
 
 Banana, Orange, Apple, Mango
 
-**Example**
+**Example-2**
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];  
 document.getElementById("demo").innerHTML = fruits;
