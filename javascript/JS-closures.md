@@ -41,7 +41,7 @@ return a \* a;
 
 ## 1.2. Global Variable
 
-1.  A function can also access variables defined **outside** the function, like this:
+1.A function can also access variables defined **outside** the function, like this:
 
 **Example-1**
 
@@ -55,7 +55,8 @@ return a \* a;
 -   In example-1, **a** is a **global** variable.
 -   In a web page, global variables belong to the page.
 -   Global variables can be used (and changed) by all other scripts in the page.
-1.  Variables created **without** a declaration keyword (var, let, or const) are always global, even if they are created inside a function.
+
+2.Variables created **without** a declaration keyword (var, let, or const) are always global, even if they are created inside a function.
 
 **Example-2**
 
@@ -73,7 +74,8 @@ a = 4;
 ## 2. Counter Dilemma
 
 -   Suppose you want to use a variable for counting something, and you want this counter to be available to all functions.
-1.  **Use a global variable, and a function to increase the counter.**
+
+**1.Use a global variable, and a function to increase the counter.**
 
 **Example-1**
 
@@ -95,7 +97,8 @@ add();
 // The counter should now be 3
 
 -   There is a problem with the solution above: Any code on the page can change the counter, without calling add().
-1.  **The counter variable should be local to the add() function.**
+
+**2.The counter variable should be local to the add() function.**
 
 **Example-2**
 
@@ -118,7 +121,8 @@ add();
 //The counter should now be 3. But it is 0
 
 -   It did not work because it display the global counter instead of the local counter.
-1.  **We can remove the global counter and access the local counter by letting the function return it:**
+
+**3.We can remove the global counter and access the local counter by letting the function return it:**
 
 **Example-3**
 
