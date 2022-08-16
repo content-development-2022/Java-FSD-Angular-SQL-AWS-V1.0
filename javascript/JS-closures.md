@@ -43,7 +43,7 @@ return a \* a;
 
 1.  A function can also access variables defined **outside** the function, like this:
 
-**Example-2**
+**Example-1**
 
 let a = 4;  
 function myFunction()
@@ -52,12 +52,12 @@ function myFunction()
 return a \* a;  
 }
 
--   In example-2, **a** is a **global** variable.
+-   In example-1, **a** is a **global** variable.
 -   In a web page, global variables belong to the page.
 -   Global variables can be used (and changed) by all other scripts in the page.
 1.  Variables created **without** a declaration keyword (var, let, or const) are always global, even if they are created inside a function.
 
-**Example**
+**Example-2**
 
 function myFunction()
 
