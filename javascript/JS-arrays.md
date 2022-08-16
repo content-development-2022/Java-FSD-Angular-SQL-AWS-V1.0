@@ -86,6 +86,9 @@ let car3 = "BMW";
 ## 1.2 Creating an Array
 
 -   Using an array literal is the easiest way to create a JavaScript Array.
+-   JavaScript arrays are written with square brackets.
+-   Array items are separated by commas.
+-   Array indexes are zero-based, which means the first item is [0], second is [1], and so on.
 
 **Syntax:**
 
@@ -170,6 +173,8 @@ document.getElementById("demo").innerHTML = cars;
 
 -   In this example, person[0] returns John:
 -   Objects use **names** to access its "members".
+-   JavaScript objects are written with curly braces {}.
+-   Object properties are written as name:value pairs, separated by commas.
 
     **Object:** const person = {firstName:"John", lastName:"Doe", age:46};
 
