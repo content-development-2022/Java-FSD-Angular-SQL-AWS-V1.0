@@ -23,16 +23,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>13</o:Revision>
-  <o:TotalTime>18</o:TotalTime>
+  <o:Revision>14</o:Revision>
+  <o:TotalTime>33</o:TotalTime>
   <o:Created>2022-08-17T09:57:00Z</o:Created>
-  <o:LastSaved>2022-08-17T10:16:00Z</o:LastSaved>
-  <o:Pages>1</o:Pages>
-  <o:Words>538</o:Words>
-  <o:Characters>3068</o:Characters>
-  <o:Lines>25</o:Lines>
+  <o:LastSaved>2022-08-17T12:37:00Z</o:LastSaved>
+  <o:Pages>5</o:Pages>
+  <o:Words>593</o:Words>
+  <o:Characters>3382</o:Characters>
+  <o:Lines>28</o:Lines>
   <o:Paragraphs>7</o:Paragraphs>
-  <o:CharactersWithSpaces>3599</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>3968</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -657,11 +657,10 @@ w\:* {behavior:url(#default#VML);}
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
-	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
@@ -697,8 +696,7 @@ h1
 	mso-fareast-font-family:"Times New Roman";
 	font-weight:bold;}
 h2
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
+	{mso-style-priority:9;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 2 Char";
 	mso-style-next:Normal;
@@ -791,7 +789,8 @@ code
 	mso-hansi-font-family:"Courier New";
 	mso-bidi-font-family:"Courier New";}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	margin-top:0cm;
@@ -806,7 +805,8 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -822,7 +822,8 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -838,7 +839,8 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -865,7 +867,6 @@ span.Heading1Char
 	font-weight:bold;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
-	mso-style-noshow:yes;
 	mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -1676,35 +1677,115 @@ ul
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>1. JS&nbsp;HTML DOM<o:p></o:p></span></b></h2>
+minor-latin;color:black'>JS DOM<o:p></o:p></span></b></h2>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+mso-fareast-language:EN-US'>Content<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>1 JS HTML DOM (Document Object Model)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>1.2 What is the DOM?</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>1.3 What is the HTML DOM?</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>2. JS -&nbsp;</span></b><span class=colorh1><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>HTML
+DOM Methods<o:p></o:p></span></b></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>2.1 The DOM Programming Interface</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>2.2 The <span class=SpellE>getElementById</span>
+Method</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>2.3 The <span class=SpellE>innerHTML</span>
+Property</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>3. JS&nbsp;</span></b><span class=colorh1><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>HTML
+DOM Document</span></b></span><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>3.1 The HTML DOM Document Object<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>3.1.1 Finding HTML Elements</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>3.1.2 Changing HTML Elements</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>3.1.3 Adding and Deleting Elements</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>4.
+<span class=SpellE>Refernces</span><span style='mso-bidi-font-weight:bold'><o:p></o:p></span></span></b></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>1 JS HTML DOM (Document Object Model)<o:p></o:p></span></b></h2>
 
 <p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
-mso-list:l6 level1 lfo1;background:white'><![if !supportLists]><span
+mso-list:l6 level1 lfo2;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>With
 the HTML DOM, JavaScript can access and change all the elements of an HTML
 document.<o:p></o:p></span></p>
 
-<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
-style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>1.1 HTML DOM (Document Object Model)</span></b><span
-style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p></o:p></span></h2>
-
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo1;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo2;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>When
-a web page is loaded, the browser creates a&nbsp;<strong><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>When a web page is loaded, the browser creates a&nbsp;<strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>D</span></strong>ocument&nbsp;<strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1714,17 +1795,17 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>M</span></stro
 of the page.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo1;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo2;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The&nbsp;<strong><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>HTML DOM</span></strong>&nbsp;model
-is constructed as a tree of&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'>Objects</span></strong>:<o:p></o:p></span></p>
+minor-latin;color:black'>The&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>HTML DOM</span></strong>&nbsp;model is constructed as a tree
+of&nbsp;<strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Objects</span></strong>:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
@@ -1763,7 +1844,7 @@ mso-bidi-theme-font:minor-latin;color:black'>With the object model, JavaScript
 gets all the power it needs to create dynamic HTML:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1773,7 +1854,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 can change all the HTML elements in the page<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1783,7 +1864,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 can change all the HTML attributes in the page<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1793,7 +1874,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 can change all the CSS styles in the page<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1803,7 +1884,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 can remove existing HTML elements and attributes<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1813,7 +1894,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 can add new HTML elements and attributes<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1823,7 +1904,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ja
 can react to all existing HTML events in the page<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1841,29 +1922,30 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo12;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo6;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-style:italic'>&quot;The Document Object Model (DOM) is a platform
-and language-neutral interface that allows programs and scripts to dynamically
-access and update the content, structure, and style of a document.&quot;</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;mso-bidi-font-style:italic'>&quot;The Document Object
+Model (DOM) is a platform and language-neutral interface that allows programs
+and scripts to dynamically access and update the content, structure, and style
+of a document.&quot;</span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo12;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l9 level1 lfo6;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
-DOM standard is separated into 3 different parts:<o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The DOM standard is separated into 3 different parts:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l4 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l4 level1 lfo8;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
@@ -1873,7 +1955,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Co
 DOM - standard model for all document types<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l4 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l4 level1 lfo8;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
@@ -1883,7 +1965,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>XM
 DOM - standard model for XML documents<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l4 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l4 level1 lfo8;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
@@ -1911,7 +1993,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>programming
 interface</span></strong>&nbsp;for HTML. It defines:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l5 level1 lfo5;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l5 level1 lfo10;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1920,7 +2002,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>The HTML elements as&nbsp;<b>objects</b><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l5 level1 lfo5;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l5 level1 lfo10;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1929,7 +2011,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>The&nbsp;<b>properties</b>&nbsp;of all HTML elements<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l5 level1 lfo5;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l5 level1 lfo10;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1939,7 +2021,7 @@ minor-latin;color:black'>The&nbsp;<b>methods</b>&nbsp;to access all HTML
 elements<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l5 level1 lfo5;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l5 level1 lfo10;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1958,7 +2040,7 @@ delete HTML elements.</b><o:p></o:p></span></p>
 <h1 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;mso-bidi-font-weight:normal'>2. JavaScript -</span><span
+minor-latin;color:black;mso-bidi-font-weight:normal'>2. JS -</span><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black;font-weight:normal'>&nbsp;</span><span class=colorh1><span
@@ -1971,10 +2053,10 @@ color:black;font-weight:normal'><o:p></o:p></span></h1>
 
 <p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
-mso-list:l3 level1 lfo3;background:white'><![if !supportLists]><span
+mso-list:l3 level1 lfo12;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>HTML
 DOM methods are&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
@@ -1983,10 +2065,10 @@ minor-latin'>actions</span></strong>&nbsp;you can perform (on HTML Elements).<o:
 
 <p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
-mso-list:l3 level1 lfo3;background:white'><![if !supportLists]><span
+mso-list:l3 level1 lfo12;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>HTML
 DOM properties are&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
@@ -2003,52 +2085,55 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo11;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
-HTML DOM can be accessed with JavaScript (and with other programming
-languages).<o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The HTML DOM can be accessed with JavaScript (and with
+other programming languages).<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo11;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>In the DOM, all HTML elements are defined as&nbsp;<strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>In
-the DOM, all HTML elements are defined as&nbsp;<strong><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin'>objects</span></strong>.<o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>objects</span></strong>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo11;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
-programming interface is the properties and methods of each object.<o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The programming interface is the properties and
+methods of each object.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo11;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>A&nbsp;<b>property</b>&nbsp;is
-a value that you can get or set (like changing the content of an HTML element).<o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>A&nbsp;<b>property</b>&nbsp;is a value that you can
+get or set (like changing the content of an HTML element).<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo11;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo14;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>A&nbsp;<b>method</b>&nbsp;is
-an action you can do (like add or deleting an HTML element).<o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>A&nbsp;<b>method</b>&nbsp;is an action you can do
+(like add or deleting an HTML element).<o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -2212,35 +2297,36 @@ Method</span></b><span style='font-size:12.0pt;line-height:150%;font-family:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo3;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo12;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
-most common way to access an HTML element is to use the&nbsp;</span><code><span
-style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
-font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>id</span></code><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;of
-the element.<o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The most common way to access an HTML element is to
+use the&nbsp;</span><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>id</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;of the element.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo3;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo12;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>In
-the example above the&nbsp;</span><span class=SpellE><code><span
-style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
-font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>getElementById</span></code></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>In the example above the&nbsp;</span><span
+class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>getElementById</span></code></span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
 used&nbsp;</span><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
 12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
@@ -2258,60 +2344,61 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo9;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo16;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
-easiest way to get the content of an element is by using the&nbsp;</span><span
-class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
-12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:crimson'>innerHTML</span></code></span><span style='font-family:"Calibri","sans-serif";
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>&nbsp;property.<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo9;
-background:white'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The&nbsp;</span><span
-class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
-12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:crimson'>innerHTML</span></code></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>&nbsp;property is useful for getting or replacing the
-content of HTML elements.<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Note:<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo10;
-background:#FFFFCC'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The&nbsp;</span><span
-class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
-12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:crimson'>innerHTML</span></code></span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>&nbsp;property can be used to get or change any HTML
-element, including&nbsp;</span><code><span style='mso-ansi-font-size:12.0pt;
-mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+minor-latin;color:black'>The easiest way to get the content of an element is by
+using the&nbsp;</span><span class=SpellE><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:crimson'>&lt;html&gt;</span></code><span
+mso-bidi-theme-font:minor-latin;color:crimson'>innerHTML</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;property.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo16;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>innerHTML</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;property
+is useful for getting or replacing the content of HTML elements.<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Note:<o:p></o:p></span></b></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo18;
+background:#FFFFCC'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>innerHTML</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;property
+can be used to get or change any HTML element, including&nbsp;</span><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>&lt;html&gt;</span></code><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;and&nbsp;</span><code><span
 style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
@@ -2324,7 +2411,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>.<
 <h1 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;mso-bidi-font-weight:normal'>3. JavaScript</span><span
+minor-latin;color:black;mso-bidi-font-weight:normal'>3. JS</span><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black;font-weight:normal'>&nbsp;</span><span class=colorh1><span
@@ -2337,10 +2424,10 @@ color:black;font-weight:normal'><o:p></o:p></span></h1>
 
 <p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
-mso-list:l3 level1 lfo3;background:white'><![if !supportLists]><span
+mso-list:l3 level1 lfo12;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
 HTML DOM document object is the owner of all other objects in your web page.<o:p></o:p></span></p>
@@ -2354,38 +2441,38 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo3;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo12;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
-document object represents your web page.<o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The document object represents your web page.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo3;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo12;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>If
-you want to access any element in an HTML page, you always start with accessing
-the document object.<o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>If you want to access any element in an HTML page, you
+always start with accessing the document object.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo3;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo12;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Below
-are some examples of how you can use the document object to access and
-manipulate HTML.<o:p></o:p></span></p>
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Below are some examples of how you can use the
+document object to access and manipulate HTML.<o:p></o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Finding HTML Elements</span></b><span
+minor-latin;color:black'>3.1.1 Finding HTML Elements</span></b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'><o:p></o:p></span></h2>
@@ -2404,7 +2491,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></s
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Changing HTML Elements</span></b><span
+minor-latin;color:black'>3.1.2 Changing HTML Elements</span></b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'><o:p></o:p></span></h2>
@@ -2423,7 +2510,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></s
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Adding and Deleting Elements</span></b><span
+minor-latin;color:black'>3.1.3 Adding and Deleting Elements</span></b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'><o:p></o:p></span></h2>
@@ -2439,16 +2526,13 @@ src="JS-DOM_files/image006.png" v:shapes="Picture_x0020_4"><![endif]></span><spa
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
-<h2 style='margin-top:0cm;line-height:150%;background:white'><span
-class=SpellE><b style='mso-bidi-font-weight:normal'><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin'>Refernces</span></b></span><b
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><o:p></o:p></span></b></h2>
+minor-latin;color:windowtext'>4. <span class=SpellE>Refernces</span><o:p></o:p></span></b></h2>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;line-height:150%;
-mso-list:l1 level1 lfo6'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
+mso-list:l1 level1 lfo20'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -2457,7 +2541,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin'>https://www.w3schools.com/js/js_htmldom.asp<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;line-height:
-150%;mso-list:l1 level1 lfo6'><![if !supportLists]><span style='font-family:
+150%;mso-list:l1 level1 lfo20'><![if !supportLists]><span style='font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>2.<span
@@ -2467,7 +2551,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><a
 href="https://www.w3schools.com/js/js_htmldom_methods.asp">https://www.w3schools.com/js/js_htmldom_methods.asp</a><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;line-height:150%;
-mso-list:l1 level1 lfo6'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
+mso-list:l1 level1 lfo20'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
