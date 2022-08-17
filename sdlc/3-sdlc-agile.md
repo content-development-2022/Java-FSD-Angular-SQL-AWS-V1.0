@@ -188,10 +188,10 @@ To achieve \<some result or reason for doing the thing\>
 
 -   Scrum ceremonies—also known as Scrum events, Scrum meetings, or Agile ceremonies—are a key component of the Scrum process.
 -   The four Scrum ceremonies are:
-1.  [Sprint planning](https://www.workfront.com/project-management/methodologies/scrum/sprint-planning)
-2.  [Daily stand-up](https://www.workfront.com/project-management/methodologies/agile/daily-stand-up)
-3.  [Sprint review](https://www.workfront.com/project-management/methodologies/scrum/sprint-reviews)
-4.  [Sprint retrospective](https://www.workfront.com/project-management/methodologies/scrum/sprint-retrospective)
+1.  Sprint planning
+2.  Daily stand-up
+3.  Sprint review
+4.  Sprint retrospective
 -   These four Scrum ceremonies form the backbone of the Scrum methodology.
 -   Sprint planning occurs before the sprint, daily stand-up meetings take place during the sprint, and the review and retrospective come after the sprint has ended.
 
