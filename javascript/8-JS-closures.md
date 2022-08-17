@@ -4,12 +4,6 @@
 
 **1. JS Variable Scope**
 
-1.1 Local Variable
-
-1.2 Global Variable
-
-1.3 Variable Lifetime
-
 2\. **Counter Dilemma**
 
 2.1 JS Nested Functions
@@ -22,54 +16,6 @@
 
 -   JavaScript variables can belong to the **local** or **global** scope.
 -   Global variables can be made local (private) with **closures**.
-
-## 1.1 Local Variable
-
--   A function can access all variables defined **inside** the function, like this:
-
-**Example**
-
-function myFunction()
-
-{  
-let a = 4;  
-return a \* a;  
-}
-
--   In example, **a** is a **local** variable.
--   A local variable can only be used inside the function where it is defined. It is hidden from other functions and other scripting code.
-
-## 1.2. Global Variable
-
-1.A function can also access variables defined **outside** the function, like this:
-
-**Example-1**
-
-let a = 4;  
-function myFunction()
-
-{  
-return a \* a;  
-}
-
--   In example-1, **a** is a **global** variable.
--   In a web page, global variables belong to the page.
--   Global variables can be used (and changed) by all other scripts in the page.
-
-2.Variables created **without** a declaration keyword (var, let, or const) are always global, even if they are created inside a function.
-
-**Example-2**
-
-function myFunction()
-
-{  
-a = 4;  
-}
-
-## 1.3 Variable Lifetime
-
--   Global variables live until the page is discarded, like when you navigate to another page or close the window.
--   Local variables have short lives. They are created when the function is invoked, and deleted when the function is finished.
 
 ## 2. Counter Dilemma
 
