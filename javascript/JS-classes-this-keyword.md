@@ -26,14 +26,6 @@
 
 3.5 this in a Function (Strict)
 
-3.6 this in Event Handlers
-
-3.7 Explicit Function Binding
-
-3.8 Function Borrowing
-
-3.9 This Precedence
-
 **4. References**
 
 ## 1. JS Classes
@@ -339,67 +331,6 @@ function myFunction()
 {  
 return this;  
 }
-
-## 3.6 this in Event Handlers
-
--   In HTML event handlers, this refers to the HTML element that received the event:
-
-**Example**
-
-\<button onclick="this.style.display='none'"\>  
-Click to Remove Me!  
-\</button\>
-
-## 3.7 Explicit Function Binding
-
--   The call() and apply() methods are predefined JavaScript methods.
--   They can both be used to call an object method with another object as argument.
--   The example below calls person1.fullName with person2 as an argument, **this** refers to person2, even if fullName is a method of person1:
-
-**Example**
-
-const person1 = {  
-fullName: function() {  
-return this.firstName + " " + this.lastName;  
-}  
-};
-
-const person2 = {  
-firstName:"John",  
-lastName: "Doe",  
-};
-
-// Return "John Doe":  
-person1.fullName.call(person2);
-
-## 3.8 Function Borrowing
-
--   With the bind() method, an object can borrow a method from another object.
--   This example creates 2 objects (person and member).
--   The member object borrows the fullname method from the person object:
-
-**Example**
-
-const person = {  
-firstName:"John",  
-lastName: "Doe",  
-fullName: function () {  
-return this.firstName + " " + this.lastName;  
-}  
-};
-
-const member = {  
-firstName:"Hege",  
-lastName: "Nilsen",  
-};
-
-let fullName = person.fullName.bind(member);
-
-## 3.9 This Precedence
-
-To determine which object this refers to; Use the following precedence of order.
-
-![](media/fa1eacaa74e27e5aa283586b6ecb5eda.png)
 
 # 4. References
 
