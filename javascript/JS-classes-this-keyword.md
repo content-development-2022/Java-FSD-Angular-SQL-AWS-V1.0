@@ -273,7 +273,7 @@ document.getElementById("demo").innerHTML = myCar.carname;
 
 ![](media/7dd667b5ec488edace5916b95357d484.png)
 
-## Note
+**Note**
 
 -   this is not a variable. It is a keyword. You cannot change the value of this.
 
