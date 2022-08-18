@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>38</o:Revision>
-  <o:TotalTime>62</o:TotalTime>
+  <o:Revision>40</o:Revision>
+  <o:TotalTime>65</o:TotalTime>
   <o:Created>2022-08-18T04:28:00Z</o:Created>
-  <o:LastSaved>2022-08-18T05:31:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-18T05:35:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>693</o:Words>
   <o:Characters>3956</o:Characters>
@@ -1393,9 +1393,28 @@ Symbol;mso-bidi-font-family:Symbol;color:#273239;letter-spacing:.1pt'><span
 style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:12.0pt;line-height:150%;
 mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;background:white'>When the string ‘Rahul’ is added to the
-number 10 then JavaScript does not give an error. It converts the number 10 to
-string ’10’ using coercion and then concatenates both the strings.<o:p></o:p></span></p>
+letter-spacing:.1pt;background:white'>When the string </span><span
+style='font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt'>'</span><span style='font-size:12.0pt;line-height:150%;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;background:white'>Rahul</span><span style='font-size:12.0pt;
+line-height:150%;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'>'</span><span
+style='font-size:12.0pt;line-height:150%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;background:
+white'> is added to the number 10 then JavaScript does not give an error. It
+converts the number 10 to string </span><span style='font-size:12.0pt;
+line-height:150%;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'>'</span><span
+style='font-size:12.0pt;line-height:150%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;background:
+white'>10</span><span style='font-size:12.0pt;line-height:150%;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:#273239;letter-spacing:.1pt'>'</span><span style='font-size:12.0pt;
+line-height:150%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:#273239;letter-spacing:.1pt;background:white'> using coercion and then
+concatenates both the strings.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
@@ -1693,7 +1712,7 @@ style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
 letter-spacing:.1pt'><span style='mso-spacerun:yes'> </span>A Boolean value can
-be represented as 0 for ‘false’ or 1 for ‘true’. <o:p></o:p></span></p>
+be represented as 0 for 'false' or 1 for 'true'. <o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;text-align:justify;line-height:150%;
 background:white;vertical-align:baseline'><strong><span style='font-family:
