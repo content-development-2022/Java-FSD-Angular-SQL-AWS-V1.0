@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>20</o:Revision>
-  <o:TotalTime>39</o:TotalTime>
+  <o:Revision>22</o:Revision>
+  <o:TotalTime>40</o:TotalTime>
   <o:Created>2022-08-18T04:28:00Z</o:Created>
-  <o:LastSaved>2022-08-18T05:08:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-18T05:09:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>695</o:Words>
   <o:Characters>3967</o:Characters>
@@ -1169,21 +1169,18 @@ ul
 <div class=WordSection1>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%;mso-outline-level:
-1;background:white;vertical-align:baseline'><b><span style='font-size:14.0pt;
-line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:#273239;mso-font-kerning:18.0pt'>Type
-Coercion<o:p></o:p></span></b></p>
-
-<p class=MsoNormal style='text-align:justify;line-height:150%'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin'>Content</span></b><b><span
-style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+1;background:white;vertical-align:baseline'><b><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
-mso-font-kerning:18.0pt'><o:p></o:p></span></b></p>
+mso-font-kerning:18.0pt'>Type Coercion<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Content</span></b><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:#273239;mso-font-kerning:18.0pt'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1191,36 +1188,37 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:#273239;mso-font-kerning:18.0pt'>1. What
 is Type Coercion?<o:p></o:p></span></b></p>
 
-<p class=MsoNormal style='text-align:justify;line-height:150%'><strong><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm;background:white;font-weight:normal;mso-bidi-font-weight:bold'>1.1 String
-to Number Conversion</span></strong><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:#273239;letter-spacing:.1pt;background:white'><o:p></o:p></span></p>
+<p class=MsoNormal style='margin-left:10.35pt;text-align:justify;line-height:
+150%'><strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:
+none windowtext 0cm;padding:0cm;background:white;font-weight:normal;mso-bidi-font-weight:
+bold'>1.1 String to Number </span></strong><span style='mso-bidi-font-weight:
+bold'>Conversion</span><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;background:white'><o:p></o:p></span></b></p>
 
-<p class=MsoNormal style='text-align:justify;line-height:150%'><strong><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.2 String to Number
-Conversion<o:p></o:p></span></strong></p>
+<p class=MsoNormal style='margin-left:10.35pt;text-align:justify;line-height:
+150%'><strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:
+none windowtext 0cm;padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.2
+String to Number Conversion<o:p></o:p></span></strong></p>
 
-<p class=MsoNormal style='text-align:justify;line-height:150%'><strong><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.3 Boolean to Number<o:p></o:p></span></strong></p>
+<p class=MsoNormal style='margin-left:10.35pt;text-align:justify;line-height:
+150%'><strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:
+none windowtext 0cm;padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.3
+Boolean to Number<o:p></o:p></span></strong></p>
 
-<p class=MsoNormal style='text-align:justify;line-height:150%'><strong><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.4 The Equality
-Operator</span></strong><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><o:p></o:p></span></p>
+<p class=MsoNormal style='margin-left:10.35pt;text-align:justify;line-height:
+150%'><strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:
+none windowtext 0cm;padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.4
+The Equality Operator</span></strong><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
@@ -1229,49 +1227,51 @@ minor-latin'>2. References</span></b><b style='mso-bidi-font-weight:normal'><spa
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%;mso-outline-level:
-1;background:white;vertical-align:baseline'><b><span style='font-size:14.0pt;
-line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:#273239;mso-font-kerning:18.0pt'>1. What
-is Type Coercion?<o:p></o:p></span></b></p>
+1;background:white;vertical-align:baseline'><b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
+mso-font-kerning:18.0pt'>1. What is Type Coercion?<o:p></o:p></span></b></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-7.65pt;
 line-height:150%;mso-list:l0 level1 lfo3'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:#273239;letter-spacing:.1pt'><span style='mso-list:Ignore'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><strong><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm;background:white'>Type Coercion</span></strong><span
-style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;background:white'>&nbsp;refers to the process of automatic
-or implicit conversion of values from one data type to another. </span><span
-style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;background:white'><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:#273239;letter-spacing:.1pt'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><strong><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;
+mso-border-alt:none windowtext 0cm;padding:0cm;background:white'>Type Coercion</span></strong><span
+style='font-size:12.0pt;line-height:150%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;background:
+white'>&nbsp;refers to the process of automatic or implicit conversion of
+values from one data type to another. </span><span style='font-size:12.0pt;
+line-height:150%;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:#273239;letter-spacing:.1pt;background:white'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-7.65pt;
 line-height:150%;mso-list:l0 level1 lfo3'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:#273239;letter-spacing:.1pt'><span style='mso-list:Ignore'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;background:white'>This includes conversion from Number to
-String, String to Number, Boolean to Number etc. when different types of
-operators are applied to the values.<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:#273239;letter-spacing:.1pt'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;line-height:150%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;background:
+white'>This includes conversion from Number to String, String to Number,
+Boolean to Number etc. when different types of operators are applied to the
+values.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-7.65pt;
 line-height:150%;mso-list:l0 level1 lfo3'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:#273239;letter-spacing:.1pt'><span style='mso-list:Ignore'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;background:white'>In case the behaviour of the implicit
-conversion is not sure, the constructors of a data type can be used to convert
-any value to that <span class=SpellE>datatype</span>, like the&nbsp;<strong><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;border:none windowtext 1.0pt;
+style='font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:#273239;letter-spacing:.1pt'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;line-height:150%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;background:
+white'>In case the behaviour of the implicit conversion is not sure, the
+constructors of a data type can be used to convert any value to that <span
+class=SpellE>datatype</span>, like the&nbsp;<strong><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;border:none windowtext 1.0pt;
 mso-border-alt:none windowtext 0cm;padding:0cm'>Number()</span></strong>,&nbsp;<strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;border:none windowtext 1.0pt;
@@ -1282,37 +1282,39 @@ mso-border-alt:none windowtext 0cm;padding:0cm'>Boolean()</span></strong>&nbsp;c
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:18.0pt;mso-add-space:
 auto;text-align:justify;text-indent:-18.0pt;line-height:150%;mso-list:l4 level2 lfo5'><![if !supportLists]><b
-style='mso-bidi-font-weight:normal'><span style='mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'><span
-style='mso-list:Ignore'>1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt'><span style='mso-list:Ignore'>1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span></b><![endif]><strong><span style='font-size:12.0pt;
 line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
 letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
 padding:0cm;background:white'>String to Number Conversion</span></strong><span
-style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
-letter-spacing:.1pt;background:white'><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:150%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;background:
+white'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;mso-add-space:
 auto;text-align:justify;text-indent:-18.0pt;line-height:150%;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:#273239;letter-spacing:.1pt'><span style='mso-list:Ignore'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;background:
-white'>When any string or non-string value is added to a string, it always
-converts the non-string value to a string implicitly. <o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:#273239;letter-spacing:.1pt'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;line-height:150%;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;background:white'>When any string or non-string value is
+added to a string, it always converts the non-string value to a string
+implicitly. <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:54.0pt;mso-add-space:auto;
 text-align:justify;text-indent:-18.0pt;line-height:150%;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:#273239;letter-spacing:.1pt'><span style='mso-list:Ignore'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;background:
-white'>When the string ‘Rahul’ is added to the number 10 then JavaScript does
-not give an error. It converts the number 10 to string ’10’ using coercion and
-then concatenates both the strings.<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:#273239;letter-spacing:.1pt'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;line-height:150%;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;background:white'>When the string ‘Rahul’ is added to the
+number 10 then JavaScript does not give an error. It converts the number 10 to
+string ’10’ using coercion and then concatenates both the strings.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
@@ -1882,9 +1884,9 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Tr
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>False<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>2. References<o:p></o:p></span></b></p>
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>2. References<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='margin-left:18.0pt;text-align:justify;line-height:
 150%'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
