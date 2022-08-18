@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>40</o:Revision>
-  <o:TotalTime>65</o:TotalTime>
+  <o:Revision>42</o:Revision>
+  <o:TotalTime>117</o:TotalTime>
   <o:Created>2022-08-18T04:28:00Z</o:Created>
-  <o:LastSaved>2022-08-18T05:35:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-18T06:27:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>693</o:Words>
   <o:Characters>3956</o:Characters>
@@ -1258,15 +1258,12 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:#273239;mso-font-kerning:18.0pt'>1. What
 is Type Coercion?<o:p></o:p></span></b></p>
 
-<p class=MsoNormal style='text-align:justify;line-height:150%'>1.1 String<strong><span
+<p class=MsoNormal style='text-align:justify;line-height:150%'>1.1 <span
+style='mso-bidi-font-weight:bold'>Number to </span>String<strong><span
 style='color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;
 mso-border-alt:none windowtext 0cm;padding:0cm;background:white'> </span></strong><span
-style='mso-bidi-font-weight:bold'>to<strong><span style='color:#273239;
-letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm;background:white'> </span></strong>Number<strong><span
-style='color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;
-mso-border-alt:none windowtext 0cm;padding:0cm;background:white'> </span></strong>Conversion</span><span
-style='color:#273239;letter-spacing:.1pt;background:white'><o:p></o:p></span></p>
+style='mso-bidi-font-weight:bold'>Conversion</span><span style='color:#273239;
+letter-spacing:.1pt;background:white'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><span
 style='mso-bidi-font-weight:bold'>1.2 String<strong><span style='color:#273239;
@@ -1370,7 +1367,7 @@ style='font-size:12.0pt;line-height:150%;font-family:"Calibri Light","sans-serif
 mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:
 Calibri;mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;
 border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;padding:0cm;
-background:white'>String to Number Conversion</span></strong><span
+background:white'>Number to String Conversion</span></strong><span
 style='font-size:12.0pt;line-height:150%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;background:
 white'><o:p></o:p></span></h2>
