@@ -15,16 +15,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>26</o:Revision>
-  <o:TotalTime>46</o:TotalTime>
+  <o:Revision>28</o:Revision>
+  <o:TotalTime>48</o:TotalTime>
   <o:Created>2022-08-18T04:28:00Z</o:Created>
-  <o:LastSaved>2022-08-18T05:15:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-18T05:17:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
-  <o:Words>695</o:Words>
-  <o:Characters>3967</o:Characters>
+  <o:Words>699</o:Words>
+  <o:Characters>3985</o:Characters>
   <o:Lines>33</o:Lines>
   <o:Paragraphs>9</o:Paragraphs>
-  <o:CharactersWithSpaces>4653</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>4675</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1214,9 +1214,9 @@ style='mso-bidi-font-weight:bold'>1.3 Boolean<strong><span style='color:#273239;
 letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
 padding:0cm'> </span></strong>to<strong><span style='color:#273239;letter-spacing:
 .1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm'> </span></strong></span>Number<strong><span style='color:#273239;
-letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm'><o:p></o:p></span></strong></p>
+padding:0cm'> </span></strong></span>Number <span style='mso-bidi-font-weight:
+bold'>Conversion<strong><span style='color:#273239;letter-spacing:.1pt;
+border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;padding:0cm'><o:p></o:p></span></strong></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>1.4 The<strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1592,7 +1592,15 @@ style='mso-list:Ignore'>1.3<span style='font:7.0pt "Times New Roman"'>&nbsp; </s
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
 letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm'>Boolean to Number<o:p></o:p></span></strong></p>
+padding:0cm'>Boolean to Number </span></strong><strong><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;
+border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;padding:0cm;
+mso-bidi-font-weight:normal'>Conversion</span></strong><strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+padding:0cm'><o:p></o:p></span></strong></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:54.0pt;
 margin-bottom:.0001pt;text-align:justify;text-indent:-11.45pt;line-height:150%;
