@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>22</o:Revision>
-  <o:TotalTime>40</o:TotalTime>
+  <o:Revision>23</o:Revision>
+  <o:TotalTime>42</o:TotalTime>
   <o:Created>2022-08-18T04:28:00Z</o:Created>
-  <o:LastSaved>2022-08-18T05:09:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-18T05:11:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>695</o:Words>
   <o:Characters>3967</o:Characters>
@@ -1193,7 +1193,16 @@ is Type Coercion?<o:p></o:p></span></b></p>
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:
 none windowtext 0cm;padding:0cm;background:white;font-weight:normal;mso-bidi-font-weight:
-bold'>1.1 String to Number </span></strong><span style='mso-bidi-font-weight:
+bold'>1.1 </span></strong>String<strong><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;
+mso-border-alt:none windowtext 0cm;padding:0cm;background:white;font-weight:
+normal;mso-bidi-font-weight:bold'> to </span></strong><span style='mso-bidi-font-weight:
+bold'>Number</span><strong><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;
+mso-border-alt:none windowtext 0cm;padding:0cm;background:white;font-weight:
+normal;mso-bidi-font-weight:bold'> </span></strong><span style='mso-bidi-font-weight:
 bold'>Conversion</span><b style='mso-bidi-font-weight:normal'><span
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#273239;
 letter-spacing:.1pt;background:white'><o:p></o:p></span></b></p>
@@ -1203,14 +1212,35 @@ letter-spacing:.1pt;background:white'><o:p></o:p></span></b></p>
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:
 none windowtext 0cm;padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.2
-String to Number Conversion<o:p></o:p></span></strong></p>
+</span></strong><span style='mso-bidi-font-weight:bold'>String</span><strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'> to </span></strong>Number<strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'> </span></strong><span
+style='mso-bidi-font-weight:bold'>Conversion</span><strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'><o:p></o:p></span></strong></p>
 
 <p class=MsoNormal style='margin-left:10.35pt;text-align:justify;line-height:
 150%'><strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:
 none windowtext 0cm;padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.3
-Boolean to Number<o:p></o:p></span></strong></p>
+Boolean </span></strong><span style='mso-bidi-font-weight:bold'>to</span><strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'> </span></strong>Number<strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'><o:p></o:p></span></strong></p>
 
 <p class=MsoNormal style='margin-left:10.35pt;text-align:justify;line-height:
 150%'><strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
