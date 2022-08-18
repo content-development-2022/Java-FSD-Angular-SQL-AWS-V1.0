@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>33</o:Revision>
-  <o:TotalTime>54</o:TotalTime>
+  <o:Revision>35</o:Revision>
+  <o:TotalTime>55</o:TotalTime>
   <o:Created>2022-08-18T04:28:00Z</o:Created>
-  <o:LastSaved>2022-08-18T05:23:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-18T05:24:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>691</o:Words>
   <o:Characters>3942</o:Characters>
@@ -1355,9 +1355,8 @@ minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'>&nbsp;<span
 style='mso-spacerun:yes'>        </span>&nbsp;<span class=SpellE><span
 class=GramE>var</span></span> y = '20' + 10;<span style='mso-spacerun:yes'>  
-</span><span style='mso-spacerun:yes'>                     </span><span
-style='mso-spacerun:yes'> </span>// string '10' and then '+' concatenates both
-strings&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></span></p>
+</span><span style='mso-spacerun:yes'>                    </span>// string '10'
+and then '+' concatenates both strings&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:18.0pt;text-align:justify;line-height:
 150%'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
@@ -1673,8 +1672,8 @@ style='mso-spacerun:yes'>    </span><span style='mso-spacerun:yes'>   </span><sp
 style='mso-spacerun:yes'>  </span>&nbsp;<span class=SpellE><span class=GramE>var</span></span>
 y = false + 2;<span style='mso-spacerun:yes'>  </span><span
 style='mso-spacerun:yes'>                     </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>// The
-Boolean value false is<o:p></o:p></span></p>
+style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
+style='mso-spacerun:yes'>  </span>// The Boolean value false is<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1827,16 +1826,17 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>var</span></span>
 z = (true == 'true'); <span
-style='mso-spacerun:yes'>                            </span>// Should output
-'false' as string 'true'<o:p></o:p></span></p>
+style='mso-spacerun:yes'>                           </span><span
+style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span>//
+Should output 'false' as string 'true'<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
 style='mso-spacerun:yes'>                                         </span><span
-style='mso-spacerun:yes'>                           </span>// is coerced to NaN
-which is not equal to<o:p></o:p></span></p>
+style='mso-spacerun:yes'>                           </span>// is coerced to <span
+class=SpellE>NaN</span> which is not equal to<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
