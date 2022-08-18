@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>30</o:Revision>
-  <o:TotalTime>51</o:TotalTime>
+  <o:Revision>33</o:Revision>
+  <o:TotalTime>54</o:TotalTime>
   <o:Created>2022-08-18T04:28:00Z</o:Created>
-  <o:LastSaved>2022-08-18T05:20:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-18T05:23:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>691</o:Words>
   <o:Characters>3942</o:Characters>
@@ -1346,8 +1346,8 @@ style='mso-spacerun:yes'>        </span><span class=SpellE><span class=GramE>var
 x = 10 + '20'; <span style='mso-spacerun:yes'> </span><span
 style='mso-spacerun:yes'>           </span><span
 style='mso-spacerun:yes'>       </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span>// The
-Number 10 is converted to<o:p></o:p></span></p>
+style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span><span
+style='mso-spacerun:yes'> </span>// The Number 10 is converted to<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:18.0pt;text-align:justify;line-height:
 150%'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
@@ -1366,8 +1366,8 @@ minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'><
 style='mso-spacerun:yes'>        </span>&nbsp;<span class=SpellE><span
 class=GramE>var</span></span> z = true + '10';<span
 style='mso-spacerun:yes'>     </span><span
-style='mso-spacerun:yes'>            </span>// The Boolean value true is
-converted<o:p></o:p></span></p>
+style='mso-spacerun:yes'>            </span><span
+style='mso-spacerun:yes'>  </span>// The Boolean value true is converted<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:18.0pt;text-align:justify;line-height:
 150%'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
@@ -1796,8 +1796,7 @@ mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'>&nbsp;&nbsp;&
 style='mso-spacerun:yes'>                                                                  
 </span><span style='mso-spacerun:yes'> </span><span
 style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>     </span><span
-style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span>// is
-coerced to number 10<o:p></o:p></span></p>
+style='mso-spacerun:yes'>  </span>// is coerced to number 10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1819,7 +1818,7 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
 style='mso-spacerun:yes'>                                                           
 </span><span style='mso-spacerun:yes'>    </span><span
-style='mso-spacerun:yes'>        </span><span style='mso-spacerun:yes'> </span>//
+style='mso-spacerun:yes'>       </span><span style='mso-spacerun:yes'> </span>//
 is coerced to number 1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><span
@@ -1836,8 +1835,8 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
 style='mso-spacerun:yes'>                                         </span><span
-style='mso-spacerun:yes'>                            </span>// is coerced to <span
-class=SpellE>NaN</span> which is not equal to<o:p></o:p></span></p>
+style='mso-spacerun:yes'>                           </span>// is coerced to NaN
+which is not equal to<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1846,7 +1845,7 @@ mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt'>&nbsp;&nbsp;&
 style='mso-spacerun:yes'>                        </span><span
 style='mso-spacerun:yes'>              </span><span
 style='mso-spacerun:yes'>                           </span><span
-style='mso-spacerun:yes'> </span>&nbsp;// 1 of Boolean true<o:p></o:p></span></p>
+style='mso-spacerun:yes'> </span>// 1 of Boolean true<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
