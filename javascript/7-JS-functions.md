@@ -24,7 +24,7 @@
 
 3.2 Invoking a Function as a Method
 
-**4 Function Return**
+**4 JS Function Return**
 
 **5. References**
 
@@ -163,7 +163,7 @@ const myObject = {
 }  
 myObject.fullName(); // Will return "John Doe"
 
-## 4 Function Return
+## 4 JS Function Return
 
 -   When JavaScript reaches a return statement, the function will stop executing.
 -   If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
