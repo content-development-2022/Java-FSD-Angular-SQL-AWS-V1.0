@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>23</o:Revision>
-  <o:TotalTime>42</o:TotalTime>
+  <o:Revision>24</o:Revision>
+  <o:TotalTime>43</o:TotalTime>
   <o:Created>2022-08-18T04:28:00Z</o:Created>
-  <o:LastSaved>2022-08-18T05:11:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-18T05:12:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>695</o:Words>
   <o:Characters>3967</o:Characters>
@@ -1197,7 +1197,12 @@ bold'>1.1 </span></strong>String<strong><span style='font-family:"Calibri","sans
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;
 mso-border-alt:none windowtext 0cm;padding:0cm;background:white;font-weight:
-normal;mso-bidi-font-weight:bold'> to </span></strong><span style='mso-bidi-font-weight:
+normal;mso-bidi-font-weight:bold'> </span></strong><span style='mso-bidi-font-weight:
+bold'>to</span><strong><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;
+mso-border-alt:none windowtext 0cm;padding:0cm;background:white;font-weight:
+normal;mso-bidi-font-weight:bold'> </span></strong><span style='mso-bidi-font-weight:
 bold'>Number</span><strong><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;
@@ -1216,7 +1221,11 @@ none windowtext 0cm;padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
 letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'> to </span></strong>Number<strong><span
+padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'> </span></strong>to<strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'> </span></strong>Number<strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
 letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
@@ -1232,11 +1241,16 @@ padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'><o:p></o:p></span></st
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:
 none windowtext 0cm;padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.3
-Boolean </span></strong><span style='mso-bidi-font-weight:bold'>to</span><strong><span
+</span></strong><span style='mso-bidi-font-weight:bold'>Boolean</span><strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
 letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
-padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'> </span></strong>Number<strong><span
+padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'> </span></strong><span
+style='mso-bidi-font-weight:bold'>to</span><strong><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;letter-spacing:.1pt;
+border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;padding:0cm;
+font-weight:normal;mso-bidi-font-weight:bold'> </span></strong>Number<strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
 letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
@@ -1247,8 +1261,17 @@ padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'><o:p></o:p></span></st
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:
 none windowtext 0cm;padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'>1.4
-The Equality Operator</span></strong><b style='mso-bidi-font-weight:normal'><span
-style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></b></p>
+</span></strong>The<strong><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:#273239;letter-spacing:.1pt;border:none windowtext 1.0pt;
+mso-border-alt:none windowtext 0cm;padding:0cm;font-weight:normal;mso-bidi-font-weight:
+bold'> </span></strong><span style='mso-bidi-font-weight:bold'>Equality</span><strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#273239;
+letter-spacing:.1pt;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0cm;
+padding:0cm;font-weight:normal;mso-bidi-font-weight:bold'> </span></strong>Operator<b
+style='mso-bidi-font-weight:normal'><span style='mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
