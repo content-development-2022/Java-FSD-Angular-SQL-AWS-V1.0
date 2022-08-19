@@ -15,16 +15,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>9</o:Revision>
-  <o:TotalTime>21</o:TotalTime>
+  <o:Revision>16</o:Revision>
+  <o:TotalTime>51</o:TotalTime>
   <o:Created>2022-08-19T09:34:00Z</o:Created>
-  <o:LastSaved>2022-08-19T09:56:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T10:26:00Z</o:LastSaved>
   <o:Pages>3</o:Pages>
-  <o:Words>421</o:Words>
-  <o:Characters>2400</o:Characters>
-  <o:Lines>20</o:Lines>
+  <o:Words>416</o:Words>
+  <o:Characters>2373</o:Characters>
+  <o:Lines>19</o:Lines>
   <o:Paragraphs>5</o:Paragraphs>
-  <o:CharactersWithSpaces>2816</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>2784</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1794,15 +1794,17 @@ color:black;mso-bidi-font-weight:bold'>7. Converting a JSON Text to a JS Object<
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
-<h2 style='margin-top:0cm;line-height:150%;background:white'><span
-class=tagcolor><span style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+<p class=MsoNormal style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>8. </span></span><span style='font-size:12.0pt;
-line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>References</span><span style='font-size:12.0pt;
-line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'><o:p></o:p></span></h2>
+minor-latin'>8. </span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;mso-bidi-font-weight:bold'>References</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue;
+mso-fareast-language:EN-US'><o:p></o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
@@ -1881,9 +1883,9 @@ orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
 word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'>* The JSON syntax is derived from JavaScript object notation
-syntax, but the JSON format is text only. Code for reading and generating JSON
-data can be written in any programming language.<o:p></o:p></span></p>
+color:black'>* The JSON syntax is derived from JS object notation syntax, but
+the JSON format is text only. Code for reading and generating JSON data can be
+written in any programming language.<o:p></o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
@@ -1904,16 +1906,8 @@ style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>The JSON format is syntactically identical to the code
-for creating JavaScript objects.<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
-box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
-orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'>Because of this similarity, a JavaScript program can easily
-convert JSON data into native JavaScript objects.<o:p></o:p></span></p>
+for creating JS objects. Because of this similarity, a JS program can easily
+convert JSON data into native JS objects.<o:p></o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
