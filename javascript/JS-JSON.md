@@ -23,16 +23,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>30</o:Revision>
-  <o:TotalTime>72</o:TotalTime>
+  <o:Revision>32</o:Revision>
+  <o:TotalTime>75</o:TotalTime>
   <o:Created>2022-08-19T09:34:00Z</o:Created>
-  <o:LastSaved>2022-08-19T10:47:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T10:50:00Z</o:LastSaved>
   <o:Pages>3</o:Pages>
   <o:Words>414</o:Words>
-  <o:Characters>2362</o:Characters>
+  <o:Characters>2364</o:Characters>
   <o:Lines>19</o:Lines>
   <o:Paragraphs>5</o:Paragraphs>
-  <o:CharactersWithSpaces>2771</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>2773</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -2588,10 +2588,6 @@ minor-latin;color:black'>Step 3:</span></b><span style='font-family:"Calibri","s
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'> use the new JavaScript object in your page:<o:p></o:p></span></p>
 
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example<o:p></o:p></span></b></p>
-
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
@@ -2615,13 +2611,35 @@ mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="216
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75"
- style='width:450.75pt;height:160.5pt;visibility:visible;mso-wrap-style:square'>
+</v:shapetype><v:shape id="Picture_x0020_2" o:spid="_x0000_i1026" type="#_x0000_t75"
+ style='width:390pt;height:235.5pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="JS-JSON_files/image001.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img width=601 height=214
-src="JS-JSON_files/image002.jpg" v:shapes="Picture_x0020_1"><![endif]></span><span
+</v:shape><![endif]--><![if !vml]><img width=520 height=314
+src="JS-JSON_files/image001.png" v:shapes="Picture_x0020_2"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Output<o:p></o:p></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3"
+ o:spid="_x0000_i1025" type="#_x0000_t75" style='width:282pt;height:145.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="JS-JSON_files/image002.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=376 height=194
+src="JS-JSON_files/image002.png" v:shapes="Picture_x0020_3"><![endif]></span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
