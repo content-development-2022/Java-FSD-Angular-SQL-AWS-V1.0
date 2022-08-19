@@ -23,10 +23,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>6</o:Revision>
-  <o:TotalTime>29</o:TotalTime>
+  <o:Revision>8</o:Revision>
+  <o:TotalTime>33</o:TotalTime>
   <o:Created>2022-08-19T04:38:00Z</o:Created>
-  <o:LastSaved>2022-08-19T05:35:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T05:39:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>427</o:Words>
   <o:Characters>2437</o:Characters>
@@ -1885,26 +1885,27 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;line-height:150%;
+<p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
 mso-list:l5 level1 lfo10;background:white'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='mso-fareast-font-family:"Times New Roman";
+style='font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>If
-you use&nbsp;</span><span style='mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:crimson'>throw</span><span
-style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+you use&nbsp;</span><span style='font-size:12.0pt;line-height:150%;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:crimson'>throw</span><span style='font-size:12.0pt;line-height:150%;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin;color:black'>&nbsp;together with&nbsp;</span><span
-style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin;color:crimson'>try</span><span
-style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin;color:black'>&nbsp;and&nbsp;</span><span
-style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin;color:crimson'>catch</span><span
-style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin;color:black'>, you can control program flow and
-generate custom error messages.<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:crimson'>try</span><span
+style='font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;and&nbsp;</span><span
+style='font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:crimson'>catch</span><span
+style='font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>, you
+can control program flow and generate custom error messages.<o:p></o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
@@ -1915,10 +1916,10 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l5 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>The&nbsp;</span><code><span style='mso-ansi-font-size:
@@ -2220,20 +2221,20 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l5 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>JavaScript has a built in error object that provides
 error information when an error occurs.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l5 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>The error object provides two useful properties: name
@@ -2277,10 +2278,10 @@ src="13-JS-errors_files/image001.png" v:shapes="Picture_x0020_1"><![endif]></spa
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;line-height:150%;
+<p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
 mso-list:l2 level1 lfo11'><![if !supportLists]><span style='font-size:12.0pt;
 line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:12.0pt;line-height:150%;
 mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>To know more
 information about the list of error name values <a
