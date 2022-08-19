@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>7</o:Revision>
-  <o:TotalTime>37</o:TotalTime>
+  <o:Revision>11</o:Revision>
+  <o:TotalTime>40</o:TotalTime>
   <o:Created>2022-08-19T04:36:00Z</o:Created>
-  <o:LastSaved>2022-08-19T06:54:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T06:57:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>490</o:Words>
   <o:Characters>2793</o:Characters>
@@ -1817,17 +1817,10 @@ class=GramE>(</span>) Method<o:p></o:p></span></p>
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>1.2.1 How to <span class=GramE>Stop</span> </span><span
-class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
-12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:crimson'>setTimeout</span></code></span><span style='font-family:"Calibri","sans-serif";
+mso-bidi-font-weight:bold'>1.2.1 How to <span class=GramE>Stop</span> <span
+class=SpellE>setTimeout</span> Execution?</span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;mso-bidi-font-weight:bold'> Execution?</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-fareast-language:EN-US'><o:p></o:p></span></p>
+minor-latin;color:black;mso-fareast-language:EN-US'><o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1842,7 +1835,7 @@ mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 mso-bidi-font-weight:bold'>1.3.1 How to Stop <span class=SpellE><span
-class=GramE><b>setInterval</b></span></span><span class=GramE> <span
+class=GramE>setInterval</span></span><span class=GramE> <span
 style='mso-spacerun:yes'>&nbsp;</span>Execution</span>?</span><o:p></o:p></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
@@ -1868,14 +1861,8 @@ Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>The&nbsp;</span><code><span style='mso-ansi-font-size:
-12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:crimson'>window</span></code><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;object
-allows execution of code at specified time intervals.<o:p></o:p></span></p>
+minor-latin;color:black'>The window&nbsp;object allows execution of code at
+specified time intervals.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo7;
