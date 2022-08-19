@@ -23,16 +23,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>25</o:Revision>
-  <o:TotalTime>68</o:TotalTime>
+  <o:Revision>30</o:Revision>
+  <o:TotalTime>72</o:TotalTime>
   <o:Created>2022-08-19T09:34:00Z</o:Created>
-  <o:LastSaved>2022-08-19T10:43:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T10:47:00Z</o:LastSaved>
   <o:Pages>3</o:Pages>
   <o:Words>414</o:Words>
-  <o:Characters>2360</o:Characters>
+  <o:Characters>2362</o:Characters>
   <o:Lines>19</o:Lines>
   <o:Paragraphs>5</o:Paragraphs>
-  <o:CharactersWithSpaces>2769</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>2771</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -2482,18 +2482,16 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>For simplicity, this can be demonstrated using a
 string as input.<o:p></o:p></span></p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo12;
-background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>First, create a JavaScript string containing JSON
-syntax:<o:p></o:p></span></p>
+word-spacing:0px'><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Step
+1:</span></b><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'> create a JavaScript string containing JSON syntax:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 class=jskeywordcolor><span style='box-sizing: inherit'><span style='font-family:
@@ -2545,56 +2543,50 @@ color:black'>;</span></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'><o:p></o:p></span></p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo13;
-background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white;
+box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
 orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
 text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Then, use the JavaScript built-in function&nbsp;</span><span
-class=SpellE><code style='box-sizing: inherit;background-color:rgba(222, 222, 222, 0.3)'><span
+word-spacing:0px'><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Step
+2:</span></b><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'> use the JavaScript built-in function&nbsp;</span><span
+class=SpellE><span class=GramE><code style='box-sizing: inherit;background-color:
+rgba(222, 222, 222, 0.3)'><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>JSON.parse</span></code></span></span><span class=GramE><code><span
 style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
 font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>JSON.parse</span></code></span><code><span
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>(</span></code></span><code><span
 style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
 font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>()</span></code><span
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;to
-convert the string into a JavaScript object:<o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><span
-class=SpellE><span style='box-sizing: inherit'><span class=GramE><span
-style='box-sizing: inherit'><span class=jskeywordcolor><b style='mso-bidi-font-weight:
-normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:mediumblue'>const</span></span></b></span></span></span></span><span
+convert the string into a JavaScript object: </span><span class=SpellE><span
+class=jskeywordcolor><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>const</span></span></b></span></span></span><span
 class=jscolor><b style='mso-bidi-font-weight:normal'><span style='font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;<span
 class=SpellE>obj</span> = <span class=SpellE>JSON.<span style='box-sizing: inherit'><span
-class=jspropertycolor>parse</span></span></span>(text);</span></b></span><b
+class=jspropertycolor>parse</span></span></span>(text);</span></b></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p></o:p></span></b></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo13;
-background:white;box-sizing: inherit;font-variant-ligatures: normal;font-variant-caps: normal;
-orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
-word-spacing:0px'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+minor-latin;color:black'>Step 3:</span></b><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Finally, use the new JavaScript object in your page:<o:p></o:p></span></p>
+minor-latin;color:black'> use the new JavaScript object in your page:<o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
