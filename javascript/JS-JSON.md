@@ -15,16 +15,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>19</o:Revision>
-  <o:TotalTime>59</o:TotalTime>
+  <o:Revision>22</o:Revision>
+  <o:TotalTime>61</o:TotalTime>
   <o:Created>2022-08-19T09:34:00Z</o:Created>
-  <o:LastSaved>2022-08-19T10:34:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T10:36:00Z</o:LastSaved>
   <o:Pages>3</o:Pages>
-  <o:Words>412</o:Words>
-  <o:Characters>2353</o:Characters>
-  <o:Lines>19</o:Lines>
+  <o:Words>436</o:Words>
+  <o:Characters>2487</o:Characters>
+  <o:Lines>20</o:Lines>
   <o:Paragraphs>5</o:Paragraphs>
-  <o:CharactersWithSpaces>2760</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>2918</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -667,6 +667,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
 	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-536869121 64767 1 0 415 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -1952,6 +1959,216 @@ style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>Square brackets hold arrays<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Example<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;line-height:150%;background:white'><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:black;
+background:white'>{</span></span><span style='font-size:11.5pt;line-height:
+150%;font-family:Consolas;color:black'><br style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>
+</span><span class=jsstringcolor><span style='font-size:11.5pt;line-height:
+150%;font-family:Consolas;color:brown;background:white'><span style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>&quot;employees&quot;</span></span></span><span class=GramE><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:black;
+background:white'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>:[</span></span></span><span style='font-size:
+11.5pt;line-height:150%;font-family:Consolas;color:black'><br style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>
+<span style='background:white'></span><span style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>&nbsp;&nbsp;{</span></span></span><span
+class=jsstringcolor><span style='font-size:11.5pt;line-height:150%;font-family:
+Consolas;color:brown;background:white'><span style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>&quot;<span class=SpellE>firstName</span>&quot;</span></span></span><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:black;
+background:white'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>:</span></span><span class=jsstringcolor><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:brown;
+background:white'><span style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>&quot;John&quot;</span></span></span><span style='font-size:
+11.5pt;line-height:150%;font-family:Consolas;color:black;background:white'><span
+style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;float:none;
+word-spacing:0px'>,&nbsp;</span></span><span class=jsstringcolor><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:brown;
+background:white'><span style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>&quot;<span class=SpellE>lastName</span>&quot;</span></span></span><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:black;
+background:white'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>:</span></span><span class=jsstringcolor><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:brown;
+background:white'><span style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>&quot;Doe&quot;</span></span></span><span style='font-size:
+11.5pt;line-height:150%;font-family:Consolas;color:black;background:white'><span
+style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;float:none;
+word-spacing:0px'>},</span></span><span style='font-size:11.5pt;line-height:
+150%;font-family:Consolas;color:black'><br style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>
+<span style='background:white'></span><span style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>&nbsp;&nbsp;{</span></span></span><span
+class=jsstringcolor><span style='font-size:11.5pt;line-height:150%;font-family:
+Consolas;color:brown;background:white'><span style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>&quot;<span class=SpellE>firstName</span>&quot;</span></span></span><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:black;
+background:white'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>:</span></span><span class=jsstringcolor><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:brown;
+background:white'><span style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>&quot;Anna&quot;</span></span></span><span style='font-size:
+11.5pt;line-height:150%;font-family:Consolas;color:black;background:white'><span
+style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;float:none;
+word-spacing:0px'>,&nbsp;</span></span><span class=jsstringcolor><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:brown;
+background:white'><span style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>&quot;<span class=SpellE>lastName</span>&quot;</span></span></span><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:black;
+background:white'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>:</span></span><span class=jsstringcolor><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:brown;
+background:white'><span style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>&quot;Smith&quot;</span></span></span><span style='font-size:
+11.5pt;line-height:150%;font-family:Consolas;color:black;background:white'><span
+style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;float:none;
+word-spacing:0px'>},</span></span><span style='font-size:11.5pt;line-height:
+150%;font-family:Consolas;color:black'><br style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>
+<span style='background:white'></span><span style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>&nbsp; {</span></span></span><span
+class=jsstringcolor><span style='font-size:11.5pt;line-height:150%;font-family:
+Consolas;color:brown;background:white'><span style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>&quot;<span class=SpellE>firstName</span>&quot;</span></span></span><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:black;
+background:white'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>:</span></span><span class=jsstringcolor><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:brown;
+background:white'><span style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>&quot;Peter&quot;</span></span></span><span style='font-size:
+11.5pt;line-height:150%;font-family:Consolas;color:black;background:white'><span
+style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;float:none;
+word-spacing:0px'>,&nbsp;</span></span><span class=jsstringcolor><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:brown;
+background:white'><span style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>&quot;<span class=SpellE>lastName</span>&quot;</span></span></span><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:black;
+background:white'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>:</span></span><span class=jsstringcolor><span
+style='font-size:11.5pt;line-height:150%;font-family:Consolas;color:brown;
+background:white'><span style='box-sizing: inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+word-spacing:0px'>&quot;Jones&quot;</span></span></span><span style='font-size:
+11.5pt;line-height:150%;font-family:Consolas;color:black;background:white'><span
+style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;float:none;
+word-spacing:0px'>}</span></span><span style='font-size:11.5pt;line-height:
+150%;font-family:Consolas;color:black'><br style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>
+<span style='background:white'></span><span style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>]</span></span><br style='box-sizing: inherit;
+font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
+start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>
+<span style='background:white'><span style='font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;
+float:none;word-spacing:0px'>}</span></span></span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
