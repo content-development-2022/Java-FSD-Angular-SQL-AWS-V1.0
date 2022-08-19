@@ -15,16 +15,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>28</o:Revision>
-  <o:TotalTime>67</o:TotalTime>
+  <o:Revision>32</o:Revision>
+  <o:TotalTime>70</o:TotalTime>
   <o:Created>2022-08-19T04:36:00Z</o:Created>
-  <o:LastSaved>2022-08-19T07:24:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T07:27:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>489</o:Words>
-  <o:Characters>2793</o:Characters>
+  <o:Characters>2790</o:Characters>
   <o:Lines>23</o:Lines>
   <o:Paragraphs>6</o:Paragraphs>
-  <o:CharactersWithSpaces>3276</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>3273</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -2202,10 +2202,10 @@ margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l14 level1 l
 background:#E7E9EB'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Click a button. Wait 3 seconds, and the page will
-alert &quot;Hello&quot;:<o:p></o:p></span></p>
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Click
+a button. Wait 3 seconds, and the page will alert &quot;Hello&quot;<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
@@ -2376,12 +2376,14 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l6 level1 lfo11'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>Same
-example as above, but with an added &quot;Stop&quot; button:<o:p></o:p></span></p>
+mso-list:l6 level1 lfo11'><![if !supportLists]><span style='font-size:12.0pt;
+line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:black'>Same example as above, but with an
+added &quot;Stop&quot; button<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -2698,12 +2700,14 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l4 level1 lfo14'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>Same
-example as above, but we have added a &quot;Stop time&quot; button:<o:p></o:p></span></p>
+mso-list:l4 level1 lfo14'><![if !supportLists]><span style='font-size:12.0pt;
+line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:black'>Same example as above, but we have
+added a &quot;Stop time&quot; button<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
