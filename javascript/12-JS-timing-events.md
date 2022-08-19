@@ -10,29 +10,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
 <link rel=File-List href="12-JS-timing-events_files/filelist.xml">
-<link rel=Edit-Time-Data href="12-JS-timing-events_files/editdata.mso">
-<!--[if !mso]>
-<style>
-v\:* {behavior:url(#default#VML);}
-o\:* {behavior:url(#default#VML);}
-w\:* {behavior:url(#default#VML);}
-.shape {behavior:url(#default#VML);}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
+<!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>1</o:TotalTime>
+  <o:Revision>7</o:Revision>
+  <o:TotalTime>37</o:TotalTime>
   <o:Created>2022-08-19T04:36:00Z</o:Created>
-  <o:LastSaved>2022-08-19T04:37:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T06:54:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
-  <o:Words>461</o:Words>
-  <o:Characters>2633</o:Characters>
-  <o:Lines>21</o:Lines>
+  <o:Words>490</o:Words>
+  <o:Characters>2793</o:Characters>
+  <o:Lines>23</o:Lines>
   <o:Paragraphs>6</o:Paragraphs>
-  <o:CharactersWithSpaces>3088</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>3277</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -45,6 +37,8 @@ href="12-JS-timing-events_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -59,6 +53,7 @@ href="12-JS-timing-events_files/colorschememapping.xml">
    <w:BreakWrappedTables/>
    <w:SplitPgBreakAndParaMark/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -655,11 +650,10 @@ href="12-JS-timing-events_files/colorschememapping.xml">
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
-	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
@@ -667,27 +661,6 @@ href="12-JS-timing-events_files/colorschememapping.xml">
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
 	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
-@font-face
-	{font-family:"Segoe UI";
-	panose-1:2 11 5 2 4 2 4 2 2 3;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-469750017 -1073683329 9 0 511 0;}
-@font-face
-	{font-family:Verdana;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-1610610945 1073750107 16 0 415 0;}
-@font-face
-	{font-family:Consolas;
-	panose-1:2 11 6 9 2 2 4 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:modern;
-	mso-font-pitch:fixed;
-	mso-font-signature:-536869121 64767 1 0 415 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -701,8 +674,7 @@ href="12-JS-timing-events_files/colorschememapping.xml">
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 h2
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
+	{mso-style-priority:9;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 2 Char";
 	mso-style-next:Normal;
@@ -711,7 +683,7 @@ h2
 	margin-bottom:0cm;
 	margin-left:0cm;
 	margin-bottom:.0001pt;
-	line-height:107%;
+	line-height:106%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:2;
@@ -741,7 +713,7 @@ h3
 	margin-bottom:0cm;
 	margin-left:0cm;
 	margin-bottom:.0001pt;
-	line-height:107%;
+	line-height:106%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:3;
@@ -781,7 +753,8 @@ code
 	mso-hansi-font-family:"Courier New";
 	mso-bidi-font-family:"Courier New";}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	margin-top:0cm;
@@ -789,7 +762,7 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	margin-bottom:8.0pt;
 	margin-left:36.0pt;
 	mso-add-space:auto;
-	line-height:107%;
+	line-height:106%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -803,7 +776,8 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -813,7 +787,7 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
 	margin-left:36.0pt;
 	margin-bottom:.0001pt;
 	mso-add-space:auto;
-	line-height:107%;
+	line-height:106%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -827,7 +801,8 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -837,7 +812,7 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	margin-left:36.0pt;
 	margin-bottom:.0001pt;
 	mso-add-space:auto;
-	line-height:107%;
+	line-height:106%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -851,7 +826,8 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -860,7 +836,7 @@ p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxS
 	margin-bottom:8.0pt;
 	margin-left:36.0pt;
 	mso-add-space:auto;
-	line-height:107%;
+	line-height:106%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -875,7 +851,6 @@ p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxS
 	mso-fareast-language:EN-US;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
-	mso-style-noshow:yes;
 	mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -938,6 +913,12 @@ span.jskeywordcolor
 span.jsstringcolor
 	{mso-style-name:jsstringcolor;
 	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -954,55 +935,9 @@ div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
  @list l0
-	{mso-list-id:471211882;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1671850944 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
-@list l0:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l0:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l0:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l0:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l0:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l0:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l0:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l0:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;}
-@list l0:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l1
-	{mso-list-id:810903854;
+	{mso-list-id:107430161;
 	mso-list-template-ids:-1788961790;}
-@list l1:level1
+@list l0:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:36.0pt;
@@ -1010,7 +945,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
-@list l1:level2
+@list l0:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:72.0pt;
@@ -1019,7 +954,7 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:"Courier New";
 	mso-bidi-font-family:"Times New Roman";}
-@list l1:level3
+@list l0:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:108.0pt;
@@ -1027,7 +962,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l1:level4
+@list l0:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:144.0pt;
@@ -1035,7 +970,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l1:level5
+@list l0:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:180.0pt;
@@ -1043,7 +978,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l1:level6
+@list l0:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:216.0pt;
@@ -1051,7 +986,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l1:level7
+@list l0:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:252.0pt;
@@ -1059,7 +994,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l1:level8
+@list l0:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:288.0pt;
@@ -1067,13 +1002,757 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l1:level9
+@list l0:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:324.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:471211882;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1671850944 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
+@list l1:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2
+	{mso-list-id:607859483;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1215706630 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:668143123;
+	mso-list-template-ids:947438864;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:691614096;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1008113106 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l4:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l4:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l5
+	{mso-list-id:810903854;
+	mso-list-template-ids:-724669012;}
+@list l5:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l6
+	{mso-list-id:996495989;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1278138140 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l6:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l6:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l7
+	{mso-list-id:1089618434;
+	mso-list-type:hybrid;
+	mso-list-template-ids:839964418 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l7:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l7:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l7:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l7:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l7:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l7:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l7:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l7:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l8
+	{mso-list-id:1092313823;
+	mso-list-template-ids:-1210934284;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l9
+	{mso-list-id:1683387383;
+	mso-list-template-ids:-724669012;}
+@list l9:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;}
+@list l9:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l9:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l9:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l9:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l9:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l9:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l9:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l9:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l10
+	{mso-list-id:1787656428;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1952826162 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l10:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l10:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l10:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l10:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l10:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l11
+	{mso-list-id:2021007383;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-290668550 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l11:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l11:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l11:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l11:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l11:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l11:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l11:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l11:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
 	font-family:Wingdings;}
 ol
 	{margin-bottom:0cm;}
@@ -1110,470 +1789,1011 @@ ul
 
 <div class=WordSection1>
 
-<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
-margin-left:0cm;mso-outline-level:1;background:white'><span style='font-size:
-31.5pt;font-family:"Segoe UI","sans-serif";mso-fareast-font-family:"Times New Roman";
-color:black;mso-font-kerning:18.0pt'>JavaScript&nbsp;Timing Events<o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%;mso-outline-level:1;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-font-kerning:18.0pt'>JS&nbsp;Timing Events<o:p></o:p></span></b></p>
 
-<p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
- id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
- path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
- <v:stroke joinstyle="miter"/>
- <v:formulas>
-  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-  <v:f eqn="sum @0 1 0"/>
-  <v:f eqn="sum 0 0 @1"/>
-  <v:f eqn="prod @2 1 2"/>
-  <v:f eqn="prod @3 21600 pixelWidth"/>
-  <v:f eqn="prod @3 21600 pixelHeight"/>
-  <v:f eqn="sum @0 0 1"/>
-  <v:f eqn="prod @6 1 2"/>
-  <v:f eqn="prod @7 21600 pixelWidth"/>
-  <v:f eqn="sum @8 21600 0"/>
-  <v:f eqn="prod @7 21600 pixelHeight"/>
-  <v:f eqn="sum @10 21600 0"/>
- </v:formulas>
- <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
- <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1026" type="#_x0000_t75"
- style='width:376.5pt;height:96.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="12-JS-timing-events_files/image001.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img width=502 height=129
-src="12-JS-timing-events_files/image001.png" v:shapes="Picture_x0020_1"><![endif]></span><o:p></o:p></p>
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-font-kerning:18.0pt'>Content<o:p></o:p></span></b></p>
 
-<h2 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:white'><b><span style='font-size:24.0pt;line-height:107%;
-font-family:"Segoe UI","sans-serif";color:black'>Timing Events</span></b><span
-style='font-size:24.0pt;line-height:107%;font-family:"Segoe UI","sans-serif";
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>1.
+Timing Events</span></b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>1.2 The <span class=SpellE><span class=GramE>setTimeout</span></span><span
+class=GramE>(</span>) Method<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>1.2.1 How to <span class=GramE>Stop</span> </span><span
+class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>setTimeout</span></code></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;mso-bidi-font-weight:bold'> Execution?</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-fareast-language:EN-US'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>1.3 The <span class=SpellE><span class=GramE>setInterval</span></span><span
+class=GramE>(</span>) Method</span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:bold'>1.3.1 How to Stop <span class=SpellE><span
+class=GramE><b>setInterval</b></span></span><span class=GramE> <span
+style='mso-spacerun:yes'>&nbsp;</span>Execution</span>?</span><o:p></o:p></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>2.
+References</span></b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>1. Timing Events</span></b><span style='font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'><o:p></o:p></span></h2>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>window</span></code><span style='font-size:11.5pt;font-family:
-"Verdana","sans-serif";color:black'>&nbsp;object allows execution of code at
-specified time intervals.<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo7;
+tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>window</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;object
+allows execution of code at specified time intervals.<o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>These time intervals are called timing events.<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo7;
+tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>These time intervals are called timing events.<o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The two key methods to use with JavaScript are:<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo7;
+tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The two key methods to use with JavaScript are:<o:p></o:p></span></p>
 
-<ul type=disc>
- <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;mso-list:l1 level1 lfo1;tab-stops:list 36.0pt;background:white'><code><span
-     style='font-size:10.0pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-     mso-fareast-theme-font:major-fareast;color:crimson'>setTimeout(</span></code><em><span
-     style='font-family:Consolas;mso-bidi-font-family:"Courier New";color:crimson'>function,
-     milliseconds</span></em><span style='font-size:11.5pt;font-family:"Verdana","sans-serif"'>)<br>
-     Executes a function, after waiting a specified number of milliseconds.<o:p></o:p></span></li>
-</ul>
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l5 level1 lfo3;tab-stops:list 36.0pt;background:#FFFFCC'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><span style='mso-list:Ignore'>1.</span></span><![endif]><span
+class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>setTimeout</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>(</span></code><em><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>function,
+milliseconds</span></em><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>)<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:36.0pt;background:white'><span
-style='font-size:11.5pt;font-family:"Verdana","sans-serif";color:black'><br
-style='mso-special-character:line-break'>
-<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
-<![endif]><o:p></o:p></span></p>
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l5 level1 lfo3;tab-stops:list 36.0pt;background:#FFFFCC'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><span style='mso-list:Ignore'>2.</span></span><![endif]><span
+class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>setInterval</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>(</span></code><em><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>function,
+milliseconds</span></em><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>)<o:p></o:p></span></p>
 
-<ul type=disc>
- <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;mso-list:l1 level1 lfo1;tab-stops:list 36.0pt;background:white'><code><span
-     style='font-size:10.0pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-     mso-fareast-theme-font:major-fareast;color:crimson'>setInterval(</span></code><em><span
-     style='font-family:Consolas;mso-bidi-font-family:"Courier New";color:crimson'>function,
-     milliseconds</span></em><span style='font-size:11.5pt;font-family:"Verdana","sans-serif"'>)<br>
-     Same as setTimeout(), but repeats the execution of the function
-     continuously.<o:p></o:p></span></li>
-</ul>
+<p class=MsoNormal style='line-height:150%;background:#FFFFCC'><code><b
+style='mso-bidi-font-weight:normal'><span style='mso-ansi-font-size:12.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin'>Note:<o:p></o:p></span></b></code></p>
 
-<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
-0cm;background:#FFFFCC'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>setTimeout()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;and&nbsp;</span><code><span
-style='font-size:10.0pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-fareast;color:crimson'>setInterval()</span></code><span
-style='font-size:11.5pt;font-family:"Verdana","sans-serif";color:black'>&nbsp;are
+<p class=MsoNormal style='line-height:150%;background:#FFFFCC'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The&nbsp;</span><span
+class=SpellE><span class=GramE><code><span style='mso-ansi-font-size:12.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>setTimeout</span></code></span></span><span
+class=GramE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>(</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;and&nbsp;</span><span
+class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>setInterval</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>()</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;are
 both methods of the HTML DOM Window object.<o:p></o:p></span></p>
 
-<h2 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:white'><b><span style='font-size:24.0pt;line-height:107%;
-font-family:"Segoe UI","sans-serif";color:black'>The setTimeout() Method</span></b><span
-style='font-size:24.0pt;line-height:107%;font-family:"Segoe UI","sans-serif";
-color:black'><o:p></o:p></span></h2>
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>1.2 The <span class=SpellE><span class=GramE>setTimeout</span></span><span
+class=GramE>(</span>) Method<o:p></o:p></span></b></h2>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;color:black'>window.setTimeout(<i>function</i>,<i>&nbsp;milliseconds</i>);<o:p></o:p></span></p>
+<p class=MsoListParagraph style='margin-bottom:0cm;margin-bottom:.0001pt;
+mso-add-space:auto;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo9;
+background:white'><![if !supportLists]><span style='font-size:12.0pt;
+line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:black;mso-fareast-language:EN-IN'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;line-height:150%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:black'>Executes a function, after waiting
+a specified number of milliseconds.</span><span style='font-size:12.0pt;
+line-height:150%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:black;mso-fareast-language:EN-IN'><o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>window.setTimeout()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;method can be written
-without the window prefix.<o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+mso-fareast-language:EN-US'>Syntax<o:p></o:p></span></b></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The first parameter is a function to be executed.<o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%;background:white'><span
+class=SpellE><span class=GramE><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>window.setTimeout</span></span></span><span
+class=GramE><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>(</span></span><i><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>function</span></i><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>,<i>&nbsp;milliseconds</i>);<o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The second parameter indicates the number of milliseconds before
-execution.<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo9;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><span class=GramE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>window.setTimeout</span></code></span></span><span
+class=GramE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>(</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+can be written without the window prefix.<o:p></o:p></span></p>
 
-<h3 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:#E7E9EB'><b><span style='font-size:18.0pt;line-height:107%;
-font-family:"Segoe UI","sans-serif";color:black'>Example</span></b><span
-style='font-size:18.0pt;line-height:107%;font-family:"Segoe UI","sans-serif";
-color:black'><o:p></o:p></span></h3>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo9;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The first parameter is a function to be executed.<o:p></o:p></span></p>
 
-<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
-0cm;background:#E7E9EB'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>Click a button. Wait 3 seconds, and the page will alert
-&quot;Hello&quot;:<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo9;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The second parameter indicates the number of milliseconds
+before execution.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span class=tagcolor><span
-style='font-size:11.5pt;font-family:Consolas;color:mediumblue'>&lt;</span></span><span
-class=tagnamecolor><span style='font-size:11.5pt;font-family:Consolas;
-color:brown'>button</span></span><span class=attributecolor><span
-style='font-size:11.5pt;font-family:Consolas;color:red'>&nbsp;onclick</span></span><span
-class=attributevaluecolor><span style='font-size:11.5pt;font-family:Consolas;
-color:mediumblue'>=&quot;setTimeout(myFunction, 3000)&quot;</span></span><span
-class=tagcolor><span style='font-size:11.5pt;font-family:Consolas;color:mediumblue'>&gt;</span></span><span
-style='font-size:11.5pt;font-family:Consolas;color:black'>Try it</span><span
-class=tagcolor><span style='font-size:11.5pt;font-family:Consolas;color:mediumblue'>&lt;</span></span><span
-class=tagnamecolor><span style='font-size:11.5pt;font-family:Consolas;
-color:brown'>/button</span></span><span class=tagcolor><span style='font-size:
-11.5pt;font-family:Consolas;color:mediumblue'>&gt;</span></span><span
-style='font-size:11.5pt;font-family:Consolas;color:black'><br>
-<br>
-</span><span class=tagcolor><span style='font-size:11.5pt;font-family:Consolas;
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Click
+a button. Wait 3 seconds, and the page will alert &quot;Hello&quot;:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
-style='font-size:11.5pt;font-family:Consolas;color:brown'>script</span></span><span
-class=tagcolor><span style='font-size:11.5pt;font-family:Consolas;color:mediumblue'>&gt;</span></span><span
-style='font-size:11.5pt;font-family:Consolas;color:black'><br>
-</span><span class=jskeywordcolor><span style='font-size:11.5pt;font-family:
-Consolas;color:mediumblue'>function</span></span><span class=jscolor><span
-style='font-size:11.5pt;font-family:Consolas;color:black'>&nbsp;myFunction() {</span></span><span
-style='font-size:11.5pt;font-family:Consolas;color:black'><br>
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>button</span></span><span
+class=attributecolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:red'>&nbsp;<span class=SpellE>onclick</span></span></span><span
+class=attributevaluecolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:mediumblue'>=&quot;<span class=SpellE><span class=GramE>setTimeout</span></span><span
+class=GramE>(</span><span class=SpellE>myFunction</span>, 3000)&quot;</span></span><span
+class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Try it</span><span class=tagcolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span></span><span
+class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>/button</span></span><span class=tagcolor><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>&gt;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br>
+</span><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>script</span></span><span
+class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br>
+</span><span class=jskeywordcolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:mediumblue'>function</span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;<span
+class=SpellE>myFunction</span>() {</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br>
 <span class=jscolor>&nbsp;&nbsp;alert(</span></span><span class=jsstringcolor><span
-style='font-size:11.5pt;font-family:Consolas;color:brown'>'Hello'</span></span><span
-class=jscolor><span style='font-size:11.5pt;font-family:Consolas;color:black'>);</span></span><span
-style='font-size:11.5pt;font-family:Consolas;color:black'><br>
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>'Hello'</span></span><span
+class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>);</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br>
 <span class=jscolor>}</span><br>
-</span><span class=tagcolor><span style='font-size:11.5pt;font-family:Consolas;
-color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
-style='font-size:11.5pt;font-family:Consolas;color:brown'>/script</span></span><span
-class=tagcolor><span style='font-size:11.5pt;font-family:Consolas;color:mediumblue'>&gt;</span></span><span
-style='font-size:11.5pt;font-family:Consolas;color:black'><o:p></o:p></span></p>
+</span><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>/script</span></span><span
+class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
 
-<h2 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:white'><b><span style='font-size:24.0pt;line-height:107%;
-font-family:"Segoe UI","sans-serif";color:black'>How to Stop the Execution?</span></b><span
-style='font-size:24.0pt;line-height:107%;font-family:"Segoe UI","sans-serif";
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>1.2.1 How to <span class=GramE>Stop</span> <span
+class=SpellE>setTimeout</span> Execution?</span></b><span style='font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'><o:p></o:p></span></h2>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>clearTimeout()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;method stops the
-execution of the function specified in setTimeout().<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo12;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><span class=GramE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>clearTimeout</span></code></span></span><span
+class=GramE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>(</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+stops the execution of the function specified in <span class=SpellE>setTimeout</span>().<o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;color:black'>window.clearTimeout(<em><span
-style='font-family:Consolas'>timeoutVariable</span></em>)<o:p></o:p></span></p>
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Syntax<o:p></o:p></span></b></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>window.clearTimeout()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;method can be written
-without the window prefix.<o:p></o:p></span></p>
+<p class=MsoListParagraph style='line-height:150%;background:white'><span
+class=SpellE><span class=GramE><span style='mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:black'>window.clearTimeout</span></span></span><span
+class=GramE><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:black'>(</span></span><span class=SpellE><em><span style='font-size:12.0pt;
+line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>timeoutVariable</span></em></span><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>)<o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>clearTimeout()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;method uses the variable
-returned from&nbsp;</span><code><span style='font-size:10.0pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>setTimeout()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>:<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l10 level1 lfo10;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><span class=GramE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>window.clearTimeout</span></code></span></span><span
+class=GramE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>(</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+can be written without the window prefix.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;color:black'>myVar = setTimeout(<i>function</i>,<i>&nbsp;milliseconds</i>);<br>
-clearTimeout(myVar);<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l10 level1 lfo10;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>clearTimeout</span></code></span><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>()</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+uses the variable returned from&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>setTimeout</span></code></span><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>()</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>:<o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>If the function has not already been executed, you can stop the
-execution by calling the&nbsp;</span><code><span style='font-size:10.0pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-major-fareast;color:crimson'>clearTimeout()</span></code><span
-style='font-size:11.5pt;font-family:"Verdana","sans-serif";color:black'>&nbsp;method:<o:p></o:p></span></p>
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Example-1<o:p></o:p></span></b></p>
 
-<h3 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:#E7E9EB'><b><span style='font-size:18.0pt;line-height:107%;
-font-family:"Segoe UI","sans-serif";color:black'>Example</span></b><span
-style='font-size:18.0pt;line-height:107%;font-family:"Segoe UI","sans-serif";
-color:black'><o:p></o:p></span></h3>
+<p class=MsoNormal style='line-height:150%;background:white'><span
+class=SpellE><span class=GramE><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>myVar</span></span></span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'> = <span class=SpellE>setTimeout</span>(<i>function</i>,<i>&nbsp;milliseconds</i>);<br>
+<span class=SpellE>clearTimeout</span>(<span class=SpellE>myVar</span>);<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
-12.0pt;margin-left:0cm'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-mso-fareast-font-family:"Times New Roman";color:black'>Same example as above,
-but with an added &quot;Stop&quot; button:<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo11;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>If the function has not already been executed, you can
+stop the execution by calling the&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>clearTimeout</span></code></span><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>()</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method:<o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:mediumblue'>&lt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:brown'>button</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:red'>&nbsp;onclick</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:mediumblue'>=&quot;myVar = setTimeout(myFunction, 3000)&quot;&gt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'>Try it</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>&lt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:brown'>/button</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>&gt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'><br>
-<br>
-</span><span style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";color:mediumblue'>&lt;</span><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:brown'>button</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:red'>&nbsp;onclick</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>=&quot;clearTimeout(myVar)&quot;&gt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'>Stop it</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>&lt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:brown'>/button</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>&gt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'><o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%;background:white'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example-2</span></b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
-<h2 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:white'><b><span style='font-size:24.0pt;line-height:107%;
-font-family:"Segoe UI","sans-serif";color:black'>The setInterval() Method</span></b><span
-style='font-size:24.0pt;line-height:107%;font-family:"Segoe UI","sans-serif";
-color:black'><o:p></o:p></span></h2>
+<p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
+mso-list:l6 level1 lfo11'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>Same
+example as above, but with an added &quot;Stop&quot; button:<o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>setInterval()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;method repeats a given
-function at every given time-interval.<o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>button</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:red'>&nbsp;<span class=SpellE>onclick</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>=&quot;<span class=SpellE>myVar</span>
+= <span class=SpellE><span class=GramE>setTimeout</span></span><span
+class=GramE>(</span><span class=SpellE>myFunction</span>, 3000)&quot;&gt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>Try it</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>/button</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>&gt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><br>
+</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>button</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:red'>&nbsp;<span class=SpellE>onclick</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>=&quot;<span class=SpellE>clearTimeout</span>(<span
+class=SpellE>myVar</span>)&quot;&gt;</span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Stop
+it</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>/button</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>&gt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;color:black'>window.setInterval(<i>function</i>,<i>&nbsp;milliseconds</i>);<o:p></o:p></span></p>
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>1.3 The <span class=SpellE><span class=GramE>setInterval</span></span><span
+class=GramE>(</span>) Method</span></b><span style='font-size:12.0pt;
+line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>window.setInterval()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;method can be written
-without the window prefix.<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo11;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><span class=GramE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>setInterval</span></code></span></span><span
+class=GramE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>(</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+repeats a given function at every given time-interval.<o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The first parameter is the function to be executed.<o:p></o:p></span></p>
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Syntax<o:p></o:p></span></b></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The second parameter indicates the length of the time-interval
-between each execution.<o:p></o:p></span></p>
+<p class=MsoListParagraph style='line-height:150%;background:white'><span
+class=SpellE><span class=GramE><span style='mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:black'>window.setInterval</span></span></span><span
+class=GramE><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:black'>(</span></span><i><span style='mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:black'>function</span></i><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>,<i>&nbsp;milliseconds</i>);<o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>This example executes a function called &quot;myTimer&quot; once
-every second (like a digital watch).<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo11;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><span class=GramE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>window.setInterval</span></code></span></span><span
+class=GramE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>(</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+can be written without the window prefix.<o:p></o:p></span></p>
 
-<h3 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:#E7E9EB'><b><span style='font-size:18.0pt;line-height:107%;
-font-family:"Segoe UI","sans-serif";color:black'>Example</span></b><span
-style='font-size:18.0pt;line-height:107%;font-family:"Segoe UI","sans-serif";
-color:black'><o:p></o:p></span></h3>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo11;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The first parameter is the function to be executed.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
-12.0pt;margin-left:0cm'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-mso-fareast-font-family:"Times New Roman";color:black'>Display the current
-time:<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo11;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The second parameter indicates the length of the
+time-interval between each execution.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:black'>setInterval(myTimer,&nbsp;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:red'>1000</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:black'>);<br>
-<br>
-</span><span style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";color:mediumblue'>function</span><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;myTimer()
-{<br>
-&nbsp;&nbsp;</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>const</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'>&nbsp;d =&nbsp;</span><span style='font-size:11.5pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";color:mediumblue'>new</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'>&nbsp;Date();<br>
-&nbsp; document.getElementById(</span><span style='font-size:11.5pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";color:brown'>&quot;demo&quot;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'>).innerHTML&nbsp;= d.toLocaleTimeString();<br>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo11;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>This example executes a function called &quot;<span
+class=SpellE>myTimer</span>&quot; once every second (like a digital watch).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Example</span></b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Display
+the current time:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+class=SpellE><span class=GramE><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>setInterval</span></span></span><span
+class=GramE><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>(</span></span><span
+class=SpellE><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>myTimer</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>,&nbsp;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:red'>1000</span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>);<br>
+</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>function</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>&nbsp;<span class=SpellE>myTimer</span>()
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>{<br>
+<span class=GramE>&nbsp;</span>&nbsp;</span><span class=SpellE><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>const</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>&nbsp;d =&nbsp;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>new</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>&nbsp;Date();<br>
+&nbsp; <span class=SpellE>document.getElementById</span>(</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>&quot;demo&quot;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>).<span class=SpellE>innerHTML</span>&nbsp;=
+<span class=SpellE>d.toLocaleTimeString</span>();<br>
 }<o:p></o:p></span></p>
 
-<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
-0cm;background:#FFFFCC'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>There are 1000 milliseconds in one second.<o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Note:<o:p></o:p></span></b></p>
 
-<div class=MsoNormal align=center style='margin-top:15.0pt;margin-right:0cm;
-margin-bottom:15.0pt;margin-left:0cm;text-align:center'>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l11 level1 lfo13;
+background:#FFFFCC'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>There are 1000 milliseconds in one second.<o:p></o:p></span></p>
 
-<hr size=0 width="100%" noshade style='color:black' align=center>
-
-</div>
-
-<h2 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:white'><b><span style='font-size:24.0pt;line-height:107%;
-font-family:"Segoe UI","sans-serif";color:black'>How to Stop the Execution?</span></b><span
-style='font-size:24.0pt;line-height:107%;font-family:"Segoe UI","sans-serif";
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>1.3.1 How to <span class=GramE>Stop</span> <span
+class=SpellE>setInterval</span> Execution?</span></b><span style='font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'><o:p></o:p></span></h2>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>clearInterval()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;method stops the
-executions of the function specified in the setInterval() method.<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l11 level1 lfo13;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><span class=GramE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>clearInterval</span></code></span></span><span
+class=GramE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>(</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+stops the executions of the function specified in the <span class=SpellE>setInterval</span>()
+method.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;color:black'>window.clearInterval(<em><span
-style='font-family:Consolas'>timerVariable</span></em>)<o:p></o:p></span></p>
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Syntax<o:p></o:p></span></b></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>window.clearInterval()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;method can be written
-without the window prefix.<o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%;background:white'><span
+class=SpellE><span class=GramE><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>window.clearInterval</span></span></span><span
+class=GramE><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'>(</span></span><span class=SpellE><em><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>timerVariable</span></em></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>)<o:p></o:p></span></p>
 
-<p style='margin-top:14.4pt;margin-right:0cm;margin-bottom:14.4pt;margin-left:
-0cm;background:white'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-color:black'>The&nbsp;</span><code><span style='font-size:10.0pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>clearInterval()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>&nbsp;method uses the variable
-returned from&nbsp;</span><code><span style='font-size:10.0pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-color:crimson'>setInterval()</span></code><span style='font-size:11.5pt;
-font-family:"Verdana","sans-serif";color:black'>:<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l11 level1 lfo13;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><span class=GramE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>window.clearInterval</span></code></span></span><span
+class=GramE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+major-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>(</span></code></span><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>)</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+can be written without the window prefix.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;color:black'>let myVar = setInterval(<i>function</i>,<i>&nbsp;milliseconds</i>);<br>
-clearInterval(myVar);<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l11 level1 lfo13;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>clearInterval</span></code></span><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>()</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+uses the variable returned from&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>setInterval</span></code></span><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>()</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>:<o:p></o:p></span></p>
 
-<h3 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:#E7E9EB'><b><span style='font-size:18.0pt;line-height:107%;
-font-family:"Segoe UI","sans-serif";color:black'>Example</span></b><span
-style='font-size:18.0pt;line-height:107%;font-family:"Segoe UI","sans-serif";
-color:black'><o:p></o:p></span></h3>
+<p class=MsoNormal style='line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Example-1<o:p></o:p></span></b></p>
 
-<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
-12.0pt;margin-left:0cm'><span style='font-size:11.5pt;font-family:"Verdana","sans-serif";
-mso-fareast-font-family:"Times New Roman";color:black'>Same example as above,
-but we have added a &quot;Stop time&quot; button:<o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>let</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'> <span
+class=SpellE>myVar</span> = <span class=SpellE>setInterval</span>(<i>function</i>,<i>&nbsp;milliseconds</i>);<br>
+<span class=SpellE>clearInterval</span>(<span class=SpellE>myVar</span>);<o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:mediumblue'>&lt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:brown'>p</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:red'>&nbsp;id</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:mediumblue'>=&quot;demo&quot;&gt;&lt;</span><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:brown'>/p</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:mediumblue'>&gt;</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:black'><br>
-<br>
-</span><span style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";color:mediumblue'>&lt;</span><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:brown'>button</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:red'>&nbsp;onclick</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>=&quot;clearInterval(myVar)&quot;&gt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'>Stop time</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>&lt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:brown'>/button</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>&gt;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'><br>
-<br>
-</span><span style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";color:mediumblue'>&lt;</span><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:brown'>script</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:mediumblue'>&gt;</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:black'><br>
-</span><span style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";color:mediumblue'>let</span><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;myVar
-= setInterval(myTimer,&nbsp;</span><span style='font-size:11.5pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";color:red'>1000</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
+<p class=MsoNormal style='line-height:150%'><b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Example-2</span></b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
+mso-list:l4 level1 lfo14'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>Same
+example as above, but we have added a &quot;Stop time&quot; button:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>p</span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:red'>&nbsp;id</span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>=&quot;demo&quot;&gt;&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>/p</span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:mediumblue'>&gt;</span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br>
+</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>button</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:red'>&nbsp;<span class=SpellE>onclick</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>=&quot;<span class=SpellE>clearInterval</span>(<span
+class=SpellE>myVar</span>)&quot;&gt;</span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Stop
+time</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>/button</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>&gt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><br>
+</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>script</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>&gt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><br>
+</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>let</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>&nbsp;<span class=SpellE>myVar</span>
+= <span class=SpellE>setInterval</span>(<span class=SpellE>myTimer</span>,&nbsp;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:red'>1000</span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:black'>);<br>
-</span><span style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";color:mediumblue'>function</span><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;myTimer()
+</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>function</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>&nbsp;<span class=SpellE>myTimer</span>()
 {<br>
-&nbsp;&nbsp;</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:mediumblue'>const</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'>&nbsp;d =&nbsp;</span><span style='font-size:11.5pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";color:mediumblue'>new</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'>&nbsp;Date();<br>
-&nbsp; document.getElementById(</span><span style='font-size:11.5pt;font-family:
-Consolas;mso-fareast-font-family:"Times New Roman";color:brown'>&quot;demo&quot;</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:black'>).innerHTML&nbsp;= d.toLocaleTimeString();<br>
+&nbsp;&nbsp;</span><span class=SpellE><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>const</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>&nbsp;d =&nbsp;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>new</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>&nbsp;Date();<br>
+&nbsp; <span class=SpellE>document.getElementById</span>(</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>&quot;demo&quot;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>).<span class=SpellE>innerHTML</span>&nbsp;=
+<span class=SpellE>d.toLocaleTimeString</span>();<br>
 }<br>
-</span><span style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";color:mediumblue'>&lt;</span><span style='font-size:11.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";color:brown'>/script</span><span
-style='font-size:11.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-color:mediumblue'>&gt;</span><span style='font-size:11.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";color:black'><o:p></o:p></span></p>
+</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:brown'>/script</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>&gt;</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
-<p class=MsoNormal style='background:white'><span style='font-size:11.5pt;
-font-family:Consolas;color:black'>References<o:p></o:p></span></p>
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>2. References</span></b><span style='font-size:12.0pt;
+line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;mso-list:l0 level1 lfo2;
-background:white'><![if !supportLists]><span style='font-size:11.5pt;
-line-height:107%;font-family:Consolas;mso-fareast-font-family:Consolas;
-mso-bidi-font-family:Consolas;color:black'><span style='mso-list:Ignore'>1.<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='font-size:11.5pt;line-height:107%;font-family:Consolas;color:black'>https://www.w3schools.com/js/js_timing.asp<o:p></o:p></span></p>
+<p class=MsoListParagraph style='margin-bottom:0cm;margin-bottom:.0001pt;
+mso-add-space:auto;text-indent:-18.0pt;line-height:150%;mso-list:l1 level1 lfo6;
+background:white'><![if !supportLists]><span style='font-size:12.0pt;
+line-height:150%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+color:black'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;line-height:150%;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>https://www.w3schools.com/js/js_timing.asp<o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>&nbsp;</span></p>
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'><span style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
 
 </div>
 
