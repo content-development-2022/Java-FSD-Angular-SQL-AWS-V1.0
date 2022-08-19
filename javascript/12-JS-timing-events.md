@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>27</o:Revision>
-  <o:TotalTime>66</o:TotalTime>
+  <o:Revision>28</o:Revision>
+  <o:TotalTime>67</o:TotalTime>
   <o:Created>2022-08-19T04:36:00Z</o:Created>
-  <o:LastSaved>2022-08-19T07:23:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T07:24:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>489</o:Words>
   <o:Characters>2793</o:Characters>
@@ -2107,11 +2107,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>)<o:p></o:p></
 <p class=MsoNormal style='line-height:150%;background:#FFFFCC'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'>Note:</span></b><code><b style='mso-bidi-font-weight:normal'><span
-style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
-font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></b></code></p>
+minor-latin'>Note:<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:150%;background:#FFFFCC'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -2119,13 +2115,9 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>The&nbsp;</spa
 class=SpellE><span class=GramE>setTimeout</span></span><span class=GramE>(</span>)<span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&nbsp;and&nbsp;</span><span
-class=SpellE>setInterval</span><code><span style='mso-ansi-font-size:12.0pt;
-mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin'>()</span></code><span style='font-family:"Calibri","sans-serif";
+class=SpellE>setInterval</span>() <span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'>&nbsp;are <span style='color:black'>both methods of the HTML DOM Window
+minor-latin'>are <span style='color:black'>both methods of the HTML DOM Window
 object.<o:p></o:p></span></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
