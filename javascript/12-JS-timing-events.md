@@ -15,16 +15,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>14</o:Revision>
-  <o:TotalTime>48</o:TotalTime>
+  <o:Revision>15</o:Revision>
+  <o:TotalTime>50</o:TotalTime>
   <o:Created>2022-08-19T04:36:00Z</o:Created>
-  <o:LastSaved>2022-08-19T07:05:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T07:07:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>490</o:Words>
-  <o:Characters>2793</o:Characters>
+  <o:Characters>2794</o:Characters>
   <o:Lines>23</o:Lines>
   <o:Paragraphs>6</o:Paragraphs>
-  <o:CharactersWithSpaces>3277</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>3278</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -2700,16 +2700,18 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>Syntax<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
-class=SpellE><span class=GramE><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>window.clearInterval</span></span></span><span
-class=GramE><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'>(</span></span><span class=SpellE><em><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'>timerVariable</span></em></span><span
+class=SpellE><span class=GramE><b style='mso-bidi-font-weight:normal'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>)<o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>window.clearInterval</span></b></span></span><span
+class=GramE><b style='mso-bidi-font-weight:normal'><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>(</span></b></span><span
+class=SpellE><em><b style='mso-bidi-font-weight:normal'><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>timerVariable</span></b></em></span><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>)<o:p></o:p></span></b></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l12 level1 lfo13;
@@ -2824,7 +2826,8 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:red'>&nbsp;<span class=SpellE>onclick</span></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:mediumblue'>=&quot;<span class=SpellE>clearInterval</span>(<span
+mso-bidi-theme-font:minor-latin;color:mediumblue'>=&quot;<span class=SpellE><span
+class=GramE>clearInterval</span></span><span class=GramE>(</span><span
 class=SpellE>myVar</span>)&quot;&gt;</span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Stop
@@ -2870,11 +2873,17 @@ minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>function</span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>&nbsp;<span class=SpellE>myTimer</span>()
-{<br>
-&nbsp;&nbsp;</span><span class=SpellE><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>const</span></span><span
+mso-bidi-theme-font:minor-latin;color:black'>&nbsp;<span class=SpellE>myTimer</span>()<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'><span
+style='mso-spacerun:yes'>&nbsp;</span>{<br>
+<span class=GramE>&nbsp;</span>&nbsp;</span><span class=SpellE><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:mediumblue'>const</span></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'>&nbsp;d =&nbsp;</span><span
