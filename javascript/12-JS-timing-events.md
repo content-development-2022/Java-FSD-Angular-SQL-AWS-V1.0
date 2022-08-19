@@ -15,10 +15,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>11</o:Revision>
-  <o:TotalTime>40</o:TotalTime>
+  <o:Revision>12</o:Revision>
+  <o:TotalTime>43</o:TotalTime>
   <o:Created>2022-08-19T04:36:00Z</o:Created>
-  <o:LastSaved>2022-08-19T06:57:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-19T07:00:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
   <o:Words>490</o:Words>
   <o:Characters>2793</o:Characters>
@@ -1754,6 +1754,73 @@ div.WordSection1
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
+@list l12
+	{mso-list-id:2071607360;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1203908410 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l12:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l12:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l12:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l12:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l12:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 ol
 	{margin-bottom:0cm;}
 ul
@@ -1989,16 +2056,18 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 mso-fareast-language:EN-US'>Syntax<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
-class=SpellE><span class=GramE><span style='font-family:"Calibri","sans-serif";
+class=SpellE><span class=GramE><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>window.setTimeout</span></b></span></span><span
+class=GramE><b style='mso-bidi-font-weight:normal'><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>(</span></b></span><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>window.setTimeout</span></span></span><span
-class=GramE><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'>(</span></span><i><span style='font-family:"Calibri","sans-serif";
+minor-latin;color:black;mso-bidi-font-style:italic'>function</span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>function</span></i><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>,<i>&nbsp;milliseconds</i>);<o:p></o:p></span></p>
+minor-latin;color:black'>,<span style='mso-bidi-font-style:italic'>&nbsp;milliseconds</span>);<o:p></o:p></span></b></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo9;
@@ -2050,10 +2119,15 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ex
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#E7E9EB'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Click
-a button. Wait 3 seconds, and the page will alert &quot;Hello&quot;:<o:p></o:p></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l12 level1 lfo15;
+background:#E7E9EB'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Click a button. Wait 3 seconds, and the page will
+alert &quot;Hello&quot;:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
