@@ -66,13 +66,13 @@
 
 **Example-2**
 
-element.addEventListener("click", myFunction);
+**element.addEventListener("click", myFunction);**
 
-function myFunction()
+**function myFunction()**
 
-{  
+**{  
 alert ("Hello World!");  
-}
+}**
 
 ## 3.1 Add Many Event Handlers to the Same Element
 
@@ -80,16 +80,16 @@ alert ("Hello World!");
 
 **Example-1**
 
-*element*.addEventListener("click", myFunction);  
-*element*.addEventListener("click", mySecondFunction);
+**element.addEventListener("click", myFunction);  
+element.addEventListener("click", mySecondFunction);**
 
 -   You can add events of different types to the same element:
 
 **Example-2**
 
-*element*.addEventListener("mouseover", myFunction);  
-*element*.addEventListener("click", mySecondFunction);  
-*element*.addEventListener("mouseout", myThirdFunction);
+**element.addEventListener("mouseover", myFunction);  
+element.addEventListener("click", mySecondFunction);  
+element.addEventListener("mouseout", myThirdFunction);**
 
 ## 4. Add an Event Handler to the window Object
 
@@ -125,8 +125,8 @@ document.getElementById("demo").innerHTML = sometext;
 
 **Example**
 
-document.getElementById("myP").addEventListener("click", myFunction, true);  
-document.getElementById("myDiv").addEventListener("click", myFunction, true);
+**document.getElementById("myP").addEventListener("click", myFunction, true);  
+document.getElementById("myDiv").addEventListener("click", myFunction, true);**
 
 ## 7. HTML DOM Event Object Reference
 
