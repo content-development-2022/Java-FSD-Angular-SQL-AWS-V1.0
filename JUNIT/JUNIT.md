@@ -143,7 +143,7 @@ log.info("@AfterAll - executed after all test methods.");
 ## 4. Assertions Methods
 
 -   Assertions have been moved to *org.junit.jupiter.api.Assertions,* and have been significantly improved.
--   JUnit 5 comes with many [assertion methods](https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html). Some of them are just convenience methods that can be easily replaced by an assertEquals() or assertSame() method. However, it's recommended to use these convenience methods instead, for readability and ease of maintenance.
+-   JUnit 5 comes with many assertion methods. Some of them are just convenience methods that can be easily replaced by an assertEquals() or assertSame() method. However, it's recommended to use these convenience methods instead, for readability and ease of maintenance.
 -   For example, the call assertNull(object, message) can be replaced with assertSame(null, object, message), but the former form is recommended.
 
 Let's take a look at the assertions at our disposal. They're generally pretty self-explanatory:
