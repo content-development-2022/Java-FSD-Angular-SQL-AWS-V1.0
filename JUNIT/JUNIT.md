@@ -169,6 +169,8 @@ Let's take a look at the assertions at our disposal. They're generally pretty se
 
 ![](media/4a66d09be0e1a0acd0411951eca25877.png)
 
+**How to run the program in JUNIT**
+
 -   Right-Click on “Calculator Test” and select Run as JUINT, Which gives us the output of:
 
 ![](media/f5394eea30d688942626536a11f944a6.png)
