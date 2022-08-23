@@ -35,7 +35,6 @@
 -   You can add event listeners to any DOM object not only HTML elements. i.e the window object.
 -   The addEventListener() method makes it easier to control how the event reacts to bubbling.
 -   When using the addEventListener() method, the JavaScript is separated from the HTML markup, for better readability and allows you to add event listeners even when you do not control the HTML markup.
--   You can easily remove an event listener by using the removeEventListener() method.
 
 **Syntax**
 
@@ -134,4 +133,4 @@ document.getElementById("myDiv").addEventListener("click", myFunction, true);**
 
 ## 8. References
 
-https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+1.  https://www.w3schools.com/js/js_htmldom_eventlistener.asp
