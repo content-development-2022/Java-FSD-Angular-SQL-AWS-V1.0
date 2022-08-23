@@ -357,7 +357,7 @@ DB.remove(id);
 
 ## 4. Conclusion
 
--   This mockito tutorial taught us to unit test the service layer in spring boot applications using JUnit and Mockito. We learned to setup the test class and to write JUnit tests.
+-   This mockito taught us to unit test the service layer using JUnit and Mockito. We learned to setup the test class and to write JUnit tests.
 
 ## References
 
