@@ -1,0 +1,142 @@
+## 1. Overview
+
+-   **JUnit** is one of the most popular unit-testing frameworks in the Java ecosystem.
+-   The JUnit 5 version contains a number of exciting innovations, with **the goal of supporting new features in Java 8 and above**, as well as enabling many different styles of testing.
+
+## 2. Architecture
+
+-   JUnit 5 comprises several different modules from three different sub-projects.
+
+### 2.1. JUnit Platform
+
+-   The platform is responsible for launching testing frameworks on the JVM.
+
+### 2.2. JUnit Jupiter
+
+This module includes new programming and extension models for writing tests in JUnit 5. New annotations in comparison to JUnit 4 are:
+
+-   **@TestFactory** – denotes a method that's a test factory for dynamic tests
+-   **@DisplayName** – defines a custom display name for a test class or a test method
+-   **@Nested** – denotes that the annotated class is a nested, non-static test class
+-   **@Tag** – declares tags for filtering tests
+-   **@ExtendWith** – registers custom extensions
+-   **@BeforeEach** *–* denotes that the annotated method will be executed before each test method (previously *@Before*)
+-   **@AfterEach** – denotes that the annotated method will be executed after each test method (previously *@After*)
+-   **@BeforeAll** – denotes that the annotated method will be executed before all test methods in the current class (previously *@BeforeClass*)
+-   **@AfterAll** – denotes that the annotated method will be executed after all test methods in the current class (previously *@AfterClass*)
+-   **@Disable** – disables a test class or method (previously *@Ignore*)
+
+### 2.3. JUnit Vintage
+
+-   JUnit Vintage supports running tests based on JUnit 3 and JUnit 4 on the JUnit 5 platform.
+
+## 3. Basic Annotations
+
+-   To discuss the new annotations, we divided this section into the following groups responsible for execution: before the tests, during the tests (optional), and after the tests:
+
+### 3.1. *@BeforeAll* and *@BeforeEach*
+
+-   Below is an example of the simple code to be executed before the main test cases:
+
+**@BeforeAll**
+
+**static** **void** **setup**()
+
+{
+
+log.info("@BeforeAll - executes once before all test methods in this class");
+
+}
+
+**@BeforeEach**
+
+**void init()**
+
+{
+
+log.info("@BeforeEach - executes before each test method in this class");
+
+}
+
+-   It's important to note that the method with the *@BeforeAll* annotation needs to be static, otherwise the code won't compile.
+
+### 3.2. *@DisplayName* and *@Disabled*
+
+-   Now let's move to new test-optional methods:
+
+@DisplayName("Single test successful")
+
+@Test
+
+**void** **testSingleSuccessTest**()
+
+{
+
+log.info("Success");
+
+}
+
+@Test
+
+@Disabled("Not implemented yet")
+
+**void** **testShowSomething**()
+
+{
+
+}
+
+-   As we can see, we can change the display name or disable the method with a comment, using new annotations.
+
+### 3.3. *@AfterEach* and *@AfterAll*
+
+-   Finally, let's discuss the methods connected to operations after test execution:
+
+@AfterEach
+
+**void** **tearDown**()
+
+{
+
+log.info("@AfterEach - executed after each test method.");
+
+}
+
+@AfterAll
+
+**static** **void** **done**()
+
+{
+
+log.info("@AfterAll - executed after all test methods.");
+
+}
+
+-   Please note that the method with *@AfterAll* also needs to be a static method.
+
+### 4. Assertions
+
+-   Assertions have been moved to *org.junit.jupiter.api.Assertions,* and have been significantly improved.
+
+**Example:** Calculator
+
+-   Installing JUnit is as simple as including the dependencies:
+
+![](media/85195ac9e8f3d26cf24fbb498d4ac262.png)
+
+-   We'll use a simple calculator class to demonstrate the basic capabilities of JUnit. Our Calculator class looks like this:
+
+![](media/9744cb81295334f3c97d4fb7f0603d8e.png)
+
+-   To illustrate when each of these methods is executed, we'll add some flavor to our CalculatorTest class, and while we're at it demonstrate the use of the assertThrows() method:
+
+![](media/dd6b44f016a8bfd1356d8167a9abff0c.png)
+
+-   Which gives us the output of:
+
+![](media/f5394eea30d688942626536a11f944a6.png)
+
+### 5. References
+
+1.  https://www.baeldung.com/junit-5
+2.  https://stackabuse.com/unit-testing-in-java-with-junit-5/
