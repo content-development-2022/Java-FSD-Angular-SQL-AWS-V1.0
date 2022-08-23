@@ -140,9 +140,20 @@ log.info("@AfterAll - executed after all test methods.");
 
 -   Please note that the method with *@AfterAll* also needs to be a static method.
 
-## 4. Assertions
+## 4. Assertions Methods
 
 -   Assertions have been moved to *org.junit.jupiter.api.Assertions,* and have been significantly improved.
+-   JUnit 5 comes with many [assertion methods](https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html). Some of them are just convenience methods that can be easily replaced by an assertEquals() or assertSame() method. However, it's recommended to use these convenience methods instead, for readability and ease of maintenance.
+-   For example, the call assertNull(object, message) can be replaced with assertSame(null, object, message), but the former form is recommended.
+
+Let's take a look at the assertions at our disposal. They're generally pretty self-explanatory:
+
+-   assertEquals() and assertNotEquals()
+-   assertSame() and assertNotSame()
+-   assertFalse() and assertTrue()
+-   assertThrows() asserts that the method will throw a given exception, when faced with the return value of the tested method
+-   assertArrayEquals(expectedArray, actualArray, optionalMsg) compares the two arrays and passes only if they have the same elements at the same positions, otherwise it fails. If both arrays are null, they are considered equal.
+-   Further list of assertions please [click here](https://stackabuse.com/unit-testing-in-java-with-junit-5/)
 
 **Example:** Calculator
 
@@ -158,11 +169,11 @@ log.info("@AfterAll - executed after all test methods.");
 
 ![](media/4a66d09be0e1a0acd0411951eca25877.png)
 
--   Which gives us the output of:
+-   Right-Click on “Calculator Test” and select Run as JUINT, Which gives us the output of:
 
 ![](media/f5394eea30d688942626536a11f944a6.png)
 
-### 5. References
+## 5. References
 
 1.  https://www.baeldung.com/junit-5
 2.  https://stackabuse.com/unit-testing-in-java-with-junit-5/
