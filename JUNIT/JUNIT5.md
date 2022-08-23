@@ -140,7 +140,7 @@ log.info("@AfterAll - executed after all test methods.");
 
 -   Please note that the method with *@AfterAll* also needs to be a static method.
 
-### 4. Assertions
+## 4. Assertions
 
 -   Assertions have been moved to *org.junit.jupiter.api.Assertions,* and have been significantly improved.
 
@@ -156,7 +156,7 @@ log.info("@AfterAll - executed after all test methods.");
 
 -   To illustrate when each of these methods is executed, we'll add some flavor to our CalculatorTest class, and while we're at it demonstrate the use of the assertThrows() method:
 
-![](media/dd6b44f016a8bfd1356d8167a9abff0c.png)
+![](media/4a66d09be0e1a0acd0411951eca25877.png)
 
 -   Which gives us the output of:
 
