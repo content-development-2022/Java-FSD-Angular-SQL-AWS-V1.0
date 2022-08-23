@@ -22,11 +22,10 @@
 
 **4. Conclusion**
 
-## Maven Dependencies
+## 1. Maven Dependencies
 
 -   Learn to write **unit tests** **for the service layer** using JUnit 5 and Mockito testing frameworks.
-
-Let’s add the JUnit 5 (jupiter) and *mockito* dependencies:
+-   Let’s add the JUnit 5 (jupiter) and *mockito* dependencies:
 
 \<**dependency**\>
 
