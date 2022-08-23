@@ -62,7 +62,7 @@
 -   EmployeeManager class has a dependency on EmployeeDao and delegate method calls to get the data which is finally returned to controller classes.
 -   To test the methods in EmployeeManager, we can create a JUnit test class *TestEmployeeManager* in below given two ways:
 
-### 2.1. *MockitoExtension*
+## 2.1. *MockitoExtension*
 
 -   To process Mockito annotations with JUnit 5, we need to use *MockitoExtention* that automatically initializes all the objects annotated with @Mock and @InjectMocks annotations.
 
@@ -82,7 +82,7 @@ EmployeeDao dao;
 
 }
 
-### 2.2. *MockitoAnnotations.openMocks()* method
+## 2.2. *MockitoAnnotations.openMocks()* method
 
 -   If we are not using the MockitoJUnitRunner class approach, then we can use the static method MockitoAnnotations.initMocks(). This method also, upon initialization of junit tests, initializes the mock objects.
 
@@ -110,7 +110,7 @@ MockitoAnnotations.openMocks(**this**);
 
 }
 
-### 2.3. *@Mock* vs *@InjectMocks*
+## 2.3. *@Mock* vs *@InjectMocks*
 
 -   The **@Mock** annotation creates a mock implementation for the class it is annotated with.
 -   **@InjectMocks** also creates the mock implementation and additionally injects the dependent mocks that are marked with the annotations @Mock into it.
@@ -118,13 +118,12 @@ MockitoAnnotations.openMocks(**this**);
 
 ## 3. JUnit Tests using Mockito
 
-Let’s see a few examples of writing the junit tests to *unit test the service layer and* [*DAO layer*](https://howtodoinjava.com/best-practices/how-you-should-unit-test-dao-layer/) methods using mock objects created with mockito.
+-   Let’s see a few examples of writing the junit tests to *unit test the service layer and* *DAO layer* methods using mock objects created with mockito.
+-   A few example methods could be for *getAllEmployees()* returning a list of EmployeeVO objects, *getEmployeeById(int id)* for returning an employee by given id; and createEmployee() for adding an employee object and return void.
 
-A few example methods could be for *getAllEmployees()* returning a list of EmployeeVO objects, *getEmployeeById(int id)* for returning an employee by given id; and createEmployee() for adding an employee object and return void.
+## 3.1. Service Layer Tests
 
-### 3.1. Service Layer Tests
-
-TestEmployeeManager.java
+**TestEmployeeManager.java**
 
 **import** **static** org.junit.Assert.assertEquals;
 
@@ -244,9 +243,9 @@ The unit test results will be like this.
 
 Spring boot mockito junit example
 
-### 3.2. Service Layer Class
+## 3.2. Service Layer Class
 
-EmployeeManager.java
+**EmployeeManager.java**
 
 **import** java.util.List;
 
@@ -288,9 +287,9 @@ dao.addEmployee(employee);
 
 }
 
-### 3.3. Dao Layer Class
+## 3.3. Dao Layer Class
 
-EmployeeDao.java
+**EmployeeDao.java**
 
 **package** com.howtodoinjava.demo.dao;
 
@@ -358,11 +357,9 @@ DB.remove(id);
 
 ## 4. Conclusion
 
-This mockito tutorial taught us to unit test the service layer in spring boot applications using JUnit and Mockito. We learned to setup the test class and to write JUnit tests.
+-   This mockito tutorial taught us to unit test the service layer in spring boot applications using JUnit and Mockito. We learned to setup the test class and to write JUnit tests.
 
-[Newsletter Archive](https://howtodoinjava.com/newsletter-archives/)
-
-References
+## References
 
 1.  https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockito-junit-example/
 2.  https://www.baeldung.com/mockito-junit-5-extension
