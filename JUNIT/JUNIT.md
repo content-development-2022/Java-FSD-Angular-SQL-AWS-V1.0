@@ -161,15 +161,17 @@ Let's take a look at the assertions at our disposal. They're generally pretty se
 
 ![](media/1e13a1de84e22dad6aa694aad87b3f11.png)
 
-We'll use a simple calculator class to demonstrate the basic capabilities of JUnit. Our Calculator class looks like this:
+-   We'll use a simple calculator class to demonstrate the basic capabilities of JUnit. Our Calculator class looks like this:
 
 ![](media/62503b8304a9f00ee27d73e929a17c8c.png)
 
 -   To illustrate when each of these methods is executed, we'll add some flavor to our CalculatorTest class, and while we're at it demonstrate the use of the assertThrows() method:
 
+![](media/bc006ade379e6b17ce2b5f8a2954cf4c.png)
+
 **How to run the program in JUNIT**
 
--   Right-Click on “Calculator Test” and select Run as JUINT, Which gives us the output of: ![](media/bc006ade379e6b17ce2b5f8a2954cf4c.png)
+-   Right-Click on “Calculator Test” and select Run as JUINT, Which gives us the output of:
 
 ## ![](media/6ca870f4333ef5ff43829966bac93323.png)
 
