@@ -2,13 +2,13 @@
 
 ## What is Linux/Unix?
 
-Let's first start with the basic knowledge of the Linux and Unix operating system. To know more details about linux/unix [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/linux/supporting-files/linux-or-unix.md)
+Let's first start with the basic knowledge of the Linux and Unix operating system. To know more details about linux/unix [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/linux/supporting-files/linux-or-unix.md).
 
 ## What is Git?
 
 -   **Git** is a version control system or VCS.
 -   VCS, tracks the history of changes as people and teams collaborate on projects together. As developers make changes to the project, any earlier version of the project can be recovered at any time.
--   To know more information about git [click here](https://docs.github.com/en/get-started/using-git/about-git)
+-   To know more information about git [click here](https://docs.github.com/en/get-started/using-git/about-git).
 
 ## What is Git Bash?
 
