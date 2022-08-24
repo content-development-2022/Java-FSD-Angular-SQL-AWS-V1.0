@@ -9,8 +9,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="1-JS-introduction_files/filelist.xml">
-<link rel=Edit-Time-Data href="1-JS-introduction_files/editdata.mso">
+<link rel=File-List href="14-JS-HTML-DOM_files/filelist.xml">
+<link rel=Edit-Time-Data href="14-JS-HTML-DOM_files/editdata.mso">
 <!--[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
@@ -23,25 +23,24 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>15</o:Revision>
-  <o:TotalTime>9</o:TotalTime>
-  <o:Created>2022-08-15T06:09:00Z</o:Created>
-  <o:LastSaved>2022-08-18T06:29:00Z</o:LastSaved>
-  <o:Pages>3</o:Pages>
-  <o:Words>434</o:Words>
-  <o:Characters>2475</o:Characters>
-  <o:Lines>20</o:Lines>
-  <o:Paragraphs>5</o:Paragraphs>
-  <o:CharactersWithSpaces>2904</o:CharactersWithSpaces>
+  <o:Revision>18</o:Revision>
+  <o:TotalTime>36</o:TotalTime>
+  <o:Created>2022-08-17T09:57:00Z</o:Created>
+  <o:LastSaved>2022-08-18T06:37:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>489</o:Words>
+  <o:Characters>2790</o:Characters>
+  <o:Lines>23</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3273</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=themeData href="1-JS-introduction_files/themedata.thmx">
-<link rel=colorSchemeMapping
-href="1-JS-introduction_files/colorschememapping.xml">
+<link rel=themeData href="14-JS-HTML-DOM_files/themedata.thmx">
+<link rel=colorSchemeMapping href="14-JS-HTML-DOM_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
@@ -407,7 +406,8 @@ href="1-JS-introduction_files/colorschememapping.xml">
   <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
   <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
   <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
-  <w:LsdException Locked="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
   <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
   <w:LsdException Locked="false" Priority="30" QFormat="true"
    Name="Intense Quote"/>
@@ -657,10 +657,11 @@ href="1-JS-introduction_files/colorschememapping.xml">
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
+	mso-font-charset:1;
 	mso-generic-font-family:roman;
+	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+	mso-font-signature:0 0 0 0 0 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
@@ -680,6 +681,21 @@ href="1-JS-introduction_files/colorschememapping.xml">
 	font-family:"Times New Roman","serif";
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
 h2
 	{mso-style-noshow:yes;
 	mso-style-priority:9;
@@ -710,6 +726,36 @@ h2
 	mso-themeshade:191;
 	mso-fareast-language:EN-US;
 	font-weight:normal;}
+h3
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-style-next:Normal;
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:105%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:12.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#1F4D78;
+	mso-themecolor:accent1;
+	mso-themeshade:127;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
 a:link, span.MsoHyperlink
 	{mso-style-noshow:yes;
 	mso-style-priority:99;
@@ -734,7 +780,8 @@ p
 	mso-pagination:widow-orphan;
 	font-size:12.0pt;
 	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";}
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
 code
 	{mso-style-noshow:yes;
 	mso-style-priority:99;
@@ -745,7 +792,7 @@ code
 	mso-bidi-font-family:"Courier New";}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	margin-top:0cm;
@@ -761,7 +808,7 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
 	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -778,7 +825,7 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
 	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -795,7 +842,7 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
 	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -810,6 +857,16 @@ p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxS
 	font-family:"Times New Roman","serif";
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:24.0pt;
+	mso-bidi-font-size:24.0pt;
+	mso-font-kerning:18.0pt;
+	font-weight:bold;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
 	mso-style-noshow:yes;
@@ -832,17 +889,43 @@ span.Heading2Char
 	mso-themecolor:accent1;
 	mso-themeshade:191;
 	mso-fareast-language:EN-US;}
-span.jscolor
-	{mso-style-name:jscolor;
-	mso-style-unhide:no;}
-span.jskeywordcolor
-	{mso-style-name:jskeywordcolor;
-	mso-style-unhide:no;}
-span.jspropertycolor
-	{mso-style-name:jspropertycolor;
-	mso-style-unhide:no;}
-span.jsstringcolor
-	{mso-style-name:jsstringcolor;
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#1F4D78;
+	mso-themecolor:accent1;
+	mso-themeshade:127;
+	mso-fareast-language:EN-US;}
+p.intro, li.intro, div.intro
+	{mso-style-name:intro;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.colorh1
+	{mso-style-name:color_h1;
 	mso-style-unhide:no;}
 span.tagnamecolor
 	{mso-style-name:tagnamecolor;
@@ -855,6 +938,15 @@ span.attributecolor
 	mso-style-unhide:no;}
 span.attributevaluecolor
 	{mso-style-name:attributevaluecolor;
+	mso-style-unhide:no;}
+span.jscolor
+	{mso-style-name:jscolor;
+	mso-style-unhide:no;}
+span.jspropertycolor
+	{mso-style-name:jspropertycolor;
+	mso-style-unhide:no;}
+span.jsstringcolor
+	{mso-style-name:jsstringcolor;
 	mso-style-unhide:no;}
 span.SpellE
 	{mso-style-name:"";
@@ -878,76 +970,85 @@ div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
  @list l0
-	{mso-list-id:568348030;
-	mso-list-type:hybrid;
-	mso-list-template-ids:631535992 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	{mso-list-id:72554777;
+	mso-list-template-ids:281702446;}
 @list l0:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:36.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
 @list l0:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:72.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
 @list l0:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:108.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l0:level4
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:Symbol;}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l0:level5
 	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l0:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:216.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l0:level7
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:Symbol;}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l0:level8
 	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l0:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:324.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l1
-	{mso-list-id:980960502;
+	{mso-list-id:265579899;
 	mso-list-type:hybrid;
-	mso-list-template-ids:1989289246 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
+	mso-list-template-ids:-1802975436 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
 @list l1:level1
 	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -991,9 +1092,9 @@ div.WordSection1
 	mso-level-number-position:right;
 	text-indent:-9.0pt;}
 @list l2
-	{mso-list-id:1090346930;
+	{mso-list-id:833687611;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-2062619668 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:472174986 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l2:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1058,76 +1159,85 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l3
-	{mso-list-id:1129476111;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1806214778 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	{mso-list-id:1272669435;
+	mso-list-template-ids:-2052974618;}
 @list l3:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:36.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
 @list l3:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:72.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
 @list l3:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:108.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l3:level4
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:Symbol;}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l3:level5
 	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l3:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:216.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l3:level7
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:Symbol;}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l3:level8
 	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	font-family:"Courier New";}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l3:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:324.0pt;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l4
-	{mso-list-id:1251425791;
+	{mso-list-id:1725056996;
 	mso-list-type:hybrid;
-	mso-list-template-ids:763126130 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
+	mso-list-template-ids:-2128062470 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l4:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1192,234 +1302,200 @@ div.WordSection1
 	text-indent:-18.0pt;
 	font-family:Wingdings;}
 @list l5
-	{mso-list-id:1504859567;
+	{mso-list-id:1766337141;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-595304710 655652080 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
+	mso-list-template-ids:335982416 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l5:level1
-	{mso-level-tab-stop:none;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:Symbol;}
 @list l5:level2
-	{mso-level-number-format:alpha-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
 @list l5:level3
-	{mso-level-number-format:roman-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 @list l5:level4
-	{mso-level-tab-stop:none;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:Symbol;}
 @list l5:level5
-	{mso-level-number-format:alpha-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
 @list l5:level6
-	{mso-level-number-format:roman-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 @list l5:level7
-	{mso-level-tab-stop:none;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:Symbol;}
 @list l5:level8
-	{mso-level-number-format:alpha-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
 @list l5:level9
-	{mso-level-number-format:roman-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 @list l6
-	{mso-list-id:1928345710;
+	{mso-list-id:1806308516;
 	mso-list-type:hybrid;
-	mso-list-template-ids:5957804 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
+	mso-list-template-ids:793028230 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l6:level1
-	{mso-level-tab-stop:none;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:Symbol;}
 @list l6:level2
-	{mso-level-number-format:alpha-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
 @list l6:level3
-	{mso-level-number-format:roman-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 @list l6:level4
-	{mso-level-tab-stop:none;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:Symbol;}
 @list l6:level5
-	{mso-level-number-format:alpha-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
 @list l6:level6
-	{mso-level-number-format:roman-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 @list l6:level7
-	{mso-level-tab-stop:none;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:Symbol;}
 @list l6:level8
-	{mso-level-number-format:alpha-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	text-indent:-18.0pt;}
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
 @list l6:level9
-	{mso-level-number-format:roman-lower;
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
 @list l7
-	{mso-list-id:1963490653;
-	mso-list-template-ids:1324394244;}
+	{mso-list-id:1925871994;
+	mso-list-type:hybrid;
+	mso-list-template-ids:823325730 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
 @list l7:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
-	mso-level-tab-stop:36.0pt;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
 @list l7:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
-	mso-level-tab-stop:72.0pt;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	mso-ansi-font-size:10.0pt;
-	font-family:"Courier New";
-	mso-bidi-font-family:"Times New Roman";}
+	font-family:"Courier New";}
 @list l7:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:108.0pt;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l7:level4
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:144.0pt;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
+	font-family:Symbol;}
 @list l7:level5
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:180.0pt;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
+	font-family:"Courier New";}
 @list l7:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:216.0pt;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l7:level7
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:252.0pt;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
+	font-family:Symbol;}
 @list l7:level8
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:288.0pt;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-18.0pt;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
+	font-family:"Courier New";}
 @list l7:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:324.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l8
-	{mso-list-id:2098087252;
-	mso-list-type:hybrid;
-	mso-list-template-ids:155894848 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653 1074331649 1074331651 1074331653;}
-@list l8:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l8:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l8:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l8:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l8:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l8:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l8:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l8:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l8:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
@@ -1461,270 +1537,126 @@ ul
 
 <div class=WordSection1>
 
-<h2 style='margin-top:0cm;line-height:150%;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'>JS
-Introduction<o:p></o:p></span></b></h2>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Content<o:p></o:p></span></b></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;mso-font-kerning:18.0pt'>1.
-JavaScript&nbsp;Introduction<o:p></o:p></span></b></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>1.1 Why Study JavaScript?<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>2
-The &lt;script&gt; Tag</span></b><b style='mso-bidi-font-weight:normal'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></b></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>2.1 JavaScript in &lt;head&gt; or &lt;body&gt;<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>2.2 External JavaScript</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>2.2.1 External JavaScript Advantages<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-bidi-font-weight:bold'>2.2.2 External References<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>3. References<o:p></o:p></span></b></p>
-
-<h2 style='margin-top:0cm;line-height:150%;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'>1.
-JavaScript&nbsp;Introduction<o:p></o:p></span></b></h2>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
-is the world's most popular programming language.<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
-is the programming language of the Web.<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l3 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
-is easy to learn.<o:p></o:p></span></p>
-
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>1.1 Why Study JavaScript?</span></b><span
-style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p></o:p></span></h2>
+minor-latin;color:black'>JS HTML DOM<o:p></o:p></span></b></h2>
 
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
-is one of the&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'>3 languages</span></strong>&nbsp;all web developers&nbsp;<strong><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>must</span></strong>&nbsp;learn:<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;&nbsp;
-1.&nbsp;</span><strong><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'>HTML</span></strong><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'>&nbsp;to define the content of web pages<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&nbsp;&nbsp;
-2.&nbsp;<strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>CSS</span></strong>&nbsp;to
-specify <span style='color:black'>the layout of web pages<o:p></o:p></span></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;&nbsp;
-3.&nbsp;<strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>JavaScript</span></strong>&nbsp;to
-program the behaviour of web pages<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Did
-You Know?</span></b><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'><o:p></o:p></span></p>
+mso-fareast-language:EN-US'>Content<o:p></o:p></span></b></p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
-and&nbsp;Java&nbsp;are completely different languages, both in concept and
-design.<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
-was invented by Brendan <span class=SpellE>Eich</span> in 1995, and became an
-ECMA standard in 1997.<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>ECMA-262
-is the official name of the standard. <span class=SpellE>ECMAScript</span> is
-the official name of the language.<o:p></o:p></span></p>
-
-<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
-style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+<p class=MsoNormal style='line-height:150%'><b><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>2 The &lt;script&gt; Tag</span></b><span
-style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p></o:p></span></h2>
+minor-latin'>1 JS HTML DOM (Document Object Model)<o:p></o:p></span></b></p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo6;
-background:white'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>In HTML, JavaScript code is inserted between&nbsp;</span><code><span
-style='font-size:10.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:crimson'>&lt;script&gt;</span></code><span
+minor-latin;mso-bidi-font-weight:bold'>1.2 What is the DOM?</span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;and&nbsp;</span><code><span
-style='font-size:10.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:crimson'>&lt;/script&gt;</span></code><span
+mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>1.3 What is the HTML DOM?</span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;tags.<o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>2. JS -&nbsp;</span></b><span class=colorh1><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>HTML
+DOM Methods</span><o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>3. JS&nbsp;</span></b><span class=colorh1><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>HTML
+DOM Document</span></b></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>3.1 The HTML DOM Document Object<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>3.1.1 Finding HTML Elements</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>3.1.2 Changing HTML Elements</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-bidi-font-weight:bold'>3.1.3 Adding and Deleting Elements</span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>4.
+<span class=SpellE>Refernces</span><span style='mso-bidi-font-weight:bold'><o:p></o:p></span></span></b></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
 style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>2.1 JavaScript in &lt;head&gt; or &lt;body&gt;</span></b><span
-style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p></o:p></span></h2>
+minor-latin;color:black'>1 JS HTML DOM (Document Object Model)<o:p></o:p></span></b></h2>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo6;
-background:white'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>You can place any number of scripts in an HTML
+<p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
+mso-list:l4 level1 lfo2;background:white'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>With
+the HTML DOM, JavaScript can access and change all the elements of an HTML
 document.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo6;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo2;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Scripts can be placed in the&nbsp;</span><code><span
-style='font-size:10.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:crimson'>&lt;body&gt;</span></code><span
+minor-latin;color:black'>When a web page is loaded, the browser creates a&nbsp;<strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>,
-or in the&nbsp;</span><code><span style='font-size:10.0pt;line-height:150%;
-font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>&lt;head&gt;</span></code><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>D</span></strong>ocument&nbsp;<strong><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;section
-of an HTML page, or in both.<o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>O</span></strong>bject&nbsp;<strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>M</span></strong>odel
+of the page.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo6;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo2;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;background:#FFFFCC'>Placing scripts at the bottom of
-the &lt;body&gt; element improves the display speed, because script
-interpretation slows down the display.</span><span style='font-family:"Calibri","sans-serif";
+minor-latin;color:black'>The&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p></o:p></span></p>
+minor-latin'>HTML DOM</span></strong>&nbsp;model is constructed as a tree
+of&nbsp;<strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Objects</span></strong>:<o:p></o:p></span></p>
 
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;background:#FFFFCC'>Example</span></b><b
-style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p></o:p></span></b></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
-mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
- o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
- stroked="f">
+minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
  <v:stroke joinstyle="miter"/>
  <v:formulas>
   <v:f eqn="if lineDrawn pixelLineWidth 0"/>
@@ -1742,117 +1674,213 @@ mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="216
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_2" o:spid="_x0000_i1025" type="#_x0000_t75"
- style='width:450.75pt;height:186pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="1-JS-introduction_files/image001.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img width=601 height=248
-src="1-JS-introduction_files/image002.jpg" v:shapes="Picture_x0020_2"><![endif]></span><span
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1028" type="#_x0000_t75"
+ style='width:444.75pt;height:286.5pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="14-JS-HTML-DOM_files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=593 height=382
+src="14-JS-HTML-DOM_files/image001.png" v:shapes="Picture_x0020_1"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>With the object model, JavaScript
+gets all the power it needs to create dynamic HTML:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
+can change all the HTML elements in the page<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
+can change all the HTML attributes in the page<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
+can change all the CSS styles in the page<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
+can remove existing HTML elements and attributes<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
+can add new HTML elements and attributes<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
+can react to all existing HTML events in the page<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l0 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>JavaScript
+can create new HTML events in the page<o:p></o:p></span></p>
 
 <h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
-style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>2.2 External JavaScript</span></b><span
-style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p></o:p></span></h2>
+minor-latin;color:black'>1.2 What is the DOM?</span></b><span style='font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo8;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l7 level1 lfo6;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Scripts can also be placed in external files:<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo8;
-background:white'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>External scripts are practical when the same code is
-used in many different web pages.<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo8;
-background:white'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>JavaScript files have the file extension&nbsp;<strong><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>.<span
-class=SpellE>js</span></span></strong>.<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l8 level1 lfo8;
-background:white'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>To use an external script, put the name of the script
-file in the&nbsp;</span><span class=SpellE><code><span style='font-size:10.0pt;
-line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>src</span></code></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;(source)
-attribute of a&nbsp;</span><code><span style='font-size:10.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:major-fareast;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>&lt;script&gt;</span></code><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;tag:<o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>External
-file: myScript.js</span></b><span style='font-family:"Calibri","sans-serif";
+minor-latin;color:black;mso-bidi-font-style:italic'>&quot;The Document Object
+Model (DOM) is a platform and language-neutral interface that allows programs
+and scripts to dynamically access and update the content, structure, and style
+of a document.&quot;</span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'><o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%;background:white'><span class=GramE><span
-class=jskeywordcolor><span style='font-family:"Calibri","sans-serif";
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>function</span></span></span><span class=jscolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;<span
-class=SpellE>myFunction</span>()</span><o:p></o:p></span></p>
+minor-latin;color:black'>1.3 What is the HTML DOM?</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></h2>
 
-<p class=MsoNormal style='line-height:150%;background:white'><span
-class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'><span style='mso-spacerun:yes'>&nbsp;</span>{</span></span><span
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br>
-<span class=jscolor>&nbsp;<span
-style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE>document.<span class=jspropertycolor>getElementById</span></span></span><span
-class=GramE>(</span></span></span><span class=jsstringcolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>&quot;demo&quot;</span></span><span
-class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'>).</span></span><span class=SpellE><span class=jspropertycolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>innerHTML</span></span></span><span
-class=jscolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'>&nbsp;=&nbsp;</span></span><span class=jsstringcolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>&quot;Paragraph
-changed.&quot;</span></span><span class=jscolor><span style='font-family:"Calibri","sans-serif";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
+HTML DOM is a standard&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>;</span></span><span style='font-family:"Calibri","sans-serif";
+minor-latin'>object</span></strong>&nbsp;model and&nbsp;<strong><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>programming
+interface</span></strong>&nbsp;for HTML. It defines:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l3 level1 lfo8;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><br>
-<span class=jscolor>}</span></span></p>
+minor-latin;color:black'>The HTML elements as&nbsp;<b>objects</b><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l3 level1 lfo8;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;<b>properties</b>&nbsp;of all HTML elements<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l3 level1 lfo8;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;<b>methods</b>&nbsp;to access all HTML
+elements<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
+150%;mso-list:l3 level1 lfo8;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>events</span></strong>&nbsp;for all HTML elements<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>In
+other words:<b>&nbsp;The HTML DOM is a standard for how to get, change, add, or
+delete HTML elements.</b><o:p></o:p></span></p>
+
+<h1 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;mso-bidi-font-weight:normal'>2. JS -</span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;font-weight:normal'>&nbsp;</span><span class=colorh1><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>HTML DOM Methods</span></span><span style='font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black;font-weight:normal'><o:p></o:p></span></h1>
+
+<p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
+mso-list:l2 level1 lfo10;background:white'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>HTML
+DOM methods are&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>actions</span></strong>&nbsp;you can perform (on HTML Elements).<o:p></o:p></span></p>
+
+<p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
+mso-list:l2 level1 lfo10;background:white'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>HTML
+DOM properties are&nbsp;<strong><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>values</span></strong>&nbsp;(of HTML Elements) that you can set or
+change.<o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1860,148 +1888,103 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Ex
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
+following example changes the content (the&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>innerHTML</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>)
+of the&nbsp;</span><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>&lt;p&gt;</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;element with&nbsp;</span><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>id=&quot;demo&quot;</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>:<o:p></o:p></span></p>
+
 <p class=MsoNormal style='line-height:150%;background:white'><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
+color:mediumblue'>&lt;</span></span><span class=GramE><span class=tagnamecolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>script</span></span><span
-class=attributecolor><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:red'>&nbsp;<span class=SpellE>src</span></span></span><span
-class=attributevaluecolor><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>=&quot;myScript.js&quot;</span></span><span
-class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:mediumblue'>&gt;&lt;</span></span><span class=tagnamecolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>/script</span></span><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>html</span></span></span><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-7.65pt;line-height:150%;
-mso-list:l0 level1 lfo10;background:white'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>You can place an external script
-reference in&nbsp;</span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>&lt;head&gt;</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>&nbsp;or&nbsp;</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:crimson'>&lt;body&gt;</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>&nbsp;as you like.<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-7.65pt;line-height:150%;
-mso-list:l0 level1 lfo10;background:white'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>The script will behave as if it
-was located exactly where the&nbsp;</span><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>&lt;script&gt;</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>&nbsp;tag is located.<o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:#FFFFCC'><b
-style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Note:</span></b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'> External scripts cannot
-contain&nbsp;</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>&lt;script&gt;</span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>&nbsp;tags.<o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;mso-outline-level:1;background:white'><b><span
-style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+minor-latin;color:black'><br>
+</span><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>2.2.1 External JavaScript Advantages</span></b><span
-style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Placing
-scripts in external files has some advantages:<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l7 level1 lfo12;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
-style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
-Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>It separates HTML and code<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l7 level1 lfo12;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
-style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
-Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>It makes HTML and JavaScript easier to read and
-maintain<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l7 level1 lfo12;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
-style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
-Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Cached JavaScript files can speed up page loads<o:p></o:p></span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>To add several script files to one page<span
-class=GramE>&nbsp; -</span> use several script tags:<o:p></o:p></span></b></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>body</span></span><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
+color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br>
+</span><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>script</span></span><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>p</span></span><span
 class=attributecolor><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:red'>&nbsp;<span class=SpellE>src</span></span></span><span
-class=attributevaluecolor><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>=&quot;myScript1.js&quot;</span></span><span
+minor-latin;color:red'>&nbsp;id</span></span><span class=attributevaluecolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>=&quot;demo&quot;</span></span><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
 color:mediumblue'>&gt;&lt;</span></span><span class=tagnamecolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>/p</span></span><span
+class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br>
+</span><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>script</span></span><span
+class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br>
+<span class=SpellE><span class=jscolor>document.</span><span
+class=jspropertycolor>getElementById</span></span><span class=jscolor>(</span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;demo&quot;</span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>).</span></span><span
+class=SpellE><span class=jspropertycolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>innerHTML</span></span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;=&nbsp;</span></span><span
+class=jsstringcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:brown'>&quot;Hello World!&quot;</span></span><span class=jscolor><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>;</span></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><br>
+</span><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>/script</span></span><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
@@ -2013,154 +1996,313 @@ minor-latin;color:black'><br>
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>script</span></span><span
-class=attributecolor><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:red'>&nbsp;<span class=SpellE>src</span></span></span><span
-class=attributevaluecolor><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:mediumblue'>=&quot;myScript2.js&quot;</span></span><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>/body</span></span><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:mediumblue'>&gt;&lt;</span></span><span class=tagnamecolor><span
+color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><br>
+</span><span class=tagcolor><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:mediumblue'>&lt;</span></span><span class=tagnamecolor><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>/script</span></span><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>/html</span></span><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:mediumblue'>&gt;</span><span style='color:mediumblue'><o:p></o:p></span></span></p>
-
-<p class=MsoNormal style='line-height:150%;mso-outline-level:1;background:white'><b><span
-style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+color:mediumblue'>&gt;</span></span><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>2.2.2 External References</span></b><span
-style='font-size:14.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
-color:black'><o:p></o:p></span></p>
+minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>An
-external script can be referenced in 3 different ways:<o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>In
+the example above,&nbsp;</span><span class=SpellE><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>getElementById</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;is
+a&nbsp;<strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>method</span></strong>,
+while&nbsp;</span><span class=SpellE><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>innerHTML</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;is
+a&nbsp;<strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>property</span></strong>.<o:p></o:p></span></p>
 
-<p class=MsoListParagraph style='text-indent:-14.7pt;line-height:150%;
-mso-list:l6 level1 lfo14;background:white'><![if !supportLists]><span
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
-style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>With a full URL (a full web address)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example</span></b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>: </span><span class=tagcolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:mediumblue'>&lt;</span></span><span
-class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:brown'>script</span></span><span class=tagnamecolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:red'>&nbsp;<span
-class=SpellE>src</span></span></span><span class=tagnamecolor><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>=&quot;https://www.w3schools.com/js/myScript.js&quot;</span></span><span
-class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&gt;</span>&lt;</span><span
-class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>/script&gt;</span></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-14.7pt;line-height:150%;
-mso-list:l1 level1 lfo16;background:white'><![if !supportLists]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>1.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>With a file
-path (like /<span class=SpellE>js</span>/)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Example: </span></b><span
-class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&lt;</span></span><span
-class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>script&nbsp;<span
-class=SpellE>src</span>=&quot;/<span class=SpellE>js</span>/myScript.js&quot;</span></span><span
-class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&gt;</span>&lt;</span><span
-class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>/script&gt;</span></span><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='text-indent:-14.7pt;line-height:150%;
-mso-list:l1 level1 lfo16;background:white'><![if !supportLists]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>2.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Without any
-path<o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:150%;background:white'><b><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>Example: </span></b><span
-class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&lt;</span></span><span
-class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>script&nbsp;<span
-class=SpellE>src</span>=&quot;myScript.js&quot;</span></span><span
-class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>&gt;</span>&lt;</span><span
-class=tagnamecolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>/scr<span
-style='color:brown'>ipt&gt;</span></span></span><span style='mso-fareast-font-family:
-"Times New Roman"'><o:p></o:p></span></p>
-
-<h2 style='margin-top:0cm;line-height:150%;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>3.
-References<o:p></o:p></span></b></h2>
-
-<p class=MsoListParagraph style='text-indent:-18.0pt;mso-list:l5 level1 lfo18'><![if !supportLists]><span
-style='mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
-EN-US'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='color:black;mso-fareast-language:
-EN-US'>https://www.w3schools.com/js/default.asp<o:p></o:p></span></p>
-
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;mso-list:l5 level1 lfo18;
-background:white'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
-minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:black'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><a
-href="https://www.w3schools.com/js/js_whereto.asp"><span style='font-family:
-"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin'>https://www.w3schools.com/js/js_whereto.asp</span></a><span
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
+<span class=SpellE>getElementById</span> Method</span></b><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo10;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
+minor-latin;color:black'>The most common way to access an HTML element is to
+use the&nbsp;</span><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>id</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;of the element.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo10;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>In the example above the&nbsp;</span><span
+class=SpellE><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>getElementById</span></code></span><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;method
+used&nbsp;</span><code><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:crimson'>id=&quot;demo&quot;</span></code><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>&nbsp;to find the element.<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
+<span class=SpellE>innerHTML</span> Property</span></b><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo12;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The easiest way to get the content of an element is by
+using the&nbsp;</span><span class=SpellE><code><span style='mso-ansi-font-size:
+12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:crimson'>innerHTML</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;property.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l6 level1 lfo12;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>innerHTML</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;property
+is useful for getting or replacing the content of HTML elements.<o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Note:<o:p></o:p></span></b></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo14;
+background:#FFFFCC'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The&nbsp;</span><span class=SpellE><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>innerHTML</span></code></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;property
+can be used to get or change any HTML element, including&nbsp;</span><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>&lt;html&gt;</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;and&nbsp;</span><code><span
+style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:crimson'>&lt;body&gt;</span></code><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>.<o:p></o:p></span></p>
+
+<h1 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;mso-bidi-font-weight:normal'>3. JS</span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black;font-weight:normal'>&nbsp;</span><span class=colorh1><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>HTML DOM Document</span></span><span style='font-size:
+12.0pt;line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black;font-weight:normal'><o:p></o:p></span></h1>
+
+<p class=intro style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;
+mso-list:l2 level1 lfo10;background:white'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>The
+HTML DOM document object is the owner of all other objects in your web page.<o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>3.1 The HTML DOM Document Object</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo10;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>The document object represents your web page.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo10;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>If you want to access any element in an HTML page, you
+always start with accessing the document object.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l2 level1 lfo10;
+background:white'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>Below are some examples of how you can use the
+document object to access and manipulate HTML.<o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>3.1.1 Finding HTML Elements</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
+minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
+ o:spid="_x0000_i1027" type="#_x0000_t75" style='width:450.75pt;height:113.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="14-JS-HTML-DOM_files/image002.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=601 height=151
+src="14-JS-HTML-DOM_files/image003.jpg" v:shapes="Picture_x0020_2"><![endif]></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>3.1.2 Changing HTML Elements</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3"
+ o:spid="_x0000_i1026" type="#_x0000_t75" style='width:450.75pt;height:150pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="14-JS-HTML-DOM_files/image004.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=601 height=200
+src="14-JS-HTML-DOM_files/image005.jpg" v:shapes="Picture_x0020_3"><![endif]></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>3.1.3 Adding and Deleting Elements</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4"
+ o:spid="_x0000_i1025" type="#_x0000_t75" style='width:451.5pt;height:184.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="14-JS-HTML-DOM_files/image006.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=246
+src="14-JS-HTML-DOM_files/image006.png" v:shapes="Picture_x0020_4"><![endif]></span><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
+
+<h2 style='margin-top:0cm;line-height:150%;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:windowtext'>4. <span class=SpellE>Refernces</span><o:p></o:p></span></b></h2>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;line-height:150%;
+mso-list:l1 level1 lfo16'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>https://www.w3schools.com/js/js_htmldom.asp<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;line-height:
+150%;mso-list:l1 level1 lfo16'><![if !supportLists]><span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><a
+href="https://www.w3schools.com/js/js_htmldom_methods.asp">https://www.w3schools.com/js/js_htmldom_methods.asp</a><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;line-height:150%;
+mso-list:l1 level1 lfo16'><![if !supportLists]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin'>https://www.w3schools.com/js/js_htmldom_document.asp<o:p></o:p></span></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
