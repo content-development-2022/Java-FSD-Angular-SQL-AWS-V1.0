@@ -86,7 +86,7 @@ log.info("@BeforeEach - executes before each test method in this class");
 
 -   It's important to note that the method with the @BeforeAll annotation needs to be static, otherwise the code won't compile.
 
-**3.2. @DisplayName and @Disabled**
+**3.2. @Test, @DisplayName and @Disabled**
 
 -   Now let's move to new test-optional methods:
 
@@ -111,8 +111,8 @@ log.info("Success");
 {
 
 }
-
--   As we can see, we can change the display name or disable the method with a comment, using new annotations.
+-   As we can see, each test method is annotated with @Test annotation
+-   Also, we can change the display name or disable the test method with a comment, using new annotations.
 
 **3.3. @AfterEach and @AfterAll**
 
