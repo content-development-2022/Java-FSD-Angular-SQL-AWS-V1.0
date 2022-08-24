@@ -6,7 +6,7 @@ Binary search is the most frequently used technique as it is much faster than a 
 
 # Working Binary Search
 
-![Binary Search \| Brilliant Math & Science Wiki](media/7d0071d3f8f7e78849488926b0009463.gif)
+![Binary Search in Java](media/d4f2666371b9955e2b78f0a3376e7ce4.gif)
 
 **Binary Search Algorithm:** The basic steps to perform Binary Search are:
 
@@ -64,5 +64,7 @@ return binarySearch(arr, x, mid + 1, high)
 else // x is on the right side
 
 return binarySearch(arr, x, low, mid - 1)
+
+![Binary Search - JavaScript](media/08327c46dbd718a1d2c0c65bd05b801b.gif)
 
 https://www.geeksforgeeks.org/binary-search/
