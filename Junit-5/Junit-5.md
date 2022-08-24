@@ -1,4 +1,4 @@
-## JUNIT 5
+## JUNIT-5
 
 **Contents**
 
@@ -16,7 +16,7 @@
 
 3.1. @BeforeAll and @BeforeEach
 
-3.2. @DisplayName and @Disabled
+3.2. @Test, @DisplayName and @Disabled
 
 3.3. @AfterEach and @AfterAll
 
@@ -111,6 +111,7 @@ log.info("Success");
 {
 
 }
+
 -   As we can see, each test method is annotated with @Test annotation
 -   Also, we can change the display name or disable the test method with a comment, using new annotations.
 
