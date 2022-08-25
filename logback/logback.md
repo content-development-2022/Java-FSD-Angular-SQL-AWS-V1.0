@@ -50,7 +50,7 @@ The Logback project is organized in main 3 modules:
 -   *logback-classic* – contains additional logging improvements, such as slf4j support
 -   *logback-access* – provides integration with servlet containers, such as Tomcat and Jetty
 
-### 4. Basic Setup
+## 4. Basic Setup
 
 -   To start using the Logback, you first need to add the logback-classic dependency to the classpath. Let’s do that with Maven:
 
@@ -75,7 +75,7 @@ The Logback project is organized in main 3 modules:
 
 **logger.debug("UserService Test");**
 
-### 5. Logback Configuration Files
+## 5. Logback Configuration Files
 
 -   To create a configuration for Logback, you can use XML as well as Groovy.
 -   There are three valid standard file names:
@@ -108,7 +108,7 @@ The Logback project is organized in main 3 modules:
 -   This configuration defines a *ConsoleAppender* with a *PatternLayout*. Log messages on the console will be displayed at level DEBUG or below, using the defined pattern:
 -   18:00:30.143 [main] DEBUG com.stackify.services.UserServiceTest - UserService Test.
 
-### 6. Logback Components
+## 6. Logback Components
 
 Three main components of Logback
 
@@ -116,7 +116,7 @@ Three main components of Logback
 2.  Layout
 3.  Loggers
 
-### 6.1 Appenders
+## 6.1 Appenders
 
 -   In the Logback, **appenders are the elements responsible for writing log statements**.
 -   All appenders must implement the *Appender* interface.
@@ -129,7 +129,7 @@ Three main components of Logback
 5.  *DBAppender* – adds log events to a database
 6.  *SiftingAppender* – separates logs based on a runtime attribute
 
-#### **6.1.1 The Console Appender**
+## *6.1.1 The Console Appender*
 
 -   The *ConsoleAppender* is one of the more basic appenders available in Logback, as it can only log messages to *System.out* or *System.err*.
 -   By default, messages are logged to the *System.out*, but you can change that using the *target* attribute:
@@ -142,7 +142,7 @@ Three main components of Logback
 
 \</appender\>
 
-#### **6.1.2 The Rolling File Appender**
+## *6.1.2 The Rolling File Appender*
 
 -   Logging to file is naturally the way to go in any kind of production scenario where you need persistent logs. However, if all the logs are kept in a single file, this runs the risk of becoming too large and difficult to wade through. It’s also to make the long-term storage/warehousing of log data very difficult.That’s when rolling files come in handy.
 -   To address this well-known limitation, Logback provides the **RollingFileAppender,** which rolls over the log file when certain conditions are met.
@@ -171,9 +171,8 @@ Three main components of Logback
 
 \<encoder\>
 
-\<pattern\>[%thread] %-5level %logger{36} - %msg%n\</pattern\>
-
-\</encoder\>
+-   \<pattern\>[%thread] %-5level %logger{36} - %msg%n\</pattern\>
+-   \</encoder\>
 
 \</appender\>
 
