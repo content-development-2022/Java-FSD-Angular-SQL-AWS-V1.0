@@ -142,7 +142,7 @@ Three main components of Logback
 
 \</appender\>
 
-## *6.1.2 The Rolling File Appender*
+## 6.1.2 The Rolling File Appender
 
 -   Logging to file is naturally the way to go in any kind of production scenario where you need persistent logs. However, if all the logs are kept in a single file, this runs the risk of becoming too large and difficult to wade through. It’s also to make the long-term storage/warehousing of log data very difficult.That’s when rolling files come in handy.
 -   To address this well-known limitation, Logback provides the **RollingFileAppender,** which rolls over the log file when certain conditions are met.
@@ -176,10 +176,10 @@ Three main components of Logback
 
 \</appender\>
 
--   The *TimeBasedRollingPolicy* implements both a *RollingPolicy* and a *TriggeringPolicy*.
--   The example above configures the *fileNamePattern* attribute **based on the day** – which means the name of each file contains the current date, and also that the rollover will happen daily.
--   Notice how we’re limiting the log data here – *maxHistory* is set to a value of 30, alongside a *totalSizeCap* of 3GB – which means that the archived logs will be kept for the past 30 days, up to a maximum size of 3GB.
--   Finally, the *SizeBasedTriggeringPolicy* defined configures the rollover of the file whenever it reaches 3 MB. Of course that’s quite a low limit, and a mature log-viewing tool can certainly handle a lot more than that.
+-   The **TimeBasedRollingPolicy** implements both a **RollingPolicy** and a **TriggeringPolicy.**
+-   The example above configures the **fileNamePattern** attribute **based on the day** – which means the name of each file contains the current date, and also that the rollover will happen daily.
+-   Notice how we’re limiting the log data here – **maxHistory** is set to a value of 30, alongside a **totalSizeCap** of 3GB – which means that the archived logs will be kept for the past 30 days, up to a maximum size of 3GB.
+-   Finally, the **SizeBasedTriggeringPolicy** defined configures the rollover of the file whenever it reaches 3 MB. Of course that’s quite a low limit, and a mature log-viewing tool can certainly handle a lot more than that.
 -   You can now see how we’ve slowly moved out from basic examples to a more realistic configuration you can actually start using as the project moves towards production.
 
 ### 6.2 Layouts
@@ -191,7 +191,7 @@ Three main components of Logback
 ### 6.3 Loggers
 
 -   **Loggers are the third main component of Logback, which developers can use to log messages at a certain level.**
--   The library defines **5 log levels**: *TRACE*, *DEBUG*, *INFO*, *WARN*, *ERROR*; each of these has a corresponding logging method: *trace()*, *debug()*, *info()*, *warn()*, *error()*.
+-   The library defines **5 log levels**: **TRACE, DEBUG, INFO, WARN, ERROR;** each of these has a corresponding logging method: **trace(), debug(), info(), warn(), error().**
 
 **Example**
 
