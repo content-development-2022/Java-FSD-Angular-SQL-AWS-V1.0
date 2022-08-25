@@ -1,5 +1,11 @@
 DS&A: Time Complexity - O(n) vs. O(log n)
 
+## What are Data Structures?
+
+Data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
+
+Depending on your requirement and project, it is important to choose the right data structure for your project.
+
 # What is an Algorithm?
 
 In computer programming terms, an algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input(s) and produces the desired output. For example,
@@ -10,71 +16,6 @@ An algorithm to add two numbers:
 2.  Add numbers using the + operator
 3.  Display the result
 
-## What are Data Structures?
-
-Data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
-
-Depending on your requirement and project, it is important to choose the right data structure for your project.
-
-## Types of Data Structure
-
-Basically, data structures are divided into two categories:
-
--   Linear data structure
--   Non-linear data structure
-
-## Linear data structures
-
-In linear data structures, the elements are arranged in sequence one after the other. Since elements are arranged in particular order, they are easy to implement.
-
-However, when the complexity of the program increases, the linear data structures might not be the best choice because of operational complexities.
-
-**Popular linear data structures are:**
-
-### 1. Array Data Structure
-
-### 2. Stack Data Structure
-
-### 3. Queue Data Structure
-
-### 4. Linked List Data Structure
-
-## Non linear data structures
-
-elements in non-linear data structures are not in any sequence. Instead they are arranged in a hierarchical manner where one element will be connected to one or more elements.
-
-Non-linear data structures are further divided into graph and tree based data structures.
-
-### 1. Graph Data Structure
-
-In graph data structure, each node is called vertex and each vertex is connected to other vertices through edges.
-
-![](media/686ce951d6afa49e2741344a7ae5cfcf.png)
-
-**Popular Graph Based Data Structures:**
-
--   [Spanning Tree and Minimum Spanning Tree](https://www.programiz.com/dsa/spanning-tree-and-minimum-spanning-tree)
--   [Strongly Connected Components](https://www.programiz.com/dsa/strongly-connected-components)
--   [Adjacency Matrix](https://www.programiz.com/dsa/graph-adjacency-matrix)
--   [Adjacency List](https://www.programiz.com/dsa/graph-adjacency-list)
-
-### 2. Trees Data Structure
-
-a tree is also a collection of vertices and edges. However, in tree data structure, there can only be one edge between two vertices.
-
-![](media/f2403c3493eac07c8d2ba8e3d00c112f.png)
-
-**Popular Tree based Data Structure**
-
--   [Binary Tree](https://www.programiz.com/dsa/binary-tree)
--   [Binary Search Tree](https://www.programiz.com/dsa/binary-search-tree)
--   [AVL Tree](https://www.programiz.com/dsa/avl-tree)
--   [B-Tree](https://www.programiz.com/dsa/b-tree)
--   [B+ Tree](https://www.programiz.com/dsa/b-plus-tree)
--   [Red-Black Tree](https://www.programiz.com/dsa/red-black-tree)
-
-To know more information [clickhere](https://www.programiz.com/dsa/data-structure-types)
-
 **Algorithm Analysis**
 
 Analysis of efficiency of an algorithm can be performed at two different stages, before implementation and after implementation, as
@@ -84,6 +25,8 @@ A priori analysis − This is defined as theoretical analysis of an algorithm. E
 A posterior analysis − This is defined as empirical analysis of an algorithm. The chosen algorithm is implemented using programming language. Next the chosen algorithm is executed on target computer machine. In this analysis, actual statistics like running time and space needed are collected.
 
 Algorithm analysis is dealt with the execution or running time of various operations involved. Running time of an operation can be defined as number of computer instructions executed per operation.
+
+![](media/ab4e6c7eacee5a3b4ffe931514028939.png)
 
 **Algorithm Complexity**
 
@@ -125,6 +68,6 @@ Time Complexity of an algorithm is the representation of the amount of time requ
 
 For example, in case of addition of two n-bit integers, N steps are taken. Consequently, the total computational time is t(N) = c\*n, where c is the time consumed for addition of two bits. Here, we observe that t(N) grows linearly as input size increases
 
-https://www.tutorialspoint.com/time-and-space-complexity-in-data-structure
+References
 
-https://www.javatpoint.com/linear-search
+https://www.tutorialspoint.com/time-and-space-complexity-in-data-structure
