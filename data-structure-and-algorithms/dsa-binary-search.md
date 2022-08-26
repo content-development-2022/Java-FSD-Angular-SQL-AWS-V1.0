@@ -135,7 +135,7 @@ return binarySearch(arr, x, low, mid - 1)
 
 Now, let's see the time complexity of Binary search in the best case, average case, and worst case. We will also see the space complexity of Binary search.
 
-# 6.1 Time Complexity
+**6.1 Time Complexity**
 
 -   **Best Case Complexity -** In Binary search, best case occurs when the element to search is found in first comparison, i.e., when the first middle element itself is the element to be searched. The best-case time complexity of Binary search is **O(1).**
 -   **Average Case Complexity -** The average case time complexity of Binary search is **O(logn).**
@@ -143,7 +143,7 @@ Now, let's see the time complexity of Binary search in the best case, average ca
 
     ![](media/ec7aedb332668da78c102a44456db2d6.png)
 
-# 6.2 Space Complexity
+**6.2 Space Complexity**
 
 -   The space complexity of binary search is O(1).
 
