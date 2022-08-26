@@ -1,29 +1,65 @@
 # Binary Search
 
--   **Binary Search** is a searching algorithm used in a sorted array by **repeatedly dividing the search interval in half** and the key element is searched in the left or right half of the collection depending on whether the key is less than or greater than the mid element of the collection.
+**Content**
 
-Binary search is the most frequently used technique as it is much faster than a linear search.
+# 1. Binary Search
 
-# Working Binary Search
+-   Binary Search is a searching algorithm for finding an element's position in a sorted array.
+-   In this approach, the element is always searched in the middle of a portion of an array.
+-   **Binary Search** used in a sorted array by **repeatedly dividing the search interval in half** and the key element is searched in the left or right half of the collection depending on whether the key is less than or greater than the mid element of the collection.
+-   Binary search is the most frequently used technique as it is much faster than a linear search.
+
+# 2. Working Binary Search
 
 ![When does binary search terminate? - Quora](media/a28977e16a88229afb1d4ee46e84f078.gif)
 
-# Binary Search Algorithm
+#### **NOTE: Binary search can be implemented on sorted array elements. If the list elements are not arranged in a sorted manner, we have first to sort them.**
 
-The basic steps to perform Binary Search are:
+# 3. Binary Search Algorithm
 
--   Begin with the mid element of the whole array as a search key.
--   If the value of the search key is equal to the item then return an index of the search key.
--   Or if the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.
--   Otherwise, narrow it to the upper half.
--   Repeatedly check from the second point until the value is found or the interval is empty.
+**Binary_Search(a, lower_bound, upper_bound, val)** // 'a' is the given array, 'lower_bound' is the index of the first array element, 'upper_bound' is the index of the last array element, 'val' is the value to search
 
-Binary Search Algorithm can be implemented in the following two ways
+**Step 1:** set beg = lower_bound, end = upper_bound, pos = - 1
 
+**Step 2:** repeat steps 3 and 4 while beg **\<**=end
+
+**Step 3:** set mid = (beg + end)/2
+
+**Step 4:** if a[mid] = val
+
+set pos = mid
+
+print pos
+
+go to step 6
+
+else if a[mid] **\>** val
+
+set end = mid - 1
+
+else
+
+set beg = mid + 1
+
+[end of if]
+
+[end of loop]
+
+**Step 5:** if pos = -1
+
+print "value is not present in the array"
+
+[end of if]
+
+**Step 6:** exit
+
+# 4. Binary Search Algorithm implementation
+
+-   Binary Search Algorithm can be implemented in the following two ways
 1.  Iterative Method
 2.  Recursive Method
 
-# Iteration Method
+# 4.1 Iteration Method
 
 binarySearch(arr, x, low, high)
 
@@ -43,10 +79,7 @@ else // x is on the left side
 
 high = mid – 1
 
-**Time Complexity:** O (log n)  
-**Auxiliary Space Complexity:** O (1)
-
-# Recursive Method (The recursive method follows the divide and conquers approach)
+# 4.2 Recursive Method (The recursive method follows the divide and conquers approach)
 
 ![Binary Search in Java](media/d4f2666371b9955e2b78f0a3376e7ce4.gif)
 
@@ -56,7 +89,7 @@ if low \> high
 
 return False
 
-else
+# else
 
 mid = (low + high) / 2
 
@@ -72,11 +105,25 @@ else // x is on the left side
 
 return binarySearch(arr, x, low, mid - 1)
 
-**Time Complexity:** O(log n)  
-**Auxiliary Space Complexity:** O(log n)
-
 ![Binary Search - JavaScript](media/08327c46dbd718a1d2c0c65bd05b801b.gif)
 
-References
+# 5. Binary Search complexity
 
-https://www.geeksforgeeks.org/binary-search/
+Now, let's see the time complexity of Binary search in the best case, average case, and worst case. We will also see the space complexity of Binary search.
+
+# 5.1 Time Complexity
+
+-   **Best Case Complexity -** In Binary search, best case occurs when the element to search is found in first comparison, i.e., when the first middle element itself is the element to be searched. The best-case time complexity of Binary search is **O(1).**
+-   **Average Case Complexity -** The average case time complexity of Binary search is **O(logn).**
+-   **Worst Case Complexity -** In Binary search, the worst case occurs, when we have to keep reducing the search space till it has only one element. The worst-case time complexity of Binary search is **O(logn).**
+
+    ![](media/ec7aedb332668da78c102a44456db2d6.png)
+
+# 5.2 Space Complexity
+
+-   The space complexity of binary search is O(1).
+
+# References
+
+1.  <https://www.geeksforgeeks.org/binary-search/>
+2.  https://www.javatpoint.com/binary-search
