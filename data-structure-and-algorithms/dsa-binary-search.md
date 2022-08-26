@@ -14,13 +14,15 @@
 
 4.2 Recursive Method
 
-5\. Binary Search complexity
+5\. Working flow of binary search Vs linear search
 
-5.1 Time Complexity
+6\. Binary Search complexity
 
-5.2 Space Complexity
+6.1 Time Complexity
 
-6\. References
+6.2 Space Complexity
+
+7\. References
 
 # 1. Binary Search
 
@@ -79,7 +81,7 @@ print "value is not present in the array"
 1.  Iterative Method
 2.  Recursive Method
 
-# 4.1 Iteration Method
+**4.1 Iteration Method**
 
 binarySearch(arr, x, low, high)
 
@@ -99,9 +101,9 @@ else // x is on the left side
 
 high = mid – 1
 
-# 4.2 Recursive Method (The recursive method follows the divide and conquers approach)
+**4.2 Recursive Method**
 
-![Binary Search in Java](media/d4f2666371b9955e2b78f0a3376e7ce4.gif)
+-   The recursive method follows the divide and conquers approach.
 
 binarySearch(arr, x, low, high)
 
@@ -109,7 +111,7 @@ if low \> high
 
 return False
 
-# else
+else
 
 mid = (low + high) / 2
 
@@ -125,13 +127,15 @@ else // x is on the left side
 
 return binarySearch(arr, x, low, mid - 1)
 
+# 5. Working flow of binary search Vs linear search
+
 ![Binary Search - JavaScript](media/08327c46dbd718a1d2c0c65bd05b801b.gif)
 
-# 5. Binary Search complexity
+# 6. Binary Search complexity
 
 Now, let's see the time complexity of Binary search in the best case, average case, and worst case. We will also see the space complexity of Binary search.
 
-# 5.1 Time Complexity
+# 6.1 Time Complexity
 
 -   **Best Case Complexity -** In Binary search, best case occurs when the element to search is found in first comparison, i.e., when the first middle element itself is the element to be searched. The best-case time complexity of Binary search is **O(1).**
 -   **Average Case Complexity -** The average case time complexity of Binary search is **O(logn).**
@@ -139,11 +143,11 @@ Now, let's see the time complexity of Binary search in the best case, average ca
 
     ![](media/ec7aedb332668da78c102a44456db2d6.png)
 
-# 5.2 Space Complexity
+# 6.2 Space Complexity
 
 -   The space complexity of binary search is O(1).
 
-# 6. References
+# 7. References
 
 1.  <https://www.geeksforgeeks.org/binary-search/>
 2.  https://www.javatpoint.com/binary-search
