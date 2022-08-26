@@ -25,16 +25,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>10</o:Revision>
-  <o:TotalTime>40</o:TotalTime>
+  <o:Revision>11</o:Revision>
+  <o:TotalTime>43</o:TotalTime>
   <o:Created>2022-08-26T09:08:00Z</o:Created>
-  <o:LastSaved>2022-08-26T10:04:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-26T10:07:00Z</o:LastSaved>
   <o:Pages>5</o:Pages>
-  <o:Words>894</o:Words>
-  <o:Characters>5099</o:Characters>
-  <o:Lines>42</o:Lines>
+  <o:Words>882</o:Words>
+  <o:Characters>5030</o:Characters>
+  <o:Lines>41</o:Lines>
   <o:Paragraphs>11</o:Paragraphs>
-  <o:CharactersWithSpaces>5982</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>5901</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -2097,7 +2097,7 @@ mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="216
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1028" type="#_x0000_t75"
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1027" type="#_x0000_t75"
  style='width:450.75pt;height:182.25pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="2-bootstrap5-introduction-and-containers_files/image001.png"
   o:title=""/>
@@ -2379,25 +2379,25 @@ minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 <p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#FFFFCC'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Many
-users already have downloaded Bootstrap 5 from jsDelivr when visiting another
-site. As a result, it will be loaded from cache when they visit your site,
-which leads to faster loading time. Also, most CDN's will make sure that once a
-user requests a file from it, it will be served from the server closest to
-them, which also leads to faster loading time.<br>
+users already have downloaded Bootstrap 5 from <span class=SpellE>jsDelivr</span>
+when visiting another site. As a result, it will be loaded from cache when they
+visit your site, which leads to faster loading time. Also, most CDN's will make
+sure that once a user requests a file from it, it will be served from the
+server closest to them, which also leads to faster loading time.<br>
 <strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>JavaScript?</span></strong><br>
 Bootstrap 5 use JavaScript for different components (like modals, tooltips,
 popovers <span class=SpellE>etc</span>). However, if you just use the CSS part
 of Bootstrap, you don't need them.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%;mso-outline-level:2;background:white'><b><span
+<h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>1.5
-Downloading Bootstrap 5</span></b><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-bidi-font-weight:normal'>1.5 Downloading Bootstrap 5</span><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo10;
@@ -2413,12 +2413,11 @@ href="https://getbootstrap.com/" target="_blank"><span style='mso-fareast-font-f
 "Times New Roman";mso-fareast-theme-font:major-fareast'>https://getbootstrap.com/</span></a><span
 style='color:black'>, and follow the instructions there.<o:p></o:p></span></span></p>
 
-<p class=MsoNormal style='line-height:150%;mso-outline-level:1;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'>2.
-Bootstrap 5&nbsp;Containers<o:p></o:p></span></b></p>
+<h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
+mso-font-kerning:18.0pt'>2. Bootstrap 5&nbsp;Containers<o:p></o:p></span></h2>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-size:11.5pt;line-height:150%;font-family:"Calibri","sans-serif";
@@ -2465,7 +2464,7 @@ viewport<o:p></o:p></span></p>
 <p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
- o:spid="_x0000_i1027" type="#_x0000_t75" style='width:450.75pt;height:81pt;
+ o:spid="_x0000_i1026" type="#_x0000_t75" style='width:450.75pt;height:81pt;
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="2-bootstrap5-introduction-and-containers_files/image003.png"
   o:title=""/>
@@ -2514,7 +2513,7 @@ will change on different screen sizes:<o:p></o:p></span></p>
 <p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3"
- o:spid="_x0000_i1026" type="#_x0000_t75" style='width:450.75pt;height:61.5pt;
+ o:spid="_x0000_i1025" type="#_x0000_t75" style='width:450.75pt;height:61.5pt;
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="2-bootstrap5-introduction-and-containers_files/image005.png"
   o:title=""/>
@@ -2628,14 +2627,6 @@ style='font-size:11.5pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>&nbsp;in Bootstrap 5, while the largest breakpoint in
 Bootstrap 4 is <span class=SpellE><span class=GramE>Extra</span> large</span> (&#8805;1200px).<o:p></o:p></span></p>
-
-<div class=MsoNormal align=center style='text-align:center;line-height:150%'><span
-style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>
-
-<hr size=1 width="100%" noshade style='color:black' align=center>
-
-</span></div>
 
 <h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
 style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
@@ -2759,22 +2750,19 @@ minor-latin'>To know more information about containers <a
 href="https://www.w3schools.com/bootstrap5/bootstrap_containers.php"><span
 class=SpellE>clickhere</span></a><o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%;mso-outline-level:2;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>3.
-References<o:p></o:p></span></b></p>
+<h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:white'><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-latin;color:black'>3. References<o:p></o:p></span></h2>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;line-height:150%;
 mso-list:l1 level1 lfo16;background:white'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
-style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'><a
-href="https://www.w3schools.com/bootstrap5/bootstrap_get_started.php">https://www.w3schools.com/bootstrap5/bootstrap_get_started.php</a><o:p></o:p></span></p>
+minor-latin;mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>https://www.w3schools.com/bootstrap5/bootstrap_get_started.php<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;line-height:
 150%;mso-list:l1 level1 lfo16'><![if !supportLists]><span style='font-family:
