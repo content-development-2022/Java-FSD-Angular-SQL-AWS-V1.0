@@ -25,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>8</o:Revision>
-  <o:TotalTime>39</o:TotalTime>
+  <o:Revision>10</o:Revision>
+  <o:TotalTime>40</o:TotalTime>
   <o:Created>2022-08-26T09:08:00Z</o:Created>
-  <o:LastSaved>2022-08-26T10:01:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-26T10:04:00Z</o:LastSaved>
   <o:Pages>5</o:Pages>
   <o:Words>894</o:Words>
   <o:Characters>5099</o:Characters>
@@ -661,10 +661,11 @@ href="2-bootstrap5-introduction-and-containers_files/colorschememapping.xml">
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
+	mso-font-charset:1;
 	mso-generic-font-family:roman;
+	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+	mso-font-signature:0 0 0 0 0 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
@@ -760,7 +761,8 @@ h3
 	mso-fareast-language:EN-US;
 	font-weight:normal;}
 a:link, span.MsoHyperlink
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	color:blue;
 	text-decoration:underline;
 	text-underline:single;}
@@ -791,7 +793,8 @@ code
 	mso-hansi-font-family:"Courier New";
 	mso-bidi-font-family:"Courier New";}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	margin-top:0cm;
@@ -806,7 +809,8 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -822,7 +826,8 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -838,7 +843,8 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -1541,10 +1547,10 @@ mso-bidi-theme-font:minor-latin;color:black'>1.4 Bootstrap 5 CDN<o:p></o:p></spa
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black;mso-bidi-font-weight:bold'>1.5 Downloading
-Bootstrap 5</span><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
-minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
-minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin;color:black;mso-bidi-font-weight:bold'>1.5
+Downloading Bootstrap 5</span><span style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
@@ -1574,7 +1580,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>1.
 What is Bootstrap? <o:p></o:p></span></h2>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l5 level1 lfo1;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l5 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1584,7 +1590,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Bo
 is a free front-end framework for faster and easier web development.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l5 level1 lfo1;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l5 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1596,7 +1602,7 @@ tables, navigation, modals, image carousels and many other, as well as optional
 JavaScript plugins.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l5 level1 lfo1;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l5 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -1606,7 +1612,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Bo
 also gives you the ability to easily create responsive designs.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo1;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo2;
 tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
 mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
 Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
@@ -1622,7 +1628,7 @@ minor-latin;color:black'>, which is the most popular HTML, CSS, and JavaScript
 framework for creating responsive, mobile-first websites.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo1;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo2;
 tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
 mso-bidi-font-size:12.0pt;line-height:150%;font-family:Symbol;mso-fareast-font-family:
 Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
@@ -1639,7 +1645,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l5 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+mso-list:l5 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2060,15 +2066,13 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:brown'>/div</span></span><span
 class=tagcolor><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
-color:mediumblue'>&gt;<o:p></o:p></span></span></p>
+color:mediumblue'>&gt;</span><span style='color:mediumblue'><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 class=tagcolor><b style='mso-bidi-font-weight:normal'><span style='font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin'>Output:</span></b></span><b
-style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><o:p></o:p></span></b></p>
+style='mso-bidi-font-weight:normal'><o:p></o:p></b></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -2109,7 +2113,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 mso-bidi-font-weight:normal'>1.1 Bootstrap Versions<o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo1;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo2;
 tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
@@ -2126,7 +2130,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&n
 more responsiveness.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo1;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo2;
 tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
@@ -2138,7 +2142,7 @@ all major browsers and platforms. However, Internet Explorer 11 and down is not
 supported.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo1;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo2;
 tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
@@ -2168,11 +2172,11 @@ still supported by the team for critical <span class=SpellE>bugfixes</span> and
 documentation changes, and it is perfectly safe to continue to use them.
 However, new features will NOT be added to them.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%;mso-outline-level:2;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>1.2 Why Use Bootstrap?<o:p></o:p></span></b></p>
+<h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%'><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>1.2
+Why Use Bootstrap?<o:p></o:p></span></h2>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -2180,7 +2184,7 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'>Advantages of Bootstrap:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l2 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l2 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2193,7 +2197,7 @@ minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;Anybody with
 just basic knowledge of HTML and CSS can start using Bootstrap<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l2 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l2 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2206,7 +2210,7 @@ minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;Bootstrap's
 responsive CSS adjusts to phones, tablets, and desktops<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l2 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l2 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2219,7 +2223,7 @@ minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&nbsp;In Bootstrap,
 mobile-first styles are part of the core framework<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l2 level1 lfo2;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l2 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2233,11 +2237,11 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&n
 Opera).&nbsp;<b>Note</b>&nbsp;that if you need support for IE11 and down, you
 must use either BS4 or BS3.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%;mso-outline-level:2;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>1.3 Where to Get Bootstrap 5?<o:p></o:p></span></b></p>
+<h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%'><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>1.3
+Where to Get Bootstrap 5?<o:p></o:p></span></h2>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -2251,7 +2255,7 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'>You can:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l7 level1 lfo3;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l7 level1 lfo6;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2261,7 +2265,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>In
 Bootstrap 5 from a CDN<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-7.65pt;line-height:
-150%;mso-list:l7 level1 lfo3;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l7 level1 lfo6;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2270,14 +2274,14 @@ mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Download
 Bootstrap 5 from getbootstrap.com<o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%;mso-outline-level:2;background:white'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
-150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
-mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black'>1.4 Bootstrap 5 CDN<o:p></o:p></span></b></p>
+<h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%'><span
+style='font-size:14.0pt;line-height:150%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>1.4
+Bootstrap 5 CDN<o:p></o:p></span></h2>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-7.65pt;line-height:150%;
-mso-list:l6 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+mso-list:l6 level1 lfo8;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2288,7 +2292,7 @@ you don't want to download and host Bootstrap 5 yourself, you can include it
 from a CDN (Content Delivery Network).<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-7.65pt;line-height:150%;
-mso-list:l6 level1 lfo4;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+mso-list:l6 level1 lfo8;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2372,19 +2376,14 @@ advantage of using the Bootstrap 5 CDN:</span></b><span style='font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo5;
-background:#FFFFCC'><![if !supportLists]><span style='font-family:Symbol;
-mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>Many users already have downloaded Bootstrap 5 from <span
-class=SpellE>jsDelivr</span> when visiting another site. As a result, it will
-be loaded from cache when they visit your site, which leads to faster loading
-time. Also, most CDN's will make sure that once a user requests a file from it,
-it will be served from the server closest to them, which also leads to faster
-loading time.<br>
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:150%;background:#FFFFCC'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Many
+users already have downloaded Bootstrap 5 from jsDelivr when visiting another
+site. As a result, it will be loaded from cache when they visit your site,
+which leads to faster loading time. Also, most CDN's will make sure that once a
+user requests a file from it, it will be served from the server closest to
+them, which also leads to faster loading time.<br>
 <strong><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>JavaScript?</span></strong><br>
 Bootstrap 5 use JavaScript for different components (like modals, tooltips,
@@ -2401,7 +2400,7 @@ mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo5;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
@@ -2418,8 +2417,8 @@ style='color:black'>, and follow the instructions there.<o:p></o:p></span></span
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
 150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
-mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'>2. Bootstrap
-5&nbsp;Containers<o:p></o:p></span></b></p>
+mso-bidi-theme-font:minor-latin;color:black;mso-font-kerning:18.0pt'>2.
+Bootstrap 5&nbsp;Containers<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-size:11.5pt;line-height:150%;font-family:"Calibri","sans-serif";
@@ -2429,7 +2428,7 @@ are used to pad the content inside of them, and there are two container classes
 available:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-14.7pt;line-height:
-150%;mso-list:l3 level1 lfo7;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l3 level1 lfo12;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:11.5pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
@@ -2446,7 +2445,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>&n
 provides a responsive&nbsp;<b>fixed width container</b><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-14.7pt;line-height:
-150%;mso-list:l3 level1 lfo7;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
+150%;mso-list:l3 level1 lfo12;tab-stops:list 36.0pt;background:white'><![if !supportLists]><span
 style='font-size:11.5pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
@@ -2481,7 +2480,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>2.1 Fixed Container<o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo5;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-size:11.5pt;
 line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
@@ -2497,7 +2496,7 @@ minor-latin;color:black'>&nbsp;class to create a responsive, fixed-width
 container.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo5;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l0 level1 lfo10;
 background:white'><![if !supportLists]><span style='font-size:11.5pt;
 line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
@@ -2525,7 +2524,7 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l4 level1 lfo10'><![if !supportLists]><span style='font-size:11.5pt;
+mso-list:l4 level1 lfo14'><![if !supportLists]><span style='font-size:11.5pt;
 line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -2613,7 +2612,7 @@ line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-l
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo14;
 background:#FFFFCC'><![if !supportLists]><span style='font-size:11.5pt;
 line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
@@ -2628,14 +2627,13 @@ mso-bidi-theme-font:minor-latin;color:black'>new</span></strong><span
 style='font-size:11.5pt;line-height:150%;font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin;color:black'>&nbsp;in Bootstrap 5, while the largest breakpoint in
-Bootstrap 4 is <span class=SpellE><span class=GramE>Extra</span> large</span>
-(&#8805;1200px).<o:p></o:p></span></p>
+Bootstrap 4 is <span class=SpellE><span class=GramE>Extra</span> large</span> (&#8805;1200px).<o:p></o:p></span></p>
 
 <div class=MsoNormal align=center style='text-align:center;line-height:150%'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>
 
-<hr size=0 width="100%" noshade style='color:black' align=center>
+<hr size=1 width="100%" noshade style='color:black' align=center>
 
 </span></div>
 
@@ -2645,7 +2643,7 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black'>2.2 Fluid Container<o:p></o:p></span></h2>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo10;
+margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l4 level1 lfo14;
 background:white'><![if !supportLists]><span style='font-size:11.5pt;
 line-height:150%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
@@ -2752,7 +2750,7 @@ line-height:150%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-l
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
-mso-list:l4 level1 lfo10'><![if !supportLists]><span style='font-family:Symbol;
+mso-list:l4 level1 lfo14'><![if !supportLists]><span style='font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
@@ -2768,7 +2766,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>3.
 References<o:p></o:p></span></b></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;line-height:150%;
-mso-list:l1 level1 lfo6;background:white'><![if !supportLists]><span
+mso-list:l1 level1 lfo16;background:white'><![if !supportLists]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
 minor-latin;mso-bidi-theme-font:minor-latin;color:black'><span
@@ -2779,7 +2777,7 @@ minor-latin;color:black'><a
 href="https://www.w3schools.com/bootstrap5/bootstrap_get_started.php">https://www.w3schools.com/bootstrap5/bootstrap_get_started.php</a><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;line-height:
-150%;mso-list:l1 level1 lfo6'><![if !supportLists]><span style='font-family:
+150%;mso-list:l1 level1 lfo16'><![if !supportLists]><span style='font-family:
 "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>2.<span
