@@ -44,11 +44,11 @@
 -   Algorithm is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output.
 -   An algorithm can be implemented in more than one programming language.
 -   From the data structure point of view, following are some important categories of algorithms −
--   **Search** − Algorithm to search an item in a data structure.
--   **Sort** − Algorithm to sort items in a certain order.
--   **Insert** − Algorithm to insert item in a data structure.
--   **Update** − Algorithm to update an existing item in a data structure.
--   **Delete** − Algorithm to delete an existing item from a data structure.
+1.  **Search** − Algorithm to search an item in a data structure.
+2.  **Sort** − Algorithm to sort items in a certain order.
+3.  **Insert** − Algorithm to insert item in a data structure.
+4.  **Update** − Algorithm to update an existing item in a data structure.
+5.  **Delete** − Algorithm to delete an existing item from a data structure.
 
 ## 2.1 Why to Learn Data Structure and Algorithms?
 
