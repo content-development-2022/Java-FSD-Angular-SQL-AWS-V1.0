@@ -44,7 +44,7 @@ else // x is on the left side
 high = mid – 1
 
 **Time Complexity:** O (log n)  
-**Auxiliary Space:** O (1)
+**Auxiliary Space Complexity:** O (1)
 
 # Recursive Method (The recursive method follows the divide and conquers approach)
 
@@ -73,8 +73,10 @@ else // x is on the left side
 return binarySearch(arr, x, low, mid - 1)
 
 **Time Complexity:** O(log n)  
-**Auxiliary Space:** O(log n)
+**Auxiliary Space Complexity:** O(log n)
 
 ![Binary Search - JavaScript](media/08327c46dbd718a1d2c0c65bd05b801b.gif)
+
+References
 
 https://www.geeksforgeeks.org/binary-search/
