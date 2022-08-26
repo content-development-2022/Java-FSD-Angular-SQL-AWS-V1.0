@@ -2,6 +2,26 @@
 
 **Content**
 
+1\. Binary Search
+
+2\. Working Binary Search
+
+3\. Binary Search Algorithm
+
+4\. Binary Search Algorithm implementation
+
+4.1 Iteration Method
+
+4.2 Recursive Method
+
+5\. Binary Search complexity
+
+5.1 Time Complexity
+
+5.2 Space Complexity
+
+6\. References
+
 # 1. Binary Search
 
 -   Binary Search is a searching algorithm for finding an element's position in a sorted array.
@@ -123,7 +143,7 @@ Now, let's see the time complexity of Binary search in the best case, average ca
 
 -   The space complexity of binary search is O(1).
 
-# References
+# 6. References
 
 1.  <https://www.geeksforgeeks.org/binary-search/>
 2.  https://www.javatpoint.com/binary-search
