@@ -33,7 +33,7 @@
 
 ![When does binary search terminate? - Quora](media/a28977e16a88229afb1d4ee46e84f078.gif)
 
-#### **NOTE: Binary search can be implemented on sorted array elements. If the list elements are not arranged in a sorted manner, we have first to sort them.**
+**NOTE:** Binary search can be implemented on sorted array elements. If the list elements are not arranged in a sorted manner, we have first to sort them.
 
 # 3. Binary Search Algorithm
 
