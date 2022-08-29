@@ -25,16 +25,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>27</o:Revision>
-  <o:TotalTime>44</o:TotalTime>
+  <o:Revision>28</o:Revision>
+  <o:TotalTime>45</o:TotalTime>
   <o:Created>2022-08-09T01:29:00Z</o:Created>
-  <o:LastSaved>2022-08-29T10:00:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-29T10:01:00Z</o:LastSaved>
   <o:Pages>5</o:Pages>
   <o:Words>321</o:Words>
-  <o:Characters>1833</o:Characters>
+  <o:Characters>1836</o:Characters>
   <o:Lines>15</o:Lines>
   <o:Paragraphs>4</o:Paragraphs>
-  <o:CharactersWithSpaces>2150</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>2153</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1545,7 +1545,7 @@ minor-latin;mso-bidi-theme-font:minor-latin;color:black'><o:p></o:p></span></h1>
 
 <p class=MsoNormal><span class=colorh1><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;mso-bidi-font-weight:bold'>How to Add CSS</span><o:p></o:p></span></p>
+minor-latin;color:black;mso-bidi-font-weight:bold'>1. How to Add CSS</span><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
 minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
