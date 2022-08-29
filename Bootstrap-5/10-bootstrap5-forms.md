@@ -33,7 +33,7 @@
 \<button type="submit" class="btn btn-primary"\>Submit\</button\>  
 \</form\>
 
--   Also note that we add a .form-label class to each label element to ensure correct padding.
+-   **Note** that we add a .form-label class to each label element to ensure correct padding.
 -   Checkboxes have different markup. They are wrapped around a container element with .form-check, and labels have a class of .form-check-label, while checkboxes and radio buttons use .form-check-input.
 
 ## 1.1 Form Row/Grid (Inline Forms)
