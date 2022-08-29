@@ -14,7 +14,9 @@
 
 2.3 Send a Request
 
-**3. References**
+**3. Fetch API**
+
+4**. References**
 
 ## 1. What is AJAX?
 
@@ -77,7 +79,39 @@ xhttp.onload = function() {
 xhttp.open("GET", "ajax_info.txt");  
 xhttp.send();
 
-## 3. References
+# Fetch API
+
+-   The Fetch API interface allows web browser to make HTTP requests to web servers.
+-   No need for XMLHttpRequest anymore.
+-   The example below fetches a file and displays the content:
+
+**Example**-1
+
+fetch(file)  
+.then(x =\> x.text())  
+.then(y =\> myDisplay(y));
+
+-   Fetch is based on async and await, the example above might be easier to understand like this:
+
+**Example-2**
+
+async function getText(file) {  
+let x = await fetch(file);  
+let y = await x.text();  
+myDisplay(y);  
+}
+
+Or even better: Use understandable names instead of x and y:
+
+**Example-3**
+
+async function getText(file) {  
+let myObject = await fetch(file);  
+let myText = await myObject.text();  
+myDisplay(myText);  
+}
+
+## 4. References
 
 1.  https://www.w3schools.com/js/js_ajax_intro.asp
 2.  https://www.w3schools.com/js/js_ajax_http.asp
