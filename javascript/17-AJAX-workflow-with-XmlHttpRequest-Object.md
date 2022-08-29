@@ -16,7 +16,7 @@
 
 **3. Fetch API**
 
-4**. References**
+4\*\*. References\*\*
 
 ## 1. What is AJAX?
 
@@ -79,7 +79,7 @@ xhttp.onload = function() {
 xhttp.open("GET", "ajax_info.txt");  
 xhttp.send();
 
-# Fetch API
+# 3. Fetch API
 
 -   The Fetch API interface allows web browser to make HTTP requests to web servers.
 -   No need for XMLHttpRequest anymore.
