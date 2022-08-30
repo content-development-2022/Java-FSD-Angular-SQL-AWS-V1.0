@@ -105,7 +105,7 @@
 
 ![](media/6176c83fbb84d86242090dbf069fc6f1.png)
 
--   To know more details about flex [Clickhere](https://www.w3schools.com/bootstrap5/bootstrap_flex.php)
+-   To know more details about flexbox [Clickhere](https://www.w3schools.com/bootstrap5/bootstrap_flex.php)
 
 ## 2. References
 
