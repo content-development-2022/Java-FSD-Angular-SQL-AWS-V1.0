@@ -1,5 +1,3 @@
-# 
-
 ## CSS Media Queries, Animations, Flexbox
 
 **Content**
