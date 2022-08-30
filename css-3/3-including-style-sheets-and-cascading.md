@@ -10,9 +10,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
 <link rel=File-List
-href="3-inline-internl-external-style-sheets_files/filelist.xml">
+href="3-including-style-sheets-and-cascading_files/filelist.xml">
 <link rel=Edit-Time-Data
-href="3-inline-internl-external-style-sheets_files/editdata.mso">
+href="3-including-style-sheets-and-cascading_files/editdata.mso">
 <!--[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
@@ -25,16 +25,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>28</o:Revision>
-  <o:TotalTime>45</o:TotalTime>
+  <o:Revision>31</o:Revision>
+  <o:TotalTime>51</o:TotalTime>
   <o:Created>2022-08-09T01:29:00Z</o:Created>
-  <o:LastSaved>2022-08-29T10:01:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-30T06:24:00Z</o:LastSaved>
   <o:Pages>5</o:Pages>
-  <o:Words>321</o:Words>
+  <o:Words>322</o:Words>
   <o:Characters>1836</o:Characters>
   <o:Lines>15</o:Lines>
   <o:Paragraphs>4</o:Paragraphs>
-  <o:CharactersWithSpaces>2153</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>2154</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -42,9 +42,9 @@ w\:* {behavior:url(#default#VML);}
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
 <link rel=themeData
-href="3-inline-internl-external-style-sheets_files/themedata.thmx">
+href="3-including-style-sheets-and-cascading_files/themedata.thmx">
 <link rel=colorSchemeMapping
-href="3-inline-internl-external-style-sheets_files/colorschememapping.xml">
+href="3-including-style-sheets-and-cascading_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
@@ -770,7 +770,8 @@ p
 	font-family:"Times New Roman","serif";
 	mso-fareast-font-family:"Times New Roman";}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	margin-top:0cm;
@@ -785,7 +786,8 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -801,7 +803,8 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -817,7 +820,8 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-priority:34;
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-type:export-only;
@@ -1603,8 +1607,8 @@ style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'>When a browser reads a style
-sheet, it will format the HTML document according to the information in the style
-sheet.<o:p></o:p></span></p>
+sheet, it will format the HTML document according to the information in the
+style sheet.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-7.65pt;line-height:150%;
 mso-list:l7 level1 lfo1;background:white'><![if !supportLists]><span
@@ -1709,10 +1713,10 @@ minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
  <o:lock v:ext="edit" aspectratio="t"/>
 </v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1031" type="#_x0000_t75"
  style='width:450.75pt;height:147.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="3-inline-internl-external-style-sheets_files/image001.png"
+ <v:imagedata src="3-including-style-sheets-and-cascading_files/image001.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=601 height=197
-src="3-inline-internl-external-style-sheets_files/image002.jpg" v:shapes="Picture_x0020_1"><![endif]></span><span
+src="3-including-style-sheets-and-cascading_files/image002.jpg" v:shapes="Picture_x0020_1"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
@@ -1723,8 +1727,8 @@ mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>An external style sheet can be written in any text editor,
-and must be saved with a <b style='mso-bidi-font-weight:normal'>.<span
+minor-latin;color:black'>An external style sheet can be written in any text
+editor, and must be saved with a <b style='mso-bidi-font-weight:normal'>.<span
 class=SpellE>css</span> extension</b>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
@@ -1754,10 +1758,10 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
  o:spid="_x0000_i1030" type="#_x0000_t75" style='width:405.75pt;height:249pt;
  visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="3-inline-internl-external-style-sheets_files/image003.png"
+ <v:imagedata src="3-including-style-sheets-and-cascading_files/image003.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=541 height=332
-src="3-inline-internl-external-style-sheets_files/image003.png" v:shapes="Picture_x0020_2"><![endif]></span><span
+src="3-including-style-sheets-and-cascading_files/image003.png" v:shapes="Picture_x0020_2"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
@@ -1820,10 +1824,10 @@ mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;mso-no-proof:
 yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3" o:spid="_x0000_i1029"
  type="#_x0000_t75" style='width:422.25pt;height:288.75pt;visibility:visible;
  mso-wrap-style:square'>
- <v:imagedata src="3-inline-internl-external-style-sheets_files/image004.png"
+ <v:imagedata src="3-including-style-sheets-and-cascading_files/image004.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=563 height=385
-src="3-inline-internl-external-style-sheets_files/image004.png" v:shapes="Picture_x0020_3"><![endif]></span><span
+src="3-including-style-sheets-and-cascading_files/image004.png" v:shapes="Picture_x0020_3"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
@@ -1845,8 +1849,8 @@ mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>An inline style may be used to apply a unique style for
-a single element.<o:p></o:p></span></p>
+minor-latin;color:black'>An inline style may be used to apply a unique style
+for a single element.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo7;
@@ -1891,10 +1895,10 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black;background:#FFFFCC;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_8" o:spid="_x0000_i1028" type="#_x0000_t75" style='width:417pt;
  height:134.25pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="3-inline-internl-external-style-sheets_files/image005.png"
+ <v:imagedata src="3-including-style-sheets-and-cascading_files/image005.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=556 height=179
-src="3-inline-internl-external-style-sheets_files/image005.png" v:shapes="Picture_x0020_8"><![endif]></span><span
+src="3-including-style-sheets-and-cascading_files/image005.png" v:shapes="Picture_x0020_8"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC'><o:p></o:p></span></p>
@@ -1909,10 +1913,10 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;color:black;background:#FFFFCC;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_11" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:356.25pt;
  height:94.5pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="3-inline-internl-external-style-sheets_files/image006.png"
+ <v:imagedata src="3-including-style-sheets-and-cascading_files/image006.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=475 height=126
-src="3-inline-internl-external-style-sheets_files/image006.png" v:shapes="Picture_x0020_11"><![endif]></span><span
+src="3-including-style-sheets-and-cascading_files/image006.png" v:shapes="Picture_x0020_11"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC'><o:p></o:p></span></p>
@@ -1989,10 +1993,10 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_6"
  o:spid="_x0000_i1026" type="#_x0000_t75" style='width:450.75pt;height:237.75pt;
  visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="3-inline-internl-external-style-sheets_files/image007.png"
+ <v:imagedata src="3-including-style-sheets-and-cascading_files/image007.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=601 height=317
-src="3-inline-internl-external-style-sheets_files/image008.jpg" v:shapes="Picture_x0020_6"><![endif]></span><span
+src="3-including-style-sheets-and-cascading_files/image008.jpg" v:shapes="Picture_x0020_6"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
@@ -2005,19 +2009,21 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme
 minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_7"
  o:spid="_x0000_i1025" type="#_x0000_t75" style='width:450.75pt;height:128.25pt;
  visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="3-inline-internl-external-style-sheets_files/image009.png"
+ <v:imagedata src="3-including-style-sheets-and-cascading_files/image009.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=601 height=171
-src="3-inline-internl-external-style-sheets_files/image010.jpg" v:shapes="Picture_x0020_7"><![endif]></span><span
+src="3-including-style-sheets-and-cascading_files/image010.jpg" v:shapes="Picture_x0020_7"><![endif]></span><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 
 <h1 style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;margin-left:
-0cm;background:white'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'>3. References<o:p></o:p></span></h1>
+0cm;background:white'><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>3. References<o:p></o:p></span></b></h1>
 
 <p class=MsoNormal>1. https://www.w3schools.com/css/css_howto.asp</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 </div>
 
