@@ -1,0 +1,102 @@
+# **CSS Media Queries**
+
+CSS2 Introduced Media Types
+
+The @media rule, introduced in CSS2, made it possible to define different style rules for different media types.
+
+Examples: You could have one set of style rules for computer screens, one for printers, one for handheld devices, one for television-type devices, and so on.
+
+Unfortunately these media types never got a lot of support by devices, other than the print media type.
+
+CSS3 Introduced Media Queries
+
+Media queries in CSS3 extended the CSS2 media types idea: Instead of looking for a type of device, they look at the capability of the device.
+
+Media queries can be used to check many things, such as:
+
+-   width and height of the viewport
+-   width and height of the device
+-   orientation (is the tablet/phone in landscape or portrait mode?)
+-   resolution
+
+Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, tablets, and mobile phones (such as iPhone and Android phones).
+
+## Further [Clickhere](https://www.w3schools.com/css/css3_mediaqueries.asp)
+
+## CSS Animations
+
+CSS allows animation of HTML elements without using JavaScript or Flash!
+
+the following are animation properties:
+
+-   @keyframes
+-   animation-name
+-   animation-duration
+-   animation-delay
+-   animation-iteration-count
+-   animation-direction
+-   animation-timing-function
+-   animation-fill-mode
+-   animation
+
+## What are CSS Animations?
+
+An animation lets an element gradually change from one style to another.
+
+You can change as many CSS properties you want, as many times as you want.
+
+To use CSS animation, you must first specify some keyframes for the animation.
+
+Keyframes hold what styles the element will have at certain times.
+
+## The @keyframes Rule
+
+When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times.
+
+To get an animation to work, you must bind the animation to an element.
+
+The following example binds the "example" animation to the \<div\> element. The animation will last for 4 seconds, and it will gradually change the background-color of the \<div\> element from "red" to "yellow":
+
+### **Example**
+
+/\* The animation code \*/  
+@keyframes example {  
+ from {background-color: red;}  
+ to {background-color: yellow;}  
+}  
+  
+/\* The element to apply the animation to \*/  
+div {  
+ width: 100px;  
+ height: 100px;  
+ background-color: red;  
+ animation-name: example;  
+ animation-duration: 4s;  
+}
+
+**Note:** The animation-duration property defines how long an animation should take to complete. If the animation-duration property is not specified, no animation will occur, because the default value is 0s (0 seconds).
+
+In the example above we have specified when the style will change by using the keywords "from" and "to" (which represents 0% (start) and 100% (complete)).
+
+Further [Clickhere](https://www.w3schools.com/css/css3_animations.asp)
+
+CSS Flexbox Layout Module
+
+Before the Flexbox Layout module, there were four layout modes:
+
+-   Block, for sections in a webpage
+-   Inline, for text
+-   Table, for two-dimensional table data
+-   Positioned, for explicit position of an element
+
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+Link [Clickhere](https://www.w3schools.com/css/css3_flexbox.asp)
+
+References
+
+<https://www.w3schools.com/css/css3_mediaqueries.asp>
+
+<https://www.w3schools.com/css/css3_flexbox.asp>
+
+https://www.w3schools.com/css/css3_animations.asp
