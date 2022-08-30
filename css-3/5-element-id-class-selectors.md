@@ -10,9 +10,7 @@
 
 4\. The CSS class Selector
 
-5\. Descendant Selector
-
-6\. References
+5\. References
 
 ## 1. CSS Selectors
 
@@ -75,13 +73,13 @@ element {
 
 }
 
-**Example**
+**Example-1**
 
 In this example all HTML elements with class="center" will be red and center-aligned:
 
 ![](media/4ddb9ad501ddd7671f122339f4d6aed2.png)You can also specify that only specific HTML elements should be affected by a class.
 
-**Example**
+**Example-2**
 
 -   In this example only \<p\> elements with class="center" will be red and center-aligned:
 
@@ -89,28 +87,12 @@ In this example all HTML elements with class="center" will be red and center-ali
 
 HTML elements can also refer to more than one class.
 
-**Example**
+**Example-3**
 
 -   In this example the \<p\> element will be styled according to class="center" and to class="large":
 
 ![](media/86ec2af204c50615c077c95df506b854.png)**Note:** A class name cannot start with a number!
 
-## 5. Descendant Selector
-
--   The descendant selector matches all elements that are descendants of a specified element.
--   The following example selects all \<p\> elements inside \<div\> elements:
-
-![](media/9016474f8cc974dcf1617d18a0f80777.png)
-
-# Advanced Selectors in CSS
-
-Selectors are used for selecting the HTML elements in the attributes. Some different types of selectors are given below:
-
--   **Adjacent Sibling Selector:** It selects all the elements that are adjacent siblings of specified elements. It selects the second element if it immediately follows the first element.   
-    **Syntax**: It select ul tags which immediately follows the h4 tag.
-
-## 6. References
+## 5. References
 
 1\. <https://www.w3schools.com/css/css_selectors.asp>
-
-https://www.geeksforgeeks.org/advanced-selectors-in-css/?ref=lbp
