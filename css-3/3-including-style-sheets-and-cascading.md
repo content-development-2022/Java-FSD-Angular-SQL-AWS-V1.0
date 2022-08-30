@@ -25,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>31</o:Revision>
+  <o:Revision>32</o:Revision>
   <o:TotalTime>51</o:TotalTime>
   <o:Created>2022-08-09T01:29:00Z</o:Created>
-  <o:LastSaved>2022-08-30T06:24:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-30T10:55:00Z</o:LastSaved>
   <o:Pages>5</o:Pages>
   <o:Words>322</o:Words>
   <o:Characters>1836</o:Characters>
@@ -1607,8 +1607,8 @@ style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'>When a browser reads a style
-sheet, it will format the HTML document according to the information in the
-style sheet.<o:p></o:p></span></p>
+sheet, it will format the HTML document according to the information in the style
+sheet.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-7.65pt;line-height:150%;
 mso-list:l7 level1 lfo1;background:white'><![if !supportLists]><span
@@ -1727,8 +1727,8 @@ mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>An external style sheet can be written in any text
-editor, and must be saved with a <b style='mso-bidi-font-weight:normal'>.<span
+minor-latin;color:black'>An external style sheet can be written in any text editor,
+and must be saved with a <b style='mso-bidi-font-weight:normal'>.<span
 class=SpellE>css</span> extension</b>.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
@@ -1849,8 +1849,8 @@ mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
 style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black'>An inline style may be used to apply a unique style
-for a single element.<o:p></o:p></span></p>
+minor-latin;color:black'>An inline style may be used to apply a unique style for
+a single element.<o:p></o:p></span></p>
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
 margin-bottom:.0001pt;text-indent:-7.65pt;line-height:150%;mso-list:l5 level1 lfo7;
@@ -1921,9 +1921,10 @@ style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black;
 background:#FFFFCC'><o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:150%'><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin;color:black;background:#FFFFCC'>Note:<o:p></o:p></span></p>
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;
+color:black;background:#FFFFCC'>Note:<o:p></o:p></span></b></p>
 
 <p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
 mso-list:l1 level1 lfo8'><![if !supportLists]><span style='font-family:Symbol;
