@@ -25,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Balaji</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Balaji</o:LastAuthor>
-  <o:Revision>5</o:Revision>
-  <o:TotalTime>17</o:TotalTime>
+  <o:Revision>11</o:Revision>
+  <o:TotalTime>19</o:TotalTime>
   <o:Created>2022-08-30T11:20:00Z</o:Created>
-  <o:LastSaved>2022-08-30T11:37:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-30T11:39:00Z</o:LastSaved>
   <o:Pages>3</o:Pages>
   <o:Words>271</o:Words>
   <o:Characters>1545</o:Characters>
@@ -1416,19 +1416,19 @@ style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-ser
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example-2<o:p></o:p></span></b></p>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;line-height:150%;
+<p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
 mso-list:l1 level1 lfo4;background:#E7E9EB'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>In
-this example, we have added a class selector (named &quot;test&quot;), and
-specified a green <span class=SpellE>color</span> for this class. The text will
-now be green (even though we have specified a red <span class=SpellE>color</span>
-for the element selector &quot;p&quot;. This is because the class selector is
-given higher priority:<o:p></o:p></span></p>
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>In this example, we have added a
+class selector (named &quot;test&quot;), and specified a green <span
+class=SpellE>color</span> for this class. The text will now be green (even
+though we have specified a red <span class=SpellE>color</span> for the element
+selector &quot;p&quot;. This is because the class selector is given higher
+priority:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;background:white'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1447,16 +1447,16 @@ style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-ser
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example-3<o:p></o:p></span></b></p>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;line-height:150%;
+<p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
 mso-list:l1 level1 lfo4;background:#E7E9EB'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:black'><span style='mso-list:Ignore'>&middot;<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
-mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
-mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>In
-this example, we have added the id selector (named &quot;demo&quot;). The text
-will now be blue, because the id selector is given higher priority:<o:p></o:p></span></p>
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-latin;color:black'>In this example, we have added the
+id selector (named &quot;demo&quot;). The text will now be blue, because the id
+selector is given higher priority:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:150%;mso-outline-level:3;background:#E7E9EB'><span
 style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
@@ -1476,10 +1476,10 @@ style='mso-bidi-font-weight:normal'><span style='font-family:"Calibri","sans-ser
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>Example-4<o:p></o:p></span></b></p>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;line-height:150%;
+<p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
 mso-list:l1 level1 lfo4;background:white'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:black'>In
@@ -1593,11 +1593,11 @@ style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
 mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
 mso-bidi-theme-font:minor-latin;color:black'>2.1 How to Calculate Specificity?<o:p></o:p></span></b></p>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;line-height:150%;
+<p class=MsoListParagraph style='text-indent:-7.65pt;line-height:150%;
 mso-list:l0 level1 lfo10;tab-stops:list 36.0pt'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:150%;font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
-style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-family:"Calibri","sans-serif";
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
 minor-latin'>To know the information about how to calculate specificity <a
