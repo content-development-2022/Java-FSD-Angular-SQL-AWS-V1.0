@@ -373,7 +373,7 @@ p.c { white-space: pre; }
 
 **Output**
 
-![](media/53c764f925196b11ae6ab9fb7108b847.png)
+![](media/38ff0a5d5213ef2fa3900c473c2b9862.png)
 
 # CSS word-spacing Property
 
