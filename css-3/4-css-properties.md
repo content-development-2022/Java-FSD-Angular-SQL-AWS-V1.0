@@ -1,6 +1,60 @@
 # CSS Properties
 
-# CSS animation Property
+**Content**
+
+1\. CSS animation Property
+
+2\. CSS background-color Property
+
+3\. CSS background-attachment Property
+
+4\. CSS border Property
+
+5\. CSS border-width Property
+
+6\. CSS color Property
+
+7\. CSS column-count Property
+
+8\. CSS column-gap Property
+
+9\. CSS direction Property
+
+10\. CSS filter Property
+
+11\. CSS font-size Property
+
+12\. CSS font-style Property
+
+13\. CSS font-variant Property
+
+14\. CSS gap Property
+
+15\. CSS margin Property
+
+16\. CSS padding Property
+
+17\. CSS scroll-behavior Property
+
+18\. CSS table-layout Property
+
+19\. CSS text-align Property
+
+20\. CSS text-decoration-color Property
+
+21\. CSS text-decoration-style Property
+
+22\. CSS white-space Property
+
+23\. CSS word-spacing Property
+
+24\. CSS word-wrap Property
+
+25\. CSS writing-mode Property
+
+26\. References
+
+# 1. CSS animation Property
 
 **Example**
 
@@ -14,7 +68,7 @@ animation: mymove 5s infinite;
 
 ![](media/448d4cbbd9aca07e5e4e6630fa3045bf.png)
 
-# CSS background-color Property
+# 2. CSS background-color Property
 
 **Example**
 
@@ -26,7 +80,7 @@ body {background-color: coral;}
 
 **![](media/ed32131a8ea0d1f40f583a08513eed59.png)**
 
-# CSS background-attachment Property
+# 3. CSS background-attachment Property
 
 **Example**
 
@@ -42,7 +96,7 @@ background-attachment: fixed;
 
 ![](media/6cd5d6189548ce34e772ae1999db68d7.png)
 
-# CSS border Property
+# 4. CSS border Property
 
 **Example**
 
@@ -64,7 +118,7 @@ border: double;
 
 **![](media/64225c7ca06c758f9dc70eabf94e4be2.png)**
 
-# CSS border-width Property
+# 5. CSS border-width Property
 
 **Example**
 
@@ -76,7 +130,7 @@ div {border-width: thin;}
 
 ![](media/4a7c9ba48c31ba0cfdf037dc4b9fe82e.png)
 
-# CSS color Property
+# 6. CSS color Property
 
 **Example**
 
@@ -98,7 +152,7 @@ color: rgb(0,0,255);
 
 ![](media/9be872ad274086d247586b9f2c5e4fb4.png)
 
-# CSS column-count Property
+# 7. CSS column-count Property
 
 **Example**
 
@@ -112,7 +166,7 @@ column-count: 3;
 
 ![](media/6993db0188e34c770c9fad0e1c0125f1.png)
 
-# CSS column-gap Property
+# 8. CSS column-gap Property
 
 **Example**
 
@@ -126,7 +180,7 @@ column-gap: 40px;
 
 **![](media/997fd5ab20b0e9a3c7b624a8cb8ac4a2.png)**
 
-# CSS direction Property
+# 9. CSS direction Property
 
 **Example**
 
@@ -140,7 +194,7 @@ direction: rtl;
 
 **![](media/79369b6732260eaa6f02b5ee9efddb57.png)**
 
-# CSS filter Property
+# 10. CSS filter Property
 
 **Example**
 
@@ -154,7 +208,7 @@ filter: grayscale(100%);
 
 ![](media/fc06b02f9e59e005aa3fa63faff60490.png)
 
-# CSS font-size Property
+# 11. CSS font-size Property
 
 **Example**
 
@@ -176,7 +230,7 @@ font-size: 150%;
 
 ![](media/1417f38f6758a55b840c95c0f9303140.png)
 
-# CSS font-style Property
+# 12. CSS font-style Property
 
 **Example**
 
@@ -198,7 +252,7 @@ font-style: oblique;
 
 ![](media/f30e1ee863545b20a8c26c04ca122da0.png)
 
-# CSS font-variant Property
+# 13. CSS font-variant Property
 
 **Example**
 
@@ -212,7 +266,7 @@ font-variant: small-caps;
 
 ![](media/fc6d0c54f9acf1b92e26d6e7ed82a3c3.png)
 
-# CSS gap Property
+# 14. CSS gap Property
 
 **Example**
 
@@ -226,7 +280,7 @@ gap: 50px;
 
 ![](media/adf637de0f0165275e49371aea59197d.png)
 
-# CSS margin Property
+# 15. CSS margin Property
 
 **Example**
 
@@ -240,7 +294,7 @@ margin: 35px;
 
 ![](media/fbfafb1e5dcdb218444189183922d020.png)
 
-# CSS padding Property
+# 16. CSS padding Property
 
 **Example**
 
@@ -254,7 +308,7 @@ padding: 35px;
 
 ![](media/cb5cfbf1aad2ab6a78ab4f3eeb4957ab.png)
 
-# CSS scroll-behavior Property
+# 17. CSS scroll-behavior Property
 
 **Example**
 
@@ -268,7 +322,7 @@ scroll-behavior: smooth;
 
 **![](media/1abdf5e69160c0def898aa922cb94687.png)**
 
-# CSS table-layout Property
+# 18. CSS table-layout Property
 
 **Example**
 
@@ -288,7 +342,7 @@ width: 180px;
 
 ![](media/ecc683fc3cb44744cd5519f96f11a011.png)
 
-# CSS text-align Property
+# 19. CSS text-align Property
 
 **Example**
 
@@ -314,7 +368,7 @@ text-align: justify;
 
 ![](media/bbe52e69c7b2bdd7646db5b89f9c0135.png)
 
-# CSS text-decoration-color Property
+# 20. CSS text-decoration-color Property
 
 **Example**
 
@@ -329,7 +383,7 @@ text-decoration-color: red;
 
 ![](media/056bbfc34fd2d4c3bd784888ae47f06e.png)
 
-# CSS text-decoration-style Property
+# 21. CSS text-decoration-style Property
 
 **Example**
 
@@ -359,7 +413,7 @@ text-decoration-style: wavy;
 
 ![](media/68f6c95327b40966643dcac7ac1f4409.png)
 
-# CSS white-space Property
+# 22. CSS white-space Property
 
 **Example**
 
@@ -375,7 +429,7 @@ p.c { white-space: pre; }
 
 ![](media/38ff0a5d5213ef2fa3900c473c2b9862.png)
 
-# CSS word-spacing Property
+# 23. CSS word-spacing Property
 
 **Example**
 
@@ -389,7 +443,7 @@ word-spacing: 30px;
 
 ![](media/e972d2b39d91554e88cd9a2cc0bf4695.png)
 
-# CSS word-wrap Property
+# 24. CSS word-wrap Property
 
 **Example**
 
@@ -403,7 +457,7 @@ word-wrap: break-word;
 
 ![](media/724eb0d875f3ec8945e0e4e05b8ca327.png)
 
-# CSS writing-mode Property
+# 25. CSS writing-mode Property
 
 **Example**
 
@@ -425,54 +479,30 @@ writing-mode: vertical-rl;
 
 **![](media/82035a6ad39255b2a237b7609843171d.png)**
 
-# References
+# 26. References
 
-https://www.w3schools.com/cssref/css3_pr_animation.asp
-
-https://www.w3schools.com/cssref/pr_background-color.asp
-
-https://www.w3schools.com/cssref/pr_background-attachment.asp
-
-https://www.w3schools.com/cssref/pr_border.asp
-
-https://www.w3schools.com/cssref/pr_border-width.asp
-
-https://www.w3schools.com/cssref/pr_text_color.asp
-
-https://www.w3schools.com/cssref/css3_pr_column-count.asp
-
-https://www.w3schools.com/cssref/css3_pr_column-gap.asp
-
-https://www.w3schools.com/cssref/pr_text_direction.asp
-
-https://www.w3schools.com/cssref/css3_pr_filter.asp
-
-https://www.w3schools.com/cssref/pr_font_font-size.asp
-
-https://www.w3schools.com/cssref/pr_font_font-style.asp
-
-https://www.w3schools.com/cssref/pr_font_font-variant.asp
-
-https://www.w3schools.com/cssref/pr_margin.asp
-
-https://www.w3schools.com/cssref/css3_pr_gap.asp
-
-https://www.w3schools.com/cssref/pr_padding.asp
-
-https://www.w3schools.com/cssref/pr_scroll-behavior.asp
-
-https://www.w3schools.com/cssref/pr_tab_table-layout.asp
-
-https://www.w3schools.com/cssref/pr_text_text-align.asp
-
-https://www.w3schools.com/cssref/css3_pr_text-decoration-color.asp
-
-https://www.w3schools.com/cssref/css3_pr_text-decoration-style.asp
-
-https://www.w3schools.com/cssref/pr_text_white-space.asp
-
-https://www.w3schools.com/cssref/pr_text_word-spacing.asp
-
-https://www.w3schools.com/cssref/css3_pr_word-wrap.asp
-
-https://www.w3schools.com/cssref/css3_pr_writing-mode.asp
+1.  https://www.w3schools.com/cssref/css3_pr_animation.asp
+2.  https://www.w3schools.com/cssref/pr_background-color.asp
+3.  https://www.w3schools.com/cssref/pr_background-attachment.asp
+4.  https://www.w3schools.com/cssref/pr_border.asp
+5.  https://www.w3schools.com/cssref/pr_border-width.asp
+6.  https://www.w3schools.com/cssref/pr_text_color.asp
+7.  https://www.w3schools.com/cssref/css3_pr_column-count.asp
+8.  https://www.w3schools.com/cssref/css3_pr_column-gap.asp
+9.  https://www.w3schools.com/cssref/pr_text_direction.asp
+10. https://www.w3schools.com/cssref/css3_pr_filter.asp
+11. https://www.w3schools.com/cssref/pr_font_font-size.asp
+12. https://www.w3schools.com/cssref/pr_font_font-style.asp
+13. https://www.w3schools.com/cssref/pr_font_font-variant.asp
+14. https://www.w3schools.com/cssref/pr_margin.asp
+15. https://www.w3schools.com/cssref/css3_pr_gap.asp
+16. https://www.w3schools.com/cssref/pr_padding.asp
+17. https://www.w3schools.com/cssref/pr_scroll-behavior.asp
+18. https://www.w3schools.com/cssref/pr_tab_table-layout.asp
+19. https://www.w3schools.com/cssref/pr_text_text-align.asp
+20. https://www.w3schools.com/cssref/css3_pr_text-decoration-color.asp
+21. https://www.w3schools.com/cssref/css3_pr_text-decoration-style.asp
+22. https://www.w3schools.com/cssref/pr_text_white-space.asp
+23. https://www.w3schools.com/cssref/pr_text_word-spacing.asp
+24. https://www.w3schools.com/cssref/css3_pr_word-wrap.asp
+25. https://www.w3schools.com/cssref/css3_pr_writing-mode.asp
