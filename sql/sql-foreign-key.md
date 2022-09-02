@@ -101,26 +101,27 @@ The delete and update actions determine the behaviors when the primary key in th
 
 ![](media/d446b89548b0ee55ec3aee2434c401c1.png)
 
-1.  The following statement deletes the customer id 1:
+-   The following statement deletes the customer id 1:
 
 ![](media/96adb92ff5a8412d514528980c97097e.png)
 
-1.  Because of the **ON DELETE CASCADE** action, all the referencing rows in the contacts table are automatically deleted:
+-   Because of the **ON DELETE CASCADE** action, all the referencing rows in the contacts table are automatically deleted:
 
 ![](media/90d7302aee515b10e09364fc4edb9a82.png)
 
 ## 1.6 SET DEFAULT
 
-1.  The **ON DELETE SET DEFAULT** sets the default value to the foreign key column of the referencing rows in the child table when the referenced rows from the parent table are deleted.
+-   The **ON DELETE SET DEFAULT** sets the default value to the foreign key column of the referencing rows in the child table when the referenced rows from the parent table are deleted.
 
 ## 2. Add a foreign key constraint to an existing table
 
-1.  To add a foreign key constraint to the existing table, you use the following form of the ALTER TABLE statement:
+-   To add a foreign key constraint to the existing table, you use the following form of the ALTER TABLE statement:
 
 ![](media/0d26b65fbba6b7fd0e6dfa94859652ef.png)
 
-1.  When you add a foreign key constraint with ON DELETE CASCADE option to an existing table, you need to follow these steps:
-2.  First, drop existing foreign key constraints:
+-   When you add a foreign key constraint with ON DELETE CASCADE option to an existing table, you need to follow these steps:
+
+1\. First, drop existing foreign key constraints:
 
 ![](media/bd72b7537e975959a3537c37e8982f70.png)
 
