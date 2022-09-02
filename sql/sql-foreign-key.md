@@ -64,7 +64,7 @@ The delete and update actions determine the behaviors when the primary key in th
 
 -   Here, the foreign key constraint does not have the **ON DELETE** and **ON** **UPDATE** action, they default to **NO ACTION.**
 
-### 1.3 NO ACTION
+## 1.3 NO ACTION
 
 -   The following inserts data into the customers and contacts tables:
 
@@ -78,7 +78,7 @@ The delete and update actions determine the behaviors when the primary key in th
 
 ![](media/9891cf8d2b3ec9b26ea58271f8ac8510.png)
 
-### 1.4 SET NULL
+## 1.4 SET NULL
 
 -   The **SET NULL** automatically sets **NULL** to the foreign key columns in the referencing rows of the child table when the referenced rows in the parent table are deleted.
 -   The following statements drop the sample tables and re-create them with the foreign key that uses the **SET NULL** action in the **ON DELETE** clause:
@@ -93,7 +93,7 @@ The delete and update actions determine the behaviors when the primary key in th
 -   The following statement displays the data in the contacts table:![](media/16f16401f81f66e6b1ddeb1a4309a162.png)
 -   As can be seen clearly from the output, the rows that have the **customer_id** **1** now have the customer_id sets to **NULL**
 
-### 1.5 CASCADE
+## 1.5 CASCADE
 
 -   The **ON DELETE CASCADE** automatically deletes all the referencing rows in the child table when the referenced rows in the parent table are deleted.
 -   In practice, the ON DELETE CASCADE is the most commonly used option.
@@ -109,7 +109,7 @@ The delete and update actions determine the behaviors when the primary key in th
 
 ![](media/90d7302aee515b10e09364fc4edb9a82.png)
 
-### 1.6 SET DEFAULT
+## 1.6 SET DEFAULT
 
 1.  The **ON DELETE SET DEFAULT** sets the default value to the foreign key column of the referencing rows in the child table when the referenced rows from the parent table are deleted.
 
