@@ -125,7 +125,7 @@ The delete and update actions determine the behaviors when the primary key in th
 
 ![](media/bd72b7537e975959a3537c37e8982f70.png)
 
-1.  Next, add a new foreign key constraint with ON DELETE CASCADE action:
+2\. Next, add a new foreign key constraint with ON DELETE CASCADE action:
 
 ![](media/6bcee855856c3eb151b6ad46fbab937c.png)
 
