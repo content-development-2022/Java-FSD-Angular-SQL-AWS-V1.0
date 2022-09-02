@@ -44,11 +44,11 @@ SQL supports the following data types:
 -   **Array** for storing array strings, numbers, etc.
 -   **JSON** stores JSON data
 -   **hstore** stores key-value pair
--   Special types such as network address and geometric data.
+-   **Special types** such as network address and geometric data.
 
 ## 1.1 Boolean
 
--   A Boolean data type can hold one of three possible values**: true, false or null.**
+-   A Boolean data type can hold one of three possible values: true, false or null.
 -   You use **boolean or bool** keyword to declare a column with the Boolean data type.
 -   When you insert data into a Boolean column, PostgreSQL converts it to a Boolean value
 1.  1, yes, y, t, true values are converted to true
