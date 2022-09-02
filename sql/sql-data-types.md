@@ -28,7 +28,9 @@
 
 1.7 UUID
 
-1.8 Special data types
+1.8 Hstore data type
+
+1.9 Special data types
 
 **2. References**
 
@@ -51,8 +53,8 @@ SQL supports the following data types:
 -   A Boolean data type can hold one of three possible values: true, false or null.
 -   You use **boolean or bool** keyword to declare a column with the Boolean data type.
 -   When you insert data into a Boolean column, PostgreSQL converts it to a Boolean value
-1.  1, yes, y, t, true values are converted to true
-2.  0, no, false, f values are converted to false.
+1.  **1**, yes, y, t, true values are converted to true
+2.  **0**, no, false, f values are converted to false.
 -   When you select data from a Boolean column, PostgreSQL converts the values back e.g., t to true, f to false and space to null.
 
 ## 1.2 Character
@@ -61,19 +63,19 @@ SQL supports the following data types:
 
 ## 1.2.1 CHAR(n)
 
--   CHAR(n) is the fixed-length character with space padded.
+-   **CHAR(n)** is the fixed-length character with space padded.
 -   If you insert a string that is shorter than the length of the column, PostgreSQL pads spaces.
 -   If you insert a string that is longer than the length of the column, PostgreSQL will issue an error.
 
 ## 1.2.2 VARCHAR(n)
 
--   VARCHAR(n) is the variable-length character string.
+-   **VARCHAR(n)** is the variable-length character string.
 -   With VARCHAR(n), you can store up to n characters.
 -   PostgreSQL does not pad spaces when the stored string is shorter than the length of the column.
 
 ## 1.2.3 TEXT
 
--   TEXT is the variable-length character string.
+-   **TEXT** is the variable-length character string.
 -   Theoretically, text data is a character string with unlimited length.
 
 ## 1.3 Numeric
@@ -118,26 +120,31 @@ The TIMESTAMPTZ is the PostgreSQL’s extension to the SQL standard’s temporal
 
 ## 1.6 JSON
 
--   PostgreSQL provides two JSON data types: JSON and JSONB for storing JSON data.
--   The JSON data type stores plain JSON data that requires reparsing for each processing, while JSONB data type stores JSON data in a binary format which is faster to process but slower to insert.
+-   PostgreSQL provides two JSON data types: **JSON** and **JSONB** for storing JSON data.
+-   The **JSON** data type stores plain JSON data that requires reparsing for each processing, while **JSONB** data type stores JSON data in a binary format which is faster to process but slower to insert.
 -   In addition, JSONB supports indexing, which can be an advantage.
 
 ## 1.7 UUID
 
--   The UUID data type allows you to store Universal Unique Identifiers defined by RFC 4122 .
+-   The **UUID** data type allows you to store Universal Unique Identifiers defined by RFC 4122 .
 -   The UUID values guarantee a better uniqueness than SERIAL and can be used to hide sensitive data exposed to the public such as values of id in URL.
 
-## 1.8 Special data types
+## 1.8 Hstore data type
+
+-   The hstore implements the hstore data type for storing key-value pairs in a single value.
+-   The **hstore** data type is very useful in many cases, such as semi-structured data or rows with many attributes that are rarely queried. Notice that keys and values are just text strings only.
+
+## 1.9 Special data types
 
 Besides the primitive data types, PostgreSQL also provides several special data types related to geometric and network.
 
--   box– a rectangular box.
--   line – a set of points.
--   point– a geometric pair of numbers.
--   lseg– a line segment.
--   polygon– a closed geometric.
--   inet– an IP4 address.
--   macaddr– a MAC address.
+-   **box**– a rectangular box.
+-   **line** – a set of points.
+-   **point**– a geometric pair of numbers.
+-   **lseg**– a line segment.
+-   **polygon**– a closed geometric.
+-   **inet**– an IP4 address.
+-   **macaddr**– a MAC address.
 
 ## 2. References
 
