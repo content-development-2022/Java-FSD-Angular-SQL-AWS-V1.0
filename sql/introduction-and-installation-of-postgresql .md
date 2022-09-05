@@ -175,5 +175,5 @@ There are three steps to complete the PostgreSQL installation:
 ## 3. References
 
 1.  https://www.postgresqltutorial.com/postgresql-getting-started/what-is-postgresql/
-    1.  https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/
-    2.  https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/
+2.  https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/
+3.  https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/
