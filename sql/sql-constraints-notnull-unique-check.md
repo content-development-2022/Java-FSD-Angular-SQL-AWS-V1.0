@@ -110,8 +110,7 @@ The following constraints are commonly used in SQL:
 
 ![](media/1784912d0702fae2ca82882fb9209ff2.png)
 
--   However, if you want to assign a CHECK constraint a specific name, you can specify it after the CONSTRAINT expression. In the below example **username**
--   **\_email_notnull** is check constraint name.
+-   However, if you want to assign a CHECK constraint a specific name, you can specify it after the CONSTRAINT expression. In the below example **username_email_notnull** is check constraint name.
 -   This is useful because sometimes you may want either column a or b is not null, but not both.
 -   For example, you may want either username or email column of the user tables is not null or empty. In this case, you can use the CHECK constraint as follows:
 
