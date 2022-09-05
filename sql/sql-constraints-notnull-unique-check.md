@@ -31,7 +31,9 @@
 # 1. SQL Constraints
 
 -   SQL constraints are used to specify **rules for data in a table.**
--   Constraints are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the table. If there is any violation between the constraint and the data action, the action is aborted.
+-   Constraints are used to limit the type of data that can go into a table.
+-   This ensures the accuracy and reliability of the data in the table.
+-   If there is any violation between the constraint and the data action, the action is aborted.
 -   Constraints can be column level or table level. Column level constraints apply to a column, and table level constraints apply to the whole table.
 
 The following constraints are commonly used in SQL:
@@ -104,11 +106,12 @@ The following constraints are commonly used in SQL:
 
 ![](media/97de97596d0eec32232dce342467190c.png)
 
--   By default, PostgreSQL gives the CHECK constraint a name using the following pattern:
+-   By default, PostgreSQL gives the CHECK constraint name using the following pattern:
 
 ![](media/1784912d0702fae2ca82882fb9209ff2.png)
 
--   However, if you want to assign a CHECK constraint a specific name, you can specify it after the CONSTRAINT expression:
+-   However, if you want to assign a CHECK constraint a specific name, you can specify it after the CONSTRAINT expression. In the below example **username**
+-   **\_email_notnull** is check constraint name.
 -   This is useful because sometimes you may want either column a or b is not null, but not both.
 -   For example, you may want either username or email column of the user tables is not null or empty. In this case, you can use the CHECK constraint as follows:
 
