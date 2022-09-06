@@ -4,6 +4,8 @@
 
 **1. What is PostgreSQL**
 
+1.1 Why use PostgreSQL?
+
 **2. PostgreSQL on Windows**
 
 2.1 Download PostgreSQL Installer for Windows
@@ -20,8 +22,15 @@
 
 # 1. What is PostgreSQL
 
--   PostgreSQL is an advanced, enterprise-class, and open-source relational database system.
+-   PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.
+-   PostgreSQL has earned a strong reputation for its proven architecture, reliability, data integrity, robust feature set, extensibility, and the dedication of the open source community behind the software to consistently deliver performant and innovative solutions.
 -   PostgreSQL supports both SQL (relational) and JSON (non-relational) querying.
+
+## 1.1 Why use PostgreSQL?
+
+-   PostgreSQL comes with **many features** aimed to help developers build applications, administrators to protect data integrity and build fault-tolerant environments, and help you manage your data no matter how big or small the dataset.
+-   In addition to being **free and open source**, PostgreSQL is highly extensible. For example, you can define your own data types, build out custom functions, even write code from **different programming languages** without recompiling your database!
+-   Many of the features required by the SQL standard are supported, though sometimes with slightly differing syntax or function.
 
 # 2. PostgreSQL on Windows
 
