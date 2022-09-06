@@ -102,15 +102,16 @@ PostgreSQL provides you with many actions:
 -   Set a default value for the column.
 -   Add a constraint to a column.
 -   Rename a table
-1.  To add a **new column** to a table, you use **ALTER TABLE ADD COLUMN** statement:
+
+1) To add a **new column** to a table, you use **ALTER TABLE ADD COLUMN** statement:
 
 ![](media/555767639151edae909fa50c64494b62.png)
 
-1.  To **drop a column** from a table, you use **ALTER TABLE DROP COLUMN** statement:
+2) To **drop a column** from a table, you use **ALTER TABLE DROP COLUMN** statement:
 
 ![](media/bc179679019ee0b46f12491960e78bc4.png)
 
-1.  To **rename a column**, you use the **ALTER TABLE RENAME COLUMN TO** statement:
+3) To **rename a column**, you use the **ALTER TABLE RENAME COLUMN TO** statement:
 
 ![](media/bca46fe14cae85797f419968cddf1a63.png)
 
