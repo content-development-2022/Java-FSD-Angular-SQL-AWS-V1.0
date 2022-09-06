@@ -2,19 +2,19 @@
 
 **Content**
 
-1\. DDL (Data Definition Language)
+**1. DDL (Data Definition Language)**
 
-2\. DDL Commands
+**2. DDL Commands**
 
-2.1 PostgreSQL CREATE TABLE
+**2.1 PostgreSQL CREATE TABLE**
 
 2.1.1 PostgreSQL CREATE TABLE examples
 
-2.2 PostgreSQL ALTER TABLE statement
+**2.2 PostgreSQL ALTER TABLE statement**
 
 2.2.1 PostgreSQL ALTER TABLE examples
 
-2.3 PostgreSQL DROP TABLE
+**2.3 PostgreSQL DROP TABLE**
 
 ## 1. DDL (Data Definition Language)
 
@@ -352,3 +352,10 @@ The TRUNCATE TABLE is transaction-safe. It means that if you place it within a t
 -   Use the CASCADE option to truncate a table and other tables that reference the table via foreign key constraint.
 -   The TRUNCATE TABLE does not fire ON DELETE trigger. Instead, it fires the BEFORE TRUNCATE and AFTER TRUNCATE triggers.
 -   The TRUNCATE TABLE statement is transaction-safe.
+
+References
+
+1.  <https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-create-table/>
+2.  <https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-alter-table/>
+3.  <https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-drop-table/>
+4.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-truncate-table/
