@@ -137,7 +137,10 @@ PostgreSQL provides you with many actions:
 
 ## 2.2.1 PostgreSQL ALTER TABLE examples
 
--   Let’s create a new table called **links** ![](media/c75265a1fa491268d4fa3d94d7b85666.png)
+-   Let’s create a new table called **links**
+
+![](media/c75265a1fa491268d4fa3d94d7b85666.png)
+
 -   To **add a new column** named **active**, you use the following statement:
 
 ![](media/0baaf05bc46bd3f1f9ee81a18488bb7d.png)
