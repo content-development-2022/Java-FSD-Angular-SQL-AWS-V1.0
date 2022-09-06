@@ -181,35 +181,28 @@ Five Categories of widely used SQL queries.
 
 -   **Data Definition Language, DDL,** changes the structure of the table like creating a table, deleting a table, altering a table, etc.
 -   All the command of DDL are auto-committed that means it permanently save all the changes in the database.
--   Some of the most fundamental DDL commands
 
-CREATE TABLE
+Some of the most fundamental DDL commands
 
-ALTER TABLE
-
-DROP TABLE
-
-CREATE INDEX
-
-ALTER INDEX
-
-DROP INDEX
-
-CREATE VIEW
-
-DROP VIEW
+-   CREATE TABLE
+-   ALTER TABLE
+-   DROP TABLE
+-   CREATE INDEX
+-   ALTER INDEX
+-   DROP INDEX
+-   CREATE VIEW
+-   DROP VIEW
 
 ## 3.2 Manipulating Data
 
 -   DML commands are used to modify the database. It is responsible for all form of changes in the database.
 -   The command of DML is not auto-committed that means it can't permanently save all the changes in the database. They can be rollback.
--   There are three basic DML commands:
 
-INSERT
+There are three basic DML commands:
 
-UPDATE
-
-DELETE
+-   INSERT
+-   UPDATE
+-   DELETE
 
 ## 3.3 Selecting Data
 
@@ -227,13 +220,12 @@ DELETE
 -   Data control commands in SQL allow you to control access to data within the database.
 -   These DCL commands are normally used to create objects related to user access and also control the distribution of privileges among users.
 -   DCL commands are used to grant and take back authority from any database user.
--   Some data control commands are as follows:
 
-ALTER PASSWORD
+Some data control commands are as follows:
 
-GRANT
-
-REVOKE
+-   ALTER PASSWORD
+-   GRANT
+-   REVOKE
 
 ## 3.5 Transactional Control Commands
 
