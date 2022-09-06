@@ -115,23 +115,23 @@ PostgreSQL provides you with many actions:
 
 ![](media/bca46fe14cae85797f419968cddf1a63.png)
 
-1.  To change a **default value** of the column, you use **ALTER TABLE ALTER COLUMN SET DEFAULT or DROP DEFAULT:**
+4) To change a **default value** of the column, you use **ALTER TABLE ALTER COLUMN SET DEFAULT or DROP DEFAULT:**
 
 ![](media/f53e883a7ced03e2e9dd6f46e36702a0.png)
 
-1.  To change the **NOT NULL constraint**, you use **ALTER TABLE ALTER COLUMN** statement:
+5) To change the **NOT NULL constraint**, you use **ALTER TABLE ALTER COLUMN** statement:
 
 ![](media/5db5d3a445f9cd7522ada35d83de6e29.png)
 
-1.  To add a **CHECK constraint**, you use **ALTER TABLE ADD CHECK** statement:
+6) To add a **CHECK constraint**, you use **ALTER TABLE ADD CHECK** statement:
 
 ![](media/f0dfdadcca8e02f873104e5cdb344701.png)
 
-1.  To **add a constraint** to a table, you use **ALTER TABLE ADD CONSTRAINT** statement:
+7) To **add a constraint** to a table, you use **ALTER TABLE ADD CONSTRAINT** statement:
 
 ![](media/f7732548f618724b0751f0cb765113a0.png)
 
-1.  To **rename a table** you use **ALTER TABLE RENAME TO** statement:
+8) To **rename a table** you use **ALTER TABLE RENAME TO** statement:
 
 ![](media/a449db2cfa6b39d53694e883c08ec402.png)
 
