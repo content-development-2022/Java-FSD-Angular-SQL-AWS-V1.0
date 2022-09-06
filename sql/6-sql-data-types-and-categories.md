@@ -32,19 +32,21 @@
 
 1.9 Special data types
 
-**2. Types of SQL**
+**2. SQL Commands**
 
-2.1 Defining Database Structures
+**3. Types of SQL**
 
-2.2 Manipulating Data
+3.1 Defining Database Structures
 
-2.3 Selecting Data
+3.2 Manipulating Data
 
-2.4 Data Control Language
+3.3 Selecting Data
 
-2.5 Transactional Control Commands
+3.4 Data Control Language
 
-**3. References**
+3.5 Transactional Control Commands
+
+**4. References**
 
 ## 1. SQL Data Types
 
@@ -158,7 +160,12 @@ Besides the primitive data types, PostgreSQL also provides several special data 
 -   **inet**– an IP4 address.
 -   **macaddr**– a MAC address.
 
-## 2. Types of SQL
+## 2. SQL Commands
+
+-   SQL commands are instructions. It is used to communicate with the database. It is also used to perform specific tasks, functions, and queries of data.
+-   SQL can perform various tasks like create a table, add data to tables, drop the table, modify the table, set permission for users.
+
+## 3. Types of SQL
 
 Five types of widely used SQL queries.
 
@@ -170,9 +177,10 @@ Five types of widely used SQL queries.
 
 **![](media/b4ac16a4fb94ef74a511c60e9908192a.png)**
 
-## 2.1 Defining Database Structures
+## 3.1 Defining Database Structures
 
--   **Data Definition Language, DDL,** is the part of SQL that allows a database user to create and restructure database objects, such as the creation or the deletion of a table.
+-   **Data Definition Language, DDL,** changes the structure of the table like creating a table, deleting a table, altering a table, etc.
+-   All the command of DDL are auto-committed that means it permanently save all the changes in the database.
 -   Some of the most fundamental DDL commands
 
 CREATE TABLE
@@ -191,9 +199,10 @@ CREATE VIEW
 
 DROP VIEW
 
-## 2.2 Manipulating Data
+## 3.2 Manipulating Data
 
--   **Data Manipulation Language, DML,** is the part of SQL used to manipulate data within objects of a relational database.
+-   DML commands are used to modify the database. It is responsible for all form of changes in the database.
+-   The command of DML is not auto-committed that means it can't permanently save all the changes in the database. They can be rollback.
 -   There are three basic DML commands:
 
 INSERT
@@ -202,20 +211,22 @@ UPDATE
 
 DELETE
 
-## 2.3 Selecting Data
+## 3.3 Selecting Data
 
--   **Data Query Language, DQL,** is the most concentrated focus of SQL for modern relational database users. The base command is as follows:
+-   **Data Query Language, DQL,** is used to fetch the data from the database.
+-   It uses only one command:
 
-SELECT
+    SELECT
 
 -   This command, accompanied by many options and clauses, is used to compose queries against a relational database. Queries, from simple to complex, from vague to specific, can be easily created.
 -   A *query* is an inquiry to the database for information.
 -   A query is usually issued to the database through an application interface or via a command line prompt.
 
-## 2.4 Data Control Language
+## 3.4 Data Control Language
 
 -   Data control commands in SQL allow you to control access to data within the database.
 -   These DCL commands are normally used to create objects related to user access and also control the distribution of privileges among users.
+-   DCL commands are used to grant and take back authority from any database user.
 -   Some data control commands are as follows:
 
 ALTER PASSWORD
@@ -224,7 +235,9 @@ GRANT
 
 REVOKE
 
-## 2.5 Transactional Control Commands
+## 3.5 Transactional Control Commands
+
+-   TCL commands are automatically committed in the database that's why they cannot be used while creating tables or dropping them.
 
 In addition to the previously introduced categories of commands, there are commands that allow the user to manage database transactions.
 
@@ -232,7 +245,7 @@ In addition to the previously introduced categories of commands, there are comma
 -   ROLLBACK Undoes database transactions
 -   SAVEPOINT Creates points within groups of transactions in which to ROLLBACK
 
-## References
+## 4. References
 
 1.  https://www.informit.com/articles/article.aspx?p=29583&seqNum=3
 2.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/
