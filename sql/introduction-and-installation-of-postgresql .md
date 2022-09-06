@@ -8,7 +8,7 @@
 
 2.1 Download PostgreSQL Installer for Windows
 
-2.2 Install PostgreSQL on Window step by step
+2.2 Install PostgreSQL on Window
 
 2.3 Connect to a PostgreSQL Database Server
 
@@ -43,23 +43,23 @@ There are three steps to complete the PostgreSQL installation:
 
 -   It will take a few minutes to complete the download.
 
-## 2.2 Install PostgreSQL on Window step by step
+## 2.2 Install PostgreSQL on Window
 
 -   To install PostgreSQL on Windows, you need to have administrator privileges.
 
 **Step 1.** Double click on the installer file, an installation wizard will appear and guide you through multiple steps where you can choose different options that you would like to have in PostgreSQL.
 
-**Step 2.** Click the Next button
+**Step 2.** Click the Next button.
 
 ![](media/807e20216e2924a32d8da9a5dce3979e.png)
 
-**Step 3.** Specify installation folder, choose your own or keep the default folder suggested by PostgreSQL installer and click the Next button
+**Step 3.** Specify installation folder, choose your own or keep the default folder suggested by PostgreSQL installer and click the Next button.
 
 ![](media/5dc710098b246c04965034f1c55c4782.png)
 
 **Step 4.** Select software components to install:
 
--   The **PostgreSQL Server** to install the PostgreSQL database server
+-   The **PostgreSQL Server** to install the PostgreSQL database server.
 -   **pgAdmin 4** to install the PostgreSQL database GUI management tool.
 -   **Command Line Tools** to install command-line tools such as psql, pg_restore, etc. These tools allow you to interact with the PostgreSQL database server using the command-line interface.
 -   Stack Builder provides a GUI that allows you to download and install drivers that work with PostgreSQL. You don’t need to install Stack Builder so feel free to uncheck it and click the Next button to select the data directory:
@@ -121,7 +121,7 @@ There are three steps to complete the PostgreSQL installation:
 
 ![](media/21315b5272b1a038700e5f437926a0e5.png)
 
-**Step 2:**  Enter all the information such as Server, Database, Port, Username, and Password. If you press Enter, the program will use the default value specified in the square bracket [] and move the cursor to the new line. For example, localhost is the default database server. In the step for entering the password for user postgres, you need to enter the password the user postgres that you choose during the PostgreSQL installation.
+**Step 2:** Enter all the information such as Server, Database, Port, Username, and Password. If you press Enter, the program will use the default value specified in the square bracket [] and move the cursor to the new line. For example, localhost is the default database server. In the step for entering the password for user postgres, you need to enter the password the user postgres that you choose during the PostgreSQL installation.
 
 ![](media/458547e81475eb9ae6ef37271b8a5829.png)
 
@@ -140,7 +140,7 @@ There are three steps to complete the PostgreSQL installation:
 
 **The following illustrates how to connect to a database using pgAdmin GUI application:**
 
-**Step 1:**  Launch the pgAdmin application.
+**Step 1:** Launch the pgAdmin application.
 
 ![](media/9b03eeb499d692f8dc7139253cb27b64.png)
 
@@ -152,11 +152,11 @@ There are three steps to complete the PostgreSQL installation:
 
 ![](media/03582ee7fb24fa55654755ee44a35606.png)
 
-**Step 3:**  Enter the server name e.g., **PostgreSQL** and click the **Connection** tab:
+**Step 3:** Enter the server name e.g., **PostgreSQL** and click the **Connection** tab:
 
 ![](media/31f47d88564c22d64ef374889ca78473.png)
 
-**Step 4:**  Enter the host and password for the **postgres** user and click the **Save** button:
+**Step 4:** Enter the host and password for the **postgres** user and click the **Save** button:
 
 ![](media/a51cb554334d9a06cb765bcb06b1c013.png)
 
@@ -164,7 +164,7 @@ There are three steps to complete the PostgreSQL installation:
 
 ![](media/0adef6423b92a01f303589a18a02c1c2.png)
 
-**Step 6:**  Open the query tool by choosing the menu item **Tool \> Query Tool** or click the **lightning icon.**
+**Step 6:** Open the query tool by choosing the menu item **Tool \> Query Tool** or click the **lightning icon.**
 
 ![](media/a419c145d2d2937c6bfb8993d5b4f586.png)
 
