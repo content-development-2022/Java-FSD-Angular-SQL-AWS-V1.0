@@ -2,6 +2,20 @@
 
 **Content**
 
+1\. DDL (Data Definition Language)
+
+2\. DDL Commands
+
+2.1 PostgreSQL CREATE TABLE
+
+2.1.1 PostgreSQL CREATE TABLE examples
+
+2.2 PostgreSQL ALTER TABLE statement
+
+2.2.1 PostgreSQL ALTER TABLE examples
+
+2.3 PostgreSQL DROP TABLE
+
 ## 1. DDL (Data Definition Language)
 
 -   DDL or Data definition language is actually the definition or description of the database structure or schema
@@ -33,7 +47,7 @@ In this syntax:
 
 **Note that** some table constraints can be defined as column constraints like primary key, foreign key, check, unique constraints.
 
-# 2.2 PostgreSQL CREATE TABLE examples
+# 2.1.1 PostgreSQL CREATE TABLE examples
 
 Create a new table called **accounts** that has the following columns:
 
@@ -120,7 +134,7 @@ PostgreSQL provides you with many actions:
 
 ![](media/a449db2cfa6b39d53694e883c08ec402.png)
 
-## PostgreSQL ALTER TABLE examples
+## 2.2.1 PostgreSQL ALTER TABLE examples
 
 -   Let’s create a new table called **links** ![](media/c75265a1fa491268d4fa3d94d7b85666.png)
 -   To **add a new column** named **active**, you use the following statement:
