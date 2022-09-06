@@ -34,7 +34,7 @@
 
 **2. SQL Commands**
 
-**3. Types of SQL**
+**3. Categories of SQL**
 
 3.1 Defining Database Structures
 
@@ -165,9 +165,9 @@ Besides the primitive data types, PostgreSQL also provides several special data 
 -   SQL commands are instructions. It is used to communicate with the database. It is also used to perform specific tasks, functions, and queries of data.
 -   SQL can perform various tasks like create a table, add data to tables, drop the table, modify the table, set permission for users.
 
-## 3. Types of SQL
+## 3. Categories of SQL
 
-Five types of widely used SQL queries.
+Five Categories of widely used SQL queries.
 
 -   Data Definition Language (DDL)
 -   Data Manipulation Language (DML)
