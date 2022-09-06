@@ -41,21 +41,21 @@
 
 ## 1.1 Popular Relational/SQL Databases
 
-### 1.1.1 SQL Server
+## 1.1.1 SQL Server
 
 -   SQL Server is a relational database management system developed Microsoft.
 -   They offer multiple editions with varying features to target different users.
 
 ![](media/f105c9b59073b15d2376435a8f174be7.png)
 
-### 1.1.2 MySQL
+## 1.1.2 MySQL
 
 -   First released in 1995, MySQL is a free and open-source software, and one of the most popular databases in the world.
 -   It is used by many high-traffic websites like Facebook and YouTube.
 
 ![](media/840049158c3c36f9e4851d176b4d4f76.png)
 
-### 1.1.3 PostgreSQL
+## 1.1.3 PostgreSQL
 
 -   Where MySQL is based on the relational model, PostgreSQL is based on the object-relational model.
 -   Another free and open-source database, PostgreSQL was released in 1996 with an emphasis on extensibility.
@@ -74,7 +74,7 @@
 
 ## 2.1 Popular Non-Relational/NoSQL Databases
 
-### 2.1.1 MongoDB
+## 2.1.1 MongoDB
 
 -   MongoDB is a document store and currently the most popular NoSQL database engine in use.
 -   It uses JSON-like documents to store data and is run over multiple servers.
@@ -82,7 +82,7 @@
 
 ![](media/2cff214da2c0b7fa0d8c6b30f8c5c8f6.png)
 
-### 2.1.2 Redis
+## 2.1.2 Redis
 
 -   Redis – Remote Dictionary Server – is a key-value store.
 -   It supports different kinds of abstract data structures such as strings, lists, maps, sets, sorted sets, and more. It’s also open-source.
