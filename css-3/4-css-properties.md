@@ -48,6 +48,12 @@
 
 **2.6 CSS Rounded Borders**
 
+**3. CSS Margins**
+
+**3.1 Margin - Individual Sides**
+
+**3.2 Margin - Shorthand Property**
+
 2\. References
 
 # 1. CSS Backgrounds
@@ -478,13 +484,12 @@ border-radius: 5px;
 
 ![](media/452ba409fe5dbedd152a65b658308ef7.png)
 
-# CSS Margins
+# 3. CSS Margins
 
-The CSS margin properties are used to create space around elements, outside of any defined borders.
+-   The CSS margin properties are used to create space around elements, outside of any defined borders.
+-   With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
 
-With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
-
-## Margin - Individual Sides
+## 3.1 Margin - Individual Sides
 
 CSS has properties for specifying the margin for each side of an element:
 
@@ -500,11 +505,11 @@ All the margin properties can have the following values:
 -   *%* - specifies a margin in % of the width of the containing element
 -   inherit - specifies that the margin should be inherited from the parent element
 
-**Tip:** Negative values are allowed.
+**Note:** Negative values are allowed.
 
-### Example
+**Example**
 
-Set different margins for all four sides of a \<p\> element:
+-   Set different margins for all four sides of a \<p\> element:
 
 p {  
 margin-top: 100px;  
@@ -513,11 +518,13 @@ margin-right: 150px;
 margin-left: 80px;  
 }
 
+**Output**
+
 ![](media/efa40900c22b5fe193ee46a26e730a90.png)
 
-## Margin - Shorthand Property
+## 3.2 Margin - Shorthand Property
 
-To shorten the code, it is possible to specify all the margin properties in one property.
+-   To shorten the code, it is possible to specify all the margin properties in one property.
 
 The margin property is a shorthand property for the following individual margin properties:
 
@@ -528,7 +535,7 @@ The margin property is a shorthand property for the following individual margin 
 
 So, here is how it works:
 
-If the margin property has four values:
+**If the margin property has four values:**
 
 -   **margin: 25px 50px 75px 100px;**
     -   top margin is 25px
@@ -536,22 +543,20 @@ If the margin property has four values:
     -   bottom margin is 75px
     -   left margin is 100px
 
-### Example
-
-Use the margin shorthand property with four values:
+**Example**
 
 p {  
 margin: 25px 50px 75px 100px;  
 }
 
-If the margin property has three values:
+**If the margin property has three values:**
 
 -   **margin: 25px 50px 75px;**
     -   top margin is 25px
     -   right and left margins are 50px
     -   bottom margin is 75px
 
-### Example
+**Example**
 
 Use the margin shorthand property with three values:
 
@@ -559,28 +564,24 @@ p {
 margin: 25px 50px 75px;  
 }
 
-If the margin property has two values:
+**If the margin property has two values:**
 
 -   **margin: 25px 50px;**
     -   top and bottom margins are 25px
     -   right and left margins are 50px
 
-### Example
-
-Use the margin shorthand property with two values:
+**Example**
 
 p {  
 margin: 25px 50px;  
 }
 
-If the margin property has one value:
+**If the margin property has one value:**
 
 -   **margin: 25px;**
     -   all four margins are 25px
 
-### Example
-
-Use the margin shorthand property with one value:
+**Example**
 
 p {  
 margin: 25px;  
