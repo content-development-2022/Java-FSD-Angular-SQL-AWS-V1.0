@@ -32,7 +32,7 @@
 
 **Example**
 
-# ![](media/29661c40f09773187ccaec53ecff0c6f.png)
+![](media/29661c40f09773187ccaec53ecff0c6f.png)
 
 With CSS, a color is most often specified by:
 
