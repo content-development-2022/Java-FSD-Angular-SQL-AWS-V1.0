@@ -125,7 +125,7 @@ PostgreSQL provides you with many actions:
 -   Add a constraint to a column.
 -   Rename a table
 
-1) To add a **new column** to a table, you use **ALTER TABLE ADD COLUMN** statement:
+1)To add a **new column** to a table, you use **ALTER TABLE ADD COLUMN** statement:
 
 ![](media/555767639151edae909fa50c64494b62.png)
 
