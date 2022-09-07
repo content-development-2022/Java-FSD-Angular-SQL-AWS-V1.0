@@ -10,7 +10,7 @@
 
 2.1.1 PostgreSQL CREATE TABLE examples
 
-**2.2 PostgreSQL ALTER TABLE statement**
+**2.2 PostgreSQL ALTER TABLE**
 
 2.2.1 PostgreSQL ALTER TABLE examples
 
@@ -62,10 +62,10 @@
 
 In this syntax:
 
--   First, specify the **name of the table** after the CREATE TABLE keywords.
--   Second, creating a table that **already exists** will result in a **error**. The IF NOT EXISTS option allows you to create the new table only if it does not exist. When you use the IF NOT EXISTS option and the table already exists, PostgreSQL issues a notice instead of the error and skips creating the new table.
--   Third, specify a **comma**-separated list of table columns. Each column consists of the column name, the kind of data that column stores, the length of data, and the column constraint. The column constraints specify rules that data stored in the column must follow. For example, the not-null constraint enforces the values in the column cannot be NULL. The column constraints include not null, unique, primary key, check, foreign key constraints.
--   Finally, specify the table constraints including primary key, foreign key, and check constraints.
+-   **First,** specify the **name of the table** after the CREATE TABLE keywords.
+-   **Second,** creating a table that **already exists** will result in a **error**. The IF NOT EXISTS option allows you to create the new table only if it does not exist. When you use the IF NOT EXISTS option and the table already exists, PostgreSQL **issues a notice instead of the error** and skips creating the new table.
+-   **Third,** specify a **comma**-separated list of table columns. Each column consists of the column name, the kind of data that column stores, the length of data, and the column constraint. The column constraints specify rules that data stored in the column must follow. For example, the not-null constraint enforces the values in the column cannot be NULL. The column constraints include not null, unique, primary key, check, foreign key constraints.
+-   **Finally,** specify the table constraints including primary key, foreign key, and check constraints.
 
 **Note that** some table constraints can be defined as column constraints like primary key, foreign key, check, unique constraints.
 
@@ -108,7 +108,7 @@ The following statement creates the accounts table:
 
 ![](media/9cca2675da904da5b531d0341c7405d1.png)
 
-## 2.2 PostgreSQL ALTER TABLE statement
+## 2.2 PostgreSQL ALTER TABLE
 
 -   To change the structure of an existing table, you use PostgreSQL ALTER TABLE statement.
 -   The following illustrates the basic syntax of the ALTER TABLE statement:
@@ -124,35 +124,36 @@ PostgreSQL provides you with many actions:
 -   Set a default value for the column.
 -   Add a constraint to a column.
 -   Rename a table
-1.  To add a **new column** to a table, you use **ALTER TABLE ADD COLUMN** statement:
+
+1) To add a **new column** to a table, you use **ALTER TABLE ADD COLUMN** statement:
 
 ![](media/555767639151edae909fa50c64494b62.png)
 
-1.  To **drop a column** from a table, you use **ALTER TABLE DROP COLUMN** statement:
+2)To **drop a column** from a table, you use **ALTER TABLE DROP COLUMN** statement:
 
 ![](media/bc179679019ee0b46f12491960e78bc4.png)
 
-1.  To **rename a column**, you use the **ALTER TABLE RENAME COLUMN TO** statement:
+3)To **rename a column**, you use the **ALTER TABLE RENAME COLUMN TO** statement:
 
 ![](media/bca46fe14cae85797f419968cddf1a63.png)
 
-1.  To change a **default value** of the column, you use **ALTER TABLE ALTER COLUMN SET DEFAULT or DROP DEFAULT:**
+4)To change a **default value** of the column, you use **ALTER TABLE ALTER COLUMN SET DEFAULT or DROP DEFAULT:**
 
 ![](media/f53e883a7ced03e2e9dd6f46e36702a0.png)
 
-1.  To change the **NOT NULL constraint**, you use **ALTER TABLE ALTER COLUMN** statement:
+5)To change the **NOT NULL constraint**, you use **ALTER TABLE ALTER COLUMN** statement:
 
 ![](media/5db5d3a445f9cd7522ada35d83de6e29.png)
 
-1.  To add a **CHECK constraint**, you use **ALTER TABLE ADD CHECK** statement:
+6)To add a **CHECK constraint**, you use **ALTER TABLE ADD CHECK** statement:
 
 ![](media/f0dfdadcca8e02f873104e5cdb344701.png)
 
-1.  To **add a constraint** to a table, you use **ALTER TABLE ADD CONSTRAINT** statement:
+7)To **add a constraint** to a table, you use **ALTER TABLE ADD CONSTRAINT** statement:
 
 ![](media/f7732548f618724b0751f0cb765113a0.png)
 
-1.  To **rename a table** you use **ALTER TABLE RENAME TO** statement:
+8)To **rename a table** you use **ALTER TABLE RENAME TO** statement:
 
 ![](media/a449db2cfa6b39d53694e883c08ec402.png)
 
