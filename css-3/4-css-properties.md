@@ -54,6 +54,12 @@
 
 **3.2 Margin - Shorthand Property**
 
+**4. CSS Padding**
+
+**4.1 Padding - Individual Sides**
+
+**4.2 Padding - Shorthand Property**
+
 2\. References
 
 # 1. CSS Backgrounds
@@ -587,13 +593,12 @@ p {
 margin: 25px;  
 }
 
-# CSS Padding
+# 4. CSS Padding
 
-The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+-   The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+-   With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
 
-With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
-
-## Padding - Individual Sides
+## 4.1 Padding - Individual Sides
 
 CSS has properties for specifying the padding for each side of an element:
 
@@ -610,9 +615,9 @@ All the padding properties can have the following values:
 
 **Note:** Negative values are not allowed.
 
-### Example
+**Example**
 
-Set different padding for all four sides of a \<div\> element:
+-   Set different padding for all four sides of a \<div\> element:
 
 div {  
 padding-top: 50px;  
@@ -621,9 +626,9 @@ padding-bottom: 50px;
 padding-left: 80px;  
 }
 
-## Padding - Shorthand Property
+## 4.2 Padding - Shorthand Property
 
-To shorten the code, it is possible to specify all the padding properties in one property.
+-   To shorten the code, it is possible to specify all the padding properties in one property.
 
 The padding property is a shorthand property for the following individual padding properties:
 
@@ -634,7 +639,7 @@ The padding property is a shorthand property for the following individual paddin
 
 So, here is how it works:
 
-If the padding property has four values:
+**If the padding property has four values:**
 
 -   **padding: 25px 50px 75px 100px;**
     -   top padding is 25px
@@ -642,51 +647,43 @@ If the padding property has four values:
     -   bottom padding is 75px
     -   left padding is 100px
 
-### Example
-
-Use the padding shorthand property with four values:
+**Example**
 
 div {  
 padding: 25px 50px 75px 100px;  
 }
 
-If the padding property has three values:
+**If the padding property has three values:**
 
 -   **padding: 25px 50px 75px;**
     -   top padding is 25px
     -   right and left paddings are 50px
     -   bottom padding is 75px
 
-### Example
-
-Use the padding shorthand property with three values:
+**Example**
 
 div {  
 padding: 25px 50px 75px;  
 }
 
-If the padding property has two values:
+**If the padding property has two values:**
 
 -   **padding: 25px 50px;**
     -   top and bottom paddings are 25px
     -   right and left paddings are 50px
 
-### Example
-
-Use the padding shorthand property with two values:
+**Example**
 
 div {  
 padding: 25px 50px;  
 }
 
-If the padding property has one value:
+**If the padding property has one value:**
 
 -   **padding: 25px;**
     -   all four paddings are 25px
 
-### Example
-
-Use the padding shorthand property with one value:
+**Example**
 
 div {  
 padding: 25px;  
