@@ -4,11 +4,11 @@
 
 **1. CSS Backgrounds**
 
-1.1 CSS background-color
+**1.1 CSS background-color**
 
-1.2 CSS background-image
+**1.2 CSS background-image**
 
-1.3 CSS Background Image Repeat
+**1.3 CSS Background Image Repeat**
 
 1.3.1 CSS background-repeat
 
@@ -16,17 +16,17 @@
 
 1.3.3 CSS background-position
 
-1.4 CSS background-attachment
+**1.4 CSS background-attachment**
 
-1.5 CSS background - Shorthand property
+**1.5 CSS background - Shorthand property**
 
 **2. CSS Borders**
 
-2.1 CSS Border Style
+**2.1 CSS Border Style**
 
-2.2 border-width
+**2.2 border-width**
 
-2.3 CSS Border Color
+**2.3 CSS Border Color**
 
 2.3.1 Specific Side Colors
 
@@ -36,57 +36,31 @@
 
 2.3.1.3 HSL Values
 
-2.4 CSS Border Sides
+**2.4 CSS Border Sides**
 
 2.4.1 CSS Border - Individual Sides
 
-2.5 CSS Border - Shorthand Property
+**2.5 CSS Border - Shorthand Property**
 
 2.5.1 Left Border
 
 2.5.2 Bottom Border
 
-2.6 CSS Rounded Borders
+**2.6 CSS Rounded Borders**
 
 **3. CSS Margins**
 
-3.1 Margin - Individual Sides
+**3.1 Margin - Individual Sides**
 
-3.2 Margin - Shorthand Property
+**3.2 Margin - Shorthand Property**
 
 **4. CSS Padding**
 
-4.1 Padding - Individual Sides
+**4.1 Padding - Individual Sides**
 
-4.2 Padding - Shorthand Property
+**4.2 Padding - Shorthand Property**
 
-**5. CSS Height, Width and Max-width**
-
-5.1 CSS Setting height and width
-
-5.2 CSS height and width Values
-
-5.3 CSS height and width Examples
-
-5.4 Setting max-width
-
-**6. CSS Text**
-
-6.1 Text Color
-
-6.2 Text Color and Background Color
-
-6.3 CSS Text Alignment and Text Direction
-
-6.3.1 Text Alignment
-
-6.3.2 Text Align Last
-
-6.4 Text Direction
-
-6.4.1 Vertical Alignment
-
-**7. References**
+2\. References
 
 # 1. CSS Backgrounds
 
@@ -786,11 +760,9 @@ background-color: powderblue;
 
 # 6. CSS Text
 
-## 6.1 Text Color
+## Text Color
 
--   The color property is used to set the color of the text.
-
-The color is specified by:
+The color property is used to set the color of the text. The color is specified by:
 
 -   a color name - like "red"
 -   a HEX value - like "\#ff0000"
@@ -798,17 +770,15 @@ The color is specified by:
 
 Look at [CSS Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) for a complete list of possible color values.
 
--   The default text color for a page is defined in the body selector.
+The default text color for a page is defined in the body selector.
 
-**Example**
+### Example
 
-body { color: blue; } h1 { color: green; }
-
-### 6.2 Text Color and Background Color
+## body { color: blue; } h1 { color: green; }Text Color and Background Color
 
 In this example, we define both the background-color property and the color property:
 
-**Example**
+### Example
 
 body {  
 background-color: lightgrey;  
@@ -825,18 +795,25 @@ background-color: blue;
 color: white;  
 }
 
-**Note:** High contrast is very important for people with vision problems. So, always ensure that the contrast between the text color and the background color (or background image) is good!
+## Important: High contrast is very important for people with vision problems. So, always ensure that the contrast between the text color and the background color (or background image) is good! CSS Text Alignment and Text Direction
 
-## 6.3 CSS Text Alignment and Text Direction
+In this chapter you will learn about the following properties:
 
-## 6.3.1 Text Alignment
+-   text-align
+-   text-align-last
+-   direction
+-   unicode-bidi
+-   vertical-align
 
--   The text-align property is used to set the horizontal alignment of a text.
--   A text can be left or right aligned, centered, or justified.
+## Text Alignment
+
+The text-align property is used to set the horizontal alignment of a text.
+
+A text can be left or right aligned, centered, or justified.
 
 The following example shows center aligned, and left and right aligned text (left alignment is default if text direction is left-to-right, and right alignment is default if text direction is right-to-left):
 
-**Example**
+### Example
 
 h1 {  
 text-align: center;  
@@ -850,23 +827,21 @@ h3 {
 text-align: right;  
 }
 
-**Output**
-
 ![](media/57849ea65ac1954cc9f0b6bf867202e6.png)
 
--   When the text-align property is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers):
+When the text-align property is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers):
 
-**Example**
+### Example
 
 div {  
 text-align: justify;  
 }
 
-## 6.3.2 Text Align Last
+## Text Align Last
 
--   The text-align-last property specifies how to align the last line of a text.
+The text-align-last property specifies how to align the last line of a text.
 
-**Example**
+### Example
 
 Align the last line of text in three \<p\> elements:
 
@@ -882,22 +857,22 @@ p.c {
 text-align-last: justify;  
 }
 
-## 6.4 Text Direction
+## Text Direction
 
--   The direction and unicode-bidi properties can be used to change the text direction of an element:
+The direction and unicode-bidi properties can be used to change the text direction of an element:
 
-**Example**
+### Example
 
 p {  
 direction: rtl;  
 unicode-bidi: bidi-override;  
 }
 
-## 6.4.1 Vertical Alignment
+## Vertical Alignment
 
--   The vertical-align property sets the vertical alignment of an element.
+The vertical-align property sets the vertical alignment of an element.
 
-**Example**
+### Example
 
 Set the vertical alignment of an image in a text:
 
@@ -921,7 +896,7 @@ img.e {
 vertical-align: super;  
 }
 
-# 7. References
+# References
 
 1.  https://www.w3schools.com/css/css_background.asp
 2.  https://www.w3schools.com/css/css_border.asp
