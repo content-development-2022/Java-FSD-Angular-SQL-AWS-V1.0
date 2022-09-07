@@ -179,7 +179,7 @@ PostgreSQL provides you with many actions:
 
 ![](media/2653ff1b1081679a14cb8e1e5dd4cec7.png)
 
--   To **set \_blank** as the **default value** for the **target** column in the **links** table, you use the following statement:
+-   To set **\_blank** as the **default value** for the **target** column in the **links** table, you use the following statement:
 
 ![](media/0bc2b7a620617edf96eb6d5005f18626.png)
 
@@ -225,8 +225,8 @@ PostgreSQL provides you with many actions:
 
 In this syntax:
 
--   First, specify the **name of the table** that you want to drop after the DROP TABLE keywords.
--   Second, use the **IF EXISTS** option to remove the table only if it exists.
+-   **First,** specify the **name of the table** that you want to drop after the DROP TABLE keywords.
+-   **Second,** use the **IF EXISTS** option to remove the table only if it exists.
 -   If you remove a **table** that **does not exist**, PostgreSQL **issues an error**. To avoid this situation, you can use the IF EXISTS option.
 
 In case the table that you want to remove is used in other objects such as views, triggers, functions, and stored procedures, the DROP TABLE cannot remove the table. In this case, you have two options:
@@ -244,15 +244,15 @@ To **remove multiple** **tables** at once, you can place a comma-separated list 
 
 ### 2.3.1.1 Drop a table that does not exist
 
-The following statement **removes** a table named **author** in the database:
+-   The following statement **removes** a table named **author** in the database:
 
 ![](media/412d06df113445cba02825ce1fd8f386.png)
 
-PostgreSQL issues an error because the author table does not exist.
+-   PostgreSQL issues an error because the author table does not exist.
 
 ![](media/b3a2dfbd15767acb476cabc98e4b3579.png)
 
-To avoid the error, you can use the IF EXISTS option like this.
+-   To avoid the error, you can use the IF EXISTS option like this.
 
 ![](media/4f6b3c4ebdb021321f32eca16aaf9ac9.png)
 
