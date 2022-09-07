@@ -804,7 +804,7 @@ Look at [CSS Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp
 
 body { color: blue; } h1 { color: green; }
 
-### 6.2 Text Color and Background Color
+## 6.2 Text Color and Background Color
 
 In this example, we define both the background-color property and the color property:
 
@@ -921,7 +921,7 @@ img.e {
 vertical-align: super;  
 }
 
-# 7. References
+## 7. References
 
 1.  https://www.w3schools.com/css/css_background.asp
 2.  https://www.w3schools.com/css/css_border.asp
