@@ -495,6 +495,10 @@ border-radius: 5px;
 -   The CSS margin properties are used to create space around elements, outside of any defined borders.
 -   With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
 
+**Example**
+
+![](media/89ebf2c8cbdd606e8cdd95c0a4e9bffd.png)
+
 ## 3.1 Margin - Individual Sides
 
 CSS has properties for specifying the margin for each side of an element:
@@ -625,6 +629,10 @@ padding-right: 30px;
 padding-bottom: 50px;  
 padding-left: 80px;  
 }
+
+**Output**
+
+![](media/3a62dcb1268d9ce7a01fbc10e6c2dc47.png)
 
 ## 4.2 Padding - Shorthand Property
 
