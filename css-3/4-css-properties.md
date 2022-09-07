@@ -36,15 +36,17 @@
 
 2.3.1.3 HSL Values
 
-2.3.2 CSS Border - Individual Sides
+**2.4 CSS Border Sides**
 
-**2.4 CSS Border - Shorthand Property**
+2.4.1 CSS Border - Individual Sides
 
-2.4.1 Left Border
+**2.5 CSS Border - Shorthand Property**
 
-2.4.2 Bottom Border
+2.5.1 Left Border
 
-**2.5 CSS Rounded Borders**
+2.5.2 Bottom Border
+
+**2.6 CSS Rounded Borders**
 
 2\. References
 
@@ -341,7 +343,9 @@ border-style: solid;
 border-color: hsl(0, 100%, 50%); /\* red \*/  
 }
 
-## 2.3.2 CSS Border - Individual Sides
+## 2.4 CSS Border Sides
+
+## 2.4.1 CSS Border - Individual Sides
 
 -   From the examples above, you have seen that it is possible to specify a different border for each side.
 -   In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left):
@@ -413,7 +417,7 @@ border-style: dotted;
 
 ![](media/ae9b859673a57736ce1c3a44f6129652.png)
 
-## 2.4 CSS Border - Shorthand Property
+## 2.5 CSS Border - Shorthand Property
 
 -   To shorten the code, it is also possible to specify all the individual border properties in one property.
 
@@ -435,7 +439,7 @@ border: 5px solid red;
 
 You can also specify all the individual border properties for just one side:
 
-### 2.4.1 Left Border
+### 2.5.1 Left Border
 
 **Example**
 
@@ -447,7 +451,7 @@ border-left: 6px solid red;
 
 ![](media/beec4f3c365404192238bd56ca51b096.png)
 
-### 2.4.2 Bottom Border
+### 2.5.2 Bottom Border
 
 **Example**
 
@@ -459,7 +463,7 @@ border-bottom: 6px solid red;
 
 ![](media/eb4f22af52ae378f22ee37385557ab7d.png)
 
-## 2.5 CSS Rounded Borders
+## 2.6 CSS Rounded Borders
 
 -   The border-radius property is used to add rounded borders to an element:
 
