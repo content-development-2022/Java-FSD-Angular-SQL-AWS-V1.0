@@ -20,6 +20,32 @@
 
 **1.5 CSS background - Shorthand property**
 
+**2. CSS Borders**
+
+**2.1 CSS Border Style**
+
+**2.2 border-width**
+
+**2.3 CSS Border Color**
+
+2.3.1 Specific Side Colors
+
+2.3.1.1 HEX Values
+
+2.3.1.2 RGB Values
+
+2.3.1.3 HSL Values
+
+2.3.2 CSS Border - Individual Sides
+
+**2.4 CSS Border - Shorthand Property**
+
+2.4.1 Left Border
+
+2.4.2 Bottom Border
+
+**2.5 CSS Rounded Borders**
+
 2\. References
 
 # 1. CSS Backgrounds
@@ -152,15 +178,17 @@ When using the shorthand property the order of the property values is:
 
 It does not matter if one of the property values is missing, as long as the other ones are in this order. Note that we do not use the background-attachment property in the examples above, as it does not have a value.
 
-# CSS Borders
+# 2. CSS Borders
 
-The CSS border properties allow you to specify the style, width, and color of an element's border.
+-   The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+**Example**
 
 ![](media/5fab43672ca1615bc5e60ccb4eb938c4.png)
 
-## CSS Border Style
+## 2.1 CSS Border Style
 
-The border-style property specifies what kind of border to display.
+-   The border-style property specifies what kind of border to display.
 
 The following values are allowed:
 
@@ -177,9 +205,9 @@ The following values are allowed:
 
 The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
 
-### Example
+**Example**
 
-Demonstration of the different border styles:
+-   Demonstration of the different border styles:
 
 p.dotted {border-style: dotted;}  
 p.dashed {border-style: dashed;}  
@@ -193,23 +221,18 @@ p.none {border-style: none;}
 p.hidden {border-style: hidden;}  
 p.mix {border-style: dotted dashed solid double;}
 
+**Output**
+
 ![](media/ae2ef0cb9ea0ede2f7ebca055ceac1bf.png)
 
-**Note:** None of the OTHER CSS border properties (which you will learn more about in the next chapters) will have ANY effect unless the border-style property is set!
+## 2.2 border-width
 
-# 2. References
+-   The **border-width** property specifies the width of the four borders.
+-   The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: **thin, medium, or thick:**
 
-<https://www.w3schools.com/css/css_background.asp>
+**Example**
 
-## https://www.w3schools.com/css/css_border.aspCSS Border Width
-
-The border-width property specifies the width of the four borders.
-
-The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:
-
-### Example
-
-Demonstration of the different border widths:
+-   Demonstration of the different border widths:
 
 p.one {  
 border-style: solid;  
@@ -231,11 +254,13 @@ border-style: dotted;
 border-width: thick;  
 }
 
+**Output**
+
 ![](media/3b27420dea9b9e9d5dbc62192ca8ef5a.png)
 
-## CSS Border Color
+## 2.3 CSS Border Color
 
-The border-color property is used to set the color of the four borders.
+-   The border-color property is used to set the color of the four borders.
 
 The color can be set by:
 
@@ -247,9 +272,9 @@ The color can be set by:
 
 **Note:** If border-color is not set, it inherits the color of the element.
 
-### Example
+**Example**
 
-Demonstration of the different border colors:
+-   Demonstration of the different border colors:
 
 p.one {  
 border-style: solid;  
@@ -266,61 +291,62 @@ border-style: dotted;
 border-color: blue;  
 }
 
+**Output**
+
 ![](media/b15d0ebe0e9ad4f92c44eefda470ae31.png)
 
-## Specific Side Colors
+## 2.3.1 Specific Side Colors
 
-The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border).
+-   The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border).
 
-### Example
+**Example**
 
 p.one {  
 border-style: solid;  
 border-color: red green blue yellow; /\* red top, green right, blue bottom and yellow left \*/  
 }
 
-## ![](media/0961891a9d9a5125e9153ea055f7ad7b.png)HEX Values
+**Output![](media/87fff097c995ef99c42c9561d79310c7.png)**
+
+## 2.3.1.1 HEX Values
 
 The color of the border can also be specified using a hexadecimal value (HEX):
 
-### Example
+**Example**
 
 p.one {  
 border-style: solid;  
 border-color: \#ff0000; /\* red \*/  
 }
 
-## RGB Values
+## 2.3.1.2 RGB Values
 
-Or by using RGB values:
+-   You can also use RGB values:
 
-### Example
+**Example**
 
 p.one {  
 border-style: solid;  
 border-color: rgb(255, 0, 0); /\* red \*/  
 }
 
-[Try it Yourself »](https://www.w3schools.com/css/tryit.asp?filename=trycss_border-color-rgb)
+## 2.3.1.3 HSL Values
 
-## HSL Values
+-   You can also use HSL values:
 
-You can also use HSL values:
-
-### Example
+**Example**
 
 p.one {  
 border-style: solid;  
 border-color: hsl(0, 100%, 50%); /\* red \*/  
 }
 
-## CSS Border - Individual Sides
+## 2.3.2 CSS Border - Individual Sides
 
-From the examples on the previous pages, you have seen that it is possible to specify a different border for each side.
+-   From the examples above, you have seen that it is possible to specify a different border for each side.
+-   In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left):
 
-In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left):
-
-### Example
+**Example**
 
 p {  
 border-top-style: dotted;  
@@ -328,6 +354,8 @@ border-right-style: solid;
 border-bottom-style: dotted;  
 border-left-style: solid;  
 }
+
+**Output**
 
 ![](media/5234bf5e15a59ef0ee9fe966982dfaed.png)
 
@@ -359,7 +387,7 @@ If the border-style property has one value:
 -   **border-style: dotted;**
     -   all four borders are dotted
 
-### Example
+**Example**
 
 /\* Four values \*/  
 p {  
@@ -381,15 +409,13 @@ p {
 border-style: dotted;  
 }
 
-[Try it Yourself »](https://www.w3schools.com/css/tryit.asp?filename=trycss_border-side3)
+**Output**
 
 ![](media/ae9b859673a57736ce1c3a44f6129652.png)
 
-## CSS Border - Shorthand Property
+## 2.4 CSS Border - Shorthand Property
 
-Like you saw in the previous page, there are many properties to consider when dealing with borders.
-
-To shorten the code, it is also possible to specify all the individual border properties in one property.
+-   To shorten the code, it is also possible to specify all the individual border properties in one property.
 
 The border property is a shorthand property for the following individual border properties:
 
@@ -397,48 +423,58 @@ The border property is a shorthand property for the following individual border 
 -   border-style (required)
 -   border-color
 
-### Example
+**Example**
 
 p {  
 border: 5px solid red;  
 }
 
+**Output**
+
 ![](media/e7fa7d0f90a6bc591765273d01835b40.png)
 
 You can also specify all the individual border properties for just one side:
 
-### Left Border
+### 2.4.1 Left Border
+
+**Example**
 
 p {  
 border-left: 6px solid red;  
 }
 
+**Output**
+
 ![](media/beec4f3c365404192238bd56ca51b096.png)
 
-### Bottom Border
+### 2.4.2 Bottom Border
+
+**Example**
 
 p {  
 border-bottom: 6px solid red;  
 }
 
+**Output**
+
 ![](media/eb4f22af52ae378f22ee37385557ab7d.png)
 
-## CSS Rounded Borders
+## 2.5 CSS Rounded Borders
 
-The border-radius property is used to add rounded borders to an element:
+-   The border-radius property is used to add rounded borders to an element:
 
-### Example
+**Example**
 
 p {  
 border: 2px solid red;  
 border-radius: 5px;  
 }
 
+**Output**
+
 ![](media/452ba409fe5dbedd152a65b658308ef7.png)
 
 # CSS Margins
-
-## CSS Margins
 
 The CSS margin properties are used to create space around elements, outside of any defined borders.
 
@@ -854,3 +890,9 @@ vertical-align: sub;
 img.e {  
 vertical-align: super;  
 }
+
+# 2. References
+
+<https://www.w3schools.com/css/css_background.asp>
+
+## https://www.w3schools.com/css/css_border.aspCSS Border Width
