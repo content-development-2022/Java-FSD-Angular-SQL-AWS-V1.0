@@ -602,6 +602,10 @@ margin: 25px;
 -   The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
 -   With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
 
+**Example**
+
+![](media/58118516ada046a502851487bc582b15.png)
+
 ## 4.1 Padding - Individual Sides
 
 CSS has properties for specifying the padding for each side of an element:
