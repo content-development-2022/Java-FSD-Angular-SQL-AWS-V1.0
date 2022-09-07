@@ -270,7 +270,7 @@ To **remove multiple** **tables** at once, you can place a comma-separated list 
 
 ![](media/7874d64f27b549b5bbe71e4aed2b1573.png)
 
-Because the constraint on the page table depends on the author table, PostgreSQL issues an error message:
+-   Because the constraint on the page table depends on the author table, PostgreSQL issues an error message:
 
 ![](media/3eef7e816a3841caa6f1a415ce2e5ef5.png)
 
