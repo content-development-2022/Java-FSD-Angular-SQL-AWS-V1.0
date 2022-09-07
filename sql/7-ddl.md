@@ -16,6 +16,28 @@
 
 **2.3 PostgreSQL DROP TABLE**
 
+2.3.1 PostgreSQL DROP TABLE examples
+
+2.3.1.1 Drop a table that does not exist
+
+2.3.1.2 Drop a table that has dependent objects
+
+2.3.1.3 Drop multiple tables
+
+**2.4 PostgreSQL TRUNCATE TABLE**
+
+2.4.1 Remove all data from one table
+
+2.4.2 Remove all data from multiple tables
+
+2.4.3 Remove all data from a table that has foreign key references
+
+2.4.4 PostgreSQL TRUNCATE TABLE and ON DELETE trigger
+
+2.4.5 PostgreSQL TRUNCATE TABLE and transaction
+
+**3. References**
+
 ## 1. DDL (Data Definition Language)
 
 -   DDL or Data definition language is actually the definition or description of the database structure or schema
@@ -102,36 +124,35 @@ PostgreSQL provides you with many actions:
 -   Set a default value for the column.
 -   Add a constraint to a column.
 -   Rename a table
-
-1) To add a **new column** to a table, you use **ALTER TABLE ADD COLUMN** statement:
+1.  To add a **new column** to a table, you use **ALTER TABLE ADD COLUMN** statement:
 
 ![](media/555767639151edae909fa50c64494b62.png)
 
-2) To **drop a column** from a table, you use **ALTER TABLE DROP COLUMN** statement:
+1.  To **drop a column** from a table, you use **ALTER TABLE DROP COLUMN** statement:
 
 ![](media/bc179679019ee0b46f12491960e78bc4.png)
 
-3) To **rename a column**, you use the **ALTER TABLE RENAME COLUMN TO** statement:
+1.  To **rename a column**, you use the **ALTER TABLE RENAME COLUMN TO** statement:
 
 ![](media/bca46fe14cae85797f419968cddf1a63.png)
 
-4) To change a **default value** of the column, you use **ALTER TABLE ALTER COLUMN SET DEFAULT or DROP DEFAULT:**
+1.  To change a **default value** of the column, you use **ALTER TABLE ALTER COLUMN SET DEFAULT or DROP DEFAULT:**
 
 ![](media/f53e883a7ced03e2e9dd6f46e36702a0.png)
 
-5) To change the **NOT NULL constraint**, you use **ALTER TABLE ALTER COLUMN** statement:
+1.  To change the **NOT NULL constraint**, you use **ALTER TABLE ALTER COLUMN** statement:
 
 ![](media/5db5d3a445f9cd7522ada35d83de6e29.png)
 
-6) To add a **CHECK constraint**, you use **ALTER TABLE ADD CHECK** statement:
+1.  To add a **CHECK constraint**, you use **ALTER TABLE ADD CHECK** statement:
 
 ![](media/f0dfdadcca8e02f873104e5cdb344701.png)
 
-7) To **add a constraint** to a table, you use **ALTER TABLE ADD CONSTRAINT** statement:
+1.  To **add a constraint** to a table, you use **ALTER TABLE ADD CONSTRAINT** statement:
 
 ![](media/f7732548f618724b0751f0cb765113a0.png)
 
-8) To **rename a table** you use **ALTER TABLE RENAME TO** statement:
+1.  To **rename a table** you use **ALTER TABLE RENAME TO** statement:
 
 ![](media/a449db2cfa6b39d53694e883c08ec402.png)
 
@@ -197,35 +218,32 @@ PostgreSQL provides you with many actions:
 
 # 2.3 PostgreSQL DROP TABLE
 
-To drop a table from the database, you use the DROP TABLE statement as follows:
+-   To drop a table from the database, you use the DROP TABLE statement as follows:
 
 ![](media/5fafe89f66d7809b2218dd6e900fd575.png)
 
 In this syntax:
 
--   First, specify the name of the table that you want to drop after the DROP TABLE keywords.
--   Second, use the IF EXISTS option to remove the table only if it exists.
+-   First, specify the **name of the table** that you want to drop after the DROP TABLE keywords.
+-   Second, use the **IF EXISTS** option to remove the table only if it exists.
+-   If you remove a **table** that **does not exist**, PostgreSQL **issues an error**. To avoid this situation, you can use the IF EXISTS option.
 
-If you remove a table that does not exist, PostgreSQL issues an error. To avoid this situation, you can use the IF EXISTS option.
+In case the table that you want to remove is used in other objects such as views, triggers, functions, and stored procedures, the DROP TABLE cannot remove the table. In this case, you have two options:
 
-In case the table that you want to remove is used in other objects such as [views](https://www.postgresqltutorial.com/postgresql-views/), [triggers](https://www.postgresqltutorial.com/postgresql-triggers/), functions, and [stored procedures](https://www.postgresqltutorial.com/postgresql-stored-procedures/), the DROP TABLE cannot remove the table. In this case, you have two options:
+-   The **CASCADE** option allows you to remove the table and its dependent objects.
+-   The **RESTRICT** option rejects the removal if there is any object depends on the table. The RESTRICT option is the **default** if you don’t explicitly specify it in the DROP TABLE statement.
 
--   The CASCADE option allows you to remove the table and its dependent objects.
--   The RESTRICT option rejects the removal if there is any object depends on the table. The RESTRICT option is the default if you don’t explicitly specify it in the DROP TABLE statement.
-
-To remove multiple tables at once, you can place a comma-separated list of tables after the DROP TABLE keywords:
+To **remove multiple** **tables** at once, you can place a comma-separated list of tables after the DROP TABLE keywords:
 
 ![](media/8a1ce939ec88bdfa10e70eac21cb0031.png)
 
-Note that you need to have the roles of the superuser, schema owner, or table owner in order to drop tables.
+-   **Note** that you need to have the roles of the super user, schema owner, or table owner in order to drop tables.
 
-## PostgreSQL DROP TABLE examples
+## 2.3.1 PostgreSQL DROP TABLE examples
 
-Let’s take some examples of using the PostgreSQL DROP TABLE statement
+### 2.3.1.1 Drop a table that does not exist
 
-### 1) Drop a table that does not exist
-
-The following statement removes a table named authorin the database:
+The following statement **removes** a table named **author** in the database:
 
 ![](media/412d06df113445cba02825ce1fd8f386.png)
 
@@ -239,127 +257,107 @@ To avoid the error, you can use the IF EXISTS option like this.
 
 ![](media/2b2be0e369fa002a708c054c2be838d8.png)
 
-As can be seen clearly from the output, PostgreSQL issued a notice instead of an error.
+-   As can be seen clearly from the output, PostgreSQL issued a notice instead of an error.
 
-### 2) Drop a table that has dependent objects
+### 2.3.1.2 Drop a table that has dependent objects
 
-The following [creates new tables](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-create-table/) called authors and pages:
+-   The following creates **new tables** called **authors** and **pages**:
 
 ![](media/eead19a91b5e7df8f01dde7697e5f78c.png)
 
-The following statement uses the DROP TABLE to drop the authortable:
+-   The following statement uses the **DROP TABLE** to drop the **author** table:
 
 ![](media/7874d64f27b549b5bbe71e4aed2b1573.png)
 
-Because the constraint on the page table depends on the authortable, PostgreSQL issues an error message:
+Because the constraint on the page table depends on the author table, PostgreSQL issues an error message:
 
 ![](media/3eef7e816a3841caa6f1a415ce2e5ef5.png)
 
-In this case, you need to remove all dependent objects first before dropping the author table or use CASCADE option as follows:
+-   In this case, you need to remove all dependent objects first before dropping the author table or use CASCADE option as follows:
 
 ![](media/ea474abd140bff5f826b7f423ef26c5a.png)
 
-PostgreSQL removes the authortable as well as the constraint in the page table.
-
-If the DROP TABLE statement removes the dependent objects of the table that is being dropped, it will issue a notice like this:
+-   PostgreSQL removes the author table as well as the constraint in the page table.
+-   If the DROP TABLE statement removes the dependent objects of the table that is being dropped, it will issue a notice like this:
 
 ![](media/232a8e9f1f1b367b6d2597909c895997.png)
 
-### 3) Drop multiple tables
+### 2.3.1.3 Drop multiple tables
 
-The following statements create two tables for the demo purposes:
+-   The following statements create two tables for the demo purposes:
 
 ![](media/09a17b025301d2bd1a6c8500c8e50dd4.png)
 
-The following example uses a single DROP TABLE statement to drop the tvshows and animes tables:
+-   The following example uses a single DROP TABLE statement to drop the tvshows and animes tables:
 
 ![](media/e022c7a5358b06c98e05113cb357c0a4.png)
 
-## Summary
+# 2.4 PostgreSQL TRUNCATE TABLE
 
--   Use the DROP TABLE statement to drop a table.
--   Use the CASCADE option to drop a table and all of it dependent objects.
-
-# PostgreSQL TRUNCATE TABLE
-
-## Introduction to PostgreSQL TRUNCATE TABLE statement
-
-To remove all data from a table, you use the [DELETE](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-delete/) statement. However, when you use the DELETE statement to delete all data from a table that has a lot of data, it is not efficient. In this case, you need to use the TRUNCATE TABLE statement:
+-   To remove all data from a table, you use the **DELETE** statement. However, when you use the DELETE statement to delete all data from a table that has a lot of data, it is **not efficient**. In this case, you need to use the **TRUNCATE TABLE** statement:
 
 ![](media/880747d22dcb92248acce0e31c8b867f.png)
 
-The TRUNCATE TABLE statement deletes all data from a table without scanning it. This is the reason why it is faster than the DELETE statement.
+-   The TRUNCATE TABLE statement deletes all data from a table without scanning it. This is the reason why it is faster than the DELETE statement.
+-   In addition, the TRUNCATE TABLE statement reclaims the storage right away so you do not have to perform a subsequent VACUMM operation, which is useful in the case of large tables.
 
-In addition, the TRUNCATE TABLE statement reclaims the storage right away so you do not have to perform a subsequent VACUMM operation, which is useful in the case of large tables.
+## 2.4.1 Remove all data from one table
 
-## Remove all data from one table
-
-The simplest form of the TRUNCATE TABLE statement is as follows:
+-   The simplest form of the TRUNCATE TABLE statement is as follows:
 
 ![](media/2a92141eedd705c08c46437c9da4bc71.png)
 
-The following example uses the TRUNCATE TABLE statement to delete all data from the invoices table:
+-   The following example uses the TRUNCATE TABLE statement to delete all data from the invoices table:
 
 ![](media/8470eb7fb3ac82ad0839c059a091b417.png)
 
-Besides removing data, you may want to reset the values in the [identity column](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-identity-column/) by using the RESTART IDENTITY option like this:
+-   Besides removing data, you may want to reset the values in the identity column by using the **RESTART IDENTITY** option like this:
 
 ![](media/9164ac9b3c4aad418eef1c4d8d5e3d8e.png)
 
-For example, the following statement removes all rows from the invoices table and resets the [sequence](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-sequences/) associated with the invoice_no column:
+-   For example, the following statement removes all rows from the invoices table and resets the sequence associated with the invoice_no column:
 
 ![](media/91f5a0cba17d641817158e9e0bc8fe8e.png)
 
-By default, the TRUNCATE TABLE statement uses the CONTINUE IDENTITY option. This option basically does not restart the value in sequence associated with the column in the table.
+-   **By default**, the TRUNCATE TABLE statement uses the **CONTINUE IDENTITY** option. This option basically does not restart the value in sequence associated with the column in the table.
 
-## Remove all data from multiple tables
+## 2.4.2 Remove all data from multiple tables
 
-To remove all data from multiple tables at once, you separate each table by a comma (,) as follows:
+-   To remove all data from multiple tables at once, you separate each table by a comma (,) as follows:
 
 ![](media/fe08fece8f3cebda7ba2a900b4c2b37d.png)
 
-For example, the following statement removes all data from invoices and customers tables:
+-   For example, the following statement removes all data from invoices and customers tables:
 
 ![](media/1ef32d81333469876cd5dfe5b627cf7b.png)
 
-## Remove all data from a table that has foreign key references
+## 2.4.3 Remove all data from a table that has foreign key references
 
-In practice, the table you want to truncate often has the [foreign key](https://www.postgresqltutorial.com/postgresql-foreign-key/) references from other tables that are not listed in the TRUNCATE TABLE statement.
-
-By default, the TRUNCATE TABLE statement does not remove any data from the table that has foreign key references.
-
-To remove data from a table and other tables that have foreign key reference the table, you use CASCADE option in the TRUNCATE TABLE statement as follows :
+-   In practice, the table you want to truncate often has the foreign key references from other tables that are not listed in the TRUNCATE TABLE statement.
+-   By default, the TRUNCATE TABLE statement does not remove any data from the table that has foreign key references.
+-   To remove data from a table and other tables that have foreign key reference the table, you use CASCADE option in the TRUNCATE TABLE statement as follows :
 
 ![](media/420d9c9e2142df7bf5ae1c32e8489d36.png)
 
-The following example deletes data from the invoices table and other tables that reference the invoices table via foreign key constraints:
+-   The following example deletes data from the invoices table and other tables that reference the invoices table via foreign key constraints:
 
 ![](media/62350c581d5ae32845e7c82c63d1c1f1.png)
 
-The CASCADE option should be used with further consideration or you may potentially delete data from tables that you did not want.
+-   The CASCADE option should be used with further consideration or you may potentially delete data from tables that you did not want.
+-   **By default**, the TRUNCATE TABLE statement uses the **RESTRICT** option which prevents you from truncating the table that has foreign key constraint references.
 
-By default, the TRUNCATE TABLE statement uses the RESTRICT option which prevents you from truncating the table that has foreign key constraint references.
+## 2.4.4 PostgreSQL TRUNCATE TABLE and ON DELETE trigger
 
-## PostgreSQL TRUNCATE TABLE and ON DELETE trigger
+-   Even though the TRUNCATE TABLE statement removes all data from a table, it does not fire any ON DELETE [triggers](https://www.postgresqltutorial.com/postgresql-triggers/) associated with the table.
+-   To fire the trigger when the TRUNCATE TABLE command applied to a table, you must define BEFORE TRUNCATE and/or AFTER TRUNCATE triggers for that table.
 
-Even though the TRUNCATE TABLE statement removes all data from a table, it does not fire any ON DELETE [triggers](https://www.postgresqltutorial.com/postgresql-triggers/) associated with the table.
+## 2.4.5 PostgreSQL TRUNCATE TABLE and transaction
 
-To fire the trigger when the TRUNCATE TABLE command applied to a table, you must define BEFORE TRUNCATE and/or AFTER TRUNCATE triggers for that table.
+-   The TRUNCATE TABLE is transaction-safe. It means that if you place it within a transaction, you can roll it back safely.
 
-## PostgreSQL TRUNCATE TABLE and transaction
+## 3. References
 
-The TRUNCATE TABLE is transaction-safe. It means that if you place it within a transaction, you can roll it back safely.
-
-## Summary
-
--   Use the TRUNCATE TABLE statement to delete all data from a large table.
--   Use the CASCADE option to truncate a table and other tables that reference the table via foreign key constraint.
--   The TRUNCATE TABLE does not fire ON DELETE trigger. Instead, it fires the BEFORE TRUNCATE and AFTER TRUNCATE triggers.
--   The TRUNCATE TABLE statement is transaction-safe.
-
-References
-
-1.  <https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-create-table/>
-2.  <https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-alter-table/>
-3.  <https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-drop-table/>
+1.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-create-table/
+2.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-alter-table/
+3.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-drop-table/
 4.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-truncate-table/
