@@ -2,507 +2,815 @@
 
 **Content**
 
-1\. CSS animation Property
+2\. References
 
-2\. CSS background-color Property
+# CSS Backgrounds
 
-3\. CSS background-attachment Property
+The CSS background properties are used to add background effects for elements.
 
-4\. CSS border Property
+## CSS background-color
 
-5\. CSS border-width Property
+The background-color property specifies the background color of an element.
 
-6\. CSS color Property
+# ![](media/29661c40f09773187ccaec53ecff0c6f.png)
 
-7\. CSS column-count Property
+With CSS, a color is most often specified by:
 
-8\. CSS column-gap Property
+-   a valid color name - like "red"
+-   a HEX value - like "\#ff0000"
+-   an RGB value - like "rgb(255,0,0)"
 
-9\. CSS direction Property
+Look at [CSS Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) for a complete list of possible color values.
 
-10\. CSS filter Property
+## CSS background-image
 
-11\. CSS font-size Property
+The background-image property specifies an image to use as the background of an element.
 
-12\. CSS font-style Property
+By default, the image is repeated so it covers the entire element.
 
-13\. CSS font-variant Property
+![](media/664ea0ad436bd7f06f906e646a697e2e.png)
 
-14\. CSS gap Property
+**Note:** When using a background image, use an image that does not disturb the text.
 
-15\. CSS margin Property
+# CSS Background Image Repeat
 
-16\. CSS padding Property
+## CSS background-repeat
 
-17\. CSS scroll-behavior Property
+By default, the background-image property repeats an image both horizontally and vertically.
 
-18\. CSS table-layout Property
+Some images should be repeated only horizontally or vertically, or they will look strange, like this:
 
-19\. CSS text-align Property
+![](media/615f9acd8f20c5271c1398f80a8750c3.png)
 
-20\. CSS text-decoration-color Property
+**Tip:** To repeat an image vertically, set background-repeat: repeat-y;
 
-21\. CSS text-decoration-style Property
+## CSS background-repeat: no-repeat
 
-22\. CSS white-space Property
+Showing the background image only once is also specified by the background-repeat property:
 
-23\. CSS word-spacing Property
+### Example
 
-24\. CSS word-wrap Property
+Show the background image only once:
 
-25\. CSS writing-mode Property
+![](media/71d54485d96e1e11bfdae39589587556.png)
 
-26\. References
+In the example above, the background image is placed in the same place as the text. We want to change the position of the image, so that it does not disturb the text too much.
 
-# 1. CSS animation Property
+## CSS background-position
 
-**Example**
+The background-position property is used to specify the position of the background image.
 
--   Binding an animation to a \<div\> element, using the shorthand property:
+### Example
 
-div {  
-animation: mymove 5s infinite;  
-}
-
-**Output**
-
-![](media/448d4cbbd9aca07e5e4e6630fa3045bf.png)
-
-# 2. CSS background-color Property
-
-**Example**
-
--   Set the background color for a page:
-
-body {background-color: coral;}
-
-**Output**
-
-**![](media/ed32131a8ea0d1f40f583a08513eed59.png)**
-
-# 3. CSS background-attachment Property
-
-**Example**
-
--   A background-image that will not scroll with the page (fixed):
+Position the background image in the top-right corner:
 
 body {  
-background-image: url("img_tree.gif");  
-background-repeat: no-repeat;  
-background-attachment: fixed;  
+ background-image: url("img_tree.png");  
+ background-repeat: no-repeat;  
+ background-position: right top;  
 }
 
-**Output**
+![](media/60cc00514116e0becd9ab3de24a35db3.png)
 
-![](media/6cd5d6189548ce34e772ae1999db68d7.png)
+## CSS background-attachment
 
-# 4. CSS border Property
+The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):
 
-**Example**
+### Example
 
--   Set the style of the borders for different elements:
+Specify that the background image should be fixed:
+
+body {  
+ background-image: url("img_tree.png");  
+ background-repeat: no-repeat;  
+ background-position: right top;  
+ background-attachment: fixed;  
+}![](media/1da49b761dd2548bd103725d2151a907.png)
+
+## CSS background - Shorthand property
+
+To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+
+Instead of writing:
+
+body {  
+ background-color: \#ffffff;  
+ background-image: url("img_tree.png");  
+ background-repeat: no-repeat;  
+ background-position: right top;  
+}
+
+You can use the shorthand property background:
+
+### Example
+
+Use the shorthand property to set the background properties in one declaration:
+
+body {  
+ background: \#ffffff url("img_tree.png") no-repeat right top;  
+}
+
+![](media/4e6e9ddbfca9a5be1842bfcce115177a.png)
+
+# CSS Borders
+
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+![](media/5fab43672ca1615bc5e60ccb4eb938c4.png)
+
+## CSS Border Style
+
+The border-style property specifies what kind of border to display.
+
+The following values are allowed:
+
+-   dotted - Defines a dotted border
+-   dashed - Defines a dashed border
+-   solid - Defines a solid border
+-   double - Defines a double border
+-   groove - Defines a 3D grooved border. The effect depends on the border-color value
+-   ridge - Defines a 3D ridged border. The effect depends on the border-color value
+-   inset - Defines a 3D inset border. The effect depends on the border-color value
+-   outset - Defines a 3D outset border. The effect depends on the border-color value
+-   none - Defines no border
+-   hidden - Defines a hidden border
+
+The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
+
+### Example
+
+Demonstration of the different border styles:
+
+p.dotted {border-style: dotted;}  
+p.dashed {border-style: dashed;}  
+p.solid {border-style: solid;}  
+p.double {border-style: double;}  
+p.groove {border-style: groove;}  
+p.ridge {border-style: ridge;}  
+p.inset {border-style: inset;}  
+p.outset {border-style: outset;}  
+p.none {border-style: none;}  
+p.hidden {border-style: hidden;}  
+p.mix {border-style: dotted dashed solid double;}
+
+![](media/ae2ef0cb9ea0ede2f7ebca055ceac1bf.png)
+
+**Note:** None of the OTHER CSS border properties (which you will learn more about in the next chapters) will have ANY effect unless the border-style property is set!
+
+# 2. References
+
+<https://www.w3schools.com/css/css_background.asp>
+
+## https://www.w3schools.com/css/css_border.aspCSS Border Width
+
+The border-width property specifies the width of the four borders.
+
+The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:
+
+### Example
+
+Demonstration of the different border widths:
+
+p.one {  
+ border-style: solid;  
+ border-width: 5px;  
+}  
+  
+p.two {  
+ border-style: solid;  
+ border-width: medium;  
+}  
+  
+p.three {  
+ border-style: dotted;  
+ border-width: 2px;  
+}  
+  
+p.four {  
+ border-style: dotted;  
+ border-width: thick;  
+}
+
+![](media/3b27420dea9b9e9d5dbc62192ca8ef5a.png)
+
+## CSS Border Color
+
+The border-color property is used to set the color of the four borders.
+
+The color can be set by:
+
+-   name - specify a color name, like "red"
+-   HEX - specify a HEX value, like "\#ff0000"
+-   RGB - specify a RGB value, like "rgb(255,0,0)"
+-   HSL - specify a HSL value, like "hsl(0, 100%, 50%)"
+-   transparent
+
+**Note:** If border-color is not set, it inherits the color of the element.
+
+### Example
+
+Demonstration of the different border colors:
+
+p.one {  
+ border-style: solid;  
+ border-color: red;  
+}  
+  
+p.two {  
+ border-style: solid;  
+ border-color: green;  
+}  
+  
+p.three {  
+ border-style: dotted;  
+ border-color: blue;  
+}
+
+![](media/b15d0ebe0e9ad4f92c44eefda470ae31.png)
+
+## Specific Side Colors
+
+The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border).
+
+### Example
+
+p.one {  
+ border-style: solid;  
+ border-color: red green blue yellow; /\* red top, green right, blue bottom and yellow left \*/  
+}
+
+## ![](media/0961891a9d9a5125e9153ea055f7ad7b.png)HEX Values
+
+The color of the border can also be specified using a hexadecimal value (HEX):
+
+### Example
+
+p.one {  
+ border-style: solid;  
+ border-color: \#ff0000; /\* red \*/  
+}
+
+## RGB Values
+
+Or by using RGB values:
+
+### Example
+
+p.one {  
+ border-style: solid;  
+ border-color: rgb(255, 0, 0); /\* red \*/  
+}
+
+[Try it Yourself »](https://www.w3schools.com/css/tryit.asp?filename=trycss_border-color-rgb)
+
+## HSL Values
+
+You can also use HSL values:
+
+### Example
+
+p.one {  
+ border-style: solid;  
+ border-color: hsl(0, 100%, 50%); /\* red \*/  
+}
+
+## CSS Border - Individual Sides
+
+From the examples on the previous pages, you have seen that it is possible to specify a different border for each side.
+
+In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left):
+
+### Example
+
+p {  
+ border-top-style: dotted;  
+ border-right-style: solid;  
+ border-bottom-style: dotted;  
+ border-left-style: solid;  
+}
+
+![](media/5234bf5e15a59ef0ee9fe966982dfaed.png)
+
+So, here is how it works:
+
+If the border-style property has four values:
+
+-   **border-style: dotted solid double dashed;**
+    -   top border is dotted
+    -   right border is solid
+    -   bottom border is double
+    -   left border is dashed
+
+If the border-style property has three values:
+
+-   **border-style: dotted solid double;**
+    -   top border is dotted
+    -   right and left borders are solid
+    -   bottom border is double
+
+If the border-style property has two values:
+
+-   **border-style: dotted solid;**
+    -   top and bottom borders are dotted
+    -   right and left borders are solid
+
+If the border-style property has one value:
+
+-   **border-style: dotted;**
+    -   all four borders are dotted
+
+### Example
+
+/\* Four values \*/  
+p {  
+ border-style: dotted solid double dashed;  
+}  
+  
+/\* Three values \*/  
+p {  
+ border-style: dotted solid double;  
+}  
+  
+/\* Two values \*/  
+p {  
+ border-style: dotted solid;  
+}  
+  
+/\* One value \*/  
+p {  
+ border-style: dotted;  
+}
+
+[Try it Yourself »](https://www.w3schools.com/css/tryit.asp?filename=trycss_border-side3)
+
+![](media/ae9b859673a57736ce1c3a44f6129652.png)
+
+## CSS Border - Shorthand Property
+
+Like you saw in the previous page, there are many properties to consider when dealing with borders.
+
+To shorten the code, it is also possible to specify all the individual border properties in one property.
+
+The border property is a shorthand property for the following individual border properties:
+
+-   border-width
+-   border-style (required)
+-   border-color
+
+### Example
+
+p {  
+ border: 5px solid red;  
+}
+
+![](media/e7fa7d0f90a6bc591765273d01835b40.png)
+
+You can also specify all the individual border properties for just one side:
+
+### Left Border
+
+p {  
+ border-left: 6px solid red;  
+}
+
+![](media/beec4f3c365404192238bd56ca51b096.png)
+
+### Bottom Border
+
+p {  
+ border-bottom: 6px solid red;  
+}
+
+![](media/eb4f22af52ae378f22ee37385557ab7d.png)
+
+## CSS Rounded Borders
+
+The border-radius property is used to add rounded borders to an element:
+
+### Example
+
+p {  
+ border: 2px solid red;  
+ border-radius: 5px;  
+}
+
+![](media/452ba409fe5dbedd152a65b658308ef7.png)
+
+# CSS Margins
+
+## CSS Margins
+
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+
+## Margin - Individual Sides
+
+CSS has properties for specifying the margin for each side of an element:
+
+-   margin-top
+-   margin-right
+-   margin-bottom
+-   margin-left
+
+All the margin properties can have the following values:
+
+-   auto - the browser calculates the margin
+-   *length* - specifies a margin in px, pt, cm, etc.
+-   *%* - specifies a margin in % of the width of the containing element
+-   inherit - specifies that the margin should be inherited from the parent element
+
+**Tip:** Negative values are allowed.
+
+### Example
+
+Set different margins for all four sides of a \<p\> element:
+
+p {  
+ margin-top: 100px;  
+ margin-bottom: 100px;  
+ margin-right: 150px;  
+ margin-left: 80px;  
+}
+
+![](media/efa40900c22b5fe193ee46a26e730a90.png)
+
+## Margin - Shorthand Property
+
+To shorten the code, it is possible to specify all the margin properties in one property.
+
+The margin property is a shorthand property for the following individual margin properties:
+
+-   margin-top
+-   margin-right
+-   margin-bottom
+-   margin-left
+
+So, here is how it works:
+
+If the margin property has four values:
+
+-   **margin: 25px 50px 75px 100px;**
+    -   top margin is 25px
+    -   right margin is 50px
+    -   bottom margin is 75px
+    -   left margin is 100px
+
+### Example
+
+Use the margin shorthand property with four values:
+
+p {  
+ margin: 25px 50px 75px 100px;  
+}
+
+If the margin property has three values:
+
+-   **margin: 25px 50px 75px;**
+    -   top margin is 25px
+    -   right and left margins are 50px
+    -   bottom margin is 75px
+
+### Example
+
+Use the margin shorthand property with three values:
+
+p {  
+ margin: 25px 50px 75px;  
+}
+
+If the margin property has two values:
+
+-   **margin: 25px 50px;**
+    -   top and bottom margins are 25px
+    -   right and left margins are 50px
+
+### Example
+
+Use the margin shorthand property with two values:
+
+p {  
+ margin: 25px 50px;  
+}
+
+If the margin property has one value:
+
+-   **margin: 25px;**
+    -   all four margins are 25px
+
+### Example
+
+Use the margin shorthand property with one value:
+
+p {  
+ margin: 25px;  
+}
+
+# CSS Padding
+
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
+
+## Padding - Individual Sides
+
+CSS has properties for specifying the padding for each side of an element:
+
+-   padding-top
+-   padding-right
+-   padding-bottom
+-   padding-left
+
+All the padding properties can have the following values:
+
+-   *length* - specifies a padding in px, pt, cm, etc.
+-   *%* - specifies a padding in % of the width of the containing element
+-   inherit - specifies that the padding should be inherited from the parent element
+
+**Note:** Negative values are not allowed.
+
+### Example
+
+Set different padding for all four sides of a \<div\> element:
+
+div {  
+ padding-top: 50px;  
+ padding-right: 30px;  
+ padding-bottom: 50px;  
+ padding-left: 80px;  
+}
+
+## Padding - Shorthand Property
+
+To shorten the code, it is possible to specify all the padding properties in one property.
+
+The padding property is a shorthand property for the following individual padding properties:
+
+-   padding-top
+-   padding-right
+-   padding-bottom
+-   padding-left
+
+So, here is how it works:
+
+If the padding property has four values:
+
+-   **padding: 25px 50px 75px 100px;**
+    -   top padding is 25px
+    -   right padding is 50px
+    -   bottom padding is 75px
+    -   left padding is 100px
+
+### Example
+
+Use the padding shorthand property with four values:
+
+div {  
+ padding: 25px 50px 75px 100px;  
+}
+
+If the padding property has three values:
+
+-   **padding: 25px 50px 75px;**
+    -   top padding is 25px
+    -   right and left paddings are 50px
+    -   bottom padding is 75px
+
+### Example
+
+Use the padding shorthand property with three values:
+
+div {  
+ padding: 25px 50px 75px;  
+}
+
+If the padding property has two values:
+
+-   **padding: 25px 50px;**
+    -   top and bottom paddings are 25px
+    -   right and left paddings are 50px
+
+### Example
+
+Use the padding shorthand property with two values:
+
+div {  
+ padding: 25px 50px;  
+}
+
+If the padding property has one value:
+
+-   **padding: 25px;**
+    -   all four paddings are 25px
+
+### Example
+
+Use the padding shorthand property with one value:
+
+div {  
+ padding: 25px;  
+}
+
+# CSS Height, Width and Max-width
+
+The CSS height and width properties are used to set the height and width of an element.
+
+The CSS max-width property is used to set the maximum width of an element.
+
+## CSS Setting height and width
+
+The height and width properties are used to set the height and width of an element.
+
+The height and width properties do not include padding, borders, or margins. It sets the height/width of the area inside the padding, border, and margin of the element.
+
+## CSS height and width Values
+
+The height and width properties may have the following values:
+
+-   auto - This is default. The browser calculates the height and width
+-   length - Defines the height/width in px, cm, etc.
+-   % - Defines the height/width in percent of the containing block
+-   initial - Sets the height/width to its default value
+-   inherit - The height/width will be inherited from its parent value
+
+## CSS height and width Examples
+
+This element has a height of 200 pixels and a width of 50%
+
+### Example
+
+Set the height and width of a \<div\> element:
+
+div {  
+ height: 200px;  
+ width: 50%;  
+ background-color: powderblue;  
+}
+
+This element has a height of 100 pixels and a width of 500 pixels.
+
+### Example
+
+Set the height and width of another \<div\> element:
+
+div {  
+ height: 100px;  
+ width: 500px;  
+ background-color: powderblue;  
+}
+
+**Note:** Remember that the height and width properties do not include padding, borders, or margins! They set the height/width of the area inside the padding, border, and margin of the element!
+
+## Setting max-width
+
+The max-width property is used to set the maximum width of an element.
+
+The max-width can be specified in *length values*, like px, cm, etc., or in percent (%) of the containing block, or set to none (this is default. Means that there is no maximum width).
+
+The problem with the \<div\> above occurs when the browser window is smaller than the width of the element (500px). The browser then adds a horizontal scrollbar to the page.
+
+Using max-width instead, in this situation, will improve the browser's handling of small windows.
+
+**Tip:** Drag the browser window to smaller than 500px wide, to see the difference between the two divs!
+
+![](media/e8db2f9c98f9b431425f73cc529abd38.png)
+
+**Note:** If you for some reason use both the width property and the max-width property on the same element, and the value of the width property is larger than the max-width property; the max-width property will be used (and the width property will be ignored).
+
+# CSS Text
+
+## Text Color
+
+The color property is used to set the color of the text. The color is specified by:
+
+-   a color name - like "red"
+-   a HEX value - like "\#ff0000"
+-   an RGB value - like "rgb(255,0,0)"
+
+Look at [CSS Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) for a complete list of possible color values.
+
+The default text color for a page is defined in the body selector.
+
+### Example
+
+## body {  color: blue; }  h1 {  color: green; }Text Color and Background Color
+
+In this example, we define both the background-color property and the color property:
+
+### Example
+
+body {  
+ background-color: lightgrey;  
+ color: blue;  
+}  
+  
+h1 {  
+ background-color: black;  
+ color: white;  
+}  
+  
+div {  
+ background-color: blue;  
+ color: white;  
+}
+
+## **Important:** High contrast is very important for people with vision problems. So, always ensure that the contrast between the text color and the background color (or background image) is good! CSS Text Alignment and Text Direction
+
+In this chapter you will learn about the following properties:
+
+-   text-align
+-   text-align-last
+-   direction
+-   unicode-bidi
+-   vertical-align
+
+## Text Alignment
+
+The text-align property is used to set the horizontal alignment of a text.
+
+A text can be left or right aligned, centered, or justified.
+
+The following example shows center aligned, and left and right aligned text (left alignment is default if text direction is left-to-right, and right alignment is default if text direction is right-to-left):
+
+### Example
 
 h1 {  
-border: 5px solid red;  
-}
-
+ text-align: center;  
+}  
+  
 h2 {  
-border: 4px dotted blue;  
+ text-align: left;  
+}  
+  
+h3 {  
+ text-align: right;  
 }
+
+![](media/57849ea65ac1954cc9f0b6bf867202e6.png)
+
+When the text-align property is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers):
+
+### Example
 
 div {  
-border: double;  
+ text-align: justify;  
 }
 
-**Output**
+## Text Align Last
 
-**![](media/64225c7ca06c758f9dc70eabf94e4be2.png)**
+The text-align-last property specifies how to align the last line of a text.
 
-# 5. CSS border-width Property
+### Example
 
-**Example**
-
--   Set a width for the borders:
-
-div {border-width: thin;}
-
-**Output**
-
-![](media/4a7c9ba48c31ba0cfdf037dc4b9fe82e.png)
-
-# 6. CSS color Property
-
-**Example**
-
--   Set the text-color for different elements:
-
-body {  
-color: red;  
-}
-
-h1 {  
-color: \#00ff00;  
-}
-
-p.ex {  
-color: rgb(0,0,255);  
-}
-
-**Output**
-
-![](media/9be872ad274086d247586b9f2c5e4fb4.png)
-
-# 7. CSS column-count Property
-
-**Example**
-
--   Divide the text in the \<div\> element into three columns:
-
-div {  
-column-count: 3;  
-}
-
-**Output**
-
-![](media/6993db0188e34c770c9fad0e1c0125f1.png)
-
-# 8. CSS column-gap Property
-
-**Example**
-
--   Specify a 40 pixels gap between the columns:
-
-div {  
-column-gap: 40px;  
-}
-
-**Output**
-
-**![](media/997fd5ab20b0e9a3c7b624a8cb8ac4a2.png)**
-
-# 9. CSS direction Property
-
-**Example**
-
--   Set the text direction to "right-to-left":
-
-p.rtl {  
-direction: rtl;  
-}
-
-**Output**
-
-**![](media/79369b6732260eaa6f02b5ee9efddb57.png)**
-
-# 10. CSS filter Property
-
-**Example**
-
--   Change all images to black and white (100% gray):
-
-img {  
-filter: grayscale(100%);  
-}
-
-**Output**
-
-![](media/fc06b02f9e59e005aa3fa63faff60490.png)
-
-# 11. CSS font-size Property
-
-**Example**
-
--   Set the font size for different elements:
-
-div.a {  
-font-size: 15px;  
-}
-
-div.b {  
-font-size: large;  
-}
-
-div.c {  
-font-size: 150%;  
-}
-
-**Output**
-
-![](media/1417f38f6758a55b840c95c0f9303140.png)
-
-# 12. CSS font-style Property
-
-**Example**
-
--   Set different font styles for three paragraphs:
+Align the last line of text in three \<p\> elements:
 
 p.a {  
-font-style: normal;  
-}
-
+ text-align-last: right;  
+}  
+  
 p.b {  
-font-style: italic;  
-}
-
+ text-align-last: center;  
+}  
+  
 p.c {  
-font-style: oblique;  
+ text-align-last: justify;  
 }
 
-**Output**
+## Text Direction
 
-![](media/f30e1ee863545b20a8c26c04ca122da0.png)
+The direction and unicode-bidi properties can be used to change the text direction of an element:
 
-# 13. CSS font-variant Property
-
-**Example**
-
--   Set a paragraph to a small-caps font:
-
-p.small {  
-font-variant: small-caps;  
-}
-
-**Output**
-
-![](media/fc6d0c54f9acf1b92e26d6e7ed82a3c3.png)
-
-# 14. CSS gap Property
-
-**Example**
-
--   Set the gap between rows *and* columns to 50px:
-
-.grid-container {  
-gap: 50px;  
-}
-
-**Output**
-
-![](media/adf637de0f0165275e49371aea59197d.png)
-
-# 15. CSS margin Property
-
-**Example**
-
--   Set the margin for all four sides of a \<p\> element to 35 pixels:
+### Example
 
 p {  
-margin: 35px;  
+ direction: rtl;  
+ unicode-bidi: bidi-override;  
 }
 
-**Output**
+## Vertical Alignment
 
-![](media/fbfafb1e5dcdb218444189183922d020.png)
+The vertical-align property sets the vertical alignment of an element.
 
-# 16. CSS padding Property
+### Example
 
-**Example**
+Set the vertical alignment of an image in a text:
 
--   Set the padding for all four sides of a \<p\> element to 35 pixels:
-
-p {  
-padding: 35px;  
+img.a {  
+ vertical-align: baseline;  
+}  
+  
+img.b {  
+ vertical-align: text-top;  
+}  
+  
+img.c {  
+ vertical-align: text-bottom;  
+}  
+  
+img.d {  
+ vertical-align: sub;  
+}  
+  
+img.e {  
+ vertical-align: super;  
 }
-
-**Output**
-
-![](media/cb5cfbf1aad2ab6a78ab4f3eeb4957ab.png)
-
-# 17. CSS scroll-behavior Property
-
-**Example**
-
--   Add a smooth scrolling effect to the document:
-
-html {  
-scroll-behavior: smooth;  
-}
-
-**Output**
-
-**![](media/1abdf5e69160c0def898aa922cb94687.png)**
-
-# 18. CSS table-layout Property
-
-**Example**
-
--   Set different table layout algorithms:
-
-table.a {  
-table-layout: auto;  
-width: 180px;  
-}
-
-table.b {  
-table-layout: fixed;  
-width: 180px;  
-}
-
-**Output**
-
-![](media/ecc683fc3cb44744cd5519f96f11a011.png)
-
-# 19. CSS text-align Property
-
-**Example**
-
--   Set the text alignment for different \<div\> elements:
-
-div.a {  
-text-align: center;  
-}
-
-div.b {  
-text-align: left;  
-}
-
-div.c {  
-text-align: right;  
-}
-
-div.c {  
-text-align: justify;  
-}
-
-**Output**
-
-![](media/bbe52e69c7b2bdd7646db5b89f9c0135.png)
-
-# 20. CSS text-decoration-color Property
-
-**Example**
-
--   Set the color of the text-decoration to red:
-
-p {  
-text-decoration: underline;  
-text-decoration-color: red;  
-}
-
-**Output**
-
-![](media/056bbfc34fd2d4c3bd784888ae47f06e.png)
-
-# 21. CSS text-decoration-style Property
-
-**Example**
-
--   Set different types of text-decoration styles:
-
-div.a {  
-text-decoration-line: underline;  
-text-decoration-style: solid;  
-}
-
-div.b {  
-text-decoration-line: underline;  
-text-decoration-style: wavy;  
-}
-
-div.c {  
-text-decoration-line: underline;  
-text-decoration-style: double;  
-}
-
-div.d {  
-text-decoration-line: overline underline;  
-text-decoration-style: wavy;  
-}
-
-**Output**
-
-![](media/68f6c95327b40966643dcac7ac1f4409.png)
-
-# 22. CSS white-space Property
-
-**Example**
-
--   Demonstrate different values of the white-space property:
-
-p.a { white-space: nowrap; }
-
-p.b { white-space: normal; }
-
-p.c { white-space: pre; }
-
-**Output**
-
-![](media/38ff0a5d5213ef2fa3900c473c2b9862.png)
-
-# 23. CSS word-spacing Property
-
-**Example**
-
--   Specify that the space between words in \<p\> elements should be 30 pixels:
-
-p {  
-word-spacing: 30px;  
-}
-
-**Output**
-
-![](media/e972d2b39d91554e88cd9a2cc0bf4695.png)
-
-# 24. CSS word-wrap Property
-
-**Example**
-
--   Allow long words to be able to break and wrap onto the next line:
-
-div {  
-word-wrap: break-word;  
-}
-
-**Output**
-
-![](media/724eb0d875f3ec8945e0e4e05b8ca327.png)
-
-# 25. CSS writing-mode Property
-
-**Example**
-
--   Specify whether lines of text are laid out horizontally or vertically:
-
-p.test1 {  
-writing-mode: horizontal-tb;  
-}
-
-p.test2 {  
-writing-mode: vertical-rl;  
-}
-
-span.test2 {  
-writing-mode: vertical-rl;  
-}
-
-**Output**
-
-**![](media/82035a6ad39255b2a237b7609843171d.png)**
-
-# 26. References
-
-1.  https://www.w3schools.com/cssref/css3_pr_animation.asp
-2.  https://www.w3schools.com/cssref/pr_background-color.asp
-3.  https://www.w3schools.com/cssref/pr_background-attachment.asp
-4.  https://www.w3schools.com/cssref/pr_border.asp
-5.  https://www.w3schools.com/cssref/pr_border-width.asp
-6.  https://www.w3schools.com/cssref/pr_text_color.asp
-7.  https://www.w3schools.com/cssref/css3_pr_column-count.asp
-8.  https://www.w3schools.com/cssref/css3_pr_column-gap.asp
-9.  https://www.w3schools.com/cssref/pr_text_direction.asp
-10. https://www.w3schools.com/cssref/css3_pr_filter.asp
-11. https://www.w3schools.com/cssref/pr_font_font-size.asp
-12. https://www.w3schools.com/cssref/pr_font_font-style.asp
-13. https://www.w3schools.com/cssref/pr_font_font-variant.asp
-14. https://www.w3schools.com/cssref/pr_margin.asp
-15. https://www.w3schools.com/cssref/css3_pr_gap.asp
-16. https://www.w3schools.com/cssref/pr_padding.asp
-17. https://www.w3schools.com/cssref/pr_scroll-behavior.asp
-18. https://www.w3schools.com/cssref/pr_tab_table-layout.asp
-19. https://www.w3schools.com/cssref/pr_text_text-align.asp
-20. https://www.w3schools.com/cssref/css3_pr_text-decoration-color.asp
-21. https://www.w3schools.com/cssref/css3_pr_text-decoration-style.asp
-22. https://www.w3schools.com/cssref/pr_text_white-space.asp
-23. https://www.w3schools.com/cssref/pr_text_word-spacing.asp
-24. https://www.w3schools.com/cssref/css3_pr_word-wrap.asp
-25. https://www.w3schools.com/cssref/css3_pr_writing-mode.asp
