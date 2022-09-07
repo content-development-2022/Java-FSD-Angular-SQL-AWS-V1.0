@@ -732,6 +732,10 @@ padding: 25px;
 -   The CSS height and width properties are used to set the height and width of an element.
 -   The CSS max-width property is used to set the maximum width of an element.
 
+**Example**
+
+![](media/79cfc8131be25263557e7e4bf7555b3b.png)
+
 ## 5.1 CSS Setting height and width
 
 -   The height and width properties are used to set the height and width of an element.
@@ -759,6 +763,10 @@ width: 50%;
 background-color: powderblue;  
 }
 
+**Output**
+
+![](media/7a718ba1fa643ca4ebc990a2de632234.png)
+
 **This element has a height of 100 pixels and a width of 500 pixels.**
 
 **Example-2**
@@ -768,6 +776,10 @@ height: 100px;
 width: 500px;  
 background-color: powderblue;  
 }
+
+**Output**
+
+![](media/6066d74026d63760dcc39a77f6ec8a09.png)
 
 **Note:** Remember that the height and width properties do not include padding, borders, or margins! They set the height/width of the area inside the padding, border, and margin of the element!
 
@@ -804,6 +816,10 @@ Look at [CSS Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp
 
 body { color: blue; } h1 { color: green; }
 
+**Output**
+
+![](media/41155f8ef476a4c6c53dd215d5b9093b.png)
+
 ## 6.2 Text Color and Background Color
 
 In this example, we define both the background-color property and the color property:
@@ -824,6 +840,10 @@ div {
 background-color: blue;  
 color: white;  
 }
+
+**Output**
+
+![](media/d2fa2deb26de637719ccfbb553cc5359.png)
 
 **Note:** High contrast is very important for people with vision problems. So, always ensure that the contrast between the text color and the background color (or background image) is good!
 
@@ -882,6 +902,10 @@ p.c {
 text-align-last: justify;  
 }
 
+**Output**
+
+![](media/ced733d08fe34852a4bc6fe7b252e084.png)
+
 ## 6.4 Text Direction
 
 -   The direction and unicode-bidi properties can be used to change the text direction of an element:
@@ -892,6 +916,10 @@ p {
 direction: rtl;  
 unicode-bidi: bidi-override;  
 }
+
+**Output**
+
+![](media/9026491ed3b28fb89c8cb5d8020c0ac1.png)
 
 ## 6.4.1 Vertical Alignment
 
