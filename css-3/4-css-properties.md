@@ -2,91 +2,19 @@
 
 **Content**
 
-**1. CSS Backgrounds**
+1\. CSS Backgrounds
 
-1.1 CSS background-color
+2\. CSS Borders
 
-1.2 CSS background-image
+3\. CSS Margins
 
-1.3 CSS Background Image Repeat
+4\. CSS Padding
 
-1.3.1 CSS background-repeat
+5\. CSS Height, Width and Max-width
 
-1.3.2 CSS background-repeat: no-repeat
+6\. CSS Text
 
-1.3.3 CSS background-position
-
-1.4 CSS background-attachment
-
-1.5 CSS background - Shorthand property
-
-**2. CSS Borders**
-
-2.1 CSS Border Style
-
-2.2 border-width
-
-2.3 CSS Border Color
-
-2.3.1 Specific Side Colors
-
-2.3.1.1 HEX Values
-
-2.3.1.2 RGB Values
-
-2.3.1.3 HSL Values
-
-2.4 CSS Border Sides
-
-2.4.1 CSS Border - Individual Sides
-
-2.5 CSS Border - Shorthand Property
-
-2.5.1 Left Border
-
-2.5.2 Bottom Border
-
-2.6 CSS Rounded Borders
-
-**3. CSS Margins**
-
-3.1 Margin - Individual Sides
-
-3.2 Margin - Shorthand Property
-
-**4. CSS Padding**
-
-4.1 Padding - Individual Sides
-
-4.2 Padding - Shorthand Property
-
-**5. CSS Height, Width and Max-width**
-
-5.1 CSS Setting height and width
-
-5.2 CSS height and width Values
-
-5.3 CSS height and width Examples
-
-5.4 Setting max-width
-
-**6. CSS Text**
-
-6.1 Text Color
-
-6.2 Text Color and Background Color
-
-6.3 CSS Text Alignment and Text Direction
-
-6.3.1 Text Alignment
-
-6.3.2 Text Align Last
-
-6.4 Text Direction
-
-6.4.1 Vertical Alignment
-
-**7. References**
+7\. References
 
 # 1. CSS Backgrounds
 

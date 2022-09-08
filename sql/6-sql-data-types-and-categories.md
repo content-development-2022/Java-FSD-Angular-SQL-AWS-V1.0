@@ -22,16 +22,6 @@
 
 1.4 Temporal data types
 
-1.5 Arrays
-
-1.6 JSON
-
-1.7 UUID
-
-1.8 Hstore data type
-
-1.9 Special data types
-
 **2. SQL Commands**
 
 **3. Categories of SQL**
@@ -126,39 +116,6 @@ There three main types of floating-point numbers:
 5.  **INTERVAL** stores periods of time.
 
 The TIMESTAMPTZ is the PostgreSQL’s extension to the SQL standard’s temporal data types.
-
-## 1.5 Arrays
-
--   In PostgreSQL, you can store an array of strings, an array of integers, etc., in array columns.
--   The array comes in handy in some situations e.g., storing days of the week, months of the year.
-
-## 1.6 JSON
-
--   PostgreSQL provides two JSON data types: **JSON** and **JSONB** for storing JSON data.
--   The **JSON** data type stores plain JSON data that requires reparsing for each processing, while **JSONB** data type stores JSON data in a binary format which is faster to process but slower to insert.
--   In addition, JSONB supports indexing, which can be an advantage.
-
-## 1.7 UUID
-
--   The **UUID** data type allows you to store Universal Unique Identifiers defined by RFC 4122 .
--   The UUID values guarantee a better uniqueness than SERIAL and can be used to hide sensitive data exposed to the public such as values of id in URL.
-
-## 1.8 Hstore data type
-
--   The hstore implements the hstore data type for storing key-value pairs in a single value.
--   The **hstore** data type is very useful in many cases, such as semi-structured data or rows with many attributes that are rarely queried. Notice that keys and values are just text strings only.
-
-## 1.9 Special data types
-
-Besides the primitive data types, PostgreSQL also provides several special data types related to geometric and network.
-
--   **box**– a rectangular box.
--   **line** – a set of points.
--   **point**– a geometric pair of numbers.
--   **lseg**– a line segment.
--   **polygon**– a closed geometric.
--   **inet**– an IP4 address.
--   **macaddr**– a MAC address.
 
 ## 2. SQL Commands
 

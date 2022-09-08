@@ -22,7 +22,7 @@
 
 # 1. PostgreSQL Sample Database
 
--   PostgreSQL provides sample database that you can use for learning and practicing PostgreSQL.
+-   We can use a sample database that you can use for learning and practicing PostgreSQL.
 -   The sample DVD rental database to demonstrate the features of PostgreSQL.
 -   The DVD rental database represents the business processes of a DVD rental store.
 
