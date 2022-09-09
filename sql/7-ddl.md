@@ -32,10 +32,6 @@
 
 2.4.3 Remove all data from a table that has foreign key references
 
-2.4.4 PostgreSQL TRUNCATE TABLE and ON DELETE trigger
-
-2.4.5 PostgreSQL TRUNCATE TABLE and transaction
-
 **3. References**
 
 ## 1. DDL (Data Definition Language)
@@ -346,15 +342,6 @@ To **remove multiple** **tables** at once, you can place a comma-separated list 
 
 -   The CASCADE option should be used with further consideration or you may potentially delete data from tables that you did not want.
 -   **By default**, the TRUNCATE TABLE statement uses the **RESTRICT** option which prevents you from truncating the table that has foreign key constraint references.
-
-## 2.4.4 PostgreSQL TRUNCATE TABLE and ON DELETE trigger
-
--   Even though the TRUNCATE TABLE statement removes all data from a table, it does not fire any ON DELETE [triggers](https://www.postgresqltutorial.com/postgresql-triggers/) associated with the table.
--   To fire the trigger when the TRUNCATE TABLE command applied to a table, you must define BEFORE TRUNCATE and/or AFTER TRUNCATE triggers for that table.
-
-## 2.4.5 PostgreSQL TRUNCATE TABLE and transaction
-
--   The TRUNCATE TABLE is transaction-safe. It means that if you place it within a transaction, you can roll it back safely.
 
 ## 3. References
 
