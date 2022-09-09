@@ -16,6 +16,8 @@
 
 4.1 PostgreSQL ORDER BY Examples
 
+4.2 PostgreSQL ORDER BY Clause and NULL
+
 **5. PostgreSQL WHERE Clause**
 
 5.1 PostgreSQL WHERE Clause Examples
@@ -215,7 +217,7 @@ PostgreSQL evaluates the clauses in the SELECT statement in the following order:
 
 -   Because the ORDER BY clause is evaluated after the SELECT clause, the column alias len is available and can be used in the ORDER BY clause.
 
-## PostgreSQL ORDER BY Clause and NULL
+## 4.2 PostgreSQL ORDER BY Clause and NULL
 
 -   In the database world, NULL is a marker that indicates the missing data or the data is unknown at the time of recording.
 -   When you sort rows that contains NULL, you can specify the order of NULL with other non-null values by using the NULLS FIRST or NULLS LAST option of the ORDER BY clause:
