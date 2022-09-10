@@ -132,7 +132,7 @@ Five Categories of widely used SQL queries.
 -   Transaction Control Language(TCL)
 -   Data Query Language (DQL)
 
-**![](media/b4ac16a4fb94ef74a511c60e9908192a.png)**
+![](media/01707f326a1f0725787363c4f558046a.png)
 
 ## 3.1 Defining Database Structures
 
@@ -190,6 +190,7 @@ Some data control commands are as follows:
 
 In addition to the previously introduced categories of commands, there are commands that allow the user to manage database transactions.
 
+-   BEGIN start of the transaction
 -   COMMIT Saves database transactions
 -   ROLLBACK Undoes database transactions
 -   SAVEPOINT Creates points within groups of transactions in which to ROLLBACK
