@@ -26,6 +26,8 @@
 
 2.3.1 PostgreSQL DELETE statement examples
 
+2.3.2 Difference between Delete, Truncate and Drop Commands
+
 3\. References
 
 ## 1. DML
@@ -316,6 +318,10 @@ In this syntax:
 ![](media/b4d9e28a5e7837452ed4aadc0058c974.png)
 
 -   The links table now is empty.
+
+## 2.3.2 Difference between Delete, Truncate and Drop Commands
+
+![](media/99c52f6d1f015339041afd4518dc4f70.png)
 
 ## 3. References
 
