@@ -148,6 +148,5 @@ To use the INTERSECT operator, the columns that appear in the SELECT statements 
 
 ## 3. References
 
-https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-union/
-
-https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-intersect/
+1.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-union/
+2.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-intersect/
