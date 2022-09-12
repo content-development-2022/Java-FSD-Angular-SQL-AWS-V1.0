@@ -1,4 +1,4 @@
-## Joins
+# Joins
 
 **Content**
 
