@@ -148,6 +148,8 @@
 
 -   The following picture shows all the PostgreSQL joins that we discussed so far with the detailed syntax:
 
-## ![](media/db3b5d86024854ff564670e7285d4e33.png) 6. References
+## ![](media/db3b5d86024854ff564670e7285d4e33.png)
+
+## 6. References
 
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/
