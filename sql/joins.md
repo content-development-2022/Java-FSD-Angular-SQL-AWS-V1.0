@@ -8,6 +8,8 @@
 
 2\. PostgreSQL inner join
 
+2.1 Using PostgreSQL INNER JOIN to join three tables
+
 3\. PostgreSQL left join
 
 4\. PostgreSQL right join
@@ -53,6 +55,25 @@
 -   The following Venn diagram illustrates the inner join:
 
 ![](media/a9c542b319eb9884c6b433b2131a6e26.png)
+
+## 2.1 Using PostgreSQL INNER JOIN to join three tables
+
+The following diagram illustrates the relationship between three tables: staff, payment, and customer.
+
+-   Each staff handles zero or many payments. And each payment is processed by one and only one staff.
+-   Each customer made zero or many payments. Each payment is made by one customer.
+
+    ![](media/365e1feea2da4fe68be17947df12b1f7.png)
+
+-   To join the three tables, you place the second INNER JOIN clause after the first INNER JOIN clause as the following query:
+
+    ![](media/ec5c6ec7cd9658226c725f48e832a2e3.png)
+
+    **Output**
+
+    ![](media/23c3b1a15cd8f6a1324931b6111e9069.png)
+
+-   To join more than three tables, you apply the same technique.
 
 ## 3. PostgreSQL left join
 
@@ -152,4 +173,5 @@
 
 ## 6. References
 
-1.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/
+1.  <https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/>
+2.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-inner-join/
