@@ -152,4 +152,4 @@
 
 ## 6. References
 
-https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/
+1.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/
