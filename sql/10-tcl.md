@@ -2,70 +2,46 @@
 
 **Contents**
 
-**1. Transaction Control Languages**
+1\. Transaction Control Languages
 
-**2. How does Transaction work in PostgreSQL?**
+1.1 What is a database transaction
 
-**3. PostgreSQL Transaction Statements**
+2\. PostgreSQL Transaction Statements
 
-3.1 Begin
+2.1 Begin a Transaction
 
-3.2 Commit
+2.2 Commit a Transaction
 
-3.3 Rollback
+2.2.1 PostgreSQL COMMIT: Bank account transfer example
 
-3.4 Savepoint
+2.3 Rolling back a Transaction
 
-3.5 Examples
+2.4 Savepoint a Transaction
 
-**4. References**
+2.5 Savepoint Examples
+
+3\. References
 
 ## 1. Transaction Control Languages
 
 -   **TCL** stands for **Transaction Control Languages**.
--   These commands are used for maintaining consistency of the database and for the management of transactions made by the DML commands.
--   A **Transaction** is a set of SQL statements that are executed on the data stored in DBMS. Whenever any transaction is made these transactions are temporarily happen in database. So to make the changes permanent, we use **TCL** commands.
--   An **example** of a complete transaction transfers money from one bank account to another bank account or withdraws money from ATM; a complete transaction in any database consists of debiting money from one account and successfully credit it to another account.
--   PostgreSQL transaction is ACID (Atomicity, Consistency, Isolation, and Durability) compliant, transaction in PostgreSQL is fully ACID compliant. Transaction in any database consists of one or more statement which executes as per order.
+-   A **Transaction** is a set of SQL statements that are executed on the data stored in DBMS. Whenever any transaction is made the transactions are temporarily happen in database. So to make the changes permanent, we use **TCL** commands.
+-   TCL commands are: Begin, Commit, Rollback, Savepoint.
 
-## 2. How does Transaction work in PostgreSQL?
+## 1.1 What is a database transaction
 
-Below are the properties of transactions.
+-   A database transaction is a single unit of work that consists of one or more operations.
+-   A classical example of a transaction is a bank transfer from one account to another.
+-   A complete transaction must ensure a balance between the sender and receiver accounts. It means that if the sender account transfers X amount, the receiver receives X amount, no more or no less.
 
-1.  Atomicity
-2.  Consistency
-3.  Isolation
-4.  Durability
--   **Atomicity** is consists of operations that we have performed on the database that is fully completed or not completed. If the transactions are failed in the middle, then the transaction is rollback up to the last save point.
--   **Consistency** properties in PostgreSQL define as the database was properly changed its state of transactions up to the last transactions savepoint. At the time of working on transactions, consistency of transactions is more important.
--   **Isolation** in PostgreSQL is defined as enable the transaction operations to complete and operate independently. Also, the running transaction which was active on the server is transparent to each other.
--   **Durability** in PostgreSQL is defined as we need to ensure that the result of operations which was we have performed on the database consists of a failure. Durability is the most important property of transactions in PostgreSQL.
--   Transaction in PostgreSQL defines as the propagation of one or more changes which was we have performed on the database.
--   PostgreSQL database transaction is also defined as insert record on table, delete rows from a table, or updating the rows.
--   A transaction can be single updation, insertion, or deletion, or it can be multiple updation, deletion or insertion statements.
--   While we have to perform the transaction on the database, it is essential to control the transactions to ensure that transaction is successfully completed or not. Also, we need to handle the database’s error, which was occurred at the time of the transaction running.
--   We can club the number of queries in a single set, and after creating a set, we can execute it one by one in single transactions.
--   The transaction is very important and useful in every database; it is also the PostgreSQL database’s fundamental concept.
--   Begin, commit, rollback, and savepoint are the transaction control commands we have used in PostgreSQL.
--   **Begin command** in PostgreSQL is defined as the start of the transaction. We can start the transaction using begin keyword in PostgreSQL. We can also start the transaction using the begin transaction statements.
--   **Commit command** is used to save the transaction, which was we have executed on the database. We have to use the commit keyword to save the transaction in PostgreSQL.
--   We can also use the end transaction to commit the transaction which was executed on the database server.
--   **Rollback command** is used to roll back the transaction to a specific point. Rollback is an essential and useful command of transaction control in PostgreSQL.
--   **Save point** is defined as the partial rollback of a transaction, which was we have performed on the database.
--   Transaction control statement in PostgreSQL will be used with only DML (Data manipulation language) commands. DML commands are inserted, update, and delete. A transaction control command is not used with creating and dropping the database or tables.
--   Creating and dropping operations was automatically committed to the database, so there is no need to commit the transaction every time.
--   After successfully committing the transaction, we cannot rollback the same. To roll back the transaction, we need to set the auto commit off on the database.
--   In PostgreSQL default setting of the auto commit command is ON. The below example shows that the default setting of the auto commit command is as follows.
+A PostgreSQL transaction is **atomic, consistent, isolated, and durable**. These properties are often referred to as **ACID**:
 
-**Query:**
+-   **Atomicity** guarantees that the transaction completes in an all-or-nothing manner.
+-   **Consistency** ensures the change to data written to the database must be valid and follow predefined rules.
+-   **Isolation** determines how transaction integrity is visible to other transactions.
+-   **Durability** makes sure that transactions that have been committed will be stored in the database permanently.
 
-\\echo :AUTOCOMMIT
-
-**Output:**
-
-![](media/4f1b66af0d904353217e56897be880d9.png)
-
-## 3. PostgreSQL Transaction Statements
+## 2. PostgreSQL Transaction Statements
 
 Below is the transaction statements which was used in PostgreSQL.
 
@@ -74,80 +50,163 @@ Below is the transaction statements which was used in PostgreSQL.
 -   Rollback
 -   Savepoint
 
-## 3.1 Begin
+## 2.1 Begin a Transaction
 
--   Begin statement is a transaction statement used to start a new transaction. To start a new transaction, we have using begin statements in PostgreSQL.
--   Below is the syntax of the begin statement in PostgreSQL.
+-   Begin statement is a transaction statement used to start a new transaction.
+-   To start a new transaction, we have using begin statements in PostgreSQL.
+-   Let’s create a new table named **accounts** for the demonstration:
 
-**Syntax:**
+![](media/cdbafda33096cf5c6d51fab08700eb17.png)
 
-**1.** Begin OR
+-   When you execute the following INSERT statement:
 
-**2.** Begin transaction OR
+![](media/2d473a2f2763414f9d42124bfea8e0c2.png)
 
-**3.** Begin work
+-   PostgreSQL inserted a new row into the accounts table immediately. In this case, you do not know when the transaction begins and cannot intercept the modification such as rolling it back.
+-   To start a transaction, you use the below syntax for begin statement:
 
--   The above syntax is the same work while using begin transaction or begins work.
--   Below is the example of a begin statement in PostgreSQL. We have inserted a statement after the beginning statement.
--   Insert statement is successfully executed before we have the beginning statement.
+![](media/b386e13c5a11df06f146dfd4c4b01df5.png)
 
-**Example**
+Or
 
-![](media/69f4872ce712882a7b12319912a83379.png)
+![](media/e3ea17e1659fe0fb8df20fc268c9c046.png)
 
-**Output:**
+or just:
 
-![](media/b1e3b92e1630c489e8b27de4e8d02c4a.png)
+![](media/d02286f0d00d171c9b0bcbba8e8e87a4.png)
 
-## 3.2 Commit
+-   For example, the following statements start a new transaction and insert a new account into the accounts table:
+
+![](media/54190a43a3847bbe003dc4fda1246606.png)
+
+-   From the current session, you can see the change by querying the accounts table:
+
+![](media/c56d5f088e8370aa3f5b31a04d12caac.png)
+
+**Output**
+
+![](media/ef4d383b6ad7b501bd8f252eab558aba.png)
+
+## 2.2 Commit a Transaction
 
 -   Commit command in PostgreSQL is very important to save the transaction into the database server.
--   Below is the syntax of the commit statement in PostgreSQL.
+-   To make the change become visible to other sessions (or users) you need to commit the transaction by using the COMMIT WORK statement:
+-   Below is the syntax for the Commit statement in PostgreSQL.
 
-**Syntax:**
+![](media/ed6d4e82d7d1a7e4289e31c5a605e456.png)
 
-**1**. Commit OR
+Or
 
-**2**. Commit transaction OR
+![](media/185a6d227e6e60e16d6e63f363c92a23.png)
 
-**3**. Commit work
+or simply:
 
--   The above syntax is the same work while using commit transactions or commits work.
--   Below is an example of a commit statement in PostgreSQL. We have to insert two statements into the database; after inserting, we have committed the same on the database.
+![](media/21e2909514785eab69fe2a4a3810b6db.png)
 
-**Example**
+-   The following COMMIT statement inserts Alice’s account to the accounts table:
 
-![](media/d550a5c44aaeab42a4be5d84116ec790.png)
+![](media/abcb9a55f8a26612bc880eb337c732f6.png)
+
+-   From other sessions, you can view the change by querying the accounts table:
+
+![](media/4966a4d2f0948ede41ee2986cfcd8be9.png)
+
+**Output**
+
+![](media/86c4e914589f9e5a5397a913771d9b3f.png)
+
+-   After executing the COMMIT statement, PostgreSQL also guarantees that the change will be durable if a crash happens.
+-   Put it all together.
+
+![](media/8c224724680be82761477c130add5b48.png)
+
+## 2.2.1 PostgreSQL COMMIT: Bank account transfer example
+
+-   In this demonstration, we will show you how to transfer 1000USD from Bob’s account to Alice’s account. We will use two sessions for viewing the change of each operation.
+-   In the first session, start a new transaction:
+
+![](media/2d7d07473d0fc265d946c33b91377199.png)
+
+-   Subtracting 1000USD from Bob’s account with id 1:
+
+![](media/ad1903c87e5018269947795ceec5d7b5.png)
+
+-   In the second session, check the account balance of both accounts:
+
+![](media/3e63a2a3abcc526dee2bd2b601772be7.png)
 
 **Output:**
 
-![](media/2181dc400d461d834bda14cd9d167f30.png)
+![](media/ad2eb8984544e763c0d7b582fdc85fcd.png)
 
-## 3.3 Rollback
+-   As you can see, the change is not visible in other sessions.
+-   Next, add the same amount (1000USD ) to Alice’s account:
 
--   Rollback is used to roll back the transaction from a specific point. Below is the syntax of the rollback statement in PostgreSQL.
+![](media/aa952cd906c3807f6053def8b6c5245a.png)
 
-**Syntax:**
+-   This change also is not visible to the second session until we commit it:
 
-**1**. Rollback OR
+![](media/f6faad1463bc0ed900d34e14d0c0f477.png)
 
-**2**. Rollback transaction OR
+-   Now, you can view the change from any session:
 
-**3**. Rollback work
+![](media/70ef30d916be1080158280345b66015d.png)
 
-**Example**
+**Output**
 
--   In the above example, we have inserted the below statement into the table, and the same statement is rolledback after inserting.
+![](media/6981965f9b16d9909d253a670fc6f002.png)
 
-**Query:**
+-   Put it all together.
 
-![](media/d9cd400c216b8d56330135a7ca6e17b4.png)
+![](media/011fa9bb4addaa328a411b4361454c46.png)
 
-**Output:**
+## 2.3 Rolling back a Transaction
 
-![](media/bb946cfddbb8958ecf21e63c1109c6ef.png)
+-   To roll back or undo the change of the current transaction,
+-   you use any one of the following syntax for rollback statement:
 
-## 3.4 Savepoint
+![](media/5c5ca5871b5e807e1d6db6ebde756114.png)
+
+Or
+
+![](media/a91d19a0d5844336f5501ea7c84b8d26.png)
+
+or in short:
+
+![](media/729604b184d92f431f0acf60ca69fa25.png)
+
+-   Suppose, you want to transfer 1500USD from Bob’s account to Alice’s account. However, you accidentally send the money to Jack’s account instead of Alice’s. And you want to roll back the whole transaction.
+-   First, add Jack’s account to the accounts table:
+
+![](media/56eb04f6d08e8e47d5464be848964dd1.png)
+
+-   Next, subtract an amount from Bob’s account:
+
+![](media/0a26c9398b278c7858017ccb4f82dfc8.png)
+
+-   Then, adding the same amount to Alice’s account:
+
+![](media/4ef9620dc22208cca74469f731b2e7a9.png)
+
+-   However, Alice’s account has id 2. So this was a mistake.
+-   To undo the change, you execute the ROLLBACK statement:
+
+![](media/a456cbf89d0ed3f7841c6a3b01a13e51.png)
+
+-   Finally, check the balances of all accounts:
+
+![](media/395c5b6f86836b75b24e78e4be623896.png)
+
+**Output**
+
+![](media/3ff3678dd7f189acd3a6fe369a69adc1.png)
+
+-   As shown clearly in the output, the account balances remain the same as they were before the transaction.
+-   Put it all toegher.
+
+![](media/a13b570873c97cf84ae86b027361b4ab.png)
+
+## 2.4 Savepoint a Transaction
 
 -   SAVEPOINT command is used to temporarily save a transaction so that you can rollback to that point whenever required.
 -   Following is savepoint command's syntax,
@@ -168,7 +227,7 @@ Below is the transaction statements which was used in PostgreSQL.
 -   Use ROLLBACK TO to rollback to a savepoint. Use RELEASE SAVEPOINT to destroy a savepoint, keeping the effects of commands executed after it was established.
 -   Savepoints can only be established when inside a transaction block. There can be multiple savepoints defined within a transaction.
 
-## 3.5 Examples
+## 2.5 Savepoint Examples
 
 **1) To establish a savepoint and later undo the effects of all commands executed after it was established**
 
@@ -188,7 +247,7 @@ Below is the transaction statements which was used in PostgreSQL.
 
 -   The above transaction shows row 3 being rolled back first, then row 2.
 
-## 4. References
+## 3. References
 
-1.  https://www.educba.com/postgresql-transaction/
+1.  https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-transaction/
 2.  https://www.postgresql.org/docs/current/sql-savepoint.html
