@@ -6,7 +6,7 @@
 
 2\. Creating PostgreSQL Views
 
-2.1 PostgreSQL View with Select Statement Example
+2.1 PostgreSQL Creating View Example
 
 3\. Changing PostgreSQL Views
 
@@ -38,7 +38,7 @@ A view can be very useful in some cases such as:
 -   **First,** you specify the **name** of the **view** after the CREATE VIEW clause, then you put a **query after the AS** keyword.
 -   A query can be a simple SELECT statement or a complex SELECT statement with joins.
 
-## 2.1 PostgreSQL View with Select Statement Example
+## 2.1 PostgreSQL Creating View Example
 
 For example, in our sample database, we have four tables:
 
