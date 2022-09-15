@@ -309,5 +309,5 @@ SELECT NAME, FORMAT(Now(),'YYYY-MM-DD') AS Date FROM Students;
 
 ## 3. References
 
-1.  <https://www.postgresqltutorial.com/postgresql-aggregate-functions/>
+1.  https://www.postgresqltutorial.com/postgresql-aggregate-functions/
 2.  https://www.geeksforgeeks.org/sql-functions-aggregate-scalar-functions/
