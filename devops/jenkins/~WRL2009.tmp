@@ -2,44 +2,6 @@
 
 **Content**
 
-**1. What is Jenkins?**
-
-1.1 Work Flow
-
-1.2 History of Jenkins
-
-1.3 What is Continuous Integration?
-
-1.4 Continuous Integration with Jenkins
-
-1.5 Advantages and Disadvantages of using Jenkins
-
-**2. Installing Jenkins**
-
-2.1 Prerequisites
-
-**2.2 Installation steps using Windows MSI installer**
-
-2.2.1 Post-installation setup wizard
-
-2.2.2 Customizing Jenkins with plugins
-
-2.2.3 Creating the first administrator user
-
-2.2.4 Troubleshooting Windows Installation
-
-**2.3 WAR files**
-
-2.3.1 Run the WAR file
-
-2.3.2 Post-installation setup wizard
-
-2.3.3 Customizing Jenkins with plugins
-
-2.3.4 Creating the first administrator user
-
-3\. References
-
 ## 1. What is Jenkins?
 
 -   Jenkins is an open source automation tool written in Java programming language that allows continuous integration.
