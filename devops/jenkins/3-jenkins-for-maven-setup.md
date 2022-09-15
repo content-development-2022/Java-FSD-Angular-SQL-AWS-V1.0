@@ -71,11 +71,9 @@
 
 ![](media/f3a53bece026905a4356ee78e610bafe.png)
 
--   Enter the **Item Name** and select the **Maven Project**.
+-   Enter the **Item Name** and select the **Maven Project**. Click OK.
 
 ![](media/51bec8ea099b85fbdfc896029a07e4b8.png)
-
--   Click OK.
 
 ![](media/f79be4f6cc4cbff50ba03d1685f5e672.png)
 
