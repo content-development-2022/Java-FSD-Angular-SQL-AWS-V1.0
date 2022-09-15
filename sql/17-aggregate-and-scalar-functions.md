@@ -6,6 +6,12 @@
 
 1.1 PostgreSQL aggregate functions examples
 
+2\. Scalar Functions
+
+2.1 Scalar Functions Examples
+
+3\. References
+
 ## 1. PostgreSQL Aggregate Functions
 
 -   Aggregate functions perform a calculation on a set of rows and return a single row.
