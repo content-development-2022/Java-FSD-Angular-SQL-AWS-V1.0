@@ -261,9 +261,7 @@ After completing the steps above, try logging in again with the added user.
 
 -   The Web application ARchive (WAR) file version of Jenkins can be installed on any operating system or platform that runs a version of Java supported by Jenkins.
 
-## 2.3.1
-
-## Run the WAR file
+## 2.3.1 Run the WAR file
 
 The Jenkins Web application ARchive (WAR) file can be started from the command line like this:
 
@@ -271,62 +269,69 @@ The Jenkins Web application ARchive (WAR) file can be started from the command l
 2.  Open up a terminal/command prompt window to the download directory.
 3.  Run the command java -jar jenkins.war.
 4.  Browse to http://localhost:8080 and wait until the **Unlock Jenkins** page appears.
-5.  Continue on with the [Post-installation setup wizard](https://www.jenkins.io/doc/book/installing/war-file/#setup-wizard) below.
+5.  Continue on with the Post-installation setup wizard below.
 
 **Notes:**
 
--   Unlike downloading and running Jenkins with Blue Ocean in Docker ([above](https://www.jenkins.io/doc/book/installing/war-file/#docker)), this process does not automatically install the Blue Ocean features, which would need to installed separately via the [**Manage Jenkins**](https://www.jenkins.io/doc/book/managing) \> [**Manage Plugins**](https://www.jenkins.io/doc/book/managing/plugins/) page in Jenkins. Read more about the specifics for installing Blue Ocean on the [Getting started with Blue Ocean](https://www.jenkins.io/doc/book/blueocean/getting-started/) page.
--   You can change the port by specifying the --httpPort option when you run the java -jar jenkins.war command. For example, to make Jenkins accessible through port 9090, then run Jenkins using the command:  
+-   Unlike downloading and running Jenkins with Blue Ocean in Docker (above), this process does not automatically install the Blue Ocean features, which would need to installed separately via the [**Manage Jenkins**](https://www.jenkins.io/doc/book/managing) \> [**Manage Plugins**](https://www.jenkins.io/doc/book/managing/plugins/) page in Jenkins.
+-   You can change the port by specifying the --httpPort option when you run the java -jar jenkins.war command.
+-   For example, to make Jenkins accessible through port 9090, then run Jenkins using the command:  
     java -jar jenkins.war --httpPort=9090
 
-## Post-installation setup wizard
+## 2.3.2 Post-installation setup wizard
 
-After downloading, installing and running Jenkins using one of the procedures above (except for installation with Jenkins Operator), the post-installation setup wizard begins.
+-   After downloading, installing and running Jenkins using one of the procedures above (except for installation with Jenkins Operator), the post-installation setup wizard begins.
+-   This setup wizard takes you through a few quick "one-off" steps to unlock Jenkins, customize it with plugins and create the first administrator user through which you can continue accessing Jenkins.
 
-This setup wizard takes you through a few quick "one-off" steps to unlock Jenkins, customize it with plugins and create the first administrator user through which you can continue accessing Jenkins.
+**Unlocking Jenkins**
 
-### Unlocking Jenkins
-
-When you first access a new Jenkins instance, you are asked to unlock it using an automatically-generated password.
-
-1.  Browse to http://localhost:8080 (or whichever port you configured for Jenkins when installing it) and wait until the **Unlock Jenkins** page appears.
+-   When you first access a new Jenkins instance, you are asked to unlock it using an automatically-generated password.
+-   Browse to http://localhost:8080 (or whichever port you configured for Jenkins when installing it) and wait until the **Unlock Jenkins** page appears.
 
 ![](media/4e42034a26cde72ad5318b3a77714ac3.png)
 
-1.  From the Jenkins console log output, copy the automatically-generated alphanumeric password (between the 2 sets of asterisks).
--   ![](media/9d90ba4339afe9ffa252addf9f6f91ab.png)
-1.  **Note:**
-    1.  The command: sudo cat /var/lib/jenkins/secrets/initialAdminPassword will print the password at console.
-    2.  If you are running Jenkins in Docker using the official jenkins/jenkins image you can use sudo docker exec \${CONTAINER_ID or CONTAINER_NAME} cat /var/jenkins_home/secrets/initialAdminPassword to print the password in the console without having to exec into the container.
-2.  On the **Unlock Jenkins** page, paste this password into the **Administrator password** field and click **Continue**.  
+-   From the Jenkins console log output, copy the automatically-generated alphanumeric password (between the 2 sets of asterisks).
+
+![](media/9d90ba4339afe9ffa252addf9f6f91ab.png)
+
+**Note:**
+
+1.  The command: sudo cat /var/lib/jenkins/secrets/initialAdminPassword will print the password at console.
+    1.  If you are running Jenkins in Docker using the official jenkins/jenkins image you can use sudo docker exec \${CONTAINER_ID or CONTAINER_NAME} cat /var/jenkins_home/secrets/initialAdminPassword to print the password in the console without having to exec into the container.
+-   On the **Unlock Jenkins** page, paste this password into the **Administrator password** field and click **Continue**.
+
     **Notes:**
-    1.  You can always access the Jenkins console log from the Docker logs ([above](https://www.jenkins.io/doc/book/installing/war-file/#accessing-the-jenkins-console-log-through-docker-logs)).
-    2.  The Jenkins console log indicates the location (in the Jenkins home directory) where this password can also be obtained. This password must be entered in the setup wizard on new Jenkins installations before you can access Jenkins’s main UI. This password also serves as the default administrator account’s password (with username "admin") if you happen to skip the subsequent user-creation step in the setup wizard.
 
-### Customizing Jenkins with plugins
+-   You can always access the Jenkins console log from the Docker logs (above).
+-   The Jenkins console log indicates the location (in the Jenkins home directory) where this password can also be obtained.
+-   This password must be entered in the setup wizard on new Jenkins installations before you can access Jenkins’s main UI.
+-   This password also serves as the default administrator account’s password (with username "admin"). if you happen to skip the subsequent user-creation step in the setup wizard.
 
-After [unlocking Jenkins](https://www.jenkins.io/doc/book/installing/war-file/#unlocking-jenkins), the **Customize Jenkins** page appears. Here you can install any number of useful plugins as part of your initial setup.
+## 2.3.3 Customizing Jenkins with plugins
+
+-   After **unlocking Jenkins**, the **Customize Jenkins** page appears. Here you can install any number of useful plugins as part of your initial setup.
 
 Click one of the two options shown:
 
 -   **Install suggested plugins** - to install the recommended set of plugins, which are based on most common use cases.
 -   **Select plugins to install** - to choose which set of plugins to initially install. When you first access the plugin selection page, the suggested plugins are selected by default.
--   ![](media/5db4dcc86052903c5176006827d9f836.png)
 
-The setup wizard shows the progression of Jenkins being configured and your chosen set of Jenkins plugins being installed. This process may take a few minutes.
+![](media/5db4dcc86052903c5176006827d9f836.png)
 
-### Creating the first administrator user
+-   The setup wizard shows the progression of Jenkins being configured and your chosen set of Jenkins plugins being installed. This process may take a few minutes.
 
-Finally, after [customizing Jenkins with plugins](https://www.jenkins.io/doc/book/installing/war-file/#customizing-jenkins-with-plugins), Jenkins asks you to create your first administrator user.
+## 2.3.4 Creating the first administrator user
+
+Finally, after customizing Jenkins with plugins, Jenkins asks you to create your first administrator user.
 
 1.  When the **Create First Admin User** page appears, specify the details for your administrator user in the respective fields and click **Save and Finish**.
 2.  When the **Jenkins is ready** page appears, click **Start using Jenkins**.  
     **Notes:**
-    1.  This page may indicate **Jenkins is almost ready!** instead and if so, click **Restart**.
-    2.  If the page does not automatically refresh after a minute, use your web browser to refresh the page manually.
+    -   This page may indicate **Jenkins is almost ready!** instead and if so, click **Restart**.
+    -   If the page does not automatically refresh after a minute, use your web browser to refresh the page manually.
 3.  If required, log in to Jenkins with the credentials of the user you just created and you are ready to start using Jenkins!
 
-References
+## 3. References
 
-1.  <https://www.jenkins.io/doc/>
+1.  https://www.jenkins.io/doc/
 2.  https://www.javatpoint.com/jenkins
