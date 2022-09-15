@@ -30,7 +30,7 @@
 
 **2.3 WAR files**
 
-2.3.1 Run the WAR file
+2.3.1 Installation steps using WAR file
 
 2.3.2 Post-installation setup wizard
 
@@ -299,7 +299,7 @@ After completing the steps above, try logging in again with the added user.
 
 -   The Web application ARchive (WAR) file version of Jenkins can be installed on any operating system or platform that runs a version of Java supported by Jenkins.
 
-## 2.3.1 Run the WAR file
+## 2.3.1 Installation steps using WAR file
 
 The Jenkins Web application ARchive (WAR) file can be started from the command line like this:
 
