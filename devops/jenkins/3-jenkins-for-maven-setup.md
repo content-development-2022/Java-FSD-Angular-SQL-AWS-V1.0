@@ -81,8 +81,8 @@
 
 ![](media/8209f3aad8747a853698c117bdb9d242.png)
 
--   In the Build Triggers section, there are multiple options, select the required one.
--   Add the pom.xml file's path in the **Root POM** option.
+-   In the **Build Triggers** section, there are multiple options, select the required one.
+-   Add the pom.xml file's path in the **Root POM** option in **Pre Steps** Section.
 
 ![](media/7acb7ba145486c729dd6ded2d8090134.png)
 
