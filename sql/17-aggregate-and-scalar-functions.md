@@ -134,7 +134,9 @@ These functions are based on user input, these returns single value.
 
 ## 2.1 Scalar Functions Examples
 
-**1) UCASE()**: It converts the value of a field to uppercase.
+## 1) UCASE() Function
+
+-   It converts the value of a field to uppercase.
 
 **Syntax:**
 
@@ -156,7 +158,9 @@ SELECT UCASE(NAME) FROM Students;
 | DHANRAJ  |
 | RAM      |
 
-**2) LCASE()**: It converts the value of a field to lowercase.
+## 2) LCASE() Function
+
+-   It converts the value of a field to lowercase.
 
 **Syntax:**
 
@@ -178,7 +182,9 @@ SELECT LCASE(NAME) FROM Students;
 | dhanraj  |
 | ram      |
 
-**3) MID():** The MID() function extracts texts from the text field.
+## 3) MID() Function
+
+-   The MID() function extracts texts from the text field.
 
 **Syntax:**
 
@@ -202,7 +208,9 @@ SELECT MID(NAME,1,4) FROM Students;
 | DHAN     |
 | RAM      |
 
-**4) LEN():** The LEN() function returns the length of the value in a text field.
+## 4) LEN() Function
+
+-   The LEN() function returns the length of the value in a text field.
 
 **Syntax:**
 
@@ -224,8 +232,9 @@ SELECT LENGTH(NAME) FROM Students;
 | 7        |
 | 3        |
 
-**5) ROUND():** The ROUND() function is used to round a numeric field to the number of decimals specified.
+## 5) ROUND() Function
 
+-   The ROUND() function is used to round a numeric field to the number of decimals specified.
 -   **NOTE:** Many database systems have adopted the IEEE 754 standard for arithmetic operations, which says that when any numeric .5 is rounded it results to the nearest even integer i.e, 5.5 and 6.5 both gets rounded off to 6.
 
 **Syntax:**
@@ -250,7 +259,9 @@ SELECT ROUND(MARKS,0) FROM table_name;
 | 95        |
 | 85        |
 
-**6) NOW():** The NOW() function returns the current system date and time.
+## 6) NOW() Function
+
+-   The NOW() function returns the current system date and time.
 
 **Syntax:**
 
@@ -272,7 +283,9 @@ SELECT NAME, NOW() AS DateTime FROM Students;
 | DHANRAJ  | 1/13/2017 1:30:11 PM |
 | RAM      | 1/13/2017 1:30:11 PM |
 
-**7) FORMAT():** The FORMAT() function is used to format how a field is to be displayed.
+## 7) FORMAT() Function
+
+-   The FORMAT() function is used to format how a field is to be displayed.
 
 **Syntax:**
 
