@@ -2,23 +2,7 @@
 
 **Content**
 
-**1. What Is Normalization?**
-
-**2. Types of Normal Forms**
-
-2.1 First Normal Form (1NF)
-
-2.2 Second Normal Form (2NF)
-
-2.3 Third Normal Form (3NF)
-
-2.4 Boyce Codd Normal Form (BCNF)
-
-**3. Conclusion**
-
-**4. References**
-
-## 1. What Is Normalization?
+## 1. What Is Normalization in SQL?
 
 -   Normalization is the process to eliminate data redundancy and enhance data integrity in the table.
 -   Normalization also helps to organize the data in the database.
@@ -31,7 +15,7 @@
 
 ![](media/f0ae757c64ce62a84924f02ab9006c32.png)
 
-## 2.1 First Normal Form (1NF)
+## 2.1 1st Normal Form (1NF)
 
 -   A table is referred to as being in its First Normal Form if atomicity of the table is 1.
 -   Here, atomicity states that a single cell cannot hold multiple values. It must hold only a single-valued attribute.
@@ -65,52 +49,41 @@
 
 ## 2.2 Second Normal Form (2NF)
 
--   The first condition for the table to be in Second Normal Form is that the table has to be in First Normal Form.
--   The table should not possess partial dependency.
--   The partial dependency here means the proper subset of the candidate key should give a non-prime attribute.
+-   The first condition for the table to be in Second Normal Form is that the table has to be in First Normal Form. The table should not possess partial dependency. The partial dependency here means the proper subset of the candidate key should give a non-prime attribute.
 -   Now understand the Second Normal Form with the help of an example.
 -   Consider the table Location:
 
 ![](media/b527962567ed348c8d9a659701f59b68.png)
 
--   The Location table possesses a composite primary key cust_id, storeid.
--   The non-key attribute is store_location.
--   In this case, store_location only depends on storeid, which is a part of the primary key. Hence, this table does not fulfill the second normal form.
+-   The Location table possesses a composite primary key cust_id, storeid. The non-key attribute is store_location. In this case, store_location only depends on storeid, which is a part of the primary key. Hence, this table does not fulfill the second normal form.
 -   To bring the table to Second Normal Form, you need to split the table into two parts. This will give you the below tables:
 
 ![](media/c81225fe0e53a3ef76dbbd685e2ef6dc.png)
 
 -   As you have removed the partial functional dependency from the location table, the column store_location entirely depends on the primary key of that table, storeid.
+-   Now that you understood the 1st and 2nd Normal forms, you will look at the next part of this Normalization in SQL tutorial.
 
-## 2.3 Third Normal Form (3NF)
+## Third Normal Form (3NF)
 
 -   The first condition for the table to be in Third Normal Form is that the table should be in the Second Normal Form.
--   The second condition is that there should be no transitive dependency for non-prime attributes, which indicates that non-prime attributes (which are not a part of the candidate key) should not depend on other non-prime attributes in a table.
--   Therefore, a transitive dependency is a functional dependency in which A → C (A determines C) indirectly, because of A → B and B → C (where it is not the case that B → A).
+-   The second condition is that there should be no transitive dependency for non-prime attributes, which indicates that non-prime attributes (which are not a part of the candidate key) should not depend on other non-prime attributes in a table. Therefore, a transitive dependency is a functional dependency in which A → C (A determines C) indirectly, because of A → B and B → C (where it is not the case that B → A).
 -   The third Normal Form ensures the reduction of data duplication. It is also used to achieve data integrity.
 -   Below is a student table that has student id, student name, subject id, subject name, and address of the student as its columns.
 
 ![](media/6178adade02194e9314e2fd34eea83ad.png)
 
--   In the above student table, stu_id determines subid, and subid determines sub. Therefore, stu_id determines sub via subid.
--   This implies that the table possesses a transitive functional dependency, and it does not fulfill the third normal form criteria.
+-   In the above student table, stu_id determines subid, and subid determines sub. Therefore, stu_id determines sub via subid. This implies that the table possesses a transitive functional dependency, and it does not fulfill the third normal form criteria.
 -   Now to change the table to the third normal form, you need to divide the table as shown below:
 
 ![](media/44824fc494391f519ad217bb52300331.png)
 
--   As you can see in both the tables, all the non-key attributes are now fully functional, dependent only on the primary key.
--   In the first table, columns name, subid, and addresses only depend on stu_id.
--   In the second table, the sub only depends on subid.
+-   As you can see in both the tables, all the non-key attributes are now fully functional, dependent only on the primary key. In the first table, columns name, subid, and addresses only depend on stu_id. In the second table, the sub only depends on subid.
 
-## 2.4 Boyce Codd Normal Form (BCNF)
+## Boyce CoddNormal Form (BCNF)
 
--   Boyce Codd Normal Form is also known as 3.5 NF.
--   It is the superior version of 3NF and was developed by Raymond F. Boyce and Edgar F. Codd to tackle certain types of anomalies which were not resolved with 3NF.
--   The first condition for the table to be in Boyce Codd Normal Form is that the table should be in the third normal form.
--   Secondly, every Right-Hand Side (RHS) attribute of the functional dependencies should depend on the super key of that particular table.
-
-**Example**
-
+-   Boyce Codd Normal Form is also known as 3.5 NF. It is the superior version of 3NF and was developed by Raymond F. Boyce and Edgar F. Codd to tackle certain types of anomalies which were not resolved with 3NF.
+-   The first condition for the table to be in Boyce Codd Normal Form is that the table should be in the third normal form. Secondly, every Right-Hand Side (RHS) attribute of the functional dependencies should depend on the super key of that particular table.
+-   For example :
 -   You have a functional dependency X → Y. In the particular functional dependency, X has to be the part of the super key of the provided table.
 -   Consider the below subject table:
 
@@ -118,12 +91,18 @@
 
 The subject table follows these conditions:
 
-1.  Each student can enroll in multiple subjects.
-2.  Multiple professors can teach a particular subject.
-3.  For each subject, it assigns a professor to the student.
--   In the above table, student_id and subject together form the primary key because using student_id and subject; you can determine all the table columns.
--   Another important point to be noted here is that one professor teaches only one subject, but one subject may have two professors.
--   Which exhibit there is a dependency between subject and professor, i.e. subject depends on the professor's name.
+-   Each student can enroll in multiple subjects.
+-   Multiple professors can teach a particular subject.
+-   For each subject, it assigns a professor to the student.
+
+In the above table, student_id and subject together form the primary key because using student_id and subject; you can determine all the table columns.
+
+Another important point to be noted here is that one professor teaches only one subject, but one subject may have two professors.
+
+Which exhibit there is a dependency between subject and professor, i.e. subject depends on the professor's name.
+
+to
+
 -   The table is in 1st Normal form as all the column names are unique, all values are atomic, and all the values stored in a particular column are of the same domain.
 -   The table also satisfies the 2nd Normal Form, as there is no Partial Dependency.
 -   And, there is no Transitive Dependency; hence, the table also satisfies the 3rd Normal Form.
@@ -131,8 +110,7 @@ The subject table follows these conditions:
 -   As you can see stuid, and subject forms the primary key, which means the subject attribute is a prime attribute.
 -   However, there exists yet another dependency - professor → subject.
 -   BCNF does not follow in the table as a subject is a prime attribute, the professor is a non-prime attribute.
--   To transform the table into the BCNF, you will divide the table into two parts.
--   One table will hold stuid which already exists and the second table will hold a newly created column profid.
+-   To transform the table into the BCNF, you will divide the table into two parts. One table will hold stuid which already exists and the second table will hold a newly created column profid.
 
 ![](media/80242a6002d7a0016f299674ffdac15d.png)
 
@@ -140,11 +118,10 @@ The subject table follows these conditions:
 
 ![](media/71ac11fe0baa246fd017e902ab7c160d.png)
 
-## 3. Conclusion
+## Conclusion
 
--   You have seen Normalization in SQL and understood the different Normal forms of Normalization.
--   Now, you can organize the data in the database and remove the data redundancy and promote data integrity.
+-   you have seen Normalization in SQL and understood the different Normal forms of Normalization. Now, you can organize the data in the database and remove the data redundancy and promote data integrity.
 
-## 4. References
+## References
 
 1.  https://www.simplilearn.com/tutorials/sql-tutorial/what-is-normalization-in-sql
