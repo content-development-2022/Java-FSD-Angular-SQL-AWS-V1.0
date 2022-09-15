@@ -1,18 +1,19 @@
-What is Jenkins?
+## JENKINS
 
-Jenkins is an open source automation tool written in Java programming language that allows continuous integration.
+**Content**
 
-Jenkins **builds** and **tests** our software projects which continuously making it easier for developers to integrate changes to the project, and making it easier for users to obtain a fresh build.
+## 1. What is Jenkins?
 
-It also allows us to continuously **deliver** our software by integrating with a large number of testing and deployment technologies.
-
-Jenkins offers a straightforward way to set up a continuous integration or continuous delivery environment for almost any combination of languages and source code repositories using pipelines, as well as automating other routine development tasks.
-
-With the help of Jenkins, organizations can speed up the software development process through automation. Jenkins adds development life-cycle processes of all kinds, including build, document, test, package, stage, deploy static analysis and much more.
-
-Jenkins achieves CI (Continuous Integration) with the help of plugins. Plugins is used to allow the integration of various DevOps stages. If you want to integrate a particular tool, you have to install the plugins for that tool. For example: Maven 2 Project, Git, HTML Publisher, Amazon EC2, etc.
-
-**For example:** If any organization is developing a project, then **Jenkins** will continuously test your project builds and show you the errors in early stages of your development.
+-   Jenkins is an open source automation tool written in Java programming language that allows continuous integration.
+-   Jenkins **builds** and **tests** our software projects which continuously making it easier for developers to integrate changes to the project, and making it easier for users to obtain a fresh build.
+-   It also allows us to continuously **deliver** our software by integrating with a large number of testing and deployment technologies.
+-   Jenkins offers a straight forward way to set up a continuous integration or continuous delivery environment for almost any combination of languages and source code repositories using pipelines, as well as automating other routine development tasks.
+-   With the help of Jenkins, organizations can speed up the software development process through automation.
+-   Jenkins adds development life-cycle processes of all kinds, including build, document, test, package, stage, deploy static analysis and much more.
+-   Jenkins achieves CI (Continuous Integration) with the help of plugins.
+-   Plugins is used to allow the integration of various DevOps stages.
+-   If you want to integrate a particular tool, you have to install the plugins for that tool. For example: Maven 2 Project, Git, HTML Publisher, Amazon EC2, etc.
+-   **For example:** If any organization is developing a project, then **Jenkins** will continuously test your project builds and show you the errors in early stages of your development.
 
 Possible steps executed by Jenkins are for example:
 
@@ -21,37 +22,36 @@ Possible steps executed by Jenkins are for example:
 -   Archive a build result
 -   Running software tests
 
-**Work Flow:**
+## 1.1 Work Flow
 
 ![](media/da9f12dbaa6558dc654706ca56a01750.png)
 
-## History of Jenkins
+## 1.2 History of Jenkins
 
-Kohsuke Kawaguchi, who is a Java developer, working at SUN Microsystems, was tired of building the code and fixing errors repetitively. In 2004, he created an automation server called **Hudson** that automates build and test task.
+-   Kohsuke Kawaguchi, who is a Java developer, working at SUN Microsystems, was tired of building the code and fixing errors repetitively.
+-   In 2004, he created an automation server called **Hudson** that automates build and test task.
+-   In 2011, Oracle who owned Sun Microsystems had a dispute with Hudson open source community, so they forked Hudson and renamed it as **Jenkins**.
+-   Both Hudson and Jenkins continued to operate independently.
+-   But in short span of time, Jenkins acquired a lot of contributors and projects while Hudson remained with only 32 projects. Then with time, Jenkins became more popular, and Hudson is not maintained anymore.
 
-In 2011, Oracle who owned Sun Microsystems had a dispute with Hudson open source community, so they forked Hudson and renamed it as **Jenkins**.
+## 1.3 What is Continuous Integration?
 
-Both Hudson and Jenkins continued to operate independently. But in short span of time, Jenkins acquired a lot of contributors and projects while Hudson remained with only 32 projects. Then with time, Jenkins became more popular, and Hudson is not maintained anymore.
+-   Continuous Integration *(CI)* is a development practice in which the developers are needs to commit changes to the source code in a shared repository at regular intervals.
+-   Every commit made in the repository is then built. This allows the development teams to detect the problems early.
+-   Continuous integration requires the developers to have regular builds.
+-   The general practice is that whenever a code commit occurs, a build should be triggered.
 
-## What is Continuous Integration?
+## 1.4 Continuous Integration with Jenkins
 
-Continuous Integration *(CI)* is a development practice in which the developers are needs to commit changes to the source code in a shared repository at regular intervals. Every commit made in the repository is then built. This allows the development teams to detect the problems early.
-
-Continuous integration requires the developers to have regular builds. The general practice is that whenever a code commit occurs, a build should be triggered.
-
-## Continuous Integration with Jenkins
-
-Let's consider a scenario where the complete source code of the application was built and then deployed on test server for testing. It sounds like a perfect way to *develop software*, but this process has many problems.
-
--   Developer teams have to wait till the complete software is developed for the test results.
--   There is a high prospect that the test results might show multiple bugs. It was tough for developers to locate those bugs because they have to check the entire source code of the application.
--   It slows the software delivery process.
--   Continuous feedback pertaining to things like architectural or coding issues, build failures, test status and file release uploads was missing due to which the quality of software can go down.
--   The whole process was manual which increases the threat of frequent failure.
-
-It is obvious from the above stated problems that not only the software delivery process became slow but the quality of software also went down. This leads to customer dissatisfaction.
-
-So to overcome such problem there was a need for a system to exist where developers can continuously trigger a build and test for every change made in the source code.
+-   Let's consider a scenario where the complete source code of the application was built and then deployed on test server for testing. It sounds like a perfect way to *develop software*, but this process has many problems.
+1.  Developer teams have to wait till the complete software is developed for the test results.
+2.  There is a high prospect that the test results might show multiple bugs.
+3.  It was tough for developers to locate those bugs because they have to check the entire source code of the application.
+4.  It slows the software delivery process.
+5.  Continuous feedback pertaining to things like architectural or coding issues, build failures, test status and file release uploads was missing due to which the quality of software can go down.
+6.  The whole process was manual which increases the threat of frequent failure.
+-   It is obvious from the above stated problems that not only the software delivery process became slow but the quality of software also went down. This leads to customer dissatisfaction.
+-   So to overcome such problem there was a need for a system to exist where developers can continuously trigger a build and test for every change made in the source code.
 
 This is what Continuous Integration (CI) is all about. Jenkins is the most mature Continuous Integration tool available so let us see how Continuous Integration with Jenkins overcame the above shortcomings.
 
@@ -238,8 +238,8 @@ Finally, after [customizing Jenkins with plugins](https://www.jenkins.io/doc/boo
 1.  When the **Create First Admin User** page appears, specify the details for your administrator user in the respective fields and click **Save and Finish**.
 2.  When the **Jenkins is ready** page appears, click **Start using Jenkins**.  
     **Notes:**
-    -   This page may indicate **Jenkins is almost ready!** instead and if so, click **Restart**.
-    -   If the page does not automatically refresh after a minute, use your web browser to refresh the page manually.
+    1.  This page may indicate **Jenkins is almost ready!** instead and if so, click **Restart**.
+    2.  If the page does not automatically refresh after a minute, use your web browser to refresh the page manually.
 3.  If required, log in to Jenkins with the credentials of the user you just created and you are ready to start using Jenkins!
 
 ## Troubleshooting Windows installation
@@ -301,12 +301,12 @@ When you first access a new Jenkins instance, you are asked to unlock it using a
     ![](media/9d90ba4339afe9ffa252addf9f6f91ab.png)
 
 2.  **Note:**
-    -   The command: sudo cat /var/lib/jenkins/secrets/initialAdminPassword will print the password at console.
-    -   If you are running Jenkins in Docker using the official jenkins/jenkins image you can use sudo docker exec \${CONTAINER_ID or CONTAINER_NAME} cat /var/jenkins_home/secrets/initialAdminPassword to print the password in the console without having to exec into the container.
+    1.  The command: sudo cat /var/lib/jenkins/secrets/initialAdminPassword will print the password at console.
+    2.  If you are running Jenkins in Docker using the official jenkins/jenkins image you can use sudo docker exec \${CONTAINER_ID or CONTAINER_NAME} cat /var/jenkins_home/secrets/initialAdminPassword to print the password in the console without having to exec into the container.
 3.  On the **Unlock Jenkins** page, paste this password into the **Administrator password** field and click **Continue**.  
     **Notes:**
-    -   You can always access the Jenkins console log from the Docker logs ([above](https://www.jenkins.io/doc/book/installing/war-file/#accessing-the-jenkins-console-log-through-docker-logs)).
-    -   The Jenkins console log indicates the location (in the Jenkins home directory) where this password can also be obtained. This password must be entered in the setup wizard on new Jenkins installations before you can access Jenkins’s main UI. This password also serves as the default administrator account’s password (with username "admin") if you happen to skip the subsequent user-creation step in the setup wizard.
+    1.  You can always access the Jenkins console log from the Docker logs ([above](https://www.jenkins.io/doc/book/installing/war-file/#accessing-the-jenkins-console-log-through-docker-logs)).
+    2.  The Jenkins console log indicates the location (in the Jenkins home directory) where this password can also be obtained. This password must be entered in the setup wizard on new Jenkins installations before you can access Jenkins’s main UI. This password also serves as the default administrator account’s password (with username "admin") if you happen to skip the subsequent user-creation step in the setup wizard.
 
 ### Customizing Jenkins with plugins
 
@@ -328,8 +328,8 @@ Finally, after [customizing Jenkins with plugins](https://www.jenkins.io/doc/boo
 1.  When the **Create First Admin User** page appears, specify the details for your administrator user in the respective fields and click **Save and Finish**.
 2.  When the **Jenkins is ready** page appears, click **Start using Jenkins**.  
     **Notes:**
-    -   This page may indicate **Jenkins is almost ready!** instead and if so, click **Restart**.
-    -   If the page does not automatically refresh after a minute, use your web browser to refresh the page manually.
+    1.  This page may indicate **Jenkins is almost ready!** instead and if so, click **Restart**.
+    2.  If the page does not automatically refresh after a minute, use your web browser to refresh the page manually.
 3.  If required, log in to Jenkins with the credentials of the user you just created and you are ready to start using Jenkins!
 
 References
