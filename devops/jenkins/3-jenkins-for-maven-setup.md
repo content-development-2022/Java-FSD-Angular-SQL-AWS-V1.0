@@ -19,14 +19,14 @@
 
 ## 2. Downloading Maven
 
--   The official website for Apache Maven is <https://maven.apache.org/download.cgi>. Click on the given link to download the Maven.
+-   The official website for Apache Maven is <https://maven.apache.org/download.cgi>. Click on the given link to **download** the Maven.
 -   When you click on the given link, you will get the home page of the official Maven website as given below:
 
 ![](media/905cda1fee66b0ccf1571dad6badd7ed.png)
 
--   Go to the files section and **download** the Maven by the given link for Binary zip archive file.
+-   Go to the files section and **download** the Maven by the given link for **Binary zip archive file.**
 
-![](media/fc966458c52fc31b8950c62992b7ee36.png)
+![](media/bdd5ca8bacfce80097fd0b875ea46682.png)
 
 -   Once the file is downloaded, extract the file into your system.
 
