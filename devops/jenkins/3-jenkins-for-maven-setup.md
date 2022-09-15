@@ -24,7 +24,7 @@
 
 ![](media/905cda1fee66b0ccf1571dad6badd7ed.png)
 
--   Go to the files section and **download** the Maven by the given link for **Binary zip archive file.**
+-   Go to the **files** section and **download** the Maven by the given link for **Binary zip archive file.**
 
 ![](media/bdd5ca8bacfce80097fd0b875ea46682.png)
 
@@ -62,7 +62,7 @@
 
 ![](media/8fb6af728bcb735580e3479070c6ebd8.png)
 
--   And now, to configure Maven, click on "Add Maven" button in the Maven section, give any **Name** and **MAVEN_HOME** path or check to install automatically checkbox.
+-   And now, to configure Maven, click on "**Add Maven**" button in the Maven section, give any **Name** and **MAVEN_HOME** path or check to install automatically checkbox.
 
 ![](media/10fe1fc18dafa3b4f599d8bb95a26971.png)
 
