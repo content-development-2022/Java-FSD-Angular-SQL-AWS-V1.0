@@ -1,4 +1,4 @@
-## Maven Setup for Jenkins
+# Maven Setup for Jenkins
 
 **Content**
 
