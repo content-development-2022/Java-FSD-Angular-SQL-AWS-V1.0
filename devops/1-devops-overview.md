@@ -1,28 +1,33 @@
-## DevOps Model Defined
+## 1. DevOps Model Defined
 
-DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
+-   DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes.
+-   This speed enables organizations to better serve their customers and compete more effectively in the market.
 
 ![What is DevOps?](media/6c5ac64a2a0e49285b71329fd54f98a5.png)
 
-## How DevOps Works
+## 2. How DevOps Works
 
-Under a DevOps model, development and operations teams are no longer “siloed.” Sometimes, these two teams are merged into a single team where the engineers work across the entire application lifecycle, from development and test to deployment to operations, and develop a range of skills not limited to a single function.
+-   Under a DevOps model, development and operations teams are no longer “siloed.”
+-   Sometimes, these two teams are merged into a single team where the engineers work across the entire application lifecycle, from development and test to deployment to operations, and develop a range of skills not limited to a single function.
+-   In some DevOps models, quality assurance and security teams may also become more tightly integrated with development and operations and throughout the application lifecycle.
+-   When security is the focus of everyone on a DevOps team, this is sometimes referred to as DevSecOps.
+-   These teams use practices to automate processes that historically have been manual and slow.
+-   They use a technology stack and tooling which help them operate and evolve applications quickly and reliably.
+-   These tools also help engineers independently accomplish tasks (for example, deploying code or provisioning infrastructure) that normally would have required help from other teams, and this further increases a team’s velocity.
 
-In some DevOps models, quality assurance and security teams may also become more tightly integrated with development and operations and throughout the application lifecycle. When security is the focus of everyone on a DevOps team, this is sometimes referred to as DevSecOps.
-
-These teams use practices to automate processes that historically have been manual and slow. They use a technology stack and tooling which help them operate and evolve applications quickly and reliably. These tools also help engineers independently accomplish tasks (for example, deploying code or provisioning infrastructure) that normally would have required help from other teams, and this further increases a team’s velocity.
-
-## Benefits of DevOps
+## 3. Benefits of DevOps
 
 ![https://d1.awsstatic.com/Developer%20Marketing/DevOps/DevOps-What-is_scale.87cace0a71f7578eb8aa79e61baa18e850b0e9ca.png](media/46869bf99a1dc25aeb35806e9c38418a.png)
 
-### Speed
+### 1) Speed
 
-Move at high velocity so you can innovate for customers faster, adapt to changing markets better, and grow more efficient at driving business results. The DevOps model enables your developers and operations teams to achieve these results. For example, microservices and [continuous delivery](https://aws.amazon.com/devops/continuous-delivery/) let teams take ownership of services and then release updates to them quicker.
+-   Move at high velocity so you can innovate for customers faster, adapt to changing markets better, and grow more efficient at driving business results.
+-   The DevOps model enables your developers and operations teams to achieve these results.
+-   For example, microservices and continuous delivery let teams take ownership of services and then release updates to them quicker.
 
 ![https://d1.awsstatic.com/Developer%20Marketing/DevOps/DevOps-What-is_delivery.ab8e4f4580bd50ef2536ac6726d8c599c0a321da.png](media/18d06f91e4a2eed3ed0a5899660f62cb.png)
 
-### Rapid Delivery
+### 2) Rapid Delivery
 
 Increase the frequency and pace of releases so you can innovate and improve your product faster. The quicker you can release new features and fix bugs, the faster you can respond to your customers’ needs and build competitive advantage. [Continuous integration](https://aws.amazon.com/devops/continuous-integration/) and [continuous delivery](https://aws.amazon.com/devops/continuous-delivery/) are practices that automate the software release process, from build to deploy.
 

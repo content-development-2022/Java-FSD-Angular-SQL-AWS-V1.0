@@ -1,4 +1,4 @@
-## GitHub Setup for Jenkins
+# GitHub Setup for Jenkins
 
 **Content**
 
