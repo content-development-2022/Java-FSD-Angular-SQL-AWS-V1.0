@@ -119,7 +119,7 @@
 -   However, the combination of microservices and increased release frequency leads to significantly more deployments which can present operational challenges.
 -   Thus, DevOps practices like continuous integration and continuous delivery solve these issues and let organizations deliver rapidly in a safe and reliable manner.
 -   Infrastructure automation practices, like infrastructure as code and configuration management, help to keep computing resources elastic and responsive to frequent changes.
--   pIn addition, the use of monitoring and logging helps engineers track the performance of applications and infrastructure so they can react quickly to problems.
+-   In addition, the use of monitoring and logging helps engineers track the performance of applications and infrastructure so they can react quickly to problems.
 
 ## 6. References
 
