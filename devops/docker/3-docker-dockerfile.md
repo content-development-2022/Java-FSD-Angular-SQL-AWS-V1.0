@@ -157,10 +157,7 @@ MAINTAINER author_name
 
 ![](media/b8199df13fe53d98ac6efd3f659c1c5c.png)
 
--   Once the Docker image is created, you can verify by executing the command:
-
-**docker images**
-
+-   Once the Docker image is created, you can verify by executing the command: **docker images**
 -   The output should show sampli_docker available in the repository.
 
 ## 7. References
