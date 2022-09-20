@@ -27,15 +27,15 @@
 
 **Syntax**
 
-*\# comments*
+\# comments
 
-*command argument argument1...*
+command argument argument1...
 
 **Example**
 
-*\# Print "Get Certified. Get Ahead"*
+\# Print "Get Certified. Get Ahead"
 
-*Run echo "Get Certified. Get Ahead"*
+Run echo "Get Certified. Get Ahead"
 
 ## 3. List of Docker Commands for Creating a Dockerfile
 
@@ -48,13 +48,13 @@
 
 **Example of the dockerfile with the important commands**
 
-*FROM ubuntu:18.04*
+FROM ubuntu:18.04
 
-*PULL. /file*
+PULL. /file
 
-*RUN make /file*
+RUN make /file
 
-*CMD python /file/file.py*
+CMD python /file/file.py
 
 -   Have a look at the diagrammatic representation of how a dockerfile looks in a docker image:
 
