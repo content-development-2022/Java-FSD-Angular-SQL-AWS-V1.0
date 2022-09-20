@@ -115,9 +115,7 @@ MAINTAINER author_name
 **Step1:**
 
 -   You should create a directory in order to store all the Docker images you build.
--   We will create a directory named ‘samplidocker’ with the command:
-
-**mkdir samplidocker**
+-   We will create a directory named ‘samplidocker’ with the command: **mkdir samplidocker**
 
 **Step2:**
 
@@ -130,9 +128,7 @@ MAINTAINER author_name
 **Step3:**
 
 -   Open the file with the editor.
--   In this example, we opened the file using vi:
-
-**vi Dockerfile**
+-   In this example, we opened the file using vi: **vi Dockerfile**
 
 **Step 4:**
 
