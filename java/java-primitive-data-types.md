@@ -1,3 +1,21 @@
+# Data Types in Java
+
+**Content**
+
+1\. Data Types in Java
+
+2\. Primitive Data Types
+
+2.1 Boolean Data Type
+
+2.2 Numeric Data Types
+
+2.2.1 Integral types
+
+2.2.2 Floating point types
+
+3\. References
+
 ## 1. Data Types in Java
 
 -   Data types specify the different sizes and values that can be stored in the variable.
@@ -11,7 +29,7 @@
 
 -   In Java language, primitive data types are the building blocks of data manipulation.
 -   A primitive data type specifies the size and type of variable values, and it has no additional methods.
--   There are eight primitive data types in Java:
+-   There are **eight primitive data types** in Java:
 
 ![](media/618cebd1f26eeeb667b147c99f4b83a7.png)
 
@@ -42,11 +60,6 @@ boolean b=true;
 3.  int
 4.  long
 5.  char
-
-## 2.2.2 Floating point types
-
--   It represent numbers with a fractional part, containing one or more decimals.
--   There are two types: **float and double**.
 
 ## 1) Byte Data Type
 
@@ -112,7 +125,12 @@ long b = -1508909900L;
 
 **char** letter= 'A' ;
 
-## 6) Float Data Type
+## 2.2.2 Floating point types
+
+-   It represent numbers with a fractional part, containing one or more decimals.
+-   There are two types: **float and double**.
+
+## 1) Float Data Type
 
 -   The float data type is a single-precision 32-bit IEEE 754 floating point.
 -   Its value is unlimited.
@@ -123,7 +141,7 @@ long b = -1508909900L;
 
 **float** f1 = 234.5;
 
-## 7) Double Data Type
+## 2) Double Data Type
 
 -   The double data type is a double-precision 64-bit IEEE 754 floating point.
 -   Its value range is unlimited.
@@ -134,7 +152,7 @@ long b = -1508909900L;
 
 **double** d1 = 12.3;
 
-## References
+## 3. References
 
 1.  https://www.javatpoint.com/java-data-types
 2.  https://www.w3schools.com/java/java_data_types.asp
