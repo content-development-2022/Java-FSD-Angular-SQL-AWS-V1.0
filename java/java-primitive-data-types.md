@@ -43,9 +43,9 @@
 
 **Example:**
 
-boolean a = false;
+**boolean** a = false;
 
-boolean b=true;
+**boolean** b=true;
 
 ## 2.2 Numeric Data Types
 
@@ -111,9 +111,9 @@ boolean b=true;
 
 **Example:**
 
-long a = 1500009900L;
+**long** a = 1500009900L;
 
-long b = -1508909900L;
+**long** b = -1508909900L;
 
 ## 5) Char Data Type
 
