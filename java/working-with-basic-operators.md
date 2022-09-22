@@ -141,7 +141,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 -   It also preserves the leftmost bit (sign bit).
 -   If **0** is presented at the leftmost bit, it means the number is **positive**.
 -   If **1** is presented at the leftmost bit, it means the number is **negative**.
--   In general, if we write a\>\>n, it means to shift the bits of a number toward the right with a specified position (n).
+-   In general, if we write **a\>\>n**, it means to shift the bits of a number toward the right with a specified position (n).
 -   In the terms of mathematics, we can represent the signed right shift operator as follows:
 
 ![](media/f3643c9f4ba8f616f0211f5ec3a16168.png)
@@ -150,23 +150,20 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 **2) Signed Left Shift Operator (\<\<)**
 
--   The signed left shift operator (\<\<) shifts a bit pattern to the left.
+-   The signed left shift operator shifts a bit pattern to the **left**.
 -   It is represented by the symbol **\<\<.**
 -   It also preserves the leftmost bit (sign bit).
--   It does not preserve the sign bit.
--   In general, if we write a\<\<n, it means to shift the bits of a number toward the left with specified position (n).
+-   In general, if we write **a\<\<n**, it means to shift the bits of a number toward the left with specified position (n).
 -   In the terms of mathematics, we can represent the signed right shift operator as follows:
 
 ![](media/171d7847c26af6671d7ef07b3a4abebc.png)
 
 **3) Unsigned Right Shift Operator (\>\>\>)**
 
--   It shifts a zero at the leftmost position and fills 0.
+-   The left operand value is moved right by the number of bits specified by the right operand and the shifted bits are filled up with **zeros**.
+-   Excess bits shifted off to the right are discarded.
 -   It is denoted by the symbol **\>\>\>.**
 -   Note that the leftmost position after \>\> depends on the sign bit. It does not preserve the sign bit.
--   The left operand value is moved right by the number of bits specified by the right operand and the shifted bits are filled up with zeros.
--   Excess bits shifted off to the right are discarded.
--   Therefore, before shifting the bits the decimal value of a is 240, and after shifting the bits the decimal value of a is 60.
 
 ## 2. References
 
