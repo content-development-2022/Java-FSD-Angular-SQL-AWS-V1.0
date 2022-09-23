@@ -85,7 +85,7 @@ Let's understand the if-statements one by one.
 
 ![](media/0565f236aabb5129cb3df6993b220a65.png)
 
-## Switch Statement
+## 1.1.2 Switch Statement
 
 -   In Java, Switch statements are similar to if-else-if statements.
 -   The switch statement contains multiple blocks of code called cases and a single case is executed based on the variable which is being switched.
