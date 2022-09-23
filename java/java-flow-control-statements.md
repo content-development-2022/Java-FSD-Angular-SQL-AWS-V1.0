@@ -133,22 +133,24 @@ Let's understand the if-statements one by one.
     It is optional, if not used, next case is executed.
 -   While using switch statements, we must notice that the case expression will be of the same type as the variable. However, it will also be a constant value.
 
-![](media/441e583aa53c4f7202e7ee4c1f72d3f2.png)
+![](media/c6e6744fb2af31d6f50cb020ee2ca1dd.png)
 
 **Example**
 
+**![](media/cc9e337418cf922a2f920f53483e6702.png)**
+
 **Output**
+
+![](media/96624fdbb221ecb4f79869b76f65911a.png)
 
 ## 1.2 Loop Statements
 
 -   In programming, sometimes we need to execute the block of code repeatedly while some condition evaluates to true.
 -   However, loop statements are used to execute the set of instructions in a repeated order.
 -   The execution of the set of instructions depends upon a particular condition.
--   In Java, we have **four types of loops** that execute similarly. However, there are differences in their syntax and condition checking time.
-1.  for loop
-2.  for each loop
-3.  while loop
-4.  do-while loop
+-   In Java, we have **three types of loops** that execute similarly. However, there are differences in their syntax and condition checking time.
+
+![](media/ca1166d59174661db6574e9d87d5e9ca.png)
 
 Let's understand the loop statements one by one.
 
@@ -162,7 +164,7 @@ Let's understand the loop statements one by one.
 
 **Output**
 
-## 1.2.2 for-each Loop
+## 1.2.1.1 for-each Loop
 
 -   Java provides an enhanced for loop to traverse the data structures like array or collection.
 -   In the for-each loop, we don't need to update the loop variable.
@@ -171,7 +173,7 @@ Let's understand the loop statements one by one.
 
 ![](media/672a7c3f81b91e0f1e44710979ddc883.png)
 
-## 1.2.3 while Loop
+## 1.2.2 while Loop
 
 -   The while loop is also used to iterate over the number of statements multiple times.
 -   However, if we don't know the number of iterations in advance, it is recommended to use a while loop.
@@ -185,7 +187,7 @@ Let's understand the loop statements one by one.
 
 **Output**
 
-## 1.2.4 do-while Loop
+## 1.2.3 do-while Loop
 
 -   The do-while loop checks the condition at the end of the loop after executing the loop statements.
 -   When the number of iteration is not known and we have to execute the loop at least once, we can use do-while loop.
