@@ -2,6 +2,32 @@
 
 **Content**
 
+**1. Java Flow Control Statements**
+
+**1.1 Decision-Making Statements**
+
+1.1.1 If Statement
+
+1.1.2 Switch Statement
+
+**1.2 Loop Statements**
+
+1.2.1 for Loop
+
+1.2.2 for-each Loop
+
+1.2.3 while Loop
+
+1.2.4 do-while Loop
+
+**1.3 Jump Statements**
+
+1.3.1 break Statement
+
+1.3.2 continue Statement
+
+**2. References**
+
 ## 1. Java Flow Control Statements
 
 -   Java compiler executes the code from top to bottom.
@@ -61,93 +87,86 @@ Let's understand the if-statements one by one.
 
 ## Switch Statement
 
--   In Java, Switch statements
--   are similar to if-else-if statements. The switch statement contains multiple blocks of code called cases and a single case is executed based on the variable which is being switched. The switch statement is easier to use instead of if-else-if statements. It also enhances the readability of the program.
+-   In Java, Switch statements are similar to if-else-if statements.
+-   The switch statement contains multiple blocks of code called cases and a single case is executed based on the variable which is being switched.
+-   The switch statement is easier to use instead of if-else-if statements.
+-   It also enhances the readability of the program.
 
-Points to be noted about switch statement:
+**Important Points to be noted about switch statement:**
 
--   The case variables can be int, short, byte, char, or enumeration. String type is also supported since version 7 of Java
--   Cases cannot be duplicate
+-   The case variables can be int, short, byte, char, or enumeration. String type is also supported since version 7 of Java.
+-   Cases cannot be duplicate.
 -   Default statement is executed when any of the case doesn't match the value of expression. It is optional.
 -   Break statement terminates the switch block when the condition is satisfied.  
     It is optional, if not used, next case is executed.
 -   While using switch statements, we must notice that the case expression will be of the same type as the variable. However, it will also be a constant value.
 
-The syntax to use the switch statement is given below.
+![](media/441e583aa53c4f7202e7ee4c1f72d3f2.png)
 
-![](media/5eaaf624827539dce3fdcd070c75d1ce.png)
+## 1.2 Loop Statements
 
--   While using switch statements, we must notice that the case expression will be of the same type as the variable. However, it will also be a constant value. The switch permits only int, string, and Enum type variables to be used.
-
-## Loop Statements
-
--   In programming, sometimes we need to execute the block of code repeatedly while some condition evaluates to true. However, loop statements are used to execute the set of instructions in a repeated order. The execution of the set of instructions depends upon a particular condition.
--   In Java, we have three types of loops that execute similarly. However, there are differences in their syntax and condition checking time.
+-   In programming, sometimes we need to execute the block of code repeatedly while some condition evaluates to true.
+-   However, loop statements are used to execute the set of instructions in a repeated order.
+-   The execution of the set of instructions depends upon a particular condition.
+-   In Java, we have **four types of loops** that execute similarly. However, there are differences in their syntax and condition checking time.
 1.  for loop
-2.  while loop
-3.  do-while loop
+2.  for each loop
+3.  while loop
+4.  do-while loop
 
 Let's understand the loop statements one by one.
 
-## Java for loop
+## 1.2.1 for Loop
 
-In Java, for loop
+-   In Java, for loop is similar to C and C++.
+-   It enables us to initialize the loop variable, check the condition, and increment/decrement in a single line of code.
+-   We use the for loop only when we exactly know the number of times, we want to execute the block of cod![](media/537003b2592163ab2b9561f9d599d084.png)
 
-is similar to C
+## 1.2.2 for-each Loop
 
-and C++
+-   Java provides an enhanced for loop to traverse the data structures like array or collection.
+-   In the for-each loop, we don't need to update the loop variable.
 
-. It enables us to initialize the loop variable, check the condition, and increment/decrement in a single line of code. We use the for loop only when we exactly know the number of times, we want to execute the block of code.
-
-![](media/7237c399c3785cea78fc9c43a95695f0.png)
-
-The flow chart for the for-loop is given below.
-
-![](media/a9ffa9e612422be5d521ed85bf3952ec.png)
-
-## Java for-each loop
-
--   Java provides an enhanced for loop to traverse the data structures like array or collection. In the for-each loop, we don't need to update the loop variable. The syntax to use the for-each loop in java is given below.
+**Syntax**
 
 ![](media/672a7c3f81b91e0f1e44710979ddc883.png)
 
-## Java while loop
+## 1.2.3 while Loop
 
--   The [while loop](https://www.javatpoint.com/java-while-loop) is also used to iterate over the number of statements multiple times. However, if we don't know the number of iterations in advance, it is recommended to use a while loop. Unlike for loop, the initialization and increment/decrement doesn't take place inside the loop statement in while loop.
--   It is also known as the entry-controlled loop since the condition is checked at the start of the loop. If the condition is true, then the loop body will be executed; otherwise, the statements after the loop will be executed.
--   The syntax of the while loop is given below.
+-   The while loop is also used to iterate over the number of statements multiple times.
+-   However, if we don't know the number of iterations in advance, it is recommended to use a while loop.
+-   Unlike for loop, the initialization and increment/decrement doesn't take place inside the loop statement in while loop.
+-   It is also known as the **entry-controlled loop** since the condition is checked at the start of the loop.
+-   If the condition is true, then the loop body will be executed; otherwise, the statements after the loop will be executed.
 
-![](media/7cda63d58122a13e184c9d14abd5dbdc.png)
+![](media/ca8a30218dc1cc0f1093b049ab1b7b38.png)
 
-The flow chart for the while loop is given in the following image.
+## 1.2.4 do-while Loop
 
-![](media/3d8f71c59a8e403c6b17f09a470cc69f.png)
+-   The do-while loop checks the condition at the end of the loop after executing the loop statements.
+-   When the number of iteration is not known and we have to execute the loop at least once, we can use do-while loop.
+-   It is also known as the **exit-controlled loop** since the condition is not checked in advance.
 
-## Java do-while loop
+    ![](media/0319635ac779fb0184a590f36cd030fb.png)
 
--   The [do-while loop](https://www.javatpoint.com/java-do-while-loop) checks the condition at the end of the loop after executing the loop statements. When the number of iteration is not known and we have to execute the loop at least once, we can use do-while loop.
--   It is also known as the exit-controlled loop since the condition is not checked in advance. The syntax of the do-while loop is given below.
+## 1.3 Jump Statements
 
-![](media/105ca5806ce82edd0be5bcbc4eb7e977.png)
+-   Jump statements are used to transfer the control of the program to the specific statements.
+-   In other words, jump statements transfer the execution control to the other part of the program.
+-   There are **two types** of **jump** statements in Java.
+1.  break
+2.  continue
 
-The flow chart of the do-while loop is given in the following image.
+## 1.3.1 break Statement
 
-![](media/714942e35b7815fc175aa19abf9d7645.png)
+-   As the name suggests, the break statement is used to break the current flow of the program and transfer the control to the next statement outside a loop or switch statement.
+-   However, it breaks only the inner loop in the case of the nested loop.
+-   The break statement cannot be used independently in the Java program, i.e., it can only be written inside the loop or switch statement.
 
-## Jump Statements
+## 1.3.2 continue Statement
 
--   Jump statements are used to transfer the control of the program to the specific statements. In other words, jump statements transfer the execution control to the other part of the program. There are two types of jump statements in Java, i.e., break and continue.
+-   Unlike break statement, the continue statement doesn't break the loop, whereas, it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
 
-## Java break statement
-
--   As the name suggests, the [break statement](https://www.javatpoint.com/java-break) is used to break the current flow of the program and transfer the control to the next statement outside a loop or switch statement. However, it breaks only the inner loop in the case of the nested loop.
-
-The break statement cannot be used independently in the Java program, i.e., it can only be written inside the loop or switch statement.
-
-## Java continue statement
-
--   Unlike break statement, the [continue statement](https://www.javatpoint.com/java-continue) doesn't break the loop, whereas, it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
-
-## References
+## 2. References
 
 1.  https://www.javatpoint.com/control-flow-in-java
