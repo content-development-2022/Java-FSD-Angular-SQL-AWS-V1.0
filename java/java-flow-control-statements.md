@@ -64,12 +64,28 @@ Let's understand the if-statements one by one.
 
 ![](media/f6a257c0e63ae70029111743717a6e2e.png)
 
+**Example**
+
+![](media/031bc5970ef10f3fc10768e08762671f.png)
+
+**Output**
+
+**![](media/5379f2a4bbd429e88f314600336ea460.png)**
+
 ## 2) if-else Statement
 
 -   The if-else statement is an extension to the if-statement, which uses another block of code, i.e., else block.
 -   The else block is executed if the condition of the if-block is evaluated as false.
 
 ![](media/e260e69f0e01d5cf4ada2a55826b281d.png)
+
+**Example**
+
+**![](media/50e2b74c3202aa1b6ff708d5580b0b0d.png)**
+
+**Output**
+
+![](media/2a6585478a764240ae4003c970228be8.png)
 
 ## 3) if-else-if ladder Statement
 
@@ -79,11 +95,27 @@ Let's understand the if-statements one by one.
 
 ![](media/c12047f0db74099fde83215629278ae5.png)
 
+**Example**
+
+**![](media/8581d704b79a488b97c6d289ce2fd8b0.png)**
+
+**Output**
+
+![](media/1fdbbeb4d37e5664351087ca5c36da07.png)
+
 ## 4) Nested if-statement
 
 -   In nested if-statements, the **if statement** can **contains** an **if** or **if-else** statement **inside another** **if or else-if** statement.
 
 ![](media/0565f236aabb5129cb3df6993b220a65.png)
+
+**Example**
+
+**![](media/839d64bc823ab7fbbc68216691caa3be.png)**
+
+**Output**
+
+![](media/07dbc87df6a6c8803b56aa95e87c6862.png)
 
 ## 1.1.2 Switch Statement
 
@@ -102,6 +134,10 @@ Let's understand the if-statements one by one.
 -   While using switch statements, we must notice that the case expression will be of the same type as the variable. However, it will also be a constant value.
 
 ![](media/441e583aa53c4f7202e7ee4c1f72d3f2.png)
+
+**Example**
+
+**Output**
 
 ## 1.2 Loop Statements
 
@@ -122,6 +158,10 @@ Let's understand the loop statements one by one.
 -   It enables us to initialize the loop variable, check the condition, and increment/decrement in a single line of code.
 -   We use the for loop only when we exactly know the number of times, we want to execute the block of cod![](media/537003b2592163ab2b9561f9d599d084.png)
 
+**Example**
+
+**Output**
+
 ## 1.2.2 for-each Loop
 
 -   Java provides an enhanced for loop to traverse the data structures like array or collection.
@@ -141,6 +181,10 @@ Let's understand the loop statements one by one.
 
 ![](media/ca8a30218dc1cc0f1093b049ab1b7b38.png)
 
+**Example**
+
+**Output**
+
 ## 1.2.4 do-while Loop
 
 -   The do-while loop checks the condition at the end of the loop after executing the loop statements.
@@ -148,6 +192,10 @@ Let's understand the loop statements one by one.
 -   It is also known as the **exit-controlled loop** since the condition is not checked in advance.
 
     ![](media/0319635ac779fb0184a590f36cd030fb.png)
+
+**Example**
+
+**Output**
 
 ## 1.3 Jump Statements
 
