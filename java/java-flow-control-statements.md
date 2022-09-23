@@ -156,22 +156,90 @@ Let's understand the loop statements one by one.
 
 ## 1.2.1 for Loop
 
--   In Java, for loop is similar to C and C++.
--   It enables us to initialize the loop variable, check the condition, and increment/decrement in a single line of code.
--   We use the for loop only when we exactly know the number of times, we want to execute the block of cod![](media/537003b2592163ab2b9561f9d599d084.png)
+-   The Java *for loop* is used to iterate a part of the program several times.
+-   If the number of iteration is **fixed**, it is recommended to use for loop.
+-   There are three types of for loops in Java.
+1.  Simple for Loop
+2.  For-each or Enhanced for Loop
+3.  Labeled for Loop
+
+## 1) Simple for Loop
+
+-   A simple for loop is the same as [C](https://www.javatpoint.com/c-programming-language-tutorial)/C++.
+-   We can initialize the variable, check condition and increment/decrement value.
+-   It consists of **four parts**:
+1.  **Initialization**: Which is executed once when the loop starts. Here, we can initialize the variable, or we can use an already initialized variable.
+2.  **Condition**: Which is executed each time to test the condition of the loop. It continues execution until the condition is false. It must return boolean value either true or false.
+3.  **Increment/Decrement**: It increments or decrements the variable value.
+4.  **Statement**: The statement of the loop is executed each time until the second condition is false.
+
+    ![](media/537003b2592163ab2b9561f9d599d084.png)
 
 **Example**
 
+![](media/93971c917af9f2748f569fe052001b77.png)
+
 **Output**
 
-## 1.2.1.1 for-each Loop
+![](media/afeeab2a70cdaa37564b3326f211d7e1.png)
+
+## 2) for-each Loop
 
 -   Java provides an enhanced for loop to traverse the data structures like array or collection.
+-   It is easier to use than simple for loop because we don't need to increment value and use subscript notation.
+-   It works on the basis of elements and not the index.
+-   It returns element one by one in the defined variable.
 -   In the for-each loop, we don't need to update the loop variable.
 
 **Syntax**
 
 ![](media/672a7c3f81b91e0f1e44710979ddc883.png)
+
+**Example**
+
+![](media/cae5c6dceada4d5760759c6dd9482b4a.png)
+
+**Output**
+
+**![](media/9f3a76c7568648cb39c6ddf6b257f0b2.png)**
+
+## 3) Labeled For Loop
+
+-   We use label before the for loop. It is useful while using the nested for loop as we can break/continue specific for loop.
+
+**![](media/b72c88bb2c7414bd5054e4e65bf81bcc.png)**
+
+**Syntax**
+
+**![](media/2eb7791dcf395cb47b96710ff2bfb1ea.png)**
+
+**Example**
+
+**![](media/0aa25661ecc356124358f6c4d286ac01.png)**
+
+**Output**
+
+**![](media/101984cbd6d6e00231f226fd35eb3a81.png)**
+
+-   If you use **break bb;**, it will break inner loop only which is the default behaviour of any loop.
+
+## Infinitive for Loop
+
+-   If you use two semicolons ;; in the for loop, it will be infinitive for loop.
+
+**Syntax:**
+
+**![](media/3b1e9dba8bf740b48c9659139c7fa588.png)**
+
+**Example**
+
+**![](media/c673c515811e0188e8000f3925bbe5ae.png)**
+
+**Output**
+
+**![](media/1bd22e7ed268920c79bcc1c718c24ac2.png)**
+
+-   Now, you need to press ctrl+c to exit from the program.
 
 ## 1.2.2 while Loop
 
@@ -185,7 +253,11 @@ Let's understand the loop statements one by one.
 
 **Example**
 
+![](media/299cf11d0f2ccd5cb30496a408fc854b.png)
+
 **Output**
+
+![](media/34a797bbec8f6d5d5b81774fe23097be.png)
 
 ## 1.2.3 do-while Loop
 
@@ -193,11 +265,15 @@ Let's understand the loop statements one by one.
 -   When the number of iteration is not known and we have to execute the loop at least once, we can use do-while loop.
 -   It is also known as the **exit-controlled loop** since the condition is not checked in advance.
 
-    ![](media/0319635ac779fb0184a590f36cd030fb.png)
+## ![](media/0319635ac779fb0184a590f36cd030fb.png)
 
 **Example**
 
 **Output**
+
+## Java for Loop Vs while Loop Vs do-while Loop
+
+![](media/7b6b92005ae0d96fc5c29f1f086385e1.png)
 
 ## 1.3 Jump Statements
 
@@ -213,9 +289,19 @@ Let's understand the loop statements one by one.
 -   However, it breaks only the inner loop in the case of the nested loop.
 -   The break statement cannot be used independently in the Java program, i.e., it can only be written inside the loop or switch statement.
 
+**Example**
+
+**Output**
+
+-   
+
 ## 1.3.2 continue Statement
 
 -   Unlike break statement, the continue statement doesn't break the loop, whereas, it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
+
+**Example**
+
+**Output**
 
 ## 2. References
 
