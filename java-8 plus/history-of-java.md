@@ -17,7 +17,7 @@
 -   However, it was best suited for internet programming.
 -   Later, Java technology was incorporated by Netscape.
 -   The principles for creating Java programming were "Simple, Robust, Portable, Platform-independent, Secured, High Performance, Multithreaded, Architecture Neutral, Object-Oriented, Interpreted, and Dynamic".
--   Java was developed by James Gosling, who is known as the father of Java, in 1995.
+-   Java was developed by **James Gosling**, who is known as the **father of Java**, in **1995**.
 -   James Gosling and his team members started the project in the early '90s.
 
 ![James Gosling - founder of java](media/621a5b08b87e616731579d67b9be73d7.jpeg)
