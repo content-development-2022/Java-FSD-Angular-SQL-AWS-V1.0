@@ -287,21 +287,38 @@ Let's understand the loop statements one by one.
 
 -   As the name suggests, the break statement is used to break the current flow of the program and transfer the control to the next statement outside a loop or switch statement.
 -   However, it breaks only the inner loop in the case of the nested loop.
+-   We can use Java break statement in all types of loops such as for loop, while loop and do-while loop.
 -   The break statement cannot be used independently in the Java program, i.e., it can only be written inside the loop or switch statement.
+
+    ![](media/4bf9bc7af99b2cf13ef85235f2dcc9b3.png)
 
 **Example**
 
+![](media/a794486a99321d8ae52c3c6127a5cd5a.png)
+
 **Output**
 
--   
+![](media/10fbfa5e8ec4ce70f79354fdb0a19a73.png)
 
 ## 1.3.2 continue Statement
 
 -   Unlike break statement, the continue statement doesn't break the loop, whereas, it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
+-   The Java *continue statement* is used to continue the loop.
+-   It continues the current flow of the program and skips the remaining code at the specified condition.
+-   In case of an inner loop, it continues the inner loop only.
+-   We can use Java continue statement in all types of loops such as for loop, while loop and do-while loop.
+
+**![](media/1275d1bda982885e7aa39e29269b9410.png)**
 
 **Example**
 
+![](media/2e195a90fd9ec95fc13f58ac54065fec.png)
+
 **Output**
+
+![](media/8116f4292344e47644f79eadf15b2d81.png)
+
+-   As you can see in the above output, 5 is not printed on the console. It is because the loop is continued when it reaches to 5.
 
 ## 2. References
 
