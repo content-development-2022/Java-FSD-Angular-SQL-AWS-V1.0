@@ -38,7 +38,7 @@
 
 **![](media/2ee324248ab1238fca551433f468ecbd.png)**
 
-5) **Why Oak?** Oak is a symbol of strength and chosen as a national tree of many countries like the U.S.A., France, Germany, Romania, etc.
+5) **Why Oak?** Oak is a symbol of **strength** and chosen as a **national tree** of many countries like the U.S.A., France, Germany, Romania, etc.
 
 6) In 1995, Oak was renamed as **"Java"** because it was already a trademark by Oak Technologies.
 
@@ -48,15 +48,15 @@
 
 According to James Gosling, "Java was one of the top choices along with **Silk**". Since Java was so unique, most of the team members preferred Java than other names.
 
-8) Java is an island in Indonesia where the first coffee was produced (called Java coffee). It is a kind of espresso bean. Java name was chosen by James Gosling while having a cup of coffee nearby his office.
+8) **Java** is an **island** in **Indonesia** where the first coffee was produced (called Java coffee). It is a kind of espresso bean. Java name was chosen by James Gosling while having a cup of coffee nearby his office.
 
 9) Notice that Java is just a name, not an acronym.
 
-10) Initially developed by James Gosling at Sun Microsystems (which is now a subsidiary of Oracle Corporation) and released in 1995.
+10) Initially developed by James Gosling at **Sun Microsystems** (which is now a subsidiary of Oracle Corporation) and released in 1995.
 
 11) In 1995, Time magazine called **Java one of the Ten Best Products of 1995**.
 
-12) JDK 1.0 was released on January 23, 1996. After the first release of Java, there have been many additional features added to the language. Now Java is being used in Windows applications, Web applications, enterprise applications, mobile applications, cards, etc. Each new version adds new features in Java.
+12) **JDK 1.0** was released **on January 23, 1996**. After the first release of Java, there have been many additional features added to the language. Now Java is being used in Windows applications, Web applications, enterprise applications, mobile applications, cards, etc. Each new version adds new features in Java.
 
 ## 2. Java Version History
 
