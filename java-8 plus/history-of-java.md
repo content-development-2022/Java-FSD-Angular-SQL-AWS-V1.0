@@ -26,29 +26,37 @@
 
 **Following are given significant points that describe the history of Java**
 
-1.  **James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. The small team of sun engineers called **Green Team**.
-2.  Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
-3.  Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was .gt.
-4.  After that, it was called **Oak** and was developed as a part of the Green project.
+**1) James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. The small team of sun engineers called **Green Team**.
+
+2) Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
+
+3) Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was .gt.
+
+4) After that, it was called **Oak** and was developed as a part of the Green project.
 
 **Why Java was named as "Oak"?**
 
 **![](media/2ee324248ab1238fca551433f468ecbd.png)**
 
-1.  **Why Oak?** Oak is a symbol of strength and chosen as a national tree of many countries like the U.S.A., France, Germany, Romania, etc.
-2.  In 1995, Oak was renamed as **"Java"** because it was already a trademark by Oak Technologies.
+**5) Why Oak?** Oak is a symbol of strength and chosen as a national tree of many countries like the U.S.A., France, Germany, Romania, etc.
+
+6) In 1995, Oak was renamed as **"Java"** because it was already a trademark by Oak Technologies.
 
 **Why Java Programming named "Java"?**
 
-1.  Why had they chose the name Java for Java language? The team gathered to choose a new name. The suggested words were "dynamic", "revolutionary", "Silk", "jolt", "DNA", etc. They wanted something that reflected the essence of the technology: revolutionary, dynamic, lively, cool, unique, and easy to spell, and fun to say.
+7) Why had they chose the name Java for Java language? The team gathered to choose a new name. The suggested words were "dynamic", "revolutionary", "Silk", "jolt", "DNA", etc. They wanted something that reflected the essence of the technology: revolutionary, dynamic, lively, cool, unique, and easy to spell, and fun to say.
 
-    According to James Gosling, "Java was one of the top choices along with **Silk**". Since Java was so unique, most of the team members preferred Java than other names.
+According to James Gosling, "Java was one of the top choices along with **Silk**". Since Java was so unique, most of the team members preferred Java than other names.
 
-2.  Java is an island in Indonesia where the first coffee was produced (called Java coffee). It is a kind of espresso bean. Java name was chosen by James Gosling while having a cup of coffee nearby his office.
-3.  Notice that Java is just a name, not an acronym.
-4.  Initially developed by James Gosling at Sun Microsystems (which is now a subsidiary of Oracle Corporation) and released in 1995.
-5.  In 1995, Time magazine called **Java one of the Ten Best Products of 1995**.
-6.  JDK 1.0 was released on January 23, 1996. After the first release of Java, there have been many additional features added to the language. Now Java is being used in Windows applications, Web applications, enterprise applications, mobile applications, cards, etc. Each new version adds new features in Java.
+8) Java is an island in Indonesia where the first coffee was produced (called Java coffee). It is a kind of espresso bean. Java name was chosen by James Gosling while having a cup of coffee nearby his office.
+
+9) Notice that Java is just a name, not an acronym.
+
+10) Initially developed by James Gosling at Sun Microsystems (which is now a subsidiary of Oracle Corporation) and released in 1995.
+
+11) In 1995, Time magazine called **Java one of the Ten Best Products of 1995**.
+
+12) JDK 1.0 was released on January 23, 1996. After the first release of Java, there have been many additional features added to the language. Now Java is being used in Windows applications, Web applications, enterprise applications, mobile applications, cards, etc. Each new version adds new features in Java.
 
 ## 2. Java Version History
 
