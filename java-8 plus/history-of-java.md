@@ -58,8 +58,7 @@
 
 ## 2. Java Version History
 
-Many java versions have been released till now. The current stable release of Java is Java SE 10.
-
+-   Many java versions have been released till now. The current stable release of Java is Java SE 10.
 1.  JDK Alpha and Beta (1995)
 2.  JDK 1.0 (23rd Jan 1996)
 3.  JDK 1.1 (19th Feb 1997)
@@ -80,8 +79,7 @@ Many java versions have been released till now. The current stable release of Ja
 18. Java SE 16 (Mar 2021)
 19. Java SE 17 (September 2021)
 20. Java SE 18 (to be released by March 2022)
-
-Since Java SE 8 release, the Oracle corporation follows a pattern in which every even version is release in March month and an odd version released in September month.
+-   Since Java SE 8 release, the Oracle corporation follows a pattern in which every even version is release in March month and an odd version released in September month.
 
 ## 3. References
 
