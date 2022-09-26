@@ -26,7 +26,7 @@
 
 **Following are given significant points that describe the history of Java**
 
-**1) James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. The small team of sun engineers called **Green Team**.
+1) **James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. The small team of sun engineers called **Green Team**.
 
 2) Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
 
@@ -38,7 +38,7 @@
 
 **![](media/2ee324248ab1238fca551433f468ecbd.png)**
 
-**5) Why Oak?** Oak is a symbol of strength and chosen as a national tree of many countries like the U.S.A., France, Germany, Romania, etc.
+5) **Why Oak?** Oak is a symbol of strength and chosen as a national tree of many countries like the U.S.A., France, Germany, Romania, etc.
 
 6) In 1995, Oak was renamed as **"Java"** because it was already a trademark by Oak Technologies.
 
