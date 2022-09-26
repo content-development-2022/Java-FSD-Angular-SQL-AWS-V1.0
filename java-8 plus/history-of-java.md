@@ -11,8 +11,8 @@
 ## 1. History of Java
 
 -   The history of Java is very interesting.
--   Java was originally designed for interactive television, but it was too advanced technology for the digital cable television industry at the time.
--   The history of Java starts with the Green Team.
+-   Java was originally designed for interactive **television**, but it was too advanced technology for the digital cable television industry at the time.
+-   The history of Java starts with the **Green Team**.
 -   Java team members (also known as Green Team), initiated this project to develop a language for digital devices such as set-top boxes, televisions, etc.
 -   However, it was best suited for internet programming.
 -   Later, Java technology was incorporated by Netscape.
@@ -30,7 +30,7 @@
 
 2) Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
 
-3) Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was .gt.
+3) Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was **.gt**.
 
 4) After that, it was called **Oak** and was developed as a part of the Green project.
 
