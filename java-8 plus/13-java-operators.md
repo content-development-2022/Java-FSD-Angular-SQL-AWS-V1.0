@@ -4,25 +4,27 @@
 
 1\. Java Operators
 
-1.1 Arithmetic Operators
+1.1 Unary Operator
 
-1.2 Assignment Operators
+1.2 Arithmetic Operators
 
-1.3 Comparison Operators
+1.3 Assignment Operators
 
-1.4 Logical Operators
+1.4 Comparison Operators
 
-1.5 Bitwise Operator
+1.5 Logical Operators
 
-1.5.1 Bitwise AND (&)
+1.6 Bitwise Operator
 
-1.5.2 Bitwise exclusive OR (\^)
+1.6.1 Bitwise AND (&)
 
-1.5.3 Bitwise inclusive OR (\|)
+1.6.2 Bitwise exclusive OR (\^)
 
-1.5.4 Bitwise Complement (\~)
+1.6.3 Bitwise inclusive OR (\|)
 
-1.5.5 Bit Shift Operators
+1.6.4 Bitwise Complement (\~)
+
+1.6.5 Bit Shift Operators
 
 2\. References
 
@@ -32,13 +34,24 @@
 
 **Java divides the operators into the following groups:**
 
+-   Unary Operator
 -   Arithmetic operators
 -   Assignment operators
 -   Comparison operators
 -   Logical operators
 -   Bitwise operators
 
-## 1.1 Arithmetic Operators
+## 1.1 Unary Operator
+
+-   The Java unary operators require only one operand.
+-   Unary operators are used to perform various operations i.e.
+1.  incrementing/decrementing a value by one
+2.  negating an expression
+3.  inverting the value of a Boolean
+
+![](media/2e39c3abe023db6eca8fc5554c97b46d.png)
+
+## 1.2 Arithmetic Operators
 
 -   Arithmetic operators are used to perform common mathematical operations.
 
@@ -46,7 +59,7 @@
 
 ![](media/31d9d411c9dc09f8668b2a388d50f57d.png)
 
-## 1.2 Assignment Operators
+## 1.3 Assignment Operators
 
 -   Assignment operators are used to assign values to variables.
 
@@ -54,7 +67,7 @@
 
 ![](media/16ce916f872401d7e6a404ed16bc349f.png)
 
-## 1.3 Comparison Operators
+## 1.4 Comparison Operators
 
 -   Comparison operators are used to compare two values.
 
@@ -62,7 +75,7 @@
 
 ![](media/83587b486451cf4a59bdb0eaaa226c7e.png)
 
-## 1.4 Logical Operators
+## 1.5 Logical Operators
 
 -   Logical operators are used to determine the logic between variables or values.
 
@@ -70,7 +83,7 @@
 
 ![](media/d8c839de14b519db0e42b8f2fdfd1248.png)
 
-## 1.5 Bitwise Operator
+## 1.6 Bitwise Operator
 
 -   Bitwise operators are used on (binary) numbers.
 
@@ -84,27 +97,27 @@
 
 ![](media/d6da1d64b4badde113d5bea0971709ac.png)
 
-## 1.5.1 Bitwise AND (&)
+## 1.6.1 Bitwise AND (&)
 
 -   It is a binary operator denoted by the symbol **&**.
 -   It returns 1 if and only if both bits are 1, else returns 0.
 
 ![](media/1d4586d936f50973dc1a4b830a460e0b.png)
 
-## 1.5.2 Bitwise exclusive OR (\^)
+## 1.6.2 Bitwise exclusive OR (\^)
 
 -   It is a binary operator denoted by the symbol **\^** (pronounced as caret).
 -   It returns 0 if both bits are the same, else returns 1.
 
 ![](media/46fd731dc5c50afc16ceeb257829dcd2.png)
 
-## 1.5.3 Bitwise inclusive OR (\|)
+## 1.6.3 Bitwise inclusive OR (\|)
 
 It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It returns 1 if either of the bit is 1, else returns 0.
 
 ![](media/c5f0948b400d4153c85b22484c2863ac.png)
 
-## 1.5.4 Bitwise Complement (\~)
+## 1.6.4 Bitwise Complement (\~)
 
 -   It is a unary operator denoted by the symbol **\~** (pronounced as the tilde).
 -   It returns the inverse or complement of the bit.
@@ -112,7 +125,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 ![](media/392cffbd5d061c6ddd7215aa324a873a.png)
 
-## 1.5.5 Bit Shift Operators
+## 1.6.5 Bit Shift Operators
 
 -   Shift operator is used in shifting the bits either right or left.
 -   We can use shift operators if we divide or multiply any number by 2.
