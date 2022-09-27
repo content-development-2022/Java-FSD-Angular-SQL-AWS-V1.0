@@ -90,10 +90,15 @@ JVM provides definitions for the:
 ## 7) Execution Engine
 
 -   It contains:
-1.  **A virtual processor**
-2.  **Interpreter:**
+
+**1. A virtual processor**
+
+**2. Interpreter:**
+
 -   Read bytecode stream then execute the instructions.
-1.  **Just-In-Time(JIT) compiler:**
+
+**3. Just-In-Time(JIT) compiler:**
+
 -   It is used to improve the performance.
 -   JIT compiles parts of the byte code that have similar functionality at the same time, and hence reduces the amount of time needed for compilation.
 -   Here, the term "compiler" refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.
