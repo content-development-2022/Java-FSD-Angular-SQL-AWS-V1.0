@@ -89,7 +89,8 @@ A list of Java keywords or reserved words are given below:
 **16) final:**
 
 -   Java final keyword is used to indicate that a variable holds a constant value.
--   It is used with a variable. It is used to restrict the user from updating the value of the variable.
+-   It is used with a variable.
+-   It is used to restrict the user from updating the value of the variable.
 
 **17) finally:**
 
