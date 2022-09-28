@@ -14,13 +14,7 @@
 
 2.4 Example to understand the three types of variables in java
 
-3\. Display Variables
-
-4\. Declare Multiple Variables
-
-4.1 One Value to Multiple Variables
-
-5\. References
+3\. References
 
 ## 1. Java Variables
 
@@ -78,44 +72,34 @@ datatype variable_name=value;
 
 ![](media/5b75a68c9f8b58dccaa44b4164d3f99d.png)
 
-## 3. Display Variables
+## Display Variables
 
--   The **println()** method is often used to display variables.
--   To combine both text and a variable, use the **+** character.
+The println() method is often used to display variables.
 
-**Example:**
+To combine both text and a variable, use the + character:
+
+## 
 
 ![](media/cd4419675ec486e98e71580153c64e18.png)
 
-**Output:**
-
 ![](media/8c2809532b04d0424d3b96cf856a4a31.png)
 
-## 4. Declare Multiple Variables
+# Declare Multiple Variables
 
--   To declare more than one variable of the **same type**, you can use a comma-separated list.
-
-**Example:**
+To declare more than one variable of the **same type**, you can use a comma-separated list:
 
 ![](media/d862c0e36c6de7650c89a2e8ebd767d3.png)
 
-**Output:**
-
 ![](media/595e5106dd746a1338e2fec40986c946.png)
 
-## 4.1 One Value to Multiple Variables
+## One Value to Multiple Variables
 
--   You can also assign the **same value** to multiple variables in one line.
-
-**Example:**
+You can also assign the **same value** to multiple variables in one line:
 
 ![](media/dde3ec6a7a95ca947faac39c21078bdd.png)
 
-**Output:**
-
 ![](media/06bb0e64ca510234adbe6668299ee31e.png)
 
-## 5. References
+## 3. References
 
 1.  https://www.javatpoint.com/java-variables
-2.  https://www.w3schools.com/java/java_operators.asp
