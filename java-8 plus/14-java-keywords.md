@@ -94,7 +94,8 @@ A list of Java keywords or reserved words are given below:
 
 **17) finally:**
 
--   Java finally keyword indicates a block of code in a try-catch structure. This block is always executed whether an exception is handled or not.
+-   Java finally keyword indicates a block of code in a try-catch structure.
+-   This block is always executed whether an exception is handled or not.
 
 **18) float:**
 
