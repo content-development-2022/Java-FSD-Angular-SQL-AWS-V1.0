@@ -147,7 +147,8 @@ A list of Java keywords or reserved words are given below:
 
 **29) null:**
 
--   Java null keyword is used to indicate that a reference does not refer to anything. It removes the garbage value.
+-   Java null keyword is used to indicate that a reference does not refer to anything.
+-   It removes the garbage value.
 
 **30) package:**
 
