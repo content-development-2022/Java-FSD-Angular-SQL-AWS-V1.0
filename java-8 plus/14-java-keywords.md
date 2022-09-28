@@ -108,75 +108,131 @@ A list of Java keywords or reserved words are given below:
 
 -   Java if keyword tests the condition.
 -   It executes the if block if the condition is true.
-1.  **implements:**
+
+**21) implements:**
+
 -   Java implements keyword is used to implement an interface.
-1.  **import:**
+
+**22) import:**
+
 -   Java import keyword makes classes and interfaces available and accessible to the current source code.
-1.  **instanceof:**
+
+**23) instanceof:**
+
 -   Java instanceof keyword is used to test whether the object is an instance of the specified class or implements an interface.
-1.  **int:**
+
+**24) int:**
+
 -   Java int keyword is used to declare a variable that can hold a 32-bit signed integer.
-1.  **interface:**
+
+**25) interface:**
+
 -   Java interface keyword is used to declare an interface.
 -   It can have only abstract methods.
-1.  **long:**
+
+**26) long:**
+
 -   Java long keyword is used to declare a variable that can hold a 64-bit integer.
-1.  **native:**
+
+**27) native:**
+
 -   Java native keyword is used to specify that a method is implemented in native code using JNI (Java Native Interface).
-1.  **new:**
+
+**28) new:**
+
 -   Java new keyword is used to create new objects.
-1.  **null:**
+
+**29) null:**
+
 -   Java null keyword is used to indicate that a reference does not refer to anything. It removes the garbage value.
-1.  **package:**
+
+**30) package:**
+
 -   Java package keyword is used to declare a Java package that includes the classes.
-1.  **private:**
+
+**31) private:**
+
 -   Java private keyword is an access modifier.
 -   It is used to indicate that a method or variable may be accessed only in the class in which it is declared.
-1.  **protected:**
+
+**32) protected:**
+
 -   Java protected keyword is an access modifier.
 -   It can be accessible within the package and outside the package but through inheritance only.
 -   It can't be applied with the class.
-1.  **public:**
+
+**33) public:**
+
 -   Java public keyword is an access modifier.
 -   It is used to indicate that an item is accessible anywhere.
 -   It has the widest scope among all other modifiers.
-1.  **return:**
+
+**34) return:**
+
 -   Java return keyword is used to return from a method when its execution is complete.
-1.  **short:**
+
+**35) short:**
+
 -   Java short keyword is used to declare a variable that can hold a 16-bit integer.
-1.  **static:**
+
+**36) static:**
+
 -   Java static keyword is used to indicate that a variable or method is a class method.
 -   The static keyword in Java is mainly used for memory management.
-1.  **strictfp:**
+
+**37) strictfp:**
+
 -   Java strictfp is used to restrict the floating-point calculations to ensure portability.
-1.  **super:**
+
+**38) super:**
+
 -   Java super keyword is a reference variable that is used to refer to parent class objects.
 -   It can be used to invoke the immediate parent class method.
-1.  **switch:**
+
+**39) switch:**
+
 -   The Java switch keyword contains a switch statement that executes code based on test value.
 -   The switch statement tests the equality of a variable against multiple values.
-1.  **synchronized:**
+
+**40) synchronized:**
+
 -   Java synchronized keyword is used to specify the critical sections or methods in multithreaded code.
-1.  **this:**
+
+**41) this:**
+
 -   Java this keyword can be used to refer the current object in a method or constructor.
-1.  **throw:**
+
+**42) throw:**
+
 -   The Java throw keyword is used to explicitly throw an exception.
 -   The throw keyword is mainly used to throw custom exceptions.
 -   It is followed by an instance.
-1.  **throws:**
+
+**43) throws:**
+
 -   The Java throws keyword is used to declare an exception.
 -   Checked exceptions can be propagated with throws.
-1.  **transient:**
+
+**44) transient:**
+
 -   Java transient keyword is used in serialization.
 -   If you define any data member as transient, it will not be serialized.
-1.  **try:**
+
+**45) try:**
+
 -   Java try keyword is used to start a block of code that will be tested for exceptions.
 -   The try block must be followed by either catch or finally block.
-1.  **void:**
+
+**46) void:**
+
 -   Java void keyword is used to specify that a method does not have a return value.
-1.  **volatile:**
+
+**47) volatile:**
+
 -   Java volatile keyword is used to indicate that a variable may change asynchronously.
-1.  **while:**
+
+**48) while:**
+
 -   Java while keyword is used to start a while loop.
 -   This loop iterates a part of the program several times.
 -   If the number of iteration is not fixed, it is recommended to use the while loop.
