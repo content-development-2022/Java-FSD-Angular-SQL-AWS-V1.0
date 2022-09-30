@@ -14,7 +14,7 @@
 
 ## 1. Type Casting
 
--   In Java, **type casting** is a method or process that converts a data type into another data type in both ways manually and automatically.
+-   In Java, **type casting** is a method or process that converts one primitive data type into another data type in both ways manually and automatically.
 -   The automatic conversion is done by the compiler and manual conversion performed by the programmer.
 -   Convert a value from one data type to another data type is known as **type casting**.
 
