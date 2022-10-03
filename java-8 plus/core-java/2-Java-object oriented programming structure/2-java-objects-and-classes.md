@@ -30,7 +30,9 @@
 -   An object is *a* **runtime entity.**
 -   The object is *an* **entity** *which has* **state** *and* **behavior.**
 -   The object is *an* **instance of a class**.
--   It can be physical or logical (tangible and intangible). ![](media/bc0a29a63f1c74c221a000820427945d.png)
+-   It can be physical or logical (tangible and intangible).
+
+    ![](media/bc0a29a63f1c74c221a000820427945d.png)
 
 **An object has three characteristics:**
 
