@@ -25,10 +25,11 @@ Apart from these concepts, there are some other terms which are used in Object-O
 
 ## Object
 
-![Java Object](media/e86b387603891206951b6255377efe1b.png)
-
 -   Any entity that has state and behavior is known as an object.
 -   For example, a chair, pen, table, keyboard, bike, etc. It can be physical or logical.
+
+    ![](media/9d1f92a54df3ad0d0625c4fd77a15c0b.png)
+
 -   An Object can be defined as an instance of a class.
 -   An object contains an address and takes up some space in memory.
 -   Objects can communicate without knowing the details of each other's data or code.
