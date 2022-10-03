@@ -49,7 +49,7 @@
 
 **A class in Java can contain:**
 
-![](media/647b185a6a39b67a18a61e87b1fd4069.png)
+![](media/8b3c86f772007314c17f53851c043386.png)
 
 **Syntax:**
 
