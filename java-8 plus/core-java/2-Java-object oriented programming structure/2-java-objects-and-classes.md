@@ -34,7 +34,7 @@
 
     ![](media/bc0a29a63f1c74c221a000820427945d.png)
 
-**An object has three characteristics:**
+-   **An object has three characteristics**
 
 ![](media/a0cdb7df386535eb418098f290d4b613.png)
 
@@ -55,11 +55,6 @@
 
 ![](media/1d4b6e410f81b241660d1dfe4e9db898.png)
 
-**new keyword in Java**
-
--   The new keyword is used to allocate memory at runtime.
--   All objects get memory in Heap memory area.
-
 ## 1.3 Object and Class Example: main within the class
 
 -   In this example, we have created a Student class which has two data members **id** and **name**.
@@ -73,6 +68,11 @@
 **Output:**
 
 ![](media/40597e3184042fd6b18835b730a318c9.png)
+
+**new keyword in Java**
+
+-   The new keyword is used to allocate memory at runtime.
+-   All objects get memory in Heap memory area.
 
 ## 1.4 Object and Class Example: main outside the class
 
