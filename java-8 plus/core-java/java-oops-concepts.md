@@ -73,7 +73,7 @@ Apart from these concepts, there are some other terms which are used in Object-O
 -   Binding (or wrapping) code and data together into a single unit are known as encapsulation.
 -   For example, a capsule, it is wrapped with different medicines.
 
-    ![](media/267570c7589d2e4b81a9dd1c3788f4ba.png)
+    ![](media/20af5407407170fa7b6b26358d7df88c.png)
 
 ## Coupling
 
