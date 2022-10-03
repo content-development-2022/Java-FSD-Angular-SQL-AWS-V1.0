@@ -38,7 +38,7 @@
 
 ![](media/a0cdb7df386535eb418098f290d4b613.png)
 
-**Example**, Pen is an object. Its name is Reynolds; color is white, known as its state. It is used to write, so writing is its behavior.
+**Example**: Pen is an object. Its name is Reynolds; color is white, known as its state. It is used to write, so writing is its behavior.
 
 ## 1.2 What is a Class in Java
 
