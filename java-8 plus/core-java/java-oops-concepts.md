@@ -58,7 +58,7 @@ Apart from these concepts, there are some other terms which are used in Object-O
 -   In Java, we use method overloading and method overriding to achieve polymorphism.
 -   Example can be to speak something; for example, a cat speaks meow, dog barks woof, etc.
 
-    ![Polymorphism in Java](media/bcb33fb53b954e0322d6aa4c9f712ef6.gif)
+    ![](media/d0d2bbc9c8e9d2469a15405821bf53a6.png)
 
 ## Abstraction
 
