@@ -36,7 +36,7 @@
 
 **An object has three characteristics:**
 
-![](media/8c7a91a3fb17249afd8df206665398bf.png)
+![](media/a0cdb7df386535eb418098f290d4b613.png)
 
 **Example**, Pen is an object. Its name is Reynolds; color is white, known as its state. It is used to write, so writing is its behavior.
 
