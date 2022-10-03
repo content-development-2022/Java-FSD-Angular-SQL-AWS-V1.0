@@ -2,16 +2,18 @@
 
 **Content**
 
-## 
+1\. OOPs (Object-Oriented Programming System)
 
-## OOPs (Object-Oriented Programming System)
+2\. References
+
+## 1. OOPs (Object-Oriented Programming System)
 
 -   **Object** means a real-world entity such as a pen, chair, table, computer, watch, etc.
 -   **Object-Oriented Programming** is a methodology or paradigm to design a program using classes and objects.
 -   The popular object-oriented languages are Java, C\#, PHP, Python, C++, etc.
 -   It simplifies software development and maintenance by providing some concepts:
 
-    ![](media/245c5cc5d9b37458dfd437a4b12ef1c4.png)
+    ![](media/722c4fb32d1f41a153a8ddd7c69f569f.png)
 
 Apart from these concepts, there are some other terms which are used in Object-Oriented design:
 
@@ -36,23 +38,26 @@ Apart from these concepts, there are some other terms which are used in Object-O
 
 ## Class
 
--   Collection of objects is called class. It is a logical entity.
+-   Collection of objects is called class.
+-   It is a logical entity.
 -   A class can also be defined as a blueprint from which you can create an individual object.
 -   Class doesn't consume any space.
 
 ## Inheritance
 
 -   When one object acquires all the properties and behaviors of a parent object, it is known as inheritance.
--   It provides code reusability. It is used to achieve runtime polymorphism.
+-   It provides code reusability.
+-   It is used to achieve runtime polymorphism.
 
-![Polymorphism in Java](media/bcb33fb53b954e0322d6aa4c9f712ef6.gif)
+    ![](media/daad228ff8a97efd07758b095b79c410.png)
 
 ## Polymorphism
 
 -   If one task is performed in different ways, it is known as polymorphism.
--   For example: to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc.
 -   In Java, we use method overloading and method overriding to achieve polymorphism.
--   Another example can be to speak something; for example, a cat speaks meow, dog barks woof, etc.
+-   Example can be to speak something; for example, a cat speaks meow, dog barks woof, etc.
+
+    ![Polymorphism in Java](media/bcb33fb53b954e0322d6aa4c9f712ef6.gif)
 
 ## Abstraction
 
@@ -60,21 +65,20 @@ Apart from these concepts, there are some other terms which are used in Object-O
 -   For example phone call, we don't know the internal processing.
 -   In Java, we use abstract class and interface to achieve abstraction.
 
-![Encapsulation in Java OOPs Concepts](media/2ac3c15f641249be503fa08c89679b1a.png)
+    ![https://miro.medium.com/max/1000/1\*o3xaZpu2PjhbJaXrus3f_g.gif](media/cade23d4372c6325778560634ac7c541.gif)
 
 ## Encapsulation
 
 -   Binding (or wrapping) code and data together into a single unit are known as encapsulation.
 -   For example, a capsule, it is wrapped with different medicines.
--   A java class is the example of encapsulation.
--   Java bean is the fully encapsulated class because all the data members are private here.
+
+    ![](media/267570c7589d2e4b81a9dd1c3788f4ba.png)
 
 ## Coupling
 
 -   Coupling refers to the knowledge or information or dependency of another class.
 -   It arises when classes are aware of each other.
 -   If a class has the details information of another class, there is strong coupling.
--   In Java, we use private, protected, and public modifiers to display the visibility level of a class, method, and field.
 -   You can use interfaces for the weaker coupling because there is no concrete implementation.
 
 ## Cohesion
@@ -89,35 +93,34 @@ Apart from these concepts, there are some other terms which are used in Object-O
 
 -   Association represents the relationship between the objects.
 -   Here, one object can be associated with one object or many objects.
+-   Association can be undirectional or bidirectional.
 -   There can be four types of association between the objects:
 1.  One to One
 2.  One to Many
 3.  Many to One, and
 4.  Many to Many
--   Let's understand the relationship with real-time examples.
--   For example, One country can have one prime minister (one to one), and a prime minister can have many ministers (one to many). Also, many MP's can have one prime minister (many to one), and many ministers can have many departments (many to many).
 
-Association can be undirectional or bidirectional.
+**Real-Time Example:**
 
-### Aggregation
+-   One country can have one prime minister (one to one), and a prime minister can have many ministers (one to many).
+-   Also, many MP's can have one prime minister (many to one), and many ministers can have many departments (many to many).
 
-Aggregation is a way to achieve Association. Aggregation represents the relationship where one object contains other objects as a part of its state. It represents the weak relationship between objects. It is also termed as a *has-a* relationship in Java. Like, inheritance represents the *is-a* relationship. It is another way to reuse objects.
+## Aggregation
 
-### Composition
+-   Aggregation is a way to achieve Association.
+-   Aggregation represents the relationship where one object contains other objects as a part of its state.
+-   It represents the weak relationship between objects.
+-   It is also termed as a **has-a** relationship in Java. Like, inheritance represents the **is-a** relationship.
+-   It is another way to reuse objects.
 
-The composition is also a way to achieve Association. The composition represents the relationship where one object contains other objects as a part of its state. There is a strong relationship between the containing object and the dependent object. It is the state where containing objects do not have an independent existence. If you delete the parent object, all the child objects will be deleted automatically.
+## Composition
 
-## Advantage of OOPs over Procedure-oriented programming language
+-   The composition is also a way to achieve Association.
+-   The composition represents the relationship where one object contains other objects as a part of its state.
+-   There is a strong relationship between the containing object and the dependent object.
+-   It is the state where containing objects do not have an independent existence.
+-   If you delete the parent object, all the child objects will be deleted automatically.
 
-1.  OOPs makes development and maintenance easier, whereas, in a procedure-oriented programming language, it is not easy to manage if code grows as project size increases.
-2.  OOPs provides data hiding, whereas, in a procedure-oriented programming language, global data can be accessed from anywhere.
+## 2. References
 
-![](media/95dd52c9ad3c719201383a0e0b69ffff.png)
-
-Figure: Data Representation in Procedure-Oriented Programming
-
-![](media/51142ef50840f360a67de708eec8c9ae.png)
-
-Figure: Data Representation in Object-Oriented Programming
-
-1.  OOPs provides the ability to simulate real-world event much more effectively. We can provide the solution of real word problem if we are using the Object-Oriented Programming language.
+1.  https://www.javatpoint.com/java-oops-concepts
