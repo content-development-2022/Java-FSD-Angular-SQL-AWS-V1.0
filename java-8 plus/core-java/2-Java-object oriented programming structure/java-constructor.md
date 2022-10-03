@@ -2,6 +2,28 @@
 
 **Content**
 
+1\. Java Constructors
+
+1.1 Rules for creating Java constructor
+
+2\. Types of Java constructors
+
+2.1 Java Default Constructor
+
+2.2 Java Parameterized Constructor
+
+3\. Constructor Overloading in Java
+
+4\. Difference between constructor and method in Java
+
+5\. Java Copy Constructor
+
+5.1 Copying values with constructor
+
+5.2 Copying values without constructor
+
+6\. References
+
 ## 1. Java Constructors
 
 -   In Java, a constructor is a block of codes similar to the method.
@@ -108,10 +130,10 @@
 
 -   There is no copy constructor in Java. However, we can copy the values from one object to another like copy constructor in C++.
 -   There are many ways to copy the values of one object into another in Java. They are:
-1.  By constructor
-2.  By assigning the values of one object into another
+1.  Copying values with constructor.
+2.  By assigning the values of one object into another without constructor.
 
-## 5.1 By constructor
+## 5.1 Copying values with constructor
 
 -   We are going to copy the values of one object into another using Java constructor.
 
