@@ -61,7 +61,7 @@
 -   We are creating the object of the Student class by **new** keyword and printing the object's value.
 -   Here, we are creating a main() method within the class.
 
-**File: Student.java**
+**Example: Student.java**
 
 ![](media/d5d11010a2d5d04a2d990240160552cd.png)
 
@@ -81,7 +81,7 @@
 -   We can have multiple classes in different Java files or single Java file.
 -   If you define multiple classes in a single Java source file, it is a good idea to save the file name with the class name which has main() method.
 
-**File: TestStudent1.java**
+**Example: TestStudent1.java**
 
 ![](media/7250707615b36a41a6b41958621bca90.png)
 
@@ -117,7 +117,7 @@ There are 3 ways to initialize object in Java.
 -   Initializing an object means storing data into the object.
 -   Let's see a simple example where we are going to initialize the object through a reference variable.
 
-**File: TestStudent2.java**
+**Example: TestStudent2.java**
 
 ![](media/46cec5eb22b9e49e3c8bdf89860ca7f4.png)
 
@@ -127,7 +127,7 @@ There are 3 ways to initialize object in Java.
 
 -   We can also create multiple objects and store information in it through reference variable.
 
-**File: TestStudent3.java**
+**Example: TestStudent3.java**
 
 ![](media/66868581eda05a112cbaec40fba59f79.png)
 
@@ -139,7 +139,7 @@ There are 3 ways to initialize object in Java.
 
 -   In this example, we are creating the two objects of Student class and initializing the value to these objects by invoking the insertRecord method. Here, we are displaying the state (data) of the objects by invoking the displayInformation() method.
 
-*File: TestStudent4.java*
+**Example: TestStudent4.java**
 
 *![](media/1153e0530d05267c90cd9fb2119ccd4c.png)*
 
@@ -155,7 +155,7 @@ There are 3 ways to initialize object in Java.
 
 -   Let's see an example where we are maintaining records of employees.
 
-**File: TestEmployee.java**
+**Example: TestEmployee.java**
 
 *![](media/3f77db7ee0d501f33ac7acd1a5b4e458.png)*
 
