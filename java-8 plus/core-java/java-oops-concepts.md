@@ -13,7 +13,7 @@
 -   The popular object-oriented languages are Java, C\#, PHP, Python, C++, etc.
 -   It simplifies software development and maintenance by providing some concepts:
 
-    ![](media/1230f859fe04deadb21d853f2bb92922.png)
+    ![](media/9fba3e14b61a57d73c8ce3048a466ecb.png)
 
 Apart from these concepts, there are some other terms which are used in Object-Oriented design:
 
