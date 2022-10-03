@@ -89,13 +89,13 @@
 
 ![](media/f93f50fc629c1856a73be1d5ab8252fd.png)
 
-**Instance** variable in Java
+**Instance variable in Java**
 
 -   A variable which is created inside the class but outside the method is known as an instance variable.
 -   Instance variable doesn't get memory at compile time.
 -   It gets memory at runtime when an object or instance is created. That is why it is known as an instance variable.
 
-**Method** in Java
+**Method in Java**
 
 -   In Java, a method is like a function which is used to expose the behavior of an object.
 
