@@ -269,7 +269,11 @@ Let's understand the loop statements one by one.
 
 **Example**
 
+![](media/a8a0cfbc97b378906559f4218510cb6a.png)
+
 **Output**
+
+![](media/19d0233aa29bdd20470d4ecdd35a3f6c.png)
 
 ## Java for Loop Vs while Loop Vs do-while Loop
 

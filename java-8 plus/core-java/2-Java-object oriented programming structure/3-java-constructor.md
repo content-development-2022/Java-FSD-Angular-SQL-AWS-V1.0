@@ -70,23 +70,6 @@
 
 ![](media/971b7475fc347b2867559f830b71d4ed.png)
 
-**Q) What is the purpose of a default constructor?**
-
--   The default constructor is used to provide the default values to the object like 0, null, etc., depending on the type.
-
-**Example of default constructor that displays the default values**
-
-![](media/b3cfdce0ed464f6de5ee315eb2550178.png)
-
-**Output:**
-
-![](media/93d675304c1306aefb61d506beda52d0.png)
-
-**Explanation:**
-
--   In the above class, you are not creating any constructor so compiler provides you a default constructor.
--   Here 0 and null values are provided by default constructor.
-
 ## 2.2 Java Parameterized Constructor
 
 -   A constructor which has a specific number of parameters is called a parameterized constructor.

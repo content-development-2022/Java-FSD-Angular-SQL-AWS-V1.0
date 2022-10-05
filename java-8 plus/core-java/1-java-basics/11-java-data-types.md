@@ -6,7 +6,7 @@
 
 2\. Primitive Data Types
 
-2.1 Boolean Data Type
+2.1 boolean Data Type
 
 2.2 Numeric Data Types
 
@@ -22,7 +22,7 @@
 
 **There are two types of data types in Java**
 
-1.  **Primitive data types:** The primitive data types include Boolean, char, byte, short, int, long, float and double.
+1.  **Primitive data types:** The primitive data types include boolean, char, byte, short, int, long, float and double.
 2.  **Non-primitive data types:** The non-primitive data types include Classes, Interfaces, and Arrays.
 
 ## 2. Primitive Data Types
@@ -35,11 +35,11 @@
 
 ![](media/c848746ffe8f1bbac9dc012523bb48eb.png)
 
-## 2.1 Boolean Data Type
+## 2.1 boolean Data Type
 
--   The Boolean data type is used to store only two possible values: **true and false**.
+-   The boolean data type is used to store only two possible values: **true and false**.
 -   This data type is used for simple flags that track true/false conditions.
--   The Boolean data type specifies one bit of information, but its "size" can't be defined precisely.
+-   The boolean data type specifies one bit of information, but its "size" can't be defined precisely.
 
 **Example:**
 
@@ -61,7 +61,7 @@
 4.  long
 5.  char
 
-## 1) Byte Data Type
+## 1) byte Data Type
 
 -   The byte data type is an 8-bit signed two's complement integer.
 -   Its value lies between -128 to 127 (inclusive).
@@ -75,7 +75,7 @@
 
 **byte** b = -20;
 
-## 2) Short Data Type
+## 2) short Data Type
 
 -   The short data type is a 16-bit signed two's complement integer.
 -   Its value lies between -32,768 to 32,767 (inclusive).
@@ -89,7 +89,7 @@
 
 **short** r = -6000;
 
-## 3) Int Data Type
+## 3) int Data Type
 
 -   The int data type is a 32-bit signed two's complement integer.
 -   Its value lies between - 2,147,483,648 (-2\^31) to 2,147,483,647 (2\^31 -1) (inclusive).
@@ -102,7 +102,7 @@
 
 **int** b = -200000 ;
 
-## 4) Long Data Type
+## 4) long Data Type
 
 -   The long data type is a 64-bit two's complement integer.
 -   Its value lies between -9,223,372,036,854,775,808(-2\^63) to 9,223,372,036,854,775,807(2\^63 -1)(inclusive).
@@ -115,7 +115,7 @@
 
 **long** b = -1508909900L;
 
-## 5) Char Data Type
+## 5) char Data Type
 
 -   The char data type is a single 16-bit Unicode character.
 -   Its value lies between '\\u0000' (or 0) to '\\uffff' (or 65,535 inclusive).
@@ -130,7 +130,7 @@
 -   It represent numbers with a fractional part, containing one or more decimals.
 -   There are two types: **float and double**.
 
-## 1) Float Data Type
+## 1) float Data Type
 
 -   The float data type is a single-precision 32-bit IEEE 754 floating point.
 -   Its value is unlimited.
@@ -141,7 +141,7 @@
 
 **float** f1 = 234.5;
 
-## 2) Double Data Type
+## 2) double Data Type
 
 -   The double data type is a double-precision 64-bit IEEE 754 floating point.
 -   Its value range is unlimited.
