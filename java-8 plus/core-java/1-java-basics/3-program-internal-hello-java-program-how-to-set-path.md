@@ -14,11 +14,9 @@
 
 2.2 Creating Hello java Example
 
-2.3 Compilation Flow
+2.3 Parameters used in Hello Java Program
 
-2.4 Parameters used in Hello Java Program
-
-2.5 In how many ways we can write a Java program?
+2.4 In how many ways we can write a Java program?
 
 3\. How to set path in Java
 
@@ -96,13 +94,7 @@ Write here:
 
 ![](media/9298e1deab1af79df94cb27e1b1bd245.png)
 
-## 2.3 Compilation Flow
-
--   When we compile Java program using javac tool, the Java compiler converts the source code into byte code.
-
-![](media/4e6ee6f37b4c1c360c1e9c3f142f6181.png)
-
-## 2.4 Parameters used in Hello Java Program
+## 2.3 Parameters used in Hello Java Program
 
 -   Let's see what is the meaning of class, public, static, void, main, String[], System.out.println().
 
@@ -142,7 +134,7 @@ Write here:
 -   It is used to print statement.
 -   Here, System is a class, out is an object of the PrintStream class, println() is a method of the PrintStream class.
 
-## 2.5 In how many ways we can write a Java program?
+## 2.4 In how many ways we can write a Java program?
 
 -   There are many ways to write a Java program.
 -   The modifications that can be done in a Java program are given below:
