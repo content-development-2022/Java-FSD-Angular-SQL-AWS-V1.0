@@ -51,7 +51,7 @@
 
 **A list of all Arithmetic operators:**
 
-![](media/31d9d411c9dc09f8668b2a388d50f57d.png)
+![](media/e25ae704c6a0936bd3937765f26cf97c.png)
 
 ## 1.3 Assignment Operators
 
