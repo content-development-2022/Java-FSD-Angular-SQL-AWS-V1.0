@@ -39,6 +39,10 @@ JVM provides definitions for the:
 -   Garbage-collected heap
 -   Fatal error reporting etc.
 
+### How JVM works?
+
+![](media/f92825a37f6e8377c43f501379f1a4b5.png)
+
 ## 2. JVM Architecture
 
 -   JVM (Java Virtual Machine) is an abstract machine.

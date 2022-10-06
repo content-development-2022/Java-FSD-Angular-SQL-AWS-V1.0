@@ -2,19 +2,23 @@
 
 **Content**
 
-## Modifiers
+## 1. Modifiers
 
 -   There are two types of modifiers in Java.
 1.  **access modifiers**
 2.  **non-access modifiers**.
 
-## Access Modifiers
+## 1.1 Access Modifiers
 
 -   The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class.
 -   We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.
 -   There are four types of Java access modifiers:
+1.  Private
+2.  default
+3.  Public
+4.  Protected
 
-## Private:
+## 1) Private:
 
 -   The access level of a private modifier is only within the class.
 -   It cannot be accessed from outside the class.
@@ -29,9 +33,11 @@
 
 ### Role of Private Constructor
 
--   If you make any constructor as private, you cannot create the instance of that class from outside the class. For example:
+-   If you make any constructor as private, you cannot create the instance of that class from outside the class.
 
-    ![](media/2e948cc0a378bee84da8d582513047c4.png)
+**Example:**
+
+![](media/2e948cc0a378bee84da8d582513047c4.png)
 
 ## Default:
 
