@@ -52,7 +52,7 @@
 -   If you don’t implement any constructor in your class, the Java compiler inserts default constructor into your code on your behalf.
 -   You will not see the default constructor in your source code(the .java file) as it is inserted during compilation and present in the bytecode(.class file).
 
-![](media/00c91d72b013285caa5713a377021f80.png)
+![](media/f71718f28d6da0c93780a636e7c7c8f6.png)
 
 **Are no-arg constructor and default constructor same?**
 
