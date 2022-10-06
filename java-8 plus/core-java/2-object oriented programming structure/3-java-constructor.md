@@ -49,9 +49,16 @@
 
 ## 2.1 Java Default Constructor
 
--   A constructor is called "Default Constructor" when it doesn't have any parameter.
+-   If you don’t implement any constructor in your class, the Java compiler inserts default constructor into your code on your behalf.
+-   You will not see the default constructor in your source code(the .java file) as it is inserted during compilation and present in the bytecode(.class file).
 
-**Syntax:**
+![](media/00c91d72b013285caa5713a377021f80.png)
+
+**Are no-arg constructor and default constructor same?**
+
+-   The **default constructor** is inserted by compiler and has **no code** in it, on the other hand we can implement **no-arg constructor** in our class which looks like default constructor but we can provide **any initialization code** in it.
+
+**Syntax for default constructor:**
 
 ![](media/6f28c025dbc176f03370deac4368e0e1.png)
 
@@ -68,7 +75,20 @@
 
 ![](media/8719e64925f98f33661713e824e8b197.png)
 
-![](media/971b7475fc347b2867559f830b71d4ed.png)
+-   The default constructor provides the default values to the object like 0, null, etc., depending on the type.
+
+    **Example:**
+
+    ![](media/e0caf131c82863155b5ab561ac0838cc.png)
+
+    **Output:**
+
+    **![](media/d99ad3a3430ce02ec5a756560dbb5c12.png)**
+
+    **Explanation:**
+
+-   In the above class, you are not creating any constructor so compiler provides you a default constructor.
+-   Here 0 and null values are provided by default constructor.
 
 ## 2.2 Java Parameterized Constructor
 
