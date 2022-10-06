@@ -1,6 +1,14 @@
-# Access Modifiers
+# Modifiers
 
 **Content**
+
+1\. Modifiers
+
+1.1 Access Modifiers
+
+1.2 Non-access Modifiers
+
+2\. References
 
 ## 1. Modifiers
 
@@ -39,7 +47,7 @@
 
 ![](media/2e948cc0a378bee84da8d582513047c4.png)
 
-## Default:
+## 2) Default:
 
 -   The access level of a default modifier is only within the package.
 -   It cannot be accessed from outside the package.
@@ -54,7 +62,7 @@
 
 -   In the above example, the scope of class A and its method msg() is default so it cannot be accessed from outside the package.
 
-## Protected:
+## 3) Protected:
 
 -   The protected access modifier is accessible within package and outside the package but through inheritance only.
 -   The protected access modifier can be applied on the data member, method and constructor. It can't be applied on the class.
@@ -69,23 +77,11 @@
 
 ![](media/8b1bfa3b1cc0728150a260ccf1c960ac.png)
 
-## Public:
+## 4) Public:
 
 -   The access level of a public modifier is everywhere.
+-   It has the widest scope among all other modifiers.
 -   It can be accessed from within the class, outside the class, within the package and outside the package.
--   Let's understand the access modifiers in Java by a simple table.
-
-![](media/44a0bd882e9ca356cb48236118ad9c9f.png)
-
-## Non-access Modifiers
-
--   There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient, etc.
-
-### 3) Protected
-
-### 4) Public
-
-The **public access modifier** is accessible everywhere. It has the widest scope among all other modifiers.
 
 **Example of public access modifier**
 
@@ -93,14 +89,14 @@ The **public access modifier** is accessible everywhere. It has the widest scope
 
 ![](media/073e6bc54fc5f51334a7f8244bd2bcbd.png)
 
-### Java Access Modifiers with Method Overriding
+-   Let's understand the access modifiers in Java by a simple table.
 
-If you are overriding any method, overridden method (i.e. declared in subclass) must not be more restrictive.
+![](media/44a0bd882e9ca356cb48236118ad9c9f.png)
 
-![](media/4c3b6d3e304f8c081e4463cbc9db52b7.png)
+## 1.2 Non-access Modifiers
 
-The default modifier is more restrictive than protected. That is why, there is a compile-time error.
+-   There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient, etc.
 
-References
+## 2. References
 
 1.  https://www.javatpoint.com/access-modifiers
