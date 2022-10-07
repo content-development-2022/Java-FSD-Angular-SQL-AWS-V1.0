@@ -58,12 +58,12 @@ There are two types of polymorphism in java:
 
 **Output:**
 
-*Sum of two numbers: 120*
+Sum of two numbers: 120
 
-*Sum of three numbers: 147*
+Sum of three numbers: 147
 
--   *In this program, the sum() method overloads with two types via different parameters.*
--   *This is the basic concept of compile-time polymorphism in java where we can perform various operations by using multiple methods having the same name.*
+-   In this program, the sum() method overloads with two types via different parameters.
+-   This is the basic concept of compile-time polymorphism in java where we can perform various operations by using multiple methods having the same name.
 
 ### 2.1.1. Method overloading
 
