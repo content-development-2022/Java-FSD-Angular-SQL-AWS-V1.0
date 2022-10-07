@@ -30,7 +30,11 @@
 -   Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
 -   **For example**, think of a superclass called **Animal** that has a method called **animalSound().** Subclasses of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.).
 
-    ![](media/625ad8cc8a9c15575cc5e861fd162f23.png)
+    ![](media/2ba89566a6a42343a29d2cbc2a79365b.png)
+
+    **Output:**
+
+    ![](media/e1ec58f96b90a87474c1ca2cee4872ee.png)
 
 ## 2. Types of Polymorphism
 
