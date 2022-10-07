@@ -65,7 +65,7 @@ Sum of three numbers: 147
 -   In this program, the sum() method overloads with two types via different parameters.
 -   This is the basic concept of compile-time polymorphism in java where we can perform various operations by using multiple methods having the same name.
 
-### 2.1.1. Method overloading
+## 2.1.1. Method overloading
 
 -   Method Overloading occurs when a class has many methods with the same name but different parameters.
 -   Two or more methods may have the same name if they have other numbers of parameters, different data types, or different numbers of parameters and different data types.
@@ -79,7 +79,7 @@ Sum of three numbers: 147
 
 ![](media/842ed3f3aa868ae1dbfb1190a6532da3.png)
 
-### 2.1.1.1 Different ways to overload the methods
+## 2.1.1.1 Different ways to overload the methods
 
 **1). Method overloading by changing the number of parameters**
 
@@ -114,7 +114,7 @@ Sum of three numbers: 147
 -   In this example, The parameters int and float are used in the first declaration.
 -   The parameters are int and float in the second declaration, but their order in the parameter list is different.
 
-### 2.1.1.2 Invalid cases of method overloading
+## 2.1.1.2 Invalid cases of method overloading
 
 -   Method overloading does not allow **changing the** **return type of method**( function ); it occurs ambiguity.
 
@@ -125,7 +125,7 @@ Sum of three numbers: 147
 -   Because the arguments are matching, the code above will not compile.
 -   Both methods have the same amount of data types and the same sequence of data types in the parameters.
 
-### 2.1.2 Operator overloading
+## 2.1.2 Operator overloading
 
 -   An operator is said to be overloaded if it can be used to perform more than one function.
 -   Operator overloading is an overloading method in which an existing operator is given a new meaning.
@@ -141,7 +141,7 @@ Sum of three numbers: 147
 -   In the above example, The ‘+’ operator has been overloaded.
 -   When we send two numbers to the overloaded method, we get a sum of two integers, and when we pass two Strings, we get the concatenated text.
 
-### 2.1.3 Advantages of compile-time polymorphism:
+## 2.1.3 Advantages of compile-time polymorphism:
 
 1.  It improves code clarity and allows for the use of a single name for similar procedures.
 2.  It has a faster execution time since it is discovered early in the compilation process.
@@ -162,7 +162,7 @@ The only **disadvantage** of compile-time polymorphism is that it doesn’t incl
 
 ![](media/cacf581ea9ca6f004e590465190fdc5d.png)
 
-### 2.2.2 Rules for method overriding
+## 2.2.2 Rules for method overriding
 
 1.  There must be an IS-A relationship (inheritance).
 2.  The access modifier can only allow more access for the overridden method.
@@ -181,7 +181,7 @@ The only **disadvantage** of compile-time polymorphism is that it doesn’t incl
 
 ![](media/8d582e03f3565ffefe94897420f6a847.png)
 
-### 2.2.3 Difference between Method Overloading and Method Overriding in Java
+## 2.2.3 Difference between Method Overloading and Method Overriding in Java
 
 ![](media/6ff72fa230ee9d4a58c8eb3e0104c0de.png)
 
