@@ -4,17 +4,22 @@
 
 1\. Java Operators
 
-1.1 Unary Operator
+1.1 Arithmetic Operators
 
-1.2 Arithmetic Operators
+1.2 Assignment Operators
 
-1.3 Assignment Operators
+1.3 Arithmetic Assignment Operators
 
-1.4 Comparison Operators
+1.4 Comparison/Relationl Operators
 
 1.5 Logical Operators
 
 1.6 Bitwise Operator
+
+1.  Unary Operator
+    1.  Binary operator
+
+1.9 Ternary Operator (Conditional Operator)
 
 2\. Java Keywords
 
@@ -26,26 +31,29 @@
 
 -   Operators are used to perform operations on variables and values.
 
+**Example:** 2+3
+
+Where:
+
+2, 3 are operands
+
+\+ is operator
+
 **Java divides the operators into the following groups:**
 
--   Unary Operator
--   Arithmetic operators
--   Assignment operators
--   Comparison operators
--   Logical operators
--   Bitwise operators
+1.  Arithmetic operators
+2.  Assignment operators
+3.  Comparison/Relational operators
+4.  Logical operators
+5.  Bitwise operators
 
-## 1.1 Unary Operator
+**Other categorization of operators**
 
--   The Java unary operators require only one operand.
--   Unary operators are used to perform various operations i.e.
-1.  incrementing/decrementing a value by one
-2.  negating an expression
-3.  inverting the value of a Boolean
+1.  Unary Operator
+2.  Binary operator
+3.  Ternary operator(conditional operator)
 
-![](media/2e39c3abe023db6eca8fc5554c97b46d.png)
-
-## 1.2 Arithmetic Operators
+## 1.1 Arithmetic Operators
 
 -   Arithmetic operators are used to perform common mathematical operations.
 
@@ -53,17 +61,24 @@
 
 ![](media/e25ae704c6a0936bd3937765f26cf97c.png)
 
-## 1.3 Assignment Operators
+## 1.2 Assignment Operator
 
--   Assignment operators are used to assign values to variables.
+-   Assignment operator is used to assign values to variables.
 
-**A list of all assignment operators:**
+![](media/37951bdea95bf7c4d93e1a4230b24d7c.png)
 
-![](media/16ce916f872401d7e6a404ed16bc349f.png)
+## 1.3 Arithmetic Assignment Operators
 
-## 1.4 Comparison Operators
+-   It is a combination of Arithmetic and Assignment operators.
+
+**A list of all arithmetic assignment operators:**
+
+![](media/4a50100ada6aad97489ffb00662e7f2e.png)
+
+## 1.4 Comparison/Relational Operators
 
 -   Comparison operators are used to compare two values.
+-   It returns Boolean value i.e., True or False.
 
 **A list of all Comparison operators:**
 
@@ -171,6 +186,51 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 -   Excess bits shifted off to the right are discarded.
 -   It is denoted by the symbol **\>\>\>.**
 -   Note that the leftmost position after \>\> depends on the sign bit. It does not preserve the sign bit.
+
+## 1.7 Unary Operator
+
+-   The Java unary operators require only one operand.
+-   Unary operators are used to perform various operations i.e.
+1.  incrementing/decrementing a value by one
+2.  negating an expression
+3.  inverting the value of a Boolean
+
+![](media/2e39c3abe023db6eca8fc5554c97b46d.png)
+
+## 1.7 Binary Operator
+
+-   It contains one operator and two operands
+
+**Example:** 2 + 3
+
+## 1.8 Ternary Operator (Conditional Operator)
+
+-   The **ternary operator (? :)** is the only conditional operator that accepts three operands.
+-   It is used to evaluate Boolean expressions.
+-   The operator decides which value will be assigned to the variable.
+-   It can be used instead of the if-else statement. It makes the code much more easy, readable, and shorter.
+
+    ![](media/eca3a0399f9eb22a8858b16c5a14c9a4.png)
+
+### Syntax:
+
+![](media/7699567a1ae9272855d3b1d130235f8b.png)
+
+-   The above statement states that if the condition returns **true, expression1** gets executed, else the **expression2** gets executed and the final result stored in a variable.
+
+    ![](media/c531bfdeb1a847becb7e1a17ee9d9861.png)
+
+**Example:**
+
+int n1 = 50;
+
+int n2 = 70;
+
+int bigger = n1\>n2?n1:n2;
+
+**Output:**
+
+70
 
 ## 2. Java Keywords
 
@@ -409,4 +469,5 @@ A list of Java keywords or reserved words are given below:
 
 1.  https://www.w3schools.com/java/java_operators.asp
 2.  https://www.javatpoint.com/bitwise-operator-in-java
-3.  https://www.javatpoint.com/java-keywords
+3.  https://www.javatpoint.com/ternary-operator-in-java
+4.  https://www.javatpoint.com/java-keywords
