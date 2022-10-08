@@ -10,10 +10,13 @@
 
 1.3 Arithmetic Assignment Operators
 
-1.  Comparison/Relationl Operators
-    1.  Logical Operators
-    2.  Bitwise Operator
-    3.  Unary Operator
+1.4 Comparison/Relationl Operators
+
+1.5 Logical Operators
+
+1.6 Bitwise Operator
+
+1.7 Unary Operator
 
 1.8 Binary operator
 
