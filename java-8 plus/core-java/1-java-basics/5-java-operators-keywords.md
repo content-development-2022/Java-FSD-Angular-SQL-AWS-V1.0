@@ -14,10 +14,10 @@
 
 1.5 Logical Operators
 
-1.6 Bitwise Operator
+1.  Bitwise Operator
+    1.  Unary Operator
 
-1.  Unary Operator
-    1.  Binary operator
+1.8 Binary operator
 
 1.9 Ternary Operator (Conditional Operator)
 
