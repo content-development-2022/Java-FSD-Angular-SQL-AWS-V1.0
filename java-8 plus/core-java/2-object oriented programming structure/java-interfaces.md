@@ -22,7 +22,7 @@
 -   To access the interface methods, the interface must be "implemented" by another class with the **implements** keyword (instead of extends).
 -   The body of the interface method is provided by the "implement" class.
 
-**Example-2:**
+**Example:**
 
 ![](media/c6f2dc35dd3f0f435bed90cbf20f156b.png)
 
