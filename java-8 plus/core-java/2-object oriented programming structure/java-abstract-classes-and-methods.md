@@ -27,9 +27,10 @@ There are two ways to achieve abstraction in java
 ## 1.1 Abstract class in Java
 
 -   A class which is declared with the abstract keyword is known as an abstract class in Java.
--   It can have abstract and non-abstract methods (method with the body).
 -   **Abstract class:** is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
 -   An abstract class can have both abstract and regular methods.
+
+**Example:**
 
 ![](media/e3998ad1147b85d3c4be0a3387905bc4.png)
 
@@ -38,6 +39,11 @@ There are two ways to achieve abstraction in java
 ![](media/5470656f5df26ffe2b08e0b12da6bbd5.png)
 
 -   To access the abstract class, it must be inherited from another class.
+
+### Why can’t we create the object of an abstract class?
+
+-   Because the class is incomplete, they have abstract methods that have no body so if java allows you to create object of this class then if someone calls the abstract method using that object then What would happen? There would be no actual implementation of the method to invoke.
+-   Also an object is concrete. An abstract class is like a template, so you have to extend it and build on it before you can use it.
 
 ![](media/1fff31c7bbaf4bd4e154f7b017b7d4d3.png)
 
