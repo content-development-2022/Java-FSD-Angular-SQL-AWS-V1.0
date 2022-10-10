@@ -16,9 +16,9 @@
 
 2\. Modifiers
 
-2.1 Access Modifiers
+1.  Access Modifiers
 
-1.  Non-access Modifiers
+2.2 Non-access Modifiers
 
 3\. What is encapsulation?
 
