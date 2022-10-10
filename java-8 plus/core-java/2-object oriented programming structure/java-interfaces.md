@@ -39,10 +39,15 @@
 -   Interface attributes are by default public, static and final
 -   An interface cannot contain a constructor (as it cannot be used to create objects)
 
-**Why and when to use interfaces?**
+**Why use java interfaces?**
 
-1.  To achieve security - hide certain details and only show the important details of an object (interface).
-2.  Java does not support "multiple inheritance" (a class can only inherit from one superclass). However, it can be achieved with interfaces, because the class can **implement** multiple interfaces.
+![](media/3f590ce0f2b46ddd229ebd595f324f65.png)
+
+**The relationship between classes and interfaces**
+
+-   As shown in the figure given below, a class extends another class, an interface extends another interface, but a **class implements an interface**.
+
+![](media/f2989d7eebdb0efaf14a161d591a6e03.png)
 
 ## 1.1 Multiple Interfaces
 
