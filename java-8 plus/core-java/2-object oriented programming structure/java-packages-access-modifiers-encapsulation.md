@@ -8,7 +8,7 @@
 
 1.1.1 Import a Class
 
-1.1.2 Import a Package
+1.  Import a Package
 
 1.2 User-defined Packages
 
@@ -16,7 +16,7 @@
 
 2\. Modifiers
 
-1.  Access Modifiers
+2.1 Access Modifiers
 
 2.2 Non-access Modifiers
 
