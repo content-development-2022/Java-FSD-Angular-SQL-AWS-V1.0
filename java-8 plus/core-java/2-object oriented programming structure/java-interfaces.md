@@ -15,9 +15,9 @@
 -   Another way to achieve abstraction in Java, is with interfaces.
 -   An interface is a completely "**abstract class**" that is used to group related methods with empty bodies:
 
-**Example-1:**
+**Syntax:**
 
-![](media/802125d31ba7e832d94ac10e6e90a689.png)
+![](media/3dab66351a02817fe676ef951fd67156.png)
 
 -   To access the interface methods, the interface must be "implemented" by another class with the **implements** keyword (instead of extends).
 -   The body of the interface method is provided by the "implement" class.
