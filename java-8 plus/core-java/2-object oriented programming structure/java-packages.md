@@ -43,7 +43,7 @@
 
 -   If you find a class you want to use, for example, the **Scanner** class, **which is used to get user input**, write the following code:
 
-**Example**
+**Example-1**
 
 ![](media/df46448d50f1dda7e189f5a4bb5778e2.png)
 
@@ -51,7 +51,7 @@
 -   To use the **Scanner** class, create an object of the class and use any of the available methods found in the Scanner class documentation.
 -   In the below example, we used the **nextLine()** method, which is used to read a complete line:
 
-**Example**
+**Example-2**
 
 -   Using the Scanner class to get user input:
 
@@ -68,11 +68,11 @@
 -   To import a whole package, end the sentence with an asterisk sign (\*).
 -   The following example will import ALL the classes in the java.util package:
 
-### Example
+**Example:**
 
 ![](media/4956371b975c3121a8aed18c53e3a452.png)
 
-Output:
+**Output:**
 
 ## ![](media/9f5106b4d32c6efd3fb8cc886d142e78.png)
 
@@ -116,11 +116,9 @@ Output:
 
 ## 1.3 Advantage of Java Package
 
-1) Java package is used to categorize the classes and interfaces so that they can be easily maintained.
-
-2) Java package provides access protection.
-
-3) Java package removes naming collision.
+1.  Java package is used to categorize the classes and interfaces so that they can be easily maintained.
+2.  Java package provides access protection.
+3.  Java package removes naming collision.
 
 ## 2. References
 
