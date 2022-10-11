@@ -6,21 +6,19 @@
 
 2\. Types of Polymorphism
 
-2.1 Compile-Time Polymorphism
+2.1 Compile-Time Polymorphism /Static/Method Overloading
 
-2.1.1. Method overloading
+2.1.1 Different ways to Overload the Methods
 
 2.1.2 Operator overloading
 
 2.1.3 Advantages of compile-time polymorphism:
 
-2.2 Run-Time Polymorphism
+2.2 Run-Time Polymorphism/Dynamic/Method Overriding
 
-2.2.1 Method overriding
+2.2.1 Rules for method overriding
 
-2.2.2 Rules for method overriding
-
-2.2.3 Difference between Method Overloading and Method Overriding in Java
+2.2.2 Difference between Method Overloading and Method Overriding in Java
 
 3\. References
 
@@ -45,12 +43,14 @@ There are two types of polymorphism in java:
 
 **Note:** Run time polymorphism is implemented through Method overriding. Whereas, Compile Time polymorphism is implemented through Method overloading and Operator overloading.
 
-## 2.1 Compile-Time Polymorphism
+## 2.1 Compile-Time Polymorphism /Static/Method Overloading
 
--   Compile-time polymorphism is also known as static polymorphism or early binding.
 -   Compile-time polymorphism is a polymorphism that is resolved during the compilation process.
 -   Overloading of methods is called through the reference variable of a class.
--   Compile-time polymorphism is achieved by **method overloading** and **operator overloading.**
+-   Compile-time polymorphism is achieved by **method overloading**
+-   Method Overloading occurs when a class has many methods with the same name but different parameters.
+-   Two or more methods may have the same name if they have other numbers of parameters, different data types, or different numbers of parameters and different data types.
+-   Method overloading is also known as **Compile-time Polymorphism, Static Polymorphism, or** **Early binding** in Java.
 
 **Example of Compile-Time Polymorphism in Java**
 
@@ -65,13 +65,7 @@ Sum of three numbers: 147
 -   In this program, the sum() method overloads with two types via different parameters.
 -   This is the basic concept of compile-time polymorphism in java where we can perform various operations by using multiple methods having the same name.
 
-## 2.1.1. Method overloading
-
--   Method Overloading occurs when a class has many methods with the same name but different parameters.
--   Two or more methods may have the same name if they have other numbers of parameters, different data types, or different numbers of parameters and different data types.
--   Method overloading is also known as **Compile-time Polymorphism, Static Polymorphism, or** **Early binding** in Java.
-
-**Example:**
+**Another Example:**
 
 ![](media/802dc446d947a1078a2e221758041a99.png)
 
@@ -79,7 +73,7 @@ Sum of three numbers: 147
 
 ![](media/842ed3f3aa868ae1dbfb1190a6532da3.png)
 
-## 2.1.1.1 Different ways to overload the methods
+## 2.1.1 Different ways to Overload The Methods
 
 **1). Method overloading by changing the number of parameters**
 
@@ -130,9 +124,7 @@ Sum of three numbers: 147
 -   An operator is said to be overloaded if it can be used to perform more than one function.
 -   Operator overloading is an overloading method in which an existing operator is given a new meaning.
 -   In Java, the + operator is overloaded.
--   Java, on the other hand, does not allow for user-defined operator overloading.
--   To add integers, the + operator can be employed as an arithmetic addition operator.
--   It can also be used to join strings together.
+-   **Java, on the other hand, does not allow for user-defined operator overloading.**
 
 **Example:**
 
@@ -148,21 +140,18 @@ Sum of three numbers: 147
 
 The only **disadvantage** of compile-time polymorphism is that it doesn’t include inheritance.
 
-## 2.2 Run-Time Polymorphism
+## 2.2 Run-Time Polymorphism/Dynamic/Method Overriding
 
 -   Whenever an object is bound with the functionality at run time, this is known as runtime polymorphism.
 -   Java virtual machine determines the proper method to call at the runtime, not at the compile time.
 -   It is also called **dynamic or late binding**.
 -   The runtime polymorphism can be achieved by **method overriding**.
-
-### 2.2.1 Method overriding
-
 -   In any object-oriented programming language, Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.
 -   When a method in a subclass has the same name, same parameters or signature, and same return type(or sub-type) as a method in its super-class, then the method in the subclass is said to *override* the method in the super-class.
 
 ![](media/cacf581ea9ca6f004e590465190fdc5d.png)
 
-## 2.2.2 Rules for method overriding
+## 2.2.1 Rules for method overriding
 
 1.  There must be an IS-A relationship (inheritance).
 2.  The access modifier can only allow more access for the overridden method.
@@ -181,7 +170,7 @@ The only **disadvantage** of compile-time polymorphism is that it doesn’t incl
 
 ![](media/8d582e03f3565ffefe94897420f6a847.png)
 
-## 2.2.3 Difference between Method Overloading and Method Overriding in Java
+## 2.2.2 Difference between Method Overloading and Method Overriding in Java
 
 ![](media/6ff72fa230ee9d4a58c8eb3e0104c0de.png)
 
