@@ -4,7 +4,7 @@
 
 1\. Object Class in Java
 
-1.1 Methods of Object Class
+1.1 Methods of object class
 
 2\. Object Cloning in Java
 
@@ -29,7 +29,7 @@
 
 ![](media/9ae991f4e0f51cd6bd76f1a8384cb589.png)
 
-## 1.1 Methods of Object Class
+## 1.1 Methods of object class
 
 -   The Object class provides many methods. They are as follows:
 
