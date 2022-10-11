@@ -81,16 +81,6 @@ Error:
 -   The elements are globally accessible in the application.
 -   It is a common memory space shared with all the threads.
 -   If the heap space is full, it throws the java.lang.OutOfMemoryError.
--   The heap memory is further divided into the following memory areas:
-1.  Young generation
-2.  Survivor space
-3.  Old generation
-4.  Permanent generation
-5.  Code Cache
-
-The following image shows the allocation of stack memory and heap space.
-
-![](media/ae1f289c3fea66b6271defc4ebb777ce.png)
 
 **Example of Heap Memory in Java**
 
@@ -117,7 +107,6 @@ The following image shows the allocation of stack memory and heap space.
 **Explanation:**
 
 -   Consider the above program where we are repeatedly generating arrays of bigger sizes and storing values in them.
--   
 -   Once the space ran out in the heap, it threw OutOfMemoryError.
 
 ## 4. Difference between Stack and Heap Memory
