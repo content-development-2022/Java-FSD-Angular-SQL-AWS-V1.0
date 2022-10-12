@@ -16,11 +16,11 @@
 
 2.3 Hierarchical inheritance
 
-3\. Aggregation in Java
+3\. Association in java
 
-3.1 When use Aggregation?
+4\. Aggregation in Java
 
-4\. Association in java
+4.1 When use Aggregation?
 
 5\. Association vs Aggregation vs Composition
 
@@ -144,7 +144,22 @@
 
 ![](media/8e2b585a63cea762e173373c6bed4f2f.png)
 
-## 3. Aggregation in Java
+## 3. Association in java
+
+-   Association establishes relationship between two separate **classes** through their **objects**.
+-   The relationship can be one to one, One to many, many to one and many to many.
+
+**Association Example**
+
+![](media/63b4ce99a2bf59e6c9271cde673769a5.png)
+
+**Output:**
+
+![](media/0a19505a5235063f5788fda78df13b99.png)
+
+-   In the above example, there is a one to one relationship (**Association**) between two classes: CarClass and Driver. Both the classes represent two separate entities.
+
+## 4. Aggregation in Java
 
 -   If a class have an entity reference, it is known as Aggregation.
 -   Aggregation represents **HAS-A** relationship.
@@ -172,25 +187,10 @@
 -   The above example shows the **Aggregation** between Student and Address classes.
 -   You can see that in Student class i have declared a property of type Address to obtain student address.
 
-## 3.1 When use Aggregation?
+## 4.1 When use Aggregation?
 
 -   Code reuse is also best achieved by aggregation when there is no is-a relationship.
 -   Inheritance should be used only if the relationship is-a is maintained throughout the lifetime of the objects involved; otherwise, aggregation is the best choice.
-
-## 4. Association in java
-
--   Association establishes relationship between two separate **classes** through their **objects**.
--   The relationship can be one to one, One to many, many to one and many to many.
-
-**Association Example**
-
-![](media/63b4ce99a2bf59e6c9271cde673769a5.png)
-
-**Output:**
-
-![](media/0a19505a5235063f5788fda78df13b99.png)
-
--   In the above example, there is a one to one relationship (**Association**) between two classes: CarClass and Driver. Both the classes represent two separate entities.
 
 ## 5. Association vs Aggregation vs Composition
 
