@@ -16,7 +16,9 @@
 
 2.3 Hierarchical inheritance
 
-3\. References
+3\. Aggregation in Java
+
+4\. References
 
 ## 1. Inheritance in java
 
@@ -136,6 +138,39 @@
 
 ![](media/8e2b585a63cea762e173373c6bed4f2f.png)
 
-## 3. References
+## 3. Aggregation in Java
+
+-   If a class have an entity reference, it is known as Aggregation.
+-   Aggregation represents **HAS-A** relationship.
+-   Consider a situation, **Employee** object contains many informations such as id, name, emailId etc.
+-   It contains one more object named **address**, which contains its own informations such as city, state, country, zipcode etc. as given below.
+
+![](media/9889f79df66df027675f573cb6ea30c1.png)
+
+-   In such case, Employee has an entity reference address, so relationship is Employee HAS-A address.
+
+**Why use Aggregation?**
+
+-   For Code Reusability.
+
+**Simple Example of Aggregation**
+
+![](media/c4b4d29386794359f9fe13ca3df7dc75.png)
+
+In this example, we have created the reference of Operation class in the Circle class.
+
+![](media/4c3e8bba853a95bd8ef440c49f410b46.png)
+
+Output:
+
+![](media/dff1625035816ee2672290fc07751455.png)
+
+### When use Aggregation?
+
+-   Code reuse is also best achieved by aggregation when there is no is-a relationship.
+-   Inheritance should be used only if the relationship is-a is maintained throughout the lifetime of the objects involved; otherwise, aggregation is the best choice.
+
+## 4. References
 
 1.  https://www.javatpoint.com/inheritance-in-java
+2.  https://www.javatpoint.com/aggregation-in-java
