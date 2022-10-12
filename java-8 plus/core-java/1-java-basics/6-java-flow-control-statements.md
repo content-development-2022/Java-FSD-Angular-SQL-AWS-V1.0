@@ -146,8 +146,7 @@ Let's understand the if-statements one by one.
 ## 1.2 Loop Statements
 
 -   In programming, sometimes we need to execute the block of code repeatedly while some condition evaluates to true.
--   However, loop statements are used to execute the set of instructions in a repeated order.
--   The execution of the set of instructions depends upon a particular condition.
+-   However, loop statements are used to execute the set of instructions depends upon a particular condition.
 -   In Java, we have **three types of loops** that execute similarly. However, there are differences in their syntax and condition checking time.
 
 ![](media/ca1166d59174661db6574e9d87d5e9ca.png)
