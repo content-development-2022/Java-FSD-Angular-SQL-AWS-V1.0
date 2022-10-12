@@ -20,8 +20,6 @@
 
 4\. Aggregation in Java
 
-4.1 When use Aggregation?
-
 5\. Association vs Aggregation vs Composition
 
 6\. References
@@ -186,11 +184,6 @@
 
 -   The above example shows the **Aggregation** between Student and Address classes.
 -   You can see that in Student class i have declared a property of type Address to obtain student address.
-
-## 4.1 When use Aggregation?
-
--   Code reuse is also best achieved by aggregation when there is no is-a relationship.
--   Inheritance should be used only if the relationship is-a is maintained throughout the lifetime of the objects involved; otherwise, aggregation is the best choice.
 
 ## 5. Association vs Aggregation vs Composition
 
