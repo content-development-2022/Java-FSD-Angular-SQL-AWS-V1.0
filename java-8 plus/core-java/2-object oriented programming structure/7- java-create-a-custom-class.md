@@ -10,7 +10,7 @@
 
 -   Class is a templates and prototypes or blueprints from which objects are created.
 -   Class does not occupy memory.
--   We can write a custom class as per our choice for an illustration purpose a sample is shown in the program below as a helper class.
+-   We can write a custom class as per our choice for an illustration purpose a sample is shown in the program below.
 
 **Example:**
 
