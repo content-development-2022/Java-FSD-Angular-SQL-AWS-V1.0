@@ -149,7 +149,7 @@
 -   If a class have an entity reference, it is known as Aggregation.
 -   Aggregation represents **HAS-A** relationship.
 -   Aggregation is a special form of association.
--   It is a relationship between two classes like [association](https://beginnersbook.com/2013/05/association/), however its a uni**directional** association, which means it is strictly a **one way association.**
+-   It is a relationship between two classes like association, however its a uni**directional** association, which means it is strictly a **one way association.**
 
 **Why use Aggregation?**
 
@@ -203,7 +203,7 @@
 -   It is a relationship between two separate classes and the association can be of any type say one to one, one to may etc.
 -   It joins two entirely separate entities.
 
-[**Aggregation**](https://beginnersbook.com/2013/05/aggregation/)
+**Aggregation**
 
 -   It is a special form of association which is a unidirectional one way relationship between classes (or entities).
 -   For e.g. Wallet and Money classes. Wallet has Money but money doesn’t need to have Wallet necessarily so its a one directional relationship.
