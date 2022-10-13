@@ -38,7 +38,11 @@ String greeting = "Hello";
 
 **Example**
 
-![](media/83d39c597c4ad9735c6ed0211ff10ac9.png)
+**![](media/66beaa09be650ec9e396c69b8a778e5f.png)**
+
+**Output**:
+
+![](media/f618f5d61914491780c6cba356929c84.png)
 
 ## String Length
 
@@ -46,11 +50,9 @@ String greeting = "Hello";
 
 **Example**
 
-![](media/b074a4fc938ca9b30bec6cd917b0dba0.png)
+![](media/4df331acc4c5e20b5f52d0f6525fd726.png)**Output**
 
-**Output**
-
-![](media/6ed6dc1a26cd122fd2375300a50149d5.png)
+**![](media/6f1f03b187c40f9f1ff4ac30e8aa5bb9.png)**
 
 ## 2.3 Finding a Character in a String
 
@@ -58,9 +60,11 @@ String greeting = "Hello";
 
 **Example**
 
-![](media/29944a1048b74d1ac9e00e4a73d544fd.png)
+![](media/d946da550de7747952ead1d447c33a27.png)
 
-![](media/420a9ab9d61613a13989d00280e801f3.png)
+**Output:**
+
+**![](media/1acf5bc0a8afdf53c12ff558955cb37f.png)**
 
 ## 2.4 String Concatenation
 
@@ -68,74 +72,72 @@ String greeting = "Hello";
 
 **Example**
 
-![](media/3fe4773cbe1b37ae8d158c25d8a5cfd6.png)
+![](media/8e1db84b9453e0df0e721cecd101af49.png)
 
-![](media/6c9f4314f677a31ad58e33cd6bec08d5.png)
+**Output:**
+
+![](media/fc7122eb1cbc86ad36d6321d6f3ab93a.png)
 
 -   You can also use the concat() method to concatenate two strings.
 
 **Example**
 
-![](media/a26052dd0c2209030fabe4296441c011.png)
+![](media/de7e21c936cbcc6f12b8beb0eca7c750.png)
 
 ## 3. Adding Numbers and Strings
 
-![](media/5b16f0c0549330c98553b24eec240722.png)
+![](media/8129419aaac5ac83a7568b6fde4fdd97.png)
 
 **1) If you add two numbers, the result will be a number:**
 
 **Example**
 
-![](media/d8bc3222bf35773cb8396c556f2db980.png)
+![](media/b024993be537f980d1fa48a38641e68b.png)
 
 **2) If you add two strings, the result will be a string concatenation.**
 
 **Example:**
 
-![](media/5a231e7f6b15ca978e4b37406f4aba92.png)
+![](media/653183f76f912569a1c1054c98327c1e.png)
 
 **3) If you add a number and a string, the result will be a string concatenation.**
 
 **Example:**
 
-![](media/601b13f8e5dab928d549d49e31afaa1d.png)
+![](media/c23b00d9d561ebff568d9c8e8f3d6430.png)
 
 ## 4. Strings - Special Characters
 
--   strings must be written within quotes, Java will misunderstand this string, and generate an error.
+-   Strings must be written within quotes, Java will misunderstand this string, and generate an error.
 
 **Example:**
 
-![](media/f1499855240a405d3b2ec4b45bb52ad1.png)
-
-![](media/9ee6958f5b63a1255a8f5632ec051254.png)
+![](media/a7d440042a3ff7a39609e7fad4e5d3e4.png)
 
 -   The solution to avoid this problem, is to use the **backslash escape character**.
 -   The backslash (\\) escape character turns special characters into string characters.
 
-![](media/0e905d10c0e5f24f515a0e938992286e.png)
+![](media/6c94ef5140572f88b8711f3813bf5b96.png)
 
 **1) The sequence \\" inserts a double quote in a string.**
 
 **Example:**
 
-![](media/84521ea142092ddd7bd776bbcb55949c.png)
+![](media/344b541aaa8a66fda5cc8d4735e30c30.png)
 
 **2) The sequence \\' inserts a single quote in a string.**
 
 **Example:**
 
-![](media/fd38b9a1bd0b3c2363d9374dd55613f2.png)
+![](media/d181801ef4e33bfd137e7e59c4c3ea45.png)
 
 **3) The sequence \\\\ inserts a single backslash in a string.**
 
 **Example:**
 
-![](media/a047b64dc3386a4304d5c31161049ab6.png)
+![](media/8c99366877205ce0fa2f7b2e0eae3724.png)Other common escape sequences that are valid in Java are:
 
--   Other common escape sequences that are valid in Java are:
-
-![](media/ca3a5e96bbd8dae7d8209cc0b5a82c28.png)
+![](media/00afb09659129c2aa2d3b6ddcbc18ad3.png)
 
 ## 5. References
 
