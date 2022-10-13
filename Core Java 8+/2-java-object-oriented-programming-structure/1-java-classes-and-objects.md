@@ -2,29 +2,43 @@
 
 **Content**
 
-1\. Objects and Classes in Java
+1\. Classes and Objects in Java
 
-1.1 What is an Object in Java
+1.1 What is a Class in Java
 
-1.2 What is a Class in Java
+1.2 What is an Object in Java
 
-1.3 Object and Class Example: main within the class
+1.3 Class and Object Example: main within the class
 
-1.4 Object and Class Example: main outside the class
+1.4 Class and Object Example: main outside the class
 
-1.5 Ways to Initialize Object
+1.5 What are the different ways to create an object in Java?
 
-1.6 What are the different ways to create an object in Java?
+1.6 Ways to Initialize Object
 
 2\. References
 
-## 1. Objects and Classes in Java
+## 1. Classes and Objects in Java
 
--   In this document, we will learn about Java objects and classes.
--   In object-oriented programming technique, we design a program using objects and classes.
+-   In this document, we will learn about Java classes and objects.
+-   In object-oriented programming technique, we design a program using classes and objects.
 -   An object in Java is the physical as well as a logical entity, whereas, a class in Java is a logical entity only.
 
-## 1.1 What is an Object in Java
+## 1.1 What is a Class in Java
+
+-   It is a template or blueprint from which objects are created.
+-   It is a logical entity.
+-   It can't be physical.
+
+**A class in Java can contain:**
+
+![](media/8b3c86f772007314c17f53851c043386.png)
+
+**Syntax:**
+
+![](media/1d4b6e410f81b241660d1dfe4e9db898.png)
+
+## 1.2 What is an Object in Java
 
 -   An object is *a* **real-world entity.**
 -   An object is *a* **runtime entity.**
@@ -40,21 +54,7 @@
 
 **Example**: Pen is an object. Its name is Reynolds; color is white, known as its state. It is used to write, so writing is its behavior.
 
-## 1.2 What is a Class in Java
-
--   It is a template or blueprint from which objects are created.
--   It is a logical entity.
--   It can't be physical.
-
-**A class in Java can contain:**
-
-![](media/8b3c86f772007314c17f53851c043386.png)
-
-**Syntax:**
-
-![](media/1d4b6e410f81b241660d1dfe4e9db898.png)
-
-## 1.3 Object and Class Example: main within the class
+## 1.3 Class and Object Example: main within the class
 
 -   In this example, we have created a Student class which has two data members **id** and **name**.
 -   We are creating the object of the Student class by **new** keyword and printing the object's value.
@@ -73,7 +73,7 @@
 -   The new keyword is used to allocate memory at runtime.
 -   All objects get memory in Heap memory area.
 
-## 1.4 Object and Class Example: main outside the class
+## 1.4 Class and Object Example: main outside the class
 
 -   We create classes and use it from another class.
 -   It is a better approach than previous one.
@@ -103,66 +103,7 @@
 -   Code Reusability
 -   Code Optimization
 
-## 1.5 Ways to initialize object
-
-There are 3 ways to initialize object in Java.
-
-1.  By reference variable
-2.  By method
-3.  By constructor
-
-## 1) Initialization object through reference variable
-
--   Initializing an object means storing data into the object.
--   Let's see a simple example where we are going to initialize the object through a reference variable.
-
-**Example: TestStudent2.java**
-
-![](media/46cec5eb22b9e49e3c8bdf89860ca7f4.png)
-
-**Output:**
-
-![](media/34e0a5484668acf64c27476a4973b217.png)
-
--   We can also create multiple objects and store information in it through reference variable.
-
-**Example: TestStudent3.java**
-
-![](media/66868581eda05a112cbaec40fba59f79.png)
-
-**Output:**
-
-![](media/5c6e45042b3c2723bdf26011d4996134.png)
-
-## 2) Initialization object through method
-
--   In this example, we are creating the two objects of Student class and initializing the value to these objects by invoking the insertRecord method. Here, we are displaying the state (data) of the objects by invoking the displayInformation() method.
-
-**Example: TestStudent4.java**
-
-*![](media/1153e0530d05267c90cd9fb2119ccd4c.png)*
-
-**Output:**
-
-*![](media/0508a430e2d0651b565989e31c816f6a.png)*
-
--   As you can see in the above figure, object gets the memory in heap memory area.
--   The reference variable refers to the object allocated in the heap memory area.
--   Here, s1 and s2 both are reference variables that refer to the objects allocated in memory.
-
-## 3) Initialization through a constructor
-
--   Let's see an example where we are maintaining records of employees.
-
-**Example: TestEmployee.java**
-
-*![](media/3f77db7ee0d501f33ac7acd1a5b4e458.png)*
-
-**Output:**
-
-*![](media/9f97f893f906d26cbfa1a2c1a1c49aa5.png)*
-
-## 1.6 What are the different ways to create an object in Java?
+## 1.5 What are the different ways to create an object in Java?
 
 -   There are many ways to create an object in java. They are:
 
@@ -204,6 +145,65 @@ Let's see the example:
 **Output:**
 
 *![](media/9791bac392a5461ae1ea28cc7ea2d438.png)*
+
+## 1.6 Ways to initialize object
+
+There are 3 ways to initialize object in Java.
+
+1.  By reference variable
+2.  By method
+3.  By constructor
+
+## 1) Initialization object through reference variable
+
+-   Initializing an object means storing data into the object.
+-   Let's see a simple example where we are going to initialize the object through a reference variable.
+
+**Example: TestStudent2.java**
+
+![](media/46cec5eb22b9e49e3c8bdf89860ca7f4.png)
+
+**Output:**
+
+![](media/34e0a5484668acf64c27476a4973b217.png)
+
+-   We can also create multiple objects and store information in it through reference variable.
+
+**Example: TestStudent3.java**
+
+![](media/66868581eda05a112cbaec40fba59f79.png)
+
+**Output:**
+
+![](media/cd69d1680c94296fd8d645371bde5d37.png)
+
+## 2) Initialization object through method
+
+-   In this example, we are creating the two objects of Student class and initializing the value to these objects by invoking the insertRecord method. Here, we are displaying the state (data) of the objects by invoking the displayInformation() method.
+
+**Example: TestStudent4.java**
+
+*![](media/1153e0530d05267c90cd9fb2119ccd4c.png)*
+
+**Output:**
+
+*![](media/0508a430e2d0651b565989e31c816f6a.png)*
+
+-   As you can see in the above figure, object gets the memory in heap memory area.
+-   The reference variable refers to the object allocated in the heap memory area.
+-   Here, s1 and s2 both are reference variables that refer to the objects allocated in memory.
+
+## 3) Initialization through a constructor
+
+-   Let's see an example where we are maintaining records of employees.
+
+**Example: TestEmployee.java**
+
+*![](media/3f77db7ee0d501f33ac7acd1a5b4e458.png)*
+
+**Output:**
+
+*![](media/9f97f893f906d26cbfa1a2c1a1c49aa5.png)*
 
 ## 2. References
 
