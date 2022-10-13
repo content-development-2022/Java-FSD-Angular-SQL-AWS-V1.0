@@ -36,7 +36,7 @@ String greeting = "Hello";
 
 ## 2.1 String toUpperCase() and toLowerCase()
 
-**Example**
+**Example:**
 
 **![](media/66beaa09be650ec9e396c69b8a778e5f.png)**
 
@@ -48,11 +48,11 @@ String greeting = "Hello";
 
 -   The length of a string can be found with the length() method.
 
-**Example**
+**Example:**
 
 ![](media/4df331acc4c5e20b5f52d0f6525fd726.png)
 
-**Output**
+**Output:**
 
 **![](media/6f1f03b187c40f9f1ff4ac30e8aa5bb9.png)**
 
@@ -60,7 +60,7 @@ String greeting = "Hello";
 
 -   The indexOf() method returns the **index** (the position) of the first occurrence of a specified text in a string (including whitespace):
 
-**Example**
+**Example:**
 
 ![](media/d946da550de7747952ead1d447c33a27.png)
 
@@ -72,7 +72,7 @@ String greeting = "Hello";
 
 -   The + operator can be used between strings to combine them. This is called **concatenation**.
 
-**Example**
+**Example:**
 
 ![](media/8e1db84b9453e0df0e721cecd101af49.png)
 
@@ -82,7 +82,7 @@ String greeting = "Hello";
 
 -   You can also use the concat() method to concatenate two strings.
 
-**Example**
+**Example:**
 
 ![](media/de7e21c936cbcc6f12b8beb0eca7c750.png)
 
@@ -92,7 +92,7 @@ String greeting = "Hello";
 
 **1) If you add two numbers, the result will be a number:**
 
-**Example**
+**Example:**
 
 ![](media/b024993be537f980d1fa48a38641e68b.png)
 
