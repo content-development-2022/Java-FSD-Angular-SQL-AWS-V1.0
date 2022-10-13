@@ -1,4 +1,4 @@
-# Java Classes and Objects
+# Java Classes, Objects and Custom Class
 
 **Content**
 
@@ -16,7 +16,9 @@
 
 1.6 Ways to Initialize Object
 
-2\. References
+2\. Create a Custom Class in Java
+
+3\. References
 
 ## 1. Classes and Objects in Java
 
@@ -205,6 +207,21 @@ There are 3 ways to initialize object in Java.
 
 *![](media/9f97f893f906d26cbfa1a2c1a1c49aa5.png)*
 
-## 2. References
+## 2. Create a Custom Class in Java
+
+-   Class is a templates and prototypes or blueprints from which objects are created.
+-   Class does not occupy memory.
+-   We can write a custom class as per our choice for an illustration purpose a sample is shown in the program below.
+
+**Example:**
+
+![](media/166f58267db32b8fd17f28da1c6d1a07.png)
+
+**Output:**
+
+![](media/3130b473a6aa16ed9317075fd82da879.png)
+
+## 3. References
 
 1.  https://www.javatpoint.com/object-and-class-in-java
+2.  https://www.geeksforgeeks.org/how-to-create-custom-class-in-java/
