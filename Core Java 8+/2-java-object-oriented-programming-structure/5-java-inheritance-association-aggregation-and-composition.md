@@ -1,4 +1,4 @@
-# Inheritance
+# Inheritance, Association, Aggregation and Composition
 
 **Content**
 

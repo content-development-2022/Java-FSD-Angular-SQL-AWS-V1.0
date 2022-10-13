@@ -1,4 +1,4 @@
-# Object class in Java
+# Java Object class
 
 **Content**
 

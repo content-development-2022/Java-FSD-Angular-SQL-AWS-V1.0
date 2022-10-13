@@ -1,4 +1,4 @@
-# Java Packages
+# Java Encapsulation, Packages and Access Modifiers
 
 **Content**
 
