@@ -1,4 +1,4 @@
-# Java Objects and Classes
+# Java Classes and Objects
 
 **Content**
 
