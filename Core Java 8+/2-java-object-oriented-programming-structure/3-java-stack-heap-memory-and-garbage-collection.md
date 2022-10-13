@@ -1,4 +1,4 @@
-# Stack and Heap Java
+# Stack Memory, Heap Memory and Garbage Collection Java
 
 **Content**
 
