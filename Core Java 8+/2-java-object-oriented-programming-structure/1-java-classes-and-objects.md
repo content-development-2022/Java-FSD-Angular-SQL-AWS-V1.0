@@ -199,7 +199,7 @@ There are 3 ways to initialize object in Java.
 
 **Example: TestEmployee.java**
 
-*![](media/3f77db7ee0d501f33ac7acd1a5b4e458.png)*
+*![](media/630c3367ddc5379231e9740f7d70465c.png)*
 
 **Output:**
 
