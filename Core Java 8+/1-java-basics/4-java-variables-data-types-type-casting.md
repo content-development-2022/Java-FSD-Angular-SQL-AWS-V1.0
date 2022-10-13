@@ -1,4 +1,4 @@
-# Java Variables
+# Java Variables, Data Types, Type Casting
 
 **Content**
 
