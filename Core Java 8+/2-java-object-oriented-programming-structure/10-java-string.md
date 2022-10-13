@@ -44,13 +44,15 @@ String greeting = "Hello";
 
 ![](media/f618f5d61914491780c6cba356929c84.png)
 
-## String Length
+## 2.2 String Length
 
 -   The length of a string can be found with the length() method.
 
 **Example**
 
-![](media/4df331acc4c5e20b5f52d0f6525fd726.png)**Output**
+![](media/4df331acc4c5e20b5f52d0f6525fd726.png)
+
+**Output**
 
 **![](media/6f1f03b187c40f9f1ff4ac30e8aa5bb9.png)**
 
