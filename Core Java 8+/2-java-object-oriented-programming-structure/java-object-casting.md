@@ -57,9 +57,7 @@
 
 **Output:**
 
-![](media/7e2482b6f6413b0c698f154633da19b3.png)
-
-## Why we need Upcasting and Downcasting?
+## ![](media/7e2482b6f6413b0c698f154633da19b3.png)1.3 Why we need Upcasting and Downcasting?
 
 -   In Java, we rarely use **Upcasting**. We use it when we need to develop a code that deals with only the parent class.
 -   **Downcasting** is used when we need to develop a code that accesses behaviors of the child class.
