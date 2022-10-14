@@ -2,6 +2,12 @@
 
 **Content**
 
+1\. hashCode
+
+2\. equals
+
+3\. References
+
 ## 1. hashCode
 
 **public int hashCode()**
