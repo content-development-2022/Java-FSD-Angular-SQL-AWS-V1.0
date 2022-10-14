@@ -1,33 +1,27 @@
-**hashCode**
+# Java hashCode and equals
 
-public int hashCode()
+**Content**
 
-Returns a hash code value for the object. This method is supported for the benefit of hash tables such as those provided by HashMap.
+## 1. hashCode
+
+**public int hashCode()**
+
+-   Returns a hash code value for the object.
 
 The general contract of hashCode is:
 
 -   Whenever it is invoked on the same object more than once during an execution of a Java application, the hashCode method must consistently return the same integer, provided no information used in equals comparisons on the object is modified. This integer need not remain consistent from one execution of an application to another execution of the same application.
 -   If two objects are equal according to the equals(Object) method, then calling the hashCode method on each of the two objects must produce the same integer result.
--   It is *not* required that if two objects are unequal according to the [equals(java.lang.Object)](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-) method, then calling the hashCode method on each of the two objects must produce distinct integer results. However, the programmer should be aware that producing distinct integer results for unequal objects may improve the performance of hash tables.
+-   It is *not* required that if two objects are unequal according to the equals(java.lang.Object) method, then calling the hashCode method on each of the two objects must produce distinct integer results. However, the programmer should be aware that producing distinct integer results for unequal objects may improve the performance of hash tables.
 
-As much as is reasonably practical, the hashCode method defined by class Object does return distinct integers for distinct objects. (This is typically implemented by converting the internal address of the object into an integer, but this implementation technique is not required by the Java™ programming language.)
+The hashCode method defined by class Object does return distinct integers for distinct objects. (This is typically implemented by converting the internal address of the object into an integer, but this implementation technique is not required by the Java™ programming language.)
 
-**Returns:**
+## 2. equals
 
-a hash code value for this object.
+**public boolean equals(Object obj)**
 
-**See Also:**
-
-[equals(java.lang.Object)](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-), [System.identityHashCode(java.lang.Object)](https://docs.oracle.com/javase/8/docs/api/java/lang/System.html#identityHashCode-java.lang.Object-)
-
-#### equals
-
-public boolean equals([Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html) obj)
-
-Indicates whether some other object is "equal to" this one.
-
-The equals method implements an equivalence relation on non-null object references:
-
+-   Indicates whether some other object is "equal to" this one.
+-   The equals method implements an equivalence relation on non-null object references:
 -   It is *reflexive*: for any non-null reference value x, x.equals(x) should return true.
     -   It is *symmetric*: for any non-null reference values x and y, x.equals(y) should return true if and only if y.equals(x) returns true.
     -   It is *transitive*: for any non-null reference values x, y, and z, if x.equals(y) returns true and y.equals(z) returns true, then x.equals(z) should return true.
@@ -46,10 +40,6 @@ obj - the reference object with which to compare.
 
 true if this object is the same as the obj argument; false otherwise.
 
-**See Also:**
-
-[hashCode()](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--), HashMap
-
-References
+## 3. References
 
 1.  https://docs.oracle.com/javase/8/docs/api/
