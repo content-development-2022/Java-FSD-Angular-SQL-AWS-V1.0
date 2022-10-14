@@ -1,4 +1,28 @@
-## Introduction to Non-Access Modifiers in Java
+# Java Non Access Modifiers
+
+**Content**
+
+1\. **Introduction** to Non-Access Modifiers in Java
+
+1.1 **Final Non Access Modifiers**
+
+1.2 **Abstract** Non-Access Modifier
+
+1.3 **Synchronized** Non-Access Modifier
+
+1.4 **Static** Non-Access Modifier
+
+1.5 Native Non Access Modifier
+
+1.6 Strictfp Non-Access Modifier
+
+1.7 Transient Non-Access Modifier
+
+1.8 Conclusion
+
+2\. References
+
+## 1. Introduction to Non-Access Modifiers in Java
 
 -   Non Access Modifiers are the keywords introduced in Java 7 to notify JVM about a class’s behaviour, methods or variables, etc.
 -   There are 7 non-access modifiers introduced.
@@ -10,7 +34,7 @@
 6.  strictfp
 7.  native
 
-## 1. Final Non Access Modifiers
+## 1.1 Final Non Access Modifiers
 
 -   This modifier can be applied with:
 
@@ -46,7 +70,7 @@
 -   The final keyword is used with a variable to restrict any modification to the variable’s value, thus indicating JVM to treat it as a constant.
 -   This means final variables can be initialized only **once.**
 
-## 2. Abstract Non-Access Modifier
+## 1.2 Abstract Non-Access Modifier
 
 ![](media/5db762b9f531e99f74449d0287a428c5.png)
 
@@ -75,7 +99,7 @@
 
 ![](media/d1180cc8771dea1f34e9dc20949f83aa.png)
 
-## 3. Synchronized Non-Access Modifier
+## 1.3 Synchronized Non-Access Modifier
 
 ![](media/58e750625cf4fcc1eed1068d45f326db.png)
 
@@ -89,7 +113,7 @@
 
 ![](media/c197fa68dce49b40e74d2d1bb28b844a.png)
 
-## 4. Static Non-Access Modifier
+## 1.4 Static Non-Access Modifier
 
 ![](media/3c68e7a94b4f78c50cc2c0ff0810484d.png)
 
@@ -125,7 +149,7 @@
 
 ![](media/ea9a5bc03cf02acd6f1b9d397cd4ca97.png)
 
-#### 5. Native Non Access Modifier
+## 1.5 Native Non Access Modifier
 
 ![](media/6a1d9e3c82879134b3508618fe28e660.png)
 
@@ -138,7 +162,7 @@
 
 ![](media/42c7ec813bdacce3e36ebb126930e40a.png)
 
-#### 6. Strictfp Non-Access Modifier
+## 1.6 Strictfp Non-Access Modifier
 
 **Strictfp Class / Method:**
 
@@ -153,7 +177,7 @@
 
 ![](media/9afe7d0b2669518bd5467a1e3fc9edc8.png)
 
-#### 7. Transient Non-Access Modifier
+## 1.7 Transient Non-Access Modifier
 
 -   While transferring the data from one end to another over a network, it must be serialised for successful receiving of data, which means convert to byte stream before sending and converting it back at receiving end.
 -   To tell JVM about the members who need not undergo serialization instead of being lost during transfer, a transient modifier comes into the picture.
@@ -168,11 +192,11 @@
 
 ![](media/31aad6686abc565fa215a7b20111e5a7.png)
 
-### Conclusion
+## 1.8 Conclusion
 
 -   Non-access modifiers are the type of modifiers that tell JVM about the behavior of classes, methods, or variables defined and prepared accordingly.
 -   It also helps in synchronizing the flow as well as displaying similar results from operations being performed irrespective of the platform used for execution.
 
-### References
+## 2. References
 
 1.  https://www.educba.com/non-access-modifiers-in-java/
