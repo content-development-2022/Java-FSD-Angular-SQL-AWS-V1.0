@@ -57,7 +57,7 @@
 
 **Output:**
 
-## ![](media/7e2482b6f6413b0c698f154633da19b3.png)
+![](media/7e2482b6f6413b0c698f154633da19b3.png)
 
 ## 1.3 Why we need Upcasting and Downcasting?
 
