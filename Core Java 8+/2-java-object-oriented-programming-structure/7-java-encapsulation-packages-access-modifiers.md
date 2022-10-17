@@ -214,6 +214,7 @@
 ## 2.2 Non-access Modifiers
 
 -   There are many non-access modifiers, such as static, abstract, synchronized, native, transient, etc.
+-   Click here for more information on the non-access modifier.
 
 ## 3. What is encapsulation?
 

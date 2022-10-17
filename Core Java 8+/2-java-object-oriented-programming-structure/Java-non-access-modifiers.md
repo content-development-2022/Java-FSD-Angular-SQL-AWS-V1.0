@@ -2,15 +2,15 @@
 
 **Content**
 
-1\. **Introduction** to Non-Access Modifiers in Java
+1\. Introduction to Non-Access Modifiers in Java
 
-1.1 **Final Non Access Modifiers**
+1.1 Final Non Access Modifiers
 
-1.2 **Abstract** Non-Access Modifier
+1.2 Abstract Non-Access Modifier
 
-1.3 **Synchronized** Non-Access Modifier
+1.3 Synchronized Non-Access Modifier
 
-1.4 **Static** Non-Access Modifier
+1.4 Static Non-Access Modifier
 
 1.5 Native Non Access Modifier
 
@@ -72,6 +72,8 @@
 
 ## 1.2 Abstract Non-Access Modifier
 
+-   This modifier can be applied with:
+
 ![](media/5db762b9f531e99f74449d0287a428c5.png)
 
 **Abstract Class**:
@@ -89,9 +91,7 @@
 -   Abstract methods are methods without any definition.
 -   It contains only the signature of the method and is meant to indicate that these need to be overridden in the subclass.
 
-**Example:** public abstract void fun1();
-
-**Code:**
+**Example:**
 
 ![](media/33c781f9983564fd2a3397ada7ad9cdb.png)
 
@@ -101,11 +101,13 @@
 
 ## 1.3 Synchronized Non-Access Modifier
 
+-   This modifier can be applied with:
+
 ![](media/58e750625cf4fcc1eed1068d45f326db.png)
 
 -   This keyword helps prevent the access of one method by multiple threads simultaneously, thus synchronizing the flow of a program and bringing out the desired results using the multithreading feature.
 
-**Code:**
+**Example:**
 
 ![](media/16cb0cc4e4bd680a92a0a5ee3ea63ab8.png)
 
@@ -114,6 +116,8 @@
 ![](media/c197fa68dce49b40e74d2d1bb28b844a.png)
 
 ## 1.4 Static Non-Access Modifier
+
+-   This modifier can be applied with:
 
 ![](media/3c68e7a94b4f78c50cc2c0ff0810484d.png)
 
@@ -141,7 +145,7 @@
 -   This is said to be a block being used to perform certain operations while class is being loaded.
 -   Since it is static thus can use only static members of the class.
 
-**Code:**
+**Example:**
 
 ![](media/41e922812bdd68e43e0c89349f65e38d.png)
 
@@ -151,14 +155,16 @@
 
 ## 1.5 Native Non Access Modifier
 
+-   This modifier can be applied with:
+
 ![](media/6a1d9e3c82879134b3508618fe28e660.png)
 
--   The native keyword is used only with the methods to indicate that the particular method is written in platform -dependent.
+-   The native keyword is used only with the methods to indicate that the particular method is written in platform-dependent.
 -   These are used to improve the system’s performance, and the existing legacy code can be easily reused.
 
 ![](media/44190248fd271d6699491eecd7559a00.png)
 
-**Example:** Consider a function myfun1 in class NativeDemo that is written in C++. To use this code, we will create a link library mylib1 and load it using the class’s static block.
+**Example:** Consider a function myfun1 in class NativeDemo that is written in C++. To use this code, we will create a link library mylib1 and load it using the classnstatic block.
 
 ![](media/42c7ec813bdacce3e36ebb126930e40a.png)
 
@@ -167,9 +173,9 @@
 **Strictfp Class / Method:**
 
 -   This keyword is used to ensure that results from an operation on floating-point numbers brings out the same results on every platform.
--   This keyword can not be used with abstract methods, variables or constructors as these need not contain operations.
+-   This keyword cannot be used with abstract methods, variables or constructors as these need not contain operations.
 
-**Code:**
+**Example:**
 
 ![](media/3f3b6bcb7adde8674d4996b12d440999.png)
 
@@ -185,6 +191,8 @@
 **Syntax**:
 
 ![](media/339b398a85cbcb1bfca0c03f43c5e45b.png)
+
+**Example:**
 
 ![](media/a16096b2800c431ebf78e32d3e9a280c.png)
 
