@@ -1,4 +1,4 @@
-# Java Object class
+# Java Object class, hashCode and equals
 
 **Content**
 
