@@ -214,7 +214,7 @@
 ## 2.2 Non-access Modifiers
 
 -   There are many non-access modifiers, such as static, abstract, synchronized, native, transient, etc.
--   Click here for more information on the non-access modifier.
+-   [Click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/Java-non-access-modifiers.md) for more information on the non-access modifier.
 
 ## 3. What is encapsulation?
 
