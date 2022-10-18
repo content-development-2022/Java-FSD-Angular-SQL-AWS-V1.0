@@ -120,6 +120,31 @@
 -   It doesn’t grow its size at runtime.
 -   To solve this problem, collection framework is used in Java which grows automatically.
 
+# 2. Java Arrays Loop
+
+## 2.1 Array with for Loop
+
+-   You can loop through the array elements with the for loop, and use the length property to specify how many times the loop should run.
+
+    **Example:**
+
+**![](media/44cb56f89cb7e8f4103ed3d0f1e19c76.png)**
+
+## 2.2 Array with For-Each
+
+-   There is also a "**for-each**" loop, which is used exclusively to loop through elements in arrays:
+
+**Syntax:**
+
+**![](media/6a8c5bbf8c8e78d48a3729ce2b2bf5d3.png)**
+
+**Example:**
+
+**![](media/b782d71d580f2ea48e66f21caf03268c.png)**
+
+-   The example above can be read like this: **for each** String element (called **i** - as in **i**ndex) in **cars**, print out the value of **i**.
+-   If you compare the for loop and **for-each** loop, you will see that the **for-each** method is easier to write, it does not require a counter (using the length property), and it is more readable.
+
 ## Types of Array in java
 
 There are two types of array.
@@ -170,34 +195,6 @@ Let's see the simple example to declare, instantiate, initialize and print the 2
 **Output:**
 
 **![](media/b35e7b166a6e8fa4a451c380b8d62deb.png)**
-
-# Java Arrays Loop
-
-## Loop Through an Array
-
-You can loop through the array elements with the for loop, and use the length property to specify how many times the loop should run.
-
-The following example outputs all elements in the **cars** array:
-
-**![](media/44cb56f89cb7e8f4103ed3d0f1e19c76.png)**
-
-## Loop Through an Array with For-Each
-
-There is also a "**for-each**" loop, which is used exclusively to loop through elements in arrays:
-
-### Syntax
-
-**![](media/6a8c5bbf8c8e78d48a3729ce2b2bf5d3.png)**
-
-The following example outputs all elements in the **cars** array, using a "**for-each**" loop:
-
-### Example
-
-**![](media/b782d71d580f2ea48e66f21caf03268c.png)**
-
-The example above can be read like this: **for each** String element (called **i** - as in **i**ndex) in **cars**, print out the value of **i**.
-
-If you compare the for loop and **for-each** loop, you will see that the **for-each** method is easier to write, it does not require a counter (using the length property), and it is more readable.
 
 # How to Create Array of Objects in Java
 
