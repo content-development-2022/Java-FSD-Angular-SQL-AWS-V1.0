@@ -479,14 +479,9 @@ myarray[1][1] = 1;
 
 ## 5. References
 
-https://www.w3schools.com/java/java_arrays.asp
-
-https://www.javatpoint.com/array-in-java
-
-https://www.programiz.com/java-programming/arrays
-
-https://www.scaler.com/topics/two-dimensional-array-in-java/
-
-https://www.softwaretestinghelp.com/jagged-array-in-java/
-
-https://www.geeksforgeeks.org/jagged-array-in-java/
+1.  https://www.w3schools.com/java/java_arrays.asp
+2.  https://www.javatpoint.com/array-in-java
+3.  https://www.programiz.com/java-programming/arrays
+4.  https://www.scaler.com/topics/two-dimensional-array-in-java/
+5.  https://www.softwaretestinghelp.com/jagged-array-in-java/
+6.  https://www.geeksforgeeks.org/jagged-array-in-java/
