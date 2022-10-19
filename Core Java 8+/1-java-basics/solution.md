@@ -101,7 +101,8 @@ c) Use braces { and } to further clarify the code and reduce the possibility of 
 **Solution:**
 
 -   Compile-time error: Variable declaration not allowed here.
-1.  
+
+11)
 
 ![](media/15854bc1170c929840e81fb6a46491fe.png)
 
