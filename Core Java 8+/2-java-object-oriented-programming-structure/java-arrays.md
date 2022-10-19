@@ -196,12 +196,15 @@ There are three types of arrays.
 ## 2.2 Multiple Dimensional Array in Java
 
 -   A multidimensional array is an array of arrays.
+-   It is also known as N-Dimensional array.
 
 ## 2.2.1 Declaring Multiple Dimensional Array Variables in Java
 
 **Syntax:**
 
-![](media/78c18287a86ede96523c0bce5547839d.png)**where:**
+![](media/78c18287a86ede96523c0bce5547839d.png)
+
+**where:**
 
 -   **data_type**: Type of data to be stored in the array.
 -   **dimension**: The dimension of the array created. For example: 1D, 2D, 3D etc.
