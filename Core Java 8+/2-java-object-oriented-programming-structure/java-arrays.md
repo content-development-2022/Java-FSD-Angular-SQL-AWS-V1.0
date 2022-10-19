@@ -17,14 +17,13 @@
 
 There are three types of arrays.
 
--   One Dimensional Array
--   Two Dimensional Array
+-   Single Dimensional Array
 -   Multidimensional Array
 
-## 2.1 One Dimensional Array in Java
+## 2.1 Single Dimensional Array in Java
 
--   One dimensional array of Java is a normal array where, the array contains sequential elements (of same type).
--   It is also known as a linear array or 1D array, the elements are stored in a single row.
+-   Single dimensional array of Java is a normal array where, the array contains sequential elements (of same type).
+-   It is also known as a linear array or 1D or one Dimensional array, the elements are stored in a single row.
 -   One dimensional array use single index to store elements.
 
 ## 2.1.1 Declaring 1D Array Variables in Java
@@ -86,8 +85,6 @@ There are three types of arrays.
 
 ![](media/a8e2edb42e5282c0e51335db737d58f7.png)
 
-![](media/091994d8dd74642ea25e42e16c9a3759.png)
-
 ## 2.1.3 Accessing 1D Array elements in Java
 
 -   We can access the element of an array using the index number.
@@ -142,59 +139,138 @@ There are three types of arrays.
 
 ![](media/5be40a768e13e880c8dfa3ba8c85b3ef.png)
 
-## 2.2 Two Dimensional Array in Java
+## 2.2 Multiple Dimensional Array in Java
 
-In Java, the tabular representation of data is implemented using a two-dimensional array.
+-   A multidimensional array is an array of arrays.
 
-The 2D array is organized as matrices which can be represented as the collection of rows and columns.
+## 2.2.1 Declaring Multiple Dimensional Array Variables in Java
 
-![](media/ad3adcbfe8db96c5f1b696d30f62787d.png)
+**Syntax:**
 
-## 2.2.1 Declaring 2D Array Variables in Java
+![](media/78c18287a86ede96523c0bce5547839d.png)**where:**
 
-a 2D array consists of rows and columns, we need two indices, one to refer rows and the other to a particular column in that row. Hence, the syntax of declaring a two-dimensional array is similar to that of a one-dimensional array with the exception of having two square brackets instead of one:![](media/0ab00b4c5b1058dc19150741028378ca.png)
+-   **data_type**: Type of data to be stored in the array.
+-   **dimension**: The dimension of the array created. For example: 1D, 2D, 3D etc.
+-   **array_name**: Name of the array
+-   **size1, size2, …, sizeN**: Sizes of the dimensions respectively.
 
-Here, the DataType describes the type of values that the array can store, while the ArrayName is the reference variable for the two-dimensional array object.
+**Example**:
 
-The above-described syntax only declares the array i.e., the memory is allocated for the array object but the values will be added later.
+![](media/6c50700b66d32692923d2505c0f4e0d3.png)
+
+**Size of multidimensional arrays**
+
+-   The total number of elements that can be stored in a multidimensional array can be calculated by multiplying the size of all the dimensions.
+
+**Example:**
+
+**int[][][] x = new int[5][10][20]** can store a total of (5\*10\*20) = 1000 elements.
+
+-   Two – dimensional array is the simplest form of a multidimensional array.
+
+## 2.2.2 Two Dimensional Array in Java
+
+-   In Java, the tabular representation of data is implemented using a two-dimensional array.
+-   The 2D array is organized as matrices which can be represented as the collection of rows and columns.
+
+![](media/7251eef492cb6657dccffd0f906a2e36.png)
+
+## 2.2.2.1 Declaring 2D Array Variables in Java
+
+-   A 2D array consists of rows and columns, we need two indices, one to refer rows and the other to a particular column in that row.
+-   Hence, the syntax of declaring a 2D array is similar to that of a one-dimensional array with the exception of having two square brackets instead of one:
+
+    ![](media/0ab00b4c5b1058dc19150741028378ca.png)
+
+-   The above-described syntax only declares the array i.e., the memory is allocated for the array object but the values will be added later.
+
+**Example:**
 
 ![](media/cd9ce59120e5320dcf0eea9171d0557e.png)
 
-## 2.2.2 Initializing 2D Array in Java
-
-to create a two-dimensional array object we need to use the new keyword as shown below:
+-   To create a 2D array object we need to use the new keyword as shown below:
 
 ![](media/b34210ce5de5905f80431812d79b2e58.png)
 
-Here, the new DataType[r][c] statement creates a two dimensional array object that contains r rows and c columns and elements of DataType type. This array object is referenced by the reference variable ArrayName.
+-   Here, the new DataType[r][c] statement creates a 2D array object that contains r rows and c columns and elements of DataType type.
+-   This array object is referenced by the reference variable ArrayName.
 
-Let's understand the creation of Java's two-dimensional array with an example:
+**Example:**
 
 ![](media/7a6640b99a934f541048dd3bf5696357.png)
 
-Here, the reference variable a points to a two-dimensional array object that represents a 3X33*X*3 integer matrix i.e.*i*.*e*., the array object contains 33 rows and 33 columns, and can only store integer (int) values.
+-   In Java, we can declare and allocate the memory of an array in one single statement.
 
-**Note:** When we create a 2D array object using the new keyword, the JVM (Java Virtual Machine) allocates the memory required for the two-dimensional array and initializes the memory spaces with the default values according to the data type of the array object. For example, in the case of the Integer array (int[][]), every element of the array is initialized with the default value of 0.
+**Syntax:**
 
-## 2.2.3 Accessing 2D Array elements in Java
+![](media/48ecfe0e0d017e79660427feeda016f1.png)
 
-we can directly access any element from an array using indexing. In the case of two-dimensional arrays, we use row and column indices to access a particular element from the matrix. It has the following syntax:
+**Note:**
+
+-   When we create a 2D array object using the new keyword, the JVM (Java Virtual Machine) allocates the memory required for the 2D array and initializes the memory spaces with the default values according to the data type of the array object.
+-   For example, in the case of the Integer array (int[][]), every element of the array is initialized with the default value of 0.
+
+    ![](media/fa47031bdff4182233692a3c4b9fd09f.png)
+
+## 2.2.2.2 Initializing 2D Array in Java
+
+-   Once the array is declared and created, it is time to initialize it with values.
+-   There are two methods of initializing the 2D array with values.
+
+**Method1:**
+
+-   The first method is the traditional method of assigning values to each element.
+
+**Syntax:**
+
+![](media/72886de72263430e6cb741249f73c2c2.png)
+
+**Example:**
+
+int[][] myarray = new int[2][2];
+
+myarray[0][0] = 1;
+
+myarray[0][1] = myarray[1][0] = 0;
+
+myarray[1][1] = 1;
+
+**Method2:**
+
+**Syntax:**
+
+**![](media/08d5ab62dd3bcbf0c04c81c890b818a9.png)**
+
+**Example:**
+
+**![](media/7099ac20caa0d6e6648bfd9852e95462.png)**
+
+## 2.2.2.3 Accessing 2D Array elements in Java
+
+-   We can directly access any element from an array using indexing.
+-   In the case of 2D arrays, we use row and column indices to access a particular element from the matrix.
+
+**Syntax:**
 
 ![](media/09215a3464dba3d257a4d51382225bf2.png)
 
-Here, the ArrayName[i][j] statement is used to access the element present at the intersection of **i**th row and **j**th column in the two dimensional array ArrayName.
+-   Here, the ArrayName[i][j] statement is used to access the element present at the intersection of **i**th row and **j**th column in the 2D array ArrayName.
+
+**Example:**
 
 ![](media/bfe30c47384e43465251ab729595fc17.png)
 
 **Note :**
 
--   In Java, the index always starts from 0. Hence to access the element in **n**th row, we need to use (n-1) as the index.
--   We can only access the elements of an array using positive integer as the index. We can't use negative indices to access any elements from an array in Java.
+-   We can only access the elements of an array using positive integer as the index.
+-   We can't use negative indices to access any elements from an array in Java.
 -   If we pass an index that is greater than the size of the array (out of bounds index), the ArrayIndexOutOfBoundsException error will occur.
 
-# 2.2.4 Iterating/Traversing 2D Array in Java
+# 2.2.2.4 Iterating/Traversing 2D Array in Java
 
 **1) 2D Array with for Loop**
+
+**Example:**
 
 **![](media/6cb4284b4a5a885f37440be16c7d2f98.png)**
 
@@ -204,13 +280,15 @@ Here, the ArrayName[i][j] statement is used to access the element present at the
 
 **2) 2D Array with for-each**
 
-We can also use the [for...each loop](https://www.programiz.com/java-programming/enhanced-for-loop) to access elements of the multidimensional array. For example,
+**Example:**
 
-## 2.2.5 Change an 2D Array Element
+![](media/47d53779acb537c1f3b9cb44082fe2e8.png)
 
-## 2.2.6 2D Array Length
+**Output:**
 
-## 2.4 Advantages of array
+![](media/33d7fb046c4f89ba0a1b8f660236f212.png)
+
+## 2.3 Advantages of array
 
 **1) Code Optimization**
 
@@ -220,37 +298,13 @@ We can also use the [for...each loop](https://www.programiz.com/java-programming
 
 -   We can get any data located at an index position.
 
-## 2.5 Disadvantages of array
+## 2.4 Disadvantages of array
 
 **1) Size Limit**
 
 -   We can store only the fixed size of elements in the array.
 -   It doesn’t grow its size at runtime.
 -   To solve this problem, collection framework is used in Java which grows automatically.
-
-## Multidimensional Array in Java
-
-Two-dimensional arrays store the data in rows and columns:
-
-![](media/b0ecce6646fd3fef094ed1f24ed0f76a.png)
-
-In such case, data is stored in row and column based index (also known as matrix form).
-
-**![](media/87b2caca456433b5bfb4f7db469fc71f.png)**
-
-**Example to instantiate Multidimensional Array in Java**
-
-**![](media/53f88dcbf50898076bda8ef8f13fc60d.png)**
-
-### Example of Multidimensional Java Array
-
-Let's see the simple example to declare, instantiate, initialize and print the 2Dimensional array.
-
-**![](media/bc7f9757f9a396668e934b1c42799f29.png)**
-
-**Output:**
-
-**![](media/b35e7b166a6e8fa4a451c380b8d62deb.png)**
 
 # How to Create Array of Objects in Java
 
@@ -286,9 +340,7 @@ Suppose, we have created a class named Employee. We want to keep records of 20 e
 
 The above statements create an array of objects with 20 elements.
 
-Let's create an array of objects in a Java program
-
-.
+Let's create an array of objects in a Java program.
 
 In the following program, we have created a class named Product and initialized an array of objects using the constructor. We have created a constructor of the class Product that contains product id and product name. In the main function, we have created individual objects of the class Product. After that, we have passed initial values to each of the objects using the constructor.
 
