@@ -384,7 +384,7 @@ myarray[1][1] = 1;
 
 ![](media/a2eda1111757917615ffe3fa905bf131.png)
 
-**Alternative, ways to Initialize a Jagged array**
+-   **Alternative, ways to Initialize a Jagged array**
 
 ![](media/4702caf26ba9d64fc6d82765c896b2c1.png)
 
