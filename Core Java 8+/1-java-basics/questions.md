@@ -38,7 +38,7 @@ c) Use braces, { and }, to further clarify the code.
 
 ![](media/f130fb4787eb578f25a73b6dada21640.png)
 
-1.  
+11)
 
 ![](media/15854bc1170c929840e81fb6a46491fe.png)
 
@@ -52,7 +52,7 @@ C."even" will always be output.
 
 D.”odd" will be output for odd values of x, and "even" for even values.
 
-1.  ![](media/a8a826c22e0f757c00f3197f6bab01d2.png)
+12)![](media/a8a826c22e0f757c00f3197f6bab01d2.png)
 
 Which statement is true?
 
