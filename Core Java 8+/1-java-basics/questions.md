@@ -52,7 +52,9 @@ C."even" will always be output.
 
 D.”odd" will be output for odd values of x, and "even" for even values.
 
-12)![](media/a8a826c22e0f757c00f3197f6bab01d2.png)
+12)
+
+![](media/a8a826c22e0f757c00f3197f6bab01d2.png)
 
 Which statement is true?
 
