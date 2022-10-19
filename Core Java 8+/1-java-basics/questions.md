@@ -1,10 +1,16 @@
-1.  The most basic control flow statement supported by the Java programming language is the \__\_ statement.
-2.  The \__\_ statement allows for any number of possible execution paths.
-3.  The \_*\_ statement is similar to the while statement, but evaluates its expression at the \_*\_ of the loop.
-4.  How do you write an infinite loop using the for statement?
-5.  How do you write an infinite loop using the while statement?
-6.  How Can You Exit From a Loop?
-7.  Consider the following code.
+1)The most basic control flow statement supported by the Java programming language is the \__\_ statement.
+
+2)The \__\_ statement allows for any number of possible execution paths.
+
+3)The \_*\_ statement is similar to the while statement, but evaluates its expression at the \_*\_ of the loop.
+
+4)How do you write an infinite loop using the for statement?
+
+5)How do you write an infinite loop using the while statement?
+
+6)How Can You Exit From a Loop?
+
+7)Consider the following code.
 
 if (aNumber \>= 0)
 
@@ -32,7 +38,7 @@ c) Use braces, { and }, to further clarify the code.
 
 ![](media/f130fb4787eb578f25a73b6dada21640.png)
 
-11)
+1.  
 
 ![](media/15854bc1170c929840e81fb6a46491fe.png)
 
@@ -46,7 +52,7 @@ C."even" will always be output.
 
 D.”odd" will be output for odd values of x, and "even" for even values.
 
-12) ![](media/a8a826c22e0f757c00f3197f6bab01d2.png)
+1.  ![](media/a8a826c22e0f757c00f3197f6bab01d2.png)
 
 Which statement is true?
 
