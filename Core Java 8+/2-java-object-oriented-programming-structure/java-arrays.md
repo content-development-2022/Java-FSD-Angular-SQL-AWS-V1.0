@@ -2,7 +2,47 @@
 
 **Content**
 
-## 1. Java Arrays
+1\. Arrays in Java
+
+2\. Types of Arrays in java
+
+2.1 Single Dimensional Array in Java
+
+2.1.1 Declaring 1D Array Variables in Java
+
+2.1.2 Initializing 1D Array in Java
+
+2.1.3 Accessing 1D Array elements in Java
+
+2.1.4 Iterating/Traversing 1D Arrays in Java
+
+2.1.5 Change an 1D Array Element
+
+2.1.6 1D Array Length
+
+2.2 Multiple Dimensional Array in Java
+
+2.2.1 Declaring Multiple Dimensional Array Variables in Java
+
+2.2.2 Two Dimensional Array in Java
+
+2.2.2.1 Declaring 2D Array Variables in Java
+
+2.2.2.2 Initializing 2D Array in Java
+
+2.2.2.3 Accessing 2D Array elements in Java
+
+2.2.2.4 Iterating/Traversing 2D Array in Java
+
+2.3 Advantages of array
+
+2.4 Disadvantages of array
+
+3\. Jagged Array in Java
+
+3.1 Declaration and Initialization of Jagged array in java
+
+## 1. Arrays in Java
 
 -   Java provides a data structure, the **array**, which stores a fixed-size sequential collection of elements of the same type.
 -   Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
@@ -13,7 +53,7 @@
 -   Array indices always start from 0. That is, the first element of an array is at index 0.
 -   If the size of an array is n, then the last element of the array will be at index n-1.
 
-## 2. Types of Array in java
+## 2. Types of Arrays in java
 
 There are three types of arrays.
 
@@ -306,47 +346,116 @@ myarray[1][1] = 1;
 -   It doesn’t grow its size at runtime.
 -   To solve this problem, collection framework is used in Java which grows automatically.
 
-# How to Create Array of Objects in Java
+## 3. Jagged Array in Java
 
-In this section, we will learn **how to create and initialize an array of objects in Java**.
+-   Jagged arrays are also known as ragged or irregular arrays.
+-   A Jagged Array is defined as an array where each element of that array is an array itself.
+-   It is a Multidimensional array whose each element can have different sizes.
 
-## Array of Objects in Java
+![](media/61d298ca258cfb8572ef07c0fa255beb.png)
 
-Java is an object-oriented programming language. Most of the work done with the help of **objects**. We know that an array is a collection of the same data type that dynamically creates objects and can have elements of primitive types. Java allows us to store objects in an array. In Java
+-   From the above pictorial representation, we got an idea of how does it look.
+-   Above shown is a two-dimensional Jagged array.
+-   Each individual element of this array is a one-dimensional array that has varied sizes as shown above.
+-   The first 1D array has 3 columns; the second row has 2 columns while the third has 4 columns.
 
-, the class is also a user-defined data type. An array that conations **class type elements** are known as an **array of objects**. It stores the reference variable of the object.
+## 3.1 Declaration and Initialization of Jagged array in java
+
+-   While creating an array of arrays you only specify the first dimension that represents a number of rows in the array.
+
+**Syntax:**
+
+![](media/a2eda1111757917615ffe3fa905bf131.png)
+
+**Alternative, ways to Initialize a Jagged array**
+
+![](media/4702caf26ba9d64fc6d82765c896b2c1.png)
+
+**Example:**
+
+![](media/7c1fe655ab2e7e64b723ab40dd7c932d.png)
+
+**Output:**
+
+![](media/86ad186500fd9f06af9931517ff9d112.png)
+
+## 4. Array of Objects in Java
+
+-   Java is an object-oriented programming language.
+-   Most of the work done with the help of **objects**.
+-   We know that an array is a collection of the same data type that dynamically creates objects and can have elements of primitive types.
+-   Java allows us to store objects in an array.
+-   In Java, the class is also a user-defined data type.
+-   An array that conations **class type elements** are known as an **array of objects**.
+-   It stores the reference variable of the object.
 
 ![](media/f640edb9107b926e1110cf61b3530537.png)
 
-## Creating an Array of Objects
+## 4.1 Declaring an Array of Objects in Java
 
-Before creating an array of objects, we must create an instance of the class by using the new keyword. We can use any of the following statements to create an array of objects.
+-   An Array of Objects is created using the Object class, and we know Object class is the root class of all Classes.
+-   We use the *Class_Name* followed by a square bracket *[]* then object reference name to create an Array of Objects.
+
+**Syntax:**
+
+![](media/80e53cc9b0c19bdd49fa7e46a6ba73cc.png)
+
+-   Alternatively, we can also declare an Array of Objects as:
+
+![](media/5a839fff60ff809bb49de2a434e74254.png)
+
+**Example:**
+
+![](media/d3b629fda320e1e50bcb9b1fd024ed57.png)
+
+## 4.2 Instantiate an Array of Objects in Java
 
 **Syntax:**
 
 ![](media/ecfb90f532791dbcdde930dbd7c969c5.png)
 
-Or
+For example, if you have a class Student, and we want to declare and instantiate an array of Student objects with two objects/object references then it will be written as:
 
-![](media/80e53cc9b0c19bdd49fa7e46a6ba73cc.png)
+![](media/570b403fd62af20e3152459bd47e5bd7.png)
 
-Or
+And once an array of objects is instantiated like this, then the individual elements of the array of objects needs to be created using the new keyword.
 
-![](media/5a839fff60ff809bb49de2a434e74254.png)
+The below figure shows the structure of an Array of Objects :
 
-Suppose, we have created a class named Employee. We want to keep records of 20 employees of a company having three departments. In this case, we will not create 20 separate variables. Instead of this, we will create an array of objects, as follows.
+![](media/53d268e37e63aa4efcf398a7bebea98d.png)
 
-![](media/0b68337bbca9d0e3d7a4af6aa71fdddb.png)
+**Initializing Array Of Objects**
 
-The above statements create an array of objects with 20 elements.
+Once the array of objects is instantiated, we need to initialize it with values. We cannot initialize the array in the way we initialize with primitive types as it is different from an array of primitive types. In an array of objects, we have to initialize each element of array i.e. each object/object reference needs to be initialized.
 
-Let's create an array of objects in a Java program.
+Different ways to initialize the array of objects:
 
-In the following program, we have created a class named Product and initialized an array of objects using the constructor. We have created a constructor of the class Product that contains product id and product name. In the main function, we have created individual objects of the class Product. After that, we have passed initial values to each of the objects using the constructor.
+1.  By using the constructors
+2.  By using a separate member method
 
-**ArrayOfObjects.java**
+**1. By using the constructor:**
 
-![](media/7cf47d4f583660b4974ccb49ad24092d.png)
+At the time of creating actual objects, we can assign initial values to each of the objects by passing values to the [constructor](https://www.geeksforgeeks.org/constructors-in-java/) separately. Individual actual objects are created with their distinct values.
+
+The below program shows how the array of objects is initialized using the constructor.
+
+![](media/92d5bc3a736850568a04858168636ad0.png)
+
+Output:
+
+![](media/75e5b54fabc3a9b05e1ada401161d818.png)
+
+1.  **By using a separate member method :**
+
+    By using a separate member method also we can initialize objects. A [member function](https://www.geeksforgeeks.org/methods-in-java/) of the respective class is created and that is used to assign the initial values to the objects.
+
+    The below program shows how the array of objects is initialized using a separate member method.
+
+    ![](media/382e64b18addb1fef96b2934d18a73d3.png)
+
+    Output:
+
+    ![](media/cb49fa48c8776531dbcae7c03526b0ab.png)
 
 ## References
 
@@ -357,3 +466,7 @@ https://www.javatpoint.com/array-in-java
 https://www.programiz.com/java-programming/arrays
 
 https://www.scaler.com/topics/two-dimensional-array-in-java/
+
+https://www.softwaretestinghelp.com/jagged-array-in-java/
+
+https://www.geeksforgeeks.org/jagged-array-in-java/
