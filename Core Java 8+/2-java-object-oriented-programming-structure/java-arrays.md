@@ -42,6 +42,20 @@
 
 3.1 Declaration and Initialization of Jagged array in java
 
+4\. Array of Objects in Java
+
+4.1 Declaring an Array of Objects in Java
+
+4.2 Instantiate an Array of Objects in Java
+
+4.3 Initializing Array o**f Objects**
+
+4.3.**1** By using the constructor
+
+4.3.2 By using a separate member method
+
+5\. References
+
 ## 1. Arrays in Java
 
 -   Java provides a data structure, the **array**, which stores a fixed-size sequential collection of elements of the same type.
@@ -414,50 +428,53 @@ myarray[1][1] = 1;
 
 ![](media/ecfb90f532791dbcdde930dbd7c969c5.png)
 
-For example, if you have a class Student, and we want to declare and instantiate an array of Student objects with two objects/object references then it will be written as:
+-   For example, if you have a class Student, and we want to declare and instantiate an array of Student objects with two objects/object references then it will be written as:
 
 ![](media/570b403fd62af20e3152459bd47e5bd7.png)
 
-And once an array of objects is instantiated like this, then the individual elements of the array of objects needs to be created using the new keyword.
-
-The below figure shows the structure of an Array of Objects :
+-   Once an array of objects is instantiated like this, then the individual elements of the array of objects needs to be created using the new keyword.
+-   The below figure shows the structure of an Array of Objects :
 
 ![](media/53d268e37e63aa4efcf398a7bebea98d.png)
 
-**Initializing Array Of Objects**
+## 4.3 Initializing Array of Objects
 
-Once the array of objects is instantiated, we need to initialize it with values. We cannot initialize the array in the way we initialize with primitive types as it is different from an array of primitive types. In an array of objects, we have to initialize each element of array i.e. each object/object reference needs to be initialized.
+-   Once the array of objects is instantiated, we need to initialize it with values.
+-   We cannot initialize the array in the way we initialize with primitive types as it is different from an array of primitive types.
+-   In an array of objects, we have to initialize each element of array i.e. each object/object reference needs to be initialized.
 
-Different ways to initialize the array of objects:
+**Different ways to initialize the array of objects:**
 
 1.  By using the constructors
 2.  By using a separate member method
 
-**1. By using the constructor:**
+## 4.3.1 By using the constructor
 
-At the time of creating actual objects, we can assign initial values to each of the objects by passing values to the [constructor](https://www.geeksforgeeks.org/constructors-in-java/) separately. Individual actual objects are created with their distinct values.
+-   At the time of creating actual objects, we can assign initial values to each of the objects by passing values to the constructor separately.
+-   Individual actual objects are created with their distinct values.
 
-The below program shows how the array of objects is initialized using the constructor.
+**Example:**
 
-![](media/92d5bc3a736850568a04858168636ad0.png)
+![](media/91715ca4fc927cb3d55b7d25aa8cf484.png)
 
-Output:
+**Output:**
 
 ![](media/75e5b54fabc3a9b05e1ada401161d818.png)
 
-1.  **By using a separate member method :**
+## 4.3.2 By using a separate member method
 
-    By using a separate member method also we can initialize objects. A [member function](https://www.geeksforgeeks.org/methods-in-java/) of the respective class is created and that is used to assign the initial values to the objects.
+-   By using a separate member method also we can initialize objects.
+-   A member function of the respective class is created and that is used to assign the initial values to the objects.
 
-    The below program shows how the array of objects is initialized using a separate member method.
+**Example:**
 
-    ![](media/382e64b18addb1fef96b2934d18a73d3.png)
+![](media/375808d81943eeae6c22c54cacd9769c.png)
 
-    Output:
+**Output:**
 
-    ![](media/cb49fa48c8776531dbcae7c03526b0ab.png)
+![](media/cb49fa48c8776531dbcae7c03526b0ab.png)
 
-## References
+## 5. References
 
 https://www.w3schools.com/java/java_arrays.asp
 
