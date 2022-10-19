@@ -38,9 +38,7 @@ c) Use braces, { and }, to further clarify the code.
 
 ![](media/f130fb4787eb578f25a73b6dada21640.png)
 
-11)
-
-![](media/15854bc1170c929840e81fb6a46491fe.png)
+11)![](media/15854bc1170c929840e81fb6a46491fe.png)
 
 Which statement is true?
 
