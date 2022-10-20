@@ -118,7 +118,7 @@ There are two types of arrays.
 
 **Example-3:**
 
-![](media/600a0ec951c7c9b4756c038462d2d667.png)
+![](media/847d9910fd1583fe0bd0dd7038da8ec8.png)
 
 ## 2.1.2 Initializing 1D Array in Java
 
