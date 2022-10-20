@@ -269,7 +269,7 @@ There are two types of arrays.
 -   When we create a 2D array object using the new keyword, the JVM (Java Virtual Machine) allocates the memory required for the 2D array and initializes the memory spaces with the default values according to the data type of the array object.
 -   For example, in the case of the Integer array (int[][]), every element of the array is initialized with the default value of 0.
 
-    ![](media/fa47031bdff4182233692a3c4b9fd09f.png)
+    ![](media/ed9dab7b91b636c5c08a55f94bab8b0e.png)
 
 ## 2.2.2.2 Initializing 2D Array in Java
 
@@ -371,7 +371,7 @@ myarray[1][1] = 1;
 -   A Jagged Array is defined as an array where each element of that array is an array itself.
 -   It is a Multidimensional array whose each element can have different sizes.
 
-![](media/61d298ca258cfb8572ef07c0fa255beb.png)
+![](media/efe60febd2d7fd659d7c5a2ce9cbfb57.png)
 
 -   From the above pictorial representation, we got an idea of how does it look.
 -   Above shown is a two-dimensional Jagged array.
