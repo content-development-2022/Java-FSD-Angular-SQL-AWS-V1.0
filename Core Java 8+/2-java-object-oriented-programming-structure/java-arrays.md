@@ -440,7 +440,7 @@ myarray[1][1] = 1;
 -   Once an array of objects is instantiated like this, then the individual elements of the array of objects needs to be created using the new keyword.
 -   The below figure shows the structure of an Array of Objects :
 
-![](media/53d268e37e63aa4efcf398a7bebea98d.png)
+![](media/d070260acf357c344f872a23924d2689.png)
 
 ## 4.3 Initializing Array of Objects
 
