@@ -69,7 +69,7 @@
 
 ## 2. Types of Arrays in java
 
-There are three types of arrays.
+There are two types of arrays.
 
 -   Single Dimensional Array
 -   Multidimensional Array
@@ -166,7 +166,9 @@ There are three types of arrays.
 
     **Example:**
 
-**![](media/44cb56f89cb7e8f4103ed3d0f1e19c76.png)** **2) 1D Array with for-each**
+**![](media/44cb56f89cb7e8f4103ed3d0f1e19c76.png)**
+
+**2) 1D Array with for-each**
 
 -   There is also a "**for-each**" loop, which is used exclusively to loop through elements in arrays:
 
