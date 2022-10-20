@@ -431,7 +431,7 @@ myarray[1][1] = 1;
 
 **Syntax:**
 
-![](media/ecfb90f532791dbcdde930dbd7c969c5.png)
+![](media/0ab90072e5bbe1c002dcaca9653f78fc.png)
 
 -   For example, if you have a class Student, and we want to declare and instantiate an array of Student objects with two objects/object references then it will be written as:
 
