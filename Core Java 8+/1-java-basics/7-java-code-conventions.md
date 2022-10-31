@@ -239,6 +239,13 @@ for (int i = 0; i \< maxLoops; i++) { ... }
 
 ## ![](media/f51225927b81f15245447bdd354ef35a.png)
 
+int count = 0;
+
+if(condition) {
+    int count = 0;
+    ...
+ }
+
 ## 5.4 Class and Interface Declarations
 
 When coding Java classes and interfaces, the following formatting rules should be followed:
