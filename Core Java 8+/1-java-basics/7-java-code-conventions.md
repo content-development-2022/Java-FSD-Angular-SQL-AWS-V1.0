@@ -242,8 +242,11 @@ for (int i = 0; i \< maxLoops; i++) { ... }
 int count = 0;
 
 if(condition) {
+
     int count = 0;
+    
     ...
+    
  }
 
 ## 5.4 Class and Interface Declarations
