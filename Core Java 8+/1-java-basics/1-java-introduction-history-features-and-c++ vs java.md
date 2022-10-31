@@ -6,7 +6,7 @@
 
 2\. Application
 
-    2.1 Types of Java Applications
+    * Types of Java Applications
 
 3\. Java Platforms / Editions
 
