@@ -120,7 +120,7 @@
 
 **Why Java was named as "Oak"?**
 
-**![](media/2ee324248ab1238fca551433f468ecbd.png)**
+**![](media/Oak.png)**
 
 1.  **Why Oak?** Oak is a symbol of **strength** and chosen as a **national tree** of many countries like the U.S.A., France, Germany, Romania, etc.
 2.  In 1995, Oak was renamed as **"Java"** because it was already a trademark by Oak Technologies.
