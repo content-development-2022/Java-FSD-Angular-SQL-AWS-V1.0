@@ -2,17 +2,25 @@
 
 **Content**
 
-1\. **Introduction**
+1\. Introduction
 
 2\. File Organization
 
 3 Indentation
 
-4\. Java Comments
+4\. Comments
 
 5\. Declarations
 
 6\. Statements
+
+7\. White Space
+
+8\. Naming Conventions
+
+9\. Programming Practices
+
+10\. References
 
 ## 1. Introduction
 
@@ -94,7 +102,7 @@ When an expression will not fit on a single line, break it according to these ge
 -   If the above rules lead to confusing code or to code that's squished up against the right margin, just indent 8 spaces instead.
 -   For example, on this topic. Please click the [link.](https://www.oracle.com/java/technologies/javase/codeconventions-indentation.html)
 
-## 4. Java Comments
+## 4. Comments
 
 -   The Java comments are the statements in a program that are not executed by the compiler and interpreter.
 
@@ -343,7 +351,110 @@ for (expr1; expr2; expr3)
 
     ![](media/69702784dc8eff1ca53751d43f1ef35a.png)
 
-## 8. References
+## 9. Programming Practices
+
+## 9.1 Providing Access to Instance and Class Variables
+
+-   Don't make any instance or class variable public without good reason.
+-   Often, instance variables don't need to be explicitly set or gotten-often that happens as a side effect of method calls.
+-   Example of appropriate public instance variables is the case where the class is essentially a data structure, with no behavior.
+-   In other words, if you would have used a struct instead of a class (if Java supported struct), then it's appropriate to make the class's instance variables public.
+
+## Referring to Class Variables and Methods
+
+-   Avoid using an object to access a class (static) variable or method. Use a class name instead.
+
+**Example:**
+
+classMethod(); //OK
+
+AClass.classMethod(); //OK
+
+anObject.classMethod(); //AVOID!
+
+## 9.3 Constants
+
+-   Numerical constants (literals) should not be coded directly, except for -1, 0, and 1, which can appear in a for loop as counter values.
+
+## 9.4 Variable Assignments
+
+-   Avoid assigning several variables to the same value in a single statement.
+-   It is hard to read.
+
+Example:
+
+**fooBar.fChar = barFoo.lchar = 'c'; // AVOID!**
+
+-   Do not use the assignment operator in a place where it can be easily confused with the equality operator.
+
+**Example:**
+
+if (c++ = d++) { // AVOID! (Java disallows)
+
+...
+
+}
+
+should be written as
+
+if ((c++ = d++) != 0) {
+
+...
+
+}
+
+-   Do not use embedded assignments in an attempt to improve run-time performance. This is the job of the compiler.
+
+**Example:**
+
+d = (a = b + c) + r; // AVOID!
+
+should be written as
+
+a = b + c;
+
+d = a + r;
+
+## 9.5 Miscellaneous Practices
+
+## 9.5.1 Parentheses
+
+-   It is generally a good idea to use parentheses liberally in expressions involving mixed operators to avoid operator precedence problems.
+-   Even if the operator precedence seems clear to you, it might not be to others-you shouldn't assume that other programmers know precedence as well as you do.
+
+if (a == b && c == d) // AVOID!
+
+if ((a == b) && (c == d)) // RIGHT
+
+## 9.5.2 Returning Values
+
+-   Try to make the structure of your program match the intent.
+
+**Example:**
+
+![](media/52a7cd9f6d7665dc87d480f4c6f16371.png)
+
+should instead be written as
+
+![](media/0fb625ae4af23a64344885762e1014ff.png)
+
+Similarly,
+
+![](media/46d6d838dfaefc38c9100036781bd203.png)
+
+should be written as
+
+![](media/22a3a46136190d994b3d1f433ea9c024.png)
+
+## 10.5.3 Expressions before \`?' in the Conditional Operator
+
+-   If an expression containing a binary operator appears before the ? in the ternary ?: operator, it should be parenthesized.
+
+**Example:**
+
+(x \>= 0) ? x : -x;
+
+## 10. References
 
 1.  https://www.javatpoint.com/java-comments
 2.  https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html
