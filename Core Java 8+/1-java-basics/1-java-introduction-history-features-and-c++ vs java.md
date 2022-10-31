@@ -98,6 +98,7 @@
 ## 4. History of Java
 
 1.  Java was developed by **James Gosling**, who is known as the **father of Java**, in **1995**.
+               
                **![James Gosling - founder of java](media/James.jpeg)**
 3.  **James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. 
 4.  The small team of sun engineers were called **Green Team**.
