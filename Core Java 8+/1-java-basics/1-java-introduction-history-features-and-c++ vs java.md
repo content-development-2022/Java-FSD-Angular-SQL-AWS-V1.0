@@ -99,13 +99,14 @@
 
 1.  Java was developed by **James Gosling**, who is known as the **father of Java**, in **1995**.
                
-               **![James Gosling - founder of java](media/James.jpeg)**
-3.  **James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. 
-4.  The small team of sun engineers were called **Green Team**.
-5.  Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
-6.  Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was **.gt**.
-7.  After that, it was called **Oak** and was developed as a part of the Green project.
-8.  Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc.
+![James Gosling - founder of java](media/James.jpeg)
+              
+2.  **James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. 
+3.  The small team of sun engineers were called **Green Team**.
+4.  Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
+5.  Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was **.gt**.
+6.  After that, it was called **Oak** and was developed as a part of the Green project.
+7.  Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc.
 
 **Why Java was named as "Oak"?**
 
