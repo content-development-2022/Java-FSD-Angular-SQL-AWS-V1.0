@@ -166,7 +166,7 @@
 -   The features of Java are also known as Java buzzwords.
 -   A list of the most important features of the Java language is given below.
 
-![](media/c2e5d2fd39c3fd15096ccc4c4889cbae.png)
+![](media/features.png)
 
 ## 6.1 Simple
 
@@ -194,7 +194,7 @@
 
 ## 6.3 Platform Independent
 
-![Java is platform independent](media/85849dbae3f11656a8ddb69e71c20e6d.png)
+![Java is platform independent](media/jvm.png)
 
 -   Java is platform independent because it is different from other languages like C, C++, etc. which are compiled into platform specific machines while Java is a write once, run anywhere language.
 -   A platform is the hardware or software environment in which a program runs.
@@ -215,7 +215,7 @@
 1.  **No explicit pointer**
 2.  **Java Programs run inside a virtual machine sandbox**
 
-![how Java is secured](media/737b88ab2979f53da98fd6b291c96dab.png)
+![how Java is secured](media/secure.png)
 
 **Classloader:**
 
