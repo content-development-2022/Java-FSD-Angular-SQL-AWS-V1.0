@@ -141,6 +141,9 @@ datatype variable_name=value;
 
 1.  **Primitive data types:** The primitive data types include boolean, char, byte, short, int, long, float and double.
 2.  **Non-primitive data types:** The non-primitive data types include Classes, Interfaces, and Arrays.
+-   To know more information about classes [clickhere](Core%20Java%208+/2-java-object-oriented-programming-structure/1-java-classes-objects-and-custom-class.md)
+-   To know more information about interfaces [clickhere](Core%20Java%208+/2-java-object-oriented-programming-structure/8-java-abstraction-abstract-classes-and-methods-interfaces.md)
+-   To know more information about arrays [clickhere](Core%20Java%208+/2-java-object-oriented-programming-structure/java-arrays.md)
 
 ## 6. Primitive Data Types
 
