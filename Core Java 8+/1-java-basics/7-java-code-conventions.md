@@ -314,12 +314,13 @@ return (size ? size : defaultSize);
 -   A keyword followed by a parenthesis should be separated by a space.
 
 **Example:**
+```
+    while (true) {
 
-while (true) {
+    ...
 
-...
-
-}
+    }
+```
 
 **Note** that a blank space should not be used between a method name and its opening parenthesis. This helps to distinguish keywords from method calls.
 
