@@ -107,7 +107,7 @@
 -   Java was developed by **James Gosling**, who is known as the **father of Java**, in **1995**.
 -   James Gosling and his team members started the project in the early '90s.
 
-![James Gosling - founder of java](media/621a5b08b87e616731579d67b9be73d7.jpeg)
+![James Gosling - founder of java](media/James.jpeg)
 
 -   Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc.
 
