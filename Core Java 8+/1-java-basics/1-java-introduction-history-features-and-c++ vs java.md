@@ -5,6 +5,7 @@
 1\. What is Java?
 
 2\. Application
+
     2.1 Types of Java Applications
 
 3\. Java Platforms / Editions
