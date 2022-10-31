@@ -141,9 +141,9 @@ datatype variable_name=value;
 
 1.  **Primitive data types:** The primitive data types include boolean, char, byte, short, int, long, float and double.
 2.  **Non-primitive data types:** The non-primitive data types include Classes, Interfaces, and Arrays.
--   To know more information about classes [clickhere](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/1-java-classes-objects-and-custom-class.md)
--   To know more information about interfaces [clickhere](Core%20Java%208+/2-java-object-oriented-programming-structure/8-java-abstraction-abstract-classes-and-methods-interfaces.md)
--   To know more information about arrays [clickhere](Core%20Java%208+/2-java-object-oriented-programming-structure/java-arrays.md)
+-   To know more information about classes [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/1-java-classes-objects-and-custom-class.md).
+-   To know more information about interfaces [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/8-java-abstraction-abstract-classes-and-methods-interfaces.md).
+-   To know more information about arrays [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/java-arrays.md).
 
 ## 6. Primitive Data Types
 
