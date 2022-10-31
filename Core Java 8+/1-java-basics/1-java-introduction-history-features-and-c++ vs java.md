@@ -97,26 +97,14 @@
 
 ## 4. History of Java
 
--   The history of Java is very interesting.
--   Java was originally designed for interactive **television**, but it was too advanced technology for the digital cable television industry at the time.
--   The history of Java starts with the **Green Team**.
--   Java team members (also known as Green Team), initiated this project to develop a language for digital devices such as set-top boxes, televisions, etc.
--   However, it was best suited for internet programming.
--   Later, Java technology was incorporated by Netscape.
--   The principles for creating Java programming were "Simple, Robust, Portable, Platform-independent, Secured, High Performance, Multithreaded, Architecture Neutral, Object-Oriented, Interpreted, and Dynamic".
--   Java was developed by **James Gosling**, who is known as the **father of Java**, in **1995**.
--   James Gosling and his team members started the project in the early '90s.
-
-![James Gosling - founder of java](media/James.jpeg)
-
--   Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc.
-
-**Following are given significant points that describe the history of Java**
-
-1.  **James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. The small team of sun engineers called **Green Team**.
-2.  Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
-3.  Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was **.gt**.
-4.  After that, it was called **Oak** and was developed as a part of the Green project.
+1.  Java was developed by **James Gosling**, who is known as the **father of Java**, in **1995**.
+                ![James Gosling - founder of java](media/James.jpeg)
+3.  **James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. 
+4.  The small team of sun engineers were called **Green Team**.
+5.  Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
+6.  Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was **.gt**.
+7.  After that, it was called **Oak** and was developed as a part of the Green project.
+8.  Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc.
 
 **Why Java was named as "Oak"?**
 
