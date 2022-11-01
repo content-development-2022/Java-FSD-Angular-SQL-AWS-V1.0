@@ -120,6 +120,8 @@ access_modifier return_type method_name( list_of_parameters) {
 
 **Example:**
 
+```
+
 **public** **class** Addition
 
 {
@@ -155,6 +157,7 @@ s=n1+n2;
 }
 
 }
+```
 
 **Output:**
 
