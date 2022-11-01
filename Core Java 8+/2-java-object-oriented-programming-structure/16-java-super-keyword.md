@@ -74,6 +74,7 @@ class Animal {
         }
 
 }
+
 class Dog extends Animal{
 
     void eat() {
@@ -87,6 +88,7 @@ class Dog extends Animal{
         System.out.println("barking...");
             
     }
+    
     void work() {
 
             super.eat();
