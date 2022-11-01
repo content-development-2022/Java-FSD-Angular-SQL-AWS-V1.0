@@ -43,16 +43,24 @@
 ## What is a method in Java?
 
 -   A **method** is a block of code or collection of statements or a set of code grouped together to perform a certain task or operation.
+-   The method is executed only when we call or invoke it.
+
+**Advantages of methods**
+
 -   It is used to achieve the **reusability** of code.
 -   It also provides the **easy modification** and **readability** of code, just by adding or removing a chunk of code.
--   The method is executed only when we call or invoke it.
 
 ## Method Declaration
 
--   The method declaration provides information about method attributes, such as visibility, return-type, name, and arguments.
--   It has six components that are known as **method header**, as we have shown in the following figure.
+**Syntax:** Declare a method
 
-![](media/28ef87e7f0c82b33b6dd118609c9b856.png)
+\<access_modifier\> \<return_type\> \<method_name\>( list_of_parameters)
+
+{
+
+//body of method
+
+}
 
 **Method Signature:** Every method has a method signature. It is a part of the method declaration. It includes the **method name** and **parameter list**.
 
@@ -103,8 +111,14 @@
 ## How to Call or Invoke a User-defined Method
 
 -   Once we have defined a method, it should be called.
+-   There are two ways in which a method is called i.e., method returns a value or returning nothing (no return value).
 -   The calling of a method in a program is simple.
+-   To call a method in Java, write the method's name followed by two parentheses **()** and a semicolon (;).
+-   If the method has parameters in the declaration, those parameters are passed within the parentheses () but this time without their datatypes specified.
+-   However, it is important to keep the sequence of arguments the same as defined in the method definition.
 -   When we call or invoke a user-defined method, the program control transfer to the called method.
+
+**Syntax:**
 
 **Example:**
 
@@ -333,3 +347,4 @@ There are 3 ways to initialize object in Java.
 
 1.  https://www.javatpoint.com/object-and-class-in-java
 2.  https://www.geeksforgeeks.org/how-to-create-custom-class-in-java/
+3.  https://www.javatpoint.com/method-in-java
