@@ -40,7 +40,7 @@
 
 ![](media/1d4b6e410f81b241660d1dfe4e9db898.png)
 
-## What is a method in Java?
+## 1..1.1 What is a method in Java?
 
 -   A **method** is a block of code or collection of statements or a set of code grouped together to perform a certain task or operation.
 -   The method is executed only when we call or invoke it.
@@ -50,7 +50,7 @@
 -   It is used to achieve the **reusability** of code.
 -   It also provides the **easy modification** and **readability** of code, just by adding or removing a chunk of code.
 
-## Method Declaration
+## 1.1.1.1 Method Declaration
 
 Syntax: Declare a method
 
@@ -96,7 +96,7 @@ access_modifier return_type method_name( list_of_parameters) {
 -   It contains all the actions to be performed.
 -   It is enclosed within the pair of curly braces.
 
-## Naming a Method
+## 1.1.1.2 Naming a Method
 
 -   While defining a method, remember that the method name must be a **verb** and start with a **lowercase** letter.
 -   If the method name has more than two words, the first name must be a verb followed by adjective or noun.
@@ -108,7 +108,7 @@ access_modifier return_type method_name( list_of_parameters) {
 2.  Multi-word method name: areaOfCircle(), stringComparision()
 -   It is also possible that a method has the same name as another method name in the same class, it is known as **method overloading**.
 
-## How to Call or Invoke a User-defined Method
+## 1.1.1.3 How to Call or Invoke a User-defined Method
 
 -   Once we have defined a method, it should be called.
 -   There are two ways in which a method is called i.e., method returns a value or returning nothing (no return value).
@@ -117,8 +117,6 @@ access_modifier return_type method_name( list_of_parameters) {
 -   If the method has parameters in the declaration, those parameters are passed within the parentheses () but this time without their datatypes specified.
 -   However, it is important to keep the sequence of arguments the same as defined in the method definition.
 -   When we call or invoke a user-defined method, the program control transfer to the called method.
-
-**Syntax:**
 
 **Example:**
 
@@ -162,7 +160,7 @@ s=n1+n2;
 
 The sum of a and b is= 24
 
-## 1.2 What is an Object in Java?
+## 1.3 What is an Object in Java?
 
 -   An object is *a* **real-world entity.**
 -   An object is *a* **runtime entity.**
@@ -178,7 +176,7 @@ The sum of a and b is= 24
 
 **Example**: Pen is an object. Its name is Reynolds; color is white, known as its state. It is used to write, so writing is its behavior.
 
-## 1.3 Class and Object Example: main within the class
+## 1.4 Class and Object Example: main within the class
 
 -   In this example, we have created a Student class which has two data members **id** and **name**.
 -   We are creating the object of the Student class by **new** keyword and printing the object's value.
@@ -197,7 +195,7 @@ The sum of a and b is= 24
 -   The new keyword is used to allocate memory at runtime.
 -   All objects get memory in Heap memory area.
 
-## 1.4 Class and Object Example: main outside the class
+## 1.5 Class and Object Example: main outside the class
 
 -   We create classes and use it from another class.
 -   It is a better approach than previous one.
@@ -227,7 +225,7 @@ The sum of a and b is= 24
 -   Code Reusability
 -   Code Optimization
 
-## 1.5 What are the different ways to create an object in Java?
+## 1.6 What are the different ways to create an object in Java?
 
 -   There are many ways to create an object in java. They are:
 
