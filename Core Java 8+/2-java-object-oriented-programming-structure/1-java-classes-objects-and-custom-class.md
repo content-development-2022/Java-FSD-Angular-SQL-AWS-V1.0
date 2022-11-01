@@ -52,7 +52,7 @@
 
 ## Method Declaration
 
-Syntax: Declare a method
+**Syntax:** Declare a method
 
 ```
 access_modifier return_type method_name( list_of_parameters) {
@@ -155,10 +155,14 @@ public class Addition{
 }
 ```
 
-
 **Output:**
 
-The sum of a and b is= 24
+```
+
+     The sum of a and b is= 24 
+ 
+ ```
+
 
 ## 1.2 What is an Object in Java?
 
