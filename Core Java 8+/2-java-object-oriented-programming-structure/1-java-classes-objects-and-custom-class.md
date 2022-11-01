@@ -119,7 +119,7 @@ access_modifier return_type method_name( list_of_parameters) {
 -   When we call or invoke a user-defined method, the program control transfer to the called method.
 
 **Example:**
-
+~ ~ ~
  **public** **class** Addition{
 
  **public** **static** **void** main(String[] args) {
@@ -149,6 +149,8 @@ access_modifier return_type method_name( list_of_parameters) {
  }
 
  }
+ 
+ ~ ~ ~
 
 **Output:**
 
