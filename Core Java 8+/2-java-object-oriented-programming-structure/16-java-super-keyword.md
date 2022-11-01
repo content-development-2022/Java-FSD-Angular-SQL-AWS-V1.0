@@ -187,7 +187,7 @@ dog is created
 
 -   super() is added in each class constructor automatically by compiler if there is no super() or this().
 
-![](media/81979e5216c779cb683dc030ab3cec02.png)
+![](media/compiler-super.png)
 
 -   As we know well that default constructor is provided by compiler automatically if there is no constructor. But, it also adds super() as the first statement.
 
