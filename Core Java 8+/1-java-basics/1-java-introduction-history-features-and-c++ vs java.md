@@ -6,7 +6,7 @@
 
 2\. Application
 
-2.1\. Types of Java Applications
+2.1. Types of Java Applications
 
 3\. Java Platforms / Editions
 
@@ -98,15 +98,15 @@
 ## 4. History of Java
 
 1.  Java was initially developed by **James Gosling** (known as the **father of Java**) at **Sun Microsystems** (which is now a subsidiary of Oracle Corporation) and was released in **1995**.
-               
+
 ![James Gosling - founder of java](media/James.jpeg)
-              
-2.  **James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991. 
-3.  The small team of sun engineers were called **Green Team**.
-4.  Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
-5.  Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was **.gt**.
-6.  After that, it was called **Oak** and was developed as a part of the Green project.
-7.  Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc.
+
+1.  **James Gosling, Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991.
+2.  The small team of sun engineers were called **Green Team**.
+3.  Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.
+4.  Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was **.gt**.
+5.  After that, it was called **Oak** and was developed as a part of the Green project.
+6.  Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc.
 
 **Why Java was named as "Oak"?**
 
@@ -117,17 +117,17 @@
 
 **Why Java was named "Java"?**
 
-1.  **Java** is an **island** in **Indonesia** where the first coffee was produced (called Java coffee). It is a kind of espresso bean. 
+1.  **Java** is an **island** in **Indonesia** where the first coffee was produced (called Java coffee). It is a kind of espresso bean.
 2.  Java name was chosen by James Gosling while having a cup of coffee nearby his office.
 3.  Notice that Java is just a name, not an acronym.
-5.  In 1995, Time magazine called **Java one of the Ten Best Products of 1995**.
+4.  In 1995, Time magazine called **Java one of the Ten Best Products of 1995**.
 
 ## 5. Java Version History
 
--   Many java versions have been released till now. 
--    **JDK 1.0** was released **on January 23, 1996**. After the first release of Java, there have been many additional features added to the language. 
--    Now Java is being used in Windows applications, Web applications, enterprise applications, mobile applications, cards, etc. 
--    Each new version adds new features in Java.
+-   Many java versions have been released till now.
+-   **JDK 1.0** was released **on January 23, 1996**. After the first release of Java, there have been many additional features added to the language.
+-   Now Java is being used in Windows applications, Web applications, enterprise applications, mobile applications, cards, etc.
+-   Each new version adds new features in Java.
 -   The current stable release of Java is Java SE 10.
 1.  JDK Alpha and Beta (1995)
 2.  JDK 1.0 (23rd Jan 1996)
@@ -304,7 +304,7 @@ There are exception handling and the type checking mechanism in Java. All these 
 
 ## 8. References
 
-1.  <https://www.javatpoint.com/java-tutorial>
+1.  https://www.javatpoint.com/java-tutorial
 2.  https://www.javatpoint.com/history-of-java
 3.  https://www.javatpoint.com/features-of-java
 4.  https://www.javatpoint.com/cpp-vs-java
