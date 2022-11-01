@@ -2,6 +2,10 @@
 
 **Content**
 
+1\. super Keyword in Java
+
+2\. References
+
 ## 1. super Keyword in Java
 
 -   The **super** keyword in Java is a reference variable which is used to refer immediate parent class object.
@@ -11,7 +15,7 @@
 
 ![](media/350d098e011aea7092192c147de728a3.png)
 
-## 1) super is used to refer immediate parent class instance variable.
+## 1.1 super is used to refer immediate parent class instance variable.
 
 -   We can use super keyword to access the data member or field of parent class.
 -   It is used if parent class and child class have same fields.
@@ -64,7 +68,7 @@ white
 -   If we print color property, it will print the color of current class by default.
 -   To access the parent property, we need to use super keyword.
 
-## 2) super can be used to invoke parent class method
+## 1.2 super can be used to invoke parent class method
 
 -   The super keyword can also be used to invoke parent class method.
 -   It should be used if subclass contains the same method as parent class.
@@ -128,13 +132,14 @@ eating...
 barking...
 ```
 
-In the above example Animal and Dog both classes have eat() method if we call eat() method from Dog class, it will call the eat() method of Dog class by default because priority is given to local.
+-   In the above example Animal and Dog both classes have eat() method if we call eat() method from Dog class, it will call the eat() method of Dog class by default because priority is given to local.
+-   To call the parent class method, we need to use super keyword.
 
-To call the parent class method, we need to use super keyword.
+## 1.3 super is used to invoke parent class constructor.
 
-## 3) super is used to invoke parent class constructor.
+-   The super keyword can also be used to invoke the parent class constructor.
 
-The super keyword can also be used to invoke the parent class constructor. Let's see a simple example:
+**Example:**
 
 ```
 class Animal {
@@ -170,7 +175,7 @@ class TestSuper3 {
 }
 ```
 
-Output:
+**Output:**
 
 ```
 animal is created
@@ -178,10 +183,14 @@ animal is created
 dog is created
 ```
 
-#### **Note: super() is added in each class constructor automatically by compiler if there is no super() or this().**
+**Note:**
 
-![](media/81979e5216c779cb683dc030ab3cec02.png)As we know well that default constructor is provided by compiler automatically if there is no constructor. But, it also adds super() as the first statement.
+-   super() is added in each class constructor automatically by compiler if there is no super() or this().
 
-References
+![](media/81979e5216c779cb683dc030ab3cec02.png)
 
-https://www.javatpoint.com/super-keyword
+-   As we know well that default constructor is provided by compiler automatically if there is no constructor. But, it also adds super() as the first statement.
+
+## 2. References
+
+1.  https://www.javatpoint.com/super-keyword
