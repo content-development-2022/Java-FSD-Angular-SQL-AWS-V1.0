@@ -6,6 +6,8 @@
 
 1.1 What is a Class in Java?
 
+1..1.1 What is a method in Java?
+
 1.2 What is an Object in Java?
 
 1.3 Class and Object Example: main within the class
@@ -121,7 +123,6 @@ access_modifier return_type method_name( list_of_parameters) {
 **Example:**
 
 ```
-
 public class Addition {
 
     public static void main(String[] args) {
@@ -155,13 +156,11 @@ public class Addition {
 
 **Output:**
 
-~~~
-
+```
 The sum of a and b is= 24
+```
 
-~~~
-
-## 1.3 What is an Object in Java?
+## 1.2 What is an Object in Java?
 
 -   An object is *a* **real-world entity.**
 -   An object is *a* **runtime entity.**
@@ -177,7 +176,7 @@ The sum of a and b is= 24
 
 **Example**: Pen is an object. Its name is Reynolds; color is white, known as its state. It is used to write, so writing is its behavior.
 
-## 1.4 Class and Object Example: main within the class
+## 1.3 Class and Object Example: main within the class
 
 -   In this example, we have created a Student class which has two data members **id** and **name**.
 -   We are creating the object of the Student class by **new** keyword and printing the object's value.
@@ -196,7 +195,7 @@ The sum of a and b is= 24
 -   The new keyword is used to allocate memory at runtime.
 -   All objects get memory in Heap memory area.
 
-## 1.5 Class and Object Example: main outside the class
+## 1.4 Class and Object Example: main outside the class
 
 -   We create classes and use it from another class.
 -   It is a better approach than previous one.
@@ -226,7 +225,7 @@ The sum of a and b is= 24
 -   Code Reusability
 -   Code Optimization
 
-## 1.6 What are the different ways to create an object in Java?
+## 1.5 What are the different ways to create an object in Java?
 
 -   There are many ways to create an object in java. They are:
 
