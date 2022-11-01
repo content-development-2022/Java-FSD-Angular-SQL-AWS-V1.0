@@ -137,7 +137,7 @@ public class Addition{
 
       }
 
- //user defined method
+      //user defined method
  
      public static int add(int n1, int n2) { //n1 and n2 are formal parameters
 
