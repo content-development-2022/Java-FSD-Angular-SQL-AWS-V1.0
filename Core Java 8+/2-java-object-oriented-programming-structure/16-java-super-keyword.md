@@ -131,7 +131,7 @@ To call the parent class method, we need to use super keyword.
 
 The super keyword can also be used to invoke the parent class constructor. Let's see a simple example:
 
-~ ~ ~
+~~~
 
 class Animal {
 
@@ -165,17 +165,17 @@ class TestSuper3 {
     
 }
 
-~ ~ ~
+~~~
 
 Output:
 
-~ ~ ~
+~~~
 
 animal is created
 
 dog is created
 
-~ ~ `~
+~~~
 
 #### **Note: super() is added in each class constructor automatically by compiler if there is no super() or this().**
 
