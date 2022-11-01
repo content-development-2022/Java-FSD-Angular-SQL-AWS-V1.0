@@ -14,35 +14,37 @@ We can use super keyword to access the data member or field of parent class. It 
 
 ~~~
 
-class Animal{
+class Animal {
 
-String color="white";
-
-}
-
-class Dog extends Animal{
-
-String color="black";
-
-void printColor(){
-
-System.out.println(color);//prints color of Dog class
-
-System.out.println(super.color);//prints color of Animal class
+    String color="white";
 
 }
 
+class Dog extends Animal {
+
+    String color="black";
+
+    void printColor() {
+
+        System.out.println(color);//prints color of Dog class
+
+        System.out.println(super.color);//prints color of Animal class
+
+    }
+
 }
 
-class TestSuper1{
+class TestSuper1 {
 
-public static void main(String args[]){
+    public static void main(String args[]) {
 
-Dog d=new Dog();
+        Dog d=new Dog();
 
-d.printColor();
+        d.printColor();
 
-}}
+    }
+
+}
 
 ~~~
 
@@ -61,28 +63,63 @@ In the above example, Animal and Dog both classes have a common property color. 
 
 The super keyword can also be used to invoke parent class method. It should be used if subclass contains the same method as parent class. In other words, it is used if method is overridden.
 
-1.  class Animal{
-2.  void eat(){System.out.println("eating...");}
-3.  }
-4.  class Dog extends Animal{
-5.  void eat(){System.out.println("eating bread...");}
-6.  void bark(){System.out.println("barking...");}
-7.  void work(){
-8.  super.eat();
-9.  bark();
-10. }
-11. }
-12. class TestSuper2{
-13. public static void main(String args[]){
-14. Dog d=new Dog();
-15. d.work();
-16. }}
+~~~
+
+class Animal {
+
+        void eat() {
+        
+        System.out.println("eating...");
+        
+        }
+
+}
+class Dog extends Animal{
+
+    void eat() {
+              
+          System.out.println("eating bread...");
+        
+    }
+
+   void bark() {
+            
+        System.out.println("barking...");
+            
+    }
+    void work() {
+
+            super.eat();
+
+            bark();
+
+    }
+
+}
+
+class TestSuper2 {
+
+    public static void main(String args[]){
+
+        Dog d=new Dog();
+
+        d.work();
+
+    }
+
+}
+
+~~~
 
 Output:
+
+~~~
 
 eating...
 
 barking...
+
+~~~
 
 In the above example Animal and Dog both classes have eat() method if we call eat() method from Dog class, it will call the eat() method of Dog class by default because priority is given to local.
 
@@ -92,37 +129,51 @@ To call the parent class method, we need to use super keyword.
 
 The super keyword can also be used to invoke the parent class constructor. Let's see a simple example:
 
-class Animal{
+~ ~ ~
 
-Animal(){System.out.println("animal is created");}
+class Animal {
 
-}
-
-class Dog extends Animal{
-
-Dog(){
-
-super();
-
-System.out.println("dog is created");
+    Animal() {
+    
+        System.out.println("animal is created");
+    
+    }
 
 }
 
+class Dog extends Animal {
+
+    Dog() {
+
+            super();
+
+            System.out.println("dog is created");
+
+    }
+
 }
 
-class TestSuper3{
+class TestSuper3 {
 
-public static void main(String args[]){
+    public static void main(String args[]) {
 
-Dog d=new Dog();
+        Dog d=new Dog();
 
-}}
+    }
+    
+}
+
+~ ~ ~
 
 Output:
+
+~ ~ ~
 
 animal is created
 
 dog is created
+
+~ ~ `~
 
 #### **Note: super() is added in each class constructor automatically by compiler if there is no super() or this().**
 
