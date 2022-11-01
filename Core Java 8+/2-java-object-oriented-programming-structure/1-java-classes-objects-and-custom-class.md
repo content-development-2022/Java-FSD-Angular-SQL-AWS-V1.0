@@ -118,45 +118,37 @@ access_modifier return_type method_name( list_of_parameters) {
 -   However, it is important to keep the sequence of arguments the same as defined in the method definition.
 -   When we call or invoke a user-defined method, the program control transfer to the called method.
 
-**Syntax:**
-
 **Example:**
 
-**public** **class** Addition
+ **public** **class** Addition{
 
-{
+ **public** **static** **void** main(String[] args) {
 
-**public** **static** **void** main(String[] args)
+ **int** a = 19;
 
-{
+ **int** b = 5;
 
-**int** a = 19;
+ //method calling
 
-**int** b = 5;
+ **int** c = add(a, b); //a and b are actual parameters
 
-//method calling
+ System.out.println("The sum of a and b is= " + c);
 
-**int** c = add(a, b); //a and b are actual parameters
+ }
 
-System.out.println("The sum of a and b is= " + c);
+ //user defined method
 
-}
+ **public** **static** **int** add(**int** n1, **int** n2) { //n1 and n2 are formal parameters
 
-//user defined method
+ **int** s;
 
-**public** **static** **int** add(**int** n1, **int** n2) //n1 and n2 are formal parameters
+ s=n1+n2;
 
-{
+ **return** s; //returning the sum
 
-**int** s;
+ }
 
-s=n1+n2;
-
-**return** s; //returning the sum
-
-}
-
-}
+ }
 
 **Output:**
 
