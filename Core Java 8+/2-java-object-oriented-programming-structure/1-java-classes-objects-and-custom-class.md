@@ -117,9 +117,10 @@ access_modifier return_type method_name( list_of_parameters) {
 -   If the method has parameters in the declaration, those parameters are passed within the parentheses () but this time without their datatypes specified.
 -   However, it is important to keep the sequence of arguments the same as defined in the method definition.
 -   When we call or invoke a user-defined method, the program control transfer to the called method.
+ ~ ~ ~
 
 **Example:**
-~ ~ ~
+
  **public** **class** Addition{
 
  **public** **static** **void** main(String[] args) {
