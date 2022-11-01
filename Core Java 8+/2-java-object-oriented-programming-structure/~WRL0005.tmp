@@ -4,9 +4,9 @@
 
 1\. Classes and Objects in Java
 
-1.1 What is a Class in Java?
+1.1 What is a Class in Java
 
-1.2 What is an Object in Java?
+1.2 What is an Object in Java
 
 1.3 Class and Object Example: main within the class
 
@@ -26,7 +26,7 @@
 -   In object-oriented programming technique, we design a program using classes and objects.
 -   An object in Java is the physical as well as a logical entity, whereas, a class in Java is a logical entity only.
 
-## 1.1 What is a Class in Java?
+## 1.1 What is a Class in Java
 
 -   It is a template or blueprint from which objects are created.
 -   It is a logical entity.
@@ -42,15 +42,13 @@
 
 ## What is a method in Java?
 
--   A **method** is a block of code or collection of statements or a set of code grouped together to perform a certain task or operation.
--   It is used to achieve the **reusability** of code.
--   It also provides the **easy modification** and **readability** of code, just by adding or removing a chunk of code.
--   The method is executed only when we call or invoke it.
+A **method** is a block of code or collection of statements or a set of code grouped together to perform a certain task or operation. It is used to achieve the **reusability** of code. We write a method once and use it many times. We do not require to write code again and again. It also provides the **easy modification** and **readability** of code, just by adding or removing a chunk of code. The method is executed only when we call or invoke it.
 
-## Method Declaration
+The most important method in Java is the **main()** method. If you want to read more about the main() method, go through the link <https://www.javatpoint.com/java-main-method>.
 
--   The method declaration provides information about method attributes, such as visibility, return-type, name, and arguments.
--   It has six components that are known as **method header**, as we have shown in the following figure.
+### Method Declaration
+
+The method declaration provides information about method attributes, such as visibility, return-type, name, and arguments. It has six components that are known as **method header**, as we have shown in the following figure.
 
 ![](media/28ef87e7f0c82b33b6dd118609c9b856.png)
 
@@ -63,50 +61,27 @@
 -   **Protected:** When we use protected access specifier, the method is accessible within the same package or subclasses in a different package.
 -   **Default:** When we do not use any access specifier in the method declaration, Java uses default access specifier by default. It is visible only from the same package only.
 
-**Return Type:**
+**Return Type:** Return type is a data type that the method returns. It may have a primitive data type, object, collection, void, etc. If the method does not return anything, we use void keyword.
 
--   Return type is a data type that the method returns.
--   It may have a primitive data type, object, collection, void, etc.
--   If the method does not return anything, we use void keyword.
+**Method Name:** It is a unique name that is used to define the name of a method. It must be corresponding to the functionality of the method. Suppose, if we are creating a method for subtraction of two numbers, the method name must be **subtraction().** A method is invoked by its name.
 
-**Method Name:**
+**Parameter List:** It is the list of parameters separated by a comma and enclosed in the pair of parentheses. It contains the data type and variable name. If the method has no parameter, left the parentheses blank.
 
--   It is a unique name that is used to define the name of a method.
--   It must be corresponding to the functionality of the method.
--   Suppose, if we are creating a method for subtraction of two numbers, the method name must be **subtraction().**
--   A method is invoked by its name.
-
-**Parameter List:**
-
--   It is the list of parameters separated by a comma and enclosed in the pair of parentheses.
--   It contains the data type and variable name.
--   If the method has no parameter, left the parentheses blank.
-
-**Method Body:**
-
--   It is a part of the method declaration.
--   It contains all the actions to be performed.
--   It is enclosed within the pair of curly braces.
+**Method Body:** It is a part of the method declaration. It contains all the actions to be performed. It is enclosed within the pair of curly braces.
 
 ## Naming a Method
 
--   While defining a method, remember that the method name must be a **verb** and start with a **lowercase** letter.
--   If the method name has more than two words, the first name must be a verb followed by adjective or noun.
--   In the multi-word method name, the first letter of each word must be in **uppercase** except the first word.
+While defining a method, remember that the method name must be a **verb** and start with a **lowercase** letter. If the method name has more than two words, the first name must be a verb followed by adjective or noun. In the multi-word method name, the first letter of each word must be in **uppercase** except the first word. For example:
 
-**Example:**
+**Single-word method name:** sum(), area()
 
-1.  Single-word method name: sum(), area()
-2.  Multi-word method name: areaOfCircle(), stringComparision()
--   It is also possible that a method has the same name as another method name in the same class, it is known as **method overloading**.
+**Multi-word method name:** areaOfCircle(), stringComparision()
 
-## How to Call or Invoke a User-defined Method
+It is also possible that a method has the same name as another method name in the same class, it is known as **method overloading**.
 
--   Once we have defined a method, it should be called.
--   The calling of a method in a program is simple.
--   When we call or invoke a user-defined method, the program control transfer to the called method.
+### How to Call or Invoke a User-defined Method
 
-**Example:**
+Once we have defined a method, it should be called. The calling of a method in a program is simple. When we call or invoke a user-defined method, the program control transfer to the called method.
 
 **public** **class** Addition
 
@@ -148,7 +123,9 @@ s=n1+n2;
 
 The sum of a and b is= 24
 
-## 1.2 What is an Object in Java?
+In the above code snippet, as soon as the compiler reaches at line **findEvenOdd(num),** the control transfer to the method and gives the output accordingly.
+
+## 1.2 What is an Object in Java
 
 -   An object is *a* **real-world entity.**
 -   An object is *a* **runtime entity.**
