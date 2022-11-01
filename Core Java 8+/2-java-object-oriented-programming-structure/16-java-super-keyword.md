@@ -13,7 +13,7 @@
 
 **Usage of Java super Keyword**
 
-![](media/350d098e011aea7092192c147de728a3.png)
+![](media/usage of super keyword.png)
 
 ## 1.1 super is used to refer immediate parent class instance variable.
 
