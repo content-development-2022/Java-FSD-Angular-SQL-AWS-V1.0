@@ -118,7 +118,7 @@ There are two types of arrays.
 
 **Example-3:**
 
-![](media/847d9910fd1583fe0bd0dd7038da8ec8.png)
+![](media/1D-array.png)
 
 ## 2.1.2 Initializing 1D Array in Java
 
@@ -269,7 +269,7 @@ There are two types of arrays.
 -   When we create a 2D array object using the new keyword, the JVM (Java Virtual Machine) allocates the memory required for the 2D array and initializes the memory spaces with the default values according to the data type of the array object.
 -   For example, in the case of the Integer array (int[][]), every element of the array is initialized with the default value of 0.
 
-    ![](media/ed9dab7b91b636c5c08a55f94bab8b0e.png)
+    ![](media/2D-array.png)
 
 ## 2.2.2.2 Initializing 2D Array in Java
 
