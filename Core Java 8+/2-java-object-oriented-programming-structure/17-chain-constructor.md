@@ -9,4 +9,4 @@ We can achieve constructor chaining in two ways:
 
 Remember that changing the order of the constructor does not affect the output.
 
-![](media/b3b2e83e2eafa2a36be1ed188aeab3a6.png)
+![](media/chain-constructor.png)
