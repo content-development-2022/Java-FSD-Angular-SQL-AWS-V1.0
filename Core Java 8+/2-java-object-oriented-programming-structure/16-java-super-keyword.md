@@ -99,9 +99,9 @@ class Dog extends Animal{
     
     void work() {
 
-            super.eat();
+        super.eat();
 
-            bark();
+        bark();
 
     }
 
@@ -120,7 +120,7 @@ class TestSuper2 {
 }
 ```
 
-Output:
+**Output:**
 
 ```
 eating...
