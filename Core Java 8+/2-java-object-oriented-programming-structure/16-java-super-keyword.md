@@ -1,19 +1,24 @@
-Super Keyword in Java
+# Super Keyword in Java
 
-The **super** keyword in Java is a reference variable which is used to refer immediate parent class object.
+**Content**
 
-Whenever you create the instance of subclass, an instance of parent class is created implicitly which is referred by super reference variable.
+## 1. super Keyword in Java
 
-Usage of Java super Keyword
+-   The **super** keyword in Java is a reference variable which is used to refer immediate parent class object.
+-   Whenever you create the instance of subclass, an instance of parent class is created implicitly which is referred by super reference variable.
+
+**Usage of Java super Keyword**
 
 ![](media/350d098e011aea7092192c147de728a3.png)
 
 ## 1) super is used to refer immediate parent class instance variable.
 
-We can use super keyword to access the data member or field of parent class. It is used if parent class and child class have same fields.
+-   We can use super keyword to access the data member or field of parent class.
+-   It is used if parent class and child class have same fields.
 
-~~~
+**Example:**
 
+```
 class Animal {
 
     String color="white";
@@ -45,26 +50,29 @@ class TestSuper1 {
     }
 
 }
+```
 
-~~~
+**Output:**
 
-Output:
-
-~~~
-
+```
 black
 
 white
-~~~
+```
 
-In the above example, Animal and Dog both classes have a common property color. If we print color property, it will print the color of current class by default. To access the parent property, we need to use super keyword.
+-   In the above example, Animal and Dog both classes have a common property color.
+-   If we print color property, it will print the color of current class by default.
+-   To access the parent property, we need to use super keyword.
 
 ## 2) super can be used to invoke parent class method
 
-The super keyword can also be used to invoke parent class method. It should be used if subclass contains the same method as parent class. In other words, it is used if method is overridden.
+-   The super keyword can also be used to invoke parent class method.
+-   It should be used if subclass contains the same method as parent class.
+-   In other words, it is used if method is overridden.
 
-~~~
+**Example:**
 
+```
 class Animal {
 
         void eat() {
@@ -110,18 +118,15 @@ class TestSuper2 {
     }
 
 }
-
-~~~
+```
 
 Output:
 
-~~~
-
+```
 eating...
 
 barking...
-
-~~~
+```
 
 In the above example Animal and Dog both classes have eat() method if we call eat() method from Dog class, it will call the eat() method of Dog class by default because priority is given to local.
 
@@ -131,8 +136,7 @@ To call the parent class method, we need to use super keyword.
 
 The super keyword can also be used to invoke the parent class constructor. Let's see a simple example:
 
-~~~
-
+```
 class Animal {
 
     Animal() {
@@ -164,18 +168,15 @@ class TestSuper3 {
     }
     
 }
-
-~~~
+```
 
 Output:
 
-~~~
-
+```
 animal is created
 
 dog is created
-
-~~~
+```
 
 #### **Note: super() is added in each class constructor automatically by compiler if there is no super() or this().**
 
