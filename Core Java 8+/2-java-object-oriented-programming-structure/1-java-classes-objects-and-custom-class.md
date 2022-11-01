@@ -51,17 +51,14 @@
 -   It also provides the **easy modification** and **readability** of code, just by adding or removing a chunk of code.
 
 ## Method Declaration
-~~~
-**Syntax:** Declare a method
+Syntax: Declare a method
+~ ~ ~
+    access_modifier return_type method_name( list_of_parameters) {
 
-\<access_modifier\> \<return_type\> \<method_name\>( list_of_parameters)
+    //body of method
 
-{
-
-//body of method
-
-}
-~~~
+    }
+~ ~ ~
 
 **Method Signature:** Every method has a method signature. It is a part of the method declaration. It includes the **method name** and **parameter list**.
 
