@@ -466,7 +466,6 @@ class AClass {  
     void msg() {
         System.out.println("Hello java");
     } 
-    
 }  
 
 class Test1 {
