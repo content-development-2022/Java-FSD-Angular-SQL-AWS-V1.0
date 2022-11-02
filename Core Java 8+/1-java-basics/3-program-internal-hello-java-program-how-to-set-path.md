@@ -2,29 +2,29 @@
 
 **Content**
 
-1\. Internal Details of Program
+1. Internal Details of Program
 
-1.1 What happens at compile time?
+   1.1 What happens at compile time?
 
-1.2 What happens at run time?
+   1.2 What happens at run time?
 
-2\. First Java Program \| Hello Java Example
+2. First Java Program \| Hello Java Example
 
-2.1 The requirement for Hello Java Example
+   2.1 The requirement for Hello Java Example
 
-2.2 Creating Hello java Example
+   2.2 Creating Hello java Example
 
-2.3 Parameters used in Hello Java Program
+   2.3 Parameters used in Hello Java Program
 
-2.4 In how many ways we can write a Java program?
+   2.4 In how many ways we can write a Java program?
 
-3\. How to set path in Java
+3. How to set path in Java
 
-3.1 How to set the Temporary Path of JDK in Windows
+   3.1 How to set the Temporary Path of JDK in Windows
 
-3.2 How to set the Permanent Path of JDK in Windows
+   3.2 How to set the Permanent Path of JDK in Windows
 
-4\. References
+4. References
 
 ## 1. Internal Details of Program
 
