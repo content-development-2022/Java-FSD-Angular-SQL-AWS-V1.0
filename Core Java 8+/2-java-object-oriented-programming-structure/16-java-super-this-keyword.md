@@ -150,7 +150,7 @@ dog is created
 
 There can be a lot of usage of **Java this keyword**. In Java, this is a **reference variable** that refers to the current object.
 
-![](media/55e5eabb26cb6dcd78235f8dbd086063.png)
+![](media/this-keyword.png)
 
 ## 3. References
 
