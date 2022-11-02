@@ -6,7 +6,9 @@
 
 1.1 What is a Class in Java?
 
-1..1.1 What is a method in Java?
+1..1.1 Fileds in Java?
+
+1.1.2 What is a method in Java?
 
 1.2 What is an Object in Java?
 
@@ -42,7 +44,27 @@
 
 ![](media/1d4b6e410f81b241660d1dfe4e9db898.png)
 
-## 1.1.1 What is a method in Java?
+## 1.1.1 Fields in Java
+
+The fields in class are known as member variables or instance variables
+
+-   Instance variables are declared in a class, but outside a method, constructor or any block.
+-   When space is allocated for an object in the heap, a slot for each instance variable value is created.
+-   Instance variables are created when an object is created with the use of the keyword 'new' and destroyed when the object is destroyed.
+-   Instance variables hold values that must be referenced by more than one method, constructor or block, or essential parts of an object's state that must be present throughout the class.
+-   Instance variables can be declared in a class level before or after use.
+-   Access modifiers can be given for instance variables.
+-   The instance variables are visible for all methods, constructors, and block in the class. Normally, it is recommended to make these variables private (access level). However, visibility for subclasses can be given for these variables with the use of access modifiers.
+-   Instance variables have default values. For numbers, the default value is 0, for Booleans it is false, and for object references it is null. Values can be assigned during the declaration or within the constructor.
+-   Instance variables can be accessed directly by calling the variable name inside the class. However, within static methods (when instance variables are given accessibility), they should be called using the fully qualified name. ObjectReference.VariableName.
+
+**Syntax:**
+
+```
+dataType variableName;
+```
+
+## 1.1.2 What is a method in Java?
 
 -   A **method** is a block of code or collection of statements or a set of code grouped together to perform a certain task or operation.
 -   The method is executed only when we call or invoke it.
@@ -52,7 +74,7 @@
 -   It is used to achieve the **reusability** of code.
 -   It also provides the **easy modification** and **readability** of code, just by adding or removing a chunk of code.
 
-## 1.1.1.1 Method Defination
+## 1.1.2.1 Method Defination
 
 Syntax: Declare a method
 
@@ -98,7 +120,7 @@ access_modifier return_type method_name( list_of_parameters) {
 -   It contains all the actions to be performed.
 -   It is enclosed within the pair of curly braces.
 
-## 1.1.1.3 How to Call or Invoke a User-defined Method
+## 1.1.2.2 How to Call or Invoke a User-defined Method
 
 -   Once we have defined a method, it should be called.
 -   There are two ways in which a method is called i.e., method returns a value or returning nothing (no return value).
