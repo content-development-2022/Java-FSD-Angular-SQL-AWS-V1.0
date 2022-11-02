@@ -223,7 +223,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 -   JRE (Java Runtime Environment) is an installation package that provides an environment to only run(not develop) the java program(or application) in your machine. -   JRE is only used by those who only want to run Java programs that are end-users of your system.
 -   JRE is also written as Java RTE (RunTime Environment).
 -   Practically speaking, a runtime environment is a piece of software that is designed to run other software. 
--   As the runtime environment for Java, the JRE contains the Java class libraries, the Java class loader, and the Java Virtual Machine. 
+-   As the runtime environment for Java, the JRE contains the Java class libraries and the Java Virtual Machine. 
 
 ![](media/ebfe42075cd31c834deef2254d669973.png)
 
