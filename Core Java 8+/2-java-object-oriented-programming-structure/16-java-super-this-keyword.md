@@ -389,68 +389,74 @@ class Student {
 
 **Output:**
 
+```
 method is invoked
+```
 
-### Application of this that can be passed as an argument:
+## 2.5 this: to pass as argument in the constructor call
 
-In event handling (or) in a situation where we have to provide reference of a class to another one. It is used to reuse one object in many methods.
+-   We can pass this keyword in the constructor also.
+-   It is useful if we have to use one object in multiple classes.
 
-### 5) this: to pass as argument in the constructor call
-
-We can pass the this keyword in the constructor also. It is useful if we have to use one object in multiple classes. Let's see the example:
+**Example:**
 
 ```
-class B {  
+class BClass {  
 
-  A4 obj;   
+  AClass obj;   
   
-  B(A4 obj) {  
+  BClass(AClass obj) {  
     this.obj=obj;  
   }  
   
   void display() {  
-    System.out.println(obj.data);//using data member of A4 class  
+    System.out.println(obj.data);//using instance variable of AClass class  
   }
   
 }  
   
-class A4 {  
+class AClass {  
 
   int data=10;  
   
-  A4() {  
-   B b = new B(this);  
-   b.display();  
+  AClass() {  
+   BClass bobj = new BClass(this);  
+   bobj.display();  
   }  
   
   public static void main(String args[]) {  
-   A4 a = new A4();  
+   AClass aobj = new AClass();  
   } 
   
 } 
  
 ```
 
-Output:10
-
-### 6) this keyword can be used to return current class instance
-
-We can return this keyword as an statement from the method. In such case, return type of the method must be the class type (non-primitive). Let's see the example:
-
-### Syntax of this that can be returned as a statement
+**Output:**
 
 ```
-return_type method_name(){  
+10
+```
+
+## 6) this keyword can be used to return current class instance
+
+-   We can return this keyword as an statement from the method.
+-   In such case, return type of the method must be the class type (non-primitive).
+
+**Syntax:**
+
+```
+classname methodname(){  
 return this;  
 }  
 ```
 
-### Example of this keyword that you return as a statement from the method
+**Example:**
 
 ```
-class A {  
+class AClass {  
 
-    A getA() {  
+    AClass getA() {  
         return this;  
     }  
 
@@ -463,39 +469,16 @@ class A {  
 class Test1 {
 
     public static void main(String args[]) {  
-        new A().getA().msg();  
+        new AClass().getA().msg();  
     }  
 }  
 ```
 
 **Output:**
 
+```
 Hello java
-
-### Proving this keyword
-
-Let's prove that this keyword refers to the current class instance variable. In this program, we are printing the reference variable and this, output of both variables are same.
-
 ```
-class A5 {
-
-    void m() {  
-        System.out.println(this);//prints same reference ID  
-    }  
-    
-    public static void main(String args[]) {  
-        A5 obj=new A5();  
-        System.out.println(obj);//prints the reference ID  
-        obj.m();  
-    }  
-}  
-```
-
-**Output:**
-
-A5@22b3ea59
-
-A5@22b3ea59
 
 ## 3. References
 
