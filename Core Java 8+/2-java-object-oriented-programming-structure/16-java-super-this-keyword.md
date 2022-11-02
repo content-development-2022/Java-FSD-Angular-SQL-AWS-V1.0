@@ -456,7 +456,7 @@ return this;  
 
 **Example:**
 
-```
+```java
 class AClass {  
 
     AClass getA() {  
