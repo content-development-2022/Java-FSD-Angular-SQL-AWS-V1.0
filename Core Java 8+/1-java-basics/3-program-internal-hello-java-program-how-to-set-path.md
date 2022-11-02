@@ -14,7 +14,7 @@
 
    2.2 Creating Hello java Example
 
-   2.3 Parameters used in Hello Java Program
+   2.3 Keywords used in Hello Java Program
 
    2.4 In how many ways we can write a Java program?
 
@@ -93,7 +93,7 @@ Type the following commands here:
 
 ![](media/9298e1deab1af79df94cb27e1b1bd245.png)
 
-## 2.3 Parameters used in Hello Java Program
+## 2.3 Keywords used in Hello Java Program
 
 -   Let's try to understand the meaning of class, public, static, void, main, String[], System.out.println() used in the program.
 
