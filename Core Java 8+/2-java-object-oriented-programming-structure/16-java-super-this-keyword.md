@@ -222,6 +222,7 @@ class Student {
     void display() {
         System.out.println(rollno+" "+name+" "+fee);}  
     }
+
 }  
  
 class TestThis2 {  
@@ -231,6 +232,7 @@ class TestThis2 {  
   s1.display();  
   s2.display();  
     }
+
 }  
 ```
 
@@ -261,6 +263,7 @@ class Student {
     void display() {
         System.out.println(rollno+" "+name+" "+fee);
     }  
+
 }  
 
 class TestThis3 {  
@@ -270,6 +273,7 @@ class TestThis3 {  
     s1.display();  
     s2.display();  
     }
+
 }  
 ```
 
@@ -304,6 +308,7 @@ class CurrentClass { 
   	  //display1();//same as this.m()  
   this.display1();  
     }  
+
 }  
 
 class TestThis4 {  
@@ -311,6 +316,7 @@ class TestThis4 {  
         CurrentClass hai = new CurrentClass();  
         hai.display2();  
     }
+
 }  
 ```
 
@@ -339,13 +345,15 @@ class Aclass { 
     Aclass(int x) {  
   this();  
   System.out.println(x);  
-    }  
+    } 
+ 
 } 
  
 class TestThis5{  
     public static void main(String args[]) {  
   Aclass value = new Aclass(10);  
     }
+
 }  
 ```
 
@@ -369,12 +377,14 @@ class Aclass {  
     A(int x){  
   System.out.println(x);  
     }  
+
 } 
  
 class TestThis6 {  
     public static void main(String args[]) {  
   Aclass value = new Aclass();  
     }
+
 }  
 ```
 
