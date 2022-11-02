@@ -189,9 +189,10 @@ s2.display();  
 
 **Output:**
 
+```
 0 null 0.0
-
 0 null 0.0
+```
 
 In the above example, parameters (formal arguments) and instance variables are same. So, we are using this keyword to distinguish local variable and instance variable.
 
@@ -221,9 +222,10 @@ s2.display();  
 
 **Output:**
 
+```
 111 ankit 5000.0
-
 112 sumit 6000.0
+```
 
 If local variables(formal arguments) and instance variables are different, there is no need to use this keyword like in the following program:
 
@@ -254,11 +256,12 @@ s2.display();  
 
 **Output:**
 
+```
 111 ankit 5000.0
-
 112 sumit 6000.0
+```
 
-#### **It is better approach to use meaningful names for variables. So we use same name for instance variables and parameters in real time, and always use this keyword.**
+It is better approach to use meaningful names for variables. So we use same name for instance variables and parameters in real time, and always use this keyword.
 
 ## 3. References
 
