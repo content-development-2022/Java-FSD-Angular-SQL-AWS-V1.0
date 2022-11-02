@@ -76,8 +76,7 @@ class Dog extends Animal{
     }
    void bark() {       
         System.out.println("barking...");            
-    }
-    
+    }  
     void work() {
         super.eat();
         bark();
@@ -146,45 +145,47 @@ dog is created
 
 -   As we know well that default constructor is provided by compiler automatically if there is no constructor. But, it also adds super() as the first statement.
 
-# this keyword in Java
+# 2. this keyword in Java
 
-There can be a lot of usage of **Java this keyword**. In Java, this is a **reference variable** that refers to the current object.
+-   In Java, this is a **reference variable** that refers to the current object.
 
 ![](media/this-keyword.png)
 
-## Usage of Java this keyword
-
-Here is given the 6 usage of java this keyword.
+**Usage of Java this keyword**
 
 ![](media/96093e6ed4105a939cdc3eba6c73828d.png)
 
-### 1) this: to refer current class instance variable
+## 2.1 this: to refer current class instance variable
 
-The this keyword can be used to refer current class instance variable. If there is ambiguity between the instance variables and parameters, this keyword resolves the problem of ambiguity.
+-   The this keyword can be used to refer current class instance variable.
+-   If there is ambiguity between the instance variables and parameters, this keyword resolves the problem of ambiguity.
 
-#### **Understanding the problem without this keyword**
+**Understanding the problem without this keyword**
 
-Let's understand the problem if we don't use this keyword by the example given below:
+-   Let's understand the problem if we don't use this keyword by the example given below:
 
 ```
-class Student{  
-int rollno;  
-String name;  
-float fee;  
-Student(int rollno,String name,float fee){  
-rollno=rollno;  
-name=name;  
-fee=fee;  
+class Student {  
+    int rollno;  
+    String name;  
+    float fee;  
+    Student(int rollno,String name,float fee) {  
+        rollno = rollno;  
+        name = name;  
+        fee = fee;  
+    }  
+    void display() {
+        System.out.println(rollno+" "+name+" "+fee);
+    }  
 }  
-void display(){System.out.println(rollno+" "+name+" "+fee);}  
+class TestThis1 {  
+    public static void main(String args[]) {  
+        Student s1 = new Student(111,"ankit",5000f);  
+        Student s2 = new Student(112,"sumit",6000f);  
+        s1.display();  
+        s2.display();  
+    }
 }  
-class TestThis1{  
-public static void main(String args[]){  
-Student s1=new Student(111,"ankit",5000f);  
-Student s2=new Student(112,"sumit",6000f);  
-s1.display();  
-s2.display();  
-}}  
 ```
 
 **Output:**
@@ -194,23 +195,25 @@ s2.display();  
 0 null 0.0
 ```
 
-In the above example, parameters (formal arguments) and instance variables are same. So, we are using this keyword to distinguish local variable and instance variable.
+-   In the above example, parameters (formal arguments) and instance variables are same.
+-   So, we are using this keyword to distinguish local variable and instance variable.
 
-#### **Solution of the above problem by this keyword**
+**Solution of the above problem by this keyword**
 
 ```
-class Student{  
-int rollno;  
-String name;  
-float fee;  
-Student(int rollno,String name,float fee){  
-this.rollno=rollno;  
-this.name=name;  
-this.fee=fee;  
-}  
-void display(){System.out.println(rollno+" "+name+" "+fee);}  
-}  
-  
+class Student {  
+    int rollno;  
+    String name;  
+    float fee;  
+    Student(int rollno,String name,float fee) {  
+    this.rollno=rollno;  
+    this.name=name;  
+    this.fee=fee;  
+    }  
+    void display() {
+    System.out.println(rollno+" "+name+" "+fee);}  
+    }  
+ 
 class TestThis2{  
 public static void main(String args[]){  
 Student s1=new Student(111,"ankit",5000f);  
