@@ -386,6 +386,7 @@ class Student {
       Student student1 = new Student();  
       student1.display();  
   }  
+  
 }  
 ```
 
