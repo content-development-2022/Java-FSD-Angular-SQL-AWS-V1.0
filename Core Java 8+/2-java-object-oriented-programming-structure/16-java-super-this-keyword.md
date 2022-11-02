@@ -179,7 +179,8 @@ class Student { 
 
     void display() {
         System.out.println(rollno+" "+name+" "+fee);
-    }  
+    } 
+ 
 }  
 
 class TestThis1 {  
@@ -189,6 +190,7 @@ class TestThis1 {  
         s1.display();  
         s2.display();  
     }
+
 }  
 ```
 
