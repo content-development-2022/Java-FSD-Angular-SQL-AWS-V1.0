@@ -343,12 +343,12 @@ hello display1
 class Aclass { 
  
     Aclass() {
-  System.out.println("hello message in no argument constructor ");
+        System.out.println("hello message in no argument constructor ");
     }  
 
     Aclass(int x) {  
-  this();  
-  System.out.println(x);  
+        this();  
+        System.out.println(x);  
     } 
  
 } 
@@ -356,7 +356,7 @@ class Aclass { 
 class TestThis5{  
 
     public static void main(String args[]) {  
-  Aclass value = new Aclass(10);  
+        Aclass value = new Aclass(10);  
     }
 
 }  
@@ -376,11 +376,11 @@ class Aclass {  
 
     Aclass() {  
         this(5);  
-  System.out.println("hello message in no argument constructor");  
+        System.out.println("hello message in no argument constructor");  
     }  
 
     A(int x){  
-  System.out.println(x);  
+        System.out.println(x);  
     }  
 
 } 
@@ -388,7 +388,7 @@ class Aclass {  
 class TestThis6 { 
  
     public static void main(String args[]) {  
-  Aclass value = new Aclass();  
+        Aclass value = new Aclass();  
     }
 
 }  
@@ -411,16 +411,19 @@ hello message in no argument constructor
 **Example:**
 
 ```
-class S2{  
-  void m(S2 obj){  
-  System.out.println("method is invoked");  
+class S2 {
+
+  void m(S2 obj) {  
+    System.out.println("method is invoked");  
   }  
-  void p(){  
-  m(this);  
-  }  
-  public static void main(String args[]){  
-  S2 s1 = new S2();  
-  s1.p();  
+  
+  void p() {  
+    m(this);  
+  }
+  
+  public static void main(String args[]) {  
+      S2 student1 = new S2();  
+      student1.p();  
   }  
 }  
 ```
@@ -438,25 +441,33 @@ In event handling (or) in a situation where we have to provide reference of a cl
 We can pass the this keyword in the constructor also. It is useful if we have to use one object in multiple classes. Let's see the example:
 
 ```
-class B{  
-  A4 obj;  
-  B(A4 obj){  
+class B {  
+
+  A4 obj;   
+  
+  B(A4 obj) {  
     this.obj=obj;  
   }  
-  void display(){  
+  
+  void display() {  
     System.out.println(obj.data);//using data member of A4 class  
-  }  
+  }
+  
 }  
   
-class A4{  
+class A4 {  
+
   int data=10;  
-  A4(){  
-   B b=new B(this);  
+  
+  A4() {  
+   B b = new B(this);  
    b.display();  
   }  
-  public static void main(String args[]){  
-   A4 a=new A4();  
-  }  
+  
+  public static void main(String args[]) {  
+   A4 a = new A4();  
+  } 
+  
 } 
  
 ```
@@ -478,16 +489,23 @@ return this;  
 ### Example of this keyword that you return as a statement from the method
 
 ```
-class A{  
-A getA(){  
-return this;  
+class A {  
+
+    A getA() {  
+        return this;  
+    }  
+
+    void msg() {
+        System.out.println("Hello java");
+    } 
+    
 }  
-void msg(){System.out.println("Hello java");}  
-}  
-class Test1{  
-public static void main(String args[]){  
-new A().getA().msg();  
-}  
+
+class Test1 {
+
+    public static void main(String args[]) {  
+        new A().getA().msg();  
+    }  
 }  
 ```
 
@@ -500,15 +518,17 @@ Hello java
 Let's prove that this keyword refers to the current class instance variable. In this program, we are printing the reference variable and this, output of both variables are same.
 
 ```
-class A5{  
-void m(){  
-System.out.println(this);//prints same reference ID  
-}  
-public static void main(String args[]){  
-A5 obj=new A5();  
-System.out.println(obj);//prints the reference ID  
-obj.m();  
-}  
+class A5 {
+
+    void m() {  
+        System.out.println(this);//prints same reference ID  
+    }  
+    
+    public static void main(String args[]) {  
+        A5 obj=new A5();  
+        System.out.println(obj);//prints the reference ID  
+        obj.m();  
+    }  
 }  
 ```
 
