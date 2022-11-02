@@ -267,7 +267,7 @@ class CurrentClass { 
 
     void display2() {  
   	System.out.println("hello display2");  
-        //display1();//same as this.m()  
+        //display1();//same as this.display1()  
   	this.display1();  
     }  
 
