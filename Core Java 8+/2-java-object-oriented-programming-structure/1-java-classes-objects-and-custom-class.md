@@ -46,7 +46,7 @@
 
 ## 1.1.1 Fields in Java
 
-The fields in class are known as member variables or instance variables
+The fields in class are known as instance variables
 
 -   Instance variables are declared in a class, but outside a method, constructor or any block.
 -   When space is allocated for an object in the heap, a slot for each instance variable value is created.
