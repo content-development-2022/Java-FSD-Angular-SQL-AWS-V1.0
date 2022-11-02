@@ -106,7 +106,7 @@ Let's consider each of these.
 
 ### **JVM Architecture Diagram**
 
-![JVM Architecture Diagram](media/7778a2a9cd8015fa611be7cde1789cb6.png)
+![JVM Architecture Diagram](media/JVM-Architecture.png)
 
 ### **How Does the JVM Work?**
 
