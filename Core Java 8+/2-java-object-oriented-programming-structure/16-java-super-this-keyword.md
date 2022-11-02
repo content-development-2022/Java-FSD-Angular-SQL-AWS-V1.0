@@ -146,6 +146,13 @@ dog is created
 
 -   As we know well that default constructor is provided by compiler automatically if there is no constructor. But, it also adds super() as the first statement.
 
-## 2. References
+# this keyword in Java
+
+There can be a lot of usage of **Java this keyword**. In Java, this is a **reference variable** that refers to the current object.
+
+![](media/55e5eabb26cb6dcd78235f8dbd086063.png)
+
+## 3. References
 
 1.  https://www.javatpoint.com/super-keyword
+2.  https://www.javatpoint.com/this-keyword
