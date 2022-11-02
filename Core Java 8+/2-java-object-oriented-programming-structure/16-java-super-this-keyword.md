@@ -375,7 +375,7 @@ hello message in no argument constructor
 class Student {
 
   void method(Student obj) {  
-    System.out.println("method is invoked");  
+     System.out.println("method is invoked");  
   }  
   
   void display() {  
