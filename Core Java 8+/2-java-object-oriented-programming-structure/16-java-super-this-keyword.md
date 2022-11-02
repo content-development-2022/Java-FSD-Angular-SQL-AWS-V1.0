@@ -370,19 +370,19 @@ hello message in no argument constructor
 **Example:**
 
 ```
-class S2 {
+class Student {
 
-  void m(S2 obj) {  
+  void method(Student obj) {  
     System.out.println("method is invoked");  
   }  
   
-  void p() {  
-    m(this);  
+  void display() {  
+    method(this);  
   }
   
   public static void main(String args[]) {  
-      S2 student1 = new S2();  
-      student1.p();  
+      Student student1 = new Student();  
+      student1.display();  
   }  
 }  
 ```
