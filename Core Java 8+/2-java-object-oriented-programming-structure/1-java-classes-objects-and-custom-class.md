@@ -52,7 +52,7 @@
 -   It is used to achieve the **reusability** of code.
 -   It also provides the **easy modification** and **readability** of code, just by adding or removing a chunk of code.
 
-## 1.1.1.1 Method Declaration
+## 1.1.1.1 Method Defination
 
 Syntax: Declare a method
 
