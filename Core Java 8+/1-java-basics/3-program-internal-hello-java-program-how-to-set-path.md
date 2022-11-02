@@ -28,15 +28,15 @@
 
 ## 1. Internal Details of Program
 
-In this document, we are going to learn, what happens while we compile and run the Java program.
+Let's see what happens while we compile and run the Java program.
 
-## 1.1 What happens at compile time?
+### 1.1 What happens at compile time?
 
--   At compile time, the Java file is compiled by Java Compiler (It does not interact with OS) and converts the Java code into bytecode.
+-   At compile time, the Java file is compiled by Java Compiler (It does not interact with OS) and is converted into bytecode.
 
 ![](media/7a6383999bdc7a801ec513d4ed1f33d3.png)
 
-## 1.2 What happens at run time?
+### 1.2 What happens at run time?
 
 -   At runtime, the following steps are performed:
 
@@ -44,7 +44,7 @@ In this document, we are going to learn, what happens while we compile and run t
 
 **Classloader:**
 
--   It is the subsystem of JVM that is used to load class files.
+-   It is a subsystem of JVM that is used to load class files.
 
 **Bytecode Verifier:**
 
@@ -52,26 +52,25 @@ In this document, we are going to learn, what happens while we compile and run t
 
 **Interpreter:**
 
--   Read bytecode stream then execute the instructions.
+-   Reads bytecode stream and then executes the instructions.
 
 ## 2. First Java Program \| Hello Java Example
 
--   In this document, we will learn how to write the simple program of Java.
--   We can write a simple hello Java program easily after installing the JDK.
--   Let's understand the requirement first.
+-   Here we will see how to write a simple program in Java.
+-   Lets start by installing Java(JDK).
 
 ## 2.1 The requirement for Hello Java Example
 
 For executing any Java program, the following software or application must be properly installed.
 
--   Install the JDK if you don't have installed it, download the JDK and install it.
+-   Install Java (JDK) by downloading it. Any version of Java 8 above 8 is good. Java can be installed from this link - https://www.oracle.com/java/technologies/downloads/
 -   Set path of the jdk/bin directory.
 -   Create the Java program
 -   Compile and run the Java program
 
 ## 2.2 Creating Hello java Example
 
--   To write the simple program, you need to open notepad by **start menu -\> All Programs -\> Accessories -\> Notepad** and write a simple program as we have shown below:
+-   To write a simple program, you need to open notepad by clicking on **start menu -\> All Programs -\> Accessories -\> Notepad** and type a simple program as shown below:
 
 ![](media/f04bb8136b6c9f437350923a2d7bf9fd.png)
 
@@ -79,13 +78,13 @@ For executing any Java program, the following software or application must be pr
 
     **Example:** Simple.java
 
--   In order to compile and run the above program, you need to open the command prompt by **start menu -\> All Programs -\> Accessories -\> command prompt**.
+-   In order to compile and run the above program, you need to open the command prompt by clicking on **start menu -\> All Programs -\> Accessories -\> command prompt**.
 
 ![](media/25486ed5be4e84149af1860fb3648865.png)
 
--   To compile and run the above program, go to your current directory first; my current directory is c:\\new.
+-   To compile and run the above program, go to the directory where the file is saved; my current directory is c:\\new.
 
-Write here:
+Type the following commands here:
 
 -   **To compile:** javac Simple.java
 -   **To execute:** java Simple
@@ -96,7 +95,7 @@ Write here:
 
 ## 2.3 Parameters used in Hello Java Program
 
--   Let's see what is the meaning of class, public, static, void, main, String[], System.out.println().
+-   Let's try to understand the meaning of class, public, static, void, main, String[], System.out.println() used in the program.
 
 **class**
 
@@ -124,14 +123,15 @@ Write here:
 **main**
 
 -   It represents the starting point of the program.
+-   It is a pre-defined name.
 
 **String[] args** or **String args[]**
 
--   It is used for command line argument
+-   It is used to work with command line argument
 
 **System.out.println()**
 
--   It is used to print statement.
+-   It is a print statement used to print an output on the console.
 -   Here, System is a class, out is an object of the PrintStream class, println() is a method of the PrintStream class.
 
 ## 2.4 In how many ways we can write a Java program?
@@ -141,13 +141,9 @@ Write here:
 
 ## 1) By changing the sequence of the modifiers, method prototype is not changed in Java.
 
--   Let's see the simple code of the main method.
-
 ![](media/0b2f43ef4635364baa5cfd3049523d6e.png)
 
 ## 2) The subscript notation in the Java array can be used after type, before the variable or after the variable.
-
--   Let's see the different codes to write the main method.
 
 ![](media/3cce9cf3e6f78520df153c122ba5cee8.png)
 
@@ -170,11 +166,11 @@ Write here:
 ## 3. How to set path in Java
 
 -   The path is required to be set for using tools such as javac, java, etc.
--   If you are saving the Java source file inside the JDK/bin directory, the path is not required to be set because all the tools will be available in the current directory.
--   However, if you have your Java file outside the JDK/bin folder, it is necessary to set the path of JDK.
+-   If you are saving the Java source file inside the JDK/bin directory, the path is not required to be set because all the tools will be available in the current directory. This is highly not recommended as we do not want to disturb the Java software installed in our computer.
+-   However, if you have your Java file anywhere outside the JDK/bin folder, it is necessary to set the path of JDK.
 -   There are two ways to set the path in Java:
-1.  Temporary
-2.  Permanent
+   -  Temporary
+   -  Permanent
 
 ## 3.1 How to set the Temporary Path of JDK in Windows
 
@@ -194,7 +190,7 @@ To set the temporary path of JDK, you need to follow the following steps:
 
 ## 3.2 How to set the Permanent Path of JDK in Windows
 
-For setting the permanent path of JDK, you need to follow these steps:
+For setting the path of JDK permanently, you need to follow these steps:
 
 -   Go to **MyComputer -\> properties -\> advances system settings -\> advanced tab -\> environment variables -\> new tab of user variable -\>** write path in **variable name -\>** write path of bin folder in **variable value -\> ok -\> ok -\> ok**
 
@@ -245,7 +241,7 @@ For setting the permanent path of JDK, you need to follow these steps:
 ![](media/0a08c417e7da9c2245a3e6fdbd82f3cb.png)
 
 -   Now your permanent path is set.
--   You can now execute any program of java from any drive.
+-   You can now execute any program of java from any drive/folder/location.
 
 ## 4. References
 
