@@ -86,7 +86,7 @@ Let's consider each of these.
 
 -   Typically, you download and install the JVM as a bundled part of a Java Runtime Environment (JRE). The JRE is the on-disk part of Java that spawns a running JVM.
 
-### **A JVM instance**
+### **The JVM instance**
 
 -   After the JVM spec has been implemented and released as a software product, you may download and run it as a program.
 
