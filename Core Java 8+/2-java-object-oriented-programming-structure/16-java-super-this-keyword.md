@@ -307,9 +307,9 @@ class CurrentClass { 
     }  
 
     void display2() {  
-  System.out.println("hello display2");  
-  	  //display1();//same as this.m()  
-  this.display1();  
+  	System.out.println("hello display2");  
+     //display1();//same as this.m()  
+  	this.display1();  
     }  
 
 }  
