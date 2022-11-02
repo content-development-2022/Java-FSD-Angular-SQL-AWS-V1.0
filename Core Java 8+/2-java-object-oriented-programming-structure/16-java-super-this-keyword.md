@@ -379,7 +379,7 @@ class Student {
   }  
   
   void display() {  
-    method(this);  
+      method(this);  
   }
   
   public static void main(String args[]) {  
@@ -406,29 +406,29 @@ method is invoked
 ```
 class BClass {  
 
-  AClass obj;   
+    AClass obj;   
   
-  BClass(AClass obj) {  
-    this.obj=obj;  
-  }  
+    BClass(AClass obj) {  
+        this.obj=obj;  
+    }  
   
-  void display() {  
-    System.out.println(obj.data);//using instance variable of AClass class  
-  }
+    void display() {  
+        System.out.println(obj.data);//using instance variable of AClass class  
+    }
   
 }  
   
 class AClass {  
 
-  int data=10;  
+    int data=10;  
   
-  AClass() {  
-   BClass bobj = new BClass(this);  
-   bobj.display();  
-  }  
+    AClass() {  
+        BClass bobj = new BClass(this);  
+        bobj.display();  
+    }  
   
-  public static void main(String args[]) {  
-   AClass aobj = new AClass();  
+    public static void main(String args[]) {  
+        AClass aobj = new AClass();  
   } 
   
 } 
