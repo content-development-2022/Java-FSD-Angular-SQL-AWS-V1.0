@@ -6,7 +6,7 @@
 
 1.1 What is a Class in Java?
 
-1..1.1 Fileds in Java?
+1.1.1 Fields in Java?
 
 1.1.2 What is a method in Java?
 
@@ -343,3 +343,4 @@ There are 3 ways to initialize object in Java.
 1.  https://www.javatpoint.com/object-and-class-in-java
 2.  https://www.geeksforgeeks.org/how-to-create-custom-class-in-java/
 3.  https://www.javatpoint.com/method-in-java
+4.  https://www.tutorialspoint.com/Member-variables-in-Java
