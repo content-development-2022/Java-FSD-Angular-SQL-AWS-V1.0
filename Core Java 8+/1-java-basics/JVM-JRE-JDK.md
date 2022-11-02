@@ -44,7 +44,7 @@
 
     -   The JVM is widely deployed, heavily used, and maintained by some very bright programmers, both corporate and open source.
 
-    -   The [OpenJDK](http://openjdk.java.net/) project started with Sun Microsystems' decision to open-source Java and has continued through Oracle's stewardship.
+    -   The OpenJDK project started with Sun Microsystems' decision to open-source Java and has continued through Oracle's stewardship.
 
 ## **3. The three parts of the JVM**
 
