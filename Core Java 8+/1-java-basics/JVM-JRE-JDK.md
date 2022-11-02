@@ -232,8 +232,8 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 -  JDK (Java Development Kit) is a Kit that provides the environment to develop and execute(run) the Java program. 
 -  JDK is a kit(or package) that includes two things
 
-        1. Development Tools(to provide an environment to develop your java programs)
-        2. JRE (to execute your java program).
+        -   Development Tools(to provide an environment to develop your java programs)
+        -   JRE (to execute your java program).
 -   It physically exists. It contains JRE + development tools.
 -   The JDK contains a private Java Virtual Machine (JVM) and a few other resources such as an interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), etc. to complete the development of a Java Application.
 
