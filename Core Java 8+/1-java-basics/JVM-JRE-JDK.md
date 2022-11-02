@@ -62,7 +62,7 @@ Let's consider each of these.
 
 -   First, the JVM is a software specification.
 
-    -   In a somewhat circular fashion, the JVM spec highlights that its implementation details are not defined within the spec, in order to allow for maximum creativity in its realization.
+-   In a somewhat circular fashion, the JVM spec highlights that its implementation details are not defined within the spec, in order to allow for maximum creativity in its realization.
 
 | What is a software specification?                                                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,31 +70,31 @@ Let's consider each of these.
 
 -   So, all that the JVM has to do is run Java programs correctly.
 
-    -   Sounds simple, and might even look simple from the outside, but it's a massive undertaking, especially given the power and flexibility of the Java language.
+-   Sounds simple, and might even look simple from the outside, but it's a massive undertaking, especially given the power and flexibility of the Java language.
 
 ### **JVM implementations**
 
 -   Implementing the JVM specification results in an actual software program, which is a JVM implementation.
 
-    -   In fact, there are many JVM implementations, both open source and proprietary.
+-   In fact, there are many JVM implementations, both open source and proprietary.
 
-    -   OpenJDK's HotSpot is the JVM reference implementation. It remains one of the most thoroughly tried-and-tested codebases in the world.
+-   OpenJDK's HotSpot is the JVM reference implementation. It remains one of the most thoroughly tried-and-tested codebases in the world.
 
-    -   HotSpot may be the most commonly used JVM, but it is by no means the only one.
+-   HotSpot may be the most commonly used JVM, but it is by no means the only one.
 
-    -   Another interesting and popular implementation is GraalVM which features high performance and support for other, traditionally non-JVM languages like C++ and Rust via the LLVM spec.
+-   Another interesting and popular implementation is GraalVM which features high performance and support for other, traditionally non-JVM languages like C++ and Rust via the LLVM spec.
 
-    -   Typically, you download and install the JVM as a bundled part of a Java Runtime Environment (JRE). The JRE is the on-disk part of Java that spawns a running JVM.
+-   Typically, you download and install the JVM as a bundled part of a Java Runtime Environment (JRE). The JRE is the on-disk part of Java that spawns a running JVM.
 
 ### **A JVM instance**
 
 -   After the JVM spec has been implemented and released as a software product, you may download and run it as a program.
 
-    -   That downloaded program is an instance (or instantiated version) of the JVM.
+-   That downloaded program is an instance (or instantiated version) of the JVM.
 
-    -   Most of the time, when developers talk about "the JVM," we are referring to a JVM instance running in a software development or production environment.
+-   Most of the time, when developers talk about "the JVM," we are referring to a JVM instance running in a software development or production environment.
 
-    -   You might say, "Hey, how much memory is the JVM on that server using?" or, "I can't believe I created a circular call and a stack overflow error crashed my JVM. What a newbie mistake!"
+-   You might say, "Hey, how much memory is the JVM on that server using?" or, "I can't believe I created a circular call and a stack overflow error crashed my JVM. What a newbie mistake!"
 
 ## **4. JVM Architecture**
 
