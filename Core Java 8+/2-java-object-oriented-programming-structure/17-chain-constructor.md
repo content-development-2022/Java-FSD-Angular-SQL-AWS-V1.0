@@ -44,9 +44,15 @@ We can achieve constructor chaining in two ways:
 
 **Syntax:**
 
+~~~
+
 this(); or this(parameters list);
 
+~~~
+
 **Example:**
+
+~~~
 
 public class ConstructorChain
 
@@ -88,8 +94,14 @@ ConstructorChain cc = new ConstructorChain();
 
 }
 
+~~~
+
 **Output:**
+
+~~~
 
 Parameterized constructor called
 
 No argument constructor called
+
+~~~
