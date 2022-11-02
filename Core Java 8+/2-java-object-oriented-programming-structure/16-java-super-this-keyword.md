@@ -226,7 +226,8 @@ class Student {
 
 }  
  
-class TestThis2 {  
+class TestThis2 { 
+ 
     public static void main(String args[]){  
         Student s1 = new Student(111,"ankit",5000f);  
   Student s2 = new Student(112,"sumit",6000f);  
@@ -267,7 +268,8 @@ class Student {
 
 }  
 
-class TestThis3 {  
+class TestThis3 { 
+ 
     public static void main(String args[]) {  
     Student s1 = new Student(111,"ankit",5000f);  
     Student s2=new Student(112,"sumit",6000f);  
@@ -312,7 +314,8 @@ class CurrentClass { 
 
 }  
 
-class TestThis4 {  
+class TestThis4 { 
+ 
     public static void main(String args[]) {  
         CurrentClass hai = new CurrentClass();  
         hai.display2();  
@@ -351,6 +354,7 @@ class Aclass { 
 } 
  
 class TestThis5{  
+
     public static void main(String args[]) {  
   Aclass value = new Aclass(10);  
     }
@@ -381,7 +385,8 @@ class Aclass {  
 
 } 
  
-class TestThis6 {  
+class TestThis6 { 
+ 
     public static void main(String args[]) {  
   Aclass value = new Aclass();  
     }
