@@ -220,28 +220,21 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 
 ## **3. What is JRE?**
 
--   JRE is an acronym for Java Runtime Environment.
--   It is also written as Java RTE.
--   The Java Runtime Environment is a set of software tools which are used for developing Java applications.
--   It is used to provide the runtime environment.
--   It is the implementation of JVM.
--   It physically exists.
--   It contains a set of libraries + other files that JVM uses at runtime.
--   The implementation of JVM is also actively released by other companies besides Sun Micro Systems.
+-   JRE (Java Runtime Environment) is an installation package that provides an environment to only run(not develop) the java program(or application) in your machine. -   JRE is only used by those who only want to run Java programs that are end-users of your system.
+-   JRE is also written as Java RTE (RunTime Environment).
+-   Practically speaking, a runtime environment is a piece of software that is designed to run other software. 
+-   As the runtime environment for Java, the JRE contains the Java class libraries, the Java class loader, and the Java Virtual Machine. 
 
 ![](media/ebfe42075cd31c834deef2254d669973.png)
 
 ## **4. What is JDK?**
 
--   JDK is an acronym for Java Development Kit.
--   The Java Development Kit (JDK) is a software development environment which is used to develop Java applications and applets.
+-  1. JDK (Java Development Kit) is a Kit that provides the environment to develop and execute(run) the Java program. 
+-  JDK is a kit(or package) that includes two things
+
+        - Development Tools(to provide an environment to develop your java programs)
+        - JRE (to execute your java program).
 -   It physically exists. It contains JRE + development tools.
-
-**JDK is an implementation of any one of the below given Java Platforms released by Oracle Corporation:**
-
-1.  Standard Edition Java Platform
-2.  Enterprise Edition Java Platform
-3.  Micro Edition Java Platform
 -   The JDK contains a private Java Virtual Machine (JVM) and a few other resources such as an interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), etc. to complete the development of a Java Application.
 
 ![](media/5035bff8e46d446cf4b80a747a2f9534.png)
