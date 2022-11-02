@@ -10,7 +10,7 @@
 
 4.  What is JRE (Java Runtime Environment)?
 
-5.  What is the JDK (Java Development Kit)?
+5.  What is JDK (Java Development Kit)?
 
 ## **1. What is JVM (Java Virtual Machine)?**
 
@@ -217,3 +217,37 @@ As shown in the above architecture diagram, the JVM is divided into three main s
     4.  **Java Native Interface (JNI):** JNI will be interacting with the Native Method Libraries and provides the Native Libraries required for the Execution Engine.
 
     5.  **Native Method Libraries:** This is a collection of the Native Libraries, which is required for the Execution Engine.
+
+## **3. What is JRE?**
+
+-   JRE is an acronym for Java Runtime Environment.
+-   It is also written as Java RTE.
+-   The Java Runtime Environment is a set of software tools which are used for developing Java applications.
+-   It is used to provide the runtime environment.
+-   It is the implementation of JVM.
+-   It physically exists.
+-   It contains a set of libraries + other files that JVM uses at runtime.
+-   The implementation of JVM is also actively released by other companies besides Sun Micro Systems.
+
+![](media/ebfe42075cd31c834deef2254d669973.png)
+
+## **4. What is JDK?**
+
+-   JDK is an acronym for Java Development Kit.
+-   The Java Development Kit (JDK) is a software development environment which is used to develop Java applications and applets.
+-   It physically exists. It contains JRE + development tools.
+
+**JDK is an implementation of any one of the below given Java Platforms released by Oracle Corporation:**
+
+1.  Standard Edition Java Platform
+2.  Enterprise Edition Java Platform
+3.  Micro Edition Java Platform
+-   The JDK contains a private Java Virtual Machine (JVM) and a few other resources such as an interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), etc. to complete the development of a Java Application.
+
+![](media/5035bff8e46d446cf4b80a747a2f9534.png)
+
+## **5. References**
+
+1.  https://www.javatpoint.com/difference-between-jdk-jre-and-jvm
+2.  https://www.javatpoint.com/jvm-java-virtual-machine
+
