@@ -145,6 +145,7 @@ class Car extends Vehicle {
         return wheels;
     }
 }
+
 class WagonR extends Car {
     private int seats;
     
