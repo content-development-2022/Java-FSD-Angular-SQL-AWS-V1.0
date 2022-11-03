@@ -79,8 +79,6 @@ class <class_name>{  
 }  
 ```
 
-![](media/1d4b6e410f81b241660d1dfe4e9db898.png)
-
 ## 2.1 Fields in Java
 
 The fields in class are known as instance variables
