@@ -34,36 +34,43 @@ If we wish to use constructor chaining in Java, we have to follow the below guid
 
 **Example:**
 
-```
+```java
 class Main {
-public static void main(String args[]) {
-    Employee employee = new Employee(); // calling the 1st constructor
-    System.out.println("Employee Name: " + employee.getName());
-   System.out.println("Employee ID: " + employee.getEmpID());
+    public static void main(String args[]) {
+        Employee employee = new Employee(); // calling the 1st constructor
+        System.out.println("Employee Name: " + employee.getName());
+        System.out.println("Employee ID: " + employee.getEmpID());
+    }
 }
-}
+
 class Employee{
-private String name;
-private int empID;
-// 1st constructor
-public Employee(){
-this("NULL"); // calling the 2nd constructor
-}
-// 2nd constructor
-public Employee(String name){
-this(name, 0); // calling the 3rd constructor
-}
-// 3rd constructor
-public Employee(String name, int empID){ // fully parameterized constructor
-this.name = name;
-this.empID = empID;
-}
-public String getName(){
-return name;
-}
-public int getEmpID(){
-return empID;
-}
+
+    private String name;
+    private int empID;
+    
+    // 1st constructor
+    public Employee() {
+        this("NULL"); // calling the 2nd constructor
+    }
+    
+    // 2nd constructor
+    public Employee(String name) {
+        this(name, 0); // calling the 3rd constructor
+    }
+    
+    // 3rd constructor
+    public Employee(String name, int empID) { // fully parameterized constructor
+        this.name = name;
+        this.empID = empID;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public int getEmpID(){
+        return empID;
+    }
 }
 ```
 
@@ -86,58 +93,64 @@ The objective of a sub-class constructor is to invoke the parent class's constru
 
 **Example Java Program:**
 
-```
+```java
 class Main {
-public static void main(String args[]) {
-WagonR car1 = new WagonR("WagonR 2022", "Automobile", 4, 4, 5);
-System.out.println("Vehicle name: " + car1.getName());
-System.out.println("Vehicle type: " + car1.getType());
-System.out.println("Car doors: " + car1.getDoors());
-System.out.println("Car wheels: " + car1.getWheels());
-System.out.println("WagonR seats: " + car1.getSeats());
-}
+    public static void main(String args[]) {
+        WagonR car1 = new WagonR("WagonR 2022", "Automobile", 4, 4, 5);
+        System.out.println("Vehicle name: " + car1.getName());
+        System.out.println("Vehicle type: " + car1.getType());
+        System.out.println("Car doors: " + car1.getDoors());
+        System.out.println("Car wheels: " + car1.getWheels());
+        System.out.println("WagonR seats: " + car1.getSeats());
+    }
 }
 class Vehicle{
-private String name;
-private String type;
-public Vehicle(String name, String type) {
-this.name = name;
-this.type = type;
-System.out.println("Vehicle constructor invoked!");
+    private String name;
+    private String type;
+    public Vehicle(String name, String type) {
+        this.name = name;
+        this.type = type;
+        System.out.println("Vehicle constructor invoked!");
+    }
+    public String getName() {
+        return name;
+    }
+    public String getType() {
+        return type;
+    }
 }
-public String getName(){
-return name;
+class Car extends Vehicle {
+
+    private int doors;
+    private int wheels;
+    
+    public Car(String name, String type, int doors, int wheels) {
+        super(name, type); // Vehicle class constructor is called
+        this.doors = doors;
+        this.wheels = wheels;
+        System.out.println("Car constructor invoked!");
+    }
+    
+    public int getDoors() {
+        return doors;
+    }
+    
+    public int getWheels() {
+        return wheels;
+    }
 }
-public String getType(){
-return type;
-}
-}
-class Car extends Vehicle{
-private int doors;
-private int wheels;
-public Car(String name, String type, int doors, int wheels){
-super(name, type); // Vehicle class constructor is called
-this.doors = doors;
-this.wheels = wheels;
-System.out.println("Car constructor invoked!");
-}
-public int getDoors(){
-return doors;
-}
-public int getWheels(){
-return wheels;
-}
-}
-class WagonR extends Car{
-private int seats;
-public WagonR(String name, String type, int doors, int wheels, int seats){
-super(name, type, doors, wheels); // Car class constructor is called
-this.seats = seats;
-System.out.println("WagonR constructor invoked!");
-}
-public int getSeats(){
-return seats;
-}
+class WagonR extends Car {
+    private int seats;
+    
+    public WagonR(String name, String type, int doors, int wheels, int seats) {
+        super(name, type, doors, wheels); // Car class constructor is called
+        this.seats = seats;
+        System.out.println("WagonR constructor invoked!");
+    }
+    
+    public int getSeats() {
+        return seats;
+    }
 }
 ```
 
