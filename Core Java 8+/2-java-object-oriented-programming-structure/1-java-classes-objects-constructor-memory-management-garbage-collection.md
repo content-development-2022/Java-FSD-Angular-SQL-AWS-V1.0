@@ -95,8 +95,8 @@ The fields in class are known as instance variables
 
 **Syntax:**
 
-```
-dataType variableName;
+```java
+datatype variableName;
 ```
 
 ## 2.2 What is a method in Java?
@@ -113,7 +113,7 @@ dataType variableName;
 
 Syntax: Declare a method
 
-```
+```java
 access_modifier return_type method_name( list_of_parameters) {
 
  //body of method
@@ -167,7 +167,7 @@ access_modifier return_type method_name( list_of_parameters) {
 
 **Example:**
 
-```
+```java
 public class Addition {
     public static void main(String[] args) {
     int a = 19;
