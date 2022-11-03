@@ -157,7 +157,7 @@ a - a floating-point value to be rounded to an integer.
 
 the value of the argument rounded to the nearest int value.
 
-Special cases:
+**Special cases:**
 
 -   If the argument is NaN, the result is 0.
     -   If the argument is negative infinity or any value less than or equal to the value of Integer.MIN_VALUE, the result is equal to the value of Integer.MIN_VALUE.
@@ -166,6 +166,10 @@ Special cases:
 ## 6) random
 
 >   `public static double random()`
+
+**Returns:**
+
+a pseudorandom double greater than or equal to 0.0 and less than 1.0.
 
 The positive square root of a. If the argument is NaN or less than zero, the result is NaN.
 
@@ -176,10 +180,6 @@ The positive square root of a. If the argument is NaN or less than zero, the res
 
 -   This new pseudorandom-number generator is used thereafter for all calls to this method and is used nowhere else.
 -   This method is properly synchronized to allow correct use by more than one thread. However, if many threads need to generate pseudorandom numbers at a great rate, it may reduce contention for each thread to have its own pseudorandom-number generator.
-
-**Returns:**
-
-a pseudorandom double greater than or equal to 0.0 and less than 1.0.
 
 ## 7) sqrt
 
@@ -193,7 +193,7 @@ a – a value
 
 Returns the correctly rounded positive square root of a double value.
 
-Special cases:
+**Special cases:**
 
 -   If the argument is NaN or less than zero, then the result is NaN.
     -   If the argument is positive infinity, then the result is positive infinity.
