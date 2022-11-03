@@ -31,7 +31,7 @@ Java provides specific keywords for exception handling purposes.
 
 **An Exception Handling Example**
 
-```
+```java
 package com.journaldev.exceptions;
 import java.io.FileNotFoundException;
 import java.io.IOException;
