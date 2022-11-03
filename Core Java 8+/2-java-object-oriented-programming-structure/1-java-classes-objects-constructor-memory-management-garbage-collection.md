@@ -72,7 +72,7 @@
 
 **Syntax:**
 
-```
+```java
 class <class_name>{  
     field;  
     method;  
