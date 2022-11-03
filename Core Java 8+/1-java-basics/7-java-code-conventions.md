@@ -38,7 +38,7 @@ Code conventions are important to programmers for a number of reasons:
 -   A file consists of sections that should be separated by blank lines and an optional comment identifying each section.
 -   Files longer than 2000 lines are cumbersome and should be avoided.
 
-## 2.1 Java Source Files
+### 2.1 Java Source Files
 
 -   Each Java source file contains a single public class or interface.
 -   When private classes and interfaces are associated with a public class, you can put them in the same source file as the public class.
@@ -50,13 +50,13 @@ Code conventions are important to programmers for a number of reasons:
 -   Package and Import statements
 -   Class and interface declarations
 
-## 2.1.1 Beginning Comments
+#### 2.1.1 Beginning Comments
 
 -   All source files should begin with a c-style comment that lists the class name, version information, date, and copyright notice:
 
 #### ![](media/6b1811d6d11ce4f179184a60d945c5f8.png)
 
-## 2.1.2 Package and Import Statements
+#### 2.1.2 Package and Import Statements
 
 -   The first non-comment line of most Java source files is a package statement.
 -   After that, import statements can follow.
@@ -65,7 +65,7 @@ Code conventions are important to programmers for a number of reasons:
 
 #### ![](media/6494700040ddce0fb3921f2bd2d63442.png)
 
-## 2.1.3 Class and Interface Declarations
+#### 2.1.3 Class and Interface Declarations
 
 -   The following table describes the parts of a class or interface declaration, in the order that they should appear.
 
@@ -85,13 +85,13 @@ Code conventions are important to programmers for a number of reasons:
 -   The exact construction of the indentation (spaces vs. tabs) is unspecified.
 -   Tabs must be set exactly every 8 spaces (not 4).
 
-## 3.1 Line Length
+### 3.1 Line Length
 
 -   Avoid lines longer than 80 characters, since they're not handled well by many terminals and tools.
 
 **Note:** Examples for use in documentation should have a shorter line length-generally no more than 70 characters.
 
-## 3.2 Wrapping Lines
+### 3.2 Wrapping Lines
 
 When an expression will not fit on a single line, break it according to these general principles:
 
@@ -113,13 +113,13 @@ When an expression will not fit on a single line, break it according to these ge
 -   The comments can be used to provide information or explanation about the variable, method, class, or any statement.
 -   It can also be used to prevent the execution of program code while testing the alternative code.
 
-## 4.1. Types of Java Comments
+### 4.1. Types of Java Comments
 
 **There are three types of comments in Java.**
 
 ![](media/5da2cd019b0110b2f023e6fa02ec6aec.png)
 
-## 4.1.1 Single Line Comment
+#### 4.1.1 Single Line Comment
 
 -   The single-line comment is used to comment only one line of the code.
 -   It is the widely used and easiest way of commenting the statements.
@@ -138,7 +138,7 @@ When an expression will not fit on a single line, break it according to these ge
 
 ![](media/ad5c76f06accdf9b254bc89c3d7901e0.png)
 
-## 4.1.2 Multi Line Comment
+#### 4.1.2 Multi Line Comment
 
 -   The multi-line comment is used to comment multiple lines of code.
 -   It can be used to explain a complex code snippet or to comment multiple lines of code at a time (as it will be difficult to use single-line comments there).
@@ -158,7 +158,7 @@ When an expression will not fit on a single line, break it according to these ge
 
 ![](media/bed6cee1cc717f0d94efb927d45b50c2.png)
 
-## 4.1.3 Documentation Comment
+#### 4.1.3 Documentation Comment
 
 -   Documentation comments are usually used to write large programs for a project or software application as it helps to create documentation API.
 -   These APIs are needed for reference, i.e., which classes, methods, arguments, etc., are used in the code.
@@ -190,7 +190,7 @@ When an expression will not fit on a single line, break it according to these ge
 
 ## 5. Declarations
 
-## 5.1 Number per Line
+### 5.1 Number per Line
 
 -   One declaration per line is recommended since it encourages commenting.
 
@@ -216,12 +216,12 @@ int foo, fooarray[]; //WRONG!
 
 **![](media/cf02d2108b291bee0200677945313830.png)**
 
-## 5.2 Initialization
+### 5.2 Initialization
 
 -   Try to initialize local variables where they're declared.
 -   The only reason not to initialize a variable where it's declared is if the initial value depends on some computation occurring first.
 
-## 5.3 Placement
+### 5.3 Placement
 
 -   Put declarations only at the beginning of blocks. (A block is any code surrounded by curly braces "{" and "}".)
 -   Don't wait to declare variables until their first use; it can confuse the unwary programmer and hamper code portability within the scope.
@@ -250,7 +250,7 @@ for (int i = 0; i \< maxLoops; i++) { ... }
     
     }
 
-## 5.4 Class and Interface Declarations
+### 5.4 Class and Interface Declarations
 
 When coding Java classes and interfaces, the following formatting rules should be followed:
 
@@ -266,7 +266,7 @@ Methods are separated by a blank line
 
 ## 6. Statements
 
-## 6.1 Simple Statements
+### 6.1 Simple Statements
 
 -   Each line should contain at most one statement.
 
@@ -278,7 +278,7 @@ argc--; // Correct
 
 argv++; argc--; // AVOID!
 
-## 6.2 Compound Statements
+### 6.2 Compound Statements
 
 -   Compound statements are statements that contain lists of statements enclosed in braces "{ statements }".
 
@@ -288,7 +288,7 @@ See the following sections for examples.
 -   The opening brace should be at the end of the line that begins the compound statement; the closing brace should begin a line and be indented to the beginning of the compound statement.
 -   Braces are used around all statements, even single statements, when they are part of a control structure, such as an if-else or for statement. This makes it easier to add statements without accidentally introducing bugs due to forgetting to add braces.
 
-## 6.3 return Statements
+### 6.3 return Statements
 
 -   A return statement with a value should not use parentheses unless they make the return value more obvious in some way.
 
@@ -302,7 +302,7 @@ return (size ? size : defaultSize);
 
 ## 7. White Space
 
-## 7.1 Blank Lines
+### 7.1 Blank Lines
 
 -   Blank lines improve readability by setting off sections of code that are logically related.
 
@@ -318,7 +318,7 @@ return (size ? size : defaultSize);
 -   Before a block or single-line comment
 -   Between logical sections inside a method to improve readability
 
-## 7.2 Blank Spaces
+### 7.2 Blank Spaces
 
 **Blank spaces should be used in the following circumstances:**
 
@@ -365,14 +365,14 @@ for (expr1; expr2; expr3)
 
 ## 9. Programming Practices
 
-## 9.1 Providing Access to Instance and Class Variables
+### 9.1 Providing Access to Instance and Class Variables
 
 -   Don't make any instance or class variable public without good reason.
 -   Often, instance variables don't need to be explicitly set or gotten-often that happens as a side effect of method calls.
 -   Example of appropriate public instance variables is the case where the class is essentially a data structure, with no behavior.
 -   In other words, if you would have used a struct instead of a class (if Java supported struct), then it's appropriate to make the class's instance variables public.
 
-## Referring to Class Variables and Methods
+### 9.2  Referring to Class Variables and Methods
 
 -   Avoid using an object to access a class (static) variable or method. Use a class name instead.
 
@@ -384,11 +384,11 @@ AClass.classMethod(); //OK
 
 anObject.classMethod(); //AVOID!
 
-## 9.3 Constants
+### 9.3 Constants
 
 -   Numerical constants (literals) should not be coded directly, except for -1, 0, and 1, which can appear in a for loop as counter values.
 
-## 9.4 Variable Assignments
+### 9.4 Variable Assignments
 
 -   Avoid assigning several variables to the same value in a single statement.
 -   It is hard to read.
@@ -427,9 +427,9 @@ a = b + c;
 
 d = a + r;
 
-## 9.5 Miscellaneous Practices
+### 9.5 Miscellaneous Practices
 
-## 9.5.1 Parentheses
+#### 9.5.1 Parentheses
 
 -   It is generally a good idea to use parentheses liberally in expressions involving mixed operators to avoid operator precedence problems.
 -   Even if the operator precedence seems clear to you, it might not be to others-you shouldn't assume that other programmers know precedence as well as you do.
@@ -438,7 +438,7 @@ if (a == b && c == d) // AVOID!
 
 if ((a == b) && (c == d)) // RIGHT
 
-## 9.5.2 Returning Values
+#### 9.5.2 Returning Values
 
 -   Try to make the structure of your program match the intent.
 
@@ -458,7 +458,7 @@ should be written as
 
 ![](media/22a3a46136190d994b3d1f433ea9c024.png)
 
-## 10.5.3 Expressions before \`?' in the Conditional Operator
+#### 9.5.3 Expressions before \`?' in the Conditional Operator
 
 -   If an expression containing a binary operator appears before the ? in the ternary ?: operator, it should be parenthesized.
 
@@ -466,7 +466,7 @@ should be written as
 
 (x \>= 0) ? x : -x;
 
-## 11. References
+## 10. References
 
 1.  https://www.javatpoint.com/java-comments
 2.  https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html
