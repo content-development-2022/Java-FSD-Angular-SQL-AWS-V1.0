@@ -79,8 +79,6 @@ class <class_name>{  
 }  
 ```
 
-![](media/1d4b6e410f81b241660d1dfe4e9db898.png)
-
 ## 2.1 Fields in Java
 
 The fields in class are known as instance variables
@@ -97,7 +95,7 @@ The fields in class are known as instance variables
 
 **Syntax:**
 
-```
+```java
 dataType variableName;
 ```
 
@@ -115,7 +113,7 @@ dataType variableName;
 
 Syntax: Declare a method
 
-```
+```java
 access_modifier return_type method_name( list_of_parameters) {
 
  //body of method
@@ -169,7 +167,7 @@ access_modifier return_type method_name( list_of_parameters) {
 
 **Example:**
 
-```
+```java
 public class Addition {
     public static void main(String[] args) {
     int a = 19;
