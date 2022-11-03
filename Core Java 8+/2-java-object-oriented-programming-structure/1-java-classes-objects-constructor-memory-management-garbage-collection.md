@@ -95,9 +95,7 @@ The fields in class are known as instance variables
 
 **Syntax:**
 
-```
-datatype variableName;
-```
+>   `datatype variableName;`
 
 ## 2.2 What is a method in Java?
 
