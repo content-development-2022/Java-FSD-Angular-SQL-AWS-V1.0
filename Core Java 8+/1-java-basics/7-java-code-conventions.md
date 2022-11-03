@@ -222,19 +222,24 @@ When an expression will not fit on a single line, break it according to these ge
 
 -   One declaration per line is recommended since it encourages commenting.
 
-**int level; // indentation level**
-
-**int size; // size of table**
+```java
+int level; // indentation level
+int size; // size of table
+```
 
 is preferred over
 
-**int level, size;**
+```java
+int level, size;
+```
 
 -   Do not put different types on the same line.
 
 **Example:**
 
+```java
 int foo, fooarray[]; //WRONG!
+```
 
 **Note:** The examples above use one space between the type and the identifier.
 
@@ -260,7 +265,9 @@ int foo, fooarray[]; //WRONG!
 
 -   The one exception to the rule is indexes of for loops, which in Java can be declared in the for statement:
 
-for (int i = 0; i \< maxLoops; i++) { ... }
+```java
+for (int i = 0; i < maxLoops; i++) { ... }
+```
 
 \</blockquote\>
 
@@ -270,15 +277,11 @@ for (int i = 0; i \< maxLoops; i++) { ... }
 
 ## ![](media/f51225927b81f15245447bdd354ef35a.png)
 
-```
+```java
 int count = 0;
-
 if(condition) {
-
     int count = 0;
-
     ...
-
 }
 ```
 
@@ -306,11 +309,11 @@ Methods are separated by a blank line
 
 **Example:**
 
+```java
 argv++; // Correct
-
 argc--; // Correct
-
 argv++; argc--; // AVOID!
+```
 
 ### 6.2 Compound Statements
 
@@ -330,9 +333,11 @@ See the following sections for examples.
 
 **Example:**
 
-return;return myDisk.size();
-
+```java
+return;
+return myDisk.size();
 return (size ? size : defaultSize);
+```
 
 -   For more information, [click here](https://www.oracle.com/java/technologies/javase/codeconventions-statements.html).
 
@@ -514,8 +519,6 @@ should instead be written as
 ```java
 return booleanExpression;
 ```
-
-![](media/0fb625ae4af23a64344885762e1014ff.png)
 
 Similarly,
 
