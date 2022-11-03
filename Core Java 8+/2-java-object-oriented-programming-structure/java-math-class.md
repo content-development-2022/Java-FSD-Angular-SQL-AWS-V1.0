@@ -26,14 +26,14 @@ a - a value.
 
 -   The largest (closest to positive infinity) floating-point value that less than or equal to the argument and is equal to a mathematical integer.
 
-Special cases:
+**Special cases:**
 
 -   If the argument value is already equal to a mathematical integer, then the result is the same as the argument.
     -   If the argument is NaN or an infinity or positive zero or negative zero, then the result is the same as the argument.
 
 ## 2) max
 
->   public static double max(double a, double b)
+>   `public static double max(double a, double b)`
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ the larger of a and b.
 
 ## 3) min
 
->   public static int min(int a, int b)
+>   `public static int min(int a, int b)`
 
 **Parameters:**
 
@@ -68,7 +68,7 @@ the smaller of a and b.
 
 ## 4) pow
 
->   public static double pow(double a, double b)
+>   `public static double pow(double a, double b)`
 
 **Parameters:**
 
@@ -147,7 +147,7 @@ Returns the value of the first argument raised to the power of the second argume
 
 ## 5) round
 
->   public static int round(float a)
+>   `public static int round(float a)`
 
 **Parameters:**
 
@@ -165,7 +165,7 @@ Special cases:
 
 ## 6) random
 
->   public static double random()
+>   `public static double random()`
 
 The positive square root of a. If the argument is NaN or less than zero, the result is NaN.
 
@@ -183,7 +183,7 @@ a pseudorandom double greater than or equal to 0.0 and less than 1.0.
 
 ## 7) sqrt
 
->   public static double sqrt(double a)
+>   `public static double sqrt(double a)`
 
 **Parameters:**
 
@@ -203,7 +203,7 @@ Otherwise, the result is the double value closest to the true mathematical squar
 
 ## 8) abs
 
->   public static int abs(int a)
+>   `public static int abs(int a)`
 
 **Parameters:**
 
