@@ -18,9 +18,21 @@
 
 1.7 Transient Non-Access Modifier
 
-1.8 Conclusion
+2\. Wrapper Classes
 
-2\. References
+2.1 Creating Wrapper Objects
+
+3\. What is a Console?
+
+4\. Java Scanner Class
+
+4.1 Methods in scanner class
+
+4.2 Advantages of scanner class
+
+4.3 Disadvantages of scanner class
+
+5\. References
 
 ## 1. Introduction to Non-Access Modifiers in Java
 
@@ -200,11 +212,125 @@
 
 ![](media/31aad6686abc565fa215a7b20111e5a7.png)
 
-## 1.8 Conclusion
+## 2. Wrapper Classes
 
--   Non-access modifiers are the type of modifiers that tell JVM about the behavior of classes, methods, or variables defined and prepared accordingly.
--   It also helps in synchronizing the flow as well as displaying similar results from operations being performed irrespective of the platform used for execution.
+-   The eight primitive data types byte, short, int, long, float, double, char and boolean are not objects, **Wrapper classes are used for converting primitive data types into objects.**
+-   The table below shows the primitive type and the equivalent wrapper class:
 
-## 2. References
+![](media/4b45b88dd3e7f552e63814a6b8f7e1cf.png)
+
+-   Sometimes you must use wrapper classes, for example when working with Collection objects, such as ArrayList, where primitive types cannot be used (the list can only store objects):
+
+**Example**
+
+![](media/d7b3d68bed63fe327d75e1052b7e8481.png)
+
+## 2.1 Creating Wrapper Objects
+
+-   To create a wrapper object, use the wrapper class instead of the primitive type.
+-   To get the value, you can just print the object:
+
+**Example-1:**
+
+![](media/0dfec0df31729bb85615e52ec5ecd8ef.png)
+
+**Output:**
+
+![](media/28039c0a06538e2e23e19790e385d6e7.png)
+
+-   Since you're now working with objects, you can use certain methods to get information about the specific object.
+-   For example, the following methods are used to get the value associated with the corresponding wrapper object: intValue(), byteValue(), shortValue(), longValue(), floatValue(), doubleValue(), charValue(), booleanValue().
+-   This example will output the same result as the example above:
+
+**Example-2:**
+
+![](media/f958aa3c4fd57b4c5d5543b2ea2b9a21.png)
+
+**Output:**
+
+![](media/28c17da75dc7c152a810feb9e3fc2fe6.png)
+
+-   Another useful method is the **toString()** method, which is used to convert wrapper objects to strings.
+-   In the following example, we convert an Integer to a String, and use the length() method of the String class to output the length of the "string".
+
+**Example-3:**
+
+![](media/dcb49015edc0124df20371662266d02a.png)
+
+**Output:**
+
+![](media/a45688217e7111c263c0b3780f4256ca.png)
+
+## 3. What is a Console?
+
+-   To run a program, we might need input from the programmer or user according to the requirement.
+-   We cannot always take input just from the program. Sometimes, we can take the input from the console or terminal too.
+-   The process of taking input from the console is introduced by the concept of Java Console.
+-   Java programming language provides three ways in order to take input from the console and provide its corresponding output on the same console.
+1.  Using Java Scanner class (Basic level)
+2.  Using Java BufferedReader class (Intermediate level)
+3.  Using Java Console class
+
+**Note:** In this document we only discuss the scanner class.
+
+## 4. Java Scanner Class
+
+-   Java **Scanner class** allows the user to take input from the console.
+-   It belongs to **java.util** package.
+-   It is used to read the input of primitive types like int, double, long, short, float, and byte.
+-   It is the easiest way to read input in Java program.
+
+**Syntax**
+
+![](media/b23e3d06dd2a804eeb1e26b02886d1d0.png)
+
+-   Here, " Scanner " is considered as a class and " sc " is an object that is created within a class.
+-   So, in order to scan any input in the entire program, we can use this object that is created in the " Scanner " class.
+-   The above statement creates a constructor of the Scanner class having **System.in** as an argument.
+-   It means it is going to read from the standard input stream of the program.
+-   The **java.util** package should be import while using Scanner class.
+
+## 4.1 Methods in scanner class
+
+-   There are different methods used for scanning different data types.
+-   The type of method that we consider depends on the data type of the input that we want to take.
+-   There are eight methods in the Scanner class, as there are eight general Primitive data types.
+
+![](media/65d2b7a47a56f1b0e105f11c9551ae4c.png)
+
+**Example-1: Integer input from user**
+
+-   The following example allows user to read an integer form the System.in.
+
+![](media/cac7bdbe5f4c1f818d6fa23a0c8c9278.png)
+
+**Output:**
+
+![](media/ab9ad1b068c9918d3772cb02cebdcabb.png)
+
+**Example-2: String input from user**
+
+-   Let's see another example, in which we have taken string input.
+
+![](media/99c402913c1cb773222eba5eed958293.png)
+
+**Output:**
+
+![](media/e8bac996fc4855dc39e193f584ba4053.png)
+
+## 4.2 Advantages of scanner class
+
+-   This class provides several methods according to the data type used and that match the user's requirement.
+-   It is the basic class used to scan an input that runs on almost all versions of Java.
+
+## 4.3 Disadvantages of scanner class
+
+-   It runs and executes a little slower as the data must be parsed before being executed.
+-   The methods that are part of the class " Scanner " are not synchronized.
+
+## 5. References
 
 1.  https://www.educba.com/non-access-modifiers-in-java/
+2.  https://www.w3schools.com/java/java_wrapper_classes.asp
+3.  https://www.javatpoint.com/how-to-get-input-from-user-in-java
+4.  https://www.javatpoint.com/console-in-java
