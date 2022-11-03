@@ -72,13 +72,12 @@
 
 **Syntax:**
 
->   **class** \<class_name\>{
-
->   field;
-
->   method;
-
->   }
+```
+class <class_name>{  
+    field;  
+    method;  
+}  
+```
 
 ![](media/1d4b6e410f81b241660d1dfe4e9db898.png)
 
