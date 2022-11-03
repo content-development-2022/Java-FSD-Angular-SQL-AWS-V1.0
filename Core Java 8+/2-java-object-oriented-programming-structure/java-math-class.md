@@ -2,11 +2,17 @@
 
 **Content**
 
-## Class Math
+1\. Class Math
+
+1.1 Math Method
+
+2\. References
+
+## 1. Class Math
 
 -   The class Math contains methods for performing basic numeric operations such as the elementary exponential, logarithm, square root, and trigonometric functions.
 
-## Math Method
+## 1.1 Math Method
 
 ## 1) floor
 
@@ -62,7 +68,17 @@ the smaller of a and b.
 
 ## 4) pow
 
--   public static double pow(double a, double b)
+>   public static double pow(double a, double b)
+
+**Parameters:**
+
+a - the base.
+
+b - the exponent.
+
+**Returns:**
+
+The value ab.
 
 Returns the value of the first argument raised to the power of the second argument. Special cases:
 
@@ -125,19 +141,9 @@ Returns the value of the first argument raised to the power of the second argume
         -   if the second argument is finite and not an integer, then the result is NaN.
     -   If both arguments are integers, then the result is exactly equal to the mathematical result of raising the first argument to the power of the second argument if that result can in fact be represented exactly as a double value.
 
-(In the foregoing descriptions, a floating-point value is considered to be an integer if and only if it is finite and a fixed point of the method [ceil](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#ceil-double-) or, equivalently, a fixed point of the method [floor](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#floor-double-). A value is a fixed point of a one-argument method if and only if the result of applying the method to the value is equal to the value.)
+(In the foregoing descriptions, a floating-point value is considered to be an integer if and only if it is finite and a fixed point of the method ceil or, equivalently, a fixed point of the method floor. A value is a fixed point of a one-argument method if and only if the result of applying the method to the value is equal to the value.)
 
-The computed result must be within 1 ulp of the exact result. Results must be semi-monotonic.
-
-**Parameters:**
-
-a - the base.
-
-b - the exponent.
-
-**Returns:**
-
-the value ab.
+-   The computed result must be within 1 ulp of the exact result. Results must be semi-monotonic.
 
 ## 5) round
 
@@ -161,13 +167,7 @@ Special cases:
 
 >   public static double random()
 
-**Parameters:**
-
-a - a value.
-
-**Returns:**
-
-the positive square root of a. If the argument is NaN or less than zero, the result is NaN.
+The positive square root of a. If the argument is NaN or less than zero, the result is NaN.
 
 -   Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0. Returned values are chosen pseudorandomly with (approximately) uniform distribution from that range.
 -   When this method is first called, it creates a single new pseudorandom-number generator, exactly as if by the expression
@@ -185,7 +185,15 @@ a pseudorandom double greater than or equal to 0.0 and less than 1.0.
 
 >   public static double sqrt(double a)
 
-Returns the correctly rounded positive square root of a double value. Special cases:
+**Parameters:**
+
+a – a value
+
+**Returns:**
+
+Returns the correctly rounded positive square root of a double value.
+
+Special cases:
 
 -   If the argument is NaN or less than zero, then the result is NaN.
     -   If the argument is positive infinity, then the result is positive infinity.
@@ -195,7 +203,7 @@ Otherwise, the result is the double value closest to the true mathematical squar
 
 ## 8) abs
 
-public static int abs(int a)
+>   public static int abs(int a)
 
 **Parameters:**
 
@@ -203,13 +211,13 @@ a - the argument whose absolute value is to be determined
 
 **Returns:**
 
-the absolute value of the argument.
+The absolute value of the argument.
 
-Returns the absolute value of an int value. If the argument is not negative, the argument is returned. If the argument is negative, the negation of the argument is returned.
+-   If the argument is not negative, the argument is returned. If the argument is negative, the negation of the argument is returned.
 
-Note that if the argument is equal to the value of Integer.MIN_VALUE, the most negative representable int value, the result is that same value, which is negative.
+**Note** that if the argument is equal to the value of Integer. MIN_VALUE, the most negative representable int value, the result is that same value, which is negative.
 
-To know more information about math methods [clickhere](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#floor-double-).
+-   To know more information about math methods [click here](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#floor-double-).
 
 ## 2. References
 
