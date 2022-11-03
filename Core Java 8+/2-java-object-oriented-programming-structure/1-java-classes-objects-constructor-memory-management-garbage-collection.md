@@ -68,7 +68,7 @@
 
 **A class in Java can contain:**
 
-![](media/8b3c86f772007314c17f53851c043386.png)
+![](media/class-syntax.png)
 
 **Syntax:**
 
