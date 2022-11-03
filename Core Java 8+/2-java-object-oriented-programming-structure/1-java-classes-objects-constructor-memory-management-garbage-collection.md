@@ -95,7 +95,7 @@ The fields in class are known as instance variables
 
 **Syntax:**
 
-```java
+```
 datatype variableName;
 ```
 
