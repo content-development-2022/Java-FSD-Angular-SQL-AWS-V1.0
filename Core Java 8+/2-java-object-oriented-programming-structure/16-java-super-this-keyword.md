@@ -456,21 +456,25 @@ return this;  
 
 **Example:**
 
-**```java
+```java
 class AClass {  
+
     AClass getA() {  
         return this;  
     }  
+    
     void msg() {
         System.out.println("Hello java");
     } 
 } 
+
 class Test1 {
+
     public static void main(String args[]) {  
         new AClass().getA().msg();  
     }  
 } 
-```**
+```
 
 **Output:**
 
