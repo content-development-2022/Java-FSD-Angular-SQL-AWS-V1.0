@@ -499,10 +499,32 @@ myarray[1][1] = 1;
 
 -   Strings are used for storing text.
 -   A String variable contains a collection of characters surrounded by double quotes.
+-   The String class represents character strings.
+-   All string literals in Java programs, such as "abc", are implemented as instances of this class.
+-   Strings are constant; their values cannot be changed after they are created.
+-   String buffers support mutable strings. Because String objects are immutable they can be shared.
 
-**Example**
+**Example:**
 
-String greeting = "Hello";
+String str = "abc";
+
+**is equivalent to:**
+
+char data[] = {'a', 'b', 'c'};
+
+String str = new String(data);
+
+Here are some more examples of how strings can be used:
+
+System.out.println("abc");
+
+String cde = "cde";
+
+System.out.println("abc" + cde);
+
+String c = "abc".substring(2,3);
+
+String d = cde.substring(1, 2);
 
 ## 5.1. String Methods
 
@@ -628,3 +650,4 @@ String greeting = "Hello";
 8.  https://www.w3schools.com/java/java_strings_concat.asp
 9.  https://www.w3schools.com/java/java_strings_numbers.asp
 10. https://www.w3schools.com/java/java_strings_specchars.asp
+11. https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html\#charAt(int)
