@@ -456,7 +456,6 @@ return this;  
 
 **Example:**
 ```java
-**
 class AClass {  
 
     AClass getA() {  
@@ -473,7 +472,7 @@ class Test1 {
     public static void main(String args[]) {  
         new AClass().getA().msg();  
     }  
-} **
+} 
 ```
 
 **Output:**
