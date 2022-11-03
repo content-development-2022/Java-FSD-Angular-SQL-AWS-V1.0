@@ -247,7 +247,11 @@ int foo, fooarray[]; //WRONG!
 
 **Example:**
 
-**![](media/cf02d2108b291bee0200677945313830.png)**
+```java
+int     level;          // indentation level
+int     size;            // size of table
+Object  currentEntry;    // currently selected table entry
+```
 
 ### 5.2 Initialization
 
@@ -261,7 +265,15 @@ int foo, fooarray[]; //WRONG!
 
 -   Don't wait to declare variables until their first use; it can confuse the unwary programmer and hamper code portability within the scope.
 
-![](media/dbe5b59e39852f0f1e183fd2d00a373e.png)
+```java
+void myMethod() {
+    int int1 = 0;         // beginning of method block
+    if (condition) {
+        int int2 = 0;     // beginning of "if" block
+        ...
+    }
+}
+```
 
 -   The one exception to the rule is indexes of for loops, which in Java can be declared in the for statement:
 
@@ -269,18 +281,18 @@ int foo, fooarray[]; //WRONG!
 for (int i = 0; i < maxLoops; i++) { ... }
 ```
 
-\</blockquote\>
-
 -   Avoid local declarations that hide declarations at higher levels.
 
 -   For example, do not declare the same variable name in an inner block:
 
-## ![](media/f51225927b81f15245447bdd354ef35a.png)
-
 ```java
-int count = 0;
-if(condition) {
-    int count = 0;
+int count;
+...
+myMethod() {
+    if (condition) {
+        int count = 0;     // AVOID!
+        ...
+    }
     ...
 }
 ```
@@ -297,7 +309,20 @@ When coding Java classes and interfaces, the following formatting rules should b
 
 **Example:**
 
-![](media/c448c3be8a189f0ae5a1e277103832d9.png)
+```java
+class Sample extends Object {
+    int ivar1;
+    int ivar2;
+
+    Sample(int i, int j) {
+        ivar1 = i;
+        ivar2 = j;
+    }
+
+    int emptyMethod() {}
+    ...
+}
+```
 
 Methods are separated by a blank line
 
@@ -373,9 +398,7 @@ return (size ? size : defaultSize);
 
 ```
     while (true) {
-
         ...
-
     }
 ```
 
