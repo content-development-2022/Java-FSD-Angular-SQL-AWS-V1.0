@@ -9,13 +9,13 @@
 -   When we are chaining constructors in a Java program, the first line of a constructor should always start with either this() or super() method according to the type of constructor chaining we want to implement.
 -   We use this() method to call a constructor from another overloaded constructor in the same class, and the super() method to invoke an immediate parent class constructor.
 
-## Why do We Need Constructor Chaining?
+## 1.1 Why do We Need Constructor Chaining?
 
 -   If we want to instantiate objects of a class with different types or numbers of parameters, we require different constructor definitions in the class. These different constructors can be made efficiently using constructor chaining.
 -   Constructor chaining in Java enables us to define various constructors for each task and connect them with links or chains to improve the quality of the code.
 -   If we don't chain constructors together and one of them requires a certain parameter, we'll have to initialize that parameter twice in each constructor.
 
-## Rules for Constructor Chaining
+## 1.2 Rules for Constructor Chaining
 
 If we wish to use constructor chaining in Java, we have to follow the below guidelines:
 
@@ -23,11 +23,11 @@ If we wish to use constructor chaining in Java, we have to follow the below guid
 -   There should be at least one constructor in the class that does not include this() method.
 -   The constructor chaining can be performed in any sequence.
 
-## Ways to Implement Java Constructor Chaining
+## 2 Ways to Implement Java Constructor Chaining
 
 -   There are two ways in which constructor chaining is performed in Java, let's see the two ways below:
 
-## 1. Constructor Chaining Within the Same Class:
+## 2.1 Constructor Chaining Within the Same Class:
 
 -   We make several constructors with a different number of parameters (or with the different data types of parameters) within the same class and make a chain with these constructors using the this() method.
 -   we use this() method to call a constructor from another overloaded constructor in the same class.
@@ -87,7 +87,7 @@ Employee ID: 0
 -   The third constructor initialized the employee object with name containing NULL and empID containing 0.
 -   This series of invoking constructors from other constructors is known as constructor chaining within the same class.
 
-### 2. Constructor Chaining from Parent/Base Class:
+### 2.2 Constructor Chaining from Parent/Base Class:
 
 The objective of a sub-class constructor is to invoke the parent class's constructor first. This ensures that the initialization of the parent class's fields or member variables is performed as the first step in the creation of the sub-class's object. In Java, inheritance chains can contain any number of classes, every sub-class constructor calls up the constructor of the immediate parent class (using the super() method) in a chain until it reaches the top-level class. Let's see a Java example to understand it better:
 
@@ -175,6 +175,6 @@ WagonR seats: 5
 -   In the Car class constructor, we have used super(name, type); method (name contains WagonR 2022 string and type contains Automobile string passed from the Car constructor), which invoked the Vehicle class constructor initializing name and type fields.
 -   The Vehicle class (Top-level) constructor is the first fully executed constructor and after that rest of the code in Car and WagonR constructors is executed respectively. This type of constructor chaining helps in initializing all the fields related to an object in one go.
 
-References
+## 3. References
 
 https://www.scaler.com/topics/constructor-chaining-in-java/
