@@ -2,6 +2,20 @@
 
 **Content**
 
+1\. Constructor Chaining in Java
+
+1.1 Why do We Need Constructor Chaining?
+
+1.2 Rules for Constructor Chaining
+
+2 Ways to Implement Java Constructor Chaining
+
+2.1 Constructor Chaining Within the Same Class:
+
+2.2 Constructor Chaining from Parent/Base Class:
+
+3\. References
+
 ## 1. Constructor Chaining in Java
 
 -   Constructor chaining is the process of invoking a series of constructors within the same class or by the child class's constructors.
@@ -177,7 +191,7 @@ WagonR seats: 5
 **Explanation:**
 
 -   We have created a WagonR class that extends the Car class which also extends the Vehicle class, having certain fields defined in each class.
--   We can understand from the above image that when we created an object car1 of WagonR class, it invoked the WagonR class constructor.
+-   We can understand from the above exmple that when we created an object car1 of WagonR class, it invoked the WagonR class constructor.
 -   In the WagonR class constructor, we have used super(name, type, doors, wheels); method (doors and wheels contains 4 passed from the WagonR constructor instantiation) as the initial statement, which invoked the Car class constructor initializing doors and wheels fields,
 -   In the Car class constructor, we have used super(name, type); method (name contains WagonR 2022 string and type contains Automobile string passed from the Car constructor), which invoked the Vehicle class constructor initializing name and type fields.
 -   The Vehicle class (Top-level) constructor is the first fully executed constructor and after that rest of the code in Car and WagonR constructors is executed respectively. This type of constructor chaining helps in initializing all the fields related to an object in one go.
