@@ -106,6 +106,7 @@ class Main {
         System.out.println("WagonR seats: " + car1.getSeats());
     }
 }
+
 class Vehicle{
     private String name;
     private String type;
