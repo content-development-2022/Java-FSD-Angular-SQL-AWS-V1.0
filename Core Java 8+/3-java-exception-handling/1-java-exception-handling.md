@@ -114,7 +114,7 @@ Some of the useful methods of the Throwable class are:
 
 If you are catching a lot of exceptions in a single try block, you will notice that the catch block code mostly consists of redundant code to log the error. In Java 7, one of the features was an improved catch block where we can catch multiple exceptions in a single catch block. Here is an example of the catch block with this feature:
 
-```
+```java
 catch (IOException | SQLException ex) {
 logger.error(ex);
 throw new MyException(ex.getMessage());
@@ -125,7 +125,7 @@ There are some constraints such as the exception object is final and we can’t 
 
 Most of the time, we use the finally block just to close the resources. Sometimes we forget to close them and get runtime exceptions when the resources are exhausted. These exceptions are hard to debug, and we might need to look into each place where we are using that resource to make sure we are closing it. In Java 7, one of the improvements was try-with-resources where we can create a resource in the try statement itself and use it inside the try-catch block. When the execution comes out of the try-catch block, the runtime environment automatically closes these resources. Here is an example of the try-catch block with this improvement:
 
-```
+```java
 try (MyResource mr = new MyResource()) {
 System.out.println("MyResource created in try-with-resources");
 } catch (Exception e) {
@@ -141,7 +141,7 @@ First, create MyException:
 
 MyException.java
 
-```
+```java
 package com.journaldev.exceptions;
 public class MyException extends Exception {
 private static final long serialVersionUID = 4664456874499611218L;
@@ -225,7 +225,7 @@ at com.journaldev.exceptions.CustomExceptionExample.main(CustomExceptionExample.
 
 While debugging we will have to look out at the stack trace carefully to identify the actual location of exception. If we change our implementation logic to check for these exceptions early as below:
 
-```
+```java
 private static void processFile(String file) throws MyException {
 if (file == null) throw new MyException("File name can't be null", "NULL_FILE_NAME");
 // ... further processing
