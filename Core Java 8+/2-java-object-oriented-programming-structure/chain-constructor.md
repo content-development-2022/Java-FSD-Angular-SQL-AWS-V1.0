@@ -68,7 +68,7 @@ class Employee{
         return name;
     }
     
-    public int getEmpID(){
+    public int getEmpID() {
         return empID;
     }
 }
@@ -81,7 +81,7 @@ Employee Name: NULL
 Employee ID: 0
 ```
 
--   We can understand from the above image that when we created an object employee of the Employee class, it invoked a constructor with zero parameters as we have not passed any parameters while instantiating the employee object.
+-   We can understand from the above example that when we created an object employee of the Employee class, it invoked a constructor with zero parameters as we have not passed any parameters while instantiating the employee object.
 -   In the first constructor, we have used this("NULL"); method as the initial statement, which invoked the second constructor with one parameter.
 -   In the second constructor, we have used this(name, 0); (name contains NULL string from the first constructor) as the initial statement, which invoked the third constructor with two parameters.
 -   The third constructor initialized the employee object with name containing NULL and empID containing 0.
