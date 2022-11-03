@@ -87,11 +87,13 @@ Employee ID: 0
 -   The third constructor initialized the employee object with name containing NULL and empID containing 0.
 -   This series of invoking constructors from other constructors is known as constructor chaining within the same class.
 
-### 2.2 Constructor Chaining from Parent/Base Class:
+## 2.2 Constructor Chaining from Parent/Base Class:
 
-The objective of a sub-class constructor is to invoke the parent class's constructor first. This ensures that the initialization of the parent class's fields or member variables is performed as the first step in the creation of the sub-class's object. In Java, inheritance chains can contain any number of classes, every sub-class constructor calls up the constructor of the immediate parent class (using the super() method) in a chain until it reaches the top-level class. Let's see a Java example to understand it better:
+-   The objective of a sub-class constructor is to invoke the parent class's constructor first.
+-   This ensures that the initialization of the parent class's fields or member variables is performed as the first step in the creation of the sub-class's object.
+-   In Java, inheritance chains can contain any number of classes, every sub-class constructor calls up the constructor of the immediate parent class (using the super() method) in a chain until it reaches the top-level class.
 
-**Example Java Program:**
+**Example:**
 
 ```java
 class Main {
