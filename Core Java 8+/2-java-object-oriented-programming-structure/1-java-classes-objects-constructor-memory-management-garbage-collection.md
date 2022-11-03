@@ -72,17 +72,13 @@
 
 **Syntax:**
 
-```java
+>   `class <class_name>{  `
 
-```
+>   `    field;  `
 
-`class <class_name>{  `
+>   `    method;  `
 
-`    field;  `
-
-`    method;  `
-
-`}  `
+>   `}  `
 
 ## 2.1 Fields in Java
 
