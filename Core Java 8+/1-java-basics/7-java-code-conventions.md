@@ -265,23 +265,15 @@ Object  currentEntry;    // currently selected table entry
 
 -   Don't wait to declare variables until their first use; it can confuse the unwary programmer and hamper code portability within the scope.
 
+```java
+void myMethod() {
+    int int1 = 0;         // beginning of method block
+    if (condition) {
+        int int2 = 0;     // beginning of "if" block
+        ...
+    }
+}
 ```
-
-```
-
-`void myMethod() {`
-
-`    int int1 = 0;         // beginning of method block`
-
-`    if (condition) {`
-
-`        int int2 = 0;     // beginning of "if" block`
-
-`        ...`
-
-`    }`
-
-`}`
 
 -   The one exception to the rule is indexes of for loops, which in Java can be declared in the for statement:
 
