@@ -1012,7 +1012,7 @@ class TestThis2 { 
 -   You may invoke the method of the current class by using this keyword.
 -   If you don't use this keyword, compiler automatically adds this keyword while invoking the method.
 
-![this keyword](media/sourcefile1.png)
+![this keyword](media/sourcefile1.jpg)
 
 **Example:**
 
