@@ -916,7 +916,7 @@ class Student7{  
 
 -   Let's understand the problem if we don't use this keyword by the example given below:
 
-```
+```java
 class Student { 
  
     int rollno;  
@@ -959,7 +959,7 @@ class TestThis1 {  
 
 **Solution of the above problem by using this keyword**
 
-```
+```java
 class Student {
   
     int rollno;  
@@ -1010,7 +1010,7 @@ class TestThis2 { 
 
 **Example:**
 
-```
+```java
 class CurrentClass { 
  
     void display1() {
@@ -1050,7 +1050,7 @@ hello display1
 
 **Calling no argument constructor from parameterized constructor:**
 
-```
+```java
 class Aclass { 
  
     Aclass() {
@@ -1082,7 +1082,7 @@ hello message in no argument constructor
 
 **Calling parameterized constructor from no argument constructor:**
 
-```
+```java
 class Aclass {  
 
     Aclass() {  
@@ -1121,7 +1121,7 @@ hello message in no argument constructor
 
 **Example:**
 
-```
+```java
 class Student {
 
   void method(Student obj) {  
@@ -1153,7 +1153,7 @@ method is invoked
 
 **Example:**
 
-```
+```java
 class BClass {  
 
     AClass obj;   
@@ -1198,7 +1198,7 @@ class AClass {  
 
 **Syntax:**
 
-```
+```java
 classname methodname(){  
 return this;  
 }  
