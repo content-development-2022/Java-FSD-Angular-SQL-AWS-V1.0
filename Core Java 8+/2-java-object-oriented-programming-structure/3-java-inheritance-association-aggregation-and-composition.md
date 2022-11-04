@@ -61,7 +61,12 @@
 
 **Syntax:**
 
-![](media/dd4de4c7be72d4ba52b029ccdcbdc3b2.png)
+```java
+class Subclass-name extends Superclass-name  
+{  
+   //methods and fields  
+}  
+```
 
 **extends keyword:**
 
@@ -84,11 +89,27 @@
 
 **Example: TestInheritance.java**
 
-![](media/b312bedad85769274084f8e3a662f394.png)
+```java
+class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+void bark(){System.out.println("barking...");}  
+}  
+class TestInheritance{  
+public static void main(String args[]){  
+Dog d=new Dog();  
+d.bark();  
+d.eat();  
+}}  
+```
 
 **Output:**
 
-![](media/a03ce4fc4bf0ba444dc3cfdc1784de6a.png)
+```
+barking...
+eating...
+```
 
 ## 2.2 Multilevel inheritance
 
@@ -100,11 +121,32 @@
 
 **Example: TestInheritance2.java**
 
-![](media/527b10254b78975ef9fa88128f0f1ee3.png)
+```java
+class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+void bark(){System.out.println("barking...");}  
+}  
+class BabyDog extends Dog{  
+void weep(){System.out.println("weeping...");}  
+}  
+class TestInheritance2{  
+public static void main(String args[]){  
+BabyDog d=new BabyDog();  
+d.weep();  
+d.bark();  
+d.eat();  
+}} 
+```
 
 **Output:**
 
-![](media/75582389f8a7dbe47d1bb63e1124d9dd.png)
+```
+weeping...
+barking...
+eating...
+```
 
 ## 2.3 Hierarchical inheritance
 
@@ -116,11 +158,31 @@
 
 **Example: TestInheritance3.java**
 
-![](media/97153fe40aa178bc4eff461fa118ea13.png)
+```java
+class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+void bark(){System.out.println("barking...");}  
+}  
+class Cat extends Animal{  
+void meow(){System.out.println("meowing...");}  
+}  
+class TestInheritance3{  
+public static void main(String args[]){  
+Cat c=new Cat();  
+c.meow();  
+c.eat();  
+//c.bark();//C.T.Error  
+}}  
+```
 
 **Output:**
 
-![](media/63186547f8cbdd9cd407b424b87a3c4e.png)
+```
+meowing...
+eating...
+```
 
 ## Q) Why multiple inheritance is not supported in java?
 
@@ -136,11 +198,27 @@
 
 **Example:**
 
-![](media/fa3b611d7afcc345f947bc02dd55994d.png)
+```java
+class A{  
+void msg(){System.out.println("Hello");}  
+}  
+class B{  
+void msg(){System.out.println("Welcome");}  
+}  
+class C extends A,B{//suppose if it were  
+   
+ public static void main(String args[]){  
+   C obj=new C();  
+   obj.msg();//Now which msg() method would be invoked?  
+}  
+}  
+```
 
 **Output:**
 
-![](media/8e2b585a63cea762e173373c6bed4f2f.png)
+```
+Compile Time Error
+```
 
 ## 3. Association in java
 
@@ -149,11 +227,37 @@
 
 **Association Example**
 
-![](media/63b4ce99a2bf59e6c9271cde673769a5.png)
+```java
+class CarClass{
+   String carName;
+   int carId;
+   CarClass(String name, int id)
+   {
+	this.carName = name;
+	this.carId = id;
+   }
+}
+class Driver extends CarClass{
+   String driverName;
+   Driver(String name, String cname, int cid){
+	super(cname, cid);
+	this.driverName=name;
+   }
+}
+class TransportCompany{
+   public static void main(String args[])
+   {
+	Driver obj = new Driver("Andy", "Ford", 9988);
+	System.out.println(obj.driverName+" is a driver of car Id: "+obj.carId);
+   }
+}
+```
 
 **Output:**
 
-![](media/0a19505a5235063f5788fda78df13b99.png)
+```
+Andy is a driver of car Id: 9988
+```
 
 -   In the above example, there is a one to one relationship (**Association**) between two classes: CarClass and Driver. Both the classes represent two separate entities.
 
@@ -176,11 +280,55 @@
 -   Lets write this example in a java program.  
     **Student Has-A Address**
 
-    **![](media/2baeafc10a4038ab22e006f23d0dc5a1.png)**
+```java
+class Address
+{
+   int streetNum;
+   String city;
+   String state;
+   String country;
+   Address(int street, String c, String st, String coun)
+   {
+       this.streetNum=street;
+       this.city =c;
+       this.state = st;
+       this.country = coun;
+   }
+}
+class StudentClass
+{
+   int rollNum;
+   String studentName;
+   //Creating HAS-A relationship with Address class
+   Address studentAddr; 
+   StudentClass(int roll, String name, Address addr){
+       this.rollNum=roll;
+       this.studentName=name;
+       this.studentAddr = addr;
+   }
+   public static void main(String args[]){
+       Address ad = new Address(55, "Agra", "UP", "India");
+       StudentClass obj = new StudentClass(123, "Chaitanya", ad);
+       System.out.println(obj.rollNum);
+       System.out.println(obj.studentName);
+       System.out.println(obj.studentAddr.streetNum);
+       System.out.println(obj.studentAddr.city);
+       System.out.println(obj.studentAddr.state);
+       System.out.println(obj.studentAddr.country);
+   }
+}
+```
 
-    **Output:**
+**Output:**
 
-    ![](media/9d42aa6752023af9ad1150cd5549d2ab.png)
+```
+123
+Chaitanya
+55
+Agra
+UP
+India
+```
 
 -   The above example shows the **Aggregation** between Student and Address classes.
 -   You can see that in Student class i have declared a property of type Address to obtain student address.
@@ -216,3 +364,4 @@
 1.  https://www.javatpoint.com/inheritance-in-java
 2.  https://www.javatpoint.com/aggregation-in-java
 3.  https://beginnersbook.com/2013/05/association/
+4.  https://beginnersbook.com/2013/05/aggregation/
