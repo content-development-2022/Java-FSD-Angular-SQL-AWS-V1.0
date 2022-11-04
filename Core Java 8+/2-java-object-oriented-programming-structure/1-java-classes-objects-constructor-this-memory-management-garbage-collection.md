@@ -1482,7 +1482,7 @@ object is garbage collected
 object is garbage collected
 ```
 
-#### **Note: Neither finalization nor garbage collection is guaranteed.**
+Note: Neither finalization nor garbage collection is guaranteed.
 
 ## 9. References
 
