@@ -202,11 +202,11 @@ The sum of a and b is= 24
 -   The object is *an* **instance of a class**.
 -   It can be physical or logical (tangible and intangible).
 
-    ![](media/bc0a29a63f1c74c221a000820427945d.png)
+    ![](media/object-example.png)
 
 -   **An object has three characteristics**
 
-![](media/a0cdb7df386535eb418098f290d4b613.png)
+![](media/object-charcteristics.png)
 
 **Example**: Pen is an object. Its name is Reynolds; color is white, known as its state. It is used to write, so writing is its behavior.
 
@@ -489,7 +489,7 @@ class TestStudent4{  
 222 Aryan
 ```
 
-![](media/811dde39c61921f7fd1ecff4846a38d3.png)
+![](media/stack-heap-memory.png)
 
 -   As you can see in the above figure, object gets the memory in heap memory area.
 -   The reference variable refers to the object allocated in the heap memory area.
@@ -646,14 +646,14 @@ ID : 23
 
 -   There are two types of constructors in Java:
 
-![](media/9db8059068645f3f9dfe8c377d625e50.png)
+![](media/constructor-types.png)
 
 ## 5.2.1 Java Default Constructor
 
 -   If you don’t implement any constructor in your class, the Java compiler inserts default constructor into your code on your behalf.
 -   You will not see the default constructor in your source code(the .java file) as it is inserted during compilation and present in the bytecode(.class file).
 
-![](media/f71718f28d6da0c93780a636e7c7c8f6.png)
+![](media/source-files.png)
 
 **Are no-arg constructor and default constructor same?**
 
@@ -816,7 +816,7 @@ Code Language
 
 ## 5.4. Difference between constructor and method in Java
 
-![](media/bf3aeb8100376a97bb2a3f8887ee8654.png)
+![](media/constructor-method.png)
 
 ## 5.5. Java Copy Constructor
 
@@ -905,7 +905,7 @@ class Student7{  
 
 **Usage of Java this keyword**
 
-![](media/96093e6ed4105a939cdc3eba6c73828d.png)
+![](media/this-usage.png)
 
 ## 6.1 this: to refer current class instance variable
 
@@ -1006,7 +1006,7 @@ class TestThis2 { 
 -   You may invoke the method of the current class by using this keyword.
 -   If you don't use this keyword, compiler automatically adds this keyword while invoking the method.
 
-![this keyword](media/3e83e96e89c1a3fb3ada8c9621943ba7.jpeg)
+![this keyword](media/sourcefile1.jpeg)
 
 **Example:**
 
@@ -1240,7 +1240,7 @@ Hello java
 -   From the perspective of Java, both are important memory areas but both are used for different purposes.
 -   The **major difference between Stack memory and heap memory** is that the stack is used to store the order of method execution and local variables while the heap memory stores the objects and it uses dynamic memory allocation and deallocation.
 
-![](media/e600078a4d5092244eace8c9c602d343.png)
+![](media/stack-vs-heap.png)
 
 ## 7.1 Stack Memory
 
@@ -1270,7 +1270,7 @@ public class Main {
 }
 ```
 
-![](media/801f4008541ac4455a363aaa5381115d.png)
+![](media/stack-memory.png)
 
 **Explanation:**
 
@@ -1322,7 +1322,7 @@ Exception in thread "main" java.lang.StackOverflowError
 -   When the above program is executed, the factorial method will be called **indefinitely** because the base case is commented.
 -   As the stack size is fixed, and the factorial method is called indefinitely and doesn't return any value, so the stack memory runs out, resulting in StackOverflowError.
 
-![](media/6fed7e62ea07e02d5ada226409fa7dbc.png)
+![](media/stack-overflow.png)
 
 ## 7.2 Heap Memory
 
@@ -1359,7 +1359,7 @@ public class HeapMemory {
 -   In the above example, the variable x is allocated in the stack, whereas the object list is allocated memory in the heap.
 -   Only the reference to the list object is stored in the stack memory alongside x.
 
-![](media/78b90617b11edabccb676c44fe881d2a.png)
+![](media/heap.png)
 
 **Why OutOfMemoryError is thrown in Java?**
 
@@ -1396,7 +1396,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Requested array size exce
 
 The following table summarizes all the major differences between stack memory and heap space.
 
-![](media/e782e0a6968fcd763693c54aeb4298df.png)
+![](media/difference-stack-heap.png)
 
 ## 8. Java Garbage Collection
 
@@ -1414,7 +1414,7 @@ The following table summarizes all the major differences between stack memory an
 
 ## 8.2 How can an object be unreferenced?
 
-![](media/5428908a18ce14fc0dc77fa78330cf75.png)
+![](media/object-unreferenced.png)
 
 **1) By nulling a reference:**
 
@@ -1482,7 +1482,7 @@ object is garbage collected
 object is garbage collected
 ```
 
-Note: Neither finalization nor garbage collection is guaranteed.
+#### **Note: Neither finalization nor garbage collection is guaranteed.**
 
 ## 9. References
 
