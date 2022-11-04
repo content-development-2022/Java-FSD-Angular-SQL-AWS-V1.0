@@ -898,7 +898,10 @@ class Student7{  
 
 **Output:**
 
-![](media/9b7c88cdeb838165d48aee4ea00061e3.png)
+```
+111 Karan
+111 Karan
+```
 
 # 6. this keyword in Java
 
