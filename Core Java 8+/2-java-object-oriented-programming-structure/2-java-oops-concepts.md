@@ -13,7 +13,7 @@
 -   The popular object-oriented languages are Java, C\#, PHP, Python, C++, etc.
 -   It simplifies software development and maintenance by providing some concepts:
 
-    ![](media/9fba3e14b61a57d73c8ce3048a466ecb.png)
+    ![](media/oops-features.png)
 
 Apart from these concepts, there are some other terms which are used in Object-Oriented design:
 
@@ -28,7 +28,7 @@ Apart from these concepts, there are some other terms which are used in Object-O
 -   Any entity that has state and behavior is known as an object.
 -   For example, a chair, pen, table, keyboard, bike, etc. It can be physical or logical.
 
-    ![](media/9d1f92a54df3ad0d0625c4fd77a15c0b.png)
+    ![](media/realworld-objects.png)
 
 -   An Object can be defined as an instance of a class.
 -   An object contains an address and takes up some space in memory.
@@ -47,7 +47,7 @@ Apart from these concepts, there are some other terms which are used in Object-O
 -   It provides code reusability.
 -   It is used to achieve runtime polymorphism.
 
-    ![](media/daad228ff8a97efd07758b095b79c410.png)
+    ![](media/inheritance.png)
 
 ## Polymorphism
 
@@ -55,7 +55,7 @@ Apart from these concepts, there are some other terms which are used in Object-O
 -   In Java, we use method overloading and method overriding to achieve polymorphism.
 -   Example can be to speak something; for example, a cat speaks meow, dog barks woof, etc.
 
-    ![](media/d0d2bbc9c8e9d2469a15405821bf53a6.png)
+    ![](media/polymorphism.png)
 
 ## Abstraction
 
@@ -63,14 +63,14 @@ Apart from these concepts, there are some other terms which are used in Object-O
 -   For example phone call, we don't know the internal processing.
 -   In Java, we use abstract class and interface to achieve abstraction.
 
-    ![https://miro.medium.com/max/1000/1\*o3xaZpu2PjhbJaXrus3f_g.gif](media/cade23d4372c6325778560634ac7c541.gif)
+    ![https://miro.medium.com/max/1000/1\*o3xaZpu2PjhbJaXrus3f_g.gif](media/abstraction.gif)
 
 ## Encapsulation
 
 -   Binding (or wrapping) code and data together into a single unit are known as encapsulation.
 -   For example, a capsule, it is wrapped with different medicines.
 
-    ![](media/20af5407407170fa7b6b26358d7df88c.png)
+    ![](media/capsule.png)
 
 ## Coupling
 
