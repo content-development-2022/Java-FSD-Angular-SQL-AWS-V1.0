@@ -20,17 +20,19 @@
 
 2.2.2 Difference between Method Overloading and Method Overriding in Java
 
-3\. Object Typecasting
+3\. super Keyword in Java
 
-3.1 Upcasting
+4\. Object Typecasting
 
-3.2 Downcasting
+4.1 Upcasting
 
-3.3 Why we need Upcasting and Downcasting?
+4.2 Downcasting
 
-3.4 Difference between Upcasting and Downcasting
+4.3 Why we need Upcasting and Downcasting?
 
-4\. References
+4.4 Difference between Upcasting and Downcasting
+
+5\. References
 
 ## 1. Polymorphism
 
@@ -184,7 +186,146 @@ The only **disadvantage** of compile-time polymorphism is that it doesn’t incl
 
 ![](media/6ff72fa230ee9d4a58c8eb3e0104c0de.png)
 
-## 3. Object Typecasting
+## 3. super Keyword in Java
+
+-   The **super is a** keyword in Java which is used to refer immediate parent class object.
+-   Whenever you create the instance of subclass, an instance of parent class is created implicitly.
+
+**Usage of Java super Keyword**
+
+![](media/usage-super-keyword.png)
+
+## 3.1 super is used to refer immediate parent class instance variable.
+
+-   We can use super keyword to access the data member or field of parent class.
+-   It is used if parent class and child class have same fields.
+
+**Example:**
+
+```
+class Animal {
+    String color="white";
+}
+
+class Dog extends Animal {
+    String color="black";
+    void printColor() {
+        System.out.println(color);//prints color of Dog class
+        System.out.println(super.color);//prints color of Animal class
+    }
+}
+
+class TestSuper1 {
+    public static void main(String args[]) {
+        Dog d=new Dog();
+        d.printColor();
+    }
+}
+```
+
+**Output:**
+
+```
+black
+
+white
+```
+
+-   In the above example, Animal and Dog both classes have a common property color.
+-   If we print color property, it will print the color of current class by default.
+-   To access the parent property, we need to use super keyword.
+
+## 3.2 super can be used to invoke parent class method
+
+-   The super keyword can also be used to invoke parent class method.
+-   It should be used if subclass contains the same method as parent class.
+-   In other words, it is used if method is overridden.
+
+**Example:**
+
+```
+class Animal {
+        void eat() {  
+        System.out.println("eating...");     
+        }
+}
+
+class Dog extends Animal{
+    void eat() {
+        System.out.println("eating bread...");       
+    }
+   void bark() {       
+        System.out.println("barking...");            
+    }  
+    void work() {
+        super.eat();
+        bark();
+    }
+}
+
+class TestSuper2 {
+    public static void main(String args[]){
+        Dog d=new Dog();
+        d.work();
+    }
+}
+```
+
+**Output:**
+
+```
+eating...
+
+barking...
+```
+
+-   In the above example Animal and Dog both classes have eat() method if we call eat() method from Dog class, it will call the eat() method of Dog class by default because priority is given to local.
+-   To call the parent class method, we need to use super keyword.
+
+## 3.3 super is used to invoke parent class constructor.
+
+-   The super keyword can also be used to invoke the parent class constructor.
+
+**Example:**
+
+```
+class Animal {
+    Animal() {
+        System.out.println("animal is created");
+    }
+}
+
+class Dog extends Animal {
+    Dog() {
+        super();
+        System.out.println("dog is created");
+    }
+}
+
+class TestSuper3 {
+    public static void main(String args[]) {
+        Dog d=new Dog();
+    }  
+}
+```
+
+**Output:**
+
+```
+animal is created
+
+dog is created
+```
+
+**Note:**
+
+-   super() is added in each class constructor automatically by compiler if there is no super() or this().
+
+![](media/compiler-super.png)
+
+-   As we know well that default constructor is provided by compiler automatically if there is no constructor. But, it also adds super() as the first statement.
+
+## 4. Object Typecasting
 
 -   A process of converting one data type to another is known as **Typecasting**.
 -   In Java, the object can also be typecasted like the datatypes.
@@ -196,7 +337,7 @@ The only **disadvantage** of compile-time polymorphism is that it doesn’t incl
 
 ![](media/0371286d114702bc45c08c71350d85c7.png)
 
-## 3.1 Upcasting
+## 4.1 Upcasting
 
 -   Upcasting is a type of object typecasting in which a **child object** is typecasted to a **parent class object**.
 -   By using the Upcasting, we can easily access the variables and methods of the parent class to the child class.
@@ -212,7 +353,7 @@ The only **disadvantage** of compile-time polymorphism is that it doesn’t incl
 
 ![](media/520190185ce12afce2df4788177c3820.png)
 
-## 3.2 Downcasting
+## 4.2 Downcasting
 
 -   **Downcasting** is another type of object typecasting.
 -   In Downcasting, we assign a parent class reference object to the child class.
@@ -229,21 +370,22 @@ The only **disadvantage** of compile-time polymorphism is that it doesn’t incl
 
 ![](media/7e2482b6f6413b0c698f154633da19b3.png)
 
-## 3.3 Why we need Upcasting and Downcasting?
+## 4.3 Why we need Upcasting and Downcasting?
 
 -   In Java, we rarely use **Upcasting**. We use it when we need to develop a code that deals with only the parent class.
 -   **Downcasting** is used when we need to develop a code that accesses behaviors of the child class.
 
 ![](media/c44708b1be9ed561fe3a4340298c1a4b.png)
 
-## 1.4 Difference between Upcasting and Downcasting
+## 4.4 Difference between Upcasting and Downcasting
 
 -   These are the following differences between Upcasting and Downcasting:
 
 ![](media/a43441aed780c36e90ad48c3beb8815a.png)
 
-## 4. References
+## 5. References
 
 1.  https://www.mygreatlearning.com/blog/polymorphism-in-java/
 2.  https://www.tutorialspoint.com/Runtime-Polymorphism-in-Java
-3.  https://www.javatpoint.com/upcasting-and-downcasting-in-java
+3.  https://www.javatpoint.com/super-keyword
+4.  https://www.javatpoint.com/upcasting-and-downcasting-in-java

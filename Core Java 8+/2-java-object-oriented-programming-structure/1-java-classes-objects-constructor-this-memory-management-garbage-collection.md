@@ -38,21 +38,23 @@
 
 5.5.2 Copying values without constructor
 
-6\. Introduction of Stack and Heap in Java
+6\. this Keyword in Java
 
-6.1 Stack Memory
+7\. Introduction of Stack and Heap in Java
 
-6.2 Heap Memory
+7.1 Stack Memory
 
-6.3 Difference between Stack and Heap Memory
+7.2 Heap Memory
 
-7\. Java Garbage Collection
+7.3 Difference between Stack and Heap Memory
 
-7.1 Advantage of Garbage Collection
+8\. Java Garbage Collection
 
-7.2 How can an object be unreferenced?
+8.1 Advantage of Garbage Collection
 
-8\. References
+8.2 How can an object be unreferenced?
+
+9\. References
 
 ## 1. Introduction
 
@@ -508,7 +510,342 @@ There are 3 ways to initialize object in Java.
 
 ![](media/9b7c88cdeb838165d48aee4ea00061e3.png)
 
-## 6. Introduction of Stack and Heap in Java
+# 6. this keyword in Java
+
+-   In Java, this is a **reference variable** that refers to the current object.
+
+![](media/this-keyword.png)
+
+**Usage of Java this keyword**
+
+![](media/96093e6ed4105a939cdc3eba6c73828d.png)
+
+## 6.1 this: to refer current class instance variable
+
+-   The this keyword can be used to refer current class instance variable.
+-   If there is ambiguity between the instance variables and parameters, this keyword resolves the problem of ambiguity.
+
+**Understanding the problem without this keyword**
+
+-   Let's understand the problem if we don't use this keyword by the example given below:
+
+```
+class Student { 
+ 
+    int rollno;  
+    String name;  
+    float fee;  
+
+    Student(int rollno, String name, float fee) {  
+        rollno = rollno;  
+        name = name;  
+        fee = fee;  
+    }  
+
+    void display() {
+        System.out.println(rollno +" " +name +" " +fee);
+    } 
+ 
+}  
+
+class TestThis1 {  
+
+    public static void main(String args[]) {  
+        Student student1 = new Student(111, "ankit", 5000f);  
+        Student student2 = new Student(112, "sumit", 6000f);  
+        student1.display();  
+        student2.display();  
+    }
+
+}  
+```
+
+**Output:**
+
+```
+0 null 0.0
+0 null 0.0
+```
+
+-   In the above example, parameters (formal arguments) and instance variables are same.
+-   So, we are using this keyword to distinguish local variable and instance variable.
+
+**Solution of the above problem by using this keyword**
+
+```
+class Student {
+  
+    int rollno;  
+    String name;  
+    float fee;  
+
+    Student(int rollno, String name, float fee) {  
+        this.rollno = rollno;  
+        this.name = name;  
+        this.fee = fee;  
+    } 
+ 
+    void display() {
+        System.out.println(rollno +" " +name +" " +fee);
+    }
+
+}  
+ 
+class TestThis2 { 
+ 
+    public static void main(String args[]){  
+        Student student1 = new Student(111, "ankit", 5000f);  
+        Student student2 = new Student(112, "sumit", 6000f);  
+        student1.display();  
+        student2.display();  
+    }
+
+}  
+```
+
+**Output:**
+
+```
+111 ankit 5000.0
+112 sumit 6000.0
+```
+
+-   If local variables(formal arguments) and instance variables are different, there is no need to use this keyword.
+-   It is better approach to use meaningful names for variables.
+-   So we use same name for instance variables and parameters in real time, and always use this keyword.
+
+## 6.2 this: to invoke current class method
+
+-   You may invoke the method of the current class by using this keyword.
+-   If you don't use this keyword, compiler automatically adds this keyword while invoking the method.
+
+![this keyword](media/3e83e96e89c1a3fb3ada8c9621943ba7.jpeg)
+
+**Example:**
+
+```
+class CurrentClass { 
+ 
+    void display1() {
+  	  System.out.println("hello display1");
+    }  
+
+    void display2() {  
+  	System.out.println("hello display2");  
+        //display1();//same as this.display1()  
+  	this.display1();  
+    }  
+
+}  
+
+class TestThis4 { 
+ 
+    public static void main(String args[]) {  
+        CurrentClass hai = new CurrentClass();  
+        hai.display2();  
+    }
+
+}  
+```
+
+**Output:**
+
+```
+hello display2
+hello display1
+```
+
+## 6.3 this() : to invoke current class constructor
+
+-   The this() constructor call can be used to invoke the current class constructor.
+-   It is used to reuse the constructor.
+-   In other words, it is used for constructor chaining.
+
+**Calling no argument constructor from parameterized constructor:**
+
+```
+class Aclass { 
+ 
+    Aclass() {
+        System.out.println("hello message in no argument constructor ");
+    }  
+
+    Aclass(int x) {  
+        this();  
+        System.out.println(x);  
+    } 
+ 
+} 
+ 
+class TestThis5{  
+
+    public static void main(String args[]) {  
+        Aclass value = new Aclass(10);  
+    }
+
+}  
+```
+
+**Output:**
+
+```
+hello message in no argument constructor 
+10
+```
+
+**Calling parameterized constructor from no argument constructor:**
+
+```
+class Aclass {  
+
+    Aclass() {  
+        this(5);  
+        System.out.println("hello message in no argument constructor");  
+    }  
+
+    A(int x){  
+        System.out.println(x);  
+    }  
+
+} 
+ 
+class TestThis6 { 
+ 
+    public static void main(String args[]) {  
+        Aclass value = new Aclass();  
+    }
+
+}  
+```
+
+**Output:**
+
+```
+5
+hello message in no argument constructor
+```
+
+**Note:** this must be the first statement in constructor.
+
+## 6.4 this: to pass as an argument in the method
+
+-   The this keyword can also be passed as an argument in the method.
+-   It is mainly used in the event handling.
+
+**Example:**
+
+```
+class Student {
+
+  void method(Student obj) {  
+     System.out.println("method is invoked");  
+  }  
+  
+  void display() {  
+      method(this);  
+  }
+  
+  public static void main(String args[]) {  
+      Student student1 = new Student();  
+      student1.display();  
+  }  
+  
+}  
+```
+
+**Output:**
+
+```
+method is invoked
+```
+
+## 6.5 this: to pass as argument in the constructor call
+
+-   We can pass this keyword in the constructor also.
+-   It is useful if we have to use one object in multiple classes.
+
+**Example:**
+
+```
+class BClass {  
+
+    AClass obj;   
+  
+    BClass(AClass obj) {  
+        this.obj=obj;  
+    }  
+  
+    void display() {  
+        System.out.println(obj.data);//using instance variable of AClass class  
+    }
+  
+}  
+  
+class AClass {  
+
+    int data=10;  
+  
+    AClass() {  
+        BClass bobj = new BClass(this);  
+        bobj.display();  
+    }  
+  
+    public static void main(String args[]) {  
+        AClass aobj = new AClass();  
+  } 
+  
+} 
+ 
+```
+
+**Output:**
+
+```
+10
+```
+
+## 6.6 this keyword can be used to return current class instance
+
+-   We can return this keyword as an statement from the method.
+-   In such case, return type of the method must be the class type (non-primitive).
+
+**Syntax:**
+
+```
+classname methodname(){  
+return this;  
+}  
+```
+
+**Example:**
+
+```java
+class AClass {  
+
+    AClass getA() {  
+        return this;  
+    }  
+    
+    void msg() {
+        System.out.println("Hello java");
+    } 
+} 
+
+class Test1 {
+
+    public static void main(String args[]) {  
+        new AClass().getA().msg();  
+    }  
+} 
+```
+
+**Output:**
+
+```
+Hello java
+```
+
+## 7. Introduction of Stack and Heap in Java
 
 -   In Java, memory management is a vital process.
 -   It is managed by Java automatically.
@@ -518,7 +855,7 @@ There are 3 ways to initialize object in Java.
 
 ![](media/e600078a4d5092244eace8c9c602d343.png)
 
-## 6.1 Stack Memory
+## 7.1 Stack Memory
 
 -   The stack memory is a physical space (in RAM) allocated to each thread at run time.
 -   It is created when a thread creates.
@@ -564,7 +901,7 @@ Error:
 
 ![](media/6fed7e62ea07e02d5ada226409fa7dbc.png)
 
-## 6.2 Heap Memory
+## 7.2 Heap Memory
 
 -   It is created when the JVM starts up and used by the application as long as the application runs.
 -   It stores objects and JRE classes.
@@ -605,13 +942,13 @@ Error:
 -   Consider the above program where we are repeatedly generating arrays of bigger sizes and storing values in them.
 -   Once the space ran out in the heap, it threw OutOfMemoryError.
 
-## 6.3 Difference between Stack and Heap Memory
+## 7.3 Difference between Stack and Heap Memory
 
 The following table summarizes all the major differences between stack memory and heap space.
 
 ![](media/e782e0a6968fcd763693c54aeb4298df.png)
 
-## 7. Java Garbage Collection
+## 8. Java Garbage Collection
 
 -   When JVM starts up, it creates a **heap area** which is known as **runtime data area.**
 -   This area is used to store all the objects (instances of class).
@@ -620,12 +957,12 @@ The following table summarizes all the major differences between stack memory an
 -   Languages like C/C++ **don’t** support automatic garbage collection, however in java, the garbage collection is automatic.
 -   In java, garbage means unreferenced objects.
 
-## 7.1 Advantage of Garbage Collection
+## 8.1 Advantage of Garbage Collection
 
 -   It makes java **memory efficient** because garbage collector removes the unreferenced objects from heap memory.
 -   It is **automatically done** by the garbage collector(a part of JVM) so we don't need to make extra efforts.
 
-## 7.2 How can an object be unreferenced?
+## 8.2 How can an object be unreferenced?
 
 ![](media/5428908a18ce14fc0dc77fa78330cf75.png)
 
@@ -668,14 +1005,15 @@ The following table summarizes all the major differences between stack memory an
 
 ![](media/71fbe5893adbb80b964d95b39eac1e7b.png)
 
-## 8. References
+## 9. References
 
 1.  https://www.javatpoint.com/object-and-class-in-java
 2.  https://www.geeksforgeeks.org/how-to-create-custom-class-in-java/
 3.  https://www.javatpoint.com/method-in-java
 4.  https://www.tutorialspoint.com/Member-variables-in-Java
 5.  https://www.javatpoint.com/java-constructor
-6.  https://www.javatpoint.com/stack-vs-heap-java
-7.  https://www.scaler.com/topics/java/heap-memory-and-stack-memory-in-java/
-8.  https://www.javatpoint.com/Garbage-Collection
-9.  https://beginnersbook.com/2013/04/java-garbage-collection/
+6.  https://www.javatpoint.com/this-keyword
+7.  https://www.javatpoint.com/stack-vs-heap-java
+8.  https://www.scaler.com/topics/java/heap-memory-and-stack-memory-in-java/
+9.  https://www.javatpoint.com/Garbage-Collection
+10. https://beginnersbook.com/2013/04/java-garbage-collection/
