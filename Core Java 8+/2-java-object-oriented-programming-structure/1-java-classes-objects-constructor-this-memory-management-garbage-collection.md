@@ -689,7 +689,7 @@ Bike1 b=new Bike1();  
 Bike is created
 ```
 
-#### **Rule: If there is no constructor in a class, compiler automatically creates a default constrctor.**
+**Rule:** If there is no constructor in a class, compiler automatically creates a default constrctor.
 
 -   The default constructor provides the default values to the object like 0, null, etc., depending on the type.
 
@@ -1453,7 +1453,7 @@ new Employee();  
 protected void finalize(){}  
 ```
 
-#### **Note: The Garbage collector of JVM collects only those objects that are created by new keyword. So if you have created any object without new, you can use finalize method to perform cleanup processing (destroying remaining objects).**
+**Note:** The Garbage collector of JVM collects only those objects that are created by new keyword. So if you have created any object without new, you can use finalize method to perform cleanup processing (destroying remaining objects).
 
 ## gc() method
 
