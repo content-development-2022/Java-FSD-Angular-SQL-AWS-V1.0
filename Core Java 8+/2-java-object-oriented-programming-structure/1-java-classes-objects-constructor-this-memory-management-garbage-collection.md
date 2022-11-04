@@ -97,7 +97,9 @@ The fields in class are known as instance variables
 
 **Syntax:**
 
->   `datatype variableName;`
+```java
+datatype variableName;
+```
 
 ## 2.2 What is a method in Java?
 
@@ -216,11 +218,30 @@ The sum of a and b is= 24
 
 **Example: Student.java**
 
-![](media/d5d11010a2d5d04a2d990240160552cd.png)
+```java
+//Java Program to illustrate how to define a class and fields  
+//Defining a Student class.  
+class Student{  
+ //defining fields  
+ int id;//field or data member or instance variable  
+ String name;  
+ //creating main method inside the Student class  
+ public static void main(String args[]){  
+  //Creating an object or instance  
+  Student s1=new Student();//creating an object of Student  
+  //Printing values of the object  
+  System.out.println(s1.id);//accessing member through reference variable  
+  System.out.println(s1.name);  
+ }  
+}  
+```
 
 **Output:**
 
-![](media/40597e3184042fd6b18835b730a318c9.png)
+```
+0 
+null
+```
 
 **new keyword in Java**
 
@@ -236,11 +257,30 @@ The sum of a and b is= 24
 
 **Example: TestStudent1.java**
 
-![](media/7250707615b36a41a6b41958621bca90.png)
+```java
+//Java Program to demonstrate having the main method in   
+//another class  
+//Creating Student class.  
+class Student{  
+ int id;  
+ String name;  
+}  
+//Creating another class TestStudent1 which contains the main method  
+class TestStudent1{  
+ public static void main(String args[]){  
+  Student s1=new Student();  
+  System.out.println(s1.id);  
+  System.out.println(s1.name);  
+ }  
+}  
+```
 
 **Output:**
 
-![](media/f93f50fc629c1856a73be1d5ab8252fd.png)
+```
+0 
+null
+```
 
 **Instance variable in Java**
 
@@ -270,15 +310,32 @@ The sum of a and b is= 24
 
 **Example:**
 
-*![](media/55b4318829a3f1847ecece3b5311b3d3.png)*
+```java
+new Calculation();//anonymous object
+```
 
 -   Let's see the full example of an anonymous object in Java.
 
-*![](media/54734e6abe0e645a154d1e26f87d8e15.png)*
+```java
+class Calculation{  
+ void fact(int  n){  
+  int fact=1;  
+  for(int i=1;i<=n;i++){  
+   fact=fact*i;  
+  }  
+ System.out.println("factorial is "+fact);  
+}  
+public static void main(String args[]){  
+ new Calculation().fact(5);//calling method with anonymous object  
+}  
+}  
+```
 
 Output:
 
-*![](media/0c49cb0cb8c53d737465440cfce161a2.png)*
+```
+Factorial is 120
+```
 
 ## 2) Creating multiple objects by one type only
 
@@ -286,19 +343,47 @@ We can create multiple objects by one type only as we do in case of primitives.
 
 -   Initialization of primitive variables:
 
-*![](media/771643049e5f839c0e8f888e9c54ea2d.png)*
+```java
+int a=10, b=20;  
+```
 
 -   Initialization of reference variables:
 
-*![](media/69b8eaaa8e7ad304da70e4757d043cc6.png)*
+```
+Rectangle r1=new Rectangle(), r2=new Rectangle();//creating two objects
+```
 
 Let's see the example:
 
-*![](media/e17d74b5d2a6951327faffd984466ef9.png)*
+```java
+//Java Program to illustrate the use of Rectangle class which  
+//has length and width data members  
+class Rectangle{  
+ int length;  
+ int width;  
+ void insert(int l,int w){  
+  length=l;  
+  width=w;  
+ }  
+ void calculateArea(){System.out.println(length*width);}  
+}  
+class TestRectangle2{  
+ public static void main(String args[]){  
+  Rectangle r1=new Rectangle(),r2=new Rectangle();//creating two objects  
+  r1.insert(11,5);  
+  r2.insert(3,15);  
+  r1.calculateArea();  
+  r2.calculateArea();  
+}  
+}  
+```
 
 **Output:**
 
-*![](media/9791bac392a5461ae1ea28cc7ea2d438.png)*
+```
+55 
+45  
+```
 
 ## 3.2 Ways to initialize object
 
@@ -315,21 +400,59 @@ There are 3 ways to initialize object in Java.
 
 **Example: TestStudent2.java**
 
-![](media/46cec5eb22b9e49e3c8bdf89860ca7f4.png)
+```java
+class Student{  
+ int id;  
+ String name;  
+}  
+class TestStudent2{  
+ public static void main(String args[]){  
+  Student s1=new Student();  
+  s1.id=101;  
+  s1.name="Sonoo";  
+  System.out.println(s1.id+" "+s1.name);//printing members with a white space  
+ }  
+} 
+```
 
 **Output:**
 
-![](media/34e0a5484668acf64c27476a4973b217.png)
+```
+101 Sonoo
+```
 
 -   We can also create multiple objects and store information in it through reference variable.
 
 **Example: TestStudent3.java**
 
-![](media/66868581eda05a112cbaec40fba59f79.png)
+```java
+class Student{  
+ int id;  
+ String name;  
+}  
+class TestStudent3{  
+ public static void main(String args[]){  
+  //Creating objects  
+  Student s1=new Student();  
+  Student s2=new Student();  
+  //Initializing objects  
+  s1.id=101;  
+  s1.name="Sonoo";  
+  s2.id=102;  
+  s2.name="Amit";  
+  //Printing data  
+  System.out.println(s1.id+" "+s1.name);  
+  System.out.println(s2.id+" "+s2.name);  
+ }  
+}  
+```
 
 **Output:**
 
-![](media/cd69d1680c94296fd8d645371bde5d37.png)
+```
+101 Sonoo
+102 Amit
+```
 
 ## 2) Initialization object through method
 
@@ -337,11 +460,36 @@ There are 3 ways to initialize object in Java.
 
 **Example: TestStudent4.java**
 
-*![](media/1153e0530d05267c90cd9fb2119ccd4c.png)*
+```java
+class Student{  
+ int rollno;  
+ String name;  
+ void insertRecord(int r, String n){  
+  rollno=r;  
+  name=n;  
+ }  
+ void displayInformation(){System.out.println(rollno+" "+name);}  
+}  
+class TestStudent4{  
+ public static void main(String args[]){  
+  Student s1=new Student();  
+  Student s2=new Student();  
+  s1.insertRecord(111,"Karan");  
+  s2.insertRecord(222,"Aryan");  
+  s1.displayInformation();  
+  s2.displayInformation();  
+ }  
+}  
+```
 
 **Output:**
 
-*![](media/0508a430e2d0651b565989e31c816f6a.png)*
+```
+111 Karan
+222 Aryan
+```
+
+![](media/811dde39c61921f7fd1ecff4846a38d3.png)
 
 -   As you can see in the above figure, object gets the memory in heap memory area.
 -   The reference variable refers to the object allocated in the heap memory area.
@@ -353,11 +501,40 @@ There are 3 ways to initialize object in Java.
 
 **Example: TestEmployee.java**
 
-*![](media/630c3367ddc5379231e9740f7d70465c.png)*
+```java
+class Employee{  
+    int id;  
+    String name;  
+    float salary;  
+    void insert(int i, String n, float s) {  
+        id=i;  
+        name=n;  
+        salary=s;  
+    }  
+    void display(){System.out.println(id+" "+name+" "+salary);}  
+}  
+public class TestEmployee {  
+public static void main(String[] args) {  
+    Employee e1=new Employee();  
+    Employee e2=new Employee();  
+    Employee e3=new Employee();  
+    e1.insert(101,"ajeet",45000);  
+    e2.insert(102,"irfan",25000);  
+    e3.insert(103,"nakul",55000);  
+    e1.display();  
+    e2.display();  
+    e3.display();  
+}  
+}  
+```
 
 **Output:**
 
-*![](media/9f97f893f906d26cbfa1a2c1a1c49aa5.png)*
+```
+101 ajeet 45000.0
+102 irfan 25000.0
+103 nakul 55000.0
+```
 
 ## 4. Create a Custom Class in Java
 
@@ -367,11 +544,86 @@ There are 3 ways to initialize object in Java.
 
 **Example:**
 
-![](media/166f58267db32b8fd17f28da1c6d1a07.png)
+```java
+// Java Program to Creating our Own Custom Class
+
+// Importing input output classes
+import java.io.*;
+// Class 1
+// Helper class
+class Employee {
+	// Member variables of this class
+	// first attribute
+	int id;
+	// second attribute
+	int salary;
+	// third attribute
+	String name;
+	// Member function of this class
+	// Method 1
+	public void printDetails()
+	{
+		// Print and display commands
+		System.out.println("My id is " + id);
+		System.out.println("This is my name " + name);
+	}
+	// Method 2
+	public int getSalary()
+	{
+		// Simply returning the salary
+		return salary;
+	}
+}
+// Class 2
+// Main class
+class Custom {
+	// Main driver method
+	public static void main(String[] args)
+	{
+		// Display message only
+		System.out.println("This is the custom class");
+		// Creating object of custom class in the main()
+		// method Instantiating a new Employee object
+		Employee harry = new Employee();
+		// Again creating object of custom class and
+		// instantiating a new Employee object
+		Employee robin = new Employee();
+		// Initializing values for first object created
+		// above
+		harry.id = 23;
+		harry.salary = 100000;
+		harry.name = "Ritu bhatiya";
+		// Initializing values for second object created
+		// above
+		robin.id = 25;
+		robin.salary = 150000;
+		robin.name = "Amit thripathi";
+		// Printing object attributes by
+		// calling the method as defined in our class
+		harry.printDetails();
+		robin.printDetails();
+		// Calling the method again of our class and
+		// storing it in a variable
+		int salary = robin.getSalary();
+		// Print and display the above salary
+		System.out.println("Salary of robin : " + salary
+						+ "$");
+		System.out.println("ID : " + harry.id);
+	}
+}
+```
 
 **Output:**
 
-![](media/3130b473a6aa16ed9317075fd82da879.png)
+```
+This is the custom class
+My id is 23
+This is my name Ritu bhatiya
+My id is 25
+This is my name Amit thripathi
+Salary of robin : 150000$
+ID : 23
+```
 
 ## 5. Java Constructors
 
@@ -388,7 +640,7 @@ There are 3 ways to initialize object in Java.
 2.  A Constructor must have no explicit return type
 3.  A Java constructor cannot be abstract, static, final, and synchronized
 
-![](media/2926ba25034428114df422a6fab8ba67.png)
+#### **Note: We can use** [**access modifiers**](https://www.javatpoint.com/access-modifiers) **while declaring a constructor. It controls the object creation. In other words, we can have private, protected, public or default constructor in Java.**
 
 ## 5.2. Types of Java constructors
 
@@ -409,32 +661,68 @@ There are 3 ways to initialize object in Java.
 
 **Syntax for default constructor:**
 
-![](media/6f28c025dbc176f03370deac4368e0e1.png)
+```java
+<class_name>(){}  
+```
 
 **Example**:
 
 -   In this example, we are creating the no-arg constructor in the Bike class.
 -   It will be invoked at the time of object creation.
 
-![](media/f523464c4843fa5c0d7c709fb57cd34a.png)
+```java
+//Java Program to create and call a default constructor  
+class Bike1{  
+//creating a default constructor  
+Bike1(){System.out.println("Bike is created");}  
+//main method  
+public static void main(String args[]){  
+//calling a default constructor  
+Bike1 b=new Bike1();  
+}  
+}  
+```
 
 **Output:**
 
-![](media/02b7050e152acea1e6001652b6e0caaa.png)
+```
+Bike is created
+```
 
-![](media/8719e64925f98f33661713e824e8b197.png)
+#### **Rule: If there is no constructor in a class, compiler automatically creates a default constrctor.**
 
 -   The default constructor provides the default values to the object like 0, null, etc., depending on the type.
 
     **Example:**
 
-    ![](media/e0caf131c82863155b5ab561ac0838cc.png)
+```java
+//Let us see another example of default constructor  
+//which displays the default values  
+class Student3{  
+int id;  
+String name;  
+//method to display the value of id and name  
+void display(){System.out.println(id+" "+name);}  
+  
+public static void main(String args[]){  
+//creating objects  
+Student3 s1=new Student3();  
+Student3 s2=new Student3();  
+//displaying values of the object  
+s1.display();  
+s2.display();  
+}  
+}  
+```
 
-    **Output:**
+**Output:**
 
-    **![](media/d99ad3a3430ce02ec5a756560dbb5c12.png)**
+```
+0 null
+0 null
+```
 
-    **Explanation:**
+**Explanation:**
 
 -   In the above class, you are not creating any constructor so compiler provides you a default constructor.
 -   Here 0 and null values are provided by default constructor.
@@ -453,7 +741,29 @@ There are 3 ways to initialize object in Java.
 -   In this example, we have created the constructor of Student class that have two parameters.
 -   We can have any number of parameters in the constructor.
 
-![](media/9d2d456fc8c8f3b32b38a2fb9bbfcb17.png)
+```java
+//Java Program to demonstrate the use of the parameterized constructor.  
+class Student4{  
+    int id;  
+    String name;  
+    //creating a parameterized constructor  
+    Student4(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+    //method to display the values  
+    void display(){System.out.println(id+" "+name);}  
+   
+    public static void main(String args[]){  
+    //creating objects and passing values  
+    Student4 s1 = new Student4(111,"Karan");  
+    Student4 s2 = new Student4(222,"Aryan");  
+    //calling method to display the values of object  
+    s1.display();  
+    s2.display();  
+   }  
+}  
+```
 
 **Output:**
 
@@ -468,11 +778,41 @@ There are 3 ways to initialize object in Java.
 
 **Example:**
 
-![](media/61353be56e5dac3853e690ba3639c57a.png)
+```java
+//Java program to overload constructors  
+class Student5{  
+    int id;  
+    String name;  
+    int age;  
+    //creating two arg constructor  
+    Student5(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+    //creating three arg constructor  
+    Student5(int i,String n,int a){  
+    id = i;  
+    name = n;  
+    age=a;  
+    }  
+    void display(){System.out.println(id+" "+name+" "+age);}  
+   
+    public static void main(String args[]){  
+    Student5 s1 = new Student5(111,"Karan");  
+    Student5 s2 = new Student5(222,"Aryan",25);  
+    s1.display();  
+    s2.display();  
+   }  
+}  
+```
 
 **Output:**
 
-![](media/9b7852226067766735a4f7ce59f37e40.png)
+```
+Code Language
+111 Karan 0
+222 Aryan 25
+```
 
 ## 5.4. Difference between constructor and method in Java
 
@@ -491,11 +831,38 @@ There are 3 ways to initialize object in Java.
 
 **Example:**
 
-![](media/80663bcd89bde69a83cc69277dca3414.png)
+```java
+//Java program to initialize the values from one object to another object.  
+class Student6{  
+    int id;  
+    String name;  
+    //constructor to initialize integer and string  
+    Student6(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+    //constructor to initialize another object  
+    Student6(Student6 s){  
+    id = s.id;  
+    name =s.name;  
+    }  
+    void display(){System.out.println(id+" "+name);}  
+   
+    public static void main(String args[]){  
+    Student6 s1 = new Student6(111,"Karan");  
+    Student6 s2 = new Student6(s1);  
+    s1.display();  
+    s2.display();  
+   }  
+}  
+```
 
 **Output:**
 
-**![](media/3853db9412690cedde8814267a03535c.png)**
+```
+111 Karan
+111 Karan
+```
 
 ## 5.5.2 Copying values without constructor
 
@@ -504,7 +871,27 @@ There are 3 ways to initialize object in Java.
 
 **Example:**
 
-![](media/1027527c098028887470b0a64b676b8d.png)
+```java
+class Student7{  
+    int id;  
+    String name;  
+    Student7(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+    Student7(){}  
+    void display(){System.out.println(id+" "+name);}  
+   
+    public static void main(String args[]){  
+    Student7 s1 = new Student7(111,"Karan");  
+    Student7 s2 = new Student7();  
+    s2.id=s1.id;  
+    s2.name=s1.name;  
+    s1.display();  
+    s2.display();  
+   }  
+}  
+```
 
 **Output:**
 
@@ -867,7 +1254,21 @@ Hello java
 
 **Example of Stack Memory in Java**
 
-![](media/f2d448af5428ec58622f7620ac193335.png)
+```java
+public class Main {
+  public static int addOne(int input) {
+    return input + 1;
+  }
+  public static int addTwo(int input) {
+    return input + 2;
+  }
+  public static void main(String[] args) {
+    int x = 0;
+    x = addOne(x);
+    x = addTwo(x);
+  }
+}
+```
 
 ![](media/801f4008541ac4455a363aaa5381115d.png)
 
@@ -887,11 +1288,33 @@ Hello java
 
 **Example:**
 
-![](media/31845a8e5a09a09f66b9ef05fbf1f739.png)
+```java
+public class Main {
+  public static int factorial(int n) {
+    /* Base case is commented to make it run indefinitely
+    if (n == 0) {
+        return 1;
+    }
+    */
+
+    return n * factorial(n - 1);
+  }
+
+  public static void main(String[] args) {
+    int x = 3;
+    int fact = factorial(x);
+  }
+}
+```
 
 Error:
 
-![](media/1309e7faa77ca2e6216ced85956fca12.png)
+```
+Exception in thread "main" java.lang.StackOverflowError
+	at StackMemory.factorial(StackMemory.java:15)
+	at StackMemory.factorial(StackMemory.java:15)
+    ...
+```
 
 **Explanation:**
 
@@ -917,7 +1340,19 @@ Error:
 
 **Example of Heap Memory in Java**
 
-![](media/06bd64bb357abd8bca9a21e5f3355fdb.png)
+```java
+import java.util.ArrayList;
+import java.util.List;
+public class HeapMemory {
+  public static void main(String[] args) {
+    int x = 10;
+    List<Integer> list = new ArrayList<>();
+    list.add(1);
+    list.add(2);
+    list.add(3);
+  }
+}
+```
 
 **Explanation:**
 
@@ -931,11 +1366,26 @@ Error:
 -   **OutOfMemoryError** is thrown when there is no more space left in the heap to create and store a new object.
 -   This happens when the Garbage Collector could not freeup any space to store new objects.
 
-![](media/358d9716f1d81f930d72f82e81c9e402.png)
+```java
+public class HeapMemory {
+public static void main(String[] args) {
+for (int i = 1; i < 100; i *= 2) {
+int n = (int) Math.pow(2, i);
+int[] array = new int[n];
+for (int j = 0; j < n; j++) {
+array[j] = 1000;
+}
+}
+}
+}
+```
 
 **Error**
 
-![](media/3ecfa886f818e352301248596a60ed5a.png)
+```
+Exception in thread "main" java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	at HeapMemory.main(HeapMemory.java:7)
+```
 
 **Explanation:**
 
@@ -968,15 +1418,24 @@ The following table summarizes all the major differences between stack memory an
 
 **1) By nulling a reference:**
 
-![](media/1bfb940d7b6fc8a7821c6640e4e48d59.png)
+```java
+Employee e=new Employee();  
+e=null;  
+```
 
 **2) By assigning a reference to another:**
 
-![](media/4b7e7f0f37292f4c4b107100b341752e.png)
+```java
+Employee e1=new Employee();  
+Employee e2=new Employee();  
+e1=e2;//now the first object referred by e1 is available for garbage collection  
+```
 
 **3) By anonymous object:**
 
-![](media/43d99e4039f3aa5030b5fe09d450631a.png)
+```java
+new Employee();  
+```
 
 ## finalize() method
 
@@ -984,26 +1443,46 @@ The following table summarizes all the major differences between stack memory an
 -   This method can be used to perform cleanup processing.
 -   This method is defined in Object class as:
 
-![](media/c8d790cbd23fcfdb9c5854b2a92dec8e.png)
+```java
+protected void finalize(){}  
+```
 
-![](media/89abb1ddd19c7dcb77eca48caa4453e2.png)
+#### **Note: The Garbage collector of JVM collects only those objects that are created by new keyword. So if you have created any object without new, you can use finalize method to perform cleanup processing (destroying remaining objects).**
 
 ## gc() method
 
 -   The gc() method is used to invoke the garbage collector to perform cleanup processing.
 -   The gc() is found in System and Runtime classes.
 
-![](media/6b9e820e9a2b831ecb0dfa695eeaa5cf.png)
+```java
+public static void gc(){}  
+```
 
-![](media/9ddc3a97c17512fb9c4a188cefd097ab.png)
+#### **Note: Garbage collection is performed by a daemon thread called Garbage Collector(GC). This thread calls the finalize() method before object is garbage collected.**
 
 **Simple Example of garbage collection in java**
 
-![](media/65bd2788eee80d6fdfca7f8aca7a3b91.png)
+```java
+public class TestGarbage1{  
+ public void finalize(){System.out.println("object is garbage collected");}  
+ public static void main(String args[]){  
+  TestGarbage1 s1=new TestGarbage1();  
+  TestGarbage1 s2=new TestGarbage1();  
+  s1=null;  
+  s2=null;  
+  System.gc();  
+ }  
+}  
+```
 
-![](media/ef16e816da294dbd6aebaea7ce242f95.png)
+**Output:**
 
-![](media/71fbe5893adbb80b964d95b39eac1e7b.png)
+```
+object is garbage collected
+object is garbage collected
+```
+
+#### **Note: Neither finalization nor garbage collection is guaranteed.**
 
 ## 9. References
 
