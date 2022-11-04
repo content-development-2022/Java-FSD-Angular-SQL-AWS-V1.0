@@ -349,7 +349,7 @@ int a=10, b=20;  
 
 -   Initialization of reference variables:
 
-```
+```java
 Rectangle r1=new Rectangle(), r2=new Rectangle();//creating two objects
 ```
 
