@@ -640,7 +640,7 @@ ID : 23
 2.  A Constructor must have no explicit return type
 3.  A Java constructor cannot be abstract, static, final, and synchronized
 
-#### **Note: We can use** [**access modifiers**](https://www.javatpoint.com/access-modifiers) **while declaring a constructor. It controls the object creation. In other words, we can have private, protected, public or default constructor in Java.**
+**Note:** We can use access modifiers while declaring a constructor. It controls the object creation. In other words, we can have private, protected, public or default constructor in Java.
 
 ## 5.2. Types of Java constructors
 
@@ -767,7 +767,10 @@ class Student4{  
 
 **Output:**
 
-![](media/801eb923495f03100e76f669e4dde5a6.png)
+```
+111 Karan
+222 Aryan
+```
 
 ## 5.3. Constructor Overloading in Java
 
@@ -1458,7 +1461,7 @@ protected void finalize(){}  
 public static void gc(){}  
 ```
 
-#### **Note: Garbage collection is performed by a daemon thread called Garbage Collector(GC). This thread calls the finalize() method before object is garbage collected.**
+**Note:** Garbage collection is performed by a daemon thread called Garbage Collector(GC). This thread calls the finalize() method before object is garbage collected.
 
 **Simple Example of garbage collection in java**
 
@@ -1482,7 +1485,7 @@ object is garbage collected
 object is garbage collected
 ```
 
-#### **Note: Neither finalization nor garbage collection is guaranteed.**
+**Note:** Neither finalization nor garbage collection is guaranteed.
 
 ## 9. References
 
