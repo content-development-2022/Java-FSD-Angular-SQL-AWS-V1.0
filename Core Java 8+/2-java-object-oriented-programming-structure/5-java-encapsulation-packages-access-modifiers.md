@@ -347,7 +347,7 @@ Hello
 
 -   Let's understand the access modifiers in Java by a simple table.
 
-![](media/44a0bd882e9ca356cb48236118ad9c9f.png)
+![](media/acess-modifier-table.png)
 
 ## 2.2 Non-access Modifiers
 
