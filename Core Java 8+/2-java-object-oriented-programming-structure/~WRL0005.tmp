@@ -38,20 +38,11 @@ There are two ways to achieve abstraction in java
 
 **Example:**
 
-```java
-abstract class Animal {
-  public abstract void animalSound();
-  public void sleep() {
-    System.out.println("Zzz");
-  }
-}
-```
+![](media/e3998ad1147b85d3c4be0a3387905bc4.png)
 
 -   From the example above, it is not possible to create an object of the Animal class:
 
-```java
-Animal myObj = new Animal(); // will generate an error
-```
+![](media/5470656f5df26ffe2b08e0b12da6bbd5.png)
 
 -   To access the abstract class, it must be inherited from another class.
 
@@ -69,46 +60,15 @@ Animal myObj = new Animal(); // will generate an error
 
 **Example of abstract method**
 
-```java
-abstract void printStatus();//no method body and abstract  
-```
+![](media/9c8fc1ea31f570490337c028e815914f.png)
 
 **Example for abstract class and abstract method**
 
-```java
-// Abstract class
-abstract class Animal {
-  // Abstract method (does not have a body)
-  public abstract void animalSound();
-  // Regular method
-  public void sleep() {
-    System.out.println("Zzz");
-  }
-}
+![](media/4184858af99d862cfdd831caea5820dd.png)
 
-// Subclass (inherit from Animal)
-class Pig extends Animal {
-  public void animalSound() {
-    // The body of animalSound() is provided here
-    System.out.println("The pig says: wee wee");
-  }
-}
+Output:
 
-class Main {
-  public static void main(String[] args) {
-    Pig myPig = new Pig(); // Create a Pig object
-    myPig.animalSound();
-    myPig.sleep();
-  }
-}
-```
-
-**Output:**
-
-```
-The pig says: wee weee
-Zzz
-```
+![](media/38bcf9593d52546c5ffec37b62c7437d.png)
 
 **Why and when to use abstract classes and methods?**
 
@@ -121,54 +81,18 @@ Zzz
 
 **Syntax:**
 
-```java
-interface <interface_name>{  
-      
-    // declare constant fields  
-    // declare methods that abstract   
-    // by default.  
-}  
-```
+![](media/3dab66351a02817fe676ef951fd67156.png)
 
 -   To access the interface methods, the interface must be "implemented" by another class with the **implements** keyword (instead of extends).
 -   The body of the interface method is provided by the "implement" class.
 
 **Example:**
 
-```java
-// Interface
-interface Animal {
-  public void animalSound(); // interface method (does not have a body)
-  public void sleep(); // interface method (does not have a body)
-}
-
-// Pig "implements" the Animal interface
-class Pig implements Animal {
-  public void animalSound() {
-    // The body of animalSound() is provided here
-    System.out.println("The pig says: wee wee");
-  }
-  public void sleep() {
-    // The body of sleep() is provided here
-    System.out.println("Zzz");
-  }
-}
-
-class Main {
-  public static void main(String[] args) {
-    Pig myPig = new Pig();  // Create a Pig object
-    myPig.animalSound();
-    myPig.sleep();
-  }
-}
-```
+![](media/c6f2dc35dd3f0f435bed90cbf20f156b.png)
 
 **Output:**
 
-```
-The pig says: wee weee
-Zzz
-```
+![](media/8b4e8761ea67d4697a1cd714f53ddaf9.png)
 
 **Notes on Interfaces:**
 
@@ -195,39 +119,11 @@ Zzz
 
 **Example:**
 
-```java
-interface FirstInterface {
-  public void myMethod(); // interface method
-}
-
-interface SecondInterface {
-  public void myOtherMethod(); // interface method
-}
-
-class DemoClass implements FirstInterface, SecondInterface {
-  public void myMethod() {
-    System.out.println("Some text..");
-  }
-  public void myOtherMethod() {
-    System.out.println("Some other text...");
-  }
-}
-
-class Main {
-  public static void main(String[] args) {
-    DemoClass myObj = new DemoClass();
-    myObj.myMethod();
-    myObj.myOtherMethod();
-  }
-}
-```
+![](media/f929499b9de75dd9169aa1fb72aff44c.png)
 
 **Output:**
 
-```
-Some text…
-Some other text…
-```
+![](media/06f6fb64a85980f30ae72537a8e5c1f7.png)
 
 ## 2.2 Difference between abstract class and interface
 
@@ -240,8 +136,8 @@ Simply, abstract class achieves partial abstraction (0 to 100%) whereas interfac
 
 ## 3. References
 
-1.  https://www.w3schools.com/java/java_abstract.asp
-2.  https://www.w3schools.com/java/java_interface.asp
+1.  <https://www.w3schools.com/java/java_abstract.asp>
+2.  <https://www.w3schools.com/java/java_interface.asp>
 3.  https://www.javatpoint.com/difference-between-abstract-class-and-interface
 
 ## 
