@@ -60,7 +60,7 @@ Animal myObj = new Animal(); // will generate an error
 -   Because the class is incomplete, they have abstract methods that have no body so if java allows you to create object of this class then if someone calls the abstract method using that object then What would happen? There would be no actual implementation of the method to invoke.
 -   Also an object is concrete. An abstract class is like a template, so you have to extend it and build on it before you can use it.
 
-![](media/1fff31c7bbaf4bd4e154f7b017b7d4d3.png)
+![](media/abstract-class-rules.png)
 
 ## 1.2 Abstract Method in Java
 
@@ -181,13 +181,13 @@ Zzz
 
 **Why use java interfaces?**
 
-![](media/3f590ce0f2b46ddd229ebd595f324f65.png)
+![](media/interface-use.png)
 
 **The relationship between classes and interfaces**
 
 -   As shown in the figure given below, a class extends another class, an interface extends another interface, but a **class implements an interface**.
 
-![](media/f2989d7eebdb0efaf14a161d591a6e03.png)
+![](media/class-interface-relationship.png)
 
 ## 2.1 Multiple Interfaces
 
@@ -234,7 +234,7 @@ Some other text…
 -   Abstract class and interface both are used to achieve abstraction.
 -   But there are many differences between abstract class and interface that are given below.
 
-![](media/fab3932e5f27153914697e3196b0aba5.png)
+![](media/difference-abstract-class-interface.png)
 
 Simply, abstract class achieves partial abstraction (0 to 100%) whereas interface achieves fully abstraction (100%).
 
