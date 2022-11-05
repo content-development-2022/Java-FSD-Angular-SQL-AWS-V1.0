@@ -40,11 +40,44 @@
 -   Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
 -   **For example**, think of a superclass called **Animal** that has a method called **animalSound().** Subclasses of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.).
 
-    ![](media/2ba89566a6a42343a29d2cbc2a79365b.png)
+```java
+class Animal {
+  public void animalSound() {
+    System.out.println("The animal makes a sound");
+  }
+}
 
-    **Output:**
+class Pig extends Animal {
+  public void animalSound() {
+    System.out.println("The pig says: wee wee");
+  }
+}
 
-    ![](media/e1ec58f96b90a87474c1ca2cee4872ee.png)
+class Dog extends Animal {
+  public void animalSound() {
+    System.out.println("The dog says: bow wow");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Animal myAnimal = new Animal();
+    Animal myPig = new Pig();
+    Animal myDog = new Dog();
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+  }
+}
+```
+
+**Output:**
+
+```
+The animal makes a sound
+The pig says: wee wee
+The dog says: bow bow
+```
 
 ## 2. Types of Polymorphism
 
@@ -66,24 +99,70 @@ There are two types of polymorphism in java:
 
 **Example of Compile-Time Polymorphism in Java**
 
-![](media/1fd109260b70e46068a1f768dd4abb92.png)
+```java
+public class Addition { 
+void sum(int a, int b) { 
+int c = a+b; 
+System.out.println(“ Addition of two numbers :” +c); 
+} 
+void sum(int a, int b, int e) { 
+int c = a+b+e; 
+System.out.println(“ Addition of three numbers :” +c); 
+}
+public static void main(String[] args) { 
+Addition obj = new Addition(); 
+obj.sum ( 30,90); 
+obj.sum(45, 80, 22); 
+} 
+}
+```
 
 **Output:**
 
+```
 Sum of two numbers: 120
-
 Sum of three numbers: 147
+```
 
 -   In this program, the sum() method overloads with two types via different parameters.
 -   This is the basic concept of compile-time polymorphism in java where we can perform various operations by using multiple methods having the same name.
 
 **Another Example:**
 
-![](media/802dc446d947a1078a2e221758041a99.png)
+```java
+class Shapes { 
+public void area() { 
+System.out.println("Find area "); 
+} 
+public void area(int r) { 
+System.out.println("Circle area = "+3.14*r*r); 
+} 
+public void area(double b, double h) { 
+System.out.println("Triangle area="+0.5*b*h); 
+} 
+public void area(int l, int b) { 
+System.out.println("Rectangle area="+l*b);
+ }
+ }
+ class Main { 
+public static void main(String[] args) { 
+Shapes myShape = new Shapes(); // Create a Shapes object 
+myShape.area();
+ myShape.area(5);
+ myShape.area(6.0,1.2); 
+myShape.area(6,2);
+ }
+ }
+```
 
 **Output:**
 
-![](media/842ed3f3aa868ae1dbfb1190a6532da3.png)
+```
+Find area
+Circle area = 78.5
+Triangle area=3.60
+Rectangle area=12
+```
 
 ## 2.1.1 Different ways to Overload The Methods
 
@@ -176,11 +255,32 @@ The only **disadvantage** of compile-time polymorphism is that it doesn’t incl
 
 **Example:**
 
-![](media/105de6c8a73cdabfb05b8d03ea343223.png)
+```java
+class Animal {
+   public void move() {
+      System.out.println("Animals can move");
+   }
+}
+class Dog extends Animal {
+   public void move() {
+      System.out.println("Dogs can walk and run");
+   }
+}
+public class TestDog {
+   public static void main(String args[]) {
+      Animal a = new Animal(); // Animal reference and object
+      Animal b = new Dog(); // Animal reference but Dog object
+      a.move(); // runs the method in Animal class
+      b.move(); // runs the method in Dog class
+   }
+}
+```
 
 **Output:**
 
-![](media/8d582e03f3565ffefe94897420f6a847.png)
+Animals can move
+
+Dogs can walk and run
 
 ## 2.2.2 Difference between Method Overloading and Method Overriding in Java
 
@@ -386,6 +486,7 @@ dog is created
 ## 5. References
 
 1.  https://www.mygreatlearning.com/blog/polymorphism-in-java/
-2.  https://www.tutorialspoint.com/Runtime-Polymorphism-in-Java
-3.  https://www.javatpoint.com/super-keyword
-4.  https://www.javatpoint.com/upcasting-and-downcasting-in-java
+2.  https://www.w3schools.com/java/java_polymorphism.asp
+3.  https://www.tutorialspoint.com/Runtime-Polymorphism-in-Java
+4.  https://www.javatpoint.com/super-keyword
+5.  https://www.javatpoint.com/upcasting-and-downcasting-in-java
