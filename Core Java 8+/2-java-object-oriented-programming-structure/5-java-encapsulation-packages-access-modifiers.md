@@ -45,7 +45,10 @@
 
 **Syntax**
 
-![](media/6840b189c20f65930826c02678e932ef.png)
+```java
+import package.name.Class;   // Import a single class
+import package.name.*;   // Import the whole package
+```
 
 ## 1.1.1 Import a Class
 
@@ -53,7 +56,9 @@
 
 **Example-1**
 
-![](media/df46448d50f1dda7e189f5a4bb5778e2.png)
+```java
+import java.util.Scanner;
+```
 
 -   In the example above, **java.util** is a package, while **Scanner** is a class of the **java.util** package.
 -   To use the **Scanner** class, create an object of the class and use any of the available methods found in the Scanner class documentation.
@@ -63,11 +68,25 @@
 
 -   Using the Scanner class to get user input:
 
-![](media/2985f8ca7ee972ac80cb013c282160d4.png)
+```java
+import java.util.Scanner;
+
+class MyClass {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    System.out.println("Enter username");
+
+    String userName = myObj.nextLine();
+    System.out.println("Username is: " + userName);
+  }
+}
+```
 
 **Output:**
 
-![](media/1596f0198ec9c8cb974078813061b3b6.png)
+```
+Enter username
+```
 
 ## 1.1.2 Import a Package
 
@@ -78,11 +97,28 @@
 
 **Example:**
 
-![](media/4956371b975c3121a8aed18c53e3a452.png)
+```java
+import java.util.*; // import the java.util package 
+
+class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+    
+    // Enter username and press Enter
+    System.out.println("Enter username"); 
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
+  }
+}
+```
 
 **Output:**
 
-## ![](media/9f5106b4d32c6efd3fb8cc886d142e78.png)
+```
+Enter username
+```
 
 ## 1.2 User-defined Packages
 
@@ -91,21 +127,36 @@
 
 **Example**
 
-![](media/739ec55e50865d455cb50c48062b18d0.png)
+```
+└── root
+  └── mypack
+    └── MyPackageClass.java
+```
 
 -   To create a package, use the package keyword:
 
 **MyPackageClass.java**
 
-![](media/78506e8b7c844356b9f46c5941172efe.png)
+```java
+package mypack;
+class MyPackageClass {
+  public static void main(String[] args) {
+    System.out.println("This is my package!");
+  }
+}
+```
 
 -   Save the file as **MyPackageClass.java**, and compile it:
 
-![](media/4fd69c5af3c7bb838b8f31e851a5a6af.png)
+```
+C:\Users\Your Name>javac MyPackageClass.java
+```
 
 -   Then compile the package:
 
-![](media/c97edc9b658ce89375af4a9b9344d12b.png)
+```
+C:\Users\Your Name>javac –d . MyPackageClass.java
+```
 
 -   This forces the compiler to create the "mypack" package.
 -   The -d keyword specifies the destination for where to save the class file.
@@ -116,11 +167,15 @@
 -   When we compiled the package in the example above, a new folder was created, called "mypack".
 -   To run the **MyPackageClass.java** file, write the following:
 
-![](media/b46e18162abd44181565cc6f2c776b66.png)
+```
+C:\Users\Your Name>java mypack.MyPackageClass
+```
 
 -   The output will be:
 
-![](media/5bfaac0ffcbf70309cf4335f022efceb.png)
+```
+This is my pckage!
+```
 
 ## 1.3 Advantage of Java Package
 
@@ -155,7 +210,20 @@
 -   A class contains private data member and private method.
 -   We are accessing these private members from outside the class, so there is a compile-time error.
 
-    ![](media/5a2d08691dbefd9af6d5e16183dce5ea.png)
+```java
+class A{  
+private int data=40;  
+private void msg(){System.out.println("Hello java");}  
+}  
+  
+public class Simple{  
+ public static void main(String args[]){  
+   A obj=new A();  
+   System.out.println(obj.data);//Compile Time Error  
+   obj.msg();//Compile Time Error  
+   }  
+}  
+```
 
 ### Role of Private Constructor
 
@@ -163,7 +231,17 @@
 
 **Example:**
 
-![](media/2e948cc0a378bee84da8d582513047c4.png)
+```java
+class A{  
+private A(){}//private constructor  
+void msg(){System.out.println("Hello java");}  
+}  
+public class Simple{  
+ public static void main(String args[]){  
+   A obj=new A();//Compile Time Error  
+ }  
+}  
+```
 
 ## 2) Default:
 
@@ -176,7 +254,23 @@
 -   In this example, we have created two packages pack and mypack.
 -   We are accessing the A class from outside its package, since A class is not public, so it cannot be accessed from outside the package.
 
-![](media/37c59a61b31a51b3979c9499063bdac9.png)
+```java
+//save by A.java  
+package pack;  
+class A{  
+  void msg(){System.out.println("Hello");}  
+}  
+
+//save by B.java  
+package mypack;  
+import pack.*;  
+class B{  
+  public static void main(String args[]){  
+   A obj = new A();//Compile Time Error  
+   obj.msg();//Compile Time Error  
+  }  
+} 
+```
 
 -   In the above example, the scope of class A and its method msg() is default so it cannot be accessed from outside the package.
 
@@ -191,9 +285,30 @@
 -   In this example, we have created the two packages pack and mypack.
 -   The A class of pack package is public, so can be accessed from outside the package. But msg method of this package is declared as protected, so it can be accessed from outside the class only through inheritance.
 
-![](media/56eea381a6ac36709eb73e9329845e4f.png)
+```java
+//save by A.java  
+package pack;  
+public class A{  
+protected void msg(){System.out.println("Hello");}  
+}  
 
-![](media/8b1bfa3b1cc0728150a260ccf1c960ac.png)
+//save by B.java  
+package mypack;  
+import pack.*;  
+  
+class B extends A{  
+  public static void main(String args[]){  
+   B obj = new B();  
+   obj.msg();  
+  }  
+}
+```
+
+**Output:**
+
+```
+Hello
+```
 
 ## 4) Public:
 
@@ -203,13 +318,36 @@
 
 **Example of public access modifier**
 
-![](media/fd60fb93180e05a307c2b891e5a6bd91.png)
+```java
+//save by A.java  
+  
+package pack;  
+public class A{  
+public void msg(){System.out.println("Hello");}  
+}  
 
-![](media/073e6bc54fc5f51334a7f8244bd2bcbd.png)
+//save by B.java  
+  
+package mypack;  
+import pack.*;  
+  
+class B{  
+  public static void main(String args[]){  
+   A obj = new A();  
+   obj.msg();  
+  }  
+}  
+```
+
+**Output:**
+
+```
+Hello
+```
 
 -   Let's understand the access modifiers in Java by a simple table.
 
-![](media/access-modifier-table.png)
+![](media/44a0bd882e9ca356cb48236118ad9c9f.png)
 
 ## 2.2 Non-access Modifiers
 
@@ -231,11 +369,57 @@ How to implement encapsulation in java:
 1.  Make the instance variables private so that they cannot be accessed directly from outside the class. You can only set and get values of these variables through the methods of the class.
 2.  Have getter and setter methods in the class to set and get the values of the fields.
 
-![](media/a0cc5324a7660f7deefb495cda1fd418.png)
+```java
+class EncapsulationDemo{
+    private int ssn;
+    private String empName;
+    private int empAge;
+
+    //Getter and Setter methods
+    public int getEmpSSN(){
+        return ssn;
+    }
+
+    public String getEmpName(){
+        return empName;
+    }
+
+    public int getEmpAge(){
+        return empAge;
+    }
+
+    public void setEmpAge(int newValue){
+        empAge = newValue;
+    }
+
+    public void setEmpName(String newValue){
+        empName = newValue;
+    }
+
+    public void setEmpSSN(int newValue){
+        ssn = newValue;
+    }
+}
+public class EncapsTest{
+    public static void main(String args[]){
+         EncapsulationDemo obj = new EncapsulationDemo();
+         obj.setEmpName("Mario");
+         obj.setEmpAge(32);
+         obj.setEmpSSN(112233);
+         System.out.println("Employee Name: " + obj.getEmpName());
+         System.out.println("Employee SSN: " + obj.getEmpSSN());
+         System.out.println("Employee Age: " + obj.getEmpAge());
+    } 
+}
+```
 
 **Output:**
 
-![](media/48743ac15477a927d30bae18444405bd.png)
+```
+Employee Name: Mario
+Employee SSN: 112233
+Employee Age: 32
+```
 
 **Explaination:**
 
