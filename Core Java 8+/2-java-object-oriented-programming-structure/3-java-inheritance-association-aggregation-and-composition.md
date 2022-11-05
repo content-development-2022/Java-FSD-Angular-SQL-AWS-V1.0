@@ -85,7 +85,7 @@ class Subclass-name extends Superclass-name  
 
 -   When a class inherits another class, it is known as a *single inheritance*.
 
-![](media/e04db8bef35cb2e6d0bc4a8436ea8389.png)
+![](media/single-inheritance.png)
 
 **Example: TestInheritance.java**
 
@@ -115,7 +115,7 @@ eating...
 
 -   When there is a chain of inheritance, it is known as *multilevel inheritance*.
 
-    ![](media/a6f2926306f6ebf3a9f8c5b48126333c.png)
+    ![](media/multilevel-inheritance.png)
 
 -   As you can see in the example given below, BabyDog class inherits the Dog class which again inherits the Animal class, so there is a multilevel inheritance.
 
@@ -152,7 +152,7 @@ eating...
 
 -   When two or more classes inherits a single class, it is known as *hierarchical inheritance*.
 
-    ![](media/06f238643b05e16e8ad3465ea5a407ff.png)
+    ![](media/hierarchical-inheritance.png)
 
 -   In the example given below, Dog and Cat classes inherits the Animal class, so there is hierarchical inheritance.
 
@@ -188,7 +188,7 @@ eating...
 
 -   multiple inheritance is not supported in java.
 
-![](media/d5a53c0541e79bded8c1a47f7705710c.png)
+![](media/multiple-inheritance.png)
 
 -   Consider a scenario where A, B, and C are three classes.
 -   The C class inherits A and B classes.
