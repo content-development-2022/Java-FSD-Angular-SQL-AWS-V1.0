@@ -318,7 +318,7 @@ public class Main {
 }
 ```
 
-Output:
+**Output:**
 
 ```
 John Doe
@@ -347,7 +347,7 @@ public class Main {
 }
 ```
 
-Output:
+**Output:**
 
 ```
 30
