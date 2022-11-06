@@ -56,13 +56,13 @@ Object obj=getObject();//we don't know what object will be returned fro
 
 -   The Object class provides some common behaviors to all the objects such as object can be compared, object can be cloned, object can be notified etc.
 
-![](media/9ae991f4e0f51cd6bd76f1a8384cb589.png)
+![](media/object-class.png)
 
 ## 1.1 Methods of object class
 
 -   The Object class provides many methods. They are as follows:
 
-![](media/e81d24dc89b8e0604c92501f8f90a9ae.png)
+![](media/method-description.png)
 
 ## 2. Object Cloning in Java
 
@@ -405,7 +405,7 @@ String txt = "We are the so-called "Vikings" from the north.";
 -   The solution to avoid this problem, is to use the **backslash escape character**.
 -   The backslash (\\) escape character turns special characters into string characters.
 
-![](media/6c94ef5140572f88b8711f3813bf5b96.png)
+![](media/escape-character.png)
 
 **1) The sequence \\" inserts a double quote in a string.**
 
@@ -466,7 +466,7 @@ The character \\ is called backslash.
 
 **Other common escape sequences that are valid in Java are:**
 
-![](media/00afb09659129c2aa2d3b6ddcbc18ad3.png)
+![](media/common-escape-sequence.png)
 
 ## 6. Math API
 
