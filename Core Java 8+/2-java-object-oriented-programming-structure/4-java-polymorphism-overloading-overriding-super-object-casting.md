@@ -232,7 +232,7 @@ The only **disadvantage** of compile-time polymorphism is that it doesn’t incl
 -   In any object-oriented programming language, Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.
 -   When a method in a subclass has the same name, same parameters or signature, and same return type(or sub-type) as a method in its super-class, then the method in the subclass is said to *override* the method in the super-class.
 
-![](media/cacf581ea9ca6f004e590465190fdc5d.png)
+![](media/runtime-polymorphism.png)
 
 ## 2.2.1 Rules for method overriding
 
@@ -277,7 +277,7 @@ Dogs can walk and run
 
 ## 2.2.2 Difference between Method Overloading and Method Overriding in Java
 
-![](media/6ff72fa230ee9d4a58c8eb3e0104c0de.png)
+![](media/difference-overloading-overriding.png)
 
 ## 3. super Keyword in Java
 
@@ -425,7 +425,7 @@ dog is created
 -   In Upcasting and Downcasting, we typecast a child object to a parent object and a parent object to a child object simultaneously.
 -   We can perform Upcasting implicitly or explicitly, but downcasting cannot be implicitly possible.
 
-![](media/0371286d114702bc45c08c71350d85c7.png)
+![](media/object-casting.png)
 
 ## 4.1 Upcasting
 
@@ -536,13 +536,13 @@ Child method is called
 -   In Java, we rarely use **Upcasting**. We use it when we need to develop a code that deals with only the parent class.
 -   **Downcasting** is used when we need to develop a code that accesses behaviors of the child class.
 
-![](media/c44708b1be9ed561fe3a4340298c1a4b.png)
+![](media/need-upcasting-downcasting.png)
 
 ## 4.4 Difference between Upcasting and Downcasting
 
 -   These are the following differences between Upcasting and Downcasting:
 
-![](media/a43441aed780c36e90ad48c3beb8815a.png)
+![](media/difference-upcasting-downcasting.png)
 
 ## 5. References
 
