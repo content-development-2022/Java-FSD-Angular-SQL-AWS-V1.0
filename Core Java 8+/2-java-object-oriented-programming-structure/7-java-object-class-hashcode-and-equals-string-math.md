@@ -131,8 +131,13 @@ System.out.println(s2.rollno+" "+s2.name);  
   
 }  
 }  
-Output:101 amit
-       101 amit
+```
+
+**Output:**
+
+```
+101 amit
+101 amit
 ```
 
 -   As you can see in the above example, both reference variables have the same value.
