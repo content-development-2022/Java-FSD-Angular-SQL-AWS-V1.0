@@ -48,7 +48,12 @@
 -   In other words, it is the topmost class of java.
 -   The Object class is beneficial if you want to refer any object whose type you don't know.
 -   Notice that parent class reference variable can refer the child class object, know as **upcasting**.
--   Let's take an example, there is getObject() method that returns an object but it can be of any type like Employee, Student etc, we can use Object class reference to refer that object. ![](media/ca713fa09da49ca91e2ae39fde8e93fa.png)
+-   Let's take an example, there is getObject() method that returns an object but it can be of any type like Employee, Student etc, we can use Object class reference to refer that object.
+
+```java
+Object obj=getObject();//we don't know what object will be returned from this method  
+```
+
 -   The Object class provides some common behaviors to all the objects such as object can be compared, object can be cloned, object can be notified etc.
 
 ![](media/9ae991f4e0f51cd6bd76f1a8384cb589.png)
@@ -69,7 +74,9 @@
 
 **Syntax of the clone() method is as follows:**
 
-![](media/f43277f1c4e4beba6f1f1ab3b0564bdc.png)
+```java
+protected Object clone() throws CloneNotSupportedException 
+```
 
 ## 2.1 Why use clone() method ?
 
@@ -97,9 +104,36 @@
 
 ## 2.4 Example of clone() method (object cloning)
 
-![](media/cca1af478fcd886925201d165c5a077a.png)
-
-![](media/927534f14c595c86adcac5a72c2a2292.png)
+```java
+class Student18 implements Cloneable{  
+int rollno;  
+String name;  
+  
+Student18(int rollno,String name){  
+this.rollno=rollno;  
+this.name=name;  
+}  
+  
+public Object clone()throws CloneNotSupportedException{  
+return super.clone();  
+}  
+  
+public static void main(String args[]){  
+try{  
+Student18 s1=new Student18(101,"amit");  
+  
+Student18 s2=(Student18)s1.clone();  
+  
+System.out.println(s1.rollno+" "+s1.name);  
+System.out.println(s2.rollno+" "+s2.name);  
+  
+}catch(CloneNotSupportedException c){}  
+  
+}  
+}  
+Output:101 amit
+       101 amit
+```
 
 -   As you can see in the above example, both reference variables have the same value.
 -   Thus, the clone() copies the values of an object to another.
@@ -154,25 +188,26 @@ true if this object is the same as the obj argument; false otherwise.
 
 **Example:**
 
+```java
 String str = "abc";
+```
 
 **is equivalent to:**
 
+```java
 char data[] = {'a', 'b', 'c'};
-
 String str = new String(data);
+```
 
 Here are some more examples of how strings can be used:
 
+```java
 System.out.println("abc");
-
 String cde = "cde";
-
 System.out.println("abc" + cde);
-
 String c = "abc".substring(2,3);
-
 String d = cde.substring(1, 2);
+```
 
 ## 5.1. String Methods
 
@@ -183,11 +218,22 @@ String d = cde.substring(1, 2);
 
 **Example:**
 
-**![](media/66beaa09be650ec9e396c69b8a778e5f.png)**
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "Hello World";
+    System.out.println(txt.toUpperCase());
+    System.out.println(txt.toLowerCase());
+  }
+}
+```
 
 **Output**:
 
-![](media/f618f5d61914491780c6cba356929c84.png)
+```
+HELLO WORLD
+hello world
+```
 
 ## 5.1.2 String Length
 
@@ -195,11 +241,20 @@ String d = cde.substring(1, 2);
 
 **Example:**
 
-![](media/4df331acc4c5e20b5f52d0f6525fd726.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    System.out.println("The length of the txt string is: " + txt.length());
+  }
+}
+```
 
 **Output:**
 
-**![](media/6f1f03b187c40f9f1ff4ac30e8aa5bb9.png)**
+```
+The length of the txt string is: 26
+```
 
 ## 5.1.3 Finding a Character in a String
 
@@ -207,11 +262,20 @@ String d = cde.substring(1, 2);
 
 **Example:**
 
-![](media/d946da550de7747952ead1d447c33a27.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "Please locate where 'locate' occurs!";
+    System.out.println(txt.indexOf("locate"));
+  }
+}
+```
 
 **Output:**
 
-**![](media/1acf5bc0a8afdf53c12ff558955cb37f.png)**
+```
+7
+```
 
 ## 5.1.4 String Concatenation
 
@@ -219,39 +283,112 @@ String d = cde.substring(1, 2);
 
 **Example:**
 
-![](media/8e1db84b9453e0df0e721cecd101af49.png)
+```java
+public class Main {
+  public static void main(String args[]) {
+    String firstName = "John";
+    String lastName = "Doe";
+    System.out.println(firstName + " " + lastName);
+  }
+}
+```
 
 **Output:**
 
-![](media/fc7122eb1cbc86ad36d6321d6f3ab93a.png)
+```
+John Doe
+```
 
 -   You can also use the concat() method to concatenate two strings.
 
 **Example:**
 
-![](media/de7e21c936cbcc6f12b8beb0eca7c750.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String firstName = "John ";
+    String lastName = "Doe";
+    System.out.println(firstName.concat(lastName));
+  }
+}
+```
+
+Output:
+
+```
+John Doe
+```
 
 ## 5.2 Adding Numbers and Strings
 
-![](media/8129419aaac5ac83a7568b6fde4fdd97.png)
+```
+WARNING!
+Java uses the + operator for both addition and concatenation.
+Numbers are added. Strings are concatenated.
+```
 
 **1) If you add two numbers, the result will be a number:**
 
 **Example:**
 
-![](media/b024993be537f980d1fa48a38641e68b.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    int x = 10;
+    int y = 20;
+    int z = x + y;
+    System.out.println(z);
+  }
+}
+```
+
+Output:
+
+```
+30
+```
 
 **2) If you add two strings, the result will be a string concatenation.**
 
 **Example:**
 
-![](media/653183f76f912569a1c1054c98327c1e.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String x = "10";
+    String y = "20";
+    String z = x + y;
+    System.out.println(z);
+  }
+}
+```
+
+**Output:**
+
+```
+1020
+```
 
 **3) If you add a number and a string, the result will be a string concatenation.**
 
 **Example:**
 
-![](media/c23b00d9d561ebff568d9c8e8f3d6430.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String x = "10";
+    int y = 20;
+    String z = x + y;
+    System.out.println(z);
+  }
+}
+```
+
+**Output:**
+
+```
+1020
+```
 
 -   To know more information about String methods [click here](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html).
 
@@ -261,7 +398,9 @@ String d = cde.substring(1, 2);
 
 **Example:**
 
-![](media/a7d440042a3ff7a39609e7fad4e5d3e4.png)
+```java
+String txt = "We are the so-called "Vikings" from the north.";
+```
 
 -   The solution to avoid this problem, is to use the **backslash escape character**.
 -   The backslash (\\) escape character turns special characters into string characters.
@@ -272,19 +411,60 @@ String d = cde.substring(1, 2);
 
 **Example:**
 
-![](media/344b541aaa8a66fda5cc8d4735e30c30.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "We are the so-called \"Vikings\" from the north.";
+    System.out.println(txt);
+  }
+}
+```
+
+**Output:**
+
+```
+We are the so-called \"Vikings\" from the north.
+```
 
 **2) The sequence \\' inserts a single quote in a string.**
 
 **Example:**
 
-![](media/d181801ef4e33bfd137e7e59c4c3ea45.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "It\'s alright.";
+    System.out.println(txt);
+  }
+}
+```
+
+**Output:**
+
+```
+It\'s alright.
+```
 
 **3) The sequence \\\\ inserts a single backslash in a string.**
 
 **Example:**
 
-![](media/8c99366877205ce0fa2f7b2e0eae3724.png)Other common escape sequences that are valid in Java are:
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "The character \\ is called backslash.";
+    System.out.println(txt);
+  }
+}
+```
+
+**Output:**
+
+```
+The character \\ is called backslash.
+```
+
+**Other common escape sequences that are valid in Java are:**
 
 ![](media/00afb09659129c2aa2d3b6ddcbc18ad3.png)
 
