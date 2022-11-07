@@ -1,4 +1,4 @@
-## Collections
+# Collections Framework
 
 **Content**
 
