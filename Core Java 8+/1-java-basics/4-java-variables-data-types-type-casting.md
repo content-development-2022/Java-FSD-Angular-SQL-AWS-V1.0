@@ -162,6 +162,7 @@ public class A  
 
 ![](media/primitive-1.png)
 
+
 | **Data Type** | **Size** | **Description**                                                                   |
 |---------------|----------|-----------------------------------------------------------------------------------|
 | byte          | 1 byte   | Stores whole numbers from -128 to 127                                             |
@@ -173,7 +174,7 @@ public class A  
 | boolean       | 1 bit    | Stores true or false values                                                       |
 | char          | 2 bytes  | Stores a single character/letter or ASCII values                                  |
 
-## 6.1. byte Data Type
+### 6.1. byte Data Type
 
 -   The byte data type is an 8-bit signed two's complement integer.
 
@@ -192,7 +193,7 @@ byte a = 10;
 byte b = -20;
 ```
 
-## 6.2. short Data Type
+### 6.2. short Data Type
 
 -   The short data type is a 16-bit signed two's complement integer.
 
@@ -211,7 +212,7 @@ short s = 10100;
 short r = -6000;
 ```
 
-## 6.3. int Data Type
+### 6.3. int Data Type
 
 -   The int data type is a 32-bit signed two's complement integer.
 
@@ -228,7 +229,7 @@ int a = 100000;
 int b = -200000 ;
 ```
 
-## 6.4. long Data Type
+### 6.4. long Data Type
 
 -   The long data type is a 64-bit two's complement integer.
 
@@ -245,7 +246,7 @@ long a = 1500009900L;
 long b = -1508909900L;
 ```
 
-## 6.5. float Data Type
+### 6.5. float Data Type
 
 -   The float data type is a single-precision 32-bit IEEE 754 floating point.
 
@@ -261,7 +262,7 @@ long b = -1508909900L;
 float f1 = 234.5;
 ```
 
-## 6.6. double Data Type
+### 6.6. double Data Type
 
 -   The double data type is a double-precision 64-bit IEEE 754 floating point.
 
@@ -277,7 +278,7 @@ float f1 = 234.5;
 double d1 = 12.3;
 ```
 
-## 6.7. char Data Type
+### 6.7. char Data Type
 
 -   The char data type is a single 16-bit Unicode character.
 
@@ -291,7 +292,7 @@ double d1 = 12.3;
 char letter= 'A' ;
 ```
 
-## 6.8. boolean Data Type
+### 6.8. boolean Data Type
 
 -   The boolean data type is used to store only two possible values: **true and false**.
 
