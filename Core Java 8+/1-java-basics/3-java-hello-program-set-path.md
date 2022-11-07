@@ -154,13 +154,13 @@ Type the following commands here:
 
 -   The modifications that can be done in a Java program are given below:
 
-## 1) By changing the sequence of the modifiers, method prototype is not changed in Java.
+### 2.4.1 By changing the sequence of the modifiers, method prototype is not changed in Java.
 
 ```java
 static public void main(String args[])
 ```
 
-## 2) The subscript notation in the Java array can be used after type, before the variable or after the variable.
+### 2.4.2 The subscript notation in the Java array can be used after type, before the variable or after the variable.
 
 ```java
 static public void main(String[] args)
@@ -168,13 +168,13 @@ static public void main(String [] args)
 static public void main(String args[])
 ```
 
-## 3) You can provide var-args support to the main() method by passing 3 ellipses (dots)
+### 2.4.3 You can provide var-args support to the main() method by passing 3 ellipses (dots)
 
 ```java
 static public void main(String… args)
 ```
 
-## 4) Having a semicolon at the end of class is optional in Java.
+### 2.4.4 Having a semicolon at the end of class is optional in Java.
 
 ```java
 class A{  
@@ -184,7 +184,7 @@ System.out.println("hello java4");  
 };  
 ```
 
-## 5) Valid Java main() method signature
+### 2.4.5 Valid Java main() method signature
 
 ```java
 public static void main(String[] args)  
@@ -197,7 +197,7 @@ final public static void main(String[] args)  
 final strictfp public static void main(String[] args)  
 ```
 
-## 6) Invalid Java main() method signature
+### 2.4.6 Invalid Java main() method signature
 
 ```java
 public void main(String[] args)  
