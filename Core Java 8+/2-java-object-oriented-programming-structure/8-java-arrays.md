@@ -367,9 +367,9 @@ datatype[ ][ ] arrayName;
 
 **Example:**
 
-```
+```java
 //Declaring 2D array
-Int[ ][ ] a;
+int[ ][ ] a;
 ```
 
 -   To create a 2D array object we need to use the new keyword as shown below:
@@ -399,7 +399,9 @@ a = new int[3][3];
 
 **Syntax:**
 
-![](media/48ecfe0e0d017e79660427feeda016f1.png)
+```java
+datatype [][] arrayName = new datatype[rowSize][columnSize];
+```
 
 **Note:**
 
@@ -419,27 +421,34 @@ a = new int[3][3];
 
 **Syntax:**
 
-![](media/72886de72263430e6cb741249f73c2c2.png)
+```java
+arrayName[rowIndex][columnIndex] = value;
+```
 
 **Example:**
 
+```java
 int[][] myarray = new int[2][2];
-
 myarray[0][0] = 1;
-
 myarray[0][1] = myarray[1][0] = 0;
-
 myarray[1][1] = 1;
+```
 
 **Method2:**
 
 **Syntax:**
 
-**![](media/08d5ab62dd3bcbf0c04c81c890b818a9.png)**
+```java
+Datatype[][] arrayName = {{valr1c1, valr1c2,…valr1cn},
+                          {valr2c1, val r2c2,…valr2cn},
+                          {valrnc1, valrnc2,….valrncn}};
+```
 
 **Example:**
 
-**![](media/7099ac20caa0d6e6648bfd9852e95462.png)**
+```java
+int [][] intArray = {{1, 2, 3}, {4, 5, 6}};
+```
 
 ## 2.2.2.3 Accessing 2D Array elements in Java
 
@@ -448,7 +457,9 @@ myarray[1][1] = 1;
 
 **Syntax:**
 
-![](media/09215a3464dba3d257a4d51382225bf2.png)
+```java
+arrayName[i][j];
+```
 
 -   Here, the ArrayName[i][j] statement is used to access the element present at the intersection of **i**th row and **j**th column in the 2D array ArrayName.
 
