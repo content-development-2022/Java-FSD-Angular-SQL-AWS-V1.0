@@ -64,7 +64,7 @@ Outside of the standard, the following are implied:
 
 -   as well as a function or method to the size of one screen (for some programming languages).
 
-    Coding rules are “must have” in modern software development. This means that it is better to write programming code a little bit slower than usual, but according to all requirements from the coding conventions. Then you will write code in the style of required coding conventions and the process will be done at the same speed. But the quality of code will be much much better.
+Coding rules are “must have” in modern software development. This means that it is better to write programming code a little bit slower than usual, but according to all requirements from the coding conventions. Then you will write code in the style of required coding conventions and the process will be done at the same speed. But the quality of code will be much much better.
 
 **Why use coding Conventions**
 
@@ -118,7 +118,20 @@ For various programming languages, there are coding conventions. These coding co
 
 -   All source files should begin with a c-style comment that lists the class name, version information, date, and copyright notice:
 
-#### ![](media/6b1811d6d11ce4f179184a60d945c5f8.png)
+```java
+/*
+
+ * Classname
+ * 
+ * Version information
+ *
+ * Date
+ * 
+ * Copyright notice
+ */
+```
+
+#### 
 
 #### 2.1.2 Package and Import Statements
 
@@ -128,7 +141,10 @@ For various programming languages, there are coding conventions. These coding co
 
 **Example:**
 
-#### ![](media/6494700040ddce0fb3921f2bd2d63442.png)
+```java
+package java.awt;
+import java.awt.peer.CanvasPeer;
+```
 
 #### 2.1.3 Class and Interface Declarations
 
@@ -144,7 +160,7 @@ For various programming languages, there are coding conventions. These coding co
 | 6 | Constructors                                                      |                                                                                                                                                                                                                                           |
 | 7 | Methods                                                           | These methods should be grouped by functionality rather than by scope or accessibility. For example, a private class method can be in between two public instance methods. The goal is to make reading and understanding the code easier. |
 
-## 3 Indentation
+## 3. Indentation
 
 -   Four spaces should be used as the unit of indentation.
 
@@ -206,15 +222,26 @@ When an expression will not fit on a single line, break it according to these ge
 
 **Syntax:**
 
-![](media/2ca9616ac66b9ccc1126033d0b6d1a49.png)
+```java
+//This is single line comment
+```
 
 **Example:**
 
-![](media/dcc483ba72a87168ced5b3ee9ce1a599.png)
+```java
+public class CommentExample1{
+	public static void main(String[] args){
+		int i = 10; // i is a variable with value 10 
+		System.out.println(i); //printing the variable i
+	}
+}
+```
 
 **Output:**
 
-![](media/ad5c76f06accdf9b254bc89c3d7901e0.png)
+```java
+	10
+```
 
 #### 4.1.2 Multi Line Comment
 
@@ -226,17 +253,38 @@ When an expression will not fit on a single line, break it according to these ge
 
 **Syntax:**
 
-![](media/4af96d642abbdd1b40376d380810be59.png)
+```java
+/*
+This
+is
+multi line 
+comment
+*/
+```
 
 **Example:**
 
-![](media/6928827aab50e42d1920eefdc87d5f68.png)
+```java
+public class CommentExample2 {    
+public static void main(String[] args) {    
+/* Let's declare and  
+ print variable in java. */    
+  int i=10;    
+    System.out.println(i);    
+/* float j = 5.9; 
+    float k = 4.4; 
+    System.out.println( j + k ); */    
+}    
+}    
+```
 
 **Output:**
 
-![](media/f0ed258cc55a271eb96444724a89e174.png)
+```java
+10
+```
 
-![](media/bed6cee1cc717f0d94efb927d45b50c2.png)
+Note: Usually // is used for short comments and /\* \*/ is used for longer comments.
 
 #### 4.1.3 Documentation Comment
 
@@ -250,11 +298,58 @@ When an expression will not fit on a single line, break it according to these ge
 
 **Syntax:**
 
-![](media/c0ab8c43b17e6db0a8e57f0ce2fc46ff.png)
+```java
+/**  
+* 
+*We can use various tags to depict the parameter 
+*or heading or author name 
+*We can also use HTML tags   
+* 
+*/    
+```
 
 **Example:**
 
-![](media/9aa7520cd77e94bef5e7542bcdc66e98.png)
+```java
+import java.io.*;  
+  
+/** 
+ * <h2> Calculation of numbers </h2> 
+ * This program implements an application 
+ * to perform operation such as addition of numbers  
+ * and print the result  
+ * <p> 
+ * <b>Note:</b> Comments make the code readable and  
+ * easy to understand. 
+ *  
+ * @author Anurati  
+ * @version 16.0 
+ * @since 2021-07-06 
+ */  
+   
+ public class Calculate{  
+    /** 
+     * This method calculates the summation of two integers. 
+     * @param input1 This is the first parameter to sum() method 
+     * @param input2 This is the second parameter to the sum() method. 
+     * @return int This returns the addition of input1 and input2 
+     */  
+    public int sum(int input1, int input2){  
+        return input1 + input2;  
+    }  
+    /** 
+    * This is the main method uses of sum() method. 
+    * @param args Unused 
+    * @see IOException  
+    */    
+    public static void main(String[] args) {  
+        Calculate obj = new Calculate();  
+        int result = obj.sum(40, 20);  
+  
+        System.out.println("Addition of numbers: " + result);  
+    }    
+ }   
+```
 
 **Output:**
 
@@ -452,7 +547,7 @@ return (size ? size : defaultSize);
 
 **Example:**
 
-```
+```java
     while (true) {
         ...
     }
@@ -468,7 +563,15 @@ return (size ? size : defaultSize);
 
 **Example:**
 
-![](media/cc1206651d7844e421cb52b65127c643.png)
+```java
+a += c + d;
+a = (a + b) / (c * d);
+    
+while (d++ = s++) {
+	n++;
+}
+printSize("size is " + foo + "\n");
+```
 
 -   The expressions in a for statement should be separated by blank spaces.
 
@@ -480,7 +583,10 @@ for (expr1; expr2; expr3)
 
 **Examples:**
 
-![](media/a18be044a2f011cc27692a3e54872838.png)
+```java
+myMethod((byte) aNum, (Object) x);
+myMethod((int) (cp + 5), ((int) (i + 3)) + 1);
+```
 
 ## 8. Naming Conventions
 
@@ -490,7 +596,14 @@ for (expr1; expr2; expr3)
 
 -   for example, whether it's a constant, package, or class-which can be helpful in understanding the code.
 
-    ![](media/69702784dc8eff1ca53751d43f1ef35a.png)
+| **Identifier Type** | **Rules for Naming**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | **Examples**                                                                                        |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Packages            | The prefix of a unique package name is always written in all-lowercase ASCII letters and should be one of the top-level domain names, currently com, edu, gov, mil, net, org, or one of the English two-letter codes identifying countries as specified in ISO Standard 3166, 1981. Subsequent components of the package name vary according to an organization's own internal naming conventions. Such conventions might specify that certain directory name components be division, department, project, machine, or login names.                                                                                                                    | com.sun.eng com.apple.quicktime.v2 edu.cmu.cs.bovik.cheese                                          |
+| Classes             | Class names should be nouns, in mixed case with the first letter of each internal word capitalized. Try to keep your class names simple and descriptive. Use whole words-avoid acronyms and abbreviations (unless the abbreviation is much more widely used than the long form, such as URL or HTML).                                                                                                                                                                                                                                                                                                                                                  | class Raster; class ImageSprite;                                                                    |
+| Interfaces          | Interface names should be capitalized like class names.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | interface RasterDelegate; interface Storing;                                                        |
+| Methods             | Methods should be verbs, in mixed case with the first letter lowercase, with the first letter of each internal word capitalized.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | run(); runFast(); getBackground();                                                                  |
+| Variables           | Except for variables, all instance, class, and class constants are in mixed case with a lowercase first letter. Internal words start with capital letters. Variable names should not start with underscore \_ or dollar sign \$ characters, even though both are allowed. Variable names should be short yet meaningful. The choice of a variable name should be mnemonic- that is, designed to indicate to the casual observer the intent of its use. One-character variable names should be avoided except for temporary "throwaway" variables. Common names for temporary variables are i, j, k, m, and n for integers; c, d, and e for characters. | Copy Copied to Clipboard Error: Could not Copy int i;  char c; float myWidth;                       |
+| Constants           | The names of variables declared class constants and of ANSI constants should be all uppercase with words separated by underscores ("_"). (ANSI constants should be avoided, for ease of debugging.)                                                                                                                                                                                                                                                                                                                                                                                                                                                    | static final int MIN_WIDTH = 4; static final int MAX_WIDTH = 999; static final int GET_THE_CPU = 1; |
 
 ## 9. Programming Practices
 
@@ -585,8 +698,7 @@ if ((a == b) && (c == d)) // RIGHT
 **Example:**
 
 ```java
-if (
-             booleanExpression) {
+if (booleanExpression) {
     return true;
 } else {
     return false;

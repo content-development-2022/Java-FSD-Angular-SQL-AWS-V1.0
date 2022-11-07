@@ -1,4 +1,4 @@
-# Code Conventions for the Java Programming Language
+# Coding Conventions for Java Programming Language
 
 **Content**
 
@@ -24,17 +24,73 @@
 
 ## 1. Introduction
 
-**Why Have Code Conventions**
+-   The quality of code development has several aspects, so adhering to certain rules when writing code is important.
 
-Code conventions are important to programmers for a number of reasons:
+-   This applies not only to formatting but also to many other factors, determined by the corresponding coding convention for the selected programming language and the selected development framework.
 
--   80% of the lifetime cost of a piece of software goes to maintenance.
+**What is Coding Conventions?**
 
--   Hardly any software is maintained for its whole life by the original author.
+Coding conventions are **a set of guidelines for a specific programming language that recommend programming style, practices, and methods for each aspect of a program written in that language**.
 
--   Code conventions improve the readability of the software, allowing engineers to understand new code more quickly and thoroughly.
+Typically, a coding convention standard describes:
 
--   If you ship your source code as a product, you need to make sure it is as well packaged and clean as any other product you create.
+-   ways of choosing names and the used case of characters for variable names and other identifiers:
+
+-   writing the type of the variable in its identifier (Hungarian notation) and a cast of characters (lower, upper, "camel", "camel" with a lowercase letter), the use of underscores to separate words;
+
+-   indentation style for logical blocks - whether tabs are used, indent width;
+
+-   a method for placing brackets bounding logical blocks;
+
+-   the use of spaces in the design of logical and arithmetic expressions;
+
+-   comment style and the use of documentary comments;
+
+-   variable, class and file naming conventions;
+
+-   statement style and best practices of their usage;
+
+-   file organization;
+
+-   declaration of classes and interfaces;
+
+-   programming practices.
+
+Outside of the standard, the following are implied:
+
+-   lack of magic numbers;
+
+-   restriction of the size of the code horizontally (so that it fits on the screen) and vertical (so that all the code of the file is held in memory)
+
+-   as well as a function or method to the size of one screen (for some programming languages).
+
+Coding rules are “must have” in modern software development. This means that it is better to write programming code a little bit slower than usual, but according to all requirements from the coding conventions. Then you will write code in the style of required coding conventions and the process will be done at the same speed. But the quality of code will be much much better.
+
+**Why use coding Conventions**
+
+Coding standards are important for software developers for several reasons:
+
+-   40% - 80% of the total cost of software is spent on its maintenance.
+
+-   Software is almost never fully supported by its original author.
+
+-   Coding standards improve software readability by allowing developers to understand new code faster and better.
+
+-   Like any other product, the software must be "well packaged" and clean.
+
+The main reasons for using the coding convention are as follows:
+
+-   The same rules for writing code make it easy for other colleagues to understand
+
+-   It is easier to understand the code in a year or 5 without the need to read each term
+
+-   You always know where certain classes and files are in a huge project
+
+In general, this is the cleanness of the code, which simply speeds up the work. This can be compared to a desktop: if everything is neatly arranged, it is easy to work. If there is a mess, then every little thing takes a long time to find.
+
+Very often Coding Conventions for each team are different, and sometimes very different from project to project. We need them so that other developers can easily figure out the code and in general, the code written by different team members looks the same within the project and is maintainable and supportable.
+
+For various programming languages, there are coding conventions. These coding conventions are not absolute. In each project and in each company, standards can be developed for the coding convention.
 
 ## 2. File Organization
 
