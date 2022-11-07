@@ -159,9 +159,11 @@ public class Main {  
 
 -   For example, here is an integer variable named count assigned as an integer value in this statement:
 
-        ```java
-        int count = 0;
-        ```
+```
+```java
+int count = 0;
+```
+```
 
 -   **int count** is the integer variable, and a literal **0** represents the value of zero.
 
@@ -247,7 +249,7 @@ null
 
 -   There are **eight primitive data types** in Java:
 
-![](media/primitive-1)
+![](media/618cebd1f26eeeb667b147c99f4b83a7.png)
 
 | **Data Type** | **Size** | **Description**                                                                   |
 |---------------|----------|-----------------------------------------------------------------------------------|
