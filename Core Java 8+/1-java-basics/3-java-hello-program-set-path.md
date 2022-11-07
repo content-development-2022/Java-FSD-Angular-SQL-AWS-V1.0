@@ -24,7 +24,9 @@
 
     3.2 How to set the Permanent Path of JDK in Windows
 
-4.  References
+4. Intergrated Development Environment (IDE)
+
+5.  References
 
 ## 1. Internal Details of Program
 
@@ -152,13 +154,13 @@ Type the following commands here:
 
 -   The modifications that can be done in a Java program are given below:
 
-## 1) By changing the sequence of the modifiers, method prototype is not changed in Java.
+### 2.4.1 By changing the sequence of the modifiers, method prototype is not changed in Java.
 
 ```java
 static public void main(String args[])
 ```
 
-## 2) The subscript notation in the Java array can be used after type, before the variable or after the variable.
+### 2.4.2 The subscript notation in the Java array can be used after type, before the variable or after the variable.
 
 ```java
 static public void main(String[] args)
@@ -166,13 +168,13 @@ static public void main(String [] args)
 static public void main(String args[])
 ```
 
-## 3) You can provide var-args support to the main() method by passing 3 ellipses (dots)
+### 2.4.3 You can provide var-args support to the main() method by passing 3 ellipses (dots)
 
 ```java
 static public void main(String… args)
 ```
 
-## 4) Having a semicolon at the end of class is optional in Java.
+### 2.4.4 Having a semicolon at the end of class is optional in Java.
 
 ```java
 class A{  
@@ -182,7 +184,7 @@ System.out.println("hello java4");  
 };  
 ```
 
-## 5) Valid Java main() method signature
+### 2.4.5 Valid Java main() method signature
 
 ```java
 public static void main(String[] args)  
@@ -195,7 +197,7 @@ final public static void main(String[] args)  
 final strictfp public static void main(String[] args)  
 ```
 
-## 6) Invalid Java main() method signature
+### 2.4.6 Invalid Java main() method signature
 
 ```java
 public void main(String[] args)  
@@ -226,7 +228,7 @@ abstract public static void main(String[] args)  
 
     -   Permanent
 
-## 3.1 How to set the Temporary Path of JDK in Windows
+### 3.1 How to set the Temporary Path of JDK in Windows
 
 To set the temporary path of JDK, you need to follow the following steps:
 
@@ -252,7 +254,7 @@ set path=C:\Program Files\Java\jdk-14.0.2\bin;
 
 ![](media/cmd-3.png)
 
-## 3.2 How to set the Permanent Path of JDK in Windows
+### 3.2 How to set the Permanent Path of JDK in Windows
 
 For setting the path to JDK permanently, you need to follow these steps:
 
@@ -308,7 +310,7 @@ For setting the path to JDK permanently, you need to follow these steps:
 
 -   You can now execute any program of java from any drive/folder/location.
 
-## 4.Intergrated Development Environment (IDE)
+## 4. Intergrated Development Environment (IDE)
 
 -   **An IDE, or Integrated Development Environment, is a program which helps you write software.**
 
@@ -338,7 +340,7 @@ Can an IDE do other things?
 
 -   You could be writing code for the Mars rover, nuclear power stations, or even financial trading algorithms, with trusty Windows Notepad, and javac (the Java compiler command).
 
-#### If you’re just starting to learn Java, use a text editor first
+-   #### If you’re just starting to learn Java, use a text editor first
 
 -   But why? If an IDE can do all of the work for you, why start out creating programs by hand?
 
@@ -346,7 +348,7 @@ Can an IDE do other things?
 
 -   If you are completely reliant on an IDE, and you have no knowledge of what the IDE is doing for you, you will find it harder in future to solve problems.
 
-#### An IDE is useful once you’re past the beginner stage
+-   #### An IDE is useful once you’re past the beginner stage
 
 -   An IDE helps you organise your projects, run tests, compile the code, format it correctly, and much more.
 
