@@ -246,7 +246,6 @@ Mazda
 ```java
 import java.util.ArrayList;
 import java.util.Collections;  // Import the Collections class
-
 public class Main {
   public static void main(String[] args) {
     ArrayList<String> cars = new ArrayList<String>();
@@ -276,7 +275,6 @@ Volvo
 ```java
 import java.util.ArrayList;
 import java.util.Collections;  // Import the Collections class
-
 public class Main {
   public static void main(String[] args) {
     ArrayList<Integer> myNumbers = new ArrayList<Integer>();
