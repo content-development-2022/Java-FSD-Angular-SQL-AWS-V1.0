@@ -86,14 +86,20 @@ There are two types of arrays.
 
 **Syntax:**
 
-![](media/451ff2ee4e5e511dd0792400f166e612.png)
+```java
+dataType[] arr; (or)  //Preferred
+dataType []arr; (or)  
+dataType arr[];  
+```
 
 -   **dataType -** it can be primitive data types like int, char, double, byte, etc. or Java objects
 -   **arrayName -** it is an identifier
 
 **Example-1:**
 
-![](media/4ab9355f2b32e4af04f4a5dcbac7bdc4.png)
+```java
+Double[] data;
+```
 
 -   Here, data is an array that can hold values of type double.
 
@@ -103,14 +109,22 @@ There are two types of arrays.
 
 **Example-2:**
 
-![](media/538c804c1d14855bb8b2236949dddc68.png)
+```java
+// declare an array
+double[] data;
+
+// allocate memory
+data = new double[10];
+```
 
 -   Here, the array can store **10** elements. We can also say that the **size or length** of the array is 10.
 -   In Java, we can declare and allocate the memory of an array in one single statement.
 
 **Syntax:**
 
-**![](media/40748bd63bbd409993cf723bfcbb2e0a.png)**
+```java
+dataType[] arrayRefVar = new dataType[arraySize];  
+```
 
 -   The above statement does two things :
 1.  It creates an array using new dataType[arraySize].
@@ -126,7 +140,10 @@ There are two types of arrays.
 
 **Example-1:**
 
-![](media/b5ace3a1cf731ebd1898fadcbc883e00.png)
+```java
+//declare and initialize and array
+int[] age = {12, 4, 5, 2, 5};
+```
 
 -   Here, we have created an array named age and initialized it with the values inside the curly brackets.
 -   Note that we have not provided the size of the array.
@@ -137,7 +154,16 @@ There are two types of arrays.
 
 **Example-2:**
 
-![](media/a8e2edb42e5282c0e51335db737d58f7.png)
+```java
+// declare an array
+int[] age = new int[5];
+
+// initialize array
+age[0] = 12;
+age[1] = 4;
+age[2] = 5;
+..
+```
 
 ## 2.1.3 Accessing 1D Array elements in Java
 
@@ -145,15 +171,41 @@ There are two types of arrays.
 
 **Syntax:**
 
-![](media/7620958d54f047f8fbbb6f71c37b97a0.png)
+```java
+// access array elements
+array[index]
+```
 
 **Example:**
 
-![](media/24a27658f2f5535af3a34a373e3f16d9.png)
+```java
+class Main {
+ public static void main(String[] args) {
+  
+   // create an array
+   int[] age = {12, 4, 5, 2, 5};
+
+   // access each array elements
+   System.out.println("Accessing Elements of Array:");
+   System.out.println("First Element: " + age[0]);
+   System.out.println("Second Element: " + age[1]);
+   System.out.println("Third Element: " + age[2]);
+   System.out.println("Fourth Element: " + age[3]);
+   System.out.println("Fifth Element: " + age[4]);
+ }
+}
+```
 
 **Output:**
 
-![](media/1c4cb46d85bb21e98593e9d147583e09.png)
+```
+Accessing Elements of Array:
+First Element: 12
+Second Element: 4
+Third Element: 5
+Fourth Element: 2
+Fifth Element: 5
+```
 
 -   In the above example, notice that we are using the index number to access each element of the array.
 -   We can use loops to access all the elements of the array at once.
@@ -166,7 +218,25 @@ There are two types of arrays.
 
     **Example:**
 
-**![](media/44cb56f89cb7e8f4103ed3d0f1e19c76.png)**
+```java
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    for (int i = 0; i < cars.length; i++) {
+      System.out.println(cars[i]);
+    }
+  }
+}
+```
+
+**Output:**
+
+```
+Volvo
+BMW
+Ford
+Mazda
+```
 
 **2) 1D Array with for-each**
 
@@ -178,7 +248,25 @@ There are two types of arrays.
 
 **Example:**
 
-**![](media/b782d71d580f2ea48e66f21caf03268c.png)**
+```java
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    for (String i : cars) {
+      System.out.println(i);
+    }    
+  }
+}
+```
+
+**Output:**
+
+```
+Volvo
+BMW
+Ford
+Mazda
+```
 
 -   The example above can be read like this: **for each** String element (called **i** - as in **i**ndex) in **cars**, print out the value of **i**.
 -   If you compare the for loop and **for-each** loop, you will see that the **for-each** method is easier to write, it does not require a counter (using the length property), and it is more readable.
@@ -187,13 +275,38 @@ There are two types of arrays.
 
 -   To change the value of a specific element, refer to the index number:
 
-    ![](media/f7fb0699fd295f241782b9835486f7d1.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    cars[0] = "Opel";
+    System.out.println(cars[0]);
+  }
+}
+```
+
+**output:**
+
+```
+Opel
+```
 
 ## 2.1.6 1D Array Length
 
 -   To find out how many elements an array has, use the length property:
 
-![](media/5be40a768e13e880c8dfa3ba8c85b3ef.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    System.out.println(cars.length);
+  }
+}
+```
+
+**Output:**
+
+4
 
 ## 2.2 Multiple Dimensional Array in Java
 
@@ -204,7 +317,9 @@ There are two types of arrays.
 
 **Syntax:**
 
-![](media/78c18287a86ede96523c0bce5547839d.png)
+```java
+datatype[1st dimension][2nd dimension][]…[nth dimension] arrayname = new datatype[size1][size2][]….[sizeN];
+```
 
 **where:**
 
@@ -215,7 +330,12 @@ There are two types of arrays.
 
 **Example**:
 
-![](media/6c50700b66d32692923d2505c0f4e0d3.png)
+```java
+// Two dimensional array:
+int[ ][ ] twoDArray = new int[10][20];
+// Three dimensional array:
+int[ ][ ][ ] threeDArray = new int[10][20][30];
+```
 
 **Size of multidimensional arrays**
 
@@ -239,24 +359,41 @@ There are two types of arrays.
 -   A 2D array consists of rows and columns, we need two indices, one to refer rows and the other to a particular column in that row.
 -   Hence, the syntax of declaring a 2D array is similar to that of a one-dimensional array with the exception of having two square brackets instead of one:
 
-    ![](media/0ab00b4c5b1058dc19150741028378ca.png)
+```java
+datatype[ ][ ] arrayName;
+```
 
 -   The above-described syntax only declares the array i.e., the memory is allocated for the array object but the values will be added later.
 
 **Example:**
 
-![](media/cd9ce59120e5320dcf0eea9171d0557e.png)
+```
+//Declaring 2D array
+Int[ ][ ] a;
+```
 
 -   To create a 2D array object we need to use the new keyword as shown below:
 
-![](media/b34210ce5de5905f80431812d79b2e58.png)
+```java
+// Declaring 2D array
+DataType[][] ArrayName;
+
+// Creating a 2D array
+ArrayName = new DataType[r][c];
+```
 
 -   Here, the new DataType[r][c] statement creates a 2D array object that contains r rows and c columns and elements of DataType type.
 -   This array object is referenced by the reference variable ArrayName.
 
 **Example:**
 
-![](media/7a6640b99a934f541048dd3bf5696357.png)
+```java
+//Declaring 2D array
+int[][] a;
+
+//Creating a 2D array
+a = new int[3][3];
+```
 
 -   In Java, we can declare and allocate the memory of an array in one single statement.
 
