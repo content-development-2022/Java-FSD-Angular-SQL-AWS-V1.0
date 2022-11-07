@@ -22,14 +22,6 @@
 
 6. Primitive Data Types
 
-    6.1 boolean Data Type
-
-    6.2 Numeric Data Types
-
-        6.2.1 Integral types
-
-        6.2.2 Floating point types
-
 7. Type Casting
 
 8. Types of Type Casting
@@ -109,25 +101,13 @@ datatype variable_name=value;
 
 ![](media/8c2809532b04d0424d3b96cf856a4a31.png)
 
-## 4. Declare Multiple Variables
-
--   To declare more than one variable of the **same type**, you can use a comma-separated list.
-
-**Example:**
-
-![](media/d862c0e36c6de7650c89a2e8ebd767d3.png)
-
-**Output:**
-
-![](media/595e5106dd746a1338e2fec40986c946.png)
-
 ## 5. Data Types in Java
 
 -   Data types specify the different sizes and values that can be stored in the variable.
 
-**There are two types of data types in Java**
+**Data types in Java are categorised into two:**
 
-1.  **Primitive data types:** The 8 primitive data types in java include boolean, char, byte, short, int, long, float and double.
+1.  **Primitive data types:** Java has 8 primitive data types and they are: boolean, char, byte, short, int, long, float and double.
 2.  **Non-primitive data types:** The non-primitive data types include Classes, Interfaces, and Arrays. We will learn about non-primitive data types later. 
 -   To know more information about String [click here.](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/14-java-string.md)
 -   To know more information about classes [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/1-java-classes-objects-and-custom-class.md).
@@ -151,10 +131,11 @@ datatype variable_name=value;
 -   The boolean data type specifies one bit of information, but its "size" can't be defined precisely.
 
 **Example:**
+```java
+    **boolean** a = false;
 
-**boolean** a = false;
-
-**boolean** b=true;
+    **boolean** b = true;
+```
 
 ## 6.2 Numeric Data Types
 
