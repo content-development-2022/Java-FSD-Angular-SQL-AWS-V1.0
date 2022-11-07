@@ -16,7 +16,7 @@
 
 3.  Display Variables
 
-4.  Declare Multiple Variables
+4.  Java Constants/Literals
 
 5.  Data Types in Java
 
@@ -69,6 +69,10 @@ datatype variable_name=value;
 ```java
 int data = 50; // here data is a variable
 ```
+**Note:**
+-   Java is a statically-typed programming language. 
+-   It means, all variables must be declared before its use. 
+-   That is why we need to declare variable's type and name.
 
 ## 2. Types of Variables
 
@@ -76,7 +80,7 @@ int data = 50; // here data is a variable
 
 ![](media/types-variables.png)
 
-## 2.1 Local Variable
+### 2.1 Local Variable
 
 -   A variable declared inside the body of the method is called local variable.
 
@@ -84,7 +88,7 @@ int data = 50; // here data is a variable
 
 -   A local variable cannot be defined with "static" keyword.
 
-## 2.2 Instance Variable
+### 2.2 Instance Variable
 
 -   A variable declared inside the class but outside the body of the method, is called an instance variable.
 
@@ -92,7 +96,7 @@ int data = 50; // here data is a variable
 
 -   It is called an instance variable because its value is instance-specific and is not shared among instances.
 
-## 2.3 Static variable
+### 2.3 Static variable
 
 -   A variable that is declared as static is called a static variable.
 
@@ -102,7 +106,7 @@ int data = 50; // here data is a variable
 
 -   Memory allocation for static variables happens only once when the class is loaded in the memory.
 
-## 2.4 Example to understand the three types of variables in java
+### 2.4 Example to understand the three types of variables in java
 
 ```java
 public class A  
@@ -127,12 +131,168 @@ public class A  
 -   To combine both text and a variable, use the **+** character.
 
 **Example:**
-
-![](media/cd4419675ec486e98e71580153c64e18.png)
-
+```java
+public class Main {  
+    public static void main(String[] args) {  
+        String name = "John";
+        System.out.println("Hello " + name);
+    }  
+}  
+```
 **Output:**
 
-![](media/8c2809532b04d0424d3b96cf856a4a31.png)
+![](media/output-3.png)
+
+## 4. Java Constants/Literals
+
+-   Literals in Java are a synthetic representation of boolean, character, numeric, or string data. 
+-   They are a means of expressing particular values within a program. 
+-   They are constant values that directly appear in a program and can be assigned now to a variable. 
+-   For example, here is an integer variable named ‘’/count assigned as an integer value in this statement:
+-   
+```java
+int count = 0;
+```
+
+“int count” is the integer variable, and a literal ‘0’ represents the value of zero.
+
+Therefore, a constant value that is assigned to the variable can be called a literal.
+
+### 4.1. Types of Literals in Java
+
+Literals in Java are typically classified into six types and then into various sub-types. The primary literal types are:
+
+1. Integral Literals
+Integral literals consist of digit sequences and are broken down into these sub-types:
+
+Decimal Integer: Decimal integers use a base ten and digits ranging from 0 to 9. They can have a negative (-) or a positive (+), but non-digit characters or commas aren’t allowed between characters. Example: 2022, +42, -68.
+Octal Integer: Octal integers use a base eight and digits ranging from 0 to 7. Octal integers always begin with a “0.” Example: 007, 0295.
+Hexa-Decimal: Hexa-decimal integers work with a base 16 and use digits from 0 to 9 and the characters of A through F. The characters are case-sensitive and represent a 10 to 15 numerical range. Example: 0xf, 0xe.
+Binary Integer: Binary integers uses a base two, consisting of the digits “0” and “1.” The prefix “0b” represents the Binary system. Example: 0b11011.
+Full Stack Java Developer Course
+In Partnership with HIRIST and HackerEarthEXPLORE COURSEFull Stack Java Developer Course
+2. Floating-Point Literals
+Floating-point literals are expressed as exponential notations or as decimal fractions. They can represent either a positive or negative value, but if it’s not specified, the value defaults to positive. Floating-point literals come in these formats:
+
+Floating: Floating format single precision (4 bytes) end with an “f” or “F.” Example: 4f. Floating format double precision (8 bytes) end with a “d” or “D.”
+Example: 3.14d.
+Decimal: This format uses 0 through 9 and can have either a suffix or an exponent. Example: 99638.440.
+Decimal in Exponent form: The exponent form may use an optional sign, such as a "-," and an exponent indicator, such as "e" or "E." Example: 456.5f.
+3. Char Literals
+Character (Char) literals are expressed as an escape sequence or a character, enclosed in single quote marks, and always a type of character in Java. Char literals are sixteen-bit Unicode characters ranging from 0 to 65535. Example: char ch = 077.
+
+4. String Literals
+String literals are sequences of characters enclosed between double quote ("") marks. These characters can be alphanumeric, special characters, blank spaces, etc.
+
+Examples: "John", "2468", "\n", etc.
+
+5. Boolean Literals
+Boolean literals have only two values and so are divided into two literals:
+
+True represents a real boolean value
+False represents a false boolean value
+So, Boolean literals represent the logical value of either true or false. These values aren't case-sensitive and are equally valid if rendered in uppercase or lowercase mode. Boolean literals can also use the values of “0” and “1.”
+
+Examples:
+
+boolean b = true;
+
+boolean d = false;
+
+6. Null Literals
+Null literals represent a null value and refer to no object. Nulls are typically used as a marker to indicate that a reference type object isn’t available. They often describe an uninitialized state in the program. It is a mistake to try to dereference a null value. Example: Patient age = NULL;
+
+Remember, not everyone divides literals in Java into these six types. Alternative classifications split literals into as few as four types (Integer, Character, Boolean, and String) or as many as ten (Integer, Real, Backslash, Character, String, Floating-Point, Boolean, NULL, Class, and Invalid).
+
+How to Use Literals
+Programmers who want to incorporate literals in their program begin with the prefix “=,” followed by the specific value.
+
+**A Java Literal Example**
+
+Here’s a sample of Java programming showing literals:
+
+public class LiteralsExample  
+
+{  
+
+public static void main(String args[])   
+
+{  
+
+int count = 987;  
+
+float floatVal = 4534.99f;  
+
+double cost = 19765.567;  
+
+int hexaVal = 0x7e4;  
+
+int binary = 0b11010;  
+
+char alpha = 'p';  
+
+String str = "Java";  
+
+boolean boolVal = true;  
+
+int octalVal = 067;  
+
+String stuName = null;  
+
+char ch1 = '\u0021';  
+
+char ch2 = 1456;  
+
+System.out.println(count);  
+
+System.out.println(floatVal);  
+
+System.out.println(cost);  
+
+System.out.println(hexaVal);  
+
+System.out.println(binary);  
+
+System.out.println(alpha);  
+
+System.out.println(str);  
+
+System.out.println(boolVal);  
+
+System.out.println(octalVal);  
+
+System.out.println(stuName);  
+
+System.out.println(ch1);  
+
+System.out.println("\t" +"backslash literal");  
+
+System.out.println(ch2);  
+
+}  
+
+}  
+
+Output:
+987
+
+4534.99
+
+19765.567
+
+2020
+
+26
+
+p
+
+Java
+
+true
+
+55
+
+null
 
 ## 5. Data Types in Java
 
@@ -162,6 +322,7 @@ public class A  
 
 ![](media/primitive-1.png)
 
+
 | **Data Type** | **Size** | **Description**                                                                   |
 |---------------|----------|-----------------------------------------------------------------------------------|
 | byte          | 1 byte   | Stores whole numbers from -128 to 127                                             |
@@ -173,7 +334,7 @@ public class A  
 | boolean       | 1 bit    | Stores true or false values                                                       |
 | char          | 2 bytes  | Stores a single character/letter or ASCII values                                  |
 
-## 6.1. byte Data Type
+### 6.1. byte Data Type
 
 -   The byte data type is an 8-bit signed two's complement integer.
 
@@ -192,7 +353,7 @@ byte a = 10;
 byte b = -20;
 ```
 
-## 6.2. short Data Type
+### 6.2. short Data Type
 
 -   The short data type is a 16-bit signed two's complement integer.
 
@@ -211,7 +372,7 @@ short s = 10100;
 short r = -6000;
 ```
 
-## 6.3. int Data Type
+### 6.3. int Data Type
 
 -   The int data type is a 32-bit signed two's complement integer.
 
@@ -228,7 +389,7 @@ int a = 100000;
 int b = -200000 ;
 ```
 
-## 6.4. long Data Type
+### 6.4. long Data Type
 
 -   The long data type is a 64-bit two's complement integer.
 
@@ -245,7 +406,7 @@ long a = 1500009900L;
 long b = -1508909900L;
 ```
 
-## 6.5. float Data Type
+### 6.5. float Data Type
 
 -   The float data type is a single-precision 32-bit IEEE 754 floating point.
 
@@ -261,7 +422,7 @@ long b = -1508909900L;
 float f1 = 234.5;
 ```
 
-## 6.6. double Data Type
+### 6.6. double Data Type
 
 -   The double data type is a double-precision 64-bit IEEE 754 floating point.
 
@@ -277,7 +438,7 @@ float f1 = 234.5;
 double d1 = 12.3;
 ```
 
-## 6.7. char Data Type
+### 6.7. char Data Type
 
 -   The char data type is a single 16-bit Unicode character.
 
@@ -291,7 +452,7 @@ double d1 = 12.3;
 char letter= 'A' ;
 ```
 
-## 6.8. boolean Data Type
+### 6.8. boolean Data Type
 
 -   The boolean data type is used to store only two possible values: **true and false**.
 
@@ -324,7 +485,7 @@ There are two types of type casting:
 
     ![](media/casting.png)
 
-## 8.1 Widening Type Casting
+### 8.1 Widening Type Casting
 
 -   Converting a lower data type into a higher one is called **widening** type casting.
 
@@ -352,14 +513,14 @@ byte -> short -> char -> int -> long -> float -> double
 
 ```java
 public class WideningTypeCastingExample {  
-public static void main(String[] args) {  
-int x = 7;  //automatically converts the integer type into long type  
-long y = x;  //automatically converts the long type into float type  
-float z = y;  
-System.out.println("Before conversion, int value "+x);  
-System.out.println("After conversion, long value "+y);  
-System.out.println("After conversion, float value "+z);  
-}  
+    public static void main(String[] args) {  
+        int x = 7;  //automatically converts the integer type into long type  
+        long y = x;  //automatically converts the long type into float type  
+        float z = y;  
+        System.out.println("Before conversion, int value "+x);  
+        System.out.println("After conversion, long value "+y);  
+        System.out.println("After conversion, float value "+z);  
+    }  
 }  
 ```
 
@@ -371,7 +532,7 @@ System.out.println("After conversion, float value "+z);  
 
 -   After that, the long type is converted into the float type.
 
-## 8.2 Narrowing Type Casting
+### 8.2 Narrowing Type Casting
 
 -   Converting a higher data type into a lower one is called **narrowing** type casting.
 
@@ -393,13 +554,14 @@ double -> float -> long -> int -> char -> short -> byte
 
 ```java
 public class NarrowingTypeCastingExample {  
-public static void main(String args[]) {  
-double d = 166.66; //converting double data type into long data type
-long l = (long)d; //converting long data type into int data type  
-int i = (int)l;  
-System.out.println("Before conversion: "+d); //fractional part lost 	System.out.println("After conversion into long type: "+l);  //fractional part lost  
-System.out.println("After conversion into int type: "+i);  
-}  
+    public static void main(String args[]) {  
+        double d = 166.66; //converting double data type into long data type
+        long l = (long)d; //converting long data type into int data type  
+        int i = (int)l;  
+        System.out.println("Before conversion: "+d); //fractional part lost 	
+        System.out.println("After conversion into long type: "+l);  //fractional part lost  
+        System.out.println("After conversion into int type: "+i);  
+    }  
 }  
 ```
 
