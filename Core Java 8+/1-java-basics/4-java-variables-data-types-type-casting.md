@@ -159,9 +159,9 @@ public class Main {  
 
 -   For example, here is an integer variable named count assigned as an integer value in this statement:
 
-        ```java
+```java
         int count = 0;
-        ```
+```
 
 -   **int count** is the integer variable, and a literal **0** represents the value of zero.
 
