@@ -22,7 +22,7 @@
 
 10\. References
 
-## 1. Introduction
+## 1. Introduction 
 
 -   The quality of code development has several aspects, so adhering to certain rules when writing code is important.
 
@@ -208,7 +208,7 @@ When an expression will not fit on a single line, break it according to these ge
 
 **There are three types of comments in Java.**
 
-![](media/5da2cd019b0110b2f023e6fa02ec6aec.png)
+![](media/types-comments.png)
 
 #### 4.1.1 Single Line Comment
 
@@ -353,11 +353,11 @@ import java.io.*;  
 
 **Output:**
 
-![](media/30452d1e75aec4b79542300de1a0c416.png)
+![](media/javadoc-2.png)
 
 -   Create documentation API by **javadoc** tool:
 
-![](media/7afcc5ab058dd7564a06a9620c478f34.png)
+![](media/javadoc-1.png)
 
 -   Now, the HTML files are created for the **Calculate** class in the current directory, i.e., **abcDemo**.
 
