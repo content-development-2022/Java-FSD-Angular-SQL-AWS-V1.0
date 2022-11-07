@@ -69,7 +69,7 @@ datatype variable_name=value;
 ```java
 int data = 50; // here data is a variable
 ```
-**Note: **
+**Note:**
 -   Java is a statically-typed programming language. 
 -   It means, all variables must be declared before its use. 
 -   That is why we need to declare variable's type and name.
