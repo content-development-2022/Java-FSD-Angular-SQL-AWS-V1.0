@@ -24,7 +24,9 @@
 
     3.2 How to set the Permanent Path of JDK in Windows
 
-4.  References
+4. Intergrated Development Environment (IDE)
+
+5.  References
 
 ## 1. Internal Details of Program
 
@@ -226,7 +228,7 @@ abstract public static void main(String[] args)  
 
     -   Permanent
 
-## 3.1 How to set the Temporary Path of JDK in Windows
+### 3.1 How to set the Temporary Path of JDK in Windows
 
 To set the temporary path of JDK, you need to follow the following steps:
 
@@ -252,7 +254,7 @@ set path=C:\Program Files\Java\jdk-14.0.2\bin;
 
 ![](media/cmd-3.png)
 
-## 3.2 How to set the Permanent Path of JDK in Windows
+### 3.2 How to set the Permanent Path of JDK in Windows
 
 For setting the path to JDK permanently, you need to follow these steps:
 
