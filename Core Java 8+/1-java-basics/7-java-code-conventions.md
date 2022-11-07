@@ -192,7 +192,7 @@ When an expression will not fit on a single line, break it according to these ge
 
 **There are three types of comments in Java.**
 
-![](media/5da2cd019b0110b2f023e6fa02ec6aec.png)
+![](media/types-comments.png)
 
 #### 4.1.1 Single Line Comment
 
