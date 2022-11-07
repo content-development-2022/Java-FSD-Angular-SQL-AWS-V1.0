@@ -63,7 +63,7 @@ datatype variable_name=value;
 
 -   There are three types of variables in Java
 
-![](media/27771dc490a6e621bfc1da8bf6835802.png)
+![](media/types-variables.png)
 
 ## 2.1 Local Variable
 
@@ -120,7 +120,7 @@ datatype variable_name=value;
 -   A primitive data type specifies the size and type of variable values, and it has no additional methods.
 -   There are **eight primitive data types** in Java:
 
-![](media/618cebd1f26eeeb667b147c99f4b83a7.png)
+![](media/primitive-1.png)
 
 ![](media/c848746ffe8f1bbac9dc012523bb48eb.png)
 
@@ -255,7 +255,7 @@ There are two types of type casting:
 -   Widening Type Casting
 -   Narrowing Type Casting
 
-    ![](media/c4e8b2056ee0e75c7b1427258e3fbd67.png)
+    ![](media/casting.png)
 
 ## 8.1 Widening Type Casting
 
@@ -278,7 +278,7 @@ There are two types of type casting:
 
 **Output**
 
-![](media/f063d53de75299ef75addad36b23da00.png)
+![](media/output-1.png)
 
 -   In the above example, we have taken a variable x and converted it into a long type.
 -   After that, the long type is converted into the float type.
@@ -301,7 +301,7 @@ There are two types of type casting:
 
 **Output**
 
-![](media/db2f45f064312c8cc81589d0c24b2092.png)
+![](media/output-2.png)
 
 ## 9. References
 
