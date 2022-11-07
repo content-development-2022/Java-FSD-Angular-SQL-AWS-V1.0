@@ -258,11 +258,11 @@ When an expression will not fit on a single line, break it according to these ge
 
 **Output:**
 
-![](media/30452d1e75aec4b79542300de1a0c416.png)
+![](media/javadoc-2.png)
 
 -   Create documentation API by **javadoc** tool:
 
-![](media/7afcc5ab058dd7564a06a9620c478f34.png)
+![](media/javadoc-1.png)
 
 -   Now, the HTML files are created for the **Calculate** class in the current directory, i.e., **abcDemo**.
 
