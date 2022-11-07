@@ -16,7 +16,7 @@
 
 3.  Display Variables
 
-4.  Declare Multiple Variables
+4.  Java Constants/Literals
 
 5.  Data Types in Java
 
@@ -142,6 +142,157 @@ public class Main {  
 **Output:**
 
 ![](media/output-3.png)
+
+## 4. Java Constants/Literals
+
+-   Literals in Java are a synthetic representation of boolean, character, numeric, or string data. 
+-   They are a means of expressing particular values within a program. 
+-   They are constant values that directly appear in a program and can be assigned now to a variable. 
+-   For example, here is an integer variable named ‘’/count assigned as an integer value in this statement:
+-   
+```java
+int count = 0;
+```
+
+“int count” is the integer variable, and a literal ‘0’ represents the value of zero.
+
+Therefore, a constant value that is assigned to the variable can be called a literal.
+
+### 4.1. Types of Literals in Java
+
+Literals in Java are typically classified into six types and then into various sub-types. The primary literal types are:
+
+1. Integral Literals
+Integral literals consist of digit sequences and are broken down into these sub-types:
+
+Decimal Integer: Decimal integers use a base ten and digits ranging from 0 to 9. They can have a negative (-) or a positive (+), but non-digit characters or commas aren’t allowed between characters. Example: 2022, +42, -68.
+Octal Integer: Octal integers use a base eight and digits ranging from 0 to 7. Octal integers always begin with a “0.” Example: 007, 0295.
+Hexa-Decimal: Hexa-decimal integers work with a base 16 and use digits from 0 to 9 and the characters of A through F. The characters are case-sensitive and represent a 10 to 15 numerical range. Example: 0xf, 0xe.
+Binary Integer: Binary integers uses a base two, consisting of the digits “0” and “1.” The prefix “0b” represents the Binary system. Example: 0b11011.
+Full Stack Java Developer Course
+In Partnership with HIRIST and HackerEarthEXPLORE COURSEFull Stack Java Developer Course
+2. Floating-Point Literals
+Floating-point literals are expressed as exponential notations or as decimal fractions. They can represent either a positive or negative value, but if it’s not specified, the value defaults to positive. Floating-point literals come in these formats:
+
+Floating: Floating format single precision (4 bytes) end with an “f” or “F.” Example: 4f. Floating format double precision (8 bytes) end with a “d” or “D.”
+Example: 3.14d.
+Decimal: This format uses 0 through 9 and can have either a suffix or an exponent. Example: 99638.440.
+Decimal in Exponent form: The exponent form may use an optional sign, such as a "-," and an exponent indicator, such as "e" or "E." Example: 456.5f.
+3. Char Literals
+Character (Char) literals are expressed as an escape sequence or a character, enclosed in single quote marks, and always a type of character in Java. Char literals are sixteen-bit Unicode characters ranging from 0 to 65535. Example: char ch = 077.
+
+4. String Literals
+String literals are sequences of characters enclosed between double quote ("") marks. These characters can be alphanumeric, special characters, blank spaces, etc.
+
+Examples: "John", "2468", "\n", etc.
+
+5. Boolean Literals
+Boolean literals have only two values and so are divided into two literals:
+
+True represents a real boolean value
+False represents a false boolean value
+So, Boolean literals represent the logical value of either true or false. These values aren't case-sensitive and are equally valid if rendered in uppercase or lowercase mode. Boolean literals can also use the values of “0” and “1.”
+
+Examples:
+
+boolean b = true;
+
+boolean d = false;
+
+6. Null Literals
+Null literals represent a null value and refer to no object. Nulls are typically used as a marker to indicate that a reference type object isn’t available. They often describe an uninitialized state in the program. It is a mistake to try to dereference a null value. Example: Patient age = NULL;
+
+Remember, not everyone divides literals in Java into these six types. Alternative classifications split literals into as few as four types (Integer, Character, Boolean, and String) or as many as ten (Integer, Real, Backslash, Character, String, Floating-Point, Boolean, NULL, Class, and Invalid).
+
+How to Use Literals
+Programmers who want to incorporate literals in their program begin with the prefix “=,” followed by the specific value.
+
+**A Java Literal Example**
+
+Here’s a sample of Java programming showing literals:
+
+public class LiteralsExample  
+
+{  
+
+public static void main(String args[])   
+
+{  
+
+int count = 987;  
+
+float floatVal = 4534.99f;  
+
+double cost = 19765.567;  
+
+int hexaVal = 0x7e4;  
+
+int binary = 0b11010;  
+
+char alpha = 'p';  
+
+String str = "Java";  
+
+boolean boolVal = true;  
+
+int octalVal = 067;  
+
+String stuName = null;  
+
+char ch1 = '\u0021';  
+
+char ch2 = 1456;  
+
+System.out.println(count);  
+
+System.out.println(floatVal);  
+
+System.out.println(cost);  
+
+System.out.println(hexaVal);  
+
+System.out.println(binary);  
+
+System.out.println(alpha);  
+
+System.out.println(str);  
+
+System.out.println(boolVal);  
+
+System.out.println(octalVal);  
+
+System.out.println(stuName);  
+
+System.out.println(ch1);  
+
+System.out.println("\t" +"backslash literal");  
+
+System.out.println(ch2);  
+
+}  
+
+}  
+
+Output:
+987
+
+4534.99
+
+19765.567
+
+2020
+
+26
+
+p
+
+Java
+
+true
+
+55
+
+null
 
 ## 5. Data Types in Java
 
@@ -334,7 +485,7 @@ There are two types of type casting:
 
     ![](media/casting.png)
 
-## 8.1 Widening Type Casting
+### 8.1 Widening Type Casting
 
 -   Converting a lower data type into a higher one is called **widening** type casting.
 
@@ -381,7 +532,7 @@ public class WideningTypeCastingExample {  
 
 -   After that, the long type is converted into the float type.
 
-## 8.2 Narrowing Type Casting
+### 8.2 Narrowing Type Casting
 
 -   Converting a higher data type into a lower one is called **narrowing** type casting.
 
