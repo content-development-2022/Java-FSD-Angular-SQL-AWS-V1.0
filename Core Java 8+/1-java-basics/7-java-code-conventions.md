@@ -1,4 +1,4 @@
-# Code Conventions for the Java Programming Language
+# Coding Conventions for Java Programming Language
 
 **Content**
 
@@ -24,17 +24,73 @@
 
 ## 1. Introduction
 
-**Why Have Code Conventions**
+-   The quality of code development has several aspects, so adhering to certain rules when writing code is important.
 
-Code conventions are important to programmers for a number of reasons:
+-   This applies not only to formatting but also to many other factors, determined by the corresponding coding convention for the selected programming language and the selected development framework.
 
--   80% of the lifetime cost of a piece of software goes to maintenance.
+**What is Coding Conventions?**
 
--   Hardly any software is maintained for its whole life by the original author.
+Coding conventions are **a set of guidelines for a specific programming language that recommend programming style, practices, and methods for each aspect of a program written in that language**.
 
--   Code conventions improve the readability of the software, allowing engineers to understand new code more quickly and thoroughly.
+Typically, a coding convention standard describes:
 
--   If you ship your source code as a product, you need to make sure it is as well packaged and clean as any other product you create.
+-   ways of choosing names and the used case of characters for variable names and other identifiers:
+
+-   writing the type of the variable in its identifier (Hungarian notation) and a cast of characters (lower, upper, "camel", "camel" with a lowercase letter), the use of underscores to separate words;
+
+-   indentation style for logical blocks - whether tabs are used, indent width;
+
+-   a method for placing brackets bounding logical blocks;
+
+-   the use of spaces in the design of logical and arithmetic expressions;
+
+-   comment style and the use of documentary comments;
+
+-   variable, class and file naming conventions;
+
+-   statement style and best practices of their usage;
+
+-   file organization;
+
+-   declaration of classes and interfaces;
+
+-   programming practices.
+
+Outside of the standard, the following are implied:
+
+-   lack of magic numbers;
+
+-   restriction of the size of the code horizontally (so that it fits on the screen) and vertical (so that all the code of the file is held in memory)
+
+-   as well as a function or method to the size of one screen (for some programming languages).
+
+Coding rules are “must have” in modern software development. This means that it is better to write programming code a little bit slower than usual, but according to all requirements from the coding conventions. Then you will write code in the style of required coding conventions and the process will be done at the same speed. But the quality of code will be much much better.
+
+**Why use coding Conventions**
+
+Coding standards are important for software developers for several reasons:
+
+-   40% - 80% of the total cost of software is spent on its maintenance.
+
+-   Software is almost never fully supported by its original author.
+
+-   Coding standards improve software readability by allowing developers to understand new code faster and better.
+
+-   Like any other product, the software must be "well packaged" and clean.
+
+The main reasons for using the coding convention are as follows:
+
+-   The same rules for writing code make it easy for other colleagues to understand
+
+-   It is easier to understand the code in a year or 5 without the need to read each term
+
+-   You always know where certain classes and files are in a huge project
+
+In general, this is the cleanness of the code, which simply speeds up the work. This can be compared to a desktop: if everything is neatly arranged, it is easy to work. If there is a mess, then every little thing takes a long time to find.
+
+Very often Coding Conventions for each team are different, and sometimes very different from project to project. We need them so that other developers can easily figure out the code and in general, the code written by different team members looks the same within the project and is maintainable and supportable.
+
+For various programming languages, there are coding conventions. These coding conventions are not absolute. In each project and in each company, standards can be developed for the coding convention.
 
 ## 2. File Organization
 
@@ -62,7 +118,20 @@ Code conventions are important to programmers for a number of reasons:
 
 -   All source files should begin with a c-style comment that lists the class name, version information, date, and copyright notice:
 
-#### ![](media/6b1811d6d11ce4f179184a60d945c5f8.png)
+```java
+/*
+
+ * Classname
+ * 
+ * Version information
+ *
+ * Date
+ * 
+ * Copyright notice
+ */
+```
+
+#### 
 
 #### 2.1.2 Package and Import Statements
 
@@ -72,7 +141,10 @@ Code conventions are important to programmers for a number of reasons:
 
 **Example:**
 
-#### ![](media/6494700040ddce0fb3921f2bd2d63442.png)
+```java
+package java.awt;
+import java.awt.peer.CanvasPeer;
+```
 
 #### 2.1.3 Class and Interface Declarations
 
@@ -88,7 +160,7 @@ Code conventions are important to programmers for a number of reasons:
 | 6 | Constructors                                                      |                                                                                                                                                                                                                                           |
 | 7 | Methods                                                           | These methods should be grouped by functionality rather than by scope or accessibility. For example, a private class method can be in between two public instance methods. The goal is to make reading and understanding the code easier. |
 
-## 3 Indentation
+## 3. Indentation
 
 -   Four spaces should be used as the unit of indentation.
 
@@ -136,7 +208,7 @@ When an expression will not fit on a single line, break it according to these ge
 
 **There are three types of comments in Java.**
 
-![](media/5da2cd019b0110b2f023e6fa02ec6aec.png)
+![](media/types-comments.png)
 
 #### 4.1.1 Single Line Comment
 
@@ -150,15 +222,26 @@ When an expression will not fit on a single line, break it according to these ge
 
 **Syntax:**
 
-![](media/2ca9616ac66b9ccc1126033d0b6d1a49.png)
+```java
+//This is single line comment
+```
 
 **Example:**
 
-![](media/dcc483ba72a87168ced5b3ee9ce1a599.png)
+```java
+public class CommentExample1{
+	public static void main(String[] args){
+		int i = 10; // i is a variable with value 10 
+		System.out.println(i); //printing the variable i
+	}
+}
+```
 
 **Output:**
 
-![](media/ad5c76f06accdf9b254bc89c3d7901e0.png)
+```java
+	10
+```
 
 #### 4.1.2 Multi Line Comment
 
@@ -170,17 +253,38 @@ When an expression will not fit on a single line, break it according to these ge
 
 **Syntax:**
 
-![](media/4af96d642abbdd1b40376d380810be59.png)
+```java
+/*
+This
+is
+multi line 
+comment
+*/
+```
 
 **Example:**
 
-![](media/6928827aab50e42d1920eefdc87d5f68.png)
+```java
+public class CommentExample2 {    
+public static void main(String[] args) {    
+/* Let's declare and  
+ print variable in java. */    
+  int i=10;    
+    System.out.println(i);    
+/* float j = 5.9; 
+    float k = 4.4; 
+    System.out.println( j + k ); */    
+}    
+}    
+```
 
 **Output:**
 
-![](media/f0ed258cc55a271eb96444724a89e174.png)
+```java
+10
+```
 
-![](media/bed6cee1cc717f0d94efb927d45b50c2.png)
+Note: Usually // is used for short comments and /\* \*/ is used for longer comments.
 
 #### 4.1.3 Documentation Comment
 
@@ -194,19 +298,66 @@ When an expression will not fit on a single line, break it according to these ge
 
 **Syntax:**
 
-![](media/c0ab8c43b17e6db0a8e57f0ce2fc46ff.png)
+```java
+/**  
+* 
+*We can use various tags to depict the parameter 
+*or heading or author name 
+*We can also use HTML tags   
+* 
+*/    
+```
 
 **Example:**
 
-![](media/9aa7520cd77e94bef5e7542bcdc66e98.png)
+```java
+import java.io.*;  
+  
+/** 
+ * <h2> Calculation of numbers </h2> 
+ * This program implements an application 
+ * to perform operation such as addition of numbers  
+ * and print the result  
+ * <p> 
+ * <b>Note:</b> Comments make the code readable and  
+ * easy to understand. 
+ *  
+ * @author Anurati  
+ * @version 16.0 
+ * @since 2021-07-06 
+ */  
+   
+ public class Calculate{  
+    /** 
+     * This method calculates the summation of two integers. 
+     * @param input1 This is the first parameter to sum() method 
+     * @param input2 This is the second parameter to the sum() method. 
+     * @return int This returns the addition of input1 and input2 
+     */  
+    public int sum(int input1, int input2){  
+        return input1 + input2;  
+    }  
+    /** 
+    * This is the main method uses of sum() method. 
+    * @param args Unused 
+    * @see IOException  
+    */    
+    public static void main(String[] args) {  
+        Calculate obj = new Calculate();  
+        int result = obj.sum(40, 20);  
+  
+        System.out.println("Addition of numbers: " + result);  
+    }    
+ }   
+```
 
 **Output:**
 
-![](media/30452d1e75aec4b79542300de1a0c416.png)
+![](media/javadoc-2.png)
 
 -   Create documentation API by **javadoc** tool:
 
-![](media/7afcc5ab058dd7564a06a9620c478f34.png)
+![](media/javadoc-1.png)
 
 -   Now, the HTML files are created for the **Calculate** class in the current directory, i.e., **abcDemo**.
 
@@ -396,7 +547,7 @@ return (size ? size : defaultSize);
 
 **Example:**
 
-```
+```java
     while (true) {
         ...
     }
@@ -412,7 +563,15 @@ return (size ? size : defaultSize);
 
 **Example:**
 
-![](media/cc1206651d7844e421cb52b65127c643.png)
+```java
+a += c + d;
+a = (a + b) / (c * d);
+    
+while (d++ = s++) {
+	n++;
+}
+printSize("size is " + foo + "\n");
+```
 
 -   The expressions in a for statement should be separated by blank spaces.
 
@@ -424,7 +583,10 @@ for (expr1; expr2; expr3)
 
 **Examples:**
 
-![](media/a18be044a2f011cc27692a3e54872838.png)
+```java
+myMethod((byte) aNum, (Object) x);
+myMethod((int) (cp + 5), ((int) (i + 3)) + 1);
+```
 
 ## 8. Naming Conventions
 
@@ -434,21 +596,18 @@ for (expr1; expr2; expr3)
 
 -   for example, whether it's a constant, package, or class-which can be helpful in understanding the code.
 
-    ![](media/69702784dc8eff1ca53751d43f1ef35a.png)
+| **Identifier Type** | **Rules for Naming**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | **Examples**                                                                                        |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Packages            | The prefix of a unique package name is always written in all-lowercase ASCII letters and should be one of the top-level domain names, currently com, edu, gov, mil, net, org, or one of the English two-letter codes identifying countries as specified in ISO Standard 3166, 1981. Subsequent components of the package name vary according to an organization's own internal naming conventions. Such conventions might specify that certain directory name components be division, department, project, machine, or login names.                                                                                                                    | com.sun.eng com.apple.quicktime.v2 edu.cmu.cs.bovik.cheese                                          |
+| Classes             | Class names should be nouns, in mixed case with the first letter of each internal word capitalized. Try to keep your class names simple and descriptive. Use whole words-avoid acronyms and abbreviations (unless the abbreviation is much more widely used than the long form, such as URL or HTML).                                                                                                                                                                                                                                                                                                                                                  | class Raster; class ImageSprite;                                                                    |
+| Interfaces          | Interface names should be capitalized like class names.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | interface RasterDelegate; interface Storing;                                                        |
+| Methods             | Methods should be verbs, in mixed case with the first letter lowercase, with the first letter of each internal word capitalized.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | run(); runFast(); getBackground();                                                                  |
+| Variables           | Except for variables, all instance, class, and class constants are in mixed case with a lowercase first letter. Internal words start with capital letters. Variable names should not start with underscore \_ or dollar sign \$ characters, even though both are allowed. Variable names should be short yet meaningful. The choice of a variable name should be mnemonic- that is, designed to indicate to the casual observer the intent of its use. One-character variable names should be avoided except for temporary "throwaway" variables. Common names for temporary variables are i, j, k, m, and n for integers; c, d, and e for characters. | Copy Copied to Clipboard Error: Could not Copy int i; char c; float myWidth;                        |
+| Constants           | The names of variables declared class constants and of ANSI constants should be all uppercase with words separated by underscores ("_"). (ANSI constants should be avoided, for ease of debugging.)                                                                                                                                                                                                                                                                                                                                                                                                                                                    | static final int MIN_WIDTH = 4; static final int MAX_WIDTH = 999; static final int GET_THE_CPU = 1; |
 
 ## 9. Programming Practices
 
-### 9.1 Providing Access to Instance and Class Variables
-
--   Don't make any instance or class variable public without good reason.
-
--   Often, instance variables don't need to be explicitly set or gotten-often that happens as a side effect of method calls.
-
--   Example of appropriate public instance variables is the case where the class is essentially a data structure, with no behavior.
-
--   In other words, if you would have used a struct instead of a class (if Java supported struct), then it's appropriate to make the class's instance variables public.
-
-### 9.2 Referring to Class Variables and Methods
+### 9.1 Referring to Class Variables and Methods
 
 -   Avoid using an object to access a class (static) variable or method. Use a class name instead.
 
@@ -460,11 +619,11 @@ AClass.classMethod(); //OK
 anObject.classMethod(); //AVOID!
 ```
 
-### 9.3 Constants
+### 9.2 Constants
 
 -   Numerical constants (literals) should not be coded directly, except for -1, 0, and 1, which can appear in a for loop as counter values.
 
-### 9.4 Variable Assignments
+### 9.3 Variable Assignments
 
 -   Avoid assigning several variables to the same value in a single statement.
 
@@ -509,9 +668,9 @@ a = b + c;
 d = a + r;
 ```
 
-### 9.5 Miscellaneous Practices
+### 9.4 Miscellaneous Practices
 
-#### 9.5.1 Parentheses
+#### 9.4.1 Parentheses
 
 -   It is generally a good idea to use parentheses liberally in expressions involving mixed operators to avoid operator precedence problems.
 
@@ -522,15 +681,14 @@ if (a == b && c == d) // AVOID!
 if ((a == b) && (c == d)) // RIGHT
 ```
 
-#### 9.5.2 Returning Values
+#### 9.4.2 Returning Values
 
 -   Try to make the structure of your program match the intent.
 
 **Example:**
 
 ```java
-if (
-             booleanExpression) {
+if (booleanExpression) {
     return true;
 } else {
     return false;
@@ -558,7 +716,7 @@ should be written as
 return (condition ? x : y);
 ```
 
-#### 9.5.3 Expressions before \`?' in the Conditional Operator
+#### 9.4.3 Expressions before \`?' in the Conditional Operator
 
 -   If an expression containing a binary operator appears before the ? in the ternary ?: operator, it should be parenthesized.
 
