@@ -80,7 +80,7 @@ int data = 50; // here data is a variable
 
 ![](media/types-variables.png)
 
-## 2.1 Local Variable
+### 2.1 Local Variable
 
 -   A variable declared inside the body of the method is called local variable.
 
@@ -88,7 +88,7 @@ int data = 50; // here data is a variable
 
 -   A local variable cannot be defined with "static" keyword.
 
-## 2.2 Instance Variable
+### 2.2 Instance Variable
 
 -   A variable declared inside the class but outside the body of the method, is called an instance variable.
 
@@ -96,7 +96,7 @@ int data = 50; // here data is a variable
 
 -   It is called an instance variable because its value is instance-specific and is not shared among instances.
 
-## 2.3 Static variable
+### 2.3 Static variable
 
 -   A variable that is declared as static is called a static variable.
 
@@ -106,7 +106,7 @@ int data = 50; // here data is a variable
 
 -   Memory allocation for static variables happens only once when the class is loaded in the memory.
 
-## 2.4 Example to understand the three types of variables in java
+### 2.4 Example to understand the three types of variables in java
 
 ```java
 public class A  
@@ -131,12 +131,17 @@ public class A  
 -   To combine both text and a variable, use the **+** character.
 
 **Example:**
-
-![](media/cd4419675ec486e98e71580153c64e18.png)
-
+```java
+public class Main {  
+    public static void main(String[] args) {  
+        String name = "John";
+        System.out.println("Hello " + name);
+    }  
+}  
+```
 **Output:**
 
-![](media/8c2809532b04d0424d3b96cf856a4a31.png)
+![](media/output-3.png)
 
 ## 5. Data Types in Java
 
@@ -357,14 +362,14 @@ byte -> short -> char -> int -> long -> float -> double
 
 ```java
 public class WideningTypeCastingExample {  
-public static void main(String[] args) {  
-int x = 7;  //automatically converts the integer type into long type  
-long y = x;  //automatically converts the long type into float type  
-float z = y;  
-System.out.println("Before conversion, int value "+x);  
-System.out.println("After conversion, long value "+y);  
-System.out.println("After conversion, float value "+z);  
-}  
+    public static void main(String[] args) {  
+        int x = 7;  //automatically converts the integer type into long type  
+        long y = x;  //automatically converts the long type into float type  
+        float z = y;  
+        System.out.println("Before conversion, int value "+x);  
+        System.out.println("After conversion, long value "+y);  
+        System.out.println("After conversion, float value "+z);  
+    }  
 }  
 ```
 
@@ -398,13 +403,14 @@ double -> float -> long -> int -> char -> short -> byte
 
 ```java
 public class NarrowingTypeCastingExample {  
-public static void main(String args[]) {  
-double d = 166.66; //converting double data type into long data type
-long l = (long)d; //converting long data type into int data type  
-int i = (int)l;  
-System.out.println("Before conversion: "+d); //fractional part lost 	System.out.println("After conversion into long type: "+l);  //fractional part lost  
-System.out.println("After conversion into int type: "+i);  
-}  
+    public static void main(String args[]) {  
+        double d = 166.66; //converting double data type into long data type
+        long l = (long)d; //converting long data type into int data type  
+        int i = (int)l;  
+        System.out.println("Before conversion: "+d); //fractional part lost 	
+        System.out.println("After conversion into long type: "+l);  //fractional part lost  
+        System.out.println("After conversion into int type: "+i);  
+    }  
 }  
 ```
 
