@@ -310,7 +310,7 @@ For setting the path to JDK permanently, you need to follow these steps:
 
 -   You can now execute any program of java from any drive/folder/location.
 
-## 4.Intergrated Development Environment (IDE)
+## 4. Intergrated Development Environment (IDE)
 
 -   **An IDE, or Integrated Development Environment, is a program which helps you write software.**
 
@@ -340,7 +340,7 @@ Can an IDE do other things?
 
 -   You could be writing code for the Mars rover, nuclear power stations, or even financial trading algorithms, with trusty Windows Notepad, and javac (the Java compiler command).
 
-#### If you’re just starting to learn Java, use a text editor first
+-   #### If you’re just starting to learn Java, use a text editor first
 
 -   But why? If an IDE can do all of the work for you, why start out creating programs by hand?
 
@@ -348,7 +348,7 @@ Can an IDE do other things?
 
 -   If you are completely reliant on an IDE, and you have no knowledge of what the IDE is doing for you, you will find it harder in future to solve problems.
 
-#### An IDE is useful once you’re past the beginner stage
+-   #### An IDE is useful once you’re past the beginner stage
 
 -   An IDE helps you organise your projects, run tests, compile the code, format it correctly, and much more.
 
