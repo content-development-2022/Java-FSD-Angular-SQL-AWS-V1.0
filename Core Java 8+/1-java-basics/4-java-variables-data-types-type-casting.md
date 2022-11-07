@@ -2,43 +2,43 @@
 
 **Content**
 
-1\. Java Variables
+1. Java Variables
 
-2\. Types of Variables
+2. Types of Variables
 
-2.1 Local Variable
+    2.1 Local Variable
 
-2.2 Instance Variable
+    2.2 Instance Variable
 
-2.3 Static variable
+    2.3 Static variable
 
-2.4 Example to understand the three types of variables in java
+    2.4 Example to understand the three types of variables in java
 
-3\. Display Variables
+3. Display Variables
 
-4\. Declare Multiple Variables
+4. Declare Multiple Variables
 
-5\. Data Types in Java
+5. Data Types in Java
 
-6\. Primitive Data Types
+6. Primitive Data Types
 
-6.1 boolean Data Type
+    6.1 boolean Data Type
 
-6.2 Numeric Data Types
+    6.2 Numeric Data Types
 
-6.2.1 Integral types
+        6.2.1 Integral types
 
-6.2.2 Floating point types
+        6.2.2 Floating point types
 
-7\. Type Casting
+7. Type Casting
 
-8\. Types of Type Casting
+8. Types of Type Casting
 
-8.1 Widening Type Casting
+    8.1 Widening Type Casting
 
-8.2 Narrowing Type Casting
+    8.2 Narrowing Type Casting
 
-9\. References
+9. References
 
 ## 1. Java Variables
 
