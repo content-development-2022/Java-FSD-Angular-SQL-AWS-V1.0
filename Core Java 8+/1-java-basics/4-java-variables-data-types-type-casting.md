@@ -121,26 +121,14 @@ datatype variable_name=value;
 
 ![](media/595e5106dd746a1338e2fec40986c946.png)
 
-## 4.1 One Value to Multiple Variables
-
--   You can also assign the **same value** to multiple variables in one line.
-
-**Example:**
-
-![](media/dde3ec6a7a95ca947faac39c21078bdd.png)
-
-**Output:**
-
-![](media/06bb0e64ca510234adbe6668299ee31e.png)
-
 ## 5. Data Types in Java
 
 -   Data types specify the different sizes and values that can be stored in the variable.
 
 **There are two types of data types in Java**
 
-1.  **Primitive data types:** The primitive data types include boolean, char, byte, short, int, long, float and double.
-2.  **Non-primitive data types:** The non-primitive data types include Classes, Interfaces, and Arrays.
+1.  **Primitive data types:** The 8 primitive data types in java include boolean, char, byte, short, int, long, float and double.
+2.  **Non-primitive data types:** The non-primitive data types include Classes, Interfaces, and Arrays. We will learn about non-primitive data types later. 
 -   To know more information about String [click here.](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/14-java-string.md)
 -   To know more information about classes [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/1-java-classes-objects-and-custom-class.md).
 -   To know more information about interfaces [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/8-java-abstraction-abstract-classes-and-methods-interfaces.md).
