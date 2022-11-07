@@ -22,7 +22,7 @@
 
 10\. References
 
-## 1. Introduction 
+## 1. Introduction
 
 -   The quality of code development has several aspects, so adhering to certain rules when writing code is important.
 
@@ -602,22 +602,12 @@ myMethod((int) (cp + 5), ((int) (i + 3)) + 1);
 | Classes             | Class names should be nouns, in mixed case with the first letter of each internal word capitalized. Try to keep your class names simple and descriptive. Use whole words-avoid acronyms and abbreviations (unless the abbreviation is much more widely used than the long form, such as URL or HTML).                                                                                                                                                                                                                                                                                                                                                  | class Raster; class ImageSprite;                                                                    |
 | Interfaces          | Interface names should be capitalized like class names.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | interface RasterDelegate; interface Storing;                                                        |
 | Methods             | Methods should be verbs, in mixed case with the first letter lowercase, with the first letter of each internal word capitalized.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | run(); runFast(); getBackground();                                                                  |
-| Variables           | Except for variables, all instance, class, and class constants are in mixed case with a lowercase first letter. Internal words start with capital letters. Variable names should not start with underscore \_ or dollar sign \$ characters, even though both are allowed. Variable names should be short yet meaningful. The choice of a variable name should be mnemonic- that is, designed to indicate to the casual observer the intent of its use. One-character variable names should be avoided except for temporary "throwaway" variables. Common names for temporary variables are i, j, k, m, and n for integers; c, d, and e for characters. | Copy Copied to Clipboard Error: Could not Copy int i;  char c; float myWidth;                       |
+| Variables           | Except for variables, all instance, class, and class constants are in mixed case with a lowercase first letter. Internal words start with capital letters. Variable names should not start with underscore \_ or dollar sign \$ characters, even though both are allowed. Variable names should be short yet meaningful. The choice of a variable name should be mnemonic- that is, designed to indicate to the casual observer the intent of its use. One-character variable names should be avoided except for temporary "throwaway" variables. Common names for temporary variables are i, j, k, m, and n for integers; c, d, and e for characters. | Copy Copied to Clipboard Error: Could not Copy int i; char c; float myWidth;                        |
 | Constants           | The names of variables declared class constants and of ANSI constants should be all uppercase with words separated by underscores ("_"). (ANSI constants should be avoided, for ease of debugging.)                                                                                                                                                                                                                                                                                                                                                                                                                                                    | static final int MIN_WIDTH = 4; static final int MAX_WIDTH = 999; static final int GET_THE_CPU = 1; |
 
 ## 9. Programming Practices
 
-### 9.1 Providing Access to Instance and Class Variables
-
--   Don't make any instance or class variable public without good reason.
-
--   Often, instance variables don't need to be explicitly set or gotten-often that happens as a side effect of method calls.
-
--   Example of appropriate public instance variables is the case where the class is essentially a data structure, with no behavior.
-
--   In other words, if you would have used a struct instead of a class (if Java supported struct), then it's appropriate to make the class's instance variables public.
-
-### 9.2 Referring to Class Variables and Methods
+### 9.1 Referring to Class Variables and Methods
 
 -   Avoid using an object to access a class (static) variable or method. Use a class name instead.
 
@@ -629,11 +619,11 @@ AClass.classMethod(); //OK
 anObject.classMethod(); //AVOID!
 ```
 
-### 9.3 Constants
+### 9.2 Constants
 
 -   Numerical constants (literals) should not be coded directly, except for -1, 0, and 1, which can appear in a for loop as counter values.
 
-### 9.4 Variable Assignments
+### 9.3 Variable Assignments
 
 -   Avoid assigning several variables to the same value in a single statement.
 
@@ -678,9 +668,9 @@ a = b + c;
 d = a + r;
 ```
 
-### 9.5 Miscellaneous Practices
+### 9.4 Miscellaneous Practices
 
-#### 9.5.1 Parentheses
+#### 9.4.1 Parentheses
 
 -   It is generally a good idea to use parentheses liberally in expressions involving mixed operators to avoid operator precedence problems.
 
@@ -691,7 +681,7 @@ if (a == b && c == d) // AVOID!
 if ((a == b) && (c == d)) // RIGHT
 ```
 
-#### 9.5.2 Returning Values
+#### 9.4.2 Returning Values
 
 -   Try to make the structure of your program match the intent.
 
@@ -726,7 +716,7 @@ should be written as
 return (condition ? x : y);
 ```
 
-#### 9.5.3 Expressions before \`?' in the Conditional Operator
+#### 9.4.3 Expressions before \`?' in the Conditional Operator
 
 -   If an expression containing a binary operator appears before the ? in the ternary ?: operator, it should be parenthesized.
 
