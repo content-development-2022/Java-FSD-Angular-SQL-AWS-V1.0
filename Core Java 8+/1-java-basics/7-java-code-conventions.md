@@ -28,7 +28,7 @@
 
 -   This applies not only to formatting but also to many other factors, determined by the corresponding coding convention for the selected programming language and the selected development framework.
 
-## What is Coding Conventions?
+**What is Coding Conventions?**
 
 Coding conventions are **a set of guidelines for a specific programming language that recommend programming style, practices, and methods for each aspect of a program written in that language**.
 
