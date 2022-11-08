@@ -26,6 +26,8 @@
 -   HashSet allows only unique elements.
 -   It doesn’t maintain the insertion order which means element inserted last can appear at first when traversing the HashSet.
 
+**Example:**
+
 ```java
 import java.util.*;
 public class JavaExample{
@@ -58,6 +60,8 @@ Becky
 ## 1.2 LinkedHashSet
 
 -   Unlike HashSet, the LinkedHashSet maintains insertion order.
+
+**Example:**
 
 ```java
 import java.util.*;
@@ -92,6 +96,8 @@ Becky
 
 -   TreeSet stores elements in a red-black tree. It is substantially slower than HashSet.
 -   TreeSet class implements SortedSet interface, which allows TreeSet to order its elements based on their values, which means TreeSet elements are sorted in ascending order.
+
+**Example:**
 
 ```java
 import java.util.*;
