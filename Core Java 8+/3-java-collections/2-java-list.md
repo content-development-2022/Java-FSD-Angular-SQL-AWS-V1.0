@@ -339,7 +339,7 @@ public class Main {
 import java.util.*;
 public class JavaExample{
   public static void main(String args[]){
-    LinkedList<String> linkList=new LinkedList<>();
+    LinkedList<String> linkList = new LinkedList<>();
     linkList.add("Apple"); //["Apple"]
     linkList.add("Orange"); //["Apple", "Orange"]
 
@@ -383,7 +383,7 @@ public class JavaExample{
 
     System.out.println("Vector Elements: ");
     //iterating Vector using iterator
-    Iterator<String> it=v.iterator();
+    Iterator<String> it = v.iterator();
     while(it.hasNext()){
       System.out.println(it.next());
     }
