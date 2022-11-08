@@ -118,7 +118,7 @@ Where:
 | **Operator** | **Name**    | **Description**                                         | **Example**          |
 |--------------|-------------|---------------------------------------------------------|----------------------|
 | &&           | Logical and | Returns true if both statements are true                | x \< 5 && x \< 10    |
-| | \|         | Logical or  | Returns true if one of the statements is true           | x \< 5 \|\| x \< 4   |
+| \|\|         | Logical or  | Returns true if one of the statements is true           | x \< 5 \|\| x \< 4   |
 | !            | Logical not | Reverse the result, returns false if the result is true | !(x \< 5 && x \< 10) |
 
 ### 1.5. Bitwise Operator
@@ -170,7 +170,7 @@ Where:
 
 **Exclusive OR truth table**
 
-| **x** | **y** | **x ^ y** |
+| **x** | **y** | **x ^ y**  |
 |-------|-------|------------|
 | 0     | 0     | 0          |
 | 0     | 1     | 1          |
@@ -183,7 +183,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 **Inclusive OR truth table**
 
-| **x** | **y** | **x | y** |
+| **x** | **y** | **x | y**  |
 |-------|-------|------------|
 | 0     | 0     | 0          |
 | 0     | 1     | 1          |
