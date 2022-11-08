@@ -183,7 +183,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 **Inclusive OR truth table**
 
-| **x** | **y** | **x | y**  |
+| **x** | **y** | **x \| y** |
 |-------|-------|------------|
 | 0     | 0     | 0          |
 | 0     | 1     | 1          |
@@ -202,8 +202,8 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 | **x** | **y** |
 |-------|-------|
-| 0     | 0     |
-| 1     | 1     |
+| 0     | 1     |
+| 1     | 0     |
 
 ### 1.5.5. Bit Shift Operators
 
