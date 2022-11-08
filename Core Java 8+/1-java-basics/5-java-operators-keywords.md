@@ -250,7 +250,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 -   In the terms of mathematics, we can represent the signed right shift operator as follows:
 
-    `b = a >> n  b = a/2n`
+    `b = a >> n  b = a/2^n`
 
 #### **Note: When we apply right shift operator on a positive number, we get the positive number in the result also. Similarly, when we apply right shift operator on a negative number, we get the negative number in the result also.**
 
@@ -266,7 +266,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 -   In the terms of mathematics, we can represent the signed right shift operator as follows:
 
-    `b = a << n  b = a * (2n)`
+    `b = a << n  b = a * (2^n)`
 
 **3) Unsigned Right Shift Operator (\>\>\>)**
 
