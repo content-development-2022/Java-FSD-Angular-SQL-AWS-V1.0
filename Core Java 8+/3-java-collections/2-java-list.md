@@ -256,7 +256,8 @@ Mazda
 **8) Sort an ArrayList**
 
 -   Another useful class in the java.util package is the Collections class, which include the sort() method for sorting lists alphabetically or numerically:
-1.  **Sort an ArrayList of Strings:**
+
+**i) Sort an ArrayList of Strings:**
 
 **Example:**
 
@@ -287,7 +288,7 @@ Mazda
 Volvo
 ```
 
-1.  **Sort an ArrayList of Integers:**
+**ii) Sort an ArrayList of Integers:**
 
 **Example:**
 
