@@ -348,7 +348,7 @@ public class JavaExample{
 
     System.out.println("LinkedList elements: ");
     //iterating LinkedList using iterator
-    Iterator<String> it=linkList.iterator();
+    Iterator<String> it = linkList.iterator();
     while(it.hasNext()){
       System.out.println(it.next());
     }
@@ -373,7 +373,7 @@ Orange
 import java.util.*;
 public class JavaExample{
   public static void main(String args[]){
-    Vector<String> v=new Vector<>();
+    Vector<String> v = new Vector<>();
     v.add("item1"); //["item1"]
     v.add("item2"); //["item1", "item2"]
     v.add("item3"); //["item1", "item2", "item3"]
