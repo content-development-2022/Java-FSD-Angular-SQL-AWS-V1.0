@@ -2,31 +2,31 @@
 
 **Content**
 
-1\. Java Operators
+1. Java Operators
 
-1.1 Arithmetic Operators
+    1.1 Arithmetic Operators
 
-1.2 Assignment Operators
+    1.2 Assignment Operators
 
-1.3 Arithmetic Assignment Operators
+    1.3 Arithmetic Assignment Operators
 
-1.4 Comparison/Relationl Operators
+    1.4 Comparison/Relationl Operators
 
-1.5 Logical Operators
+    1.5 Logical Operators
 
-1.6 Bitwise Operator
+    1.6 Bitwise Operator
 
-1.7 Unary Operator
+    1.7 Unary Operator
 
-1.8 Binary operator
+    1.8 Binary operator
 
-1.9 Ternary Operator (Conditional Operator)
+    1.9 Ternary Operator (Conditional Operator)
 
-2\. Java Keywords
+2. Java Keywords
 
-2.1 List of Java Keywords
+    2.1 List of Java Keywords
 
-3\. References
+3. References
 
 ## 1. Java Operators
 
@@ -54,7 +54,7 @@ Where:
 2.  Binary operator
 3.  Ternary operator(conditional operator)
 
-## 1.1 Arithmetic Operators
+### 1.1 Arithmetic Operators
 
 -   Arithmetic operators are used to perform common mathematical operations.
 
@@ -62,13 +62,13 @@ Where:
 
 ![](media/e25ae704c6a0936bd3937765f26cf97c.png)
 
-## 1.2 Assignment Operator
+### 1.2 Assignment Operator
 
 -   Assignment operator is used to assign values to variables.
 
 ![](media/37951bdea95bf7c4d93e1a4230b24d7c.png)
 
-## 1.3 Arithmetic Assignment Operators
+### 1.3 Arithmetic Assignment Operators
 
 -   It is a combination of Arithmetic and Assignment operators.
 
@@ -76,7 +76,7 @@ Where:
 
 ![](media/4a50100ada6aad97489ffb00662e7f2e.png)
 
-## 1.4 Comparison/Relational Operators
+### 1.4 Comparison/Relational Operators
 
 -   Comparison operators are used to compare two values.
 -   It returns Boolean value i.e., True or False.
@@ -85,7 +85,7 @@ Where:
 
 ![](media/83587b486451cf4a59bdb0eaaa226c7e.png)
 
-## 1.5 Logical Operators
+### 1.5 Logical Operators
 
 -   Logical operators are used to determine the logic between variables or values.
 
@@ -93,7 +93,7 @@ Where:
 
 ![](media/d8c839de14b519db0e42b8f2fdfd1248.png)
 
-## 1.6 Bitwise Operator
+### 1.6 Bitwise Operator
 
 -   Bitwise operators are used on (binary) numbers.
 
@@ -107,27 +107,27 @@ Where:
 
 ![](media/d6da1d64b4badde113d5bea0971709ac.png)
 
-## 1.6.1 Bitwise AND (&)
+#### 1.6.1 Bitwise AND (&)
 
 -   It is a binary operator denoted by the symbol **&**.
 -   It returns 1 if and only if both bits are 1, else returns 0.
 
 ![](media/1d4586d936f50973dc1a4b830a460e0b.png)
 
-## 1.6.2 Bitwise exclusive OR (\^)
+#### 1.6.2 Bitwise exclusive OR (\^)
 
 -   It is a binary operator denoted by the symbol **\^** (pronounced as caret).
 -   It returns 0 if both bits are the same, else returns 1.
 
 ![](media/46fd731dc5c50afc16ceeb257829dcd2.png)
 
-## 1.6.3 Bitwise inclusive OR (\|)
+#### 1.6.3 Bitwise inclusive OR (\|)
 
 It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It returns 1 if either of the bit is 1, else returns 0.
 
 ![](media/c5f0948b400d4153c85b22484c2863ac.png)
 
-## 1.6.4 Bitwise Complement (\~)
+#### 1.6.4 Bitwise Complement (\~)
 
 -   It is a unary operator denoted by the symbol **\~** (pronounced as the tilde).
 -   It returns the inverse or complement of the bit.
@@ -135,7 +135,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 ![](media/392cffbd5d061c6ddd7215aa324a873a.png)
 
-## 1.6.5 Bit Shift Operators
+#### 1.6.5 Bit Shift Operators
 
 -   Shift operator is used in shifting the bits either right or left.
 -   We can use shift operators if we divide or multiply any number by 2.
@@ -188,7 +188,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 -   It is denoted by the symbol **\>\>\>.**
 -   Note that the leftmost position after \>\> depends on the sign bit. It does not preserve the sign bit.
 
-## 1.7 Unary Operator
+### 1.7 Unary Operator
 
 -   The Java unary operators require only one operand.
 -   Unary operators are used to perform various operations i.e.
@@ -198,13 +198,13 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 ![](media/2e39c3abe023db6eca8fc5554c97b46d.png)
 
-## 1.7 Binary Operator
+### 1.8 Binary Operator
 
 -   It contains one operator and two operands
 
 **Example:** 2 + 3
 
-## 1.8 Ternary Operator (Conditional Operator)
+### 1.9 Ternary Operator (Conditional Operator)
 
 -   The **ternary operator (? :)** is the only conditional operator that accepts three operands.
 -   It is used to evaluate Boolean expressions.
@@ -239,7 +239,7 @@ int bigger = n1\>n2?n1:n2;
 -   Keywords are particular words that act as a key to a code.
 -   These are predefined words by Java so they cannot be used as a variable or object name or class name.
 
-## 2.1 List of Java Keywords
+### 2.1 List of Java Keywords
 
 A list of Java keywords or reserved words are given below:
 
