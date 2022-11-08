@@ -78,19 +78,19 @@ Where:
 
 **A list of all assignment operators:**
 
-            | **Operator** | **Example** | **Same As**  |
-            |--------------|-------------|--------------|
-            | =            | x = 5       | x = 5        |
-            | +=           | x += 3      | x = x + 3    |
-            | -=           | x -= 3      | x = x - 3    |
-            | \*=          | x \*= 3     | x = x \* 3   |
-            | /=           | x /= 3      | x = x / 3    |
-            | %=           | x %= 3      | x = x % 3    |
-            | &=           | x &= 3      | x = x & 3    |
-            | \|=          | x \|= 3     | x = x \| 3   |
-            | \^=          | x \^= 3     | x = x \^ 3   |
-            | \>\>=        | x \>\>= 3   | x = x \>\> 3 |
-            | \<\<=        | x \<\<= 3   | x = x \<\< 3 |
+| **Operator** | **Example** | **Same As**  |
+|--------------|-------------|--------------|
+| =            | x = 5       | x = 5        |
+| +=           | x += 3      | x = x + 3    |
+| -=           | x -= 3      | x = x - 3    |
+| \*=          | x \*= 3     | x = x \* 3   |
+| /=           | x /= 3      | x = x / 3    |
+| %=           | x %= 3      | x = x % 3    |
+| &=           | x &= 3      | x = x & 3    |
+| \|=          | x \|= 3     | x = x \| 3   |
+| \^=          | x \^= 3     | x = x \^ 3   |
+| \>\>=        | x \>\>= 3   | x = x \>\> 3 |
+| \<\<=        | x \<\<= 3   | x = x \<\< 3 |
 
 ### 1.3 Comparison/Relational Operators
 
@@ -100,14 +100,14 @@ Where:
 
 **A list of all Comparison operators:**
 
-            | **Operator** | **Name**                 | **Example** |
-            |--------------|--------------------------|-------------|
-            | ==           | Equal to                 | x == y      |
-            | !=           | Not equal                | x != y      |
-            | \>           | Greater than             | x \> y      |
-            | \<           | Less than                | x \< y      |
-            | \>=          | Greater than or equal to | x \>= y     |
-            | \<=          | Less than or equal to    | x \<= y     |
+| **Operator** | **Name**                 | **Example** |
+|--------------|--------------------------|-------------|
+| ==           | Equal to                 | x == y      |
+| !=           | Not equal                | x != y      |
+| \>           | Greater than             | x \> y      |
+| \<           | Less than                | x \< y      |
+| \>=          | Greater than or equal to | x \>= y     |
+| \<=          | Less than or equal to    | x \<= y     |
 
 ### 1.4 Logical Operators
 
@@ -115,11 +115,11 @@ Where:
 
 **A list of all Logical operators:**
 
-            | **Operator** | **Name**    | **Description**                                         | **Example**          |
-            |--------------|-------------|---------------------------------------------------------|----------------------|
-            | &&           | Logical and | Returns true if both statements are true                | x \< 5 && x \< 10    |
-            | ||           | Logical or  | Returns true if one of the statements is true           | x \< 5 \|\| x \< 4   |
-            | !            | Logical not | Reverse the result, returns false if the result is true | !(x \< 5 && x \< 10) |
+| **Operator** | **Name**    | **Description**                                         | **Example**          |
+|--------------|-------------|---------------------------------------------------------|----------------------|
+| &&           | Logical and | Returns true if both statements are true                | x \< 5 && x \< 10    |
+| ||           | Logical or  | Returns true if one of the statements is true           | x \< 5 \|\| x \< 4   |
+| !            | Logical not | Reverse the result, returns false if the result is true | !(x \< 5 && x \< 10) |
 
 ### 1.5 Bitwise Operator
 
@@ -137,15 +137,15 @@ Where:
 
 -   Bit Shift Operators
 
-            | **Operators**                 | **Symbol**       | **Uses**                  |
-            |-------------------------------|------------------|---------------------------|
-            | Bitwise AND                   | &                | op1 & op2                 |
-            | Bitwise exclusive OR          | \^               | op1 \^ op2                |
-            | Bitwise inclusive OR          | \|               | op1 \| op2                |
-            | Bitwise Compliment            | \~               | \~ op                     |
-            | Bitwise left shift            | \<\<             | op1 \<\< op2              |
-            | Bitwise right shift           | \>\>             | op1 \>\> op2              |
-            | Unsigned Right Shift Operator | \>\>\> op \>\>\> | number of places to shift |
+| **Operators**                 | **Symbol**       | **Uses**                  |
+|-------------------------------|------------------|---------------------------|
+| Bitwise AND                   | &                | op1 & op2                 |
+| Bitwise exclusive OR          | \^               | op1 \^ op2                |
+| Bitwise inclusive OR          | \|               | op1 \| op2                |
+| Bitwise Compliment            | \~               | \~ op                     |
+| Bitwise left shift            | \<\<             | op1 \<\< op2              |
+| Bitwise right shift           | \>\>             | op1 \>\> op2              |
+| Unsigned Right Shift Operator | \>\>\> op \>\>\> | number of places to shift |
 
 #### 1.5.1 Bitwise AND (&)
 
@@ -153,12 +153,12 @@ Where:
 
 -   It returns 1 if and only if both bits are 1, else returns 0.
 
-        | **x** | **y** | **x & y** |
-        |-------|-------|-----------|
-        | 0     | 0     | 0         |
-        | 0     | 1     | 0         |
-        | 1     | 0     | 0         |
-        | 1     | 1     | 1         |
+| **x** | **y** | **x & y** |
+|-------|-------|-----------|
+| 0     | 0     | 0         |
+| 0     | 1     | 0         |
+| 1     | 0     | 0         |
+| 1     | 1     | 1         |
 
 #### 1.5.2 Bitwise exclusive OR (\^)
 
@@ -282,10 +282,10 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 3.  inverting the value of a Boolean
 
-            | **Operator Type** | **Category** | **Precedence**                         |
-            |-------------------|--------------|----------------------------------------|
-            | Unary             | postfix      | *expr*++ *expr*--                      |
-            |                   | prefix       | ++*expr* --*expr* +*expr* -*expr* \~ ! |
+| **Operator Type** | **Category** | **Precedence**                         |
+|-------------------|--------------|----------------------------------------|
+| Unary             | postfix      | *expr*++ *expr*--                      |
+|                   | prefix       | ++*expr* --*expr* +*expr* -*expr* \~ ! |
 
 ### 1.7 Binary Operator
 
