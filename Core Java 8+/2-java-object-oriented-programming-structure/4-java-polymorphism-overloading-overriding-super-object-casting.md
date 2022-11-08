@@ -6,13 +6,13 @@
 
 2\. Types of Polymorphism
 
-2.1 Compile-Time Polymorphism /Static/Method Overloading
+2.1 Compile-Time Polymorphism /Static Polymorphism/Early Binding
 
 2.1.1 Different ways to Overload Methods
 
 2.1.3 Advantages of compile-time polymorphism:
 
-2.2 Run-Time Polymorphism/Dynamic/Method Overriding
+2.2 Run-Time Polymorphism/Dynamic Polymorphism/Late Binding
 
 2.2.1 Rules for method overriding
 
@@ -34,66 +34,26 @@
 
 ## 1. Polymorphism
 
+-   The word “Polymorphism” derives from two words i.e. **“Poly”** which means many and “**morphs**” meaning forms. Thus polymorphism means many forms.
+-   In a programming language, we can say that an object can take many forms, and hence the object is polymorphic.
 -   Polymorphism is one of the OOPs feature that allows us to perform a single action in different ways.
--   Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
--   **For example**, think of a superclass called **Animal** that has a method called **animalSound().** Subclasses of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.).
-
-```java
-class Animal {
-  public void animalSound() {
-    System.out.println("The animal makes a sound");
-  }
-}
-
-class Pig extends Animal {
-  public void animalSound() {
-    System.out.println("The pig says: wee wee");
-  }
-}
-
-class Dog extends Animal {
-  public void animalSound() {
-    System.out.println("The dog says: bow wow");
-  }
-}
-
-class Main {
-  public static void main(String[] args) {
-    Animal myAnimal = new Animal();  // Create a Animal object
-    Animal myPig = new Pig();  // Create a Pig object
-    Animal myDog = new Dog();  // Create a Dog object
-    myAnimal.animalSound();
-    myPig.animalSound();
-    myDog.animalSound();
-  }
-}
-```
-
-**Output:**
-
-```
-The animal makes a sound
-The pig says: wee wee
-The dog says: bow wow
-```
 
 ## 2. Types of Polymorphism
 
 There are two types of polymorphism in java:
 
-1.  **Static Polymorphism** also known as compile time polymorphism
-2.  **Dynamic Polymorphism** also known as runtime polymorphism
+1.  **Compile-Time Polymorphism**
+2.  **Run-Time Polymorphism**
 
-**Note:** Run time polymorphism is implemented through Method overriding. Whereas, Compile Time polymorphism is implemented through Method overloading and Operator overloading.
+**Note:** Run time polymorphism is implemented through Method overriding. Whereas, Compile Time polymorphism is implemented through Method overloading.
 
-## 2.1 Compile-Time Polymorphism /Static/Method Overloading
+## 2.1 Compile-Time Polymorphism /Static Polymorphism/Early Binding
 
 -   Compile-time polymorphism is a polymorphism that is resolved during the compilation process.
--   Overloading of methods is called through the reference variable of a class.
 -   Compile-time polymorphism is achieved by **method overloading**
 -   Method Overloading occurs when a class has many methods with the same name but different parameters.
--   Two or more methods may have the same name if they have other numbers of parameters, different data types, or different numbers of parameters and different data types.
--   Method overloading is also known as **Compile-time Polymorphism, Static Polymorphism, or** **Early binding** in Java.
+-   Two or more methods may have the same name if they have different order of parameters, different data types, or different numbers of parameters.
+-   **Compile-time Polymorphism** is also known as **Static Polymorphism, or** **Early binding** in Java.
 
 **Example of Compile-Time Polymorphism in Java**
 
@@ -223,11 +183,11 @@ String sum(int, int)
 
 The only **disadvantage** of compile-time polymorphism is that it doesn’t include inheritance.
 
-## 2.2 Run-Time Polymorphism/Dynamic/Method Overriding
+## 2.2 Run-Time Polymorphism/Dynamic Polymorphism/Late Binding
 
 -   Whenever an object is bound with the functionality at run time, this is known as runtime polymorphism.
 -   Java virtual machine determines the proper method to call at the runtime, not at the compile time.
--   It is also called **dynamic or late binding**.
+-   It is also called **dynamic polymorphism or late binding**.
 -   The runtime polymorphism can be achieved by **method overriding**.
 -   In any object-oriented programming language, Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.
 -   When a method in a subclass has the same name, same parameters or signature, and same return type(or sub-type) as a method in its super-class, then the method in the subclass is said to *override* the method in the super-class.
@@ -550,3 +510,44 @@ Child method is called
 2.  https://www.tutorialspoint.com/Runtime-Polymorphism-in-Java
 3.  https://www.javatpoint.com/super-keyword
 4.  https://www.javatpoint.com/upcasting-and-downcasting-in-java
+
+**For example**, think of a superclass called **Animal** that has a method called **animalSound().** Subclasses of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.).
+
+```
+class Animal {
+  public void animalSound() {
+    System.out.println("The animal makes a sound");
+  }
+}
+
+class Pig extends Animal {
+  public void animalSound() {
+    System.out.println("The pig says: wee wee");
+  }
+}
+
+class Dog extends Animal {
+  public void animalSound() {
+    System.out.println("The dog says: bow wow");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Animal myAnimal = new Animal();  // Create a Animal object
+    Animal myPig = new Pig();  // Create a Pig object
+    Animal myDog = new Dog();  // Create a Dog object
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+  }
+}
+```
+
+**Output:**
+
+```
+The animal makes a sound
+The pig says: wee wee
+The dog says: bow wow
+```
