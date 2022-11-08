@@ -5,26 +5,30 @@
 1\. Java Operators
 
 1.1 Arithmetic Operators
+    1.1 Arithmetic Operators
 
 1.2 Assignment Operators
+    1.2 Assignment Operators
 
-1.3 Comparison/Relationl Operators
+    1.3 Arithmetic Assignment Operators
 
-1.4 Logical Operators
+    1.4 Comparison/Relationl Operators
 
-1.5 Bitwise Operator
+    1.5 Logical Operators
 
-1.6 Unary Operator
+    1.6 Bitwise Operator
 
-1.7 Binary operator
+    1.7 Unary Operator
 
-1.8 Ternary Operator (Conditional Operator)
+    1.8 Binary operator
 
-2\. Java Keywords
+    1.9 Ternary Operator (Conditional Operator)
 
-2.1 List of Java Keywords
+2. Java Keywords
 
-3\. References
+    2.1 List of Java Keywords
+
+3. References
 
 ## 1. Java Operators
 
@@ -58,7 +62,7 @@ Where:
 
 3.  Ternary operator(conditional operator)
 
-## 1.1 Arithmetic Operators
+### 1.1 Arithmetic Operators
 
 -   Arithmetic operators are used to perform common mathematical operations.
 
@@ -72,7 +76,7 @@ Where:
 | /            | Division       | Divides one value by another     | x / y       |
 | %            | Modulus        | Returns the division remainder   | x % y       |
 
-## 1.2 Assignment Operator
+### 1.2 Assignment Operator
 
 -   Assignment operator is used to assign values to variables.
 
@@ -287,13 +291,13 @@ a>>4; //shifts 4 bits   
 | Unary             | postfix      | *expr*++ *expr*--                      |
 |                   | prefix       | ++*expr* --*expr* +*expr* -*expr* \~ ! |
 
-## 1.7 Binary Operator
+### 1.8 Binary Operator
 
 -   It contains one operator and two operands
 
 **Example:** 2 + 3
 
-## 1.8 Ternary Operator (Conditional Operator)
+### 1.9 Ternary Operator (Conditional Operator)
 
 -   The **ternary operator (? :)** is the only conditional operator that accepts three operands.
 
@@ -311,7 +315,7 @@ variable = (condition) ? expression1 : expression2
 
 -   The above statement states that if the condition returns **true, expression1** gets executed, else the **expression2** gets executed and the final result stored in a variable.
 
-    ![](media/c531bfdeb1a847becb7e1a17ee9d9861.png)
+    ![](media/ternary.png)
 
 **Example:**
 
@@ -335,7 +339,7 @@ int bigger = n1>n2?n1:n2;
 
 -   These are predefined words by Java so they cannot be used as a variable or object name or class name.
 
-## 2.1 List of Java Keywords
+### 2.1 List of Java Keywords
 
 A list of Java keywords or reserved words are given below:
 
