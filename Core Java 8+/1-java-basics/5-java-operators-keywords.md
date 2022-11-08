@@ -118,7 +118,7 @@ Where:
 | **Operator** | **Name**    | **Description**                                         | **Example**          |
 |--------------|-------------|---------------------------------------------------------|----------------------|
 | &&           | Logical and | Returns true if both statements are true                | x \< 5 && x \< 10    |
-| |\|          | Logical or  | Returns true if one of the statements is true           | x \< 5 \|\| x \< 4   |
+| | \|         | Logical or  | Returns true if one of the statements is true           | x \< 5 \|\| x \< 4   |
 | !            | Logical not | Reverse the result, returns false if the result is true | !(x \< 5 && x \< 10) |
 
 ### 1.5. Bitwise Operator
@@ -153,6 +153,8 @@ Where:
 
 -   It returns 1 if and only if both bits are 1, else returns 0.
 
+**AND truth table**
+
 | **x** | **y** | **x & y** |
 |-------|-------|-----------|
 | 0     | 0     | 0         |
@@ -166,6 +168,8 @@ Where:
 
 -   It returns 0 if both bits are the same, else returns 1.
 
+**Exclusive OR truth table**
+
 | **x** | **y** | **x ^ y** |
 |-------|-------|------------|
 | 0     | 0     | 0          |
@@ -176,6 +180,8 @@ Where:
 #### 1.5.3. Bitwise inclusive OR (\|)
 
 It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It returns 1 if either of the bit is 1, else returns 0.
+
+**Inclusive OR truth table**
 
 | **x** | **y** | **x | y** |
 |-------|-------|------------|
@@ -191,6 +197,8 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 -   It returns the inverse or complement of the bit.
 
 -   It makes every 0 a 1 and every 1 a 0.
+
+**NOT truth table**
 
 | **x** | **y** |
 |-------|-------|
