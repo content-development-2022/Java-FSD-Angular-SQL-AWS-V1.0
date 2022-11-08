@@ -46,6 +46,8 @@ import java.util.ArrayList;
 
 -   Create an ArrayList object called **cars** that will store strings:
 
+**Example:**
+
 ```java
 import java.util.ArrayList; // import the ArrayList class
 ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
@@ -54,6 +56,8 @@ ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
 **2) Add Elements to the ArrayList**
 
 -   You may insert an element either at the end or at the specific position:
+
+**Example:**
 
 ```java
 import java.util.ArrayList;
@@ -78,6 +82,8 @@ public class Main {
 **3) Access an Item**
 
 -   To access an element in the ArrayList, use the get() method and refer to the index number:
+
+**Example:**
 
 ```java
 import java.util.ArrayList;
@@ -105,6 +111,8 @@ Volvo
 
 -   To modify an element, use the set() method and refer to the index number:
 
+**Example:**
+
 ```java
 import java.util.ArrayList;
 public class Main { 
@@ -130,6 +138,8 @@ public class Main {
 
 -   To remove an element, use the remove() method and refer to the index number:
 
+**Example:**
+
 ```java
 import java.util.ArrayList;
 public class Main { 
@@ -152,6 +162,8 @@ public class Main {
 ```
 
 -   To remove all the elements in the ArrayList, use the clear() method:
+
+**Example:**
 
 ```java
 import java.util.ArrayList;
@@ -186,6 +198,8 @@ cars.size();
 
 -   Loop through the elements of an ArrayList with a for loop, and use the size() method to specify how many times the loop should run:
 
+**Example:**
+
 ```java
 import java.util.ArrayList;
 public class Main {
@@ -212,6 +226,8 @@ Mazda
 ```
 
 -   You can also loop through an ArrayList with the **for-each** loop:
+
+**Example:**
 
 ```java
 public class Main {
@@ -240,8 +256,9 @@ Mazda
 **8) Sort an ArrayList**
 
 -   Another useful class in the java.util package is the Collections class, which include the sort() method for sorting lists alphabetically or numerically:
+1.  **Sort an ArrayList of Strings:**
 
-**i) Sort an ArrayList of Strings:**
+**Example:**
 
 ```java
 import java.util.ArrayList;
@@ -270,7 +287,9 @@ Mazda
 Volvo
 ```
 
-**ii) Sort an ArrayList of Integers:**
+1.  **Sort an ArrayList of Integers:**
+
+**Example:**
 
 ```java
 import java.util.ArrayList;
@@ -313,6 +332,8 @@ public class Main {
 
 ![](media/linked-list.png)
 
+**Example:**
+
 ```java
 import java.util.*;
 public class JavaExample{
@@ -344,6 +365,8 @@ Orange
 ```
 
 ## 1.3 Vector
+
+**Example:**
 
 ```java
 import java.util.*;
@@ -380,6 +403,8 @@ item3
 -   Stack class extends Vector class, which means it is a subclass of Vector.
 -   Stack works on the concept of Last In First Out (LIFO).
 -   The elements are inserted using push() method at the end of the stack, the pop() method removes the element which was inserted last in the Stack.
+
+**Example:**
 
 ```java
 import java.util.*;
