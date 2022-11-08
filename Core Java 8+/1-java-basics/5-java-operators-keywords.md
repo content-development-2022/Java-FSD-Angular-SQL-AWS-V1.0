@@ -219,7 +219,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 -   The above statement states that if the condition returns **true, expression1** gets executed, else the **expression2** gets executed and the final result stored in a variable.
 
-    ![](media/c531bfdeb1a847becb7e1a17ee9d9861.png)
+    ![](media/ternary.png)
 
 **Example:**
 
