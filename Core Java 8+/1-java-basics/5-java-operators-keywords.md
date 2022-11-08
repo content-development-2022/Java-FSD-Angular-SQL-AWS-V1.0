@@ -2,12 +2,10 @@
 
 **Content**
 
-1\. Java Operators
+1. Java Operators
 
-1.1 Arithmetic Operators
     1.1 Arithmetic Operators
 
-1.2 Assignment Operators
     1.2 Assignment Operators
 
     1.3 Arithmetic Assignment Operators
