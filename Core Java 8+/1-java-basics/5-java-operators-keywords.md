@@ -4,27 +4,27 @@
 
 1. Java Operators
 
-        1.1 Arithmetic Operators
+    1.1 Arithmetic Operators
 
-        1.2 Assignment Operators
+    1.2 Assignment Operators
 
-        1.3 Arithmetic Assignment Operators
+    1.3 Arithmetic Assignment Operators
 
-        1.4 Comparison/Relationl Operators
+    1.4 Comparison/Relationl Operators
 
-        1.5 Logical Operators
+    1.5 Logical Operators
 
-        1.6 Bitwise Operator
+    1.6 Bitwise Operator
 
-        1.7 Unary Operator
+    1.7 Unary Operator
 
-        1.8 Binary operator
+    1.8 Binary operator
 
-        1.9 Ternary Operator (Conditional Operator)
+    1.9 Ternary Operator (Conditional Operator)
 
 2. Java Keywords
 
-        2.1 List of Java Keywords
+    2.1 List of Java Keywords
 
 3. References
 
