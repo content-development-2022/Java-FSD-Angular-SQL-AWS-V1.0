@@ -165,8 +165,7 @@ a is greater
 ```java
 if(test_expression) {
    //execute your code
-}else if(test_expression n)
-{
+}else if(test_expression n) {
    //execute your code
 }else {
    //execute your code
@@ -197,7 +196,7 @@ public class Sample {
 }
 ```
 
-**Output**
+**Output:**
 
 ```
 Both are equal
@@ -207,9 +206,9 @@ Both are equal
 
 -   In nested if-statements, the **if statement** can **contains** an **if** or **if-else** statement **inside another** **if or else-if** statement.
 
-**Example**
+**Example:**
 
-**Output**
+**Output:**
 
 ### 1.1.2. Switch Statement
 
@@ -254,7 +253,7 @@ break;
 
 -   While using switch statements, we must notice that the case expression will be of the same type as the variable. However, it will also be a constant value.
 
-**Example**
+**Example:**
 
 ```java
 public class Sample {
@@ -290,7 +289,7 @@ public class Sample {
 }
 ```
 
-**Output**
+**Output:**
 
 ```
 You chose Five
