@@ -40,7 +40,7 @@
 
 ![](media/flow-control.png)
 
-### 1.1 Decision-Making Statements
+## 1.1 Decision-Making Statements
 
 -   As the name suggests, decision-making statements decide which statement to execute and when.
 
@@ -52,7 +52,7 @@
 
     -   **switch** statement.
 
-#### 1.1.1 if Statement
+### 1.1.1 if Statement
 
 -   In Java, the "if" statement is used to evaluate a condition.
 
@@ -72,7 +72,7 @@
 
 Let's understand the if-statements one by one.
 
-##### 1) Simple if Statement
+#### 1) Simple if Statement
 
 -   It is the most basic statement among all control flow statements in Java.
 
@@ -80,13 +80,13 @@ Let's understand the if-statements one by one.
 
 **Syntax:**
 
-```java
-if(test_expression){
-    statement 1;
-    statement 2;
-    ...
-}
-```
+    ```java
+    if(test_expression){
+        statement 1;
+        statement 2;
+        ...
+    }
+    ```
 
 **Flowchart of Simple if statement:**
 
@@ -94,15 +94,15 @@ if(test_expression){
 
 **Example:**
 
-```java
-public class Sample{
-   public static void main(String args[]){
-      int a=20, b=30;
-      if(b>a)
-         System.out.println("b is greater");
-      }
-}
-```
+    ```java
+    public class Sample{
+       public static void main(String args[]){
+          int a=20, b=30;
+          if(b>a)
+             System.out.println("b is greater");
+          }
+    }
+    ```
 
 **Ouput:**
 
@@ -110,7 +110,7 @@ public class Sample{
 b is greater
 ```
 
-##### 2) if-else Statement
+#### 2) if-else Statement
 
 -   The if-else statement is an extension to the if-statement, which uses another block of code, i.e., else block.
 
@@ -118,16 +118,16 @@ b is greater
 
 **Syntax:**
 
-```java
-if(test_expression)
-{
-   //execute your code
-}
-else
-{
-   //execute your code
-}
-```
+    ```java
+    if(test_expression)
+    {
+       //execute your code
+    }
+    else
+    {
+       //execute your code
+    }
+    ```
 
 **Flow chart of if-else statement:**
 
@@ -135,18 +135,18 @@ else
 
 **Example:**
 
-```java
-public class Sample {
- public static void main(String args[]) {
-  int a = 80, b = 30;
-  if (b > a) {
-   System.out.println("b is greater");
-  } else {
-   System.out.println("a is greater");
-  }
- }
-}
-```
+    ```java
+    public class Sample {
+     public static void main(String args[]) {
+      int a = 80, b = 30;
+      if (b > a) {
+       System.out.println("b is greater");
+      } else {
+       System.out.println("a is greater");
+      }
+     }
+    }
+    ```
 
 **Output:**
 
@@ -154,7 +154,7 @@ public class Sample {
 a is greater
 ```
 
-##### 3) if-else-if ladder Statement
+#### 3) if-else-if ladder Statement
 
 -   The if-else-if statement contains the if-statement followed by multiple else-if statements.
 
@@ -164,20 +164,20 @@ a is greater
 
 **Syntax:**
 
-```java
-if(test_expression)
-{
-   //execute your code
-}
-else if(test_expression n)
-{
-   //execute your code
-}
-else
-{
-   //execute your code
-}
-```
+    ```java
+    if(test_expression)
+    {
+       //execute your code
+    }
+    else if(test_expression n)
+    {
+       //execute your code
+    }
+    else
+    {
+       //execute your code
+    }
+    ```
 
 **Flow chart of if-else-if statement:**
 
@@ -185,24 +185,23 @@ else
 
 **Example:**
 
-```java
-public class Sample {
+    ```java
+    public class Sample {
+        public static void main(String args[]) {
+            int a = 30, b = 30;
 
-    public static void main(String args[]) {
-        int a = 30, b = 30;
-
-        if (b > a) {
-            System.out.println("b is greater");
-        }
-        else if(a > b){
-            System.out.println("a is greater");
-        }       
-        else {
-            System.out.println("Both are equal");
+            if (b > a) {
+                System.out.println("b is greater");
+            }
+            else if(a > b){
+                System.out.println("a is greater");
+            }       
+            else {
+                System.out.println("Both are equal");
+            }
         }
     }
-}
-```
+    ```
 
 **Output**
 
@@ -210,7 +209,7 @@ public class Sample {
 Both are equal
 ```
 
-##### 4) Nested if-statement
+#### 4) Nested if-statement
 
 -   In nested if-statements, the **if statement** can **contains** an **if** or **if-else** statement **inside another** **if or else-if** statement.
 
@@ -218,7 +217,7 @@ Both are equal
 
 **Output**
 
-#### 1.1.2 Switch Statement
+### 1.1.2 Switch Statement
 
 -   In Java, Switch statements are similar to if-else-if statements.
 
@@ -303,7 +302,7 @@ Both are equal
     You chose Five
     ```
 
-### 1.2 Loop Statements
+## 1.2 Loop Statements
 
 -   A computer is the most suitable machine to perform repetitive tasks and can tirelessly do a task tens of thousands of times.
 
@@ -323,7 +322,7 @@ Both are equal
 
 Let's understand the loop statements one by one.
 
-#### 1.2.1 for Loop
+### 1.2.1 for Loop
 
 -   The Java *for loop* is used to iterate a part of the program several times.
 
@@ -337,7 +336,7 @@ Let's understand the loop statements one by one.
 
     3.  Labelled for Loop
 
-##### 1) Simple for Loop
+#### 1) Simple for Loop
 
 -   A simple for loop is the same as in C/C++.
 
@@ -355,36 +354,35 @@ Let's understand the loop statements one by one.
 
 **Syntax:**
 
-```java
-for(initialization, condition, increment/decrement) {    
-//block of statements    
-}    
-```
+    ```java
+    for(initialization, condition, increment/decrement) {    
+    //block of statements    
+    }    
+    ```
 
 **Flowchart of for loop:**
 
 ![Control Flow in Java](media/d044ad7951da09621e2a7bc954970d9d.png)**Example:**
 
-```java
-public class Calculattion {  
-public static void main(String[] args) {  
-// TODO Auto-generated method stub  
-int sum = 0;  
-for(int j = 1; j<=10; j++) {  
-sum = sum + j;  
-}  
-System.out.println("The sum of first 10 natural numbers is " + sum);  
-}  
-}  
-```
+    ```java
+    public class Calculattion {  
+        public static void main(String[] args) {   
+            int sum = 0;  
+            for(int j = 1; j<=10; j++) {  
+                sum = sum + j;  
+            }  
+            System.out.println("The sum of first 10 natural numbers is " + sum);  
+        }  
+    }  
+    ```
 
 **Output:**
 
-```
-The sum of first 10 natural numbers is 55
-```
+    ```
+    The sum of first 10 natural numbers is 55
+    ```
 
-##### 2) for-each Loop
+#### 2) for-each Loop
 
 -   Java provides an enhanced for loop to traverse the data structures like array or collection.
 
@@ -430,7 +428,7 @@ Python
 JavaScript
 ```
 
-##### 3) Labeled For Loop
+#### 3) Labeled For Loop
 
 -   A **label** is a valid variable name that denotes the name of the loop to where the control of execution should jump.
 
@@ -480,7 +478,7 @@ JavaScript
 1 2 3 4 5 6 7 8 9
 ```
 
-##### Infinitive for Loop
+#### 4) Infinitive for Loop
 
 -   If you use two semicolons ;; in the for loop, it will be infinitive for loop.
 
@@ -623,7 +621,7 @@ JavaScript
 
 ![](media/7b6b92005ae0d96fc5c29f1f086385e1.png)
 
-### 1.3 Jump Statements
+## 1.3 Jump Statements
 
 -   Jump statements are used to transfer the control of the program to the specific statements.
 
@@ -631,11 +629,11 @@ JavaScript
 
 -   There are **two types** of **jump** statements in Java.
 
-1.  break
+        1.  break
 
-2.  continue
+        2.  continue
 
-## 1.3.1 break Statement
+### 1.3.1 break Statement
 
 -   As the name suggests, the break statement is used to break the current flow of the program and transfer the control to the next statement outside a loop or switch statement.
 
@@ -672,7 +670,7 @@ JavaScript
     6
     ```
 
-#### 1.3.2 continue Statement
+### 1.3.2 continue Statement
 
 -   Unlike break statement, the continue statement doesn't break the loop, whereas, it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
 
