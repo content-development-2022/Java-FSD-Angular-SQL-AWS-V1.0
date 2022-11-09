@@ -104,7 +104,7 @@ PriorityQueue<Integer> numbers = new PriorityQueue<>();
 ```java
 import java.util.PriorityQueue;
 class Main {
- public static void main(String[] args) {
+  public static void main(String[] args) {
     // Creating a priority queue
     PriorityQueue<Integer> numbers = new PriorityQueue<>();
     // Using the add() method
@@ -139,7 +139,7 @@ Updated PriorityQueue: [1, 4, 2]
 ```java
 import java.util.PriorityQueue;
 class Main {
-public static void main(String[] args) {
+  public static void main(String[] args) {
     // Creating a priority queue
     PriorityQueue<Integer> numbers = new PriorityQueue<>();
     numbers.add(4);
@@ -149,7 +149,7 @@ public static void main(String[] args) {
     // Using the peek() method
     int number = numbers.peek();
     System.out.println("Accessed Element: " + number);
-}
+  }
 }
 ```
 
@@ -170,7 +170,7 @@ Accessed Element: 1
 ```java
 import java.util.PriorityQueue;
 class Main {
-public static void main(String[] args) {
+  public static void main(String[] args) {
     // Creating a priority queue
     	    PriorityQueue<Integer> numbers = new PriorityQueue<>();
     numbers.add(4);
@@ -183,7 +183,7 @@ public static void main(String[] args) {
     // Using the poll() method
     int number = numbers.poll();
     System.out.println("Removed Element Using poll(): " + number);
-}
+  }
 }
 ```
 
@@ -206,7 +206,7 @@ Removed Element Using poll(): 1
 import java.util.PriorityQueue;
 import java.util.Iterator;
 class Main {
-public static void main(String[] args) {
+  public static void main(String[] args) {
     // Creating a priority queue
     PriorityQueue<Integer> numbers = new PriorityQueue<>();
     numbers.add(4);
@@ -219,7 +219,7 @@ public static void main(String[] args) {
         System.out.print(iterate.next());
         System.out.print(", ");
     }
-}
+  }
 }
 ```
 
