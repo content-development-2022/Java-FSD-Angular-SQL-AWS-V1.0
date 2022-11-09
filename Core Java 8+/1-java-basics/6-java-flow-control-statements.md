@@ -273,7 +273,7 @@ public class Sample {
    case 1:
     System.out.println("You chose One");
     break;
-
+ 
    case 2:
     System.out.println("You chose Two");
     break;
