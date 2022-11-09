@@ -62,13 +62,15 @@
 
 -   In Java, there are **four types** of **if-statements** given below.
 
-        1.  Simple if statement
+```
+1.  Simple if statement
 
-        2.  if-else statement
+2.  if-else statement
 
-        3.  if-else-if ladder
+3.  if-else-if ladder
 
-        4.  Nested if-statement
+4.  Nested if-statement
+```
 
 Let's understand the if-statements one by one.
 
@@ -230,19 +232,21 @@ Both are equal
 
 **Syntax:**
 
-    ```java
-    switch(variable){
-        case 1:
-            //execute your code
-            break;
-    case n:
-            //execute your code
-            break;
-    default:
-            //execute your code
-    break;
-    }
-    ```
+```
+```java
+switch(variable){
+    case 1:
+        //execute your code
+        break;
+case n:
+        //execute your code
+        break;
+default:
+        //execute your code
+break;
+}
+```
+```
 
 **Flow chart of switch-case:**
 
@@ -263,45 +267,49 @@ Both are equal
 
 **Example**
 
-    ```java
-    public class Sample {
-     public static void main(String args[]) {
-      int a = 5;
+```
+```java
+public class Sample {
+ public static void main(String args[]) {
+  int a = 5;
 
-      switch (a) {
-       case 1:
-        System.out.println("You chose One");
-        break;
+  switch (a) {
+   case 1:
+    System.out.println("You chose One");
+    break;
 
-       case 2:
-        System.out.println("You chose Two");
-        break;
+   case 2:
+    System.out.println("You chose Two");
+    break;
 
-       case 3:
-        System.out.println("You chose Three");
-        break;
+   case 3:
+    System.out.println("You chose Three");
+    break;
 
-       case 4:
-        System.out.println("You chose Four");
-        break;
+   case 4:
+    System.out.println("You chose Four");
+    break;
 
-       case 5:
-        System.out.println("You chose Five");
-        break;
+   case 5:
+    System.out.println("You chose Five");
+    break;
 
-       default:
-        System.out.println("Invalid Choice. Enter a no between 1 and 5");
-        break;
-      }
-     }
-    }
-    ```
+   default:
+    System.out.println("Invalid Choice. Enter a no between 1 and 5");
+    break;
+  }
+ }
+}
+```
+```
 
 **Output**
 
-    ```
-    You chose Five
-    ```
+```
+```
+You chose Five
+```
+```
 
 ### 1.2 Loop Statements
 
@@ -331,11 +339,11 @@ Let's understand the loop statements one by one.
 
 -   There are three types of for loops in Java.
 
-    1.  Simple for Loop
+    -   Simple for Loop
 
-    2.  For-each or Enhanced for Loop
+    -   For-each or Enhanced for Loop
 
-    3.  Labelled for Loop
+    -   Labelled for Loop
 
 ##### 1) Simple for Loop
 
@@ -406,17 +414,19 @@ The sum of first 10 natural numbers is 55
 
 **Example:**
 
-    ```java
-    public class Calculation {    
-        public static void main(String[] args) {    
-            String[] names = {"Java","C","C++","Python","JavaScript"};    
-            System.out.println("Printing the content of the array names:\n");    
-            for(String name:names) {    
-                System.out.println(name);    
-            }    
+```
+```java
+public class Calculation {    
+    public static void main(String[] args) {    
+        String[] names = {"Java","C","C++","Python","JavaScript"};    
+        System.out.println("Printing the content of the array names:\n");    
+        for(String name:names) {    
+            System.out.println(name);    
         }    
     }    
-    ```
+}    
+```
+```
 
 **Output:**
 
@@ -442,33 +452,37 @@ JavaScript
 
 **Syntax:**
 
-    ```java
-    labelname:    
-    for(initialization; condition; incr/decr)  {    
-        //functionality of the loop    
-    }    
-    ```
+```
+```java
+labelname:    
+for(initialization; condition; incr/decr)  {    
+    //functionality of the loop    
+}    
+```
+```
 
 **Example:**
 
-    ```java
-    public class LabeledForLoop {  
-        public static void main(String args[]) {  
-            //outer loop  
-            outer:     //label  
-            for(int i=1;i<=5;i++) {  
-                System.out.println();  
-                //inner loop  
-                inner:      //label  
-                for(int j=1;j<=10;j++) {  
-                    System.out.print(j + " ");  
-                    if(j==9)  
-                        break inner;      
-                }  
+```
+```java
+public class LabeledForLoop {  
+    public static void main(String args[]) {  
+        //outer loop  
+        outer:     //label  
+        for(int i=1;i<=5;i++) {  
+            System.out.println();  
+            //inner loop  
+            inner:      //label  
+            for(int j=1;j<=10;j++) {  
+                System.out.print(j + " ");  
+                if(j==9)  
+                    break inner;      
             }  
         }  
     }  
-    ```
+}  
+```
+```
 
 **Output:**
 
@@ -486,37 +500,43 @@ JavaScript
 
 **Syntax:**
 
-    ```java
-    for(;;){  
-        //code to be executed  
-    }  
-    ```
+```
+```java
+for(;;){  
+    //code to be executed  
+}  
+```
+```
 
 **Example:**
 
-    ```java
-    //Java program to demonstrate the use of infinite for loop  
-    //which prints an statement  
-    public class ForExample {  
-    public static void main(String[] args) {  
-        //Using no condition in for loop  
-        for(;;){  
-            System.out.println("infinitive loop");  
-        }  
+```
+```java
+//Java program to demonstrate the use of infinite for loop  
+//which prints an statement  
+public class ForExample {  
+public static void main(String[] args) {  
+    //Using no condition in for loop  
+    for(;;){  
+        System.out.println("infinitive loop");  
     }  
-    }  
-    ```
+}  
+}  
+```
+```
 
 **Output:**
 
-    ```
-    infinitive loop
-    infinitive loop
-    infinitive loop
-    infinitive loop
-    infinitive loop
-    ctrl+c
-    ```
+```
+```
+infinitive loop
+infinitive loop
+infinitive loop
+infinitive loop
+infinitive loop
+ctrl+c
+```
+```
 
 -   Now, you need to press ctrl+c to exit from the program.
 
@@ -534,11 +554,13 @@ JavaScript
 
 **Syntax:**
 
-    ```java
-    while(condition){    
-        //looping statements    
-    }    
-    ```
+```
+```java
+while(condition){    
+    //looping statements    
+}    
+```
+```
 
 **Flow chart of while loop:**
 
@@ -546,31 +568,35 @@ JavaScript
 
 **Example:**
 
-    ```java
-    public class Calculation {    
-        public static void main(String[] args) {    
-            int i = 0;    
-            System.out.println("Printing the list of first 10 even numbers \n");    
-            while(i<=10) {    
-                System.out.println(i);    
-                i = i + 2;    
-            }    
+```
+```java
+public class Calculation {    
+    public static void main(String[] args) {    
+        int i = 0;    
+        System.out.println("Printing the list of first 10 even numbers \n");    
+        while(i<=10) {    
+            System.out.println(i);    
+            i = i + 2;    
         }    
     }    
-    ```
+}    
+```
+```
 
 **Output:**
 
-    ```
-    Printing the list of first 10 even numbers 
+```
+```
+Printing the list of first 10 even numbers 
 
-    0
-    2
-    4
-    6
-    8
-    10
-    ```
+0
+2
+4
+6
+8
+10
+```
+```
 
 ### 1.2.3 do-while Loop
 
@@ -582,11 +608,13 @@ JavaScript
 
 **Syntax:**
 
-    ```java
-    do {
-        //statements
-    } while(condition);
-    ```
+```
+```java
+do {
+    //statements
+} while(condition);
+```
+```
 
 **Flowchart of do…while loop:**
 
@@ -594,30 +622,34 @@ JavaScript
 
 **Example:**
 
-    ```java
-    public class Calculation {    
-        public static void main(String[] args) {    
-            int i = 0;    
-            System.out.println("Printing the list of first 10 even numbers \n");    
-            do {    
-                System.out.println(i);    
-                i = i + 2;    
-            }while(i<=10);    
-        }    
+```
+```java
+public class Calculation {    
+    public static void main(String[] args) {    
+        int i = 0;    
+        System.out.println("Printing the list of first 10 even numbers \n");    
+        do {    
+            System.out.println(i);    
+            i = i + 2;    
+        }while(i<=10);    
     }    
-    ```
+}    
+```
+```
 
 **Output**
 
-    ```
-    Printing the list of first 10 even numbers 
-    0
-    2
-    4
-    6
-    8
-    10
-    ```
+```
+```
+Printing the list of first 10 even numbers 
+0
+2
+4
+6
+8
+10
+```
+```
 
 ## Java for Loop Vs while Loop Vs do-while Loop
 
@@ -647,30 +679,34 @@ JavaScript
 
 **Example:**
 
-    ```java
-    public class BreakExample {  
-        public static void main(String[] args) {  
-            for(int i = 0; i<= 10; i++) {  
-                System.out.println(i);  
-                if(i==6) {  
-                    break;  
-                }  
+```
+```java
+public class BreakExample {  
+    public static void main(String[] args) {  
+        for(int i = 0; i<= 10; i++) {  
+            System.out.println(i);  
+            if(i==6) {  
+                break;  
             }  
         }  
     }  
-    ```
+}  
+```
+```
 
 **Output:**
 
-    ```
-    0
-    1
-    2
-    3
-    4
-    5
-    6
-    ```
+```
+```
+0
+1
+2
+3
+4
+5
+6
+```
+```
 
 #### 1.3.2 continue Statement
 
@@ -686,37 +722,41 @@ JavaScript
 
 **Example:**
 
-    ```java
-    public class ContinueExample {  
-        public static void main(String[] args) {  
-            for(int i = 0; i<= 2; i++) {    
-                for (int j = i; j<=5; j++) {  
-                if(j == 4) {  
-                    continue;  
-                }  
-                System.out.println(j);  
-                }  
+```
+```java
+public class ContinueExample {  
+    public static void main(String[] args) {  
+        for(int i = 0; i<= 2; i++) {    
+            for (int j = i; j<=5; j++) {  
+            if(j == 4) {  
+                continue;  
+            }  
+            System.out.println(j);  
             }  
         }  
     }  
-    ```
+}  
+```
+```
 
 **Output:**
 
-    ```
-    0
-    1
-    2
-    3
-    5
-    1
-    2
-    3
-    5
-    2
-    3
-    5
-    ```
+```
+```
+0
+1
+2
+3
+5
+1
+2
+3
+5
+2
+3
+5
+```
+```
 
 -   As you can see in the above output, 5 is not printed on the console. It is because the loop is continued when it reaches to 5.
 
