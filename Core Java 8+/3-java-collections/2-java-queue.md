@@ -104,7 +104,7 @@ PriorityQueue<Integer> numbers = new PriorityQueue<>();
 ```java
 import java.util.PriorityQueue;
 class Main {
-public static void main(String[] args) {
+ public static void main(String[] args) {
     // Creating a priority queue
     PriorityQueue<Integer> numbers = new PriorityQueue<>();
     // Using the add() method
@@ -114,7 +114,7 @@ public static void main(String[] args) {
     // Using the offer() method
     numbers.offer(1);
     System.out.println("Updated PriorityQueue: " + numbers);
-}
+  }
 }
 ```
 
