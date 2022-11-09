@@ -4,27 +4,27 @@
 
 1\. Java Flow Control Statements
 
-1.1 Decision-Making Statements
+    1.1 Decision-Making Statements
 
-1.1.1 If Statement
+        1.1.1 If Statement
 
-1.1.2 Switch Statement
+        1.1.2 Switch Statement
 
-1.2 Loop Statements
+    1.2 Loop Statements
 
-1.2.1 for Loop
+        1.2.1 for Loop
 
-1.2.2 for-each Loop
+        1.2.2 for-each Loop
 
-1.2.3 while Loop
+        1.2.3 while Loop
 
-1.2.4 do-while Loop
+        1.2.4 do-while Loop
 
-1.3 Jump Statements
+    1.3 Jump Statements
 
-1.3.1 break Statement
+        1.3.1 break Statement
 
-1.3.2 continue Statement
+        1.3.2 continue Statement
 
 2\. References
 
@@ -38,7 +38,7 @@
 
 -   Java provides **three** types of control flow statements.
 
-![](media/b8949b20450200bc19f85ede251d3154.png)
+![](media/flow-control.png)
 
 ## 1.1 Decision-Making Statements
 
@@ -254,7 +254,7 @@ Both are equal
 
 -   In Java, we have **three types of loops** that execute similarly. However, there are differences in their syntax and condition checking time.
 
-![](media/ca1166d59174661db6574e9d87d5e9ca.png)
+![](media/loop.png)
 
 Let's understand the loop statements one by one.
 
