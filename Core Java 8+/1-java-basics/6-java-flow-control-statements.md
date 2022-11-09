@@ -567,6 +567,7 @@ public class Calculation {    
     }    
 }    
 ```
+
 **Output:**
 
 ```
@@ -579,6 +580,7 @@ Printing the list of first 10 even numbers
 8
 10
 ```
+
 ### 1.2.3. do-while Loop
 
 -   The do-while loop checks the condition at the end of the loop after executing the loop statements.
@@ -628,7 +630,13 @@ Printing the list of first 10 even numbers
 
 ## Java for Loop Vs while Loop Vs do-while Loop
 
-![](media/7b6b92005ae0d96fc5c29f1f086385e1.png)
+| **Comparison**           | **for loop**                                                                                                | **while loop**                                                                  | **do-while loop**                                                                                                                                          |
+|--------------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Introduction**         | It iterates a block of code for a known number of times which is known to the programmer                    | This iterates a block of code based on the output of a boolean condition        | It is similar to the while loop except the fact that it checks for the condition after the statement is executed for that particular iteration.            |
+| **When to use**          | It should be used when the number of iterations is constant and known before the execution of the program.  | When the number of iterations is not fixed, while loop can be used to iterate.  | If there is a necessity for executing the loop at least once whilst having no knowledge about the number of iterations, the do while loop has to be used.  |
+| **Syntax**               | for(initializing statement;testing condition;increment/decrement) { //code to be iterated }                 | while(boolean condition) { //statements; }                                      | do {  //statements } while(boolean condition);                                                                                                             |
+| **Example**              | for(i=1;i\<5;i++) { System.out.println(“Hello”); }                                                          | while(a\<10) {  a++; }                                                          | do { a++; } while(a\<10)                                                                                                                                   |
+| **Infinite Loop Syntax** | for(;;) {  //code }                                                                                         | while(true) {  //code }                                                         | do {  //code } while(true);                                                                                                                                |
 
 ## 1.3. Jump Statements
 
