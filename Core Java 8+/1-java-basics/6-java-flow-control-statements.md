@@ -551,9 +551,13 @@ public class Calculation {    
         //statements
     } while(condition);
     ```
+    
 **Flowchart of do…while loop:**
+
 ![](media/253ef763bbd652f0b7a3a5553e6fb2f9.png)
+
 **Example:**
+
 ```java
 public class Calculation {    
     public static void main(String[] args) {    
@@ -566,7 +570,9 @@ public class Calculation {    
     }    
 }    
 ```
+
 **Output**
+
 ```
 Printing the list of first 10 even numbers 
 0
