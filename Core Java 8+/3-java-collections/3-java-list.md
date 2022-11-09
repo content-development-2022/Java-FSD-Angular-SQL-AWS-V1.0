@@ -22,6 +22,8 @@
 -   Lists may contain duplicate elements.
 -   Elements can be inserted or accessed by their position in the list, using a zero-based index.
 
+    ![](media/fa3aa0ddd968548e395ba9c4acb2ca6e.png)
+
 **The classes that implements List interface are:**
 
 -   ArrayList
@@ -36,6 +38,9 @@
 -   ArrayList is a resizable-array implementation of the List interface.
 -   It implements all optional list operations, and permits all elements, including null.
 -   *ArrayList* resides within Java Core Libraries, so you don't need any additional libraries.
+
+    ![](media/fd567d9fe0253fa1358b52029be713b5.png)
+
 -   In order to use it just add the following import statement:
 
 ```java
@@ -252,6 +257,7 @@ BMW
 Ford
 Mazda
 ```
+
 -   You can also loop through an ArrayList with **Iterator** :
 
 **Example:**
@@ -280,6 +286,7 @@ BMW
 Ford
 Mazda
 ```
+
 **8) Sort an ArrayList**
 
 -   Another useful class in the java.util package is the Collections class, which include the sort() method for sorting lists alphabetically or numerically:
@@ -394,6 +401,15 @@ Orange
 
 ## 1.3 Vector
 
+**Vector class in Java** was introduced in JDK 1.0 version. It is present in Java.util package. It is a dynamically resizable array (growable array) which means it can grow or shrink as required.
+
+Java Vector class is similar to ArrayList class with two main differences.
+
+-   Vector is synchronized. It is used for thread safety.
+-   It contains many legacy methods that are not now a part of the collections framework.
+
+![](media/d68969a3bb54138e3446a235c7872b05.png)
+
 **Example:**
 
 ```java
@@ -431,6 +447,8 @@ item3
 -   Stack class extends Vector class, which means it is a subclass of Vector.
 -   Stack works on the concept of Last In First Out (LIFO).
 -   The elements are inserted using push() method at the end of the stack, the pop() method removes the element which was inserted last in the Stack.
+
+    ![](media/7a3e027833d45feef9bf936ea02269d3.png)
 
 **Example:**
 
