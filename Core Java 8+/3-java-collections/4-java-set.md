@@ -96,6 +96,8 @@ Output:
 
 **Note:** In the example above, even though BMW is added twice it only appears once in the set because every item in a set has to be unique.
 
+![](media/d005e8794e2f1024bd17036bcaa6bff3.png)
+
 ## Check If an Item Exists
 
 To check whether an item exists in a HashSet, use the contains() method:
