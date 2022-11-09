@@ -292,9 +292,9 @@ public class Sample {
 
 **Output**
 
-    ```
-    You chose Five
-    ```
+```
+You chose Five
+```
 
 ## 1.2. Loop Statements
 
@@ -325,10 +325,9 @@ Let's understand the loop statements one by one.
 -   There are three types of for loops in Java.
 
     1.  Simple for Loop
-
     2.  For-each or Enhanced for Loop
-
     3.  Labelled for Loop
+    4.  Infinitive for Loop
 
 #### 1) Simple for Loop
 
@@ -348,11 +347,11 @@ Let's understand the loop statements one by one.
 
 **Syntax:**
 
-    ```java
-    for(initialization, condition, increment/decrement) {    
-    //block of statements    
-    }    
-    ```
+```java
+for(initialization, condition, increment/decrement) {    
+//block of statements    
+}    
+```
 
 **Flowchart of for loop:**
 
@@ -372,9 +371,9 @@ public class Calculattion {  
 
 **Output:**
 
-    ```
-    The sum of first 10 natural numbers is 55
-    ```
+```
+The sum of first 10 natural numbers is 55
+```
 
 #### 2) for-each Loop
 
@@ -389,15 +388,12 @@ public class Calculattion {  
 -   In the for-each loop, we don't need to update the loop variable.
 
 **Syntax:**
-
-**for**(data_type var : array_name/collection_name){
-
-//statements
-
+```java
+for(data_type var : array_name/collection_name){
+    //statements
 }
-
+```
 **Example:**
-
 ```java
 public class Calculation {    
     public static void main(String[] args) {    
@@ -409,9 +405,7 @@ public class Calculation {    
     }    
 }    
 ```
-
 **Output:**
-
 ```
 Printing the content of the array names:
 
@@ -421,7 +415,6 @@ C++
 Python
 JavaScript
 ```
-
 #### 3) Labeled For Loop
 
 -   A **label** is a valid variable name that denotes the name of the loop to where the control of execution should jump.
@@ -433,16 +426,13 @@ JavaScript
 -   It is useful while using the nested for loop as we can break/continue specific for loop.
 
 **Syntax:**
-
 ```java
 labelname:    
 for(initialization; condition; incr/decr)  {    
     //functionality of the loop    
 }    
 ```
-
 **Example:**
-
 ```java
 public class LabeledForLoop {  
     public static void main(String args[]) {  
@@ -461,9 +451,7 @@ public class LabeledForLoop {  
     }  
 }  
 ```
-
 **Output:**
-
 ```
 1 2 3 4 5 6 7 8 9 
 1 2 3 4 5 6 7 8 9 
@@ -471,19 +459,16 @@ public class LabeledForLoop {  
 1 2 3 4 5 6 7 8 9 
 1 2 3 4 5 6 7 8 9
 ```
-
 #### 4) Infinitive for Loop
 
 -   If you use two semicolons ;; in the for loop, it will be infinitive for loop.
 
 **Syntax:**
-
 ```java
 for(;;){  
     //code to be executed  
 }  
 ```
-
 **Example:**
 
 ```java
@@ -498,18 +483,15 @@ public static void main(String[] args) {  
 }  
 }  
 ```
-
 **Output:**
-
-    ```
-    infinitive loop
-    infinitive loop
-    infinitive loop
-    infinitive loop
-    infinitive loop
-    ctrl+c
-    ```
-
+```
+infinitive loop
+infinitive loop
+infinitive loop
+infinitive loop
+infinitive loop
+ctrl+c
+```
 -   Now, you need to press ctrl+c to exit from the program.
 
 ### 1.2.2. while Loop
@@ -525,19 +507,14 @@ public static void main(String[] args) {  
 -   If the condition is true, then the loop body will be executed; otherwise, the statements after the loop will be executed.
 
 **Syntax:**
-
 ```java
 while(condition){    
     //looping statements    
 }    
 ```
-
 **Flow chart of while loop:**
-
 ![Control Flow in Java](media/66c17f8931a5bee37fe1a24b5b8496b1.png)
-
 **Example:**
-
 ```java
 public class Calculation {    
     public static void main(String[] args) {    
@@ -550,9 +527,7 @@ public class Calculation {    
     }    
 }    
 ```
-
 **Output:**
-
     ```
     Printing the list of first 10 even numbers 
 
@@ -563,7 +538,6 @@ public class Calculation {    
     8
     10
     ```
-
 ### 1.2.3. do-while Loop
 
 -   The do-while loop checks the condition at the end of the loop after executing the loop statements.
@@ -573,19 +547,14 @@ public class Calculation {    
 -   It is also known as the **exit-controlled loop** since the condition is not checked in advance.
 
 **Syntax:**
-
     ```java
     do {
         //statements
     } while(condition);
     ```
-
 **Flowchart of do…while loop:**
-
 ![](media/253ef763bbd652f0b7a3a5553e6fb2f9.png)
-
 **Example:**
-
 ```java
 public class Calculation {    
     public static void main(String[] args) {    
@@ -598,19 +567,16 @@ public class Calculation {    
     }    
 }    
 ```
-
 **Output**
-
-    ```
-    Printing the list of first 10 even numbers 
-    0
-    2
-    4
-    6
-    8
-    10
-    ```
-
+```
+Printing the list of first 10 even numbers 
+0
+2
+4
+6
+8
+10
+```
 ## Java for Loop Vs while Loop Vs do-while Loop
 
 ![](media/7b6b92005ae0d96fc5c29f1f086385e1.png)
@@ -638,7 +604,6 @@ public class Calculation {    
 -   The break statement cannot be used independently in the Java program, i.e., it can only be written inside the loop or switch statement.
 
 **Example:**
-
 ```java
 public class BreakExample {  
     public static void main(String[] args) {  
@@ -651,19 +616,16 @@ public class BreakExample {  
     }  
 }  
 ```
-
 **Output:**
-
-    ```
-    0
-    1
-    2
-    3
-    4
-    5
-    6
-    ```
-
+```
+0
+1
+2
+3
+4
+5
+6
+```
 ### 1.3.2. continue Statement
 
 -   Unlike break statement, the continue statement doesn't break the loop, whereas, it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
@@ -677,7 +639,6 @@ public class BreakExample {  
 -   We can use Java continue statement in all types of loops such as for loop, while loop and do-while loop.
 
 **Example:**
-
 ```java
 public class ContinueExample {  
     public static void main(String[] args) {  
@@ -692,24 +653,21 @@ public class ContinueExample {  
     }  
 }  
 ```
-
 **Output:**
-
-    ```
-    0
-    1
-    2
-    3
-    5
-    1
-    2
-    3
-    5
-    2
-    3
-    5
-    ```
-
+```
+0
+1
+2
+3
+5
+1
+2
+3
+5
+2
+3
+5
+```
 -   As you can see in the above output, 5 is not printed on the console. It is because the loop is continued when it reaches to 5.
 
 ## 2. References
