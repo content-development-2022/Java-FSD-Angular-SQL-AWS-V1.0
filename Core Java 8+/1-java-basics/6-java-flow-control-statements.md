@@ -182,7 +182,7 @@ else
 
 **Flow chart of if-else-if statement:**
 
-**![](media/9bd30c41838111b89ad3cdfc70eeaa47.png)**
+![If statement in Java & How If statement works - JavaGoal](media/109fddae3b1babcc780e43f618d52b81.png)
 
 **Example:**
 
@@ -229,6 +229,26 @@ Both are equal
 
 -   It also enhances the readability of the program.
 
+**Syntax:**
+
+```java
+switch(variable){
+case 1:
+//execute your code
+break;
+case n:
+   	//execute your code
+break;
+default:
+   	//execute your code
+break;
+}
+```
+
+**Flow chart of switch-case:**
+
+**![](media/bc03afe3740f4f22a76b4098322a55e1.png)**
+
 **Important Points to be noted about switch statement:**
 
 -   The case variables can be int, short, byte, char, or enumeration. String type is also supported since version 7 of Java.
@@ -244,7 +264,45 @@ Both are equal
 
 **Example**
 
+```java
+public class Sample {
+ public static void main(String args[]) {
+  int a = 5;
+
+  switch (a) {
+   case 1:
+    System.out.println("You chose One");
+    break;
+
+   case 2:
+    System.out.println("You chose Two");
+    break;
+
+   case 3:
+    System.out.println("You chose Three");
+    break;
+
+   case 4:
+    System.out.println("You chose Four");
+    break;
+
+   case 5:
+    System.out.println("You chose Five");
+    break;
+
+   default:
+    System.out.println("Invalid Choice. Enter a no between 1 and 5");
+    break;
+  }
+ }
+}
+```
+
 **Output**
+
+```
+You chose Five
+```
 
 ## 1.2 Loop Statements
 
@@ -270,11 +328,11 @@ Let's understand the loop statements one by one.
 
 2.  For-each or Enhanced for Loop
 
-3.  Labeled for Loop
+3.  Labelled for Loop
 
 ## 1) Simple for Loop
 
--   A simple for loop is the same as [C](https://www.javatpoint.com/c-programming-language-tutorial)/C++.
+-   A simple for loop is the same as in C/C++.
 
 -   We can initialize the variable, check condition and increment/decrement value.
 
@@ -288,15 +346,13 @@ Let's understand the loop statements one by one.
 
 4.  **Statement**: The statement of the loop is executed each time until the second condition is false.
 
-    ![](media/537003b2592163ab2b9561f9d599d084.png)
+**Syntax:**
 
-**Example**
+**Flowchart of for loop:**
 
-![](media/93971c917af9f2748f569fe052001b77.png)
+**Example:**
 
-**Output**
-
-![](media/afeeab2a70cdaa37564b3326f211d7e1.png)
+**Output:**
 
 ## 2) for-each Loop
 
@@ -310,17 +366,11 @@ Let's understand the loop statements one by one.
 
 -   In the for-each loop, we don't need to update the loop variable.
 
-**Syntax**
+**Syntax:**
 
-![](media/672a7c3f81b91e0f1e44710979ddc883.png)
+**Example:**
 
-**Example**
-
-![](media/cae5c6dceada4d5760759c6dd9482b4a.png)
-
-**Output**
-
-**![](media/9f3a76c7568648cb39c6ddf6b257f0b2.png)**
+**Output:**
 
 ## 3) Labeled For Loop
 
