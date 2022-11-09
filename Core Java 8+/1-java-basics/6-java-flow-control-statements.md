@@ -83,7 +83,7 @@ Let's understand the if-statements one by one.
 **Syntax:**
 
 ```java
-if(test_expression){
+if(test_expression) {
     statement 1;
     statement 2;
     ...
@@ -97,7 +97,7 @@ if(test_expression){
 **Example:**
 
 ```java
-public class Sample{
+public class Sample {
    public static void main(String args[]){
       int a=20, b=30;
       if(b>a)
@@ -167,9 +167,9 @@ a is greater
 ```java
 if(test_expression) {
    //execute your code
-}else if(test_expression n) {
+} else if(test_expression n) {
    //execute your code
-}else {
+} else {
    //execute your code
 }
 ```
@@ -187,11 +187,9 @@ public class Sample {
 
         if (b > a) {
             System.out.println("b is greater");
-        }
-        else if(a > b){
+        } else if(a > b){
             System.out.println("a is greater");
-        }       
-        else {
+        } else {
             System.out.println("Both are equal");
         }
     }
@@ -229,10 +227,10 @@ switch(variable){
     case 1:
         //execute your code
         break;
-case n:
+    case n:
         //execute your code
         break;
-default:
+    default:
         //execute your code
 break;
 }
@@ -465,6 +463,7 @@ public class LabeledForLoop {  
 -   If you use two semicolons ;; in the for loop, it will be infinitive for loop.
 
 **Syntax:**
+
 ```java
 for(;;){  
     //code to be executed  
@@ -476,15 +475,16 @@ for(;;){  
 //Java program to demonstrate the use of infinite for loop  
 //which prints an statement  
 public class ForExample {  
-public static void main(String[] args) {  
-    //Using no condition in for loop  
-    for(;;){  
-        System.out.println("infinitive loop");  
+    public static void main(String[] args) {  
+        //Using no condition in for loop  
+        for(;;){  
+            System.out.println("infinitive loop");  
+        }  
     }  
-}  
 }  
 ```
 **Output:**
+
 ```
 infinitive loop
 infinitive loop
@@ -534,16 +534,17 @@ public class Calculation {    
 }    
 ```
 **Output:**
-    ```
-    Printing the list of first 10 even numbers 
 
-    0
-    2
-    4
-    6
-    8
-    10
-    ```
+```
+Printing the list of first 10 even numbers 
+
+0
+2
+4
+6
+8
+10
+```
 ### 1.2.3. do-while Loop
 
 -   The do-while loop checks the condition at the end of the loop after executing the loop statements.
