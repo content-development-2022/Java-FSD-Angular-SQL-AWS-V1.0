@@ -80,53 +80,36 @@ Let's understand the if-statements one by one.
 
 **Syntax:**
 
+```java
 if(test_expression)
-
 {
-
-statement 1;
-
-statement 2;
-
-...
-
+    statement 1;
+    statement 2;
+    ...
 }
+```
 
-**Flowchart of Simple if statement**
+**Flowchart of Simple if statement:**
 
 **![](media/9327ed43b579b85dd57082f269f0dc2a.png)**
 
 **Example:**
 
+```java
 public class Sample{
-
-public static void main(String args[]){
-
-int a=20, b=30;
-
-if(b\>a)
-
-System.out.println("b is greater");
-
+   public static void main(String args[]){
+      int a=20, b=30;
+      if(b>a)
+         System.out.println("b is greater");
+      }
 }
-
-}
+```
 
 **Ouput:**
 
 ```
-B is greater
+b is greater
 ```
-
-![](media/f6a257c0e63ae70029111743717a6e2e.png)
-
-**Example**
-
-![](media/031bc5970ef10f3fc10768e08762671f.png)
-
-**Output**
-
-**![](media/5379f2a4bbd429e88f314600336ea460.png)**
 
 ## 2) if-else Statement
 
@@ -134,15 +117,43 @@ B is greater
 
 -   The else block is executed if the condition of the if-block is evaluated as false.
 
-![](media/e260e69f0e01d5cf4ada2a55826b281d.png)
+**Syntax:**
 
-**Example**
+```java
+if(test_expression)
+{
+   //execute your code
+}
+else
+{
+   //execute your code
+}
+```
 
-**![](media/50e2b74c3202aa1b6ff708d5580b0b0d.png)**
+**Flow chart for if-else statement:**
 
-**Output**
+**![](media/6f2b12f070d3af369e2b42495c450e4c.png)**
 
-![](media/2a6585478a764240ae4003c970228be8.png)
+**Example:**
+
+```java
+public class Sample {
+ public static void main(String args[]) {
+  int a = 80, b = 30;
+  if (b > a) {
+   System.out.println("b is greater");
+  } else {
+   System.out.println("a is greater");
+  }
+ }
+}
+```
+
+**Output:**
+
+```
+a is greater
+```
 
 ## 3) if-else-if ladder Statement
 
