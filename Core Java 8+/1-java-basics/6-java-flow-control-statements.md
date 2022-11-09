@@ -90,7 +90,7 @@ if(test_expression) {
 
 **Flowchart of Simple if statement:**
 
-**![](media/9327ed43b579b85dd57082f269f0dc2a.png)**
+**![](media/if-1.png)**
 
 **Example:**
 
@@ -129,7 +129,7 @@ else {
 
 **Flow chart of if-else statement:**
 
-**![](media/6f2b12f070d3af369e2b42495c450e4c.png)**
+**![](media/if-2.png)**
 
 **Example:**
 
@@ -174,7 +174,7 @@ if(test_expression) {
 
 **Flow chart of if-else-if statement:**
 
-![If statement in Java & How If statement works - JavaGoal](media/109fddae3b1babcc780e43f618d52b81.png)
+![If statement in Java & How If statement works - JavaGoal](media/if-3.png)
 
 **Example:**
 
@@ -254,7 +254,7 @@ break;
 
 **Flow chart of switch-case:**
 
-**![](media/bc03afe3740f4f22a76b4098322a55e1.png)**
+**![](media/switch.png)**
 
 **Important Points to be noted about switch statement:**
 
@@ -373,10 +373,10 @@ for(initialization, condition, increment/decrement) {    
 
 **Flowchart of for loop:**
 
-![Control Flow in Java](media/d044ad7951da09621e2a7bc954970d9d.png)**Example:**
+![Control Flow in Java](media/loop-1.png)**Example:**
 
 ```java
-public class Calculattion {  
+public class Calculation {  
     public static void main(String[] args) {   
         int sum = 0;  
         for(int j = 1; j<=10; j++) {  
@@ -551,7 +551,7 @@ while(condition){    
 
 **Flow chart of while loop:**
 
-![Control Flow in Java](media/66c17f8931a5bee37fe1a24b5b8496b1.png)
+![Control Flow in Java](media/loop-2.png)
 
 **Example:**
 
@@ -597,7 +597,7 @@ do {
 
 **Flowchart of do…while loop:**
 
-![](media/253ef763bbd652f0b7a3a5553e6fb2f9.png)
+![](media/loop-4.png)
 
 **Example:**
 
