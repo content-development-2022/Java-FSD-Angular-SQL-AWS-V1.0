@@ -506,14 +506,19 @@ ctrl+c
 -   If the condition is true, then the loop body will be executed; otherwise, the statements after the loop will be executed.
 
 **Syntax:**
+
 ```java
 while(condition){    
     //looping statements    
 }    
 ```
+
 **Flow chart of while loop:**
+
 ![Control Flow in Java](media/66c17f8931a5bee37fe1a24b5b8496b1.png)
+
 **Example:**
+
 ```java
 public class Calculation {    
     public static void main(String[] args) {    
@@ -546,11 +551,12 @@ public class Calculation {    
 -   It is also known as the **exit-controlled loop** since the condition is not checked in advance.
 
 **Syntax:**
-    ```java
-    do {
-        //statements
-    } while(condition);
-    ```
+
+```java
+do {
+    //statements
+} while(condition);
+```
     
 **Flowchart of do…while loop:**
 
@@ -609,6 +615,7 @@ Printing the list of first 10 even numbers
 -   The break statement cannot be used independently in the Java program, i.e., it can only be written inside the loop or switch statement.
 
 **Example:**
+
 ```java
 public class BreakExample {  
     public static void main(String[] args) {  
@@ -621,7 +628,9 @@ public class BreakExample {  
     }  
 }  
 ```
+
 **Output:**
+
 ```
 0
 1
@@ -631,6 +640,7 @@ public class BreakExample {  
 5
 6
 ```
+
 ### 1.3.2. continue Statement
 
 -   Unlike break statement, the continue statement doesn't break the loop, whereas, it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
@@ -644,6 +654,7 @@ public class BreakExample {  
 -   We can use Java continue statement in all types of loops such as for loop, while loop and do-while loop.
 
 **Example:**
+
 ```java
 public class ContinueExample {  
     public static void main(String[] args) {  
@@ -658,7 +669,9 @@ public class ContinueExample {  
     }  
 }  
 ```
+
 **Output:**
+
 ```
 0
 1
@@ -673,6 +686,7 @@ public class ContinueExample {  
 3
 5
 ```
+
 -   As you can see in the above output, 5 is not printed on the console. It is because the loop is continued when it reaches to 5.
 
 ## 2. References
