@@ -62,7 +62,6 @@
 
 -   In Java, there are **four types** of **if-statements** given below.
 
-```
 1.  Simple if statement
 
 2.  if-else statement
@@ -70,7 +69,6 @@
 3.  if-else-if ladder
 
 4.  Nested if-statement
-```
 
 Let's understand the if-statements one by one.
 
@@ -210,7 +208,25 @@ Both are equal
 
 **Example:**
 
+```java
+public class Test {
+   public static void main(String args[]) {
+      int x = 30;
+      int y = 10;
+      if( x == 30 ) {
+         if( y == 10 ) {
+            System.out.print("X = 30 and Y = 10");
+         }
+      }
+   }
+}
+```
+
 **Output:**
+
+```
+X = 30 and Y = 10
+```
 
 ### 1.1.2. Switch Statement
 
@@ -325,10 +341,13 @@ Let's understand the loop statements one by one.
 
 -   There are three types of for loops in Java.
 
-    1.  Simple for Loop
-    2.  For-each or Enhanced for Loop
-    3.  Labelled for Loop
-    4.  Infinitive for Loop
+    -   Simple for Loop
+
+    -   For-each or Enhanced for Loop
+
+    -   Labelled for Loop
+
+    -   Infinitive for Loop
 
 #### 1) Simple for Loop
 
@@ -389,12 +408,15 @@ The sum of first 10 natural numbers is 55
 -   In the for-each loop, we don't need to update the loop variable.
 
 **Syntax:**
+
 ```java
 for(data_type var : array_name/collection_name){
     //statements
 }
 ```
+
 **Example:**
+
 ```java
 public class Calculation {    
     public static void main(String[] args) {    
@@ -406,7 +428,9 @@ public class Calculation {    
     }    
 }    
 ```
+
 **Output:**
+
 ```
 Printing the content of the array names:
 
@@ -416,6 +440,7 @@ C++
 Python
 JavaScript
 ```
+
 #### 3) Labeled For Loop
 
 -   A **label** is a valid variable name that denotes the name of the loop to where the control of execution should jump.
@@ -427,13 +452,16 @@ JavaScript
 -   It is useful while using the nested for loop as we can break/continue specific for loop.
 
 **Syntax:**
+
 ```java
 labelname:    
 for(initialization; condition; incr/decr)  {    
     //functionality of the loop    
 }    
 ```
+
 **Example:**
+
 ```java
 public class LabeledForLoop {  
     public static void main(String args[]) {  
@@ -452,7 +480,9 @@ public class LabeledForLoop {  
     }  
 }  
 ```
+
 **Output:**
+
 ```
 1 2 3 4 5 6 7 8 9 
 1 2 3 4 5 6 7 8 9 
@@ -460,16 +490,19 @@ public class LabeledForLoop {  
 1 2 3 4 5 6 7 8 9 
 1 2 3 4 5 6 7 8 9
 ```
+
 #### 4) Infinitive for Loop
 
 -   If you use two semicolons ;; in the for loop, it will be infinitive for loop.
 
 **Syntax:**
+
 ```java
 for(;;){  
     //code to be executed  
 }  
 ```
+
 **Example:**
 
 ```java
@@ -484,7 +517,9 @@ public static void main(String[] args) {  
 }  
 }  
 ```
+
 **Output:**
+
 ```
 infinitive loop
 infinitive loop
@@ -493,6 +528,7 @@ infinitive loop
 infinitive loop
 ctrl+c
 ```
+
 -   Now, you need to press ctrl+c to exit from the program.
 
 ### 1.2.2. while Loop
@@ -533,17 +569,19 @@ public class Calculation {    
     }    
 }    
 ```
-**Output:**
-    ```
-    Printing the list of first 10 even numbers 
 
-    0
-    2
-    4
-    6
-    8
-    10
-    ```
+**Output:** \`\`\` Printing the list of first 10 even numbers
+
+```
+0
+2
+4
+6
+8
+10
+```
+```
+
 ### 1.2.3. do-while Loop
 
 -   The do-while loop checks the condition at the end of the loop after executing the loop statements.
@@ -559,7 +597,7 @@ do {
     //statements
 } while(condition);
 ```
-    
+
 **Flowchart of do…while loop:**
 
 ![](media/253ef763bbd652f0b7a3a5553e6fb2f9.png)
@@ -590,6 +628,7 @@ Printing the list of first 10 even numbers
 8
 10
 ```
+
 ## Java for Loop Vs while Loop Vs do-while Loop
 
 ![](media/7b6b92005ae0d96fc5c29f1f086385e1.png)
@@ -602,9 +641,11 @@ Printing the list of first 10 even numbers
 
 -   There are **two types** of **jump** statements in Java.
 
-        1.  break
+```
+1.  break
 
-        2.  continue
+2.  continue
+```
 
 ### 1.3.1. break Statement
 
