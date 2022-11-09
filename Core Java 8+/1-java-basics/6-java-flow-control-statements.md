@@ -40,7 +40,7 @@
 
 ![](media/flow-control.png)
 
-### 1.1 Decision-Making Statements
+## 1.1. Decision-Making Statements
 
 -   As the name suggests, decision-making statements decide which statement to execute and when.
 
@@ -52,7 +52,7 @@
 
     -   **switch** statement.
 
-#### 1.1.1 if Statement
+### 1.1.1. if Statement
 
 -   In Java, the "if" statement is used to evaluate a condition.
 
@@ -74,7 +74,7 @@
 
 Let's understand the if-statements one by one.
 
-##### 1) Simple if Statement
+#### 1) Simple if Statement
 
 -   It is the most basic statement among all control flow statements in Java.
 
@@ -112,7 +112,7 @@ public class Sample{
 b is greater
 ```
 
-##### 2) if-else Statement
+#### 2) if-else Statement
 
 -   The if-else statement is an extension to the if-statement, which uses another block of code, i.e., else block.
 
@@ -121,12 +121,10 @@ b is greater
 **Syntax:**
 
 ```java
-if(test_expression)
-{
+if(test_expression) {
    //execute your code
 }
-else
-{
+else {
    //execute your code
 }
 ```
@@ -156,7 +154,7 @@ public class Sample {
 a is greater
 ```
 
-##### 3) if-else-if ladder Statement
+#### 3) if-else-if ladder Statement
 
 -   The if-else-if statement contains the if-statement followed by multiple else-if statements.
 
@@ -167,16 +165,11 @@ a is greater
 **Syntax:**
 
 ```java
-if(test_expression)
-{
+if(test_expression) {
    //execute your code
-}
-else if(test_expression n)
-{
+}else if(test_expression n) {
    //execute your code
-}
-else
-{
+}else {
    //execute your code
 }
 ```
@@ -189,7 +182,6 @@ else
 
 ```java
 public class Sample {
-
     public static void main(String args[]) {
         int a = 30, b = 30;
 
@@ -206,21 +198,21 @@ public class Sample {
 }
 ```
 
-**Output**
+**Output:**
 
 ```
 Both are equal
 ```
 
-##### 4) Nested if-statement
+#### 4) Nested if-statement
 
 -   In nested if-statements, the **if statement** can **contains** an **if** or **if-else** statement **inside another** **if or else-if** statement.
 
-**Example**
+**Example:**
 
-**Output**
+**Output:**
 
-#### 1.1.2 Switch Statement
+### 1.1.2. Switch Statement
 
 -   In Java, Switch statements are similar to if-else-if statements.
 
@@ -232,7 +224,6 @@ Both are equal
 
 **Syntax:**
 
-```
 ```java
 switch(variable){
     case 1:
@@ -245,7 +236,6 @@ default:
         //execute your code
 break;
 }
-```
 ```
 
 **Flow chart of switch-case:**
@@ -265,9 +255,8 @@ break;
 
 -   While using switch statements, we must notice that the case expression will be of the same type as the variable. However, it will also be a constant value.
 
-**Example**
+**Example:**
 
-```
 ```java
 public class Sample {
  public static void main(String args[]) {
@@ -301,17 +290,14 @@ public class Sample {
  }
 }
 ```
-```
 
-**Output**
+**Output:**
 
-```
 ```
 You chose Five
 ```
-```
 
-### 1.2 Loop Statements
+## 1.2. Loop Statements
 
 -   A computer is the most suitable machine to perform repetitive tasks and can tirelessly do a task tens of thousands of times.
 
@@ -331,7 +317,7 @@ You chose Five
 
 Let's understand the loop statements one by one.
 
-#### 1.2.1 for Loop
+### 1.2.1. for Loop
 
 -   The Java *for loop* is used to iterate a part of the program several times.
 
@@ -339,13 +325,12 @@ Let's understand the loop statements one by one.
 
 -   There are three types of for loops in Java.
 
-    -   Simple for Loop
+    1.  Simple for Loop
+    2.  For-each or Enhanced for Loop
+    3.  Labelled for Loop
+    4.  Infinitive for Loop
 
-    -   For-each or Enhanced for Loop
-
-    -   Labelled for Loop
-
-##### 1) Simple for Loop
+#### 1) Simple for Loop
 
 -   A simple for loop is the same as in C/C++.
 
@@ -375,14 +360,13 @@ for(initialization, condition, increment/decrement) {    
 
 ```java
 public class Calculattion {  
-public static void main(String[] args) {  
-// TODO Auto-generated method stub  
-int sum = 0;  
-for(int j = 1; j<=10; j++) {  
-sum = sum + j;  
-}  
-System.out.println("The sum of first 10 natural numbers is " + sum);  
-}  
+    public static void main(String[] args) {   
+        int sum = 0;  
+        for(int j = 1; j<=10; j++) {  
+            sum = sum + j;  
+        }  
+        System.out.println("The sum of first 10 natural numbers is " + sum);  
+    }  
 }  
 ```
 
@@ -392,7 +376,7 @@ System.out.println("The sum of first 10 natural numbers is " + sum); 
 The sum of first 10 natural numbers is 55
 ```
 
-##### 2) for-each Loop
+#### 2) for-each Loop
 
 -   Java provides an enhanced for loop to traverse the data structures like array or collection.
 
@@ -405,16 +389,12 @@ The sum of first 10 natural numbers is 55
 -   In the for-each loop, we don't need to update the loop variable.
 
 **Syntax:**
-
-**for**(data_type var : array_name/collection_name){
-
-//statements
-
+```java
+for(data_type var : array_name/collection_name){
+    //statements
 }
-
-**Example:**
-
 ```
+**Example:**
 ```java
 public class Calculation {    
     public static void main(String[] args) {    
@@ -426,10 +406,7 @@ public class Calculation {    
     }    
 }    
 ```
-```
-
 **Output:**
-
 ```
 Printing the content of the array names:
 
@@ -439,8 +416,7 @@ C++
 Python
 JavaScript
 ```
-
-##### 3) Labeled For Loop
+#### 3) Labeled For Loop
 
 -   A **label** is a valid variable name that denotes the name of the loop to where the control of execution should jump.
 
@@ -451,19 +427,13 @@ JavaScript
 -   It is useful while using the nested for loop as we can break/continue specific for loop.
 
 **Syntax:**
-
-```
 ```java
 labelname:    
 for(initialization; condition; incr/decr)  {    
     //functionality of the loop    
 }    
 ```
-```
-
 **Example:**
-
-```
 ```java
 public class LabeledForLoop {  
     public static void main(String args[]) {  
@@ -482,10 +452,7 @@ public class LabeledForLoop {  
     }  
 }  
 ```
-```
-
 **Output:**
-
 ```
 1 2 3 4 5 6 7 8 9 
 1 2 3 4 5 6 7 8 9 
@@ -493,24 +460,18 @@ public class LabeledForLoop {  
 1 2 3 4 5 6 7 8 9 
 1 2 3 4 5 6 7 8 9
 ```
-
-##### Infinitive for Loop
+#### 4) Infinitive for Loop
 
 -   If you use two semicolons ;; in the for loop, it will be infinitive for loop.
 
 **Syntax:**
-
-```
 ```java
 for(;;){  
     //code to be executed  
 }  
 ```
-```
-
 **Example:**
 
-```
 ```java
 //Java program to demonstrate the use of infinite for loop  
 //which prints an statement  
@@ -523,11 +484,7 @@ public static void main(String[] args) {  
 }  
 }  
 ```
-```
-
 **Output:**
-
-```
 ```
 infinitive loop
 infinitive loop
@@ -536,11 +493,9 @@ infinitive loop
 infinitive loop
 ctrl+c
 ```
-```
-
 -   Now, you need to press ctrl+c to exit from the program.
 
-### 1.2.2 while Loop
+### 1.2.2. while Loop
 
 -   The while loop is also used to iterate over the number of statements multiple times.
 
@@ -554,12 +509,10 @@ ctrl+c
 
 **Syntax:**
 
-```
 ```java
 while(condition){    
     //looping statements    
 }    
-```
 ```
 
 **Flow chart of while loop:**
@@ -568,7 +521,6 @@ while(condition){    
 
 **Example:**
 
-```
 ```java
 public class Calculation {    
     public static void main(String[] args) {    
@@ -581,24 +533,18 @@ public class Calculation {    
     }    
 }    
 ```
-```
-
 **Output:**
+    ```
+    Printing the list of first 10 even numbers 
 
-```
-```
-Printing the list of first 10 even numbers 
-
-0
-2
-4
-6
-8
-10
-```
-```
-
-### 1.2.3 do-while Loop
+    0
+    2
+    4
+    6
+    8
+    10
+    ```
+### 1.2.3. do-while Loop
 
 -   The do-while loop checks the condition at the end of the loop after executing the loop statements.
 
@@ -608,21 +554,18 @@ Printing the list of first 10 even numbers
 
 **Syntax:**
 
-```
 ```java
 do {
     //statements
 } while(condition);
 ```
-```
-
+    
 **Flowchart of do…while loop:**
 
 ![](media/253ef763bbd652f0b7a3a5553e6fb2f9.png)
 
 **Example:**
 
-```
 ```java
 public class Calculation {    
     public static void main(String[] args) {    
@@ -635,11 +578,9 @@ public class Calculation {    
     }    
 }    
 ```
-```
 
 **Output**
 
-```
 ```
 Printing the list of first 10 even numbers 
 0
@@ -649,13 +590,11 @@ Printing the list of first 10 even numbers
 8
 10
 ```
-```
-
 ## Java for Loop Vs while Loop Vs do-while Loop
 
 ![](media/7b6b92005ae0d96fc5c29f1f086385e1.png)
 
-### 1.3 Jump Statements
+## 1.3. Jump Statements
 
 -   Jump statements are used to transfer the control of the program to the specific statements.
 
@@ -663,11 +602,11 @@ Printing the list of first 10 even numbers
 
 -   There are **two types** of **jump** statements in Java.
 
-1.  break
+        1.  break
 
-2.  continue
+        2.  continue
 
-## 1.3.1 break Statement
+### 1.3.1. break Statement
 
 -   As the name suggests, the break statement is used to break the current flow of the program and transfer the control to the next statement outside a loop or switch statement.
 
@@ -679,7 +618,6 @@ Printing the list of first 10 even numbers
 
 **Example:**
 
-```
 ```java
 public class BreakExample {  
     public static void main(String[] args) {  
@@ -692,11 +630,9 @@ public class BreakExample {  
     }  
 }  
 ```
-```
 
 **Output:**
 
-```
 ```
 0
 1
@@ -706,9 +642,8 @@ public class BreakExample {  
 5
 6
 ```
-```
 
-#### 1.3.2 continue Statement
+### 1.3.2. continue Statement
 
 -   Unlike break statement, the continue statement doesn't break the loop, whereas, it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
 
@@ -722,7 +657,6 @@ public class BreakExample {  
 
 **Example:**
 
-```
 ```java
 public class ContinueExample {  
     public static void main(String[] args) {  
@@ -737,11 +671,9 @@ public class ContinueExample {  
     }  
 }  
 ```
-```
 
 **Output:**
 
-```
 ```
 0
 1
@@ -755,7 +687,6 @@ public class ContinueExample {  
 2
 3
 5
-```
 ```
 
 -   As you can see in the above output, 5 is not printed on the console. It is because the loop is continued when it reaches to 5.
