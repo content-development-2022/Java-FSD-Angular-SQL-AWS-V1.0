@@ -130,7 +130,7 @@ else
 }
 ```
 
-**Flow chart for if-else statement:**
+**Flow chart of if-else statement:**
 
 **![](media/6f2b12f070d3af369e2b42495c450e4c.png)**
 
@@ -163,29 +163,61 @@ a is greater
 
 -   We can also define an else statement at the end of the chain.
 
-![](media/c12047f0db74099fde83215629278ae5.png)
+**Syntax:**
 
-**Example**
+```java
+if(test_expression)
+{
+   //execute your code
+}
+else if(test_expression n)
+{
+   //execute your code
+}
+else
+{
+   //execute your code
+}
+```
 
-**![](media/8581d704b79a488b97c6d289ce2fd8b0.png)**
+**Flow chart of if-else-if statement:**
+
+**![](media/9bd30c41838111b89ad3cdfc70eeaa47.png)**
+
+**Example:**
+
+```java
+public class Sample {
+
+    public static void main(String args[]) {
+        int a = 30, b = 30;
+
+        if (b > a) {
+            System.out.println("b is greater");
+        }
+        else if(a > b){
+            System.out.println("a is greater");
+        }       
+        else {
+            System.out.println("Both are equal");
+        }
+    }
+}
+```
 
 **Output**
 
-![](media/1fdbbeb4d37e5664351087ca5c36da07.png)
+```
+Both are equal
+```
 
 ## 4) Nested if-statement
 
 -   In nested if-statements, the **if statement** can **contains** an **if** or **if-else** statement **inside another** **if or else-if** statement.
 
-![](media/0565f236aabb5129cb3df6993b220a65.png)
-
 **Example**
 
-**![](media/839d64bc823ab7fbbc68216691caa3be.png)**
-
 **Output**
-
-![](media/07dbc87df6a6c8803b56aa95e87c6862.png)
 
 ## 1.1.2 Switch Statement
 
@@ -210,15 +242,9 @@ a is greater
 
 -   While using switch statements, we must notice that the case expression will be of the same type as the variable. However, it will also be a constant value.
 
-![](media/c6e6744fb2af31d6f50cb020ee2ca1dd.png)
-
 **Example**
 
-**![](media/cc9e337418cf922a2f920f53483e6702.png)**
-
 **Output**
-
-![](media/96624fdbb221ecb4f79869b76f65911a.png)
 
 ## 1.2 Loop Statements
 
