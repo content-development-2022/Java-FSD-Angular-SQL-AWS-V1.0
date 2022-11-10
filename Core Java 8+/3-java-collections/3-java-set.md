@@ -20,7 +20,7 @@
 2.  TreeSet
 3.  LinkedHashSet.
 
-## HashSet
+## 1.1 HashSet
 
 -   **HashSet** internally uses HashMap to store it’s elements.
 -   Whenever you create a HashSet object, one **HashMap** object associated with it is also created.
@@ -255,12 +255,35 @@ Becky
 
 ## 1.3 TreeSet
 
--   TreeSet stores elements in a red-black tree. It is substantially slower than HashSet.
--   TreeSet class implements SortedSet interface, which allows TreeSet to order its elements based on their values, which means TreeSet elements are sorted in ascending order.
--   The TreeSet class of the Java collections framework provides the functionality of a tree data structure.
--   It extends the NavigableSet interface.
+-   A **TreeSet in Java** is another important implementation of the [Set interface](https://www.scientecheasy.com/2020/10/java-set.html/) .
+-   TreeSet is similar to HashSet except that it sorts the elements in the ascending order while HashSet doesn’t maintain any order.
+-   TreeSet allows null element but like HashSet it doesn’t allow.
+-   For example, a set of books might be kept by height or alphabetically by title and author.
+
+    ![TreeSet in Java](media/f48b9724912005f70ab47109a5b2bb39.png)
+
+-   In Java TreeSet, access and retrieval of elements are quite fast because of using tree structure. Therefore, TreeSet is an excellent choice for quick and fast access to large amounts of sorted data.
+-   The only restriction with using tree set is that we cannot add duplicate elements in the tree set.
+
+**Hierarchy of TreeSet class in Java**
 
 ![](media/treeset.png)
+
+**Features of TreeSet class in Java**
+
+There are several important features of TreeSet class in java that must be kept in mind. They are as:
+
+1\. Java TreeSet contains unique elements similar to the HashSet. It does not allow the addition of a duplicate element.
+
+2\. The access and retrieval times are quite fast.
+
+3\. TreeSet does not allow inserting null element.
+
+4\. TreeSet class is non-synchronized. That means it is not thread-safe.
+
+5\. TreeSet maintains the ascending order. When we add elements into the collection in any order, the values are automatically presented in sorted, ascending order.
+
+6\. Java TreeSet internally uses a TreeMap for storing elements.
 
 ## 1.3.1 Creating a TreeSet
 
@@ -413,6 +436,39 @@ Paul
 Ram
 ```
 
+**Using a for-each loop**
+
+-   Iterate the elements of a TreeSet using the for-each loop
+
+**Example**
+
+```java
+import java.util.*;
+public class IteratingTreeSetForEachTest {
+   public static void main(String[] args) {
+      Set<String> treeSetObj = new TreeSet<String>();
+      treeSetObj.add("India");
+      treeSetObj.add("Australia");
+      treeSetObj.add("West Indies");
+      treeSetObj.add("South Africa");
+      treeSetObj.add("England");
+      for(String str : treeSetObj) { // for-each loop
+         System.out.println(str);
+      }
+   }
+}
+```
+
+**Output**
+
+```
+Australia
+England
+India
+South Africa
+West Indies
+```
+
 ## 2. References
 
 1.  https://beginnersbook.com/java-collections-tutorials/
@@ -423,3 +479,5 @@ Ram
 6.  https://www.programiz.com/java-programming/treeset
 7.  https://www.softwaretestinghelp.com/treeset-in-java/
 8.  https://www.programiz.com/java-programming/treeset
+9.  https://www.scientecheasy.com/2020/10/treeset-in-java.html/
+10. https://www.tutorialspoint.com/how-many-ways-to-iterate-a-treeset-in-java
