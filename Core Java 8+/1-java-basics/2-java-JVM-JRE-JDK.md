@@ -72,7 +72,7 @@ Let's consider each of these.
 
 -   Sounds simple, and might even look simple from the outside, but it's a massive undertaking, especially given the power and flexibility of the Java language.
 
-### **JVM implementations**
+### **The JVM implementations**
 
 -   Implementing the JVM specification results in an actual software program, which is a JVM implementation.
 
