@@ -90,7 +90,7 @@ if(test_expression) {
 
 **Flowchart of Simple if statement:**
 
-**![](media/if-1.png)**
+![Java Flow Control Statement - if, else and else if \| Studytonight](media/34a414a52895f84ea4616ef3043bb9bd.jpeg)
 
 **Example:**
 
@@ -129,7 +129,7 @@ else {
 
 **Flow chart of if-else statement:**
 
-**![](media/if-2.png)**
+![Java Flow Control Statement - if, else and else if \| Studytonight](media/d233449efeb693826137278d4fd1ab7a.jpeg)
 
 **Example:**
 
@@ -174,7 +174,7 @@ if(test_expression) {
 
 **Flow chart of if-else-if statement:**
 
-![If statement in Java & How If statement works - JavaGoal](media/if-3.png)
+![Java Flow Control Statement - if, else and else if \| Studytonight](media/a81c9f0991f08cf92a41d1b9a458a0d9.jpeg)
 
 **Example:**
 
@@ -630,13 +630,13 @@ Printing the list of first 10 even numbers
 
 ## Java for Loop Vs while Loop Vs do-while Loop
 
-| **Comparison**           | **for loop**                                                                                                | **while loop**                                                                  | **do-while loop**                                                                                                                                          |
-|--------------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Introduction**         | It iterates a block of code for a known number of times which is known to the programmer                    | This iterates a block of code based on the output of a boolean condition        | It is similar to the while loop except the fact that it checks for the condition after the statement is executed for that particular iteration.            |
-| **When to use**          | It should be used when the number of iterations is constant and known before the execution of the program.  | When the number of iterations is not fixed, while loop can be used to iterate.  | If there is a necessity for executing the loop at least once whilst having no knowledge about the number of iterations, the do while loop has to be used.  |
-| **Syntax**               | for(initializing statement;testing condition;increment/decrement) { //code to be iterated }                 | while(boolean condition) { //statements; }                                      | do {  //statements } while(boolean condition);                                                                                                             |
-| **Example**              | for(i=1;i\<5;i++) { System.out.println(“Hello”); }                                                          | while(a\<10) {  a++; }                                                          | do { a++; } while(a\<10)                                                                                                                                   |
-| **Infinite Loop Syntax** | for(;;) {  //code }                                                                                         | while(true) {  //code }                                                         | do {  //code } while(true);                                                                                                                                |
+| **Comparison**           | **for loop**                                                                                               | **while loop**                                                                 | **do-while loop**                                                                                                                                         |
+|--------------------------|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Introduction**         | It iterates a block of code for a known number of times which is known to the programmer                   | This iterates a block of code based on the output of a boolean condition       | It is similar to the while loop except the fact that it checks for the condition after the statement is executed for that particular iteration.           |
+| **When to use**          | It should be used when the number of iterations is constant and known before the execution of the program. | When the number of iterations is not fixed, while loop can be used to iterate. | If there is a necessity for executing the loop at least once whilst having no knowledge about the number of iterations, the do while loop has to be used. |
+| **Syntax**               | for(initializing statement;testing condition;increment/decrement) { //code to be iterated }                | while(boolean condition) { //statements; }                                     | do { //statements } while(boolean condition);                                                                                                             |
+| **Example**              | for(i=1;i\<5;i++) { System.out.println(“Hello”); }                                                         | while(a\<10) { a++; }                                                          | do { a++; } while(a\<10)                                                                                                                                  |
+| **Infinite Loop Syntax** | for(;;) { //code }                                                                                         | while(true) { //code }                                                         | do { //code } while(true);                                                                                                                                |
 
 ## 1.3. Jump Statements
 
