@@ -260,7 +260,7 @@ Becky
 -   The TreeSet class of the Java collections framework provides the functionality of a tree data structure.
 -   It extends the NavigableSet interface.
 
-![](media/b86fa51953566a5748b4ad76433a9107.png)
+![](media/treeset.png)
 
 ## 1.3.1 Creating a TreeSet
 
