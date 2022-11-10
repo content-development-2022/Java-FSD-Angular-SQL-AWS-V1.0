@@ -249,7 +249,9 @@ null
 
 -   There are **eight primitive data types** in Java:
 
-![](media/618cebd1f26eeeb667b147c99f4b83a7.png)
+![](media/primitives.png)
+
+**Data Types - Size and Capacity**
 
 | **Data Type** | **Size** | **Description**                                                                   |
 |---------------|----------|-----------------------------------------------------------------------------------|

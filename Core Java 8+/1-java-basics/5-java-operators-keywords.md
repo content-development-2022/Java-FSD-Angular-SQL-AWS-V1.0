@@ -313,7 +313,7 @@ It is a binary operator denoted by the symbol **\|** (pronounced as a pipe). It 
 
 #### **Note: Every code using an if-else statement cannot be replaced with a ternary operator.**
 
-### Syntax:
+**Syntax:**
 
 variable = (condition) ? expression1 : expression2
 
