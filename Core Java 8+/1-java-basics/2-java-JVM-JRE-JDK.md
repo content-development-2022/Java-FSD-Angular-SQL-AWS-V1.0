@@ -225,7 +225,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 -   Practically speaking, a runtime environment is a piece of software that is designed to run other software. 
 -   As the runtime environment for Java, the JRE contains the Java class libraries and the Java Virtual Machine. 
 
-![](media/ebfe42075cd31c834deef2254d669973.png)
+![](media/jre.png)
 
 ## **4. What is JDK?**
 
@@ -236,7 +236,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
     -   JRE (to execute your java program).
 -   The JDK contains a private Java Virtual Machine (JVM) and a few other tools/resources such as an interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), etc. to complete the development of a Java Application.
 
-![](media/5035bff8e46d446cf4b80a747a2f9534.png)
+![](media/jdk.png)
 
 ## **5. References**
 

@@ -60,7 +60,7 @@
 
 -   Java collection interfaces are the foundation of the Java Collections Framework.
 -   Note that all the core collection interfaces are generic; for example public interface Collection\<E\>.
--   The \<E\> syntax is for [Generics](https://www.digitalocean.com/community/tutorials/java-generics-example-method-class-interface) and when we declare Collection, we should use it to specify the type of Object it can contain.
+-   The \<E\> syntax is for Generics and when we declare Collection, we should use it to specify the type of Object it can contain.
 -   It helps in reducing run-time errors by type-checking the Objects at compile-time.
 -   To keep the number of core collection interfaces manageable, the Java platform doesn’t provide separate interfaces for each variant of each collection type.
 -   If an unsupported operation is invoked, a collection implementation throws an UnsupportedOperationException.
@@ -80,7 +80,7 @@
 -   We can get the instance of iterator using iterator() method.
 -   Iterator takes the place of Enumeration in the Java Collections Framework.
 -   Iterators allow the caller to remove elements from the underlying collection during the iteration.
--   Iterators in collection classes implement [**Iterator Design Pattern**](https://www.digitalocean.com/community/tutorials/iterator-design-pattern-java).
+-   Iterators in collection classes implement **Iterator Design Pattern**.
 
 **3. Set Interface**
 

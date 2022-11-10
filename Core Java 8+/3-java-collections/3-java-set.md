@@ -22,17 +22,19 @@
 
 ## 1.1 HashSet
 
--   HashSet which stores its elements in a hash table, is the best-performing implementation.
--   HashSet allows only unique elements.
--   It is found in the java.util package.
+-   **HashSet** internally uses HashMap to store it’s elements.
+-   Whenever you create a HashSet object, one **HashMap** object associated with it is also created.
+-   This HashMap object is used to store the elements you enter in the HashSet.
+-   The elements you add into HashSet are stored as **keys** of this HashMap object.
+-   The value associated with those keys will be a **constant**.
 
-    ![](media/d005e8794e2f1024bd17036bcaa6bff3.png)
+**How HashSet Works Internally In Java?**
 
--   It doesn’t maintain the insertion order which means element inserted last can appear at first when traversing the HashSet.
--   The HashSet class of the Java Collections framework provides the functionalities of the hash table data structure.
--   It implements the Set interface.
+-   Let’s see one example of HashSet and how it maintains HashMap internally.
 
-![](media/f57539e93b5456ff338a3262c91eb053.png)
+![How HashSet Works Internally In Java](media/internal-hashset.png)
+
+-   In the same manner, all methods of HashSet class process internally backing HashMap object to get the desired result.
 
 ## 1.1.1 Creating a HashSet
 
@@ -41,7 +43,7 @@
 
 ```java
 // HashSet with 8 capacity and 0.75 load factor
-HashSet<Integer> number = new HashSet<>(8, 0.75);
+HashSet<Integer> number = new HashSet<>(8, 0.6);
 ```
 
 -   Here, we have created a hash set named **numbers.**
@@ -194,9 +196,33 @@ Becky
 
 ## 1.2 LinkedHashSet
 
--   Unlike HashSet, the LinkedHashSet maintains insertion order.
+-   LinkedHashSet is an **extended version** of HashSet.
+-   HashSet doesn’t follow any order where as LinkedHashSet maintains **insertion order**.
+-   HashSet uses **HashMap object** internally to store it’s elements where as LinkedHashSet uses **LinkedHashMap object** internally to store and process it’s elements.
 
-**Example:**
+**How LinkedHashSet Works Internally In Java?**
+
+-   Let’s see one example of LinkedHashSet to know how it works internally.
+
+```java
+public class LinkedHashSetExample { 
+public static void main(String[] args) { 
+    //Creating LinkedHashSet 
+    LinkedHashSet set = new LinkedHashSet(); 
+    //Adding elements to LinkedHashSet 
+    set.add("BLUE"); 
+    set.add("RED"); 
+    set.add("GREEN");    
+    set.add("BLACK");
+ 	}
+ }
+```
+
+-   Look at the below image to see how above program works.
+
+![How LinkedHashSet Works Internally In Java](media/linked-hashset.png)
+
+**Another Example:**
 
 ```java
 import java.util.*;
@@ -229,12 +255,35 @@ Becky
 
 ## 1.3 TreeSet
 
--   TreeSet stores elements in a red-black tree. It is substantially slower than HashSet.
--   TreeSet class implements SortedSet interface, which allows TreeSet to order its elements based on their values, which means TreeSet elements are sorted in ascending order.
--   The TreeSet class of the Java collections framework provides the functionality of a tree data structure.
--   It extends the NavigableSet interface.
+-   A **TreeSet in Java** is another important implementation of the [Set interface](https://www.scientecheasy.com/2020/10/java-set.html/) .
+-   TreeSet is similar to HashSet except that it sorts the elements in the ascending order while HashSet doesn’t maintain any order.
+-   TreeSet allows null element but like HashSet it doesn’t allow.
+-   For example, a set of books might be kept by height or alphabetically by title and author.
 
-![](media/b86fa51953566a5748b4ad76433a9107.png)
+    ![TreeSet in Java](media/f48b9724912005f70ab47109a5b2bb39.png)
+
+-   In Java TreeSet, access and retrieval of elements are quite fast because of using tree structure. Therefore, TreeSet is an excellent choice for quick and fast access to large amounts of sorted data.
+-   The only restriction with using tree set is that we cannot add duplicate elements in the tree set.
+
+**Hierarchy of TreeSet class in Java**
+
+![](media/treeset.png)
+
+**Features of TreeSet class in Java**
+
+There are several important features of TreeSet class in java that must be kept in mind. They are as:
+
+1\. Java TreeSet contains unique elements similar to the HashSet. It does not allow the addition of a duplicate element.
+
+2\. The access and retrieval times are quite fast.
+
+3\. TreeSet does not allow inserting null element.
+
+4\. TreeSet class is non-synchronized. That means it is not thread-safe.
+
+5\. TreeSet maintains the ascending order. When we add elements into the collection in any order, the values are automatically presented in sorted, ascending order.
+
+6\. Java TreeSet internally uses a TreeMap for storing elements.
 
 ## 1.3.1 Creating a TreeSet
 
@@ -387,11 +436,48 @@ Paul
 Ram
 ```
 
+**Using a for-each loop**
+
+-   Iterate the elements of a TreeSet using the for-each loop
+
+**Example**
+
+```java
+import java.util.*;
+public class IteratingTreeSetForEachTest {
+   public static void main(String[] args) {
+      Set<String> treeSetObj = new TreeSet<String>();
+      treeSetObj.add("India");
+      treeSetObj.add("Australia");
+      treeSetObj.add("West Indies");
+      treeSetObj.add("South Africa");
+      treeSetObj.add("England");
+      for(String str : treeSetObj) { // for-each loop
+         System.out.println(str);
+      }
+   }
+}
+```
+
+**Output**
+
+```
+Australia
+England
+India
+South Africa
+West Indies
+```
+
 ## 2. References
 
 1.  https://beginnersbook.com/java-collections-tutorials/
 2.  https://www.w3schools.com/java/java_hashset.asp
 3.  https://www.programiz.com/java-programming/hashset
-4.  https://www.programiz.com/java-programming/treeset
-5.  https://www.softwaretestinghelp.com/treeset-in-java/
+4.  https://javaconceptoftheday.com/how-hashset-works-internally-in-java/
+5.  https://javaconceptoftheday.com/how-linkedhashset-works-internally-in-java/
 6.  https://www.programiz.com/java-programming/treeset
+7.  https://www.softwaretestinghelp.com/treeset-in-java/
+8.  https://www.programiz.com/java-programming/treeset
+9.  https://www.scientecheasy.com/2020/10/treeset-in-java.html/
+10. https://www.tutorialspoint.com/how-many-ways-to-iterate-a-treeset-in-java

@@ -16,7 +16,7 @@
 -   Just like a real-world queue (for instance, in a bank or at ATM), Queue inserts elements at the end of the queue and removes from the beginning of the queue.
 -   We can use Queue to store elements before processing those elements.
 
-![](media/queue.png)
+![Java Queue - Queue Methods, Queue Implementation & Example](media/queue.png)
 
 ## 1.1 Features of a Queue
 
@@ -39,7 +39,7 @@
 -   It can either be used as a queue(first-in-first-out/FIFO) or as a stack(last-in-first-out/LIFO).
 -   The deque is an interface in Java belonging to java.util package and it implements java.queue interface.
 
-![](media/dequeue.png)
+![Deque collection in Java](media/dequeue.png)
 
 -   Deque is mostly used to implement stack, queue, or list data structures.
 -   It can also be used to implement priority queues.
