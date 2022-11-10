@@ -411,8 +411,6 @@ There are two types of type casting:
 
 -   Narrowing Type Casting
 
-    ![](media/casting.png)
-
 ### 8.1 Widening Type Casting
 
 -   Converting a lower data type into a higher one is called **widening** type casting.
@@ -430,7 +428,7 @@ There are two types of type casting:
     -   The target type must be larger than the source type.
 
 ```java
-byte -> short -> char -> int -> long -> float -> double
+byte -> short -> int -> long -> float -> double
 ```
 
 -   For example, the conversion between numeric data type to char or Boolean is not done automatically.
@@ -452,9 +450,13 @@ public class WideningTypeCastingExample {  
 }  
 ```
 
-**Output**
+**Output:**
 
-![](media/output-1.png)
+```java
+Before conversion, the value is: 7
+After conversion, the long value is: 7
+After conversion, the float value is: 7.0
+```
 
 -   In the above example, we have taken a variable x and converted it into a long type.
 
@@ -471,7 +473,7 @@ public class WideningTypeCastingExample {  
 -   If we do not perform casting then the compiler reports a compile-time error.
 
 ```java
-double -> float -> long -> int -> char -> short -> byte
+double -> float -> long -> int -> short -> byte
 ```
 
 **Example:**
@@ -493,9 +495,13 @@ public class NarrowingTypeCastingExample {  
 }  
 ```
 
-**Output**
+**Output:**
 
-![](media/output-2.png)
+```java
+Before conversion: 166.66
+After conversion into long type: 166
+After conversion into int type: 166
+```
 
 ## 9. References
 
