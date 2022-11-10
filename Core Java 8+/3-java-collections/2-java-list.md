@@ -22,7 +22,7 @@
 -   Lists may contain duplicate elements.
 -   Elements can be inserted or accessed by their position in the list, using a zero-based index.
 
-    ![](media/fa3aa0ddd968548e395ba9c4acb2ca6e.png)
+    ![](media/list.png)
 
 **The classes that implements List interface are:**
 
@@ -39,9 +39,16 @@
 -   It implements all optional list operations, and permits all elements, including null.
 -   *ArrayList* resides within Java Core Libraries, so you don't need any additional libraries.
 
-    ![](media/fd567d9fe0253fa1358b52029be713b5.png)
+    ![](media/arraylist.png)
 
--   In order to use it just add the following import statement:
+**Important Features of ArrayList Java**
+
+-   **Dynamic Resizing:** ArrayList grows dynamically as we add elements to the list or shrinks as we remove elements from the list.
+-   **Ordered:** ArrayList preserves the order of the elements i.e. the order in which the elements were added to the list.
+-   **Index based:** ArrayList in Java supports random access from the list using index positions starting with ‘0’.
+-   **Object based:** ArrayList can store only Objects data types. They cannot be used for primitive data types (int, float, etc). We require a wrapper class in that case.
+-   **Not Synchronized:** ArrayList in Java is not synchronized, we can use the [Vector](https://www.scaler.com/topics/java/vector-in-java/) class for the synchronized version.
+-   In order to use ArrayList just add the following import statement:
 
 ```java
 import java.util.ArrayList;
@@ -287,85 +294,28 @@ Ford
 Mazda
 ```
 
-**8) Sort an ArrayList**
-
--   Another useful class in the java.util package is the Collections class, which include the sort() method for sorting lists alphabetically or numerically:
-
-**i) Sort an ArrayList of Strings:**
-
-**Example:**
-
-```java
-import java.util.ArrayList;
-import java.util.Collections;  // Import the Collections class
-public class Main {
-  public static void main(String[] args) {
-    ArrayList<String> cars = new ArrayList<String>();
-    cars.add("Volvo");
-    cars.add("BMW");
-    cars.add("Ford");
-    cars.add("Mazda");
-    Collections.sort(cars);  // Sort cars
-    for (String i : cars) {
-      System.out.println(i);
-    }
-  }
-}
-```
-
-**Output:**
-
-```
-BMW
-Ford
-Mazda
-Volvo
-```
-
-**ii) Sort an ArrayList of Integers:**
-
-**Example:**
-
-```java
-import java.util.ArrayList;
-import java.util.Collections;  // Import the Collections class
-public class Main {
-  public static void main(String[] args) {
-    ArrayList<Integer> myNumbers = new ArrayList<Integer>();
-    myNumbers.add(33);
-    myNumbers.add(15);
-    myNumbers.add(20);
-    myNumbers.add(34);
-    myNumbers.add(8);
-    myNumbers.add(12);
-
-    Collections.sort(myNumbers);  // Sort myNumbers
-
-    for (int i : myNumbers) {
-      System.out.println(i);
-    }
-  }
-}
-```
-
-**Output:**
-
-```
-8
-12
-15
-20
-33
-34
-```
-
 ## 1.2 LinkedList
 
 -   LinkedList is a linear data structure.
--   LinkedList elements are not stored in contiguous locations like arrays, they are linked with each other using pointers.
--   Each element of the LinkedList has the reference(address/pointer) to the next element of the LinkedList.
+-   Linked List is a sequence of links which contains items.
+-   Each link contains a connection to another link.
+-   Java Linked List class uses two types of Linked list to store the elements:
+1.  Singly Linked List
+2.  Doubly Linked List
 
-![](media/linked-list.png)
+**Singly Linked List**:
+
+-   In a singly Linked list each node in this list stores the data of the node and a pointer or reference to the next node in the list.
+-   Refer to the below image to get a better understanding of single Linked list.
+
+![](media/single-linked-list.png)
+
+**Doubly Linked List**:
+
+-   In a doubly Linked list, it has two references, one to the next node and another to previous node.
+-   You can refer to the below image to get a better understanding of doubly linked list.
+
+![](media/double-linked-list.png)
 
 **Example:**
 
@@ -401,14 +351,17 @@ Orange
 
 ## 1.3 Vector
 
-**Vector class in Java** was introduced in JDK 1.0 version. It is present in Java.util package. It is a dynamically resizable array (growable array) which means it can grow or shrink as required.
+-   Vector class in Java was introduced in JDK 1.0 version.
+-   It is present in Java.util package.
+-   A vector can be defined as a dynamic array that can grow or shrink on its own i.e. vector will grow when more elements are added to it and will shrink when elements are removed from it.
+-   This behavior is unlike that of arrays which are static. But similar to arrays, vector elements can be accessed using integer indices.
 
-Java Vector class is similar to ArrayList class with two main differences.
+**Java Vector class is similar to ArrayList class with two main differences.**
 
 -   Vector is synchronized. It is used for thread safety.
 -   It contains many legacy methods that are not now a part of the collections framework.
 
-![](media/d68969a3bb54138e3446a235c7872b05.png)
+![Vector - Java Collections - Edureka](media/vector.png)
 
 **Example:**
 
@@ -444,11 +397,13 @@ item3
 
 ## 1.4 Stack
 
--   Stack class extends Vector class, which means it is a subclass of Vector.
--   Stack works on the concept of Last In First Out (LIFO).
+-   A stack is an ordered data structure belonging to the Java Collection Framework.
+-   In this collection, the elements are added and removed from one end only.
+-   The end at which the elements are added and removed is called “Top of the Stack”.
+-   As addition and deletion are done only at one end, the first element added to the stack happens to be the last element removed from the stack. Thus stack is called a LIFO (Last-in, First-out) data structure.
 -   The elements are inserted using push() method at the end of the stack, the pop() method removes the element which was inserted last in the Stack.
 
-    ![](media/7a3e027833d45feef9bf936ea02269d3.png)
+    ![](media/stack.png)
 
 **Example:**
 
@@ -489,3 +444,5 @@ Steve
 
 1.  https://beginnersbook.com/java-collections-tutorials/
 2.  https://www.w3schools.com/java/java_arraylist.asp
+3.  https://www.edureka.co/blog/java-collections/
+4.  https://www.softwaretestinghelp.com/java-stack-tutorial/
