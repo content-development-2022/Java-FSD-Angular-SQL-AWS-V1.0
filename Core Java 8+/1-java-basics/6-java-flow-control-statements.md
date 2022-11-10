@@ -90,7 +90,7 @@ if(test_expression) {
 
 **Flowchart of Simple if statement:**
 
-![Java Flow Control Statement - if, else and else if \| Studytonight](media/34a414a52895f84ea4616ef3043bb9bd.jpeg)
+![Java Flow Control Statement - if, else and else if \| Studytonight](media/if-1.jpeg)
 
 **Example:**
 
@@ -129,7 +129,7 @@ else {
 
 **Flow chart of if-else statement:**
 
-![Java Flow Control Statement - if, else and else if \| Studytonight](media/d233449efeb693826137278d4fd1ab7a.jpeg)
+![Java Flow Control Statement - if, else and else if \| Studytonight](media/if-2.jpeg)
 
 **Example:**
 
@@ -174,7 +174,7 @@ if(test_expression) {
 
 **Flow chart of if-else-if statement:**
 
-![Java Flow Control Statement - if, else and else if \| Studytonight](media/a81c9f0991f08cf92a41d1b9a458a0d9.jpeg)
+![Java Flow Control Statement - if, else and else if \| Studytonight](media/if-3.jpeg)
 
 **Example:**
 
