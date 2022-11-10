@@ -20,19 +20,21 @@
 2.  TreeSet
 3.  LinkedHashSet.
 
-## 1.1 HashSet
+## HashSet
 
--   HashSet which stores its elements in a hash table, is the best-performing implementation.
--   HashSet allows only unique elements.
--   It is found in the java.util package.
+-   **HashSet** internally uses HashMap to store it’s elements.
+-   Whenever you create a HashSet object, one **HashMap** object associated with it is also created.
+-   This HashMap object is used to store the elements you enter in the HashSet.
+-   The elements you add into HashSet are stored as **keys** of this HashMap object.
+-   The value associated with those keys will be a **constant**.
 
-    ![](media/d005e8794e2f1024bd17036bcaa6bff3.png)
+**How HashSet Works Internally In Java?**
 
--   It doesn’t maintain the insertion order which means element inserted last can appear at first when traversing the HashSet.
--   The HashSet class of the Java Collections framework provides the functionalities of the hash table data structure.
--   It implements the Set interface.
+-   Let’s see one example of HashSet and how it maintains HashMap internally.
 
-![](media/f57539e93b5456ff338a3262c91eb053.png)
+![How HashSet Works Internally In Java](media/internal-hashset.png)
+
+-   In the same manner, all methods of HashSet class process internally backing HashMap object to get the desired result.
 
 ## 1.1.1 Creating a HashSet
 
@@ -41,7 +43,7 @@
 
 ```java
 // HashSet with 8 capacity and 0.75 load factor
-HashSet<Integer> number = new HashSet<>(8, 0.75);
+HashSet<Integer> number = new HashSet<>(8, 0.6);
 ```
 
 -   Here, we have created a hash set named **numbers.**
@@ -194,9 +196,33 @@ Becky
 
 ## 1.2 LinkedHashSet
 
--   Unlike HashSet, the LinkedHashSet maintains insertion order.
+-   LinkedHashSet is an **extended version** of HashSet.
+-   HashSet doesn’t follow any order where as LinkedHashSet maintains **insertion order**.
+-   HashSet uses **HashMap object** internally to store it’s elements where as LinkedHashSet uses **LinkedHashMap object** internally to store and process it’s elements.
 
-**Example:**
+**How LinkedHashSet Works Internally In Java?**
+
+-   Let’s see one example of LinkedHashSet to know how it works internally.
+
+```java
+public class LinkedHashSetExample { 
+public static void main(String[] args) { 
+    //Creating LinkedHashSet 
+    LinkedHashSet set = new LinkedHashSet(); 
+    //Adding elements to LinkedHashSet 
+    set.add("BLUE"); 
+    set.add("RED"); 
+    set.add("GREEN");    
+    set.add("BLACK");
+ 	}
+ }
+```
+
+-   Look at the below image to see how above program works.
+
+![How LinkedHashSet Works Internally In Java](media/linked-hashset.png)
+
+**Another Example:**
 
 ```java
 import java.util.*;
@@ -392,6 +418,8 @@ Ram
 1.  https://beginnersbook.com/java-collections-tutorials/
 2.  https://www.w3schools.com/java/java_hashset.asp
 3.  https://www.programiz.com/java-programming/hashset
-4.  https://www.programiz.com/java-programming/treeset
-5.  https://www.softwaretestinghelp.com/treeset-in-java/
+4.  https://javaconceptoftheday.com/how-hashset-works-internally-in-java/
+5.  https://javaconceptoftheday.com/how-linkedhashset-works-internally-in-java/
 6.  https://www.programiz.com/java-programming/treeset
+7.  https://www.softwaretestinghelp.com/treeset-in-java/
+8.  https://www.programiz.com/java-programming/treeset
