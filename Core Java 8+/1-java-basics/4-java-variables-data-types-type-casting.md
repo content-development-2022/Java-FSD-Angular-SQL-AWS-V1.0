@@ -147,7 +147,9 @@ public class Main {  
 
 **Output:**
 
-![](media/output-3.png)
+```java
+    Hello John
+```
 
 ## 4. Java Constants/Literals
 
