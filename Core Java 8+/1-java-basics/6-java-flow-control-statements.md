@@ -38,7 +38,7 @@
 
 -   Java provides **three** types of control flow statements.
 
-![](media/flow-control.png)
+![](media/control-flow.png)
 
 ## 1.1. Decision-Making Statements
 
