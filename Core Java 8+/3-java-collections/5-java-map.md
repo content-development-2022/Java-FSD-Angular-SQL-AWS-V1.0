@@ -144,7 +144,7 @@ capitalCities.size();
 
 **Note:** Use the keySet() method if you only want the keys, and use the values() method if you only want the values:
 
-**Example-1**: Print keys
+**Example-1**: **Print keys using for each loop**
 
 ```java
 import java.util.HashMap;
@@ -173,7 +173,7 @@ England
 Germany
 ```
 
-**Example-2:** Print values
+**Example-2: Print values** **using for each loop**
 
 ```java
 import java.util.HashMap;
@@ -202,7 +202,7 @@ London
 Berlin
 ```
 
-**Example-3: Print keys and values**
+**Example-3: Print keys and values using for each loop**
 
 ```java
 for (String i : capitalCities.keySet()) {
@@ -212,7 +212,7 @@ for (String i : capitalCities.keySet()) {
 
 -   You can also loop through an HashMap with **Iterator** :
 
-**Example:**
+**Example-4:**
 
 ```java
 import java.util.*;
@@ -422,9 +422,121 @@ Here, we have passed a lambda expression as an argument.
 
 The replaceAll() method accesses all the entries of the map. It then replaces all the elements with the new values (returned from the lambda expression).
 
-## 1.2.6 Loop Through an TreeMap
+## Loop Through an TreeMap
 
--   Loop through an TreeMap with **Iterator.**
+**1) Iterate TreeMap keys using forEach**
+
+```java
+import java.util.Set;
+import java.util.TreeMap;
+ 
+public class TreeMapForEachExample {
+ 
+    public static void main(String[] args) {
+        
+        TreeMap<Integer, String> tmapColors = new TreeMap<Integer, String>();
+        
+        tmapColors.put(1, "Red");
+        tmapColors.put(2, "Green");
+        tmapColors.put(3, "Blue");
+        
+        /*
+         * Get all keys using the keySet method
+         */
+        Set<Integer> keys = tmapColors.keySet();
+        
+        //iterate using forEach
+        keys.forEach( key -> {            
+            System.out.println(key);
+        });
+    }
+}
+```
+
+**Output:**
+
+```
+1
+2
+3
+```
+
+**2) Iterate TreeMap values using forEach**
+
+```java
+import java.util.Collection;
+import java.util.TreeMap;
+ 
+public class TreeMapForEachExample {
+ 
+    public static void main(String[] args) {
+        
+        TreeMap<Integer, String> tmapColors = new TreeMap<Integer, String>();
+        
+        tmapColors.put(1, "Red");
+        tmapColors.put(2, "Green");
+        tmapColors.put(3, "Blue");
+        
+        /*
+         * Get all values using the values method
+         */
+        Collection<String> values = tmapColors.values();
+        
+        //iterate values using forEach
+        values.forEach( value -> { 
+            System.out.println( value );
+        });
+    }
+}
+```
+
+**Output:**
+
+```
+Red
+Green
+Blue
+```
+
+**3) Iterate TreeMap entries using forEach**
+
+```java
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+ 
+public class TreeMapForEachExample {
+ 
+    public static void main(String[] args) {
+        
+        TreeMap<Integer, String> tmapColors = new TreeMap<Integer, String>();
+        
+        tmapColors.put(1, "Red");
+        tmapColors.put(2, "Green");
+        tmapColors.put(3, "Blue");
+        
+        /*
+         * Get all entries using the entrySet method
+         */
+        Set<Map.Entry<Integer, String>> entries = tmapColors.entrySet();
+        
+        //iterate entries using the forEach
+        entries.forEach( entry -> {
+            System.out.println(entry.getKey() + "->" + entry.getValue());
+        });        
+    }
+}
+```
+
+**Output:**
+
+```
+1->Red
+2->Green
+3->Blue
+```
+
+**4)Loop through an TreeMap with Iterator.**
 
 **Example:**
 
