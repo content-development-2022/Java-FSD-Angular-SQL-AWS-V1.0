@@ -12,7 +12,7 @@
 
 [1.3 Vector](#13-vector)
 
-[1.4 Stack](#2-references)
+[1.4 Stack](#14-stack)
 
 [2. References](#2-references)
 
