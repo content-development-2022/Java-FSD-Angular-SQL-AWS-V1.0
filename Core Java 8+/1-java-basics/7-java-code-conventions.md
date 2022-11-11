@@ -2,30 +2,29 @@
 
 **Content**
 
-1\. Introduction
+[1. Introduction](#1-introduction)
 
-2\. File Organization
+[2. File Organization](#2-file-organization)
 
-3 Indentation
+[3 Indentation](#3-indentation)
 
-4\. Comments
+[4. Comments](#4-comments)
 
-5\. Declarations
+[5. Declarations](#5-declarations)
 
-6\. Statements
+[6. Statements](#6-statements)
 
-7\. White Space
+[7. White Space](#7-white-space)
 
-8\. Naming Conventions
+[8. Naming Conventions](#8-naming-conventions)
 
-9\. Programming Practices
+[9. Programming Practices](#9-programming-practices)
 
-10\. References
+[10. References](#10-references)
 
 ## 1. Introduction
 
 -   The quality of code development has several aspects, so adhering to certain rules when writing code is important.
-
 -   This applies not only to formatting but also to many other factors, determined by the corresponding coding convention for the selected programming language and the selected development framework.
 
 **What is Coding Conventions?**
@@ -35,33 +34,21 @@ Coding conventions are **a set of guidelines for a specific programming language
 Typically, a coding convention standard describes:
 
 -   ways of choosing names and the used case of characters for variable names and other identifiers:
-
 -   writing the type of the variable in its identifier (Hungarian notation) and a cast of characters (lower, upper, "camel", "camel" with a lowercase letter), the use of underscores to separate words;
-
 -   indentation style for logical blocks - whether tabs are used, indent width;
-
 -   a method for placing brackets bounding logical blocks;
-
 -   the use of spaces in the design of logical and arithmetic expressions;
-
 -   comment style and the use of documentary comments;
-
 -   variable, class and file naming conventions;
-
 -   statement style and best practices of their usage;
-
 -   file organization;
-
 -   declaration of classes and interfaces;
-
 -   programming practices.
 
 Outside of the standard, the following are implied:
 
 -   lack of magic numbers;
-
 -   restriction of the size of the code horizontally (so that it fits on the screen) and vertical (so that all the code of the file is held in memory)
-
 -   as well as a function or method to the size of one screen (for some programming languages).
 
 Coding rules are “must have” in modern software development. This means that it is better to write programming code a little bit slower than usual, but according to all requirements from the coding conventions. Then you will write code in the style of required coding conventions and the process will be done at the same speed. But the quality of code will be much much better.
@@ -71,19 +58,14 @@ Coding rules are “must have” in modern software development. This means that
 Coding standards are important for software developers for several reasons:
 
 -   40% - 80% of the total cost of software is spent on its maintenance.
-
 -   Software is almost never fully supported by its original author.
-
 -   Coding standards improve software readability by allowing developers to understand new code faster and better.
-
 -   Like any other product, the software must be "well packaged" and clean.
 
 The main reasons for using the coding convention are as follows:
 
 -   The same rules for writing code make it easy for other colleagues to understand
-
 -   It is easier to understand the code in a year or 5 without the need to read each term
-
 -   You always know where certain classes and files are in a huge project
 
 In general, this is the cleanness of the code, which simply speeds up the work. This can be compared to a desktop: if everything is neatly arranged, it is easy to work. If there is a mess, then every little thing takes a long time to find.
@@ -95,23 +77,18 @@ For various programming languages, there are coding conventions. These coding co
 ## 2. File Organization
 
 -   A file consists of sections that should be separated by blank lines and an optional comment identifying each section.
-
 -   Files longer than 2000 lines are cumbersome and should be avoided.
 
 ### 2.1 Java Source Files
 
 -   Each Java source file contains a single public class or interface.
-
 -   When private classes and interfaces are associated with a public class, you can put them in the same source file as the public class.
-
 -   The public class should be the first class or interface in the file.
 
 **Java source files have the following ordering:**
 
 -   Beginning comments
-
 -   Package and Import statements
-
 -   Class and interface declarations
 
 #### 2.1.1 Beginning Comments
@@ -136,7 +113,6 @@ For various programming languages, there are coding conventions. These coding co
 #### 2.1.2 Package and Import Statements
 
 -   The first non-comment line of most Java source files is a package statement.
-
 -   After that, import statements can follow.
 
 **Example:**
@@ -163,9 +139,7 @@ import java.awt.peer.CanvasPeer;
 ## 3. Indentation
 
 -   Four spaces should be used as the unit of indentation.
-
 -   The exact construction of the indentation (spaces vs. tabs) is unspecified.
-
 -   Tabs must be set exactly every 8 spaces (not 4).
 
 ### 3.1 Line Length
@@ -179,15 +153,10 @@ import java.awt.peer.CanvasPeer;
 When an expression will not fit on a single line, break it according to these general principles:
 
 -   Break after a comma.
-
 -   Break before an operator.
-
 -   Prefer higher-level breaks to lower-level breaks.
-
 -   Align the new line with the beginning of the expression at the same level on the previous line.
-
 -   If the above rules lead to confusing code or to code that's squished up against the right margin, just indent 8 spaces instead.
-
 -   For example, on this topic. Please click the [link.](https://www.oracle.com/java/technologies/javase/codeconventions-indentation.html)
 
 ## 4. Comments
@@ -197,11 +166,8 @@ When an expression will not fit on a single line, break it according to these ge
 **Why do we use comments in a code?**
 
 -   Comments are used to make the program more readable by adding the details of the code.
-
 -   It makes easy to maintain the code and to find the errors easily.
-
 -   The comments can be used to provide information or explanation about the variable, method, class, or any statement.
-
 -   It can also be used to prevent the execution of program code while testing the alternative code.
 
 ### 4.1. Types of Java Comments
@@ -213,11 +179,8 @@ When an expression will not fit on a single line, break it according to these ge
 #### 4.1.1 Single Line Comment
 
 -   The single-line comment is used to comment only one line of the code.
-
 -   It is the widely used and easiest way of commenting the statements.
-
 -   Single line comments starts with two forward slashes **(//)**.
-
 -   Any text in front of // is not executed by Java.
 
 **Syntax:**
@@ -246,9 +209,7 @@ public class CommentExample1{
 #### 4.1.2 Multi Line Comment
 
 -   The multi-line comment is used to comment multiple lines of code.
-
 -   It can be used to explain a complex code snippet or to comment multiple lines of code at a time (as it will be difficult to use single-line comments there).
-
 -   Multi-line comments are placed between /\* and \*/. Any text between /\* and \*/ is not executed by Java.
 
 **Syntax:**
@@ -289,11 +250,8 @@ Note: Usually // is used for short comments and /\* \*/ is used for longer comme
 #### 4.1.3 Documentation Comment
 
 -   Documentation comments are usually used to write large programs for a project or software application as it helps to create documentation API.
-
 -   These APIs are needed for reference, i.e., which classes, methods, arguments, etc., are used in the code.
-
 -   To create documentation API, we need to use the **javadoc tool**.
-
 -   The documentation comments are placed between /\*\* and \*/.
 
 **Syntax:**
@@ -360,7 +318,6 @@ import java.io.*;  
 ![](media/javadoc-1.png)
 
 -   Now, the HTML files are created for the **Calculate** class in the current directory, i.e., **abcDemo**.
-
 -   Open the HTML files, and we can see the explanation of Calculate class provided through the documentation comment.
 
 **Are Java comments executable?**
@@ -407,13 +364,11 @@ Object  currentEntry;    // currently selected table entry
 ### 5.2 Initialization
 
 -   Try to initialize local variables where they're declared.
-
 -   The only reason not to initialize a variable where it's declared is if the initial value depends on some computation occurring first.
 
 ### 5.3 Placement
 
 -   Put declarations only at the beginning of blocks. (A block is any code surrounded by curly braces "{" and "}".)
-
 -   Don't wait to declare variables until their first use; it can confuse the unwary programmer and hamper code portability within the scope.
 
 ```java
@@ -433,7 +388,6 @@ for (int i = 0; i < maxLoops; i++) { ... }
 ```
 
 -   Avoid local declarations that hide declarations at higher levels.
-
 -   For example, do not declare the same variable name in an inner block:
 
 ```java
@@ -453,9 +407,7 @@ myMethod() {
 When coding Java classes and interfaces, the following formatting rules should be followed:
 
 -   No space between a method name and the parenthesis "(" starting its parameter list
-
 -   Open brace "{" appears at the end of the same line as the declaration statement
-
 -   Closing brace "}" starts a line by itself indented to match its corresponding opening statement, except when it is a null statement the "}" should appear immediately after the "{".
 
 **Example:**
@@ -498,9 +450,7 @@ argv++; argc--; // AVOID!
 See the following sections for examples.
 
 -   The enclosed statements should be indented one more level than the compound statement.
-
 -   The opening brace should be at the end of the line that begins the compound statement; the closing brace should begin a line and be indented to the beginning of the compound statement.
-
 -   Braces are used around all statements, even single statements, when they are part of a control structure, such as an if-else or for statement. This makes it easier to add statements without accidentally introducing bugs due to forgetting to add braces.
 
 ### 6.3 return Statements
@@ -526,17 +476,13 @@ return (size ? size : defaultSize);
 **Two blank lines should always be used in the following circumstances:**
 
 -   Between sections of a source file
-
 -   Between class and interface definitions
 
 **One blank line should always be used in the following circumstances:**
 
 -   Between methods
-
 -   Between the local variables in a method and its first statement
-
 -   Before a block or single-line comment
-
 -   Between logical sections inside a method to improve readability
 
 ### 7.2 Blank Spaces
@@ -556,9 +502,7 @@ return (size ? size : defaultSize);
 **Note** that a blank space should not be used between a method name and its opening parenthesis. This helps to distinguish keywords from method calls.
 
 -   A blank space should appear after commas in argument lists.
-
 -   All binary operators except . should be separated from their operands by spaces.
-
 -   Blank spaces should never separate unary operators such as unary minus, increment ("++"), and decrement ("--") from their operands.
 
 **Example:**
@@ -591,9 +535,7 @@ myMethod((int) (cp + 5), ((int) (i + 3)) + 1);
 ## 8. Naming Conventions
 
 -   Naming conventions make programs more understandable by making them easier to read.
-
 -   They can also give information about the function of the identifier.
-
 -   for example, whether it's a constant, package, or class-which can be helpful in understanding the code.
 
 | **Identifier Type** | **Rules for Naming**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | **Examples**                                                                                        |
@@ -626,7 +568,6 @@ anObject.classMethod(); //AVOID!
 ### 9.3 Variable Assignments
 
 -   Avoid assigning several variables to the same value in a single statement.
-
 -   It is hard to read.
 
 Example:
@@ -673,7 +614,6 @@ d = a + r;
 #### 9.4.1 Parentheses
 
 -   It is generally a good idea to use parentheses liberally in expressions involving mixed operators to avoid operator precedence problems.
-
 -   Even if the operator precedence seems clear to you, it might not be to others-you shouldn't assume that other programmers know precedence as well as you do.
 
 ```java
@@ -729,5 +669,4 @@ return (condition ? x : y);
 ## 10. References
 
 1.  https://www.javatpoint.com/java-comments
-
 2.  https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html
