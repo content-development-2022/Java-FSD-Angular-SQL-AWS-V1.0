@@ -14,9 +14,9 @@
 
 [1.2.1 for Loop](#121-for-loop)
 
-1.2.2 for-each Loop
+[1.2.2 for-each Loop](#2-for-each-loop)
 
-1.2.3 while Loop
+[1.2.3 while Loop](#122-while-loop)
 
 [1.2.4 do-while Loop](#123-do-while-loop)
 
