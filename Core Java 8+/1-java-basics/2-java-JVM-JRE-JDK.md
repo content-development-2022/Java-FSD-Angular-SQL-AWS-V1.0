@@ -10,11 +10,11 @@
 
 [4. JVM Architecture](#4-jvm-architecture)
 
-5\. What is JRE (Java Runtime Environment)?
+[5. What is JRE (Java Runtime Environment)?](#5-what-is-jre)
 
-6\. What is JDK (Java Development Kit)?
+[6. What is JDK (Java Development Kit)?](#6-what-is-jdk)
 
-7\. References
+[7. References](#7-references)
 
 ## 1. What is JVM (Java Virtual Machine)?
 
