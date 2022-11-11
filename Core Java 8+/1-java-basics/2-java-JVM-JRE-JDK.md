@@ -47,7 +47,7 @@ It could be said there are three aspects to the JVM:
 
 Let's consider each of these.
 
-### 3.1 The JVM specification
+## 3.1 The JVM specification
 
 -   First, the JVM is a software specification.
 -   In a somewhat circular fashion, the JVM spec highlights that its implementation details are not defined within the spec, in order to allow for maximum creativity in its realization.
@@ -59,7 +59,7 @@ Let's consider each of these.
 -   So, all that the JVM has to do is run Java programs correctly.
 -   Sounds simple, and might even look simple from the outside, but it's a massive undertaking, especially given the power and flexibility of the Java language.
 
-### 3.2 The JVM implementations
+## 3.2 The JVM implementations
 
 -   Implementing the JVM specification results in an actual software program, which is a JVM implementation.
 -   In fact, there are many JVM implementations, both open source and proprietary.
@@ -68,7 +68,7 @@ Let's consider each of these.
 -   Another interesting and popular implementation is GraalVM which features high performance and support for other, traditionally non-JVM languages like C++ and Rust via the LLVM spec.
 -   Typically, you download and install the JVM as a bundled part of a Java Runtime Environment (JRE). The JRE is the on-disk part of Java that spawns a running JVM.
 
-### 3.3 The JVM instance
+## 3.3 The JVM instance
 
 -   After the JVM spec has been implemented and released as a software product, you may download and run it as a program.
 -   That downloaded program is an instance (or instantiated version) of the JVM.
@@ -81,11 +81,11 @@ Let's consider each of these.
 -   The compiler compiles the Java file into a Java .class file, then that .class file is input into the JVM, which loads and executes the class file.
 -   Below is a diagram of the Architecture of the JVM.
 
-### 4.1 JVM Architecture Diagram
+## 4.1 JVM Architecture Diagram
 
 ![JVM Architecture Diagram](media/JVM-Architecture.png)
 
-### 4.2 How Does the JVM Work?
+## 4.2 How Does the JVM Work?
 
 As shown in the above architecture diagram, the JVM is divided into three main subsystems:
 
@@ -93,7 +93,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 2.  Runtime Data Area
 3.  Execution Engine
 
-#### 4.2.1 **ClassLoader Subsystem**
+## 4.2.1 ClassLoader Subsystem
 
 -   Java's dynamic class loading functionality is handled by the ClassLoader subsystem.
 -   It loads, links. and initializes the class file when it refers to a class for the first time at runtime, not compile time.
@@ -117,7 +117,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 -   This is the final phase of ClassLoading.
 -   Here, all static variables will be assigned with the original values, and the static block will be executed.
 
-#### **4.2.2 Runtime Data Area**
+## 4.2.2 Runtime Data Area
 
 -   The Runtime Data Area is divided into five major components:
     -   **Method Area**
@@ -142,7 +142,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
         -   Native Method Stack holds native method information.
         -   For every thread, a separate native method stack will be created.
 
-#### **4.2.3 Execution Engine**
+## 4.2.3 Execution Engine
 
 -   The bytecode, which is assigned to the Runtime Data Area, will be executed by the Execution Engine. The Execution Engine reads the bytecode and exe cutes it piece by piece.
     -   **Interpreter** – The interpreter interprets the bytecode faster but executes slowly. The disadvantage of the interpreter is that when one method is called multiple times, every time a new interpretation is required.
