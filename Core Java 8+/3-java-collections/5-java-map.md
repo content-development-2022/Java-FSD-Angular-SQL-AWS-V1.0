@@ -15,7 +15,19 @@
 ## 1. Map
 
 -   A Map is an object that maps keys to values.
+-   **Keys** are unique values associated with individual **Values**.
 -   A map cannot contain duplicate keys.
+-   Each key is associated with a single value.
+
+    ![Maps in Java - Java Map Interface - Edureka](media/map.png)
+
+-   We can access and modify values using the keys associated with them.
+
+**Note:** The Map interface maintains 3 different sets:
+
+1.  the set of keys
+2.  the set of values
+3.  the set of key/value associations (mapping).
 -   There are three main implementations of Map interfaces:
 1.  HashMap
 2.  TreeMap
@@ -23,16 +35,25 @@
 
 ## 1.1 HashMap
 
--   HashMap is like HashSet, it doesn’t maintain insertion order and doesn’t sort the elements in any order.
--   [Click here](https://beginnersbook.com/2013/12/hashmap-in-java-with-example/) to **learn HashMap in detail**.
+-   Java HashMap allows null key and null values.
+-   HashMap is not an ordered collection.
+-   You can iterate over HashMap entries through keys set but they are not guaranteed to be in the order of their addition to the HashMap.
+-   HashMap is almost similar to Hashtable except that it’s unsynchronized and allows null key and values.
+-   HashMap uses it’s inner class Node\<K,V\> for storing map entries.
+-   HashMap stores entries into multiple singly linked lists, called buckets or bins.
+-   Default number of bins is 16 and it’s always power of 2.
+-   HashMap uses hashCode() and equals() methods on keys for get and put operations.
+-   So HashMap key object should provide good implementation of these methods.
+-   This is the reason immutable classes are better suitable for keys, for example String and Interger.
+-   Java HashMap is not thread safe, for multithreaded environment you should use ConcurrentHashMap class or get synchronized map using Collections.synchronizedMap() method.
 
-# How HashMap works internally in Java?
+**How HashMap works internally in Java?**
 
 ## ![D:\\content-development-2022\\Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1\\Core Java 8+\\3-java-collections\\media\\hashmap.png](media/hashmap.png)
 
-## Add Items
+## 1.1.1 Add Items
 
-The HashMap class has many useful methods. For example, to add items to it, use the put() method:
+-   The HashMap class has many useful methods. For example, to add items to it, use the put() method:
 
 **Example**
 
@@ -61,21 +82,21 @@ public class Main {
 {USA=Washington DC, Norway=Oslo, England=London, Germany=Berlin}
 ```
 
-## Access an Item
+## 1.1.2 Access an Item
 
-To access a value in the HashMap, use the get() method and refer to its key:
+-   To access a value in the HashMap, use the get() method and refer to its key:
 
-### Example
+**Example:**
 
 ```java
 capitalCities.get("England");
 ```
 
-## Remove an Item
+## 1.1.3 Remove an Item
 
-To remove an item, use the remove() method and refer to the key:
+-   To remove an item, use the remove() method and refer to the key:
 
-**Example**
+**Example:**
 
 ```java
 import java.util.HashMap;
@@ -93,13 +114,13 @@ public class Main {
 }
 ```
 
-Output:
+**Output:**
 
 ```
 {USA=Washington DC, Norway=Oslo, Germany=Berlin}
 ```
 
-To remove all items, use the clear() method:
+-   To remove all items, use the clear() method:
 
 **Example**
 
@@ -107,9 +128,9 @@ To remove all items, use the clear() method:
 capitalCities.clear();
 ```
 
-## HashMap Size
+## 1.1.4 HashMap Size
 
-To find out how many items there are, use the size() method:
+-   To find out how many items there are, use the size() method:
 
 **Example**
 
@@ -117,15 +138,13 @@ To find out how many items there are, use the size() method:
 capitalCities.size();
 ```
 
-## Loop Through a HashMap
+## 1.1.5 Loop Through a HashMap
 
-Loop through the items of a HashMap with a **for-each** loop.
+-   Loop through the items of a HashMap with a **for-each** loop.
 
 **Note:** Use the keySet() method if you only want the keys, and use the values() method if you only want the values:
 
-**Example**
-
-// Print keys
+**Example-1**: Print keys
 
 ```java
 import java.util.HashMap;
@@ -154,7 +173,7 @@ England
 Germany
 ```
 
-// Print values
+**Example-2:** Print values
 
 ```java
 import java.util.HashMap;
@@ -183,15 +202,15 @@ London
 Berlin
 ```
 
-### Example
-
-// Print keys and values
+**Example-3: Print keys and values**
 
 ```java
 for (String i : capitalCities.keySet()) {
   System.out.println("key: " + i + " value: " + capitalCities.get(i));
 }
 ```
+
+-   You can also loop through an HashMap with **Iterator** :
 
 **Example:**
 
@@ -233,33 +252,34 @@ Key is: 111 & value is: Logan
 -   **TreeMap:** It stores its elements in a red-black tree.
 -   The elements of TreeMap are sorted in ascending order.
 -   It is substantially slower than HashMap.
--   [Click here](https://beginnersbook.com/2013/12/treemap-in-java-with-example/) to **learn TreeMap in detail with examples**.
--   This is the same example that we have seen above in HashMap. Here, elements are sorted based on keys.
 
     ![How TreeMap Works Internally in Java - Javatpoint](media/treemap.png)
 
-## Creating a TreeMap
+## 1.2.1 Creating a TreeMap
 
-In order to create a TreeMap, we must import the java.util.TreeMap package first. Once we import the package, here is how we can create a TreeMap in Java.
+-   In order to create a TreeMap, we must import the java.util.TreeMap package first.
+-   Once we import the package, here is how we can create a TreeMap in Java.
 
-TreeMap\<Key, Value\> numbers = new TreeMap\<\>();
+```java
+TreeMap<Key, Value> numbers = new TreeMap<>();
+```
 
-In the above code, we have created a TreeMap named *numbers* without any arguments. In this case, the elements in TreeMap are sorted naturally (ascending order).
-
-However, we can customize the sorting of elements by using the Comparator interface. We will learn about it later in this tutorial.
+-   In the above code, we have created a TreeMap named *numbers* without any arguments.
+-   In this case, the elements in TreeMap are sorted naturally (ascending order).
+-   However, we can customize the sorting of elements by using the Comparator interface.
 
 Here,
 
 -   *Key* - a unique identifier used to associate each element (value) in a map
 -   *Value* - elements associated by keys in a map
 
-## Insert Elements to TreeMap
+## 1.2.2 Insert Elements to TreeMap
 
 -   put() - inserts the specified key/value mapping (entry) to the map
 -   putAll() - inserts all the entries from specified map to this map
 -   putIfAbsent() - inserts the specified key/value mapping to the map if the specified key is not present in the map
 
-For example,
+**Example:**
 
 ```java
 import java.util.TreeMap;
@@ -290,15 +310,13 @@ TreeMap of even numbers: {Four=4, Six=6, Two=2}
 TreeMap of numbers: {Four=4, One=1, Six=6, Two=2}
 ```
 
-## Access TreeMap Elements
+## 1.2.3 Access TreeMap Elements
 
-**1. Using entrySet(), keySet() and values()**
+-   entrySet() - returns a set of all the key/values mapping (entry) of a treemap.
+-   keySet() - returns a set of all the keys of a tree map.
+-   values() - returns a set of all the maps of a tree map.
 
--   entrySet() - returns a set of all the key/values mapping (entry) of a treemap
--   keySet() - returns a set of all the keys of a tree map
--   values() - returns a set of all the maps of a tree map
-
-For example,
+**Example:**
 
 ```java
 import java.util.TreeMap;
@@ -328,12 +346,12 @@ Keys: [One, Three, Two]
 Values: [1, 3, 2]
 ```
 
-## Remove TeeMap Elements
+## 1.2.4 Remove TeeMap Elements
 
 -   remove(key) - returns and removes the entry associated with the specified key from a TreeMap
 -   remove(key, value) - removes the entry from the map only if the specified key is associated with the specified value and returns a boolean value
 
-For example,
+**Example:**
 
 ```java
 import java.util.TreeMap;
@@ -364,7 +382,7 @@ Is the entry {Three=3} removed? True
 Updated TreeMap: {One=1}
 ```
 
-## Replace TreeMap Elements
+## 1.2.5 Replace TreeMap Elements
 
 -   replace(key, value) - replaces the value mapped by the specified *key* with the new *value*
 -   replace(key, old, new) - replaces the old value with the new value only if the old value is already associated with the specified key
@@ -403,6 +421,10 @@ TreeMap using replaceAll(): {First=3, Second=24, Third=35}
 Here, we have passed a lambda expression as an argument.
 
 The replaceAll() method accesses all the entries of the map. It then replaces all the elements with the new values (returned from the lambda expression).
+
+## 1.2.6 Loop Through an TreeMap
+
+-   Loop through an TreeMap with **Iterator.**
 
 **Example:**
 
@@ -489,4 +511,6 @@ key is: 111 & Value is: Logan
 1.  https://beginnersbook.com/java-collections-tutorials/
 2.  https://www.w3schools.com/java/java_hashmap.asp
 3.  https://www.javaquery.com/2019/12/how-linkedhashmap-works-internally-in.html
-4.  
+4.  https://www.programiz.com/java-programming/map
+5.  https://www.digitalocean.com/community/tutorials/java-hashmap
+6.  
