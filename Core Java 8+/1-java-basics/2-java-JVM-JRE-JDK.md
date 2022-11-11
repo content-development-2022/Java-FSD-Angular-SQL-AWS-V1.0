@@ -117,7 +117,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 -   This is the final phase of ClassLoading.
 -   Here, all static variables will be assigned with the original values, and the static block will be executed.
 
-#### **4.2.2  Runtime Data Area**
+#### **4.2.2 Runtime Data Area**
 
 -   The Runtime Data Area is divided into five major components:
     -   **Method Area**
