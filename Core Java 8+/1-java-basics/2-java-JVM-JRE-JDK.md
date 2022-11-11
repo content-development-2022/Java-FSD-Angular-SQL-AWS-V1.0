@@ -2,11 +2,11 @@
 
 ## Content
 
-1\. What is JVM (Java Virtual Machine)?
+[1. What is JVM (Java Virtual Machine)?](#_1._What_is)
 
-2\. JVM languages
+[2. JVM languages](#_2._JVM_languages)
 
-3\. The three parts of the JVM
+[3. The three parts of the JVM](#_3._The_three)
 
 4\. What is JRE (Java Runtime Environment)?
 
