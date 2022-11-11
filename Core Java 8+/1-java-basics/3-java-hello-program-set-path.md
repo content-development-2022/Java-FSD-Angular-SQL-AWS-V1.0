@@ -32,13 +32,13 @@
 
 Let's see what happens while we compile and run the Java program.
 
-### 1.1 What happens at compile time?
+## 1.1 What happens at compile time?
 
 -   At compile time, the Java file is compiled by Java Compiler (It does not interact with OS) and is converted into bytecode.
 
 ![](media/compile-time.png)
 
-### 1.2 What happens at run time?
+## 1.2 What happens at run time?
 
 -   At runtime, the following steps are performed:
 
@@ -207,7 +207,7 @@ abstract public static void main(String[] args)  
     -   Temporary
     -   Permanent
 
-### 3.1 How to set the Temporary Path of JDK in Windows
+## 3.1 How to set the Temporary Path of JDK in Windows
 
 To set the temporary path of JDK, you need to follow the following steps:
 
@@ -228,7 +228,7 @@ set path=C:\Program Files\Java\jdk-14.0.2\bin;
 
 ![](media/cmd-3.png)
 
-### 3.2 How to set the Permanent Path of JDK in Windows
+## 3.2 How to set the Permanent Path of JDK in Windows
 
 For setting the path to JDK permanently, you need to follow these steps:
 
