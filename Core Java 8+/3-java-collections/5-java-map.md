@@ -447,7 +447,7 @@ Key is: 120 & value is: Paul
 -   Following image shows graphical representation of How LinkedHashMap works internally.
 -   LinkedHashMap extends Node class of HashMap and contains two more variable **before** and **after** to hold the before and after references of Entry object.
 
-![https://1.bp.blogspot.com/-fW_E_QPoc0E/XeDe5AhRZVI/AAAAAAAAGkE/Kh2Pl0U6ibkSezgh9e7i3fM2raciXE-bwCLcBGAsYHQ/s1600/How%2BLinkedHashMap%2Bworks.png](media/linkedhashnap.png)
+![https://1.bp.blogspot.com/-fW_E_QPoc0E/XeDe5AhRZVI/AAAAAAAAGkE/Kh2Pl0U6ibkSezgh9e7i3fM2raciXE-bwCLcBGAsYHQ/s1600/How%2BLinkedHashMap%2Bworks.png](media/linkedhashmap.png)
 
 **Example:**
 
