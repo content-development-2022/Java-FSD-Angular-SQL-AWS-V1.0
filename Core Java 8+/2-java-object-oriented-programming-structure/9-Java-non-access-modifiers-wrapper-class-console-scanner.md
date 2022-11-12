@@ -116,7 +116,7 @@ System.out.println("Bike Class");
 -   Still, this class has a constructor that will be called inside the constructor of its subclass.
 -   It can contain abstract as well as final methods, where abstract methods will be overridden in the subclass.
 
-**Code:**
+**Example:**
 
 ```java
 public abstract class MyActivity{
