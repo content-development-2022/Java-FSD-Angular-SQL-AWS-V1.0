@@ -98,7 +98,7 @@ dataType arr[];  
 **Example-1:**
 
 ```java
-Double[] data;
+double[] data;
 ```
 
 -   Here, data is an array that can hold values of type double.
