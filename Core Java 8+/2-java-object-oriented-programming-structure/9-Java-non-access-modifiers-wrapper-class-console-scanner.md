@@ -59,7 +59,18 @@
 
 **Example:**
 
-![](media/01f6790733eff6a163337ffa9833d1e0.png)
+```java
+final class Honda{
+public void myFun1(){
+System.out.println("Honda Class");
+}
+}
+class Bike extends Honda{
+public void myFun1(){
+System.out.println("Bike Class");
+}
+}
+```
 
 **Output:**
 
@@ -71,7 +82,18 @@
 
 **Example:**
 
-![](media/8d2f42ea5f8738fbaedbbe75359e78cc.png)
+```java
+class Honda{
+public final void myFun1(){
+System.out.println("Honda Class");
+}
+}
+class Bike extends Honda{
+public void myFun1(){
+System.out.println("Bike Class");
+}
+}
+```
 
 **Output:**
 
@@ -96,7 +118,14 @@
 
 **Code:**
 
-![](media/c5f9404aaad5fc9a42154e71b2b4a5ab.png)
+```java
+public abstract class MyActivity{
+public MyActivity(){
+}
+public final String myFun1(){
+}
+}
+```
 
 **Abstract Method**
 
@@ -105,11 +134,38 @@
 
 **Example:**
 
-![](media/33c781f9983564fd2a3397ada7ad9cdb.png)
+```java
+abstract class Electronics
+{
+abstract void display();
+abstract void display(String msg);
+}
+class Computers extends Electronics
+{
+@Override
+void display() {
+System.out.println("Abstract method is called");
+}
+@Override
+void display(String txt) {
+System.out.println(txt);
+}
+}
+public class AbstractDemo {
+public static void main(String[] args) {
+Computers obj=new Computers();
+obj.display();
+obj.display("Method with arguments");
+}
+}
+```
 
 **Output:**
 
-![](media/d1180cc8771dea1f34e9dc20949f83aa.png)
+```
+Abstract method is called
+Method with arguments
+```
 
 ## 1.3 Synchronized Non-Access Modifier
 
@@ -121,11 +177,73 @@
 
 **Example:**
 
-![](media/16cb0cc4e4bd680a92a0a5ee3ea63ab8.png)
+```java
+class Person1
+{
+public synchronized void sendFun(String txt)
+{
+System.out.println("Sending message\t" + txt );
+try
+{
+Thread.sleep(1000);
+}
+catch (Exception e)
+{
+System.out.println("Thread interrupted.");
+}
+System.out.println("\n" + txt + "Sent");
+}
+}
+class DemoThread extends Thread
+{
+private String txt;
+Person1  person;
+DemoThread(String m,  Person1 obj)
+{
+txt = m;
+person = obj;
+}
+public void run()
+{
+synchronized(person)
+{
+person.sendFun(txt);
+}
+}
+}
+public class HelloWorld
+{
+public static void main(String args[])
+{
+Person1 snd = new Person1();
+DemoThread S1 =
+new DemoThread( " Hi " , snd );
+DemoThread S2 =
+new DemoThread( " Bye " , snd );
+S1.start();
+S2.start();
+// wait for threads to end
+try
+{
+S1.join();
+S2.join();
+}
+catch(Exception e)
+{
+System.out.println("Interrupted");
+}
+}
+}
+```
 
 **Output:**
 
-![](media/c197fa68dce49b40e74d2d1bb28b844a.png)
+```
+Sending message Hi
+Hi Sent
+Sending message Bye
+Bye Sent
+```
 
 ## 1.4 Static Non-Access Modifier
 
@@ -159,11 +277,41 @@
 
 **Example:**
 
-![](media/41e922812bdd68e43e0c89349f65e38d.png)
+```java
+public class Demo
+{
+// static variable
+static int x = 10;
+static int y;
+//static class
+public static class DemoInnerClass{
+static int z=10;
+}
+// static block
+static {
+System.out.println("Static block initialized.");
+y = x + 4;
+}
+//static method
+public static void main(String[] args)
+{
+System.out.println("from main");
+System.out.println("Value of x : "+x);
+System.out.println("Value of y : "+y);
+System.out.println("Value of z : "+DemoInnerClass.z);
+}
+}
+```
 
 **Output:**
 
-![](media/ea9a5bc03cf02acd6f1b9d397cd4ca97.png)
+```
+Static block initialized.
+from main
+value of x : 10
+value of y : 14
+value of z : 10
+```
 
 ## 1.5 Native Non Access Modifier
 
@@ -178,7 +326,14 @@
 
 **Example:** Consider a function myfun1 in class NativeDemo that is written in C++. To use this code, we will create a link library mylib1 and load it using the classnstatic block.
 
-![](media/42c7ec813bdacce3e36ebb126930e40a.png)
+```java
+public class DateTimeUtils {
+public native String getSystemTime();
+static {
+System.loadLibrary("nativedatetimeutils");
+}
+}
+```
 
 ## 1.6 Strictfp Non-Access Modifier
 
@@ -187,13 +342,32 @@
 -   This keyword is used to ensure that results from an operation on floating-point numbers brings out the same results on every platform.
 -   This keyword cannot be used with abstract methods, variables or constructors as these need not contain operations.
 
+![](media/b2bb927f6b30237d35e80a2338dd7275.png)
+
 **Example:**
 
-![](media/3f3b6bcb7adde8674d4996b12d440999.png)
+```java
+public class HelloWorld
+{
+public strictfp double calSum()
+{
+double n1 = 10e+07;
+double n2 = 9e+08;
+return (n1+n2);
+}
+public static strictfp void main(String[] args)
+{
+HelloWorld t = new HelloWorld ();
+System.out.println("Result is -" + t.calSum());
+}
+}
+```
 
 **Output:**
 
-![](media/9afe7d0b2669518bd5467a1e3fc9edc8.png)
+```
+Result is -1.0E9
+```
 
 ## 1.7 Transient Non-Access Modifier
 
@@ -202,15 +376,44 @@
 
 **Syntax**:
 
-![](media/339b398a85cbcb1bfca0c03f43c5e45b.png)
+```java
+private transient member1;
+```
 
 **Example:**
 
-![](media/a16096b2800c431ebf78e32d3e9a280c.png)
+```java
+import java.io.*;
+class Demo implements Serializable
+{
+int x = 10;
+transient int y = 30;
+transient static int z = 40;
+transient final int d = 50;
+public static void main(String[] args) throws Exception
+{
+Demo input = new Demo();
+FileOutputStream tos = new FileOutputStream("abc.txt");
+ObjectOutputStream tin = new ObjectOutputStream(tos);
+tin.writeObject(input);
+FileInputStream fis = new FileInputStream("abc.txt");  ObjectInputStream ois = new ObjectInputStream(fis);
+Demo output = (Demo)ois.readObject();
+System.out.println("x = " + output.x);
+System.out.println("y = " + output.y);
+System.out.println("z = " + output.z);
+System.out.println("d = " + output.d);
+}
+}
+```
 
 **Output:**
 
-![](media/31aad6686abc565fa215a7b20111e5a7.png)
+```
+X = 10
+Y = 0
+Z = 40
+D = 50
+```
 
 ## 2. Wrapper Classes
 
@@ -223,7 +426,10 @@
 
 **Example**
 
-![](media/d7b3d68bed63fe327d75e1052b7e8481.png)
+```java
+ArrayList<int> myNumbers = new ArrayList<int>(); // Invalid
+ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // Valid
+```
 
 ## 2.1 Creating Wrapper Objects
 
@@ -232,11 +438,26 @@
 
 **Example-1:**
 
-![](media/0dfec0df31729bb85615e52ec5ecd8ef.png)
+```java
+public class Main { 
+  public static void main(String[] args) { 
+    Integer myInt = 5; 
+    Double myDouble = 5.99; 
+    Character myChar = 'A'; 
+    System.out.println(myInt);
+    System.out.println(myDouble);
+    System.out.println(myChar);
+  }
+}
+```
 
 **Output:**
 
-![](media/28039c0a06538e2e23e19790e385d6e7.png)
+```
+5
+5.99
+A
+```
 
 -   Since you're now working with objects, you can use certain methods to get information about the specific object.
 -   For example, the following methods are used to get the value associated with the corresponding wrapper object: intValue(), byteValue(), shortValue(), longValue(), floatValue(), doubleValue(), charValue(), booleanValue().
@@ -244,22 +465,47 @@
 
 **Example-2:**
 
-![](media/f958aa3c4fd57b4c5d5543b2ea2b9a21.png)
+```java
+public class Main { 
+  public static void main(String[] args) { 
+    Integer myInt = 5; 
+    Double myDouble = 5.99; 
+    Character myChar = 'A'; 
+    System.out.println(myInt.intValue());
+    System.out.println(myDouble.doubleValue());
+    System.out.println(myChar.charValue());
+  }
+}
+```
 
 **Output:**
 
-![](media/28c17da75dc7c152a810feb9e3fc2fe6.png)
+```
+5
+5.99
+A
+```
 
 -   Another useful method is the **toString()** method, which is used to convert wrapper objects to strings.
 -   In the following example, we convert an Integer to a String, and use the length() method of the String class to output the length of the "string".
 
 **Example-3:**
 
-![](media/dcb49015edc0124df20371662266d02a.png)
+```java
+public class Main { 
+  public static void main(String[] args) { 
+    Integer myInt = 100; 
+    String myString = myInt.toString();
+    System.out.println(myString.length());
+  }
+}
+```
 
 **Output:**
 
-![](media/a45688217e7111c263c0b3780f4256ca.png)
+```
+3
+```
 
 ## 3. What is a Console?
 
@@ -282,7 +528,9 @@
 
 **Syntax**
 
-![](media/b23e3d06dd2a804eeb1e26b02886d1d0.png)
+```java
+Scanner sc=new Scanner(System.in);  
+```
 
 -   Here, " Scanner " is considered as a class and " sc " is an object that is created within a class.
 -   So, in order to scan any input in the entire program, we can use this object that is created in the " Scanner " class.
@@ -302,21 +550,58 @@
 
 -   The following example allows user to read an integer form the System.in.
 
-![](media/cac7bdbe5f4c1f818d6fa23a0c8c9278.png)
+```java
+import java.util.*;  
+class UserInputDemo   
+{  
+public static void main(String[] args)  
+{  
+Scanner sc= new Scanner(System.in);    //System.in is a standard input stream  
+System.out.print("Enter first number : ");  
+int a= sc.nextInt();  
+System.out.print("Enter second number :  ");  
+int b= sc.nextInt();  
+System.out.print("Enter third number :  ");  
+int c= sc.nextInt();  
+int d=a+b+c;  
+System.out.println("Total= " +d);  
+}  
+}  
+```
 
 **Output:**
 
-![](media/ab9ad1b068c9918d3772cb02cebdcabb.png)
+```
+Enter first number: 6
+Enter second number: 44
+Enter third number: 23
+Total = 73
+```
 
 **Example-2: String input from user**
 
 -   Let's see another example, in which we have taken string input.
 
-![](media/99c402913c1cb773222eba5eed958293.png)
+```java
+import java.util.*;  
+class UserInputDemo1  
+{  
+public static void main(String[] args)  
+{  
+Scanner sc= new Scanner(System.in); //System.in is a standard input stream  
+System.out.print("Enter a string: ");  
+String str= sc.nextLine();              //reads string  
+System.out.print("You have entered: "+str);             
+}  
+}  
+```
 
 **Output:**
 
-![](media/e8bac996fc4855dc39e193f584ba4053.png)
+```
+Enter a string : It is a simple java program.
+You have entered: It is a simple java program.
+```
 
 ## 4.2 Advantages of scanner class
 
