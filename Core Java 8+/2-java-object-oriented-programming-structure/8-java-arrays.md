@@ -358,7 +358,7 @@ int[ ][ ][ ] threeDArray = new int[10][20][30];
 -   In Java, the tabular representation of data is implemented using a two-dimensional array.
 -   The 2D array is organized as matrices which can be represented as the collection of rows and columns.
 
-![](media/7251eef492cb6657dccffd0f906a2e36.png)
+![](media/2d-table-array.png)
 
 ## 2.2.2.1 Declaring 2D Array Variables in Java
 
@@ -575,7 +575,7 @@ System.out.println(data);
 -   A Jagged Array is defined as an array where each element of that array is an array itself.
 -   It is a Multidimensional array whose each element can have different sizes.
 
-![](media/efe60febd2d7fd659d7c5a2ce9cbfb57.png)
+![](media/jaggedarray.png)
 
 -   From the above pictorial representation, we got an idea of how does it look.
 -   Above shown is a two-dimensional Jagged array.
@@ -678,7 +678,7 @@ Contents of 2D Jagged Array
 -   An array that conations **class type elements** are known as an **array of objects**.
 -   It stores the reference variable of the object.
 
-![](media/f640edb9107b926e1110cf61b3530537.png)
+![](media/arrayobjects.png)
 
 ## 4.1 Declaring an Array of Objects in Java
 
@@ -722,7 +722,7 @@ Student[ ] studentObjects = new Student[2];
 -   Once an array of objects is instantiated like this, then the individual elements of the array of objects needs to be created using the new keyword.
 -   The below figure shows the structure of an Array of Objects :
 
-![](media/d070260acf357c344f872a23924d2689.png)
+![](media/arrayobjectmemory.png)
 
 ## 4.3 Initializing Array of Objects
 
