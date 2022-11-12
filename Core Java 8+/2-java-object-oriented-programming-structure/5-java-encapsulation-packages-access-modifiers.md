@@ -45,7 +45,10 @@
 
 **Syntax**
 
-![](media/6840b189c20f65930826c02678e932ef.png)
+```java
+import package.name.Class;   // Import a single class
+import package.name.*;   // Import the whole package
+```
 
 ## 1.1.1 Import a Class
 
@@ -53,7 +56,9 @@
 
 **Example-1**
 
-![](media/df46448d50f1dda7e189f5a4bb5778e2.png)
+```java
+import java.util.Scanner;
+```
 
 -   In the example above, **java.util** is a package, while **Scanner** is a class of the **java.util** package.
 -   To use the **Scanner** class, create an object of the class and use any of the available methods found in the Scanner class documentation.
@@ -61,13 +66,27 @@
 
 **Example-2**
 
--   Using the Scanner class to get user input:
+```java
+Using the Scanner class to get user input:
+import java.util.Scanner; // import the Scanner class 
 
-![](media/2985f8ca7ee972ac80cb013c282160d4.png)
+class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+    
+    // Enter username and press Enter
+    System.out.println("Enter username"); 
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
+  }
+}
+```
 
 **Output:**
 
-![](media/1596f0198ec9c8cb974078813061b3b6.png)
+Enter username
 
 ## 1.1.2 Import a Package
 
@@ -78,11 +97,28 @@
 
 **Example:**
 
-![](media/4956371b975c3121a8aed18c53e3a452.png)
+```java
+import java.util.*; // import the java.util package 
+
+class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+    
+    // Enter username and press Enter
+    System.out.println("Enter username"); 
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
+  }
+}
+```
 
 **Output:**
 
-## ![](media/9f5106b4d32c6efd3fb8cc886d142e78.png)
+```
+Enter username
+```
 
 ## 1.2 User-defined Packages
 
@@ -91,21 +127,43 @@
 
 **Example**
 
-![](media/739ec55e50865d455cb50c48062b18d0.png)
+```
+└── root
+  └── mypack
+    └── MyPackageClass.java
+```
 
 -   To create a package, use the package keyword:
 
 **MyPackageClass.java**
 
-![](media/78506e8b7c844356b9f46c5941172efe.png)
+```java
+package mypack;
+
+class MyPackageClass { 
+  public static void main(String[] args) { 
+    System.out.println("This is my package!"); 
+  } 
+}
+```
+
+**Output:**
+
+```
+This is my package!
+```
 
 -   Save the file as **MyPackageClass.java**, and compile it:
 
-![](media/4fd69c5af3c7bb838b8f31e851a5a6af.png)
+```
+C:\Users\Your Name>javac MyPackageClass.java
+```
 
 -   Then compile the package:
 
-![](media/c97edc9b658ce89375af4a9b9344d12b.png)
+```
+C:\Users\Your Name>javac -d . MyPackageClass.java
+```
 
 -   This forces the compiler to create the "mypack" package.
 -   The -d keyword specifies the destination for where to save the class file.
@@ -116,11 +174,15 @@
 -   When we compiled the package in the example above, a new folder was created, called "mypack".
 -   To run the **MyPackageClass.java** file, write the following:
 
-![](media/b46e18162abd44181565cc6f2c776b66.png)
+```
+C:\Users\Your Name>java mypack.MyPackageClass
+```
 
 -   The output will be:
 
-![](media/5bfaac0ffcbf70309cf4335f022efceb.png)
+```
+This is my package!
+```
 
 ## 1.3 Advantage of Java Package
 
