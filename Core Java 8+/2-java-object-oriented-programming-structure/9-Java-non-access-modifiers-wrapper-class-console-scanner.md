@@ -322,7 +322,9 @@ value of z : 10
 -   The native keyword is used only with the methods to indicate that the particular method is written in platform-dependent.
 -   These are used to improve the system’s performance, and the existing legacy code can be easily reused.
 
-![](media/44190248fd271d6699491eecd7559a00.png)
+```
+Note: Static, as well as abstract methods, cannot be declared as native.
+```
 
 **Example:** Consider a function myfun1 in class NativeDemo that is written in C++. To use this code, we will create a link library mylib1 and load it using the classnstatic block.
 
