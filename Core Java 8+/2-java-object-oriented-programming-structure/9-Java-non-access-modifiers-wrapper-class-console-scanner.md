@@ -50,7 +50,7 @@
 
 -   This modifier can be applied with:
 
-![](media/5fd34fd7e41728eedad5c45103321855.png)
+![](media/final.png)
 
 **Final Class**:
 
@@ -74,7 +74,7 @@ System.out.println("Bike Class");
 
 **Output:**
 
-![](media/0c12b2ae3298893f5846bd856d16fd05.png)
+![](media/final-output.png)
 
 **Final Method:**
 
@@ -97,7 +97,7 @@ System.out.println("Bike Class");
 
 **Output:**
 
-![](media/b65d90a3e78bf0734d750aa524d557fa.png)
+![](media/final-method-output.png)
 
 **Final Variable**:
 
@@ -108,7 +108,7 @@ System.out.println("Bike Class");
 
 -   This modifier can be applied with:
 
-![](media/5db762b9f531e99f74449d0287a428c5.png)
+![](media/abstract.png)
 
 **Abstract Class**:
 
@@ -171,7 +171,7 @@ Method with arguments
 
 -   This modifier can be applied with:
 
-![](media/58e750625cf4fcc1eed1068d45f326db.png)
+![](media/synchronized.png)
 
 -   This keyword helps prevent the access of one method by multiple threads simultaneously, thus synchronizing the flow of a program and bringing out the desired results using the multithreading feature.
 
@@ -249,7 +249,7 @@ Bye Sent
 
 -   This modifier can be applied with:
 
-![](media/3c68e7a94b4f78c50cc2c0ff0810484d.png)
+![](media/static.png)
 
 -   This variable is used for memory management and the first thing being referenced while loading a class.
 -   These members are treated on a class level; thus, they cannot be called using an object; instead, the name of the class is used to refer to them.
@@ -317,7 +317,7 @@ value of z : 10
 
 -   This modifier can be applied with:
 
-![](media/6a1d9e3c82879134b3508618fe28e660.png)
+![](media/native.png)
 
 -   The native keyword is used only with the methods to indicate that the particular method is written in platform-dependent.
 -   These are used to improve the system’s performance, and the existing legacy code can be easily reused.
@@ -344,7 +344,7 @@ System.loadLibrary("nativedatetimeutils");
 -   This keyword is used to ensure that results from an operation on floating-point numbers brings out the same results on every platform.
 -   This keyword cannot be used with abstract methods, variables or constructors as these need not contain operations.
 
-![](media/b2bb927f6b30237d35e80a2338dd7275.png)
+![](media/strictfp.png)
 
 **Example:**
 
@@ -422,7 +422,7 @@ D = 50
 -   The eight primitive data types byte, short, int, long, float, double, char and boolean are not objects, **Wrapper classes are used for converting primitive data types into objects.**
 -   The table below shows the primitive type and the equivalent wrapper class:
 
-![](media/4b45b88dd3e7f552e63814a6b8f7e1cf.png)
+![](media/wrapperclass.png)
 
 -   Sometimes you must use wrapper classes, for example when working with Collection objects, such as ArrayList, where primitive types cannot be used (the list can only store objects):
 
@@ -546,7 +546,7 @@ Scanner sc=new Scanner(System.in);
 -   The type of method that we consider depends on the data type of the input that we want to take.
 -   There are eight methods in the Scanner class, as there are eight general Primitive data types.
 
-![](media/65d2b7a47a56f1b0e105f11c9551ae4c.png)
+![](media/scannermethods.png)
 
 **Example-1: Integer input from user**
 
