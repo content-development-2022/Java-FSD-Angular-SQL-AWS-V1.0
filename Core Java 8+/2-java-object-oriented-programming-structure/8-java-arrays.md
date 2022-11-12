@@ -244,7 +244,11 @@ Mazda
 
 **Syntax:**
 
-**![](media/6a8c5bbf8c8e78d48a3729ce2b2bf5d3.png)**
+```java
+for(type variable : arrayname) {
+        …
+}
+```
 
 **Example:**
 
@@ -306,7 +310,9 @@ public class Main {
 
 **Output:**
 
+```
 4
+```
 
 ## 2.2 Multiple Dimensional Array in Java
 
@@ -465,7 +471,15 @@ arrayName[i][j];
 
 **Example:**
 
-![](media/bfe30c47384e43465251ab729595fc17.png)
+```java
+Class 2DArray {
+public static void main(String args[]) {
+int[][] arr = new int [10][20];
+arr[0][0] = 1;
+System.out.println(“arr[0][0] = “ +arr[0][0]);
+}
+}
+```
 
 **Note :**
 
@@ -479,21 +493,63 @@ arrayName[i][j];
 
 **Example:**
 
-**![](media/6cb4284b4a5a885f37440be16c7d2f98.png)**
+```java
+Class 2DArray {
+public static void main(String args[]) {
+int[][] arr = {{1, 2}, {3, 4}};
+for(int i = 0; i < 2; i++)
+for(int j = 0; j < 2; j++)
+System.out.println(“arr[“ +i + “][“ + j + “] = “ +arr[i][j]);
+}
+}
+```
 
 **Output:**
 
-**![](media/38e33c8c26d96ae067d29b85ec6a3e46.png)**
+```
+arr[0][0] = 1
+arr[0][1] = 2
+arr[1][0] = 3
+arr[1][1] = 4
+```
 
 **2) 2D Array with for-each**
 
 **Example:**
 
-![](media/47d53779acb537c1f3b9cb44082fe2e8.png)
+```java
+Class 2DArray {
+public static void main(String args[]) {
+//create a 2d array
+int[][] a= {
+{1, -2, 3},
+{-4,-5, 6, 9},
+{7}
+};
+//first for…each loop access the individual array
+//inside the 2d array
+for(int[] innerArray : a) {
+//second for…each loop access each element inside the row
+for(int data: innerArray) {
+System.out.println(data);
+}
+}
+}
+}
+```
 
 **Output:**
 
-![](media/33d7fb046c4f89ba0a1b8f660236f212.png)
+```
+1
+-2
+3
+-4
+-5
+6
+9
+7
+```
 
 ## 2.3 Advantages of array
 
@@ -532,19 +588,85 @@ arrayName[i][j];
 
 **Syntax:**
 
-![](media/a2eda1111757917615ffe3fa905bf131.png)
+```java
+data_type array_name[][] = new data_type[n][];  //n: no. of rows
+             array_name[] = new data_type[n1] //n1= no. of columns in row-1
+             array_name[] = new data_type[n2] //n2= no. of columns in row-2
+             array_name[] = new data_type[n3] //n3= no. of columns in row-3
+                                   .
+                                   .
+                                   .
+             array_name[] = new data_type[nk]  //nk=no. of columns in row-n
+```
 
 -   **Alternative, ways to Initialize a Jagged array**
 
-![](media/4702caf26ba9d64fc6d82765c896b2c1.png)
+```java
+int arr_name[][] = new int[][]  {
+                                  new int[] {10, 20, 30 ,40},
+                                  new int[] {50, 60, 70, 80, 90, 100},
+                                  new int[] {110, 120}
+                                      };
+                                      
+                              OR                                     
+                                                         
+                    int[][] arr_name = {
+                          new int[] {10, 20, 30 ,40},
+                          new int[] {50, 60, 70, 80, 90, 100},
+                          new int[] {110, 120}
+                              };
+                              
+                              OR                                     
+                                                         
+                    int[][] arr_name = {
+                           {10, 20, 30 ,40},
+                           {50, 60, 70, 80, 90, 100},
+                           {110, 120}
+                              };
+```
 
 **Example:**
 
-![](media/7c1fe655ab2e7e64b723ab40dd7c932d.png)
+```java
+// Program to demonstrate 2-D jagged array in Java
+class Main {
+    public static void main(String[] args)
+    {
+        // Declaring 2-D array with 2 rows
+        int arr[][] = new int[2][];
+ 
+        // Making the above array Jagged
+ 
+        // First row has 3 columns
+        arr[0] = new int[3];
+ 
+        // Second row has 2 columns
+        arr[1] = new int[2];
+ 
+        // Initializing array
+        int count = 0;
+        for (int i = 0; i < arr.length; i++)
+            for (int j = 0; j < arr[i].length; j++)
+                arr[i][j] = count++;
+ 
+        // Displaying the values of 2D Jagged array
+        System.out.println("Contents of 2D Jagged Array");
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++)
+                System.out.print(arr[i][j] + " ");
+            System.out.println();
+        }
+    }
+}
+```
 
 **Output:**
 
-![](media/86ad186500fd9f06af9931517ff9d112.png)
+```
+Contents of 2D Jagged Array
+0 1 2 
+3 4 
+```
 
 ## 4. Array of Objects in Java
 
@@ -565,25 +687,37 @@ arrayName[i][j];
 
 **Syntax:**
 
-![](media/80e53cc9b0c19bdd49fa7e46a6ba73cc.png)
+```java
+ClassName[] objArray;  
+```
 
 -   Alternatively, we can also declare an Array of Objects as:
 
-![](media/5a839fff60ff809bb49de2a434e74254.png)
+```java
+ClassName objeArray[];  
+```
 
 **Example:**
 
-![](media/d3b629fda320e1e50bcb9b1fd024ed57.png)
+```java
+Student[ ] studentObjects;  
+Or
+Student studentObjects[];
+```
 
 ## 4.2 Instantiate an Array of Objects in Java
 
 **Syntax:**
 
-![](media/0ab90072e5bbe1c002dcaca9653f78fc.png)
+```java
+ClassName obj[]=new ClassName[array_length]; //declare and instantiate an array of objects 
+```
 
 -   For example, if you have a class Student, and we want to declare and instantiate an array of Student objects with two objects/object references then it will be written as:
 
-![](media/570b403fd62af20e3152459bd47e5bd7.png)
+```java
+Student[ ] studentObjects = new Student[2];
+```
 
 -   Once an array of objects is instantiated like this, then the individual elements of the array of objects needs to be created using the new keyword.
 -   The below figure shows the structure of an Array of Objects :
@@ -608,11 +742,76 @@ arrayName[i][j];
 
 **Example:**
 
-![](media/91715ca4fc927cb3d55b7d25aa8cf484.png)
+```java
+// Java program to demonstrate initializing
+// an array of objects using constructor
+ 
+class GFG {
+ 
+    public static void main(String args[])
+    {
+ 
+        // Declaring an array of student
+        Student[] arr;
+ 
+        // Allocating memory for 2 objects
+        // of type student
+        arr = new Student[2];
+ 
+        // Initializing the first element
+        // of the array
+        arr[0] = new Student(1701289270, "Satyabrata");
+ 
+        // Initializing the second element
+        // of the array
+        arr[1] = new Student(1701289219, "Omm Prasad");
+ 
+        // Displaying the student data
+        System.out.println(
+            "Student data in student arr 0: ");
+        arr[0].display();
+ 
+        System.out.println(
+            "Student data in student arr 1: ");
+        arr[1].display();
+    }
+}
+ 
+// Creating a student class with
+// id and name as a attributes
+class Student {
+ 
+    public int id;
+    public String name;
+ 
+    // Student class constructor
+    Student(int id, String name)
+    {
+        this.id = id;
+        this.name = name;
+    }
+ 
+    // display() method to display
+    // the student data
+    public void display()
+    {
+        System.out.println("Student id is: " + id + " "
+                           + "and Student name is: "
+                           + name);
+        System.out.println();
+    }
+}
+```
 
 **Output:**
 
-![](media/75e5b54fabc3a9b05e1ada401161d818.png)
+```
+Student data in student arr 0: 
+Student id is: 1701289270 and Student name is: Satyabrata
+
+Student data in student arr 1: 
+Student id is: 1701289219 and Student name is: Omm Prasad
+```
 
 ## 4.3.2 By using a separate member method
 
@@ -621,11 +820,77 @@ arrayName[i][j];
 
 **Example:**
 
-![](media/375808d81943eeae6c22c54cacd9769c.png)
+```java
+// Java program to demonstrate initializing
+// an array of objects using a method
+ 
+class GFG {
+ 
+    public static void main(String args[])
+    {
+ 
+        // Declaring an array of student
+        Student[] arr;
+ 
+        // Allocating memory for 2 objects
+        // of type student
+        arr = new Student[2];
+ 
+        // Creating actual student objects
+        arr[0] = new Student();
+        arr[1] = new Student();
+ 
+        // Assigning data to student objects
+        arr[0].setData(1701289270, "Satyabrata");
+        arr[1].setData(1701289219, "Omm Prasad");
+ 
+        // Displaying the student data
+        System.out.println(
+            "Student data in student arr 0: ");
+        arr[0].display();
+ 
+        System.out.println(
+            "Student data in student arr 1: ");
+        arr[1].display();
+    }
+}
+ 
+// Creating a Student class with
+// id and name as a attributes
+class Student {
+ 
+    public int id;
+    public String name;
+ 
+    // Method to set the data to
+    // student objects
+    public void setData(int id, String name)
+    {
+        this.id = id;
+        this.name = name;
+    }
+ 
+    // display() method to display
+    // the student data
+    public void display()
+    {
+        System.out.println("Student id is: " + id + " "
+                           + "and Student name is: "
+                           + name);
+        System.out.println();
+    }
+}
+```
 
 **Output:**
 
-![](media/cb49fa48c8776531dbcae7c03526b0ab.png)
+```
+Student data in student arr 0: 
+Student id is: 1701289270 and Student name is: Satyabrata
+
+Student data in student arr 1: 
+Student id is: 1701289219 and Student name is: Omm Prasad
+```
 
 ## 5. References
 
@@ -635,3 +900,5 @@ arrayName[i][j];
 4.  https://www.scaler.com/topics/two-dimensional-array-in-java/
 5.  https://www.softwaretestinghelp.com/jagged-array-in-java/
 6.  https://www.geeksforgeeks.org/jagged-array-in-java/
+7.  https://www.javatpoint.com/how-to-create-array-of-objects-in-java
+8.  https://www.geeksforgeeks.org/how-to-create-array-of-objects-in-java/
