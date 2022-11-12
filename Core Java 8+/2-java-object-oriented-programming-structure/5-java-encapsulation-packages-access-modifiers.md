@@ -219,7 +219,20 @@ This is my package!
 -   A class contains private data member and private method.
 -   We are accessing these private members from outside the class, so there is a compile-time error.
 
-    ![](media/5a2d08691dbefd9af6d5e16183dce5ea.png)
+```java
+class A{  
+private int data=40;  
+private void msg(){System.out.println("Hello java");}  
+}  
+  
+public class Simple{  
+ public static void main(String args[]){  
+   A obj=new A();  
+   System.out.println(obj.data);//Compile Time Error  
+   obj.msg();//Compile Time Error  
+   }  
+}  
+```
 
 ### Role of Private Constructor
 
@@ -227,7 +240,17 @@ This is my package!
 
 **Example:**
 
-![](media/2e948cc0a378bee84da8d582513047c4.png)
+```java
+class A{  
+private A(){}//private constructor  
+void msg(){System.out.println("Hello java");}  
+}  
+public class Simple{  
+ public static void main(String args[]){  
+   A obj=new A();//Compile Time Error  
+ }  
+}  
+```
 
 ## 2) Default:
 
@@ -240,7 +263,23 @@ This is my package!
 -   In this example, we have created two packages pack and mypack.
 -   We are accessing the A class from outside its package, since A class is not public, so it cannot be accessed from outside the package.
 
-![](media/37c59a61b31a51b3979c9499063bdac9.png)
+```java
+//save by A.java  
+package pack;  
+class A{  
+  void msg(){System.out.println("Hello");}  
+}  
+
+//save by B.java  
+package mypack;  
+import pack.*;  
+class B{  
+  public static void main(String args[]){  
+   A obj = new A();//Compile Time Error  
+   obj.msg();//Compile Time Error  
+  }  
+}  
+```
 
 -   In the above example, the scope of class A and its method msg() is default so it cannot be accessed from outside the package.
 
@@ -255,9 +294,31 @@ This is my package!
 -   In this example, we have created the two packages pack and mypack.
 -   The A class of pack package is public, so can be accessed from outside the package. But msg method of this package is declared as protected, so it can be accessed from outside the class only through inheritance.
 
-![](media/56eea381a6ac36709eb73e9329845e4f.png)
+```java
+//save by A.java  
+package pack;  
+public class A{  
+protected void msg(){System.out.println("Hello");}  
+}  
 
-![](media/8b1bfa3b1cc0728150a260ccf1c960ac.png)
+
+//save by B.java  
+package mypack;  
+import pack.*;  
+  
+class B extends A{  
+  public static void main(String args[]){  
+   B obj = new B();  
+   obj.msg();  
+  }  
+}  
+```
+
+**Output:**
+
+```
+Hello
+```
 
 ## 4) Public:
 
@@ -267,9 +328,32 @@ This is my package!
 
 **Example of public access modifier**
 
-![](media/fd60fb93180e05a307c2b891e5a6bd91.png)
+```java
+//save by A.java  
+  
+package pack;  
+public class A{  
+public void msg(){System.out.println("Hello");}  
+}  
 
-![](media/073e6bc54fc5f51334a7f8244bd2bcbd.png)
+//save by B.java  
+  
+package mypack;  
+import pack.*;  
+  
+class B{  
+  public static void main(String args[]){  
+   A obj = new A();  
+   obj.msg();  
+  }  
+}  
+```
+
+**Output:**
+
+```
+Hello
+```
 
 -   Let's understand the access modifiers in Java by a simple table.
 
@@ -295,11 +379,57 @@ How to implement encapsulation in java:
 1.  Make the instance variables private so that they cannot be accessed directly from outside the class. You can only set and get values of these variables through the methods of the class.
 2.  Have getter and setter methods in the class to set and get the values of the fields.
 
-![](media/a0cc5324a7660f7deefb495cda1fd418.png)
+```java
+class EncapsulationDemo{
+    private int ssn;
+    private String empName;
+    private int empAge;
+
+    //Getter and Setter methods
+    public int getEmpSSN(){
+        return ssn;
+    }
+
+    public String getEmpName(){
+        return empName;
+    }
+
+    public int getEmpAge(){
+        return empAge;
+    }
+
+    public void setEmpAge(int newValue){
+        empAge = newValue;
+    }
+
+    public void setEmpName(String newValue){
+        empName = newValue;
+    }
+
+    public void setEmpSSN(int newValue){
+        ssn = newValue;
+    }
+}
+public class EncapsTest{
+    public static void main(String args[]){
+         EncapsulationDemo obj = new EncapsulationDemo();
+         obj.setEmpName("Mario");
+         obj.setEmpAge(32);
+         obj.setEmpSSN(112233);
+         System.out.println("Employee Name: " + obj.getEmpName());
+         System.out.println("Employee SSN: " + obj.getEmpSSN());
+         System.out.println("Employee Age: " + obj.getEmpAge());
+    } 
+}
+```
 
 **Output:**
 
-![](media/48743ac15477a927d30bae18444405bd.png)
+```
+Employee Name: Mario
+Employee SSN: 112233
+Employee Age: 32
+```
 
 **Explaination:**
 
