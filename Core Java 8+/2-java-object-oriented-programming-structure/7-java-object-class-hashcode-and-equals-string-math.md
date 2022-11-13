@@ -2,45 +2,45 @@
 
 **Content**
 
-1\. Object Class in Java
+[1. Object Class in Java](#1-object-class-in-java)
 
-1.1 Methods of object class
+[1.1 Methods of object class](#11-methods-of-object-class)
 
-2\. Object Cloning in Java
+[2. Object Cloning in Java](#2-object-cloning-in-java)
 
-2.1 Why use clone() method ?
+[2.1 Why use clone() method ?](#21-why-use-clone-method-)
 
-2.2 Advantage of object cloning
+[2.2 Advantage of object cloning](#22-advantage-of-object-cloning)
 
-2.3 Disadvantage of object cloning
+[2.3 Disadvantage of object cloning](#23-disadvantage-of-object-cloning)
 
-2.4 Example of clone() method (object cloning)
+[2.4 Example of clone() method (object cloning)](#24-example-of-clone-method-object-cloning)
 
-3\. hashCode
+[3. hashCode](#3-hashcode)
 
-4\. equals
+[4. equals](#4-equals)
 
-5\. Java String
+[5. Java String](#5-java-strings)
 
-5.1. String Methods
+[5.1. String Methods](#51-string-methods)
 
-5.1.1 String toUpperCase() and toLowerCase()
+[5.1.1 String toUpperCase() and toLowerCase()](#511-string-touppercase-and-tolowercase)
 
-5.1.2 String Length
+[5.1.2 String Length](#512-string-length)
 
-5.1.3 Finding a Character in a String
+[5.1.3 Finding a Character in a String](#513-finding-a-character-in-a-string)
 
-5.1.4 String Concatenation
+[5.1.4 String Concatenation](#514-string-concatenation)
 
-5.2 Adding Numbers and Strings
+[5.2 Adding Numbers and Strings](#52-adding-numbers-and-strings)
 
-5.3 Strings - Special Characters
+[5.3 Strings - Special Characters](#53-strings---special-characters)
 
-6\. Class Math
+[6. Math API](#6-math-api)
 
-6.1 Math Methods
+[6.1 Math Methods](#61-math-methods)
 
-7\. References
+[7. References](#7-references)
 
 ## 1. Object Class in Java
 

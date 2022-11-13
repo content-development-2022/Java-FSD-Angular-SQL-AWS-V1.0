@@ -2,9 +2,9 @@
 
 **Content**
 
-1\. OOPs (Object-Oriented Programming System)
+[1. OOPs (Object-Oriented Programming System)](#1-oops-object-oriented-programming-system)
 
-2\. References
+[2. References](#2-references)
 
 ## 1. OOPs (Object-Oriented Programming System)
 

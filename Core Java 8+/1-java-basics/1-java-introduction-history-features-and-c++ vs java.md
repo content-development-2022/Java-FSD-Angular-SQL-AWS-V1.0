@@ -2,23 +2,23 @@
 
 **Content**
 
-1\. What is Java?
+[1. What is Java?](#1-what-is-java)
 
-2\. Application
+[2. Application](#2-application)
 
-2.1. Types of Java Applications
+[2.1. Types of Java Applications](#21-types-of-java-applications)
 
-3\. Java Platforms / Editions
+[3. Java Platforms / Editions](#3-java-platforms--editions)
 
-4\. History of Java
+[4. History of Java](#4-history-of-java)
 
-5\. Java Version History
+[5. Java Version History](#5-java-version-history)
 
-6\. Features of Java
+[6. Features of Java](#6-features-of-java)
 
-7\. C++ Vs Java
+[7. C++ Vs Java](#7-c-vs-java)
 
-8\. References
+[8. References](#8-references)
 
 ## 1. What is Java?
 

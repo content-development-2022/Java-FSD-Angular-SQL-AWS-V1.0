@@ -2,19 +2,19 @@
 
 **Content**
 
-1\. Abstraction in Java
+[1. Abstraction in Java](#1-abstraction-in-java)
 
-1.1 Abstract class in Java
+[1.1 Abstract class in Java](#11-abstract-class-in-java)
 
-1.2 Abstract Method in Java
+[1.2 Abstract Method in Java](#12-abstract-method-in-java)
 
-2\. Interfaces
+[2. Interfaces](#2-interfaces)
 
-2.1 Multiple Interfaces
+[2.1 Multiple Interfaces](#21-multiple-interfaces)
 
-2.2 Difference between abstract class and interface
+[2.2 Difference between abstract class and interface](#22-difference-between-abstract-class-and-interface)
 
-3\. References
+[3. References](#3-references)
 
 ## 1. Abstraction in Java
 

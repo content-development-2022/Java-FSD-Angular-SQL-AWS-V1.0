@@ -2,35 +2,35 @@
 
 **Content**
 
-1\. Polymorphism
+[1. Polymorphism](#1-polymorphism)
 
-2\. Types of Polymorphism
+[2. Types of Polymorphism](#2-types-of-polymorphism)
 
-2.1 Compile-Time Polymorphism /Static Polymorphism/Early Binding
+[2.1 Compile-Time Polymorphism /Static Polymorphism/Early Binding](#21-compile-time-polymorphism-static-polymorphismearly-binding)
 
-2.1.1 Different ways to Overload Methods
+[2.1.1 Different ways to Overload Methods](#211-different-ways-to-overload-methods)
 
-2.1.3 Advantages of compile-time polymorphism:
+[2.1.3 Advantages of compile-time polymorphism:](#213-advantages-of-compile-time-polymorphism)
 
-2.2 Run-Time Polymorphism/Dynamic Polymorphism/Late Binding
+[2.2 Run-Time Polymorphism/Dynamic Polymorphism/Late Binding](#22-run-time-polymorphismdynamic-polymorphismlate-binding)
 
-2.2.1 Rules for method overriding
+[2.2.1 Rules for method overriding](#221-rules-for-method-overriding)
 
-2.2.2 Difference between Method Overloading and Method Overriding in Java
+[2.2.2 Difference between Method Overloading and Method Overriding in Java](#222-difference-between-method-overloading-and-method-overriding-in-java)
 
-3\. super Keyword in Java
+[3. super Keyword in Java](#3-super-keyword-in-java)
 
-4\. Object Typecasting
+[4. Object Typecasting](#4-object-typecasting)
 
-4.1 Upcasting
+[4.1 Upcasting](#41-upcasting)
 
-4.2 Downcasting
+[4.2 Downcasting](#42-downcasting)
 
-4.3 Why we need Upcasting and Downcasting?
+[4.3 Why we need Upcasting and Downcasting?](#43-why-we-need-upcasting-and-downcasting)
 
-4.4 Difference between Upcasting and Downcasting
+[4.4 Difference between Upcasting and Downcasting](#44-difference-between-upcasting-and-downcasting)
 
-5\. References
+[5. References](#5-references)
 
 ## 1. Polymorphism
 
@@ -510,44 +510,3 @@ Child method is called
 2.  https://www.tutorialspoint.com/Runtime-Polymorphism-in-Java
 3.  https://www.javatpoint.com/super-keyword
 4.  https://www.javatpoint.com/upcasting-and-downcasting-in-java
-
-**For example**, think of a superclass called **Animal** that has a method called **animalSound().** Subclasses of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.).
-
-```
-class Animal {
-  public void animalSound() {
-    System.out.println("The animal makes a sound");
-  }
-}
-
-class Pig extends Animal {
-  public void animalSound() {
-    System.out.println("The pig says: wee wee");
-  }
-}
-
-class Dog extends Animal {
-  public void animalSound() {
-    System.out.println("The dog says: bow wow");
-  }
-}
-
-class Main {
-  public static void main(String[] args) {
-    Animal myAnimal = new Animal();  // Create a Animal object
-    Animal myPig = new Pig();  // Create a Pig object
-    Animal myDog = new Dog();  // Create a Dog object
-    myAnimal.animalSound();
-    myPig.animalSound();
-    myDog.animalSound();
-  }
-}
-```
-
-**Output:**
-
-```
-The animal makes a sound
-The pig says: wee wee
-The dog says: bow wow
-```
