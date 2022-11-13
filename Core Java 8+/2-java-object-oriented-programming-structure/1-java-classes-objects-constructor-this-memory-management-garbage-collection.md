@@ -42,9 +42,9 @@
 
 [7. Introduction of Stack and Heap in Java](#7-introduction-of-stack-and-heap-in-java)
 
-7.1 Stack Memory
+[7.1 Stack Memory](#71-stack-memory)
 
-7.2 Heap Memory
+[7.2 Heap Memory](#72-heap-memory)
 
 [7.3 Difference between Stack and Heap Memory](#73-difference-between-stack-and-heap-memory)
 
