@@ -52,7 +52,7 @@ Let’s undergithubstand the Node.js process model and understand why we should 
 
 -   Dedicated thread executes a particular request and does not return to thread pool until it completes the execution and returns a response.
 
-![traditional web server model](media/2a6f90be51c536c84d17e3509a4a1ff6.png)Traditional Web Server Model
+![traditional web server model](media/nodejs-process-1.png)Traditional Web Server Model
 
 ## Node.js Process Model
 
@@ -76,6 +76,6 @@ Node.js Process Model
 
 -   Node.js process model increases the performance and scalability with a few caveats.
 
-    ![node.js process model](media/343c1573c2f76712c6863533c0a61324.png)
+    ![node.js process model](media/nodejs-process-2.png)
 
 -   Node.js is not fit for an application which performs CPU-intensive operations like image processing or other heavy computation work because it takes time to process a request and thereby blocks the single thread.
