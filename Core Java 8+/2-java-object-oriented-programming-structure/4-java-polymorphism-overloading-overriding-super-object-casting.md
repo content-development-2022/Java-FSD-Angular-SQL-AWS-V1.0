@@ -2,35 +2,35 @@
 
 **Content**
 
-1\. Polymorphism
+[1. Polymorphism](#1-polymorphism)
 
-2\. Types of Polymorphism
+[2. Types of Polymorphism](#2-types-of-polymorphism)
 
-2.1 Compile-Time Polymorphism /Static Polymorphism/Early Binding
+[2.1 Compile-Time Polymorphism /Static Polymorphism/Early Binding](#21-compile-time-polymorphism-static-polymorphismearly-binding)
 
-2.1.1 Different ways to Overload Methods
+[2.1.1 Different ways to Overload Methods](#211-different-ways-to-overload-methods)
 
-2.1.3 Advantages of compile-time polymorphism:
+[2.1.3 Advantages of compile-time polymorphism:](#213-advantages-of-compile-time-polymorphism)
 
-2.2 Run-Time Polymorphism/Dynamic Polymorphism/Late Binding
+[2.2 Run-Time Polymorphism/Dynamic Polymorphism/Late Binding](#22-run-time-polymorphismdynamic-polymorphismlate-binding)
 
-2.2.1 Rules for method overriding
+[2.2.1 Rules for method overriding](#221-rules-for-method-overriding)
 
-2.2.2 Difference between Method Overloading and Method Overriding in Java
+[2.2.2 Difference between Method Overloading and Method Overriding in Java](#222-difference-between-method-overloading-and-method-overriding-in-java)
 
-3\. super Keyword in Java
+[3. super Keyword in Java](#3-super-keyword-in-java)
 
-4\. Object Typecasting
+[4. Object Typecasting](#4-object-typecasting)
 
-4.1 Upcasting
+[4.1 Upcasting](#41-upcasting)
 
-4.2 Downcasting
+[4.2 Downcasting](#42-downcasting)
 
-4.3 Why we need Upcasting and Downcasting?
+[4.3 Why we need Upcasting and Downcasting?](#43-why-we-need-upcasting-and-downcasting)
 
-4.4 Difference between Upcasting and Downcasting
+[4.4 Difference between Upcasting and Downcasting](#44-difference-between-upcasting-and-downcasting)
 
-5\. References
+[5. References](#5-references)
 
 ## 1. Polymorphism
 

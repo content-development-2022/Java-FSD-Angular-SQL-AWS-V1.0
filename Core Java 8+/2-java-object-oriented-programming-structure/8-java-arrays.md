@@ -2,59 +2,59 @@
 
 **Content**
 
-1\. Arrays in Java
+[1. Arrays in Java](#1-arrays-in-java)
 
-2\. Types of Arrays in java
+[2. Types of Arrays in java](#2-types-of-arrays-in-java)
 
-2.1 Single Dimensional Array in Java
+[2.1 Single Dimensional Array in Java](#21-single-dimensional-array-in-java)
 
-2.1.1 Declaring 1D Array Variables in Java
+[2.1.1 Declaring 1D Array Variables in Java](#211-declaring-1d-array-variables-in-java)
 
-2.1.2 Initializing 1D Array in Java
+[2.1.2 Initializing 1D Array in Java](#212-initializing-1d-array-in-java)
 
-2.1.3 Accessing 1D Array elements in Java
+[2.1.3 Accessing 1D Array elements in Java](#213-accessing-1d-array-elements-in-java)
 
-2.1.4 Iterating/Traversing 1D Arrays in Java
+[2.1.4 Iterating/Traversing 1D Arrays in Java](#214-iteratingtraversing-1d-arrays-in-java)
 
-2.1.5 Change an 1D Array Element
+[2.1.5 Change an 1D Array Element](#215-change-an-1d-array-element)
 
-2.1.6 1D Array Length
+[2.1.6 1D Array Length](#216-1d-array-length)
 
-2.2 Multiple Dimensional Array in Java
+[2.2 Multiple Dimensional Array in Java](#22-multiple-dimensional-array-in-java)
 
-2.2.1 Declaring Multiple Dimensional Array Variables in Java
+[2.2.1 Declaring Multiple Dimensional Array Variables in Java](#221-declaring-multiple-dimensional-array-variables-in-java)
 
-2.2.2 Two Dimensional Array in Java
+[2.2.2 Two Dimensional Array in Java](#222-two-dimensional-array-in-java)
 
-2.2.2.1 Declaring 2D Array Variables in Java
+[2.2.2.1 Declaring 2D Array Variables in Java](#2221-declaring-2d-array-variables-in-java)
 
-2.2.2.2 Initializing 2D Array in Java
+[2.2.2.2 Initializing 2D Array in Java](#2222-initializing-2d-array-in-java)
 
-2.2.2.3 Accessing 2D Array elements in Java
+[2.2.2.3 Accessing 2D Array elements in Java](#2223-accessing-2d-array-elements-in-java)
 
-2.2.2.4 Iterating/Traversing 2D Array in Java
+[2.2.2.4 Iterating/Traversing 2D Array in Java](#2224-iteratingtraversing-2d-array-in-java)
 
-2.3 Advantages of array
+[2.3 Advantages of array](#23-advantages-of-array)
 
-2.4 Disadvantages of array
+[2.4 Disadvantages of array](#24-disadvantages-of-array)
 
-3\. Jagged Array in Java
+[3. Jagged Array in Java](#3-jagged-array-in-java)
 
-3.1 Declaration and Initialization of Jagged array in java
+[3.1 Declaration and Initialization of Jagged array in java](#31-declaration-and-initialization-of-jagged-array-in-java)
 
-4\. Array of Objects in Java
+[4. Array of Objects in Java](#4-array-of-objects-in-java)
 
-4.1 Declaring an Array of Objects in Java
+[4.1 Declaring an Array of Objects in Java](#41-declaring-an-array-of-objects-in-java)
 
-4.2 Instantiate an Array of Objects in Java
+[4.2 Instantiate an Array of Objects in Java](#42-instantiate-an-array-of-objects-in-java)
 
-4.3 Initializing Array of Objects
+[4.3 Initializing Array of Objects](#43-initializing-array-of-objects)
 
-4.3.1 By using the constructor
+[4.3.1 By using the constructor](#431-by-using-the-constructor)
 
-4.3.2 By using a separate member method
+[4.3.2 By using a separate member method](#432-by-using-a-separate-member-method)
 
-5\. References
+[5. References](#5-references)
 
 ## 1. Arrays in Java
 

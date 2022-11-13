@@ -2,27 +2,27 @@
 
 **Content**
 
-1\. Inheritance in java
+[1. Inheritance in java](#1-inheritance-in-java)
 
-1.1 Why use inheritance in java
+[1.1 Why use inheritance in java](#11-why-use-inheritance-in-java)
 
-1.2 Terms used in inheritance
+[1.2 Terms used in inheritance](#12-terms-used-in-inheritance)
 
-2\. Types of inheritance in java
+[2. Types of inheritance in java](#2-types-of-inheritance-in-java)
 
-2.1 Single inheritance
+[2.1 Single inheritance](#21-single-inheritance)
 
-2.2 Multilevel inheritance
+[2.2 Multilevel inheritance](#22-multilevel-inheritance)
 
-2.3 Hierarchical inheritance
+[2.3 Hierarchical inheritance](#23-hierarchical-inheritance)
 
-3\. Association in java
+[3. Association in java](#3-association-in-java)
 
-4\. Aggregation in Java
+[4. Aggregation in Java](#4-aggregation-in-java)
 
-5\. Association vs Aggregation vs Composition
+[5. Association vs Aggregation vs Composition](#5-association-vs-aggregation-vs-composition)
 
-6\. References
+[6. References](#6-references)
 
 ## 1. Inheritance in java
 
