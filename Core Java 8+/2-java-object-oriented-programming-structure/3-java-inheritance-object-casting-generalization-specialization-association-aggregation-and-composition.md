@@ -16,7 +16,7 @@
 
 [2.3 Hierarchical inheritance](#23-hierarchical-inheritance)
 
-[3. Object Typecasting](#4-object-typecasting)
+[3. Object Typecasting](#3-object-typecasting)
 
 [3.1 Upcasting](#31-upcasting)
 
@@ -26,11 +26,11 @@
 
 [3.4 Difference between Upcasting and Downcasting](#44-difference-between-upcasting-and-downcasting)
 
-[5. Association in java](#3-object-typecasting)
+[5. Association in java](#5-association-in-java)
 
 [6. Aggregation in Java](#6-aggregation-in-java)
 
-[7. Association vs Aggregation vs Composition](#5-association-vs-aggregation-vs-composition)
+[7. Association vs Aggregation vs Composition](#7-association-vs-aggregation-vs-composition)
 
 [8. References](#8-references)
 
