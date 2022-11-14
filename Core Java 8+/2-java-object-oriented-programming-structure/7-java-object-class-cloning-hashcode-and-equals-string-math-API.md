@@ -1,4 +1,4 @@
-# Java Object class, hashCode and equals
+# Java Object class, Cloning, hashCode, equals, String and Math API
 
 **Content**
 
