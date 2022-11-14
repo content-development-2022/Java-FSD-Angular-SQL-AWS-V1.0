@@ -20,7 +20,7 @@
 
 [3. super Keyword in Java](#3-super-keyword-in-java)
 
-[4. References](#5-references)
+[4. References](#4-references)
 
 ## 1. Polymorphism
 
