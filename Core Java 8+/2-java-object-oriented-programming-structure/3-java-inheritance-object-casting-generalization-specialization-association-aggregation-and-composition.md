@@ -24,7 +24,7 @@
 
 [3.3 Why we need Upcasting and Downcasting?](#33-why-we-need-upcasting-and-downcasting)
 
-[3.4 Difference between Upcasting and Downcasting](#44-difference-between-upcasting-and-downcasting)
+[3.4 Difference between Upcasting and Downcasting](#34-difference-between-upcasting-and-downcasting)
 
 [5. Association in java](#5-association-in-java)
 
