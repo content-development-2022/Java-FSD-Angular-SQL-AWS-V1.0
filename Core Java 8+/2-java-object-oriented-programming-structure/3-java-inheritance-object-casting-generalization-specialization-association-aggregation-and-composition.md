@@ -1,4 +1,4 @@
-# Java Inheritance, Association, Aggregation and Composition
+# Java Inheritance, Object Typecasting, Generalization, Specialization, Association, Aggregation and Composition
 
 **Content**
 
