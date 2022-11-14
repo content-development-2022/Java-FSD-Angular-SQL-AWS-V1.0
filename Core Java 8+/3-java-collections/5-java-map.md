@@ -254,15 +254,18 @@ Key is: 111 & value is: Logan
 -   The TreeMap class that implements treemap in Java is a part of java.util package. It implements the Map interface.
 -   The TreeMap class extends AbstractMap class and also implements the NavigableMap and SortedMap (indirectly) interface.
 -   TreeMap is not synchronized.
--   By default, TreeMap elements are in ascending order by default.
+-   By default, TreeMap elements are in ascending order.
 -   TreeMap does not allow duplicate elements.
 -   TreeMap allows null values but not null keys.
+-   It is substantially slower than HashMap.
 
 **The below diagram shows the class hierarchy for the TreeMap class.**
 
--   It is substantially slower than HashMap.
+![class hierarchy](media/treemap-hierarchy.png)
 
-    ![How TreeMap Works Internally in Java - Javatpoint](media/treemap.png)
+**How TreeMap works internally in Java?**
+
+![How TreeMap Works Internally in Java - Javatpoint](media/treemap.png)
 
 ## 1.2.1 Creating a TreeMap
 
@@ -642,4 +645,3 @@ key is: 111 & Value is: Logan
 4.  https://www.programiz.com/java-programming/map
 5.  https://www.digitalocean.com/community/tutorials/java-hashmap
 6.  https://prutor.ai/linkedhashmap-in-java/
-7.  
