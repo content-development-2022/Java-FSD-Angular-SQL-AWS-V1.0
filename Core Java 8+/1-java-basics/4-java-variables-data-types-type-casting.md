@@ -32,7 +32,7 @@
 
 [9. References](#9-references)
 
-## 1. Java Variables
+# 1. Java Variables
 
 -   A variable is the name of a reserved area allocated in memory.
 -   In other words, it is a name of the memory location.
@@ -67,32 +67,32 @@ int data = 50; // here data is a variable
 -   It means, all variables must be declared before its use.
 -   That is why we need to declare variable's type and name.
 
-## 2. Types of Variables
+# 2. Types of Variables
 
 -   There are three types of variables in Java
 
 ![](media/types-variables.png)
 
-### 2.1 Local Variable
+## 2.1 Local Variable
 
 -   A variable declared inside the body of the method is called local variable.
 -   You can use this variable only within that method and the other methods in the class aren't even aware that the variable exists.
 -   A local variable cannot be defined with "static" keyword.
 
-### 2.2 Instance Variable
+## 2.2 Instance Variable
 
 -   A variable declared inside the class but outside the body of the method, is called an instance variable.
 -   It is not declared as static.
 -   It is called an instance variable because its value is instance-specific and is not shared among instances.
 
-### 2.3 Static variable
+## 2.3 Static variable
 
 -   A variable that is declared as static is called a static variable.
 -   It cannot be local.
 -   You can create a single copy of the static variable and share it among all the instances of the class.
 -   Memory allocation for static variables happens only once when the class is loaded in the memory.
 
-### 2.4 Example to understand the three types of variables in java
+## 2.4 Example to understand the three types of variables in java
 
 ```java
 public class A  
@@ -110,7 +110,7 @@ public class A  
 }//end of class   
 ```
 
-## 3. Display Variables
+# 3. Display Variables
 
 -   The **println()** method is often used to display variables.
 -   To combine both text and a variable, use the **+** character.
@@ -132,7 +132,7 @@ public class Main {  
     Hello John
 ```
 
-## 4. Java Constants/Literals
+# 4. Java Constants/Literals
 
 -   Literals in Java are a synthetic representation of boolean, character, numeric, or string data.
 -   They are a means of expressing particular values within a program.
@@ -200,7 +200,7 @@ null
 ?
 ```
 
-## 5. Data Types in Java
+# 5. Data Types in Java
 
 -   Data types specify the different sizes and values that can be stored in the variable.
 
@@ -213,7 +213,7 @@ null
 -   To know more information about interfaces [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/8-java-abstraction-abstract-classes-and-methods-interfaces.md).
 -   To know more information about arrays [click here](https://github.com/content-development-2022/Revature-Next-Gen-Java-AWS-Angular-Extended-v3.1/blob/main/Core%20Java%208%2B/2-java-object-oriented-programming-structure/java-arrays.md).
 
-## 6. Primitive Data Types
+# 6. Primitive Data Types
 
 -   In Java language, primitive data types are the building blocks of data manipulation.
 -   A primitive data type specifies the size and type of variable values, and it has no additional methods.
@@ -234,7 +234,7 @@ null
 | boolean       | 1 bit    | Stores true or false values                                                       |
 | char          | 2 bytes  | Stores a single character/letter or ASCII values                                  |
 
-### 6.1. byte Data Type
+## 6.1. byte Data Type
 
 -   The byte data type is an 8-bit signed two's complement integer.
 -   Its value lies between -128 to 127 (inclusive).
@@ -249,7 +249,7 @@ byte a = 10;
 byte b = -20;
 ```
 
-### 6.2. short Data Type
+## 6.2. short Data Type
 
 -   The short data type is a 16-bit signed two's complement integer.
 -   Its value lies between -32,768 to 32,767 (inclusive).
@@ -264,7 +264,7 @@ short s = 10100;
 short r = -6000;
 ```
 
-### 6.3. int Data Type
+## 6.3. int Data Type
 
 -   The int data type is a 32-bit signed two's complement integer.
 -   Its value lies between - 2,147,483,648 (-2\^31) to 2,147,483,647 (2\^31 -1) (inclusive).
@@ -278,7 +278,7 @@ int a = 100000;
 int b = -200000 ;
 ```
 
-### 6.4. long Data Type
+## 6.4. long Data Type
 
 -   The long data type is a 64-bit two's complement integer.
 -   Its value lies between -9,223,372,036,854,775,808(-2\^63) to 9,223,372,036,854,775,807(2\^63 -1)(inclusive).
@@ -292,7 +292,7 @@ long a = 1500009900L;
 long b = -1508909900L;
 ```
 
-### 6.5. float Data Type
+## 6.5. float Data Type
 
 -   The float data type is a single-precision 32-bit IEEE 754 floating point.
 -   Its value is unlimited.
@@ -305,7 +305,7 @@ long b = -1508909900L;
 float f1 = 234.5;
 ```
 
-### 6.6. double Data Type
+## 6.6. double Data Type
 
 -   The double data type is a double-precision 64-bit IEEE 754 floating point.
 -   Its value range is unlimited.
@@ -318,7 +318,7 @@ float f1 = 234.5;
 double d1 = 12.3;
 ```
 
-### 6.7. char Data Type
+## 6.7. char Data Type
 
 -   The char data type is a single 16-bit Unicode character.
 -   Its value lies between '\\u0000' (or 0) to '\\uffff' (or 65,535 inclusive).
@@ -330,7 +330,7 @@ double d1 = 12.3;
 char letter= 'A' ;
 ```
 
-### 6.8. boolean Data Type
+## 6.8. boolean Data Type
 
 -   The boolean data type is used to store only two possible values: **true and false**.
 -   This data type is used for simple flags that track true/false conditions.
@@ -343,20 +343,20 @@ boolean a = false;
 boolean b = true;
 ```
 
-## 7. Type Casting
+# 7. Type Casting
 
 -   In Java, **type casting** is a method or process that converts one primitive data type into another data type in both ways - manually and automatically.
 -   The automatic conversion is done by the compiler and manual conversion is performed by the programmer.
 -   Convert a value from one data type to another data type is known as **type casting**.
 
-## 8. Types of Type Casting
+# 8. Types of Type Casting
 
 There are two types of type casting:
 
 -   Widening Type Casting
 -   Narrowing Type Casting
 
-### 8.1 Widening Type Casting
+## 8.1 Widening Type Casting
 
 -   Converting a lower data type into a higher one is called **widening** type casting.
 -   It is also known as **implicit conversion** or **casting down**.
@@ -399,7 +399,7 @@ After conversion, the float value is: 7.0
 -   In the above example, we have taken a variable x and converted it into a long type.
 -   After that, the long type is converted into the float type.
 
-### 8.2 Narrowing Type Casting
+## 8.2 Narrowing Type Casting
 
 -   Converting a higher data type into a lower one is called **narrowing** type casting.
 -   It is also known as **explicit conversion** or **casting up**.
@@ -436,7 +436,7 @@ After conversion into long type: 166
 After conversion into int type: 166
 ```
 
-## 9. References
+# 9. References
 
 1.  https://www.javatpoint.com/java-variables
 2.  https://www.w3schools.com/java/java_operators.asp

@@ -8,7 +8,7 @@
 
 [2.1 Fields in Java?](#21-fields-in-java)
 
-[2.2 What is a method in Java?](#22-what-is-a-method-in-java)
+[2.2 What is a method in Java?](#22-what-is-a-method-in-java)	
 
 [3. What is an Object in Java?](#3-what-is-an-object-in-java)
 

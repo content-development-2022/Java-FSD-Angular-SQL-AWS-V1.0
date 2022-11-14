@@ -28,7 +28,7 @@
 
 [5. References](#5-references)
 
-## 1. Internal Details of Program
+# 1. Internal Details of Program
 
 Let's see what happens while we compile and run the Java program.
 
@@ -56,7 +56,7 @@ Let's see what happens while we compile and run the Java program.
 
 -   Reads bytecode stream and then executes the instructions.
 
-## 2. First Java Program \| Hello Java Example
+# 2. First Java Program \| Hello Java Example
 
 -   Here we will see how to write a simple program in Java.
 
@@ -198,7 +198,7 @@ abstract public static void main(String[] args)  
 -   Here DOS/command prompt doesn't recognize javac and java as internal or external command.
 -   To overcome this problem, we need to set a path.
 
-## 3. How to set path in Java
+# 3. How to set path in Java
 
 -   The path is required to be set for using tools such as javac, java, etc.
 -   If you are saving the Java source file inside the JDK/bin directory, the path is not required to be set because all the tools will be available in the current directory. This is highly not recommended as we do not want to disturb the Java software installed in our computer.
@@ -283,7 +283,7 @@ For setting the path to JDK permanently, you need to follow these steps:
 -   Now your permanent path is set.
 -   You can now execute any program of java from any drive/folder/location.
 
-## 4. Intergrated Development Environment (IDE)
+# 4. Intergrated Development Environment (IDE)
 
 -   **An IDE, or Integrated Development Environment, is a program which helps you write software.**
 -   **An IDE helps you organise your software projects, write code, and then test and debug it.**
@@ -301,7 +301,7 @@ Can an IDE do other things?
 -   Some IDEs add features for running tests, writing documentation, and even creating diagrams.
 -   But coding, compiling and debugging are three core features of any decent IDE.
 
-### Do you need an IDE to write Java code?
+**Do you need an IDE to write Java code?**
 
 -   No, you don’t need to write Java code in an IDE. You can use any text editor you like, and then compile the code with javac.
 -   You could be writing code for the Mars rover, nuclear power stations, or even financial trading algorithms, with trusty Windows Notepad, and javac (the Java compiler command).
@@ -312,7 +312,7 @@ Can an IDE do other things?
 -   An IDE is useful once you’re past the beginner stage
 -   An IDE helps you organise your projects, run tests, compile the code, format it correctly, and much more.
 
-### The most popular Java IDEs
+**The most popular Java IDEs**
 
 Some of the top Java IDEs in use today are:
 
@@ -322,7 +322,7 @@ Some of the top Java IDEs in use today are:
 -   Oracle JDeveloper
 -   Visual Studio Code (with the Java Extension Pack installed)
 
-## 5. References
+# 5. References
 
 1.  <https://www.javatpoint.com/internal-details-of-hello-java-program>
 2.  https://www.javatpoint.com/simple-program-of-java

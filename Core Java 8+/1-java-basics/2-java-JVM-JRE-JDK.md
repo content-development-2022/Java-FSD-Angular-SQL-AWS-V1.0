@@ -1,6 +1,6 @@
 # JVM, JRE, JDK
 
-## Content
+**Content**
 
 [1. What is JVM (Java Virtual Machine)?](#1-what-is-jvm-java-virtual-machine)
 
@@ -16,7 +16,7 @@
 
 [7. References](#7-references)
 
-## 1. What is JVM (Java Virtual Machine)?
+# 1. What is JVM (Java Virtual Machine)?
 
 -   The Java virtual machine is a program whose purpose is to execute other programs.
 -   The JVM has two primary functions:
@@ -27,7 +27,7 @@
     -   **Technical definition:** The JVM is the specification for a software program that executes code and provides the runtime environment for that code.
     -   **Everyday definition:** The JVM is how we run our Java programs. We configure the settings and then rely on the JVM to manage program resources during execution.
 
-## 2. JVM languages
+# 2. JVM languages
 
 -   While it was once only for Java, the JVM is flexible and powerful enough to support many other languages today.
 -   Among the most popular are Scala, used for real-time, concurrent applications, and Groovy, a dynamically typed scripting language.
@@ -37,7 +37,7 @@
     -   The JVM is widely deployed, heavily used, and maintained by some very bright programmers, both corporate and open source.
     -   The OpenJDK project started with Sun Microsystems' decision to open-source Java and has continued through Oracle's stewardship.
 
-## 3. The three parts of the JVM
+# 3. The three parts of the JVM
 
 It could be said there are three aspects to the JVM:
 
@@ -75,7 +75,7 @@ Let's consider each of these.
 -   Most of the time, when developers talk about "the JVM," we are referring to a JVM instance running in a software development or production environment.
 -   You might say, "Hey, how much memory is the JVM on that server using?" or, "I can't believe I created a circular call and a stack overflow error crashed my JVM. What a newbie mistake!"
 
-## 4. JVM Architecture
+# 4. JVM Architecture
 
 -   Java was developed with the concept of WORA (Write Once Run Anywhere), which runs on a VM.
 -   The compiler compiles the Java file into a Java .class file, then that .class file is input into the JVM, which loads and executes the class file.
@@ -93,7 +93,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 2.  Runtime Data Area
 3.  Execution Engine
 
-## 4.2.1 ClassLoader Subsystem
+### 4.2.1 ClassLoader Subsystem
 
 -   Java's dynamic class loading functionality is handled by the ClassLoader subsystem.
 -   It loads, links. and initializes the class file when it refers to a class for the first time at runtime, not compile time.
@@ -117,7 +117,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 -   This is the final phase of ClassLoading.
 -   Here, all static variables will be assigned with the original values, and the static block will be executed.
 
-## 4.2.2 Runtime Data Area
+### 4.2.2 Runtime Data Area
 
 -   The Runtime Data Area is divided into five major components:
     -   **Method Area**
@@ -142,7 +142,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
         -   Native Method Stack holds native method information.
         -   For every thread, a separate native method stack will be created.
 
-## 4.2.3 Execution Engine
+### 4.2.3 Execution Engine
 
 -   The bytecode, which is assigned to the Runtime Data Area, will be executed by the Execution Engine. The Execution Engine reads the bytecode and exe cutes it piece by piece.
     -   **Interpreter** – The interpreter interprets the bytecode faster but executes slowly. The disadvantage of the interpreter is that when one method is called multiple times, every time a new interpretation is required.
@@ -155,7 +155,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
     -   **Java Native Interface (JNI):** JNI will be interacting with the Native Method Libraries and provides the Native Libraries required for the Execution Engine.
     -   **Native Method Libraries:** This is a collection of the Native Libraries, which is required for the Execution Engine.
 
-## 5. What is JRE?
+# 5. What is JRE?
 
 -   JRE (Java Runtime Environment) is an installation package that provides an environment to only run(not develop) the java program(or application) in your machine. - JRE is only used by those who only want to run Java programs that are end-users of your system.
 -   JRE is also written as Java RTE (RunTime Environment).
@@ -164,7 +164,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 
 ![](media/jre.png)
 
-## 6. What is JDK?
+# 6. What is JDK?
 
 -   JDK (Java Development Kit) is a Kit that provides the environment to develop and execute(run) the Java program.
 -   JDK is a kit(or package) that includes two things
@@ -174,7 +174,7 @@ As shown in the above architecture diagram, the JVM is divided into three main s
 
 ![](media/jdk.png)
 
-## 7. References
+# 7. References
 
 1.  https://www.javatpoint.com/difference-between-jdk-jre-and-jvm
 2.  https://www.javatpoint.com/jvm-java-virtual-machine
