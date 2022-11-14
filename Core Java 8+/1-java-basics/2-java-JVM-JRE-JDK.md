@@ -1,6 +1,6 @@
 # JVM, JRE, JDK
 
-** Content **
+**Content**
 
 [1. What is JVM (Java Virtual Machine)?](#1-what-is-jvm-java-virtual-machine)
 
