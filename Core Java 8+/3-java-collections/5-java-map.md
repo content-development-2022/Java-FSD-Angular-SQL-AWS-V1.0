@@ -2,15 +2,15 @@
 
 **Content**
 
-1\. Map
+[1. Map](#1-map)
 
-1.1 HashMap
+[1.1 HashMap](#11-hashmap)
 
-1.2 TreeMap
+[1.2 TreeMap](#12-treemap)
 
-1.3 LinkedHashMap
+[1.3 LinkedHashMap](#13-linkedhashmap)
 
-2\. References
+[2. References](#2-references)
 
 ## 1. Map
 
@@ -144,7 +144,7 @@ capitalCities.size();
 
 **Note:** Use the keySet() method if you only want the keys, and use the values() method if you only want the values:
 
-**Example-1**: **Print keys using for each loop**
+**Example-1**: **Print only keys using for each loop**
 
 ```java
 import java.util.HashMap;
@@ -173,7 +173,7 @@ England
 Germany
 ```
 
-**Example-2: Print values** **using for each loop**
+**Example-2: Print only values** **using for each loop**
 
 ```java
 import java.util.HashMap;

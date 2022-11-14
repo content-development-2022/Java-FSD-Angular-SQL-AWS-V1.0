@@ -16,13 +16,23 @@
 
 [2.3 Hierarchical inheritance](#23-hierarchical-inheritance)
 
-[3. Association in java](#3-association-in-java)
+[3. Object Typecasting](#4-object-typecasting)
 
-[4. Aggregation in Java](#4-aggregation-in-java)
+[3.1 Upcasting](#31-upcasting)
 
-[5. Association vs Aggregation vs Composition](#5-association-vs-aggregation-vs-composition)
+[3.2 Downcasting](#32-downcasting)
 
-[6. References](#6-references)
+[3.3 Why we need Upcasting and Downcasting?](#33-why-we-need-upcasting-and-downcasting)
+
+[3.4 Difference between Upcasting and Downcasting](#44-difference-between-upcasting-and-downcasting)
+
+[5. Association in java](#3-object-typecasting)
+
+[6. Aggregation in Java](#6-aggregation-in-java)
+
+[7. Association vs Aggregation vs Composition](#5-association-vs-aggregation-vs-composition)
+
+[8. References](#8-references)
 
 ## 1. Inheritance in java
 
@@ -220,7 +230,138 @@ class C extends A,B{//suppose if it were  
 Compile Time Error
 ```
 
-## 3. Association in java
+## 3. Object Typecasting
+
+-   A process of converting one data type to another is known as **Typecasting**.
+-   In Java, the object can also be typecasted like the datatypes.
+-   Parent and Child objects are two types of objects.
+-   So, there are two types of typecasting possible for an object, i.e., **Parent to Child** and **Child to Parent** or can say **Upcasting** and **Downcasting**.
+-   Typecasting is used to ensure whether variables are correctly processed by a function or not.
+-   In Upcasting and Downcasting, we typecast a child object to a parent object and a parent object to a child object simultaneously.
+-   We can perform Upcasting implicitly or explicitly, but downcasting cannot be implicitly possible.
+
+![](media/object-casting.png)
+
+## 3.1 Upcasting
+
+-   Upcasting is a type of object typecasting in which a **child object** is typecasted to a **parent class object**.
+-   By using the Upcasting, we can easily access the variables and methods of the parent class to the child class.
+-   Here, we don't access all the variables and the method.
+-   We access only some specified variables and methods of the child class.
+-   Upcasting is also known as **Generalization** and **Widening**.
+
+**Example:**
+
+```java
+class  Parent{  
+   void PrintData() {  
+      System.out.println("method of parent class");  
+   }  
+}  
+  
+class Child extends Parent {  
+   void PrintData() {  
+      System.out.println("method of child class");  
+   }  
+}  
+class UpcastingExample{  
+   public static void main(String args[]) {  
+        
+      Parent obj1 = (Parent) new Child();  
+      Parent obj2 = (Parent) new Child();   
+      obj1.PrintData();  
+      obj2.PrintData();  
+   }  
+}  
+```
+
+**Output:**
+
+```
+Method of child class
+Method of child class
+```
+
+## 3.2 Downcasting
+
+-   **Downcasting** is another type of object typecasting.
+-   In Downcasting, we assign a parent class reference object to the child class.
+-   In Java, we cannot assign a parent class reference object to the child class, but if we perform downcasting, we will not get any compile-time error.
+-   However, when we run it, it throws the **"ClassCastException"**.
+-   Now the point is if downcasting is not possible in Java, then why is it allowed by the compiler? In Java, some scenarios allow us to perform downcasting.
+-   Below is an example of downcasting in which both the valid and the invalid scenarios are explained:
+
+**Example:**
+
+```java
+//Parent class  
+class Parent {   
+    String name;   
+    
+    // A method which prints the data of the parent class   
+    void showMessage()   
+    {   
+        System.out.println("Parent method is called");   
+    }   
+}   
+    
+// Child class   
+class Child extends Parent {   
+    int age;   
+    
+    // Performing overriding  
+    @Override  
+    void showMessage()   
+    {   
+        System.out.println("Child method is called");   
+    }   
+}   
+    
+public class Downcasting{  
+    
+    public static void main(String[] args)   
+    {   
+        Parent p = new Child();  
+        p.name = "Shubham";  
+          
+        // Performing Downcasting Implicitly   
+        //Child c = new Parent(); // it gives compile-time error   
+          
+        // Performing Downcasting Explicitly   
+        Child c = (Child)p;   
+    
+        c.age = 18;   
+        System.out.println(c.name);   
+        System.out.println(c.age);   
+        c.showMessage();   
+    }   
+}  
+```
+
+**Output:**
+
+```
+Shubham
+18
+Child method is called
+```
+
+## 3.3 Why we need Upcasting and Downcasting?
+
+-   In Java, we rarely use **Upcasting**. We use it when we need to develop a code that deals with only the parent class.
+-   **Downcasting** is used when we need to develop a code that accesses behaviors of the child class.
+
+![](media/need-upcasting-downcasting.png)
+
+## 3.4 Difference between Upcasting and Downcasting
+
+-   These are the following differences between Upcasting and Downcasting:
+
+![](media/difference-upcasting-downcasting.png)
+
+## 
+
+## 5. Association in java
 
 -   Association establishes relationship between two separate **classes** through their **objects**.
 -   The relationship can be one to one, One to many, many to one and many to many.
@@ -261,7 +402,7 @@ Andy is a driver of car Id: 9988
 
 -   In the above example, there is a one to one relationship (**Association**) between two classes: CarClass and Driver. Both the classes represent two separate entities.
 
-## 4. Aggregation in Java
+## 6. Aggregation in Java
 
 -   If a class have an entity reference, it is known as Aggregation.
 -   Aggregation represents **HAS-A** relationship.
@@ -333,7 +474,7 @@ India
 -   The above example shows the **Aggregation** between Student and Address classes.
 -   You can see that in Student class i have declared a property of type Address to obtain student address.
 
-## 5. Association vs Aggregation vs Composition
+## 7. Association vs Aggregation vs Composition
 
 **difference between Association, Aggregation and Composition**:
 
@@ -359,9 +500,10 @@ India
 -   In other words when the classes (entities) are dependent on each other and their life span are same (if one dies then another one too) then its a composition.
 -   Heart class has no sense if Human class is not present.
 
-## 6. References
+## 8. References
 
 1.  https://www.javatpoint.com/inheritance-in-java
 2.  https://www.javatpoint.com/aggregation-in-java
 3.  https://beginnersbook.com/2013/05/association/
 4.  https://beginnersbook.com/2013/05/aggregation/
+5.  https://www.javatpoint.com/upcasting-and-downcasting-in-java
