@@ -371,7 +371,7 @@ Child method is called
 
 **Example**:
 
-![](media/64538543acb905e0b7fa339f887d1c41.png)
+![](media/generalization-specialization.png)
 
 -   We are going to see very simple and general example of generalization and specialization.
 -   As we know that a bank provides us different types of account to customers.

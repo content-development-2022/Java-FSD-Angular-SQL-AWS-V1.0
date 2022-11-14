@@ -249,8 +249,17 @@ Key is: 111 & value is: Logan
 
 ## 1.2 TreeMap
 
--   **TreeMap:** It stores its elements in a red-black tree.
--   The elements of TreeMap are sorted in ascending order.
+**Some of the major characteristics of TreeMap in Java are as follows:**
+
+-   The TreeMap class that implements treemap in Java is a part of java.util package. It implements the Map interface.
+-   The TreeMap class extends AbstractMap class and also implements the NavigableMap and SortedMap (indirectly) interface.
+-   TreeMap is not synchronized.
+-   By default, TreeMap elements are in ascending order by default.
+-   TreeMap does not allow duplicate elements.
+-   TreeMap allows null values but not null keys.
+
+**The below diagram shows the class hierarchy for the TreeMap class.**
+
 -   It is substantially slower than HashMap.
 
     ![How TreeMap Works Internally in Java - Javatpoint](media/treemap.png)
@@ -418,9 +427,9 @@ TreeMap using replace(): {First=1, Second=22, Third=33}
 TreeMap using replaceAll(): {First=3, Second=24, Third=35}
 ```
 
-Here, we have passed a lambda expression as an argument.
-
-The replaceAll() method accesses all the entries of the map. It then replaces all the elements with the new values (returned from the lambda expression).
+-   Here, we have passed a lambda expression as an argument.
+-   The replaceAll() method accesses all the entries of the map.
+-   It then replaces all the elements with the new values (returned from the lambda expression).
 
 ## Loop Through an TreeMap
 
@@ -575,9 +584,16 @@ Key is: 120 & value is: Paul
 
 ## 1.3 LinkedHashMap
 
--   It maintains insertion order.
--   [Click here](https://beginnersbook.com/2013/12/linkedhashmap-in-java/), to learn LinkedHashMap in detail.
--   As you can see: In the following example, the key & value pairs maintained the insertion order.
+-   The **LinkedHashMap** is just like HashMap with an additional feature of maintaining an order of elements inserted into it.
+-   HashMap provided the advantage of quick insertion, search, and deletion but it never maintained the track and order of insertion which the LinkedHashMap provides where the elements can be accessed in their insertion order.
+
+**Important Features of a LinkedHashMap:**
+
+-   A LinkedHashMap contains values based on the key. It implements the Map interface and extends the HashMap class.
+-   It contains only unique elements.
+-   It may have one null key and multiple null values.
+-   It is non-synchronized.
+-   It is the same as HashMap with an additional feature that it maintains insertion order.
 -   Following image shows graphical representation of How LinkedHashMap works internally.
 -   LinkedHashMap extends Node class of HashMap and contains two more variable **before** and **after** to hold the before and after references of Entry object.
 
@@ -625,4 +641,5 @@ key is: 111 & Value is: Logan
 3.  https://www.javaquery.com/2019/12/how-linkedhashmap-works-internally-in.html
 4.  https://www.programiz.com/java-programming/map
 5.  https://www.digitalocean.com/community/tutorials/java-hashmap
-6.  
+6.  https://prutor.ai/linkedhashmap-in-java/
+7.  
