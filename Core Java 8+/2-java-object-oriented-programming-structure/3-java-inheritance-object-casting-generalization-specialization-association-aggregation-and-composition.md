@@ -26,6 +26,8 @@
 
 [3.4 Difference between Upcasting and Downcasting](#34-difference-between-upcasting-and-downcasting)
 
+[**4. Generalization and Specialization**](#4-generalization-and-specialization)
+
 [5. Association in java](#5-association-in-java)
 
 [6. Aggregation in Java](#6-aggregation-in-java)
@@ -359,7 +361,22 @@ Child method is called
 
 ![](media/difference-upcasting-downcasting.png)
 
-## 
+## 4. Generalization and Specialization
+
+-   **Generalization** is a bottom-up design process whereas **Specialization** is a top-down design process.
+-   **Generalization** is the process of common features from two or more classes, and combining them into a generalized super class.
+-   Common features can be methods, attributes and associations.
+-   In other word, we can say that a super class is a generalization of its subclass. But, a subclass is a Specialization of its super class.
+-   Specialization is the reverse process of Generalization means creating new sub classes from an existing class.
+
+**Example**:
+
+![](media/64538543acb905e0b7fa339f887d1c41.png)
+
+-   We are going to see very simple and general example of generalization and specialization.
+-   As we know that a bank provides us different types of account to customers.
+-   Here We see there are two types of bank account: Current account and Saving account.
+-   Both account inherit the common/generalized properties like Account Number, Account Balance etc. from a Bank Account and also have their own specialized properties like interest rate etc.
 
 ## 5. Association in java
 
