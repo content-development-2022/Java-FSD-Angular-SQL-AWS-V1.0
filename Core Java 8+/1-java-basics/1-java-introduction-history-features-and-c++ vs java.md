@@ -29,7 +29,7 @@
 -   Before Java, its name was **Oak**. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to **Java**.
 -   **Platform:** Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.
 
-## 2. Application
+# 2. Application
 
 -   There are many devices where Java is currently used.
 
@@ -70,32 +70,32 @@
 -   An application which is created for mobile devices is called a mobile application.
 -   Currently, Android and Java ME are used for creating mobile applications.
 
-## 3. Java Platforms / Editions
+# 3. Java Platforms / Editions
 
 -   There are 4 platforms or editions of Java:
 
-### 3.1 Java SE (Java Standard Edition)
+## 3.1 Java SE (Java Standard Edition)
 
 -   It is a Java programming platform.
 -   It includes Java programming APIs such as java.lang, java.io, java.net, java.util, java.sql, java.math etc.
 -   It includes APIs of core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.
 
-### 3.2 Java EE (Java Enterprise Edition)
+## 3.2 Java EE (Java Enterprise Edition)
 
 -   It is an enterprise platform that is mainly used to develop web and enterprise applications.
 -   It is built on top of the Java SE platform.
 -   It includes APIs of topics like Servlet, JSP, Web Services, EJB, JPA, etc.
 
-### 3.3 Java ME (Java Micro Edition)
+## 3.3 Java ME (Java Micro Edition)
 
 -   It is a micro platform that is dedicated to mobile applications.
 
-### 3.4 JavaFX
+## 3.4 JavaFX
 
 -   It is used to develop rich internet applications.
 -   It uses a lightweight user interface API.
 
-## 4. History of Java
+# 4. History of Java
 
 1.  Java was initially developed by **James Gosling** (known as the **father of Java**) at **Sun Microsystems** (which is now a subsidiary of Oracle Corporation) and was released in **1995**.
 
@@ -122,7 +122,7 @@
 3.  Notice that Java is just a name, not an acronym.
 4.  In 1995, Time magazine called **Java one of the Ten Best Products of 1995**.
 
-## 5. Java Version History
+# 5. Java Version History
 
 -   Many java versions have been released till now.
 -   **JDK 1.0** was released **on January 23, 1996**. After the first release of Java, there have been many additional features added to the language.
@@ -151,7 +151,7 @@
 20. Java SE 18 (to be released by March 2022)
 -   Since Java SE 8 release, the Oracle corporation follows a pattern in which every even version is release in March month and an odd version released in September month.
 
-## 6. Features of Java
+# 6. Features of Java
 
 -   The primary objective of Java programming language creation was to make it portable, simple and secure programming language.
 -   Apart from this, there are also some excellent features which play an important role in the popularity of this language.
@@ -272,7 +272,7 @@ The English mining of Robust is strong. Java is robust because:
 
 There are exception handling and the type checking mechanism in Java. All these points make Java robust.
 
-## 7. C++ Vs Java
+# 7. C++ Vs Java
 
 -   A list of top differences between C++ and Java are given below:
 
@@ -302,7 +302,7 @@ There are exception handling and the type checking mechanism in Java. All these 
 -   Java doesn't support default arguments like C++.
 -   Java does not support header files like C++. Java uses the import keyword to include different classes and methods.
 
-## 8. References
+# 8. References
 
 1.  https://www.javatpoint.com/java-tutorial
 2.  https://www.javatpoint.com/history-of-java
