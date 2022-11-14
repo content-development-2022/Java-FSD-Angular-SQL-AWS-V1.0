@@ -6,7 +6,7 @@
 
 [2. Application](#2-application)
 
-[2.1. Types of Java Applications](#21-types-of-java-applications)
+  [2.1. Types of Java Applications](#21-types-of-java-applications)
 
 [3. Java Platforms / Editions](#3-java-platforms--editions)
 
