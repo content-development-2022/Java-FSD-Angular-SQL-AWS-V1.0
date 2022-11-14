@@ -1,12 +1,12 @@
 Comparator and Comparable in Java
 
-## **1. Introduction**
+# 1. Introduction
 
 Comparisons in Java are quite easy, until they're not.
 
 When working with custom types, or trying to compare objects that aren't directly comparable, we need to make use of a comparison strategy. We can build one simply by making use of the *Comparator* or *Comparable* interfaces.
 
-## **2. Setting Up the Example**
+# 2. Setting Up the Example
 
 Let's use an example of a football team, where we want to line up the players by their rankings.
 
@@ -62,7 +62,7 @@ is not applicable **for** the **arguments** (ArrayList\<Player\>)Copy
 
 Now let's try to understand what we did wrong here.
 
-## **3.** *Comparable*
+# 3. Comparable
 
 As the name suggests, **Comparable is an interface defining a strategy of comparing an object with other objects of the same type. This is called the class's “natural ordering.”**
 
@@ -96,11 +96,11 @@ After Sorting : [Steven, John, Roger]Copy
 
 Now that we have a clear understanding of natural ordering with *Comparable*, let's see **how we can use other types of ordering in a more flexible manner** than by directly implementing an interface.
 
-## **4.** *Comparator*
+# 4. Comparator
 
 **The Comparator interface defines a compare(arg1, arg2) method** with two arguments that represent compared objects, and works similarly to the *Comparable.compareTo()* method.
 
-### **4.1. Creating** *Comparators*
+## 4.1. Creating *Comparators*
 
 To create a *Comparator,* we have to implement the *Comparator* interface.
 
@@ -134,9 +134,9 @@ Similarly, we can create a *Comparator* to use the *age* attribute of *Player* t
 
 }Copy
 
-### **4.2.** *Comparators* **in Action**
+## 4.2. *Comparators* in Action
 
-To demonstrate the concept, let's modify our *PlayerSorter* by introducing a second argument to the *Collections.sort* method*,* which is actually the instance of *Comparator* we want to use.
+To demonstrate the concept, let's modify our *PlayerSorter* by introducing a second argument to the *Collections.sort* method\*,\* which is actually the instance of *Comparator* we want to use.
 
 **Using this approach, we can override the natural ordering**:
 
@@ -164,7 +164,7 @@ Before Sorting : [John, Roger, Steven]
 
 After Sorting by age : [Roger, John, Steven]Copy
 
-### **4.3. Java 8** *Comparators*
+## 4.3. Java 8 *Comparators*
 
 Java 8 provides new ways of defining *Comparators* by using lambda expressions, and the *comparing()* static factory method.
 
@@ -186,7 +186,7 @@ Comparator\<Player\> byAge = Comparator
 
 To explore the Java 8 functionality in-depth, check out our [Java 8 Comparator.comparing](https://www.baeldung.com/java-8-comparator-comparing) guide.
 
-## **5.** *Comparator* **vs** *Comparable*
+# 5. Comparator vs Comparable
 
 **The Comparable interface is a good choice to use for defining the default ordering,** or in other words, if it's the main way of comparing objects.
 
@@ -198,7 +198,7 @@ There are several reasons why:
 -   Using *Comparators* allows us to avoid adding additional code to our domain classes
 -   We can define multiple different comparison strategies, which isn't possible when using *Comparable*
 
-## 6. Avoiding the Subtraction Trick
+# 6. Avoiding the Subtraction Trick
 
 Over the course of this tutorial, we've used the *Integer.compare()* method to compare two integers. However, one might argue that we should use this clever one-liner instead:
 
@@ -222,12 +222,12 @@ assertEquals("John", players.get(0).getName());
 
 assertEquals("Roger", players.get(1).getName());
 
-## **7. Conclusion**
+# 7. Conclusion
 
 In this article, we explored the *Comparable* and *Comparator* interfaces, and discussed the differences between them.
 
 To understand more advanced topics of sorting, check out our other articles, such as [Java 8 Comparator](https://www.baeldung.com/java-8-comparator-comparing), and [Java 8 Comparison with Lambdas](https://www.baeldung.com/java-8-sort-lambda).
 
-Reference
+# 8. Reference
 
-https://www.baeldung.com/java-comparator-comparable
+1.  https://www.baeldung.com/java-comparator-comparable
