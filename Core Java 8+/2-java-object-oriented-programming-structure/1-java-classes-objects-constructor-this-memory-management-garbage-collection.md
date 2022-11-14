@@ -81,7 +81,7 @@ class <class_name> {  
 }  
 ```
 
-### 2.1 Fields in Java
+## 2.1 Fields in Java
 
 The fields in class are known as instance variables
 
