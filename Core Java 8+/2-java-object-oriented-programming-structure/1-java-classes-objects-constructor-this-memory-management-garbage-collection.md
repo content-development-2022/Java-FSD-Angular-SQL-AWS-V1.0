@@ -5,7 +5,9 @@
 [1. Introduction](#1-introduction)
 
 <details>
-[<summary>2. What is a Class in Java?</summary>](#2-what-is-a-class-in-java)
+<summary>
+[2. What is a Class in Java?](#2-what-is-a-class-in-java)
+</summary>
 [2.1 Fields in Java?](#21-fields-in-java)
 [2.2 What is a method in Java?](#22-what-is-a-method-in-java)	
 </details>
