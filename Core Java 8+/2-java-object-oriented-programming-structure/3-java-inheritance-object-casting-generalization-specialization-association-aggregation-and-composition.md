@@ -26,7 +26,7 @@
 
 [3.4 Difference between Upcasting and Downcasting](#34-difference-between-upcasting-and-downcasting)
 
-[**4. Generalization and Specialization**](#4-generalization-and-specialization)
+[4. Generalization and Specialization](#4-generalization-and-specialization)
 
 [5. Association in java](#5-association-in-java)
 
