@@ -23,7 +23,7 @@
 
 -   Java provides specific keywords for exception handling purposes.
 
-## 2.1 try-catch:
+## 2.1 try-catch
 
 -   We use the try-catch block for exception handling in our code.
 -   try is the start of the block and catch is at the end of the try block to handle the exceptions.
@@ -31,20 +31,20 @@
 -   The try-catch block can be nested too.
 -   The catch block requires a parameter that should be of type Exception.
 
-## 2.2 finally:
+## 2.2 finally
 
 -   The finally block is optional and can be used only with a try-catch block.
 -   Since exception halts the process of execution, we might have some resources open that will not get closed, so we can use the finally block.
 -   The finally block always gets executed, whether an exception occurred or not.
 
-## 2.3 Throw:
+## 2.3 Throw
 
 -   We know that if an error occurs, an exception object is getting created and then Java runtime starts processing to handle them.
 -   Sometimes we might want to generate exceptions explicitly in our code.
 -   For example, in a user authentication program, we should throw exceptions to clients if the password is null.
 -   The throw keyword is used to throw exceptions to the runtime to handle it.
 
-## 2.4 Throws:
+## 2.4 Throws
 
 -   When we are throwing an exception in a method and not handling it, then we have to use the throws keyword in the method signature to let the caller program know the exceptions that might be thrown by the method.
 -   The caller method might handle these exceptions or propagate them to its caller method using the throws keyword.
