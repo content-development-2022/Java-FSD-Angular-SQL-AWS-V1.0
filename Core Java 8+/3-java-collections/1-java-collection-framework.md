@@ -2,17 +2,17 @@
 
 **Content**
 
-1\. What is Java Collections?
+[1. What is Java Collections?](#1-what-is-java-collections)
 
-2\. Collections Framework Class Hierarchy
+[2. Collections Framework Class Hierarchy](#2-collections-framework-class-hierarchy)
 
-2.1 Java Collections API Interfaces
+[2.1 Java Collections API Interfaces](#21-java-collections-api-interfaces)
 
-2.2 Benefits of Java Collections Framework
+[2.2 Benefits of Java Collections Framework](#22-benefits-of-java-collections-framework)
 
-2.3 Disadvantages of collection framework:
+[2.3 Disadvantages of collection framework](#22-benefits-of-java-collections-framework)
 
-3\. References
+[3. References](#3-references)
 
 ## 1. What is Java Collections?
 
@@ -150,7 +150,7 @@ Java Collections framework have following benefits:
 -   **Reusability and Interoperability**
 -   **Reduce effort** to maintain because everybody knows Collection API classes.
 
-## 2.3 Disadvantages of collection framework:
+## 2.3 Disadvantages of collection framework
 
 1.  It must cast to the correct type.
 2.  It can’t be done compile-time type checking.
