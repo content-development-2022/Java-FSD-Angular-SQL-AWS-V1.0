@@ -211,7 +211,7 @@ throw new MyException(ex.getMessage());
 -   These exceptions are hard to debug, and we might need to look into each place where we are using that resource to make sure we are closing it.
 -   In Java 7, one of the improvements was try-with-resources where we can create a resource in the try statement itself and use it inside the try-catch block.
 -   When the execution comes out of the try-catch block, the runtime environment automatically closes these resources.
--   Here is an example of the try-catch block with this improvement:
+-   Here is an example of the try-catch block with this improvement
 
 ```java
 try (MyResource mr = new MyResource()) {
