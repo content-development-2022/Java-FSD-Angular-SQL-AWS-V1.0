@@ -45,6 +45,7 @@ private int age;
 -   Next, we'll create a *PlayerSorter* class to create our collection, and attempt to sort it using *Collections.sort*:
 
 ```java
+public class PlayerSorter {
 public static void main(String[] args) {
 List<Player> footballTeam = new ArrayList<>();
 Player player1 = new Player(59, "John", 20);
@@ -56,6 +57,7 @@ footballTeam.add(player3);
 System.out.println("Before Sorting : " + footballTeam);
 Collections.sort(footballTeam);
 System.out.println("After Sorting : " + footballTeam);
+}
 }
 ```
 
