@@ -14,7 +14,6 @@
 -   For example, to notify the caller about a specific type of exception with the appropriate message.
 -   We can have custom fields for tracking, such as error codes.
 -   For example, let’s say we write a method to process only text files, so we can provide the caller with the appropriate error code when some other type of file is sent as input.
--   
 **Step 1:** First, create Exception
 
 **Example:**
