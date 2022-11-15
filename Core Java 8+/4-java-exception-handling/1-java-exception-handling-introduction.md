@@ -93,7 +93,6 @@ public class ExceptionHandling {
 **This code will output the following:**
 
 ```
-Output
 java.io.FileNotFoundException: Negative Integer -5
 	at com.journaldev.exceptions.ExceptionHandling.testException(ExceptionHandling.java:24)
 	at com.journaldev.exceptions.ExceptionHandling.main(ExceptionHandling.java:10)
