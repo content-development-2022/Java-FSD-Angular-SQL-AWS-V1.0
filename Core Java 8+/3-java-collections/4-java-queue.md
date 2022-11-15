@@ -2,13 +2,13 @@
 
 **Content**
 
-1\. Java Queue
+[1. Java Queue](#1-java-queue)
 
-2\. Java Deque
+[2. Java Deque](#2-java-deque)
 
-3\. Java Priority Queue
+[3. Java Priority Queue](#3-java-priority-queue)
 
-4\. References
+[4. References](#4-references)
 
 ## 1. Java Queue
 
