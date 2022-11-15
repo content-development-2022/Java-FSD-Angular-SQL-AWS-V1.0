@@ -121,7 +121,7 @@ at com.journaldev.exceptions.CustomExceptionExample.main(CustomExceptionExample.
 
 ```java
 private static void processFile(String file) throws MyException {
-if (file == null) throw new MyException("File name can't be null", "NULL_FILE_NAME");
+    if (file == null) throw new MyException("File name can't be null", "NULL_FILE_NAME");
 // ... further processing
 }
 ```
