@@ -260,7 +260,7 @@ Becky
 -   TreeSet allows null element but like HashSet it doesn’t allow.
 -   For example, a set of books might be kept by height or alphabetically by title and author.
 
-    ![TreeSet in Java](media/f48b9724912005f70ab47109a5b2bb39.png)
+    ![TreeSet in Java](media/book-treeset.png)
 
 -   In Java TreeSet, access and retrieval of elements are quite fast because of using tree structure. Therefore, TreeSet is an excellent choice for quick and fast access to large amounts of sorted data.
 -   The only restriction with using tree set is that we cannot add duplicate elements in the tree set.
