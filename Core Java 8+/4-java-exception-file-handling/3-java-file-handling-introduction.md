@@ -6,21 +6,21 @@
 
 [1.1 Why File Handling is Required?](#11-why-file-handling-is-required)
 
-2\. Streams in Java
+[2. Streams in Java](#2-streams-in-java)
 
-2.1 Input Stream
+[2.1 Input Stream](#21-input-stream)
 
-2.2 Output Stream
+[2.2 Output Stream](#22-output-stream)
 
-3\. File Stream based on the data type
+[3. File Stream based on the data type](#3-file-stream-based-on-the-data-type)
 
-3.1 Byte Stream
+[3.1 Byte Stream](#31-byte-stream)
 
-3.2 Character Stream
+[3.2 Character Stream](#32-character-stream)
 
-4\. Java File Class Methods
+[4. Java File Class Methods](#4-java-file-class-methods)
 
-6\. References
+[6. References](#6-references)
 
 # 1. File Handling in Java
 
@@ -33,10 +33,12 @@
 -   File Handling is an integral part of any programming language as file handling enables us to store the output of any particular program in a file and allows us to perform certain operations on it.
 -   In simple words, file handling means reading and writing data to a file.
 
+**Example:**
+
 ```java
 // Importing File Class
 import java.io.File;
-class GFG {
+class Sample1 {
 public static void main(String[] args)
 {
 // File name specified
@@ -59,7 +61,7 @@ File Created!
 
 -   In Java, a sequence of data is known as a stream.
 -   This concept is used to perform I/O operations on a file.
--   There are two types of streams :
+-   There are two types of streams : input stream and output stream.
 
 ## 2.1 Input Stream
 
@@ -78,6 +80,8 @@ File Created!
 6.  ObjectInputStream
 
 ### 2.1.1 Creating an InputStream
+
+**Example:**
 
 ```java
 // Creating an InputStream
@@ -118,6 +122,8 @@ InputStream obj = new FileInputStream();
 6.  PrintStream
 
 ### 2.2.1 Creating an OutputStream
+
+**Example:**
 
 ```java
 // Creating an OutputStream
