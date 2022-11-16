@@ -37,8 +37,7 @@ public final void writeObject(Object o) throws IOExcep
 -   This method takes a serializable object and converts it into a sequence (stream) of bytes. Similarly, the most important method in *ObjectInputStream* is:
 
 ```java
-public final Object readObject()
-throws IOException, ClassNotFoundException;
+public final Object readObject() throws IOException, ClassNotFoundException;
 ```
 
 -   This method can read a stream of bytes and convert it back into a Java object.
@@ -49,12 +48,12 @@ throws IOException, ClassNotFoundException;
 
 ```java
 public class Person implements Serializable {
-private static final long serialVersionUID = 1L;
-static String country = "ITALY";
-private int age;
-private String name;
-transient int height;
-// getters and setters
+    private static final long serialVersionUID = 1L;
+    static String country = "ITALY";
+    private int age;
+    private String name;
+    transient int height;
+    // getters and setters
 }
 ```
 
@@ -64,20 +63,20 @@ transient int height;
 @Test
 public void whenSerializingAndDeserializing_ThenObjectIsTheSame() ()
 throws IOException, ClassNotFoundException {
-Person person = new Person();
-person.setAge(20);
-person.setName("Joe");
-FileOutputStream fileOutputStream = new FileOutputStream("yourfile.txt");
-ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
-objectOutputStream.writeObject(person);
-objectOutputStream.flush();
-objectOutputStream.close();
-FileInputStream fileInputStream = new FileInputStream("yourfile.txt");
-ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-Person p2 = (Person) objectInputStream.readObject();
-objectInputStream.close();
-assertTrue(p2.getAge() == person.getAge());
-assertTrue(p2.getName().equals(person.getName()));
+    Person person = new Person();
+    person.setAge(20);
+    person.setName("Joe");
+    FileOutputStream fileOutputStream = new FileOutputStream("yourfile.txt");
+    ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+    objectOutputStream.writeObject(person);
+    objectOutputStream.flush();
+    objectOutputStream.close();
+    FileInputStream fileInputStream = new FileInputStream("yourfile.txt");
+    ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+    Person p2 = (Person) objectInputStream.readObject();
+    objectInputStream.close();
+    assertTrue(p2.getAge() == person.getAge());
+    assertTrue(p2.getName().equals(person.getName()));
 }
 ```
 
@@ -98,9 +97,9 @@ assertTrue(p2.getName().equals(person.getName()));
 
 ```java
 public class Person implements Serializable {
-private int age;
-private String name;
-private Address country; // must be serializable too
+    private int age;
+    private String name;
+    private Address country; // must be serializable too
 }
 ```
 
@@ -128,36 +127,33 @@ private void writeObject(ObjectOutputStream out) throws IOException;
 and
 
 ```java
-private void readObject(ObjectInputStream in)
-throws IOException, ClassNotFoundException;
+private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException;
 ```
 
 -   With these methods, we can serialize the unserializable attributes into other forms that we can serialize:
 
 ```java
 public class Employee implements Serializable {
-private static final long serialVersionUID = 1L;
-private transient Address address;
-private Person person;
-// setters and getters
-private void writeObject(ObjectOutputStream oos)
-throws IOException {
-oos.defaultWriteObject();
-oos.writeObject(address.getHouseNumber());
-}
-private void readObject(ObjectInputStream ois)
-throws ClassNotFoundException, IOException {
-ois.defaultReadObject();
-Integer houseNumber = (Integer) ois.readObject();
-Address a = new Address();
-a.setHouseNumber(houseNumber);
-this.setAddress(a);
-}
+    private static final long serialVersionUID = 1L;
+    private transient Address address;
+    private Person person;
+    // setters and getters
+    private void writeObject(ObjectOutputStream oos) throws IOException {
+        oos.defaultWriteObject();
+        oos.writeObject(address.getHouseNumber());
+    }
+    private void readObject(ObjectInputStream ois) throws ClassNotFoundException, IOException {
+        ois.defaultReadObject();
+        Integer houseNumber = (Integer) ois.readObject();
+        Address a = new Address();
+        a.setHouseNumber(houseNumber);
+        this.setAddress(a);
+    }
 }
 
 public class Address {
-private int houseNumber;
-// setters and getters
+    private int houseNumber;
+    // setters and getters
 }
 ```
 
@@ -167,25 +163,25 @@ private int houseNumber;
 @Test
 public void whenCustomSerializingAndDeserializing_ThenObjectIsTheSame()
 throws IOException, ClassNotFoundException {
-Person p = new Person();
-p.setAge(20);
-p.setName("Joe");
-Address a = new Address();
-a.setHouseNumber(1);
-Employee e = new Employee();
-e.setPerson(p);
-e.setAddress(a);
-FileOutputStream fileOutputStream = new FileOutputStream("yourfile2.txt");
-ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
-objectOutputStream.writeObject(e);
-objectOutputStream.flush();
-objectOutputStream.close();
-FileInputStream fileInputStream = new FileInputStream("yourfile2.txt");
-ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-Employee e2 = (Employee) objectInputStream.readObject();
-objectInputStream.close();
-assertTrue(e2.getPerson(). getAge() == e.getPerson(). getAge());
-assertTrue(e2.getAddress(). getHouseNumber() == e.getAddress(). getHouseNumber());
+    Person p = new Person();
+    p.setAge(20);
+    p.setName("Joe");
+    Address a = new Address();
+    a.setHouseNumber(1);
+    Employee e = new Employee();
+    e.setPerson(p);
+    e.setAddress(a);
+    FileOutputStream fileOutputStream = new FileOutputStream("yourfile2.txt");
+    ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+    objectOutputStream.writeObject(e);
+    objectOutputStream.flush();
+    objectOutputStream.close();
+    FileInputStream fileInputStream = new FileInputStream("yourfile2.txt");
+    ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+    Employee e2 = (Employee) objectInputStream.readObject();
+    objectInputStream.close();
+    assertTrue(e2.getPerson(). getAge() == e.getPerson(). getAge());
+    assertTrue(e2.getAddress(). getHouseNumber() == e.getAddress(). getHouseNumber());
 }
 ```
 
