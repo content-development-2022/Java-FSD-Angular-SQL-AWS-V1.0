@@ -6,9 +6,9 @@
 
 [1.1 Create a File](#11-create-a-file)
 
-[1.2 Read from a File]()
+1.2 Read from a File
 
-[1.3 Write to a File](#13-write-to-a-file)
+1.3 Write to a File
 
 [1.4 Delete a File](#14-delete-a-file)
 
