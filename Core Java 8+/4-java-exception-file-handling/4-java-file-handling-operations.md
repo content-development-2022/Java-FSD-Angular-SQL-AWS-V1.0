@@ -10,9 +10,9 @@
 
 [1.3 Write to a File](#13-write-to-a-file)
 
-1.4 Delete a File
+[1.4 Delete a File](#14-delete-a-file)
 
-2\. References
+[2. References](#2-references)
 
 # 1. File operations in Java
 
