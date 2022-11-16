@@ -307,7 +307,7 @@ TreeSet<Integer> numbers = new TreeSet<>();
 ```java
 import java.util.TreeSet;
 class Main {
-public static void main(String[] args) {
+  public static void main(String[] args) {
     TreeSet<Integer> evenNumbers = new TreeSet<>();
     // Using the add() method
     evenNumbers.add(2);
@@ -319,7 +319,7 @@ public static void main(String[] args) {
     // Using the addAll() method
     numbers.addAll(evenNumbers);
     System.out.println("New TreeSet: " + numbers);
-}
+  }
 }
 ```
 
@@ -340,7 +340,7 @@ New TreeSet: [1, 2, 4, 6]
 import java.util.TreeSet;
 import java.util.Iterator;
 class Main {
-public static void main(String[] args) {
+  public static void main(String[] args) {
     TreeSet<Integer> numbers = new TreeSet<>();
     numbers.add(2);
     numbers.add(5);
@@ -354,7 +354,7 @@ public static void main(String[] args) {
         System.out.print(iterate.next());
               System.out.print(", ");
      }
-}
+  }
 }
 ```
 
@@ -375,7 +375,7 @@ TreeSet using Iterator: 2, 5, 6,
 ```java
 import java.util.TreeSet;
 class Main {
-public static void main(String[] args) {
+  public static void main(String[] args) {
     TreeSet<Integer> numbers = new TreeSet<>();
     numbers.add(2);
     numbers.add(5);
@@ -387,7 +387,7 @@ public static void main(String[] args) {
           // Using the removeAll() method
     boolean value2 = numbers.removeAll(numbers);
     System.out.println("Are all elements removed? " + value2);
-}
+  }
 }
 ```
 
