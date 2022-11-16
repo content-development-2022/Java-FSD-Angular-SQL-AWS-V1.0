@@ -37,23 +37,21 @@ import java.io.File;
 // Import the IOException class to handle errors
 import java.io.IOException;
 public class GFG {
-public static void main(String[] args)
-{
-try {
-File Obj = new File("myfile.txt");
-if (Obj.createNewFile()) {
-System.out.println("File created: "
-+ Obj.getName());
-}
-else {
-System.out.println("File already exists.");
-}
-}
-catch (IOException e) {
-System.out.println("An error has occurred.");
-e.printStackTrace();
-}
-}
+    public static void main(String[] args) {
+        try {
+            File Obj = new File("myfile.txt");
+            if (Obj.createNewFile()) {
+                System.out.println("File created: " + Obj.getName());
+            }
+            else {
+                System.out.println("File already exists.");
+            }
+        }
+        catch (IOException e) {
+            System.out.println("An error has occurred.");
+            e.printStackTrace();
+        }
+    }
 }
 ```
 
@@ -76,22 +74,21 @@ import java.io.FileNotFoundException;
 // Import the Scanner class to read content from text files
 import java.util.Scanner;
 public class GFG {
-public static void main(String[] args)
-{
-try {
-File Obj = new File("myfile.txt");
-Scanner Reader = new Scanner(Obj);
-while (Reader.hasNextLine()) {
-String data = Reader.nextLine();
-System.out.println(data);
-}
-Reader.close();
-}
-catch (FileNotFoundException e) {
-System.out.println("An error has occurred.");
-e.printStackTrace();
-}
-}
+    public static void main(String[] args) {
+        try {
+            File Obj = new File("myfile.txt");
+            Scanner Reader = new Scanner(Obj);
+            while (Reader.hasNextLine()) {
+                String data = Reader.nextLine();
+                System.out.println(data);
+            }
+            Reader.close();
+        }
+        catch (FileNotFoundException e) {
+            System.out.println("An error has occurred.");
+            e.printStackTrace();
+        }
+    }
 }
 ```
 
@@ -112,21 +109,18 @@ import java.io.FileWriter;
 // Import the IOException class for handling errors
 import java.io.IOException;
 public class GFG {
-public static void main(String[] args)
-{
-try {
-FileWriter Writer
-= new FileWriter("myfile.txt");
-Writer.write(
-"Files in Java are seriously good!!");
-Writer.close();
-System.out.println("Successfully written.");
-}
-catch (IOException e) {
-System.out.println("An error has occurred.");
-e.printStackTrace();
-}
-}
+    public static void main(String[] args) {
+        try {
+            FileWriter Writer = new FileWriter("myfile.txt");
+            Writer.write("Files in Java are seriously good!!");
+            Writer.close();
+            System.out.println("Successfully written.");
+        }
+        catch (IOException e) {
+            System.out.println("An error has occurred.");
+            e.printStackTrace();
+        }
+    }
 }
 ```
 
@@ -143,18 +137,15 @@ An error has occurred.
 // Import the File class
 import java.io.File;
 public class GFG {
-public static void main(String[] args)
-{
-File Obj = new File("myfile.txt");
-if (Obj.delete()) {
-System.out.println("The deleted file is : "
-+ myObj.getName());
-}
-else {
-System.out.println(
-"Failed in deleting the file.");
-}
-}
+    public static void main(String[] args) {
+        File Obj = new File("myfile.txt");
+        if (Obj.delete()) {
+            System.out.println("The deleted file is : " + myObj.getName());
+        }
+        else {
+            System.out.println("Failed in deleting the file.");
+        }
+    }
 }
 ```
 
