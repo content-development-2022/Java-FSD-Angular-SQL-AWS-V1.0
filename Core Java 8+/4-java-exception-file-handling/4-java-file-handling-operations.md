@@ -6,7 +6,7 @@
 
 [1.1 Create a File](#11-create-a-file)
 
-[1.2 Read from a File](#12-read-from-a-file)
+[1.2 Read from a File](#)
 
 [1.3 Write to a File](#13-write-to-a-file)
 
@@ -60,6 +60,8 @@ public class GFG {
 ```
 An error has occurred.
 ```
+
+## ![Files IO](media/7536d6303c88229456c4eed2802de6b1.png)
 
 ## 1.2 Read from a File
 
