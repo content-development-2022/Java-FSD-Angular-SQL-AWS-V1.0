@@ -8,11 +8,11 @@
 
 [1.2 Read from a File](#12-read-from-a-file)
 
-1.3 Write to a File
+[1.3 Write to a File](#13-write-to-a-file)
 
 1.4 Delete a File
 
-[2. References](#2-references)
+2\. References
 
 # 1. File operations in Java
 
