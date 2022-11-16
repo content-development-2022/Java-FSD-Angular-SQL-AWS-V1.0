@@ -2,17 +2,17 @@
 
 **Content**
 
-[1. Introduction](#1-introduction)
+1\. Introduction
 
 [2. Throwing and Catching Exceptions](#2-throwing-and-catching-exceptions)
 
-[3. Java Exception Handling Keywords](#3-java-exception-handling-keywords)
+[3. Java Exception Handling Keywords](#4-java-exception-handling-keywords)
 
-[4. Java Exception Hierarchy](#4-java-exception-hierarchy)
+[4. Java Exception Hierarchy](#5-java-exception-hierarchy)
 
-[5. Java 7 Automatic Resource Management and Catch block improvements](#5-java-7-automatic-resource-management-and-catch-block-improvements)
+[5. Java 7 Automatic Resource Management and Catch block improvements](#6-the-common-exception-scenarios-in-java)
 
-[6. References](#6-references)
+[6. References](#7-references)
 
 # 1. Introduction
 
@@ -38,11 +38,53 @@
 -   Java Exception handling framework is used to handle runtime errors only.
 -   The compile-time errors have to be fixed by the developer writing the code else the program won’t execute.
 
-# 3. Java Exception Handling Keywords
+# 3. How JVM Handles an Exception(Default Exception Handling):
+
+-   If an exception is encountered inside the method, it creates an object called the Exception Object.
+-   The object is then transferred to the run-time system or JVM.
+-   The object contains all the information of the exception, starting from name and description of the exception, and the current state of the exception.
+-   Various methods might be called where the exception occurred, the ordered list of these methods is known as Call Stack.
+
+After this, the following will happen:
+
+-   The JVM searches the call stack to look for the method that contains the code to handle the occurred exception, this block of code is known as an Exception handler.
+-   Now the JVM looks for the method where the exception took place.
+-   If the JVM finds an appropriate handler, it passes the exception method to the handler.
+-   If the JVM is unable to find an appropriate handler, it sends the object to the default exception handler, which prints a default message and terminates the abnormality.
+
+**Code to explain Exception handling by JVM:**
+
+```java
+package com.DataFlair.exceptions;
+public class exception
+{
+public static void main(String args[]){
+String str = null;
+System.out.println(str.length());
+}
+}
+```
+
+**The output of the above code:**
+
+```
+java.lang.NullPointerException
+at com.DataFlair.exceptions.exception.main(exception.java:7)
+at com.DataFlair.exceptions.__SHELL0.run(__SHELL0.java:6)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at bluej.runtime.ExecServer$3.lambda$run$0(ExecServer.java:849)
+at bluej.runtime.ExecServer.runOnTargetThread(ExecServer.java:964)
+at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
+```
+
+# 4. Java Exception Handling Keywords
 
 -   Java provides specific keywords for exception handling purposes.
 
-## 3.1 try-catch
+## 4.1 try-catch
 
 -   We use the try-catch block for exception handling in our code.
 -   try is the start of the block and catch is at the end of the try block to handle the exceptions.
@@ -50,26 +92,26 @@
 -   The try-catch block can be nested too.
 -   The catch block requires a parameter that should be of type Exception.
 
-## 3.2 finally
+## 4.2 finally
 
 -   The finally block is optional and can be used only with a try-catch block.
 -   Since exception halts the process of execution, we might have some resources open that will not get closed, so we can use the finally block.
 -   The finally block always gets executed, whether an exception occurred or not.
 
-## 3.3 Throw
+## 4.3 Throw
 
 -   We know that if an error occurs, an exception object is getting created and then Java runtime starts processing to handle them.
 -   Sometimes we might want to generate exceptions explicitly in our code.
 -   For example, in a user authentication program, we should throw exceptions to clients if the password is null.
 -   The throw keyword is used to throw exceptions to the runtime to handle it.
 
-## 3.4 Throws
+## 4.4 Throws
 
 -   When we are throwing an exception in a method and not handling it, then we have to use the throws keyword in the method signature to let the caller program know the exceptions that might be thrown by the method.
 -   The caller method might handle these exceptions or propagate them to its caller method using the throws keyword.
 -   We can provide multiple exceptions in the throws clause, and it can be used with the main() method also.
 
-## 3.5 An Exception Handling Example:
+## 4.5 An Exception Handling Example:
 
 ```java
 package com.journaldev.exceptions;
@@ -130,7 +172,7 @@ Exception in thread "main" java.io.IOException: Only supported for index 0 to 10
 -   try-catch blocks can be nested similar to if-else statements.
 -   We can have only one finally block with a try-catch statement.
 
-# 4. Java Exception Hierarchy
+# 5. Java Exception Hierarchy
 
 -   As stated earlier, when an exception is raised an exception object is getting created.
 -   Java Exceptions are hierarchical and inheritance is used to categorize different types of exceptions.
@@ -147,14 +189,14 @@ Exception in thread "main" java.io.IOException: Only supported for index 0 to 10
     2\. Unchecked Exception  
     3\. Error
 
-## 4.1 Errors
+## 5.1 Errors
 
 -   Errors are exceptional scenarios that are out of the scope of application, and it’s not possible to anticipate and recover from them.
 -   For example, hardware failure, Java virtual machine (JVM) crash, or out-of-memory error.
 -   That’s why we have a separate hierarchy of Errors and we should not try to handle these situations.
 -   Some of the common Errors are OutOfMemoryError and StackOverflowError.
 
-## 4.2 Checked Exceptions
+## 5.2 Checked Exceptions
 
 -   The exception classes which directly inherit from the Throwable class with an exception of RuntimeException and Error are checked exceptions.
 -   They are checked during compilation time.
@@ -164,7 +206,7 @@ Exception in thread "main" java.io.IOException: Only supported for index 0 to 10
 -   The Exception is the parent class of all Checked Exceptions.
 -   If we are throwing a Checked Exception, we must catch it in the same method, or we have to propagate it to the caller using the throws keyword.
 
-## 4.3 Runtime / Unchecked Exception:
+## 5.3 Runtime / Unchecked Exception:
 
 -   Runtime Exceptions are caused by bad programming.
 -   For example, trying to retrieve an element from an array.
@@ -205,7 +247,239 @@ Exception in thread "main" java.io.IOException: Only supported for index 0 to 10
 
 -   This method prints the stack trace information to the standard error stream, this method is overloaded, and we can pass PrintStream or PrintWriter as an argument to write the stack trace information to the file or stream.
 
-# 5. Java 7 Automatic Resource Management and Catch block improvements
+# 6. The common exception scenarios in Java:
+
+**1. SQLException:**
+
+-   Using invalid SQL queries in the java program might lead to this kind of exception.
+
+**2. IOException:**
+
+-   Whenever the JVM fails to open the IO stream, this exception is thrown by the JVM.
+
+**3. ClassNotFoundException:**
+
+-   If we try to access a class that does not exist or has been deleted from the path, the JVM throws this error.
+
+**4. ArithmeticException:**
+
+-   Dividing a number by zero will give an ArithmeticException, as we all know anything divided by zero is infinite.
+
+**Code to illustrate ArithmeticException:**
+
+```java
+package com.DataFlair.exceptions;
+public class exception
+{
+public static void main(String args[])
+{
+int exp = 50/0;
+System.out.println("This is an Arithmetic Exception: " + exp);
+}
+}
+```
+
+**The output of the above Code:**
+
+```
+java.lang.ArithmeticException: / by zero
+at com.DataFlair.exceptions.exception.main(exception.java:6)
+at com.DataFlair.exceptions.__SHELL0.run(__SHELL0.java:6)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at bluej.runtime.ExecServer$3.lambda$run$0(ExecServer.java:849)
+at bluej.runtime.ExecServer.runOnTargetThread(ExecServer.java:964)
+at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
+```
+
+**5. NullPointerException:**
+
+-   Trying to find the length of a null string is an example of this kind of exception.
+-   We all know that null doesn’t have a physical memory assigned to it, thus it doesn’t have a length. So, it will give a NullPointerException.
+
+**Code to explain NullPointerException:**
+
+```java
+package com.DataFlair.exceptions;
+public class exception
+{
+public static void main(String args[])
+{
+String str= null;
+System.out.println(str.length());
+}
+}
+```
+
+**The output of the above code:**
+
+```
+java.lang.NullPointerException
+at com.DataFlair.exceptions.exception.main(exception.java:7)
+at com.DataFlair.exceptions.__SHELL1.run(__SHELL1.java:6)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at bluej.runtime.ExecServer$3.lambda$run$0(ExecServer.java:849)
+at bluej.runtime.ExecServer.runOnTargetThread(ExecServer.java:964)
+at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
+```
+
+**6. NumberFormatException:**
+
+-   
+-   If we declare a variable as a string with multiple characters and try to convert it into a digit, it will give a NumberFormatException.
+
+**Code to Explain NumberFormatException:**
+
+```java
+package com.DataFlair.exceptions;
+public class exception
+{
+public static void main(String args[])
+{
+String str= "DataFlair";
+int num=Integer.parseInt(str);
+System.out.println(num);
+}
+}
+```
+
+**The output of the above code:**
+
+```
+java.lang.NumberFormatException: For input string: “DataFlair”
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+at java.base/java.lang.Integer.parseInt(Integer.java:652)
+at java.base/java.lang.Integer.parseInt(Integer.java:770)
+at com.DataFlair.exceptions.exception.main(exception.java:7)
+at com.DataFlair.exceptions.__SHELL2.run(__SHELL2.java:6)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at bluej.runtime.ExecServer$3.lambda$run$0(ExecServer.java:849)
+at bluej.runtime.ExecServer.runOnTargetThread(ExecServer.java:964)
+at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
+```
+
+**7. ArrayIndexOutOfBOundException:**
+
+-   This is the most common exception that occurs in a program.
+-   Programmers often forget the size of the array and call for an index that is larger than the size of the array, causing ArrayIndexOutOfBoundException.
+
+**Code to Explain ArrayIndexOutOfBOundException:**
+
+```java
+package com.DataFlair.exceptions;
+public class exception
+{
+public static void main(String args[])
+{
+int num[]=new int[50];
+num[100]=1000;
+System.out.println(num[100]);
+}
+}
+```
+
+**The output of the above code:**
+
+```
+java.lang.ArrayIndexOutOfBoundsException: Index 100 out of bounds for length 50
+at com.DataFlair.exceptions.exception.main(exception.java:7)
+at com.DataFlair.exceptions.__SHELL3.run(__SHELL3.java:6)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at bluej.runtime.ExecServer$3.lambda$run$0(ExecServer.java:849)
+at bluej.runtime.ExecServer.runOnTargetThread(ExecServer.java:964)
+at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
+```
+
+**8. IllegalArgumentException:**
+
+-   IllegalArgument Exception is thrown when we pass an incorrect argument into a method.
+
+**Code to explain IllegalArgumentException:**
+
+```java
+package com.DataFlair.exceptions;
+public class exception
+{
+public static void main(String[] args)
+{
+Thread t1 = new Thread(new Runnable() {
+public void run()
+{
+try {
+Thread.sleep(-10);
+}
+catch (InterruptedException e) {
+e.printStackTrace();
+}
+System.out.println("DataFlair");
+}
+});
+t1.setName("Test Thread");
+t1.start();
+}
+}
+```
+
+**The output of the above code:**
+
+```
+Exception in thread “Test Thread” java.lang.IllegalArgumentException: timeout value is negative
+at java.base/java.lang.Thread.sleep(Native Method)
+at com.DataFlair.exceptions.exception$1.run(exception.java:10)
+at java.base/java.lang.Thread.run(Thread.java:834)
+```
+
+**9. IllegalStateException:**
+
+-   If we call a method at the wrong time, we get the IllegalStateException.
+-   It means that the state of the environment does not meet the operation.
+
+**Code to understand IllegalStateException:**
+
+```java
+package com.DataFlair.exceptions;
+import java.util.ArrayList;
+import java.util.ListIterator;
+public class exception
+{
+public static void main(String args[]) {
+ArrayList<String> list = new ArrayList<String>();
+list.add("Data");
+list.add("Flair");
+ListIterator<String> it = list.listIterator();
+it.remove();//Removing element without moving the first position.
+}
+}
+```
+
+**The output of the above code:**
+
+```
+java.lang.IllegalStateException
+at java.base/java.util.ArrayList$Itr.remove(ArrayList.java:1009)
+at com.DataFlair.exceptions.exception.main(exception.java:11)
+at com.DataFlair.exceptions.__SHELL0.run(__SHELL0.java:6)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at bluej.runtime.ExecServer$3.lambda$run$0(ExecServer.java:849)
+at bluej.runtime.ExecServer.runOnTargetThread(ExecServer.java:964)
+at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
+```
+
+# 6. Java 7 Automatic Resource Management and Catch block improvements
 
 -   If you are catching a lot of exceptions in a single try block, you will notice that the catch block code mostly consists of redundant code to log the error.
 -   In Java 7, one of the features was an improved catch block where we can catch multiple exceptions in a single catch block.
@@ -234,7 +508,7 @@ e.printStackTrace();
 }
 ```
 
-# 6. References
+# 7. References
 
 1.  https://www.digitalocean.com/community/tutorials/exception-handling-in-java
 2.  https://data-flair.training/blogs/java-exception/
