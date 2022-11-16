@@ -334,7 +334,6 @@ at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
 
 **6. NumberFormatException:**
 
--   
 -   If we declare a variable as a string with multiple characters and try to convert it into a digit, it will give a NumberFormatException.
 
 **Code to Explain NumberFormatException:**
