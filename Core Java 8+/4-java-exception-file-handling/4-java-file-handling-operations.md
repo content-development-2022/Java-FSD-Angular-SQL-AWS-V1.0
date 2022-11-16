@@ -2,11 +2,11 @@
 
 **Content**
 
-1\. File operations in Java
+[1. File operations in Java](#1-file-operations-in-java)
 
 [1.1 Create a File](#11-create-a-file)
 
-[1.2 Read from a File](#)
+[1.2 Read from a File]()
 
 [1.3 Write to a File](#13-write-to-a-file)
 
@@ -36,7 +36,7 @@ Now let us study each of the above operations in detail.
 import java.io.File;
 // Import the IOException class to handle errors
 import java.io.IOException;
-public class GFG {
+public class Sample1 {
     public static void main(String[] args) {
         try {
             File Obj = new File("myfile.txt");
@@ -61,7 +61,9 @@ public class GFG {
 An error has occurred.
 ```
 
-## ![Files IO](media/7536d6303c88229456c4eed2802de6b1.png)
+-   Here is a hierarchy of classes to deal with Input and Output streams.
+
+## ![Files IO](media/filehierarchy.png)
 
 ## 1.2 Read from a File
 
