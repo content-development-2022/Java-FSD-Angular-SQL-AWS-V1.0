@@ -35,10 +35,10 @@
 
 ```java
 public class Player {
-private int ranking;
-private String name;
-private int age;
-// constructor, getters, setters
+    private int ranking;
+    private String name;
+    private int age;
+    // constructor, getters, setters
 }
 ```
 
@@ -46,18 +46,18 @@ private int age;
 
 ```java
 public class PlayerSorter {
-public static void main(String[] args) {
-List<Player> footballTeam = new ArrayList<>();
-Player player1 = new Player(59, "John", 20);
-Player player2 = new Player(67, "Roger", 22);
-Player player3 = new Player(45, "Steven", 24);
-footballTeam.add(player1);
-footballTeam.add(player2);
-footballTeam.add(player3);
-System.out.println("Before Sorting : " + footballTeam);
-Collections.sort(footballTeam);
-System.out.println("After Sorting : " + footballTeam);
-}
+    public static void main(String[] args) {
+        List<Player> footballTeam = new ArrayList<>();
+        Player player1 = new Player(59, "John", 20);
+        Player player2 = new Player(67, "Roger", 22);
+        Player player3 = new Player(45, "Steven", 24);
+        footballTeam.add(player1);
+        footballTeam.add(player2);
+        footballTeam.add(player3);
+        System.out.println("Before Sorting : " + footballTeam);
+        Collections.sort(footballTeam);
+        System.out.println("After Sorting : " + footballTeam);
+    }
 }
 ```
 
@@ -76,11 +76,11 @@ The method sort(List<T>) in the type Collections is not applicable for the argum
 
 ```java
 public class Player implements Comparable<Player> {
-// same as before
-@Override
-public int compareTo(Player otherPlayer) {
-return Integer.compare(getRanking(), otherPlayer.getRanking());
-}
+    // same as before
+    @Override
+    public int compareTo(Player otherPlayer) {
+        return Integer.compare(getRanking(), otherPlayer.getRanking());
+    }
 }
 ```
 
@@ -107,10 +107,10 @@ After Sorting : [Steven, John, Roger]
 
 ```java
 public class PlayerRankingComparator implements Comparator<Player> {
-@Override
-public int compare(Player firstPlayer, Player secondPlayer) {
-return Integer.compare(firstPlayer.getRanking(), secondPlayer.getRanking());
-}
+    @Override
+    public int compare(Player firstPlayer, Player secondPlayer) {
+        return Integer.compare(firstPlayer.getRanking(), secondPlayer.getRanking());
+    }
 }
 ```
 
@@ -118,10 +118,10 @@ return Integer.compare(firstPlayer.getRanking(), secondPlayer.getRanking());
 
 ```java
 public class PlayerAgeComparator implements Comparator<Player> {
-@Override
-public int compare(Player firstPlayer, Player secondPlayer) {
-return Integer.compare(firstPlayer.getAge(), secondPlayer.getAge());
-}
+    @Override
+    public int compare(Player firstPlayer, Player secondPlayer) {
+        return Integer.compare(firstPlayer.getAge(), secondPlayer.getAge());
+    }
 }
 ```
 
@@ -163,17 +163,14 @@ After Sorting by age : [Roger, John, Steven]
 -   Let's see a quick example of how to use a lambda expression to create a *Comparator*:
 
 ```java
-Comparator byRanking =
-(Player player1, Player player2) -> Integer.compare(player1.getRanking(), player2.getRanking());
+Comparator byRanking = (Player player1, Player player2) -> Integer.compare(player1.getRanking(), player2.getRanking());
 ```
 
 -   The *Comparator.comparing* method takes a method calculating the property that will be used for comparing items, and returns a matching *Comparator* instance:
 
 ```java
-Comparator<Player> byRanking = Comparator
-.comparing(Player::getRanking);
-Comparator<Player> byAge = Comparator
-.comparing(Player::getAge);
+Comparator<Player> byRanking = Comparator . comparing(Player::getRanking);
+Comparator<Player> byAge = Comparator. comparing(Player::getAge);
 ```
 
 # 5. Comparator vs Comparable
