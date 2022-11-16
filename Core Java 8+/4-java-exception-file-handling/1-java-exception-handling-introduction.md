@@ -60,12 +60,11 @@ After this, the following will happen:
 
 ```java
 package com.DataFlair.exceptions;
-public class exception
-{
-public static void main(String args[]){
-String str = null;
-System.out.println(str.length());
-}
+public class exception {
+	public static void main(String args[]) {
+		String str = null;
+		System.out.println(str.length());
+	}
 }
 ```
 
@@ -273,13 +272,11 @@ Exception in thread "main" java.io.IOException: Only supported for index 0 to 10
 
 ```java
 package com.DataFlair.exceptions;
-public class exception
-{
-public static void main(String args[])
-{
-int exp = 50/0;
-System.out.println("This is an Arithmetic Exception: " + exp);
-}
+public class exception {
+	public static void main(String args[]) {
+		int exp = 50/0;
+		System.out.println("This is an Arithmetic Exception: " + exp);
+	}
 }
 ```
 
@@ -307,13 +304,11 @@ at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
 
 ```java
 package com.DataFlair.exceptions;
-public class exception
-{
-public static void main(String args[])
-{
-String str= null;
-System.out.println(str.length());
-}
+public class exception {
+	public static void main(String args[]) {
+		String str= null;
+		System.out.println(str.length());
+	}
 }
 ```
 
@@ -340,14 +335,12 @@ at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
 
 ```java
 package com.DataFlair.exceptions;
-public class exception
-{
-public static void main(String args[])
-{
-String str= "DataFlair";
-int num=Integer.parseInt(str);
-System.out.println(num);
-}
+public class exception {
+	public static void main(String args[]) {
+		String str= "DataFlair";
+		int num=Integer.parseInt(str);
+		System.out.println(num);
+	}
 }
 ```
 
@@ -378,14 +371,12 @@ at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
 
 ```java
 package com.DataFlair.exceptions;
-public class exception
-{
-public static void main(String args[])
-{
-int num[]=new int[50];
-num[100]=1000;
-System.out.println(num[100]);
-}
+public class exception {
+	public static void main(String args[]) {
+		int num[]=new int[50];
+		num[100]=1000;
+		System.out.println(num[100]);
+	}
 }
 ```
 
@@ -412,25 +403,22 @@ at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
 
 ```java
 package com.DataFlair.exceptions;
-public class exception
-{
-public static void main(String[] args)
-{
-Thread t1 = new Thread(new Runnable() {
-public void run()
-{
-try {
-Thread.sleep(-10);
-}
-catch (InterruptedException e) {
-e.printStackTrace();
-}
-System.out.println("DataFlair");
-}
-});
-t1.setName("Test Thread");
-t1.start();
-}
+public class exception {
+	public static void main(String[] args) {
+		Thread t1 = new Thread(new Runnable() {
+			public void run() {
+				try {
+				Thread.sleep(-10);
+				}
+				catch (InterruptedException e) {
+				e.printStackTrace();
+				}
+				System.out.println("DataFlair");
+			}
+		});
+		t1.setName("Test Thread");
+		t1.start();
+	}
 }
 ```
 
@@ -454,15 +442,14 @@ at java.base/java.lang.Thread.run(Thread.java:834)
 package com.DataFlair.exceptions;
 import java.util.ArrayList;
 import java.util.ListIterator;
-public class exception
-{
-public static void main(String args[]) {
-ArrayList<String> list = new ArrayList<String>();
-list.add("Data");
-list.add("Flair");
-ListIterator<String> it = list.listIterator();
-it.remove();//Removing element without moving the first position.
-}
+public class exception {
+	public static void main(String args[]) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Data");
+		list.add("Flair");
+		ListIterator<String> it = list.listIterator();
+		it.remove();//Removing element without moving the first position.
+	}
 }
 ```
 
@@ -490,8 +477,8 @@ at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
 
 ```java
 catch (IOException | SQLException ex) {
-logger.error(ex);
-throw new MyException(ex.getMessage());
+	logger.error(ex);
+	throw new MyException(ex.getMessage());
 }
 ```
 
@@ -505,9 +492,9 @@ throw new MyException(ex.getMessage());
 
 ```java
 try (MyResource mr = new MyResource()) {
-System.out.println("MyResource created in try-with-resources");
+	System.out.println("MyResource created in try-with-resources");
 } catch (Exception e) {
-e.printStackTrace();
+	e.printStackTrace();
 }
 ```
 
