@@ -59,7 +59,7 @@ public class Person implements Serializable {
 
 -   The test below shows an example of saving an object of type *Person* to a local file, and then reading the value back in:
 
-```Code
+```java
 @Test
 public void whenSerializingAndDeserializing_ThenObjectIsTheSame() ()
 throws IOException, ClassNotFoundException {
