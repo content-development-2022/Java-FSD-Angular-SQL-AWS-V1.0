@@ -80,7 +80,7 @@ List<Integer> list = new LinkedList<>();
 
 ```java
 public <T> List<T> fromArrayToList(T[] a) {
-return Arrays.stream(a).collect(Collectors.toList());
+    return Arrays.stream(a).collect(Collectors.toList());
 }
 ```
 
@@ -92,9 +92,7 @@ return Arrays.stream(a).collect(Collectors.toList());
 
 ```java
 public static <T, G> List<G> fromArrayToList(T[] a, Function<T, G> mapperFunction) {
-return Arrays.stream(a)
-.map(mapperFunction)
-.collect(Collectors.toList());
+    return Arrays.stream(a).map(mapperFunction).collect(Collectors.toList());
 }
 ```
 
@@ -104,10 +102,9 @@ return Arrays.stream(a)
 ```java
 @Test
 public void givenArrayOfIntegers_thanListOfStringReturnedOK() {
-Integer[] intArray = {1, 2, 3, 4, 5};
-List<String> stringList
-= Generics.fromArrayToList(intArray, Object::toString);
-assertThat(stringList, hasItems("1", "2", "3", "4", "5"));
+    Integer[] intArray = {1, 2, 3, 4, 5};
+    List<String> stringList = Generics.fromArrayToList(intArray, Object::toString);
+    assertThat(stringList, hasItems("1", "2", "3", "4", "5"));
 }
 ```
 
@@ -154,7 +151,7 @@ public <T extends Number> List<T> fromArrayToList(T[] a) {
 
 ```java
 public static void paintAllBuildings(List<Building> buildings) {
-buildings.forEach(Building::paint);
+    buildings.forEach(Building::paint);
 }
 ```
 
@@ -185,7 +182,7 @@ public static void paintAllBuildings(List<? extends Building> buildings) {
 
 ```java
 public <T> List<T> genericMethod(List<T> list) {
-return list.stream().collect(Collectors.toList());
+    return list.stream().collect(Collectors.toList());
 }
 ```
 
@@ -194,11 +191,11 @@ return list.stream().collect(Collectors.toList());
 ```java
 // for illustration
 public List<Object> withErasure(List<Object> list) {
-return list.stream().collect(Collectors.toList());
+    return list.stream().collect(Collectors.toList());
 }
 // which in practice results in
 public List withErasure(List list) {
-return list.stream().collect(Collectors.toList());
+    return list.stream().collect(Collectors.toList());
 }
 ```
 
