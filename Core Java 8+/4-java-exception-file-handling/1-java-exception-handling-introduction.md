@@ -2,17 +2,21 @@
 
 **Content**
 
-1\. Introduction
+[1. Introduction](#1-introduction)
 
 [2. Throwing and Catching Exceptions](#2-throwing-and-catching-exceptions)
 
-[3. Java Exception Handling Keywords](#4-java-exception-handling-keywords)
+[3. How JVM Handles an Exception(Default Exception Handling)](#3-how-jvm-handles-an-exceptiondefault-exception-handling)
 
-[4. Java Exception Hierarchy](#5-java-exception-hierarchy)
+[4. Java Exception Handling Keywords](#4-java-exception-handling-keywords)
 
-[5. Java 7 Automatic Resource Management and Catch block improvements](#6-the-common-exception-scenarios-in-java)
+[5. Java Exception Hierarchy](#5-java-exception-hierarchy)
 
-[6. References](#7-references)
+[6. The common exception scenarios in Java:](#6-the-common-exception-scenarios-in-java)
+
+[7. Java 7 Automatic Resource Management and Catch block improvements](#7-java-7-automatic-resource-management-and-catch-block-improvements)
+
+[8. References](#8-references)
 
 # 1. Introduction
 
@@ -38,7 +42,7 @@
 -   Java Exception handling framework is used to handle runtime errors only.
 -   The compile-time errors have to be fixed by the developer writing the code else the program won’t execute.
 
-# 3. How JVM Handles an Exception(Default Exception Handling):
+# 3. How JVM Handles an Exception(Default Exception Handling)
 
 -   If an exception is encountered inside the method, it creates an object called the Exception Object.
 -   The object is then transferred to the run-time system or JVM.
@@ -479,7 +483,7 @@ at bluej.runtime.ExecServer.runOnTargetThread(ExecServer.java:964)
 at bluej.runtime.ExecServer$3.run(ExecServer.java:846)
 ```
 
-# 6. Java 7 Automatic Resource Management and Catch block improvements
+# 7. Java 7 Automatic Resource Management and Catch block improvements
 
 -   If you are catching a lot of exceptions in a single try block, you will notice that the catch block code mostly consists of redundant code to log the error.
 -   In Java 7, one of the features was an improved catch block where we can catch multiple exceptions in a single catch block.
@@ -508,7 +512,7 @@ e.printStackTrace();
 }
 ```
 
-# 7. References
+# 8. References
 
 1.  https://www.digitalocean.com/community/tutorials/exception-handling-in-java
 2.  https://data-flair.training/blogs/java-exception/
