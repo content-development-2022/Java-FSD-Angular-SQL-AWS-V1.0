@@ -39,12 +39,12 @@
 // Importing File Class
 import java.io.File;
 class Sample1 {
-public static void main(String[] args)
-{
-// File name specified
-File obj = new File("myfile.txt");
-System.out.println("File Created!");
-}
+    public static void main(String[] args)
+    {
+        // File name specified
+        File obj = new File("myfile.txt");
+        System.out.println("File Created!");
+    }
 }
 ```
 
