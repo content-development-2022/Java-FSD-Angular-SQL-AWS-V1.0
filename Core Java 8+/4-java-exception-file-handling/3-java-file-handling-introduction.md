@@ -92,7 +92,7 @@ InputStream obj = new FileInputStream();
 
 **Note:** We can create an input stream from other subclasses as well as InputStream.
 
-### *2.1.2* Methods of InputStream
+### 2.1.2 Methods of InputStream
 
 | **S No.** | **Method**           | **Description**                                                                   |
 |-----------|----------------------|-----------------------------------------------------------------------------------|
