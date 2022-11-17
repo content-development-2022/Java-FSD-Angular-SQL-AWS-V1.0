@@ -186,7 +186,7 @@ throws IOException, ClassNotFoundException {
 ```
 
 -   In this code, we can see how to save some unserializable attributes by serializing *Address* with custom serialization.
--   Note that we must mark the unserializable attributes as *transient* to avoid the *NotSerializableException.*
+-   **Note** that we must mark the unserializable attributes as *transient* to avoid the *NotSerializableException.*
 
 # 4. References
 
