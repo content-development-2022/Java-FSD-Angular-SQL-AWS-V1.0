@@ -65,7 +65,8 @@ finally {
 ## 2.2 Closing Statement Object
 
 -   Just as you close a Connection object to save database resources, for the same reason you should also close the Statement object.
--   A simple call to the close() method will do the job. If you close the Connection object first, it will close the Statement object as well.
+-   A simple call to the close() method will do the job.
+-   If you close the Connection object first, it will close the Statement object as well.
 -   However, you should always explicitly close the Statement object to ensure proper cleanup.
 
 ```java
