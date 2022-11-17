@@ -105,4 +105,3 @@ The JDBC API provides the following interfaces and classes −
 # 4. References
 
 1.  https://www.tutorialspoint.com/jdbc/jdbc-introduction.htm
-2.  https://www.tutorialspoint.com/jdbc/index.htm
