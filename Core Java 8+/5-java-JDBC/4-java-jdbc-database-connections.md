@@ -19,9 +19,7 @@
 # 1. JDBC - Database Connections
 
 -   After you've installed the appropriate driver, it is time to establish a database connection using JDBC.
--   The programming involved to establish a JDBC connection is fairly simple.
-
-**Steps** :
+-   The following are the steps to establish a JDBC connection:
 
 **Step-1: Import JDBC Packages**:
 
@@ -118,12 +116,12 @@ catch(ClassNotFoundException ex) {
 -   Formulating a database URL is where most of the problems associated with establishing a connection occurs.
 -   Following table lists down the popular JDBC driver names and database URL.
 
-| **RDBMS** | **JDBC driver name**            | **URL format**                                              |
-|-----------|---------------------------------|-------------------------------------------------------------|
+| **RDBMS** | **JDBC driver name**            | **URL format**                                          |
+|-----------|---------------------------------|---------------------------------------------------------|
 | MySQL     | com.mysql.jdbc.Driver           | **jdbc:mysql:**//hostname/ databaseName                 |
 | ORACLE    | oracle.jdbc.driver.OracleDriver | **jdbc:oracle:thin:**@hostname:port Number:databaseName |
-| DB2       | COM.ibm.db2.jdbc.net.DB2Driver  | **jdbc:db2:** hostname:port Number/databaseName          |
-| Sybase    | com.sybase.jdbc.SybDriver       | **jdbc:sybase:Tds:** hostname: port Number/databaseName  |
+| DB2       | COM.ibm.db2.jdbc.net.DB2Driver  | **jdbc:db2:** hostname:port Number/databaseName         |
+| Sybase    | com.sybase.jdbc.SybDriver       | **jdbc:sybase:Tds:** hostname: port Number/databaseName |
 
 -   All the highlighted part in URL format is static and you need to change only the remaining part as per your database setup.
 
