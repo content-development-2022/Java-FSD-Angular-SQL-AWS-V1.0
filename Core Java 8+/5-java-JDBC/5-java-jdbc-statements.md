@@ -46,14 +46,14 @@
 ```java
 Statement stmt = null;
 try {
-stmt = conn.createStatement( );
-. . .
+    stmt = conn.createStatement( );
+    . . .
 }
 catch (SQLException e) {
-. . .
+    . . .
 }
 finally {
-. . .
+    . . .
 }
 ```
 
@@ -71,14 +71,14 @@ finally {
 ```java
 Statement stmt = null;
 try {
-stmt = conn.createStatement( );
-. . .
+    stmt = conn.createStatement( );
+    . . .
 }
 catch (SQLException e) {
-. . .
+    . . .
 }
 finally {
-stmt.close();
+    stmt.close();
 }
 ```
 
@@ -92,15 +92,15 @@ stmt.close();
 ```java
 PreparedStatement pstmt = null;
 try {
-String SQL = "Update Employees SET age = ? WHERE id = ?";
-pstmt = conn.prepareStatement(SQL);
-. . .
+    String SQL = "Update Employees SET age = ? WHERE id = ?";
+    pstmt = conn.prepareStatement(SQL);
+    . . .
 }
 catch (SQLException e) {
-. . .
+    . . .
 }
 finally {
-. . .
+    . . .
 }
 ```
 
@@ -124,15 +124,15 @@ finally {
 ```java
 PreparedStatement pstmt = null;
 try {
-String SQL = "Update Employees SET age = ? WHERE id = ?";
-pstmt = conn.prepareStatement(SQL);
-. . .
+    String SQL = "Update Employees SET age = ? WHERE id = ?";
+    pstmt = conn.prepareStatement(SQL);
+    . . .
 }
 catch (SQLException e) {
-. . .
+    . . .
 }
 finally {
-pstmt.close();
+    pstmt.close();
 }
 ```
 
@@ -186,15 +186,15 @@ DELIMITER ;
 ```java
 CallableStatement cstmt = null;
 try {
-String SQL = "{call getEmpName (?, ?)}";
-cstmt = conn.prepareCall (SQL);
-. . .
+    String SQL = "{call getEmpName (?, ?)}";
+    cstmt = conn.prepareCall (SQL);
+    . . .
 }
 catch (SQLException e) {
-. . .
+    . . .
 }
 finally {
-. . .
+    . . .
 }
 ```
 
@@ -217,15 +217,15 @@ finally {
 ```java
 CallableStatement cstmt = null;
 try {
-String SQL = "{call getEmpName (?, ?)}";
-cstmt = conn.prepareCall (SQL);
-. . .
+    String SQL = "{call getEmpName (?, ?)}";
+    cstmt = conn.prepareCall (SQL);
+    . . .
 }
 catch (SQLException e) {
-. . .
+    . . .
 }
 finally {
-cstmt.close();
+    cstmt.close();
 }
 ```
 
