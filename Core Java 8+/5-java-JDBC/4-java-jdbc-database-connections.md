@@ -40,7 +40,7 @@
 ## 1.1 Import JDBC Packages
 
 -   The **Import** statements tell the Java compiler where to find the classes you reference in your code and are placed at the very beginning of your source code.
--   To use the standard JDBC package, which allows you to select, insert, update, and delete data in SQL tables, add the following *imports* to your source code −
+-   To use the standard JDBC package, which allows you to select, insert, update, and delete data in SQL tables, add the following *imports* to your source code.
 
 ```java
 import java.sql.* ; // for standard JDBC programs
@@ -177,7 +177,8 @@ Connection conn = DriverManager.getConnection(URL);
 DriverManager.getConnection(String url, Properties info);
 ```
 
--   A Properties object holds a set of keyword-value pairs. It is used to pass driver properties to the driver during a call to the getConnection() method.
+-   A Properties object holds a set of keyword-value pairs.
+-   It is used to pass driver properties to the driver during a call to the getConnection() method.
 -   To make the same connection made by the previous examples, use the following code
 
 ```java
