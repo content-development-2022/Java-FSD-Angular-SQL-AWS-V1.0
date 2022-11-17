@@ -63,11 +63,11 @@ import java.math.* ; // for BigDecimal and BigInteger support
 
 ```java
 try {
-Class.forName("oracle.jdbc.driver.OracleDriver");
+    Class.forName("oracle.jdbc.driver.OracleDriver");
 }
 catch(ClassNotFoundException ex) {
-System.out.println("Error: unable to load driver class!");
-System.exit(1);
+    System.out.println("Error: unable to load driver class!");
+    System.exit(1);
 }
 ```
 
@@ -75,17 +75,17 @@ System.exit(1);
 
 ```java
 try {
-Class.forName("oracle.jdbc.driver.OracleDriver").newInstance();
+    Class.forName("oracle.jdbc.driver.OracleDriver").newInstance();
 }
 catch(ClassNotFoundException ex) {
-System.out.println("Error: unable to load driver class!");
-System.exit(1);
+    System.out.println("Error: unable to load driver class!");
+    System.exit(1);
 catch(IllegalAccessException ex) {
-System.out.println("Error: access problem while loading!");
-System.exit(2);
+    System.out.println("Error: access problem while loading!");
+    System.exit(2);
 catch(InstantiationException ex) {
-System.out.println("Error: unable to instantiate driver!");
-System.exit(3);
+    System.out.println("Error: unable to instantiate driver!");
+    System.exit(3);
 }
 ```
 
@@ -97,12 +97,12 @@ System.exit(3);
 
 ```java
 try {
-Driver myDriver = new oracle.jdbc.driver.OracleDriver();
-DriverManager.registerDriver( myDriver );
+    Driver myDriver = new oracle.jdbc.driver.OracleDriver();
+    DriverManager.registerDriver( myDriver );
 }
 catch(ClassNotFoundException ex) {
-System.out.println("Error: unable to load driver class!");
-System.exit(1);
+    System.out.println("Error: unable to load driver class!");
+    System.exit(1);
 }
 ```
 
