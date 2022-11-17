@@ -8,7 +8,7 @@
 
 # 1. Creating JDBC Application
 
-There are following six steps involved in building a JDBC application:
+The following steps involved in building a JDBC application:
 
 -   **Import the packages** − Requires that you include the packages containing the JDBC classes needed for database programming. Most often, using *import java.sql.\** will suffice.
 -   **Open a connection** − Requires using the *DriverManager.getConnection()* method to create a Connection object, which represents a physical connection with the database.
@@ -19,7 +19,6 @@ There are following six steps involved in building a JDBC application:
 # 2. Sample Code
 
 -   This sample example can serve as a **template** when you need to create your own JDBC application in the future.
--   This sample code has been written based on the environment and database setup done in the previous chapter.
 -   Copy and paste the following example in FirstExample.java, compile and run as follows:
 
 ```java
@@ -49,14 +48,14 @@ public class FirstExample {
 }
 ```
 
--   Now let us compile the above example as follows −
+-   Now let us compile the above example as follows
 
 ```
 C:\>javac FirstExample.java
 C:\>
 ```
 
--   When you run **FirstExample**, it produces the following result −
+-   When you run **FirstExample**, it produces the following result
 
 ```
 C:\>java FirstExample
