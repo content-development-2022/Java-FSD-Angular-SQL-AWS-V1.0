@@ -22,7 +22,7 @@
 ## 1.1 Applications of JDBC
 
 -   Fundamentally, JDBC is a specification that provides a complete set of interfaces that allows for portable access to an underlying database.
--   Java can be used to write different types of executables, such as −
+-   Java can be used to write different types of executables, such as:
 1.  Java Applications
 2.  Java Applets
 3.  Java Servlets
@@ -33,9 +33,9 @@
 
 ## 1.2 Pre-Requisite
 
--   Before moving further, you need to have a good understanding of the following two subjects −
--   Core JAVA Programming
--   SQL or MySQL Database
+-   Before moving further, you need to have a good understanding of the following two subjects :
+1.  Core JAVA Programming
+2.  SQL or MySQL Database
 
 # 2. JDBC Architecture
 
