@@ -39,19 +39,19 @@
 
 # 2. JDBC Architecture
 
--   The JDBC API supports both two-tier and three-tier processing models for database access but in general, JDBC Architecture consists of two layers −
+-   The JDBC API supports both two-tier and three-tier processing models for database access but in general, JDBC Architecture consists of two layers:
 1.  **JDBC API** − This provides the application-to-JDBC Manager connection.
 2.  **JDBC Driver API** − This supports the JDBC Manager-to-Driver Connection.
 -   The JDBC API uses a driver manager and database-specific drivers to provide transparent connectivity to heterogeneous databases.
 -   The JDBC driver manager ensures that the correct driver is used to access each data source.
 -   The driver manager is capable of supporting multiple concurrent drivers connected to multiple heterogeneous databases.
--   Following is the architectural diagram, which shows the location of the driver manager with respect to the JDBC drivers and the Java application −
+-   Following is the architectural diagram, which shows the location of the driver manager with respect to the JDBC drivers and the Java application.
 
 ![JDBC Architecture](media/architecture-jdbc.png)
 
 ## 2.1 Common JDBC Components
 
-The JDBC API provides the following interfaces and classes −
+-   The JDBC API provides the following interfaces and classes.
 
 **DriverManager**:
 
@@ -88,10 +88,9 @@ The JDBC API provides the following interfaces and classes −
 ## 3. The JDBC 4.0 Packages
 
 -   The java.sql and javax.sql are the primary packages for JDBC 4.0.
--   This is the latest JDBC version at the time of writing this tutorial.
 -   It offers the main classes for interacting with your data sources.
 
-**The new features in these packages include changes in the following areas −**
+**The new features in these packages include changes in the following areas**
 
 -   Automatic database driver loading.
 -   Exception handling improvements.
