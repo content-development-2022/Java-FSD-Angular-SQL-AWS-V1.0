@@ -39,18 +39,15 @@ Statement stmt = conn.createStatement();
 // Set auto-commit to false
 conn.setAutoCommit(false);
 // Create SQL statement
-String SQL = "INSERT INTO Employees (id, first, last, age) " +
-"VALUES(200,'Zia', 'Ali', 30)";
+String SQL = "INSERT INTO Employees (id, first, last, age) " +"VALUES(200,'Zia', 'Ali', 30)";
 // Add above SQL statement in the batch.
 stmt.addBatch(SQL);
 // Create one more SQL statement
-String SQL = "INSERT INTO Employees (id, first, last, age) " +
-"VALUES(201,'Raj', 'Kumar', 35)";
+String SQL = "INSERT INTO Employees (id, first, last, age) " +"VALUES(201,'Raj', 'Kumar', 35)";
 // Add above SQL statement in the batch.
 stmt.addBatch(SQL);
 // Create one more SQL statement
-String SQL = "UPDATE Employees SET age = 35 " +
-"WHERE id = 100";
+String SQL = "UPDATE Employees SET age = 35 " +"WHERE id = 100";
 // Add above SQL statement in the batch.
 stmt.addBatch(SQL);
 // Create an int[] to hold returned values
@@ -74,8 +71,7 @@ The following code snippet provides an example of a batch update using PrepareSt
 
 ```java
 // Create SQL statement
-String SQL = "INSERT INTO Employees (id, first, last, age) " +
-"VALUES(?, ?, ?, ?)";
+String SQL = "INSERT INTO Employees (id, first, last, age) " +"VALUES(?, ?, ?, ?)";
 // Create PrepareStatement object
 PreparedStatemen pstmt = conn.prepareStatement(SQL);
 //Set auto-commit to false
