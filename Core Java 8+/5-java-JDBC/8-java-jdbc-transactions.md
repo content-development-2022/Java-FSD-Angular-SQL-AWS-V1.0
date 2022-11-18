@@ -56,9 +56,9 @@ try{
     stmt.executeUpdate(SQL);
     // If there is no error.
     conn.commit();
-    }catch(SQLException se){
-        // If there is any error.
-        conn.rollback();
+}catch(SQLException se){
+    // If there is any error.
+    conn.rollback();
 }
 ```
 
@@ -90,9 +90,9 @@ try{
     stmt.executeUpdate(SQL);
     // If there is no error, commit the changes.
     conn.commit();
-    }catch(SQLException se){
-        // If there is any error.
-        conn.rollback(savepoint1);
+}catch(SQLException se){
+    // If there is any error.
+    conn.rollback(savepoint1);
 }
 ```
 
