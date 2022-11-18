@@ -60,13 +60,13 @@
 
 ```java
 try {
-Statement stmt = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY);
+    Statement stmt = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY);
 }
 catch(Exception ex) {
-....
+    ....
 }
 finally {
-....
+    ....
 }
 ```
 
