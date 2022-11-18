@@ -46,21 +46,19 @@ conn.rollback( );
 
 ```java
 try{
-//Assume a valid connection object conn
-conn.setAutoCommit(false);
-Statement stmt = conn.createStatement();
-String SQL = "INSERT INTO Employees " +
-"VALUES (106, 20, 'Rita', 'Tez')";
-stmt.executeUpdate(SQL);
-//Submit a malformed SQL statement that breaks
-String SQL = "INSERTED IN Employees " +
-"VALUES (107, 22, 'Sita', 'Singh')";
-stmt.executeUpdate(SQL);
-// If there is no error.
-conn.commit();
-}catch(SQLException se){
-// If there is any error.
-conn.rollback();
+    //Assume a valid connection object conn
+    conn.setAutoCommit(false);
+    Statement stmt = conn.createStatement();
+    String SQL = "INSERT INTO Employees " +"VALUES (106, 20, 'Rita', 'Tez')";
+    stmt.executeUpdate(SQL);
+    //Submit a malformed SQL statement that breaks
+    String SQL = "INSERTED IN Employees " +"VALUES (107, 22, 'Sita', 'Singh')";
+    stmt.executeUpdate(SQL);
+    // If there is no error.
+    conn.commit();
+    }catch(SQLException se){
+        // If there is any error.
+        conn.rollback();
 }
 ```
 
@@ -80,23 +78,21 @@ conn.rollback();
 
 ```java
 try{
-//Assume a valid connection object conn
-conn.setAutoCommit(false);
-Statement stmt = conn.createStatement();
-//set a Savepoint
-Savepoint savepoint1 = conn.setSavepoint("Savepoint1");
-String SQL = "INSERT INTO Employees " +
-"VALUES (106, 20, 'Rita', 'Tez')";
-stmt.executeUpdate(SQL);
-//Submit a malformed SQL statement that breaks
-String SQL = "INSERTED IN Employees " +
-"VALUES (107, 22, 'Sita', 'Tez')";
-stmt.executeUpdate(SQL);
-// If there is no error, commit the changes.
-conn.commit();
-}catch(SQLException se){
-// If there is any error.
-conn.rollback(savepoint1);
+    //Assume a valid connection object conn
+    conn.setAutoCommit(false);
+    Statement stmt = conn.createStatement();
+    //set a Savepoint
+    Savepoint savepoint1 = conn.setSavepoint("Savepoint1");
+    String SQL = "INSERT INTO Employees " +"VALUES (106, 20, 'Rita', 'Tez')";
+    stmt.executeUpdate(SQL);
+    //Submit a malformed SQL statement that breaks
+    String SQL = "INSERTED IN Employees " +"VALUES (107, 22, 'Sita', 'Tez')";
+    stmt.executeUpdate(SQL);
+    // If there is no error, commit the changes.
+    conn.commit();
+    }catch(SQLException se){
+        // If there is any error.
+        conn.rollback(savepoint1);
 }
 ```
 
