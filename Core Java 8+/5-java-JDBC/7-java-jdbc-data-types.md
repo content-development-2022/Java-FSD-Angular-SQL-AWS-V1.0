@@ -14,7 +14,8 @@
 
 -   The JDBC driver converts the Java data type to the appropriate JDBC type, before sending it to the database.
 -   It uses a default mapping for most data types.
--   For example, a Java int is converted to an SQL INTEGER. Default mappings were created to provide consistency between drivers.
+-   For example, a Java int is converted to an SQL INTEGER.
+-   Default mappings were created to provide consistency between drivers.
 -   The following table summarizes the default JDBC data type that the Java data type is converted to, when you call the setXXX() method of the PreparedStatement or CallableStatement object or the ResultSet.updateXXX() method.
 
 | **SQL**     | **JDBC/Java**        | **setXXX**    | **updateXXX**    |
