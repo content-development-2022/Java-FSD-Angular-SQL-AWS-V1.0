@@ -1,4 +1,4 @@
-# JDBC - Data Types
+# JDBC Data Types
 
 **Content**
 
