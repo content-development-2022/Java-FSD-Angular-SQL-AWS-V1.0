@@ -23,7 +23,7 @@
 -   The *java.sql.ResultSet* interface represents the result set of a database query.
 -   A ResultSet object maintains a cursor that points to the current row in the result set.
 -   The term "result set" refers to the row and column data contained in a ResultSet object.
--   The methods of the ResultSet interface can be broken down into three categories −
+-   The methods of the ResultSet interface can be broken down into three categories:
 1.  **Navigational methods** − Used to move the cursor around.
 2.  **Get methods** − Used to view the data in the columns of the current row being pointed by the cursor.
 3.  **Update methods** − Used to update the data in the columns of the current row. The updates can then be updated in the underlying database as well.
@@ -103,7 +103,6 @@ finally {
 
 -   Similarly, there are get methods in the ResultSet interface for each of the eight Java primitive types, as well as common types such as java.lang.String, java.lang.Object, and java.net.URL.
 -   There are also methods for getting SQL data types java.sql.Date, java.sql.Time, java.sql.TimeStamp, java.sql.Clob, and java.sql.Blob.
--   Check the documentation for more information about using these SQL data types.
 
 ## 2.4 Updating a Result Set
 
@@ -132,4 +131,4 @@ finally {
 
 # 3. References
 
-https://www.tutorialspoint.com/jdbc/jdbc-result-sets.htm
+1.  https://www.tutorialspoint.com/jdbc/jdbc-result-sets.htm
