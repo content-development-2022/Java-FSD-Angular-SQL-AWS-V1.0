@@ -1,10 +1,14 @@
-JDBC - Stored Procedure
+# JDBC Stored Procedure
 
-We have learnt how to use **Stored Procedures** in JDBC while discussing the [JDBC - Statements](https://www.tutorialspoint.com/jdbc/jdbc-statements.htm) chapter. This chapter is similar to that section, but it would give you additional information about JDBC SQL escape syntax.
+**Content**
+
+# 1. JDBC Stored Procedure
+
+We have learnt how to use **Stored Procedures** in JDBC while discussing the JDBC statements chapter. This chapter is similar to that section, but it would give you additional information about JDBC SQL escape syntax.
 
 Just as a Connection object creates the Statement and PreparedStatement objects, it also creates the CallableStatement object, which would be used to execute a call to a database stored procedure.
 
-## **Creating CallableStatement Object**
+## Creating CallableStatement Object
 
 Suppose, you need to execute the following Oracle stored procedure −
 
@@ -90,7 +94,7 @@ When you use OUT and INOUT parameters, you must employ an additional CallableSta
 
 Once you call your stored procedure, you retrieve the value from the OUT parameter with the appropriate getXXX() method. This method casts the retrieved value of SQL type to a Java data type.
 
-## **Closing CallableStatement Object**
+## Closing CallableStatement Object
 
 Just as you close other Statement object, for the same reason you should also close the CallableStatement object.
 
@@ -122,7 +126,7 @@ cstmt.close();
 
 studyWe have studied more details in the [Callable - Example Code](https://www.tutorialspoint.com/jdbc/callablestatement-object-example.htm).
 
-## **JDBC SQL Escape Syntax**
+## JDBC SQL Escape Syntax
 
 The escape syntax gives you the flexibility to use database specific features unavailable to you by using standard JDBC methods and properties.
 
@@ -132,7 +136,7 @@ The general SQL escape syntax format is as follows −
 
 Here are the following escape sequences, which you would find very useful while performing the JDBC programming −
 
-## **d, t, ts Keywords**
+## d, t, ts Keywords
 
 They help identify date, time, and timestamp literals. As you know, no two DBMSs represent time and date the same way. This escape syntax tells the driver to render the date or time in the target database's format. For Example −
 
@@ -156,60 +160,71 @@ stmt.executeUpdate(sql);
 
 Similarly, you can use one of the following two syntaxes, either **t** or **ts** −
 
+```sql
 {t 'hh:mm:ss'}
+```
 
 Where hh = hour; mm = minute; ss = second. Using this syntax {t '13:30:29'} is 1:30:29 PM.
 
+```sql
 {ts 'yyyy-mm-dd hh:mm:ss'}
+```
 
 This is combined syntax of the above two syntax for 'd' and 't' to represent timestamp.
 
-## **escape Keyword**
+## escape Keyword
 
 This keyword identifies the escape character used in LIKE clauses. Useful when using the SQL wildcard %, which matches zero or more characters. For example −
 
+```sql
 String sql = "SELECT symbol FROM MathSymbols
-
-WHERE symbol LIKE '\\%' {escape '\\'}";
-
+WHERE symbol LIKE '\%' {escape '\'}";
 stmt.execute(sql);
+```
 
 If you use the backslash character (\\) as the escape character, you also have to use two backslash characters in your Java String literal, because the backslash is also a Java escape character.
 
-## **fn Keyword**
+## fn Keyword
 
 This keyword represents scalar functions used in a DBMS. For example, you can use SQL function *length* to get the length of a string −
 
+```sql
 {fn length('Hello World')}
+```
 
 This returns 11, the length of the character string 'Hello World'.
 
-## **call Keyword**
+## call Keyword
 
 This keyword is used to call the stored procedures. For example, for a stored procedure requiring an IN parameter, use the following syntax −
 
+```sql
 {call my_procedure(?)};
+```
 
 For a stored procedure requiring an IN parameter and returning an OUT parameter, use the following syntax −
 
+```sql
 {? = call my_procedure(?)};
+```
 
-## **oj Keyword**
+## oj Keyword
 
 This keyword is used to signify outer joins. The syntax is as follows −
 
+```sql
 {oj outer-join}
+```
 
 Where outer-join = table {LEFT\|RIGHT\|FULL} OUTERJOIN {table \| outer-join} on search-condition. For example −
 
+```sql
 String sql = "SELECT Employees
-
 FROM {oj ThisTable RIGHT
-
 OUTER JOIN ThatTable on id = '100'}";
-
 stmt.execute(sql);
+```
 
-References
+# References
 
-https://www.tutorialspoint.com/jdbc/jdbc-stored-procedure.htm
+1.  https://www.tutorialspoint.com/jdbc/jdbc-stored-procedure.htm
