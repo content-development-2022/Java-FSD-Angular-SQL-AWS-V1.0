@@ -86,7 +86,7 @@ public class JDBCExample {
 }
 ```
 
--   Now, let us compile the above example as follows −
+-   Now, let us compile the above example as follows:
 
 ```
 C:\>javac JDBCExample.java
