@@ -16,14 +16,14 @@ Let’s call the team members (presenters) as Member1, Member2, Member3 and let 
 -   Member2 – Responsible to create a checklist to make sure everything is in place before the presentation starts.
 -   Member3 – Responsible to create the agenda for the presentation.
 
-    Note – Please work with .txt files here.
+    **Note** – Please work with .txt files here.
 
 ## How to execute:
 
-1.  First, Member1 should create an organization called git-exercises in his/her GitHub account.
-2.  Next, Member1 should create a remote repository (can be private or public) called practice-git-with-files in the organization git-exercises.
+1.  First, Member1 should create an organization called **git-exercises** in his/her GitHub account.
+2.  Next, Member1 should create a remote repository (can be private or public) called **practice-git-with-files** in the organization **git-exercises**.
 
-    Note: Do not forget to add a README.md file to the repository and fill it with what/why this repository was created.
+    **Note:** Do not forget to add a README.md file to the repository and fill it with what/why this repository was created.
 
 3.  Member1 should now add Member2 and Member3 as members to this repository practice-git-with-files. By doing so Member1 and Member2 will be able to contribute files to the repository created in this organization. And Member1 by default will be able to contribute to the repository as he/she will be the owner.
 4.  Now Member1 should share the repository link with Member2 and Member3.

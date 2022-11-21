@@ -46,7 +46,8 @@
 
 -   A repository, or Git project, encompasses the entire collection of files and folders associated with a project, along with each file's revision history.
 -   The file history appears as snapshots in time called commits.
--   The commits can be organized into multiple lines of development called branches. Because Git is a DVCS, repositories are self-contained units and anyone who has a copy of the repository can access the entire codebase and its history.
+-   The commits can be organized into multiple lines of development called branches.
+-   Because Git is a DVCS, repositories are self-contained units and anyone who has a copy of the repository can access the entire codebase and its history.
 -   Using the command line or other ease-of-use interfaces, a Git repository also allows for: interaction with the history, cloning the repository, creating branches, committing, merging, comparing changes across versions of code, and more.
 -   Platforms like GitHub, Git also provides more opportunities for project transparency and collaboration.
 
@@ -105,7 +106,8 @@
 
 ## 6.Basic Git commands
 
--   To use Git, developers use specific commands to copy, create, change, and combine code. These commands can be executed directly from the command line or by using an application like GitHub Desktop. Here are some common commands for using Git:
+-   To use Git, developers use specific commands to copy, create, change, and combine code.
+-   These commands can be executed directly from the command line or by using an application like GitHub Desktop. Here are some common commands for using Git:
 
 **1.git init**
 

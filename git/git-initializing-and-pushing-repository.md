@@ -1,3 +1,5 @@
+## 
+
 ## Git Initializing and Pushing Files Into Remote Repository
 
 ## Contents
@@ -56,9 +58,9 @@
 
 -   Configure local git with user name and email so we will know who pushed the code to github
 
-**Syntax:** git config –global user.name “[name]”
+**Syntax:** git config --global user.name “[name]”
 
-git config –global user.email “[email address]”
+git config --global user.email “[email address]”
 
 **Output:**
 
@@ -289,10 +291,8 @@ Follow the steps given below to initialize your remote repository with Github.
 
 **References:**
 
-[**https://phoenixnap.com/kb/what-is-git-bash**](https://phoenixnap.com/kb/what-is-git-bash)
-
-**https://dev.classmethod.jp/articles/git-bash-commands/**
-
-**https://www.geeksforgeeks.org/working-on-git-bash/**
+1.  **https://phoenixnap.com/kb/what-is-git-bash**
+2.  **https://dev.classmethod.jp/articles/git-bash-commands/**
+3.  **https://www.geeksforgeeks.org/working-on-git-bash/**
 
 ## 
