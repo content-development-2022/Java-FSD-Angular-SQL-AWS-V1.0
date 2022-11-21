@@ -44,8 +44,7 @@
 //Create a Statement object
 stmt = conn.createStatement();
 //Insert data ==> ID, First Name, Last Name, DOB
-String sql="INSERT INTO STUDENTS VALUES" +
-"(100,'Zara','Ali', {d '2001-12-16'})";
+String sql="INSERT INTO STUDENTS VALUES" +"(100,'Zara','Ali', {d '2001-12-16'})";
 stmt.executeUpdate(sql);
 ```
 
