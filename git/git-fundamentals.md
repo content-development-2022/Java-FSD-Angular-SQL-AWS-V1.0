@@ -177,5 +177,5 @@
 
 1.  https://docs.github.com/en/get-started
 2.  https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-3.  <https://www.geeksforgeeks.org/using-git-on-commandline/?ref=lbp>
+3.  https://www.geeksforgeeks.org/using-git-on-commandline/?ref=lbp
 4.  https://dev.to/mollynem/git-github--workflow-fundamentals-5496

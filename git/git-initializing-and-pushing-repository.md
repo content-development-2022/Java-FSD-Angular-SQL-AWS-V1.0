@@ -1,5 +1,3 @@
-## 
-
 ## Git Initializing and Pushing Files Into Remote Repository
 
 ## Contents
