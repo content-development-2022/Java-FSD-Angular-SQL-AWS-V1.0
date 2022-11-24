@@ -428,7 +428,7 @@ public class Main {
 **Output:**
 
 ```
-We are the so-called \"Vikings\" from the north.
+We are the so-called "Vikings" from the north.
 ```
 
 **2) The sequence \\' inserts a single quote in a string.**
@@ -447,7 +447,7 @@ public class Main {
 **Output:**
 
 ```
-It\'s alright.
+It's alright.
 ```
 
 **3) The sequence \\\\ inserts a single backslash in a string.**
