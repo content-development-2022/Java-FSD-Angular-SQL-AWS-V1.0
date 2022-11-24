@@ -457,7 +457,7 @@ It's alright.
 ```java
 public class Main {
   public static void main(String[] args) {
-    String txt = "The character \\ is called backslash.";
+    String txt = "The character \ is called backslash.";
     System.out.println(txt);
   }
 }
@@ -466,7 +466,7 @@ public class Main {
 **Output:**
 
 ```
-The character \\ is called backslash.
+The character \ is called backslash.
 ```
 
 **Other common escape sequences that are valid in Java are:**
